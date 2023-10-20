@@ -1,0 +1,1154 @@
+[
+    {
+        "id": 1,
+        "name": "Electronics",
+        "emoji": "📱",
+        "parent": 0
+    },
+    {
+        "id": 2,
+        "name": "Smartphones & Accessories",
+        "emoji": "📱",
+        "parent": 1
+    },
+    {
+        "id": 3,
+        "name": "Smartphones",
+        "emoji": "📱",
+        "parent": 2
+    },
+    {
+        "id": 4,
+        "name": "Phone Cases & Covers",
+        "emoji": "📱",
+        "parent": 2
+    },
+    {
+        "id": 5,
+        "name": "Screen Protectors",
+        "emoji": "📱",
+        "parent": 2
+    },
+    {
+        "id": 6,
+        "name": "Chargers & Cables",
+        "emoji": "📱",
+        "parent": 2
+    },
+    {
+        "id": 7,
+        "name": "Headphones & Earbuds",
+        "emoji": "🎧",
+        "parent": 2
+    },
+    {
+        "id": 8,
+        "name": "Computers & Accessories",
+        "emoji": "💻",
+        "parent": 1
+    },
+    {
+        "id": 9,
+        "name": "Laptops",
+        "emoji": "💻",
+        "parent": 8
+    },
+    {
+        "id": 10,
+        "name": "Desktops",
+        "emoji": "💻",
+        "parent": 8
+    },
+    {
+        "id": 11,
+        "name": "Monitors",
+        "emoji": "💻",
+        "parent": 8
+    },
+    {
+        "id": 12,
+        "name": "Keyboards & Mice",
+        "emoji": "💻",
+        "parent": 8
+    },
+    {
+        "id": 13,
+        "name": "Printers & Scanners",
+        "emoji": "💻",
+        "parent": 8
+    },
+    {
+        "id": 14,
+        "name": "Audio & Video",
+        "emoji": "🎧",
+        "parent": 1
+    },
+    {
+        "id": 15,
+        "name": "Televisions",
+        "emoji": "🎧",
+        "parent": 14
+    },
+    {
+        "id": 16,
+        "name": "Home Audio Systems",
+        "emoji": "🎧",
+        "parent": 14
+    },
+    {
+        "id": 17,
+        "name": "Headphones & Earphones",
+        "emoji": "🎧",
+        "parent": 14
+    },
+    {
+        "id": 18,
+        "name": "Projectors",
+        "emoji": "🎧",
+        "parent": 14
+    },
+    {
+        "id": 19,
+        "name": "Cameras & Camcorders",
+        "emoji": "🎧",
+        "parent": 14
+    },
+    {
+        "id": 20,
+        "name": "Fashion",
+        "emoji": "👗",
+        "parent": 0
+    },
+    {
+        "id": 21,
+        "name": "Men's Clothing",
+        "emoji": "👔",
+        "parent": 20
+    },
+    {
+        "id": 22,
+        "name": "Shirts",
+        "emoji": "👔",
+        "parent": 21
+    },
+    {
+        "id": 23,
+        "name": "Pants",
+        "emoji": "👔",
+        "parent": 21
+    },
+    {
+        "id": 24,
+        "name": "Jackets & Coats",
+        "emoji": "👔",
+        "parent": 21
+    },
+    {
+        "id": 25,
+        "name": "Suits & Blazers",
+        "emoji": "👔",
+        "parent": 21
+    },
+    {
+        "id": 26,
+        "name": "Shoes",
+        "emoji": "👔",
+        "parent": 21
+    },
+    {
+        "id": 27,
+        "name": "Women's Clothing",
+        "emoji": "👗",
+        "parent": 20
+    },
+    {
+        "id": 28,
+        "name": "Dresses",
+        "emoji": "👗",
+        "parent": 27
+    },
+    {
+        "id": 29,
+        "name": "Tops",
+        "emoji": "👗",
+        "parent": 27
+    },
+    {
+        "id": 30,
+        "name": "Bottoms",
+        "emoji": "👗",
+        "parent": 27
+    },
+    {
+        "id": 31,
+        "name": "Outerwear",
+        "emoji": "👗",
+        "parent": 27
+    },
+    {
+        "id": 32,
+        "name": "Footwear",
+        "emoji": "👗",
+        "parent": 27
+    },
+    {
+        "id": 33,
+        "name": "Accessories",
+        "emoji": "👜",
+        "parent": 20
+    },
+    {
+        "id": 34,
+        "name": "Handbags & Purses",
+        "emoji": "👜",
+        "parent": 33
+    },
+    {
+        "id": 35,
+        "name": "Watches",
+        "emoji": "👜",
+        "parent": 33
+    },
+    {
+        "id": 36,
+        "name": "Jewelry",
+        "emoji": "👜",
+        "parent": 33
+    },
+    {
+        "id": 37,
+        "name": "Sunglasses",
+        "emoji": "👜",
+        "parent": 33
+    },
+    {
+        "id": 38,
+        "name": "Hats & Caps",
+        "emoji": "👜",
+        "parent": 33
+    },
+    {
+        "id": 39,
+        "name": "Home & Garden",
+        "emoji": "🏡",
+        "parent": 0
+    },
+    {
+        "id": 40,
+        "name": "Furniture",
+        "emoji": "🪑",
+        "parent": 39
+    },
+    {
+        "id": 41,
+        "name": "Living Room",
+        "emoji": "🪑",
+        "parent": 40
+    },
+    {
+        "id": 42,
+        "name": "Bedroom",
+        "emoji": "🪑",
+        "parent": 40
+    },
+    {
+        "id": 43,
+        "name": "Dining Room",
+        "emoji": "🪑",
+        "parent": 40
+    },
+    {
+        "id": 44,
+        "name": "Outdoor",
+        "emoji": "🪑",
+        "parent": 40
+    },
+    {
+        "id": 45,
+        "name": "Appliances",
+        "emoji": "🧺",
+        "parent": 39
+    },
+    {
+        "id": 46,
+        "name": "Kitchen Appliances",
+        "emoji": "🧺",
+        "parent": 45
+    },
+    {
+        "id": 47,
+        "name": "Laundry Appliances",
+        "emoji": "🧺",
+        "parent": 45
+    },
+    {
+        "id": 48,
+        "name": "Heating & Cooling",
+        "emoji": "🧺",
+        "parent": 45
+    },
+    {
+        "id": 49,
+        "name": "Vacuum Cleaners",
+        "emoji": "🧺",
+        "parent": 45
+    },
+    {
+        "id": 50,
+        "name": "Home Security",
+        "emoji": "🧺",
+        "parent": 45
+    },
+    {
+        "id": 51,
+        "name": "Décor & Lighting",
+        "emoji": "💡",
+        "parent": 39
+    },
+    {
+        "id": 52,
+        "name": "Home Décor",
+        "emoji": "💡",
+        "parent": 51
+    },
+    {
+        "id": 53,
+        "name": "Lighting Fixtures",
+        "emoji": "💡",
+        "parent": 51
+    },
+    {
+        "id": 54,
+        "name": "Wall Art",
+        "emoji": "💡",
+        "parent": 51
+    },
+    {
+        "id": 55,
+        "name": "Rugs & Carpets",
+        "emoji": "💡",
+        "parent": 51
+    },
+    {
+        "id": 56,
+        "name": "Curtains & Blinds",
+        "emoji": "💡",
+        "parent": 51
+    },
+    {
+        "id": 57,
+        "name": "Toys & Games",
+        "emoji": "🎮",
+        "parent": 0
+    },
+    {
+        "id": 58,
+        "name": "Toys for Kids",
+        "emoji": "🧸",
+        "parent": 57
+    },
+    {
+        "id": 59,
+        "name": "Action Figures",
+        "emoji": "🧸",
+        "parent": 58
+    },
+    {
+        "id": 60,
+        "name": "Dolls & Dollhouses",
+        "emoji": "🧸",
+        "parent": 58
+    },
+    {
+        "id": 61,
+        "name": "Educational Toys",
+        "emoji": "🧸",
+        "parent": 58
+    },
+    {
+        "id": 62,
+        "name": "Board Games",
+        "emoji": "🧸",
+        "parent": 58
+    },
+    {
+        "id": 63,
+        "name": "Outdoor Play",
+        "emoji": "🧸",
+        "parent": 58
+    },
+    {
+        "id": 64,
+        "name": "Hobbies & Collectibles",
+        "emoji": "🧩",
+        "parent": 57
+    },
+    {
+        "id": 65,
+        "name": "Model Kits",
+        "emoji": "🧩",
+        "parent": 64
+    },
+    {
+        "id": 66,
+        "name": "RC Vehicles",
+        "emoji": "🧩",
+        "parent": 64
+    },
+    {
+        "id": 67,
+        "name": "Collectible Cards",
+        "emoji": "🧩",
+        "parent": 64
+    },
+    {
+        "id": 68,
+        "name": "Jigsaw Puzzles",
+        "emoji": "🧩",
+        "parent": 64
+    },
+    {
+        "id": 69,
+        "name": "Arts & Crafts",
+        "emoji": "🧩",
+        "parent": 64
+    },
+    {
+        "id": 70,
+        "name": "Health & Beauty",
+        "emoji": "💄",
+        "parent": 0
+    },
+    {
+        "id": 71,
+        "name": "Skincare",
+        "emoji": "🧴",
+        "parent": 70
+    },
+    {
+        "id": 72,
+        "name": "Cleansers & Toners",
+        "emoji": "🧴",
+        "parent": 71
+    },
+    {
+        "id": 73,
+        "name": "Moisturizers",
+        "emoji": "🧴",
+        "parent": 71
+    },
+    {
+        "id": 74,
+        "name": "Serums & Treatments",
+        "emoji": "🧴",
+        "parent": 71
+    },
+    {
+        "id": 75,
+        "name": "Sunscreen",
+        "emoji": "🧴",
+        "parent": 71
+    },
+    {
+        "id": 76,
+        "name": "Acne Care",
+        "emoji": "🧴",
+        "parent": 71
+    },
+    {
+        "id": 77,
+        "name": "Makeup",
+        "emoji": "💅",
+        "parent": 70
+    },
+    {
+        "id": 78,
+        "name": "Face Makeup",
+        "emoji": "💅",
+        "parent": 77
+    },
+    {
+        "id": 79,
+        "name": "Eye Makeup",
+        "emoji": "💅",
+        "parent": 77
+    },
+    {
+        "id": 80,
+        "name": "Lip Makeup",
+        "emoji": "💅",
+        "parent": 77
+    },
+    {
+        "id": 81,
+        "name": "Makeup Tools & Brushes",
+        "emoji": "💅",
+        "parent": 77
+    },
+    {
+        "id": 82,
+        "name": "Personal Care",
+        "emoji": "🚿",
+        "parent": 70
+    },
+    {
+        "id": 83,
+        "name": "Hair Care",
+        "emoji": "🚿",
+        "parent": 82
+    },
+    {
+        "id": 84,
+        "name": "Bath & Body",
+        "emoji": "🚿",
+        "parent": 82
+    },
+    {
+        "id": 85,
+        "name": "Oral Care",
+        "emoji": "🚿",
+        "parent": 82
+    },
+    {
+        "id": 86,
+        "name": "Shaving & Grooming",
+        "emoji": "🚿",
+        "parent": 82
+    },
+    {
+        "id": 87,
+        "name": "Fragrances",
+        "emoji": "🚿",
+        "parent": 82
+    },
+    {
+        "id": 88,
+        "name": "Sports & Outdoors",
+        "emoji": "🏋️",
+        "parent": 0
+    },
+    {
+        "id": 89,
+        "name": "Sports Equipment",
+        "emoji": "⚽",
+        "parent": 88
+    },
+    {
+        "id": 90,
+        "name": "Exercise & Fitness",
+        "emoji": "⚽",
+        "parent": 89
+    },
+    {
+        "id": 91,
+        "name": "Team Sports",
+        "emoji": "⚽",
+        "parent": 89
+    },
+    {
+        "id": 92,
+        "name": "Outdoor Recreation",
+        "emoji": "⚽",
+        "parent": 89
+    },
+    {
+        "id": 93,
+        "name": "Biking",
+        "emoji": "⚽",
+        "parent": 89
+    },
+    {
+        "id": 94,
+        "name": "Camping & Hiking",
+        "emoji": "⚽",
+        "parent": 89
+    },
+    {
+        "id": 95,
+        "name": "Athletic Apparel",
+        "emoji": "🏃",
+        "parent": 88
+    },
+    {
+        "id": 96,
+        "name": "Activewear",
+        "emoji": "🏃",
+        "parent": 95
+    },
+    {
+        "id": 97,
+        "name": "Athletic Shoes",
+        "emoji": "🏃",
+        "parent": 95
+    },
+    {
+        "id": 98,
+        "name": "Sports Accessories",
+        "emoji": "🏃",
+        "parent": 95
+    },
+    {
+        "id": 99,
+        "name": "Sports Bags",
+        "emoji": "🏃",
+        "parent": 95
+    },
+    {
+        "id": 100,
+        "name": "Sports Supplements",
+        "emoji": "🏃",
+        "parent": 95
+    },
+    {
+        "id": 101,
+        "name": "Automotive",
+        "emoji": "🚗",
+        "parent": 0
+    },
+    {
+        "id": 102,
+        "name": "Auto Parts & Accessories",
+        "emoji": "🔧",
+        "parent": 101
+    },
+    {
+        "id": 103,
+        "name": "Tires & Wheels",
+        "emoji": "🔧",
+        "parent": 102
+    },
+    {
+        "id": 104,
+        "name": "Car Audio & Electronics",
+        "emoji": "🔧",
+        "parent": 102
+    },
+    {
+        "id": 105,
+        "name": "Exterior Accessories",
+        "emoji": "🔧",
+        "parent": 102
+    },
+    {
+        "id": 106,
+        "name": "Interior Accessories",
+        "emoji": "🔧",
+        "parent": 102
+    },
+    {
+        "id": 107,
+        "name": "Tools & Equipment",
+        "emoji": "🔧",
+        "parent": 102
+    },
+    {
+        "id": 108,
+        "name": "Car Care",
+        "emoji": "🔧",
+        "parent": 102
+    },
+    {
+        "id": 109,
+        "name": "Cleaning & Detailing",
+        "emoji": "🔧",
+        "parent": 102
+    },
+    {
+        "id": 110,
+        "name": "Oils & Fluids",
+        "emoji": "🔧",
+        "parent": 102
+    },
+    {
+        "id": 111,
+        "name": "Car Maintenance",
+        "emoji": "🔧",
+        "parent": 102
+    },
+    {
+        "id": 112,
+        "name": "Automotive Electronics",
+        "emoji": "🔧",
+        "parent": 102
+    },
+    {
+        "id": 113,
+        "name": "Car Safety & Security",
+        "emoji": "🔧",
+        "parent": 102
+    },
+    {
+        "id": 114,
+        "name": "Books, Movies & Music",
+        "emoji": "📚",
+        "parent": 0
+    },
+    {
+        "id": 115,
+        "name": "Books",
+        "emoji": "📖",
+        "parent": 114
+    },
+    {
+        "id": 116,
+        "name": "Fiction",
+        "emoji": "📖",
+        "parent": 115
+    },
+    {
+        "id": 117,
+        "name": "Non-Fiction",
+        "emoji": "📖",
+        "parent": 115
+    },
+    {
+        "id": 118,
+        "name": "Mystery & Thriller",
+        "emoji": "📖",
+        "parent": 115
+    },
+    {
+        "id": 119,
+        "name": "Science Fiction",
+        "emoji": "📖",
+        "parent": 115
+    },
+    {
+        "id": 120,
+        "name": "Biography",
+        "emoji": "📖",
+        "parent": 115
+    },
+    {
+        "id": 121,
+        "name": "Movies & TV Shows",
+        "emoji": "🎥",
+        "parent": 114
+    },
+    {
+        "id": 122,
+        "name": "Blu-ray",
+        "emoji": "🎥",
+        "parent": 121
+    },
+    {
+        "id": 123,
+        "name": "DVD",
+        "emoji": "🎥",
+        "parent": 121
+    },
+    {
+        "id": 124,
+        "name": "Streaming",
+        "emoji": "🎥",
+        "parent": 121
+    },
+    {
+        "id": 125,
+        "name": "TV Series",
+        "emoji": "🎥",
+        "parent": 121
+    },
+    {
+        "id": 126,
+        "name": "Documentaries",
+        "emoji": "🎥",
+        "parent": 121
+    },
+    {
+        "id": 127,
+        "name": "Music",
+        "emoji": "🎵",
+        "parent": 114
+    },
+    {
+        "id": 128,
+        "name": "CDs & Vinyl",
+        "emoji": "🎵",
+        "parent": 127
+    },
+    {
+        "id": 129,
+        "name": "Digital Downloads",
+        "emoji": "🎵",
+        "parent": 127
+    },
+    {
+        "id": 130,
+        "name": "Music Instruments",
+        "emoji": "🎵",
+        "parent": 127
+    },
+    {
+        "id": 131,
+        "name": "Concert Tickets",
+        "emoji": "🎵",
+        "parent": 127
+    },
+    {
+        "id": 132,
+        "name": "Music Accessories",
+        "emoji": "🎵",
+        "parent": 127
+    },
+    {
+        "id": 133,
+        "name": "Food & Beverages",
+        "emoji": "🍽️",
+        "parent": 0
+    },
+    {
+        "id": 134,
+        "name": "Groceries",
+        "emoji": "🛒",
+        "parent": 133
+    },
+    {
+        "id": 135,
+        "name": "Fresh Produce",
+        "emoji": "🛒",
+        "parent": 134
+    },
+    {
+        "id": 136,
+        "name": "Pantry Staples",
+        "emoji": "🛒",
+        "parent": 134
+    },
+    {
+        "id": 137,
+        "name": "Snacks & Candy",
+        "emoji": "🛒",
+        "parent": 134
+    },
+    {
+        "id": 138,
+        "name": "Beverages",
+        "emoji": "🛒",
+        "parent": 134
+    },
+    {
+        "id": 139,
+        "name": "Gourmet Foods",
+        "emoji": "🛒",
+        "parent": 134
+    },
+    {
+        "id": 140,
+        "name": "Alcohol",
+        "emoji": "🍷",
+        "parent": 133
+    },
+    {
+        "id": 141,
+        "name": "Wine",
+        "emoji": "🍷",
+        "parent": 140
+    },
+    {
+        "id": 142,
+        "name": "Beer",
+        "emoji": "🍷",
+        "parent": 140
+    },
+    {
+        "id": 143,
+        "name": "Spirits",
+        "emoji": "🍷",
+        "parent": 140
+    },
+    {
+        "id": 144,
+        "name": "Mixers & Cocktails",
+        "emoji": "🍷",
+        "parent": 140
+    },
+    {
+        "id": 145,
+        "name": "Champagne & Sparkling Wine",
+        "emoji": "🍷",
+        "parent": 140
+    },
+    {
+        "id": 146,
+        "name": "Pets",
+        "emoji": "🐾",
+        "parent": 0
+    },
+    {
+        "id": 147,
+        "name": "Pet Food",
+        "emoji": "🐶",
+        "parent": 146
+    },
+    {
+        "id": 148,
+        "name": "Pet Supplies",
+        "emoji": "🐶",
+        "parent": 146
+    },
+    {
+        "id": 149,
+        "name": "Dog Supplies",
+        "emoji": "🐶",
+        "parent": 148
+    },
+    {
+        "id": 150,
+        "name": "Cat Supplies",
+        "emoji": "🐶",
+        "parent": 148
+    },
+    {
+        "id": 151,
+        "name": "Small Animal Supplies",
+        "emoji": "🐶",
+        "parent": 148
+    },
+    {
+        "id": 152,
+        "name": "Bird Supplies",
+        "emoji": "🐶",
+        "parent": 148
+    },
+    {
+        "id": 153,
+        "name": "Reptile & Amphibian Supplies",
+        "emoji": "🐶",
+        "parent": 148
+    },
+    {
+        "id": 154,
+        "name": "Pet Care & Grooming",
+        "emoji": "🐶",
+        "parent": 148
+    },
+    {
+        "id": 155,
+        "name": "Pet Toys & Accessories",
+        "emoji": "🐶",
+        "parent": 148
+    },
+    {
+        "id": 156,
+        "name": "Office & School Supplies",
+        "emoji": "📚",
+        "parent": 0
+    },
+    {
+        "id": 157,
+        "name": "Office Furniture",
+        "emoji": "📚",
+        "parent": 156
+    },
+    {
+        "id": 158,
+        "name": "Writing Instruments",
+        "emoji": "📚",
+        "parent": 156
+    },
+    {
+        "id": 159,
+        "name": "Paper & Notebooks",
+        "emoji": "📚",
+        "parent": 156
+    },
+    {
+        "id": 160,
+        "name": "Office Electronics",
+        "emoji": "📚",
+        "parent": 156
+    },
+    {
+        "id": 161,
+        "name": "School Supplies",
+        "emoji": "📚",
+        "parent": 156
+    },
+    {
+        "id": 162,
+        "name": "Desk Accessories",
+        "emoji": "📚",
+        "parent": 156
+    },
+    {
+        "id": 163,
+        "name": "Jewelry & Watches",
+        "emoji": "💍",
+        "parent": 0
+    },
+    {
+        "id": 164,
+        "name": "Fine Jewelry",
+        "emoji": "💍",
+        "parent": 163
+    },
+    {
+        "id": 165,
+        "name": "Rings",
+        "emoji": "💍",
+        "parent": 164
+    },
+    {
+        "id": 166,
+        "name": "Necklaces",
+        "emoji": "💍",
+        "parent": 164
+    },
+    {
+        "id": 167,
+        "name": "Earrings",
+        "emoji": "💍",
+        "parent": 164
+    },
+    {
+        "id": 168,
+        "name": "Bracelets",
+        "emoji": "💍",
+        "parent": 164
+    },
+    {
+        "id": 169,
+        "name": "Watches",
+        "emoji": "💍",
+        "parent": 164
+    },
+    {
+        "id": 170,
+        "name": "Fashion Jewelry",
+        "emoji": "💍",
+        "parent": 163
+    },
+    {
+        "id": 171,
+        "name": "Costume Jewelry",
+        "emoji": "💍",
+        "parent": 170
+    },
+    {
+        "id": 172,
+        "name": "Statement Necklaces",
+        "emoji": "💍",
+        "parent": 170
+    },
+    {
+        "id": 173,
+        "name": "Fashion Watches",
+        "emoji": "💍",
+        "parent": 170
+    },
+    {
+        "id": 174,
+        "name": "Jewelry Storage",
+        "emoji": "💍",
+        "parent": 170
+    },
+    {
+        "id": 175,
+        "name": "Travel & Luggage",
+        "emoji": "✈️",
+        "parent": 0
+    },
+    {
+        "id": 176,
+        "name": "Luggage & Suitcases",
+        "emoji": "✈️",
+        "parent": 175
+    },
+    {
+        "id": 177,
+        "name": "Travel Accessories",
+        "emoji": "✈️",
+        "parent": 175
+    },
+    {
+        "id": 178,
+        "name": "Backpacks & Bags",
+        "emoji": "✈️",
+        "parent": 175
+    },
+    {
+        "id": 179,
+        "name": "Travel Clothing",
+        "emoji": "✈️",
+        "parent": 175
+    },
+    {
+        "id": 180,
+        "name": "Travel Electronics",
+        "emoji": "✈️",
+        "parent": 175
+    },
+    {
+        "id": 181,
+        "name": "Baby & Kids",
+        "emoji": "👶",
+        "parent": 0
+    },
+    {
+        "id": 182,
+        "name": "Baby Gear",
+        "emoji": "👶",
+        "parent": 181
+    },
+    {
+        "id": 183,
+        "name": "Baby Clothing",
+        "emoji": "👶",
+        "parent": 181
+    },
+    {
+        "id": 184,
+        "name": "Diapers & Potty Training",
+        "emoji": "👶",
+        "parent": 181
+    },
+    {
+        "id": 185,
+        "name": "Toys & Games",
+        "emoji": "👶",
+        "parent": 181
+    },
+    {
+        "id": 186,
+        "name": "Nursery & Décor",
+        "emoji": "👶",
+        "parent": 181
+    },
+    {
+        "id": 187,
+        "name": "Specialty Stores",
+        "emoji": "🛍️",
+        "parent": 0
+    },
+    {
+        "id": 188,
+        "name": "Ethnic & Cultural",
+        "emoji": "🛍️",
+        "parent": 187
+    },
+    {
+        "id": 189,
+        "name": "Handmade & Artisanal",
+        "emoji": "🛍️",
+        "parent": 187
+    },
+    {
+        "id": 190,
+        "name": "Eco-Friendly & Sustainable",
+        "emoji": "🛍️",
+        "parent": 187
+    },
+    {
+        "id": 191,
+        "name": "Luxury & High-End",
+        "emoji": "🛍️",
+        "parent": 187
+    },
+    {
+        "id": 192,
+        "name": "Vintage & Collectibles",
+        "emoji": "🛍️",
+        "parent": 187
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Apple iPhone 13",
+        "price": "999.99",
+        "category": 3,
+        "sold": false
+    },
+    {
+        "name": "Samsung Galaxy S21",
+        "price": "799.99",
+        "category": 3,
+        "sold": false
+    },
+    {
+        "name": "Google Pixel 6",
+        "price": "749.99",
+        "category": 3,
+        "sold": false
+    },
+    {
+        "name": "iPhone 13 Pro Max Case",
+        "price": "29.99",
+        "category": 4,
+        "sold": false
+    },
+    {
+        "name": "Samsung Galaxy S21 Case",
+        "price": "24.99",
+        "category": 4,
+        "sold": false
+    },
+    {
+        "name": "HP Pavilion Laptop",
+        "price": "899.99",
+        "category": 9,
+        "sold": false
+    },
+    {
+        "name": "Dell XPS Desktop",
+        "price": "1199.99",
+        "category": 10,
+        "sold": false
+    },
+    {
+        "name": "LG 27-inch 4K Monitor",
+        "price": "399.99",
+        "category": 11,
+        "sold": false
+    },
+    {
+        "name": "Nike Dri-FIT T-Shirt",
+        "price": "29.99",
+        "category": 22,
+        "sold": false
+    },
+    {
+        "name": "Adidas Classic Joggers",
+        "price": "39.99",
+        "category": 23,
+        "sold": false
+    }
+]
