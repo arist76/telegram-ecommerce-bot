@@ -31,7 +31,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
             last_name = updater_user.last_name,
             username = updater_user.username,
         )
-        user.save()
+        user.create()
 
         await context.bot.send_message(
             update.effective_chat.id, text="Welcome, this is how to use the bot..."

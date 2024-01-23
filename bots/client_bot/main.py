@@ -34,7 +34,9 @@ def start_app():
 if __name__ == "__main__":
     start_app()
 
-# Semantic search functionalityv
+# add a recommendation system
+
+# Semantic search functionality
 #### [DONE] display a search button on the homepage
 #### [DONE] when clicked it will accept a text
 #### send the query to a vector database

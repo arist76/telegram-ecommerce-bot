@@ -9,7 +9,7 @@ urlpatterns = [
     path("user/", views.UserListView.as_view(), name="user-list"),
     path("user/<int:pk>/", views.UserDetailView.as_view(), name="user-detail"),
     path("notification/", views.NotificationListView.as_view(), name="notification-list"),
-    path("notification/<int:pk>/", views.NotificationListView.as_view(), name="notification-detail"),
+    path("notification/<int:pk>/", views.NotificationDetailView.as_view(), name="notification-detail"),
     path("click/", views.ClickListView.as_view(), name= "click-list"),
     path("click/<int:pk>/", views.ClickDetailView.as_view(), name = "click-detail")
 ]

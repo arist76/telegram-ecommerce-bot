@@ -28,19 +28,14 @@ class Product(models.Model):
     detailed_description = models.JSONField(null=True)
     posted = models.DateTimeField(null=True)
     last_modified = models.DateTimeField(null=True)
-    # seller
-
-    @classmethod
-    def paginate_by_category(cls, category_id: int, page_no: int = 1):
-        category = Category.objects.get()
-        products = cls.objects.filter(category=category_id)
-        paginated_product = Paginator(products, settings.ITEMS_PER_PAGE)
-
-        return paginated_product.page(page_no)
+    seller_chat = models.CharField(max_length=100, null=True)
+    seller_details = models.TextField(null=True)
 
     def __str__(self) -> str:
         return f"{self.name}"
 
+    # NOTICE : if you override save() it will cause problems in signals
+    # def save(self)
 
 class User(models.Model):
     id = models.BigIntegerField(primary_key=True)

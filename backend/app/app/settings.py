@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     # installed apps
     "rest_framework",
+    "drf_yasg",  # ui docs
+    
     # local apps
     "ecommerce_client",
 ]
