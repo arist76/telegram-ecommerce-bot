@@ -7,7 +7,7 @@ from ecommerce_client.chroma_client import Chromaclient
 from datetime import datetime
 import sys
 
-chroma_client = Chromaclient()
+# chroma_client = Chromaclient()
 
 class CategoryList(generics.ListAPIView):
     queryset = models.Category.objects.all()
@@ -67,8 +67,8 @@ class ProductListView(generics.ListCreateAPIView):
             if to_date:
                 to_date = datetime.fromisoformat(to_date)
                 queryset = queryset.filter(posted__lte=to_date)
-        else:
-            return chroma_client.query(q=query, n_results=limit)
+        # else:
+        #     return chroma_client.query(q=query, n_results=limit)
   
         return queryset[offset:offset+limit]
     

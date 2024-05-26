@@ -1,28 +1,32 @@
+
+
 import json
+from ecommerce_client.models import Category  # Replace 'myapp' with the name of your Django app
+# Load the JSON data from the file
+with open('ecommerce_client/markup/categories.json', 'r') as file:
+    categories_data = json.load(file)
 
 
-def find_base_categories(categories):
-    base_categories = []
-    category_ids_with_children = set()
+# A dictionary to keep track of created categories by their id
+categories_dict = {}
+# Iterate over the JSON data and create Category objects
+for category_data in categories_data:
+    # Extract data
+    category_id = category_data['id']
+    name = category_data['name']
+    emoji = category_data['emoji']
+    parent_id = category_data['parent'] 
+    # Handle parent category
+    if parent_id == 0:
+        parent_category = None
+    else:
+        parent_category_in_json = categories_dict.get(parent_id)
+    
+    # Create and save the Category object
+    category = Category(id=category_id, name=name, emoji=emoji, parent=parent_category)
+    category.save()  
+    # Store the created category in the dictionary
+    categories_dict[category_id] = category
 
-    # Create a set of category IDs that have children
-    for category in categories:
-        category_ids_with_children.update(
-            child["parent"] for child in category["children"]
-        )
 
-    # Find categories with no children
-    for category in categories:
-        if category["id"] not in category_ids_with_children:
-            base_categories.append(category)
-
-    return base_categories
-
-
-# Usage example:
-with open("categories.json", "r") as j:
-    flat_categories = json.load(j)
-
-base_categories = find_base_categories(flat_categories)
-
-print(base_categories)
+print("Categories imported successfully!")

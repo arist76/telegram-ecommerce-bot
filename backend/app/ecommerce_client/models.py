@@ -1,13 +1,14 @@
 # from django import utils
 from django.db import models
-
 from django.core.paginator import Paginator
 from asgiref.sync import sync_to_async
 from app import settings
+import uuid
 
 
 class Category(models.Model):
-    id = models.BigIntegerField(primary_key=True)
+    uuid = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    id = models.BigIntegerField(unique=True)  # Must exist for hierachical reasons
     name = models.CharField(max_length=50)
     emoji = models.CharField(max_length=25)
     parent = models.ForeignKey("self", on_delete=models.SET_NULL, null=True, blank=True)
@@ -17,7 +18,7 @@ class Category(models.Model):
 
 
 class Product(models.Model):
-    id = models.BigIntegerField(primary_key=True)
+    uuid = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     name = models.CharField(max_length=100)
     price = models.DecimalField(max_digits=10, decimal_places=2)
     category = models.ForeignKey(
@@ -38,7 +39,7 @@ class Product(models.Model):
     # def save(self)
 
 class User(models.Model):
-    id = models.BigIntegerField(primary_key=True)
+    uuid = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     is_bot = models.BooleanField()
     first_name = models.CharField(max_length=50)
     last_name = models.CharField(max_length=50, null=True)
@@ -51,19 +52,19 @@ class User(models.Model):
 
 
 class Notification(models.Model):
-    id = models.BigIntegerField(primary_key=True)
+    uuid = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
     # seller
 
 class Saved(models.Model):
-    id = models.BigIntegerField(primary_key=True)
+    uuid = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     product = models.ForeignKey(Product, models.CASCADE)
 
 
 class Click(models.Model):
-    id = models.BigIntegerField(primary_key=True)
+    uuid = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     type = models.CharField(max_length=50)
     name = models.CharField(max_length=50)
