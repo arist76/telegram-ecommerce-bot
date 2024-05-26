@@ -4,6 +4,8 @@ from django.core.paginator import Paginator
 from asgiref.sync import sync_to_async
 from app import settings
 import uuid
+import os
+import secrets
 
 
 class Category(models.Model):
@@ -15,7 +17,6 @@ class Category(models.Model):
 
     def __str__(self) -> str:
         return f"{self.id} - {self.name}{self.emoji}"
-
 
 class Product(models.Model):
     uuid = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
@@ -29,7 +30,7 @@ class Product(models.Model):
     detailed_description = models.JSONField(null=True)
     posted = models.DateTimeField(null=True)
     last_modified = models.DateTimeField(null=True)
-    seller_chat = models.CharField(max_length=100, null=True)
+    seller_chat = models.CharField(max_length=100, null=True)  # TODO: this might need normalization 
     seller_details = models.TextField(null=True)
 
     def __str__(self) -> str:
@@ -37,6 +38,22 @@ class Product(models.Model):
 
     # NOTICE : if you override save() it will cause problems in signals
     # def save(self)
+
+
+def product_image_upload_to(instance, filename):
+    # Extract the seller's username or any unique identifier
+    seller_id = instance.product.seller_chat if instance.seller_chat else 'default'
+    _ , extension = os.path.splitext(filename)
+    new_filename =  uuid.uuid() + extension
+
+    # Create the upload path
+    return os.path.join(f'sellers/{seller_id}/products/', new_filename)
+
+class ProductImage(models.Model):
+    
+    uuid = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    image = models.ImageField(upload_to=product_image_upload_to, blank=True, null=True)
+    product = models.ForeignKey(Product, on_delete=models.CASCADE)
 
 class User(models.Model):
     uuid = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
