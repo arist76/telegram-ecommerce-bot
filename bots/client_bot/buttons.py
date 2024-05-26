@@ -20,7 +20,7 @@ def home():
 
 async def categories(parent_id: int = 0, cols: int = 2):
     pattern = "C"
-    categories = await models.Category.children(parent_id)
+    categories = models.Category.all({"parent" : parent_id})
 
     if not categories:
         return None

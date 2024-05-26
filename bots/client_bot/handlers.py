@@ -17,7 +17,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # check if the user exists
     updater_user = update.effective_user
 
-    if await models.User.exists():
+    if models.User.exists(updater_user.id):
+    # if False:
         await context.bot.send_message(
             update.effective_chat.id,
             text="Choose from the below keyboard buttons",
@@ -25,11 +26,13 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         )
     else:
         user = models.User(
-            id = updater_user.id,
-            is_bot = updater_user.is_bot,
-            first_name = updater_user.first_name,
-            last_name = updater_user.last_name,
-            username = updater_user.username,
+            data = {
+                "id" : "updater_user.id",
+                "is_bot" : "updater_user.is_bot",
+                "first_name" : "updater_user.first_name",
+                "last_name" : "updater_user.last_name",
+                "username" : "updater_user.username",
+            }
         )
         user.create()
 

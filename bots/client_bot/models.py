@@ -59,6 +59,15 @@ class ReadMixin():
             data = res.json()
         return data
 
+    @classmethod
+    def exists(cls, pk : int):
+        res = httpx.head(f"{model_backend}{cls.resource_path}{pk}/")
+        
+        if res.status_code == 200:
+            return True
+        return False
+
+
 class ListMixin():
     @classmethod
     def all(cls, *args, **kwargs):

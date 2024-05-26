@@ -2,3 +2,9 @@
 cron.log
 
 llama2/
+
+__pycache__/
+venv/
+
+db.sqlite3
+chroma.sqlite3
