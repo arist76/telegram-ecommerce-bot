@@ -4,7 +4,7 @@ from ecommerce_client import models
 class CategorySerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Category
-        fields = ['id', 'name', 'emoji', 'parent']
+        fields = ['uuid', 'name', 'emoji', 'parent']
 
 class CategoryWithChildrenSerializer(serializers.ModelSerializer):
     children = serializers.SerializerMethodField()
@@ -12,7 +12,7 @@ class CategoryWithChildrenSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = models.Category
-        fields = ['id', 'name', 'emoji', 'parent', 'children']
+        fields = ['uuid', 'name', 'emoji', 'parent', 'children']
     
     def get_children(self, obj):
         c = models.Category.objects.filter(parent=obj.id)
@@ -23,7 +23,12 @@ class ProductSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Product
         fields = '__all__'
+        read_only_fields = ["sold", "posted", "last_modified", "seller_chat", "seller_details"]
 
+class ProductImageSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = models.ProductImage
+        fields = ['image']
 
 class UserSerializer(serializers.ModelSerializer):
     class Meta:

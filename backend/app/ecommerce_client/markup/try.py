@@ -1,6 +1,6 @@
 
 
-import json
+import json, uuid
 from ecommerce_client.models import Category  # Replace 'myapp' with the name of your Django app
 # Load the JSON data from the file
 with open('ecommerce_client/markup/categories.json', 'r') as file:
@@ -20,10 +20,10 @@ for category_data in categories_data:
     if parent_id == 0:
         parent_category = None
     else:
-        parent_category_in_json = categories_dict.get(parent_id)
+        parent_category = categories_dict.get(parent_id)
     
     # Create and save the Category object
-    category = Category(id=category_id, name=name, emoji=emoji, parent=parent_category)
+    category = Category(uuid=uuid.uuid4(), name=name, emoji=emoji, parent=parent_category)
     category.save()  
     # Store the created category in the dictionary
     categories_dict[category_id] = category

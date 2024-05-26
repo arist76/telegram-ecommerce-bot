@@ -2,6 +2,7 @@ from django.shortcuts import render
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework import generics, status, viewsets
+from rest_framework.parsers import MultiPartParser, FormParser
 from ecommerce_client import models, serializers
 from ecommerce_client.chroma_client import Chromaclient
 from datetime import datetime
@@ -16,6 +17,7 @@ class CategoryList(generics.ListAPIView):
 class CategoryDetail(generics.RetrieveAPIView):
     queryset = models.Category.objects.all()
     serializer_class = serializers.CategoryWithChildrenSerializer
+    lookup_field = "uuid"
 
 class ProductListView(generics.ListCreateAPIView):
     serializer_class = serializers.ProductSerializer
@@ -76,6 +78,20 @@ class ProductDetailView(generics.RetrieveUpdateDestroyAPIView):
     # TODO - fix if id in path and payload are different
     queryset = models.Product.objects.all()
     serializer_class = serializers.ProductSerializer
+    lookup_field = "uuid"
+
+class ProductImageListCreateView(generics.ListCreateAPIView):
+    queryset = models.ProductImage.objects.all()
+    serializer_class = serializers.ProductImageSerializer
+    parser_classes = (MultiPartParser, FormParser)
+
+    def get_queryset(self):
+        return models.ProductImage.objects.filter(product_id=self.kwargs['uuid'])
+
+    def perform_create(self, serializer):
+        product_id = self.kwargs['uuid']
+        product = models.Product.objects.get(uuid=product_id)
+        serializer.save(product=product)
 
 
 class UserListView(generics.ListCreateAPIView):
@@ -86,6 +102,7 @@ class UserListView(generics.ListCreateAPIView):
 class UserDetailView(generics.RetrieveUpdateDestroyAPIView):
     queryset = models.User.objects.all()
     serializer_class = serializers.UserSerializer
+    lookup_field = "uuid"
 
 class NotificationListView(generics.ListCreateAPIView):
     queryset = models.Notification.objects.all()
@@ -94,6 +111,7 @@ class NotificationListView(generics.ListCreateAPIView):
 class NotificationDetailView(generics.RetrieveUpdateDestroyAPIView):
     queryset = models.Notification.objects.all()
     serializer_class = serializers.NotificationSerializer
+    lookup_field = "uuid"
 
 class ClickListView(generics.ListCreateAPIView):
     queryset = models.Click.objects.all()
@@ -102,3 +120,4 @@ class ClickListView(generics.ListCreateAPIView):
 class ClickDetailView(generics.RetrieveUpdateDestroyAPIView):
     queryset = models.Click.objects.all()
     serializer_class = serializers.ClickSerializer
+    lookup_field = "uuid"
