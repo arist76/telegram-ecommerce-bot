@@ -112,7 +112,7 @@ of the product and put it here. if the price is not found or is ambigous put nul
 category - in this property, you will categorize the product into one of the category lists
 found below. if you cannot categorize it put null.
 """ +
-json.dumps(all_base_categories(Category.all()))
+json.dumps(all_base_categories(Category.all().get("results")))
 
 +
 

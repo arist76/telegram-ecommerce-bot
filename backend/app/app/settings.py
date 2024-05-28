@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     # installed apps
     "rest_framework",
     "drf_yasg",  # ui docs
+    "django_filters",
     
     # local apps
     "ecommerce_client",
@@ -137,10 +138,12 @@ REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": [
         "rest_framework.authentication.SessionAuthentication",
     ],
+    'DEFAULT_FILTER_BACKENDS': [
+        'django_filters.rest_framework.DjangoFilterBackend',
+    ],
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 5,  # Default limit for PageNumberPagination
 }
-
-ITEMS_PER_PAGE = 5
-
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')

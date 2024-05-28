@@ -25,12 +25,12 @@ class Product(models.Model):
         Category, on_delete=models.SET_NULL, null=True, blank=True
     )
     sold = models.BooleanField(default=False)
-    description = models.TextField(null=True)
-    detailed_description = models.JSONField(null=True)
+    description = models.TextField(null=True, blank=True)
+    detailed_description = models.JSONField(null=True, blank=True)
     posted_on = models.DateTimeField(auto_now_add=True)
     last_modified = models.DateTimeField(auto_now=True)
-    seller_chat = models.CharField(max_length=100, null=True)  # TODO: this might need normalization 
-    seller_details = models.TextField(null=True)
+    seller_chat = models.CharField(max_length=100, null=True, blank=True)  # TODO: this might need normalization 
+    seller_details = models.TextField(null=True, blank=True)
 
     def __str__(self) -> str:
         return f"{self.name}"
@@ -45,7 +45,6 @@ def product_image_upload_to(instance, filename):
     product_id = instance.product.uuid
     _ , extension = os.path.splitext(filename)
     new_filename =  str(instance.uuid_getter) + extension
-    print(new_filename)
 
     # Create the upload path
     return os.path.join(f'sellers/{seller_id}/products/{product_id}', new_filename)
@@ -68,6 +67,7 @@ class ProductImage(models.Model):
 
 class User(models.Model):
     uuid = models.UUIDField(primary_key=True, default=uuid_gen.uuid4, editable=False)
+    id = models.IntegerField(unique=True)  # The telegram ID
     is_bot = models.BooleanField()
     first_name = models.CharField(max_length=50)
     last_name = models.CharField(max_length=50, null=True)

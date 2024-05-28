@@ -1,18 +1,21 @@
-from django.shortcuts import render
+from django.shortcuts import get_object_or_404
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework import generics, status, viewsets
 from rest_framework.parsers import MultiPartParser, FormParser
-from ecommerce_client import models, serializers
+from ecommerce_client import models, serializers, filters
 from ecommerce_client.chroma_client import Chromaclient
 from datetime import datetime
 import sys
+import uuid
 
 # chroma_client = Chromaclient()
 
 class CategoryList(generics.ListAPIView):
     queryset = models.Category.objects.all()
     serializer_class = serializers.CategorySerializer
+    filterset_class = filters.CategoryFilter
+
     
 class CategoryDetail(generics.RetrieveAPIView):
     queryset = models.Category.objects.all()
@@ -20,59 +23,12 @@ class CategoryDetail(generics.RetrieveAPIView):
     lookup_field = "uuid"
 
 class ProductListView(generics.ListCreateAPIView):
+    queryset = models.Product.objects.all()
     serializer_class = serializers.ProductSerializer
+    filterset_class = filters.ProductFilter
 
-    def get_queryset(self):
-        # TODO: make proper validations for query parameters
-        queryset = models.Product.objects.all()
 
-        query = self.request.query_params.get('query')
-        limit = int(self.request.query_params.get('limit', sys.maxsize))
-        
-        if query == None:
-            offset = int(self.request.query_params.get('offset', 0))
-            sort_by_price = self.request.query_params.get('sort-price')
-            category = self.request.query_params.get('category')
-            min_price = self.request.query_params.get('min-price')
-            max_price = self.request.query_params.get('max-price')
-            is_sold = self.request.query_params.get('is-sold')
-            seller = self.request.query_params.get('seller')
-            from_date = self.request.query_params.get('from')
-            to_date = self.request.query_params.get('to')
-    
-            if sort_by_price == 'true':
-                queryset = queryset.order_by('price')
-            elif sort_by_price == 'false':
-                queryset = queryset.order_by('-price')
 
-            if category:
-                queryset = queryset.filter(category__name=category)
-
-            if min_price:
-                queryset = queryset.filter(price__gte=float(min_price))
-
-            if max_price:
-                queryset = queryset.filter(price__lte=float(max_price))
-
-            if is_sold == 'true':
-                queryset = queryset.filter(sold=True)
-            elif is_sold == 'false':
-                queryset = queryset.filter(sold=False)
-
-            if seller:
-                queryset = queryset.filter(seller_id=seller)
-
-            if from_date:
-                from_date = datetime.fromisoformat(from_date)
-                queryset = queryset.filter(posted__gte=from_date)
-
-            if to_date:
-                to_date = datetime.fromisoformat(to_date)
-                queryset = queryset.filter(posted__lte=to_date)
-        # else:
-        #     return chroma_client.query(q=query, n_results=limit)
-  
-        return queryset[offset:offset+limit]
     
 class ProductDetailView(generics.RetrieveUpdateDestroyAPIView):
     # TODO - fix if id in path and payload are different
@@ -102,7 +58,20 @@ class UserListView(generics.ListCreateAPIView):
 class UserDetailView(generics.RetrieveUpdateDestroyAPIView):
     queryset = models.User.objects.all()
     serializer_class = serializers.UserSerializer
-    lookup_field = "uuid"
+    
+    def get_object(self, queryset=None):
+        # Get the 'pk' parameter from the URL
+        pk = self.kwargs.get('id')
+        
+        # Check if 'pk' is a valid UUID
+        try:
+            uuid.UUID(str(pk))
+            lookup_field = 'uuid'
+        except ValueError:
+            lookup_field = 'id'
+        
+        # Lookup the User object based on the determined field
+        return get_object_or_404(models.User, **{lookup_field : pk})
 
 class NotificationListView(generics.ListCreateAPIView):
     queryset = models.Notification.objects.all()

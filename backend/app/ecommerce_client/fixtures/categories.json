@@ -1,1 +1,1730 @@
-[{"model": "ecommerce_client.category", "pk": "01469ff0-5a47-49d8-8444-a5c0f2f26f4f", "fields": {"name": "Screen Protectors", "emoji": "📱", "parent": "f04b59db-fa02-4539-a7cf-ad3248cc8d50"}}, {"model": "ecommerce_client.category", "pk": "025448a7-c22b-45c2-84a1-c5309f43837e", "fields": {"name": "Beverages", "emoji": "🛒", "parent": "92577252-ec6f-4b19-9a00-57901f6d93fd"}}, {"model": "ecommerce_client.category", "pk": "030c753e-6a23-4978-91c4-4c66c227e4f8", "fields": {"name": "Phone Cases & Covers", "emoji": "📱", "parent": "f04b59db-fa02-4539-a7cf-ad3248cc8d50"}}, {"model": "ecommerce_client.category", "pk": "036ae2f3-61f1-446e-b711-304d5fdc5cc0", "fields": {"name": "Pants", "emoji": "👔", "parent": "b8f6e92f-4fdf-4149-abd4-b9bff07e4493"}}, {"model": "ecommerce_client.category", "pk": "03cc79de-72b5-4454-a029-2aea7f539850", "fields": {"name": "Travel & Luggage", "emoji": "✈️", "parent": null}}, {"model": "ecommerce_client.category", "pk": "044cc165-d329-424c-964b-110c85a89bda", "fields": {"name": "Interior Accessories", "emoji": "🔧", "parent": "e877b2a9-6fff-4e17-8571-3a6eb0ac0ad3"}}, {"model": "ecommerce_client.category", "pk": "047b0006-4ea2-4d8b-904b-70baf9fba9d5", "fields": {"name": "Fiction", "emoji": "📖", "parent": "e7d51d34-0a83-405f-8307-5b3933a576cb"}}, {"model": "ecommerce_client.category", "pk": "05046bd2-cf25-44ea-aea8-e34a70a0f8d2", "fields": {"name": "Dolls & Dollhouses", "emoji": "🧸", "parent": "bc8717e5-4180-4fd4-ac33-79c5a2700dec"}}, {"model": "ecommerce_client.category", "pk": "07945890-fc2c-4dc5-ab57-11b2fd46d837", "fields": {"name": "Mixers & Cocktails", "emoji": "🍷", "parent": "61c2099b-7dd6-448e-847f-d0e9a1f7e3e5"}}, {"model": "ecommerce_client.category", "pk": "08ee91d5-a656-4dac-aa2c-d0d766306b03", "fields": {"name": "Toys & Games", "emoji": "🎮", "parent": null}}, {"model": "ecommerce_client.category", "pk": "08fc2ed6-0ede-491f-803b-f3dafe5af032", "fields": {"name": "Décor & Lighting", "emoji": "💡", "parent": "9130716f-179f-423d-b3d9-c70148249147"}}, {"model": "ecommerce_client.category", "pk": "0a1eae14-2516-496d-a283-fb88e321c7f4", "fields": {"name": "Kitchen Appliances", "emoji": "🧺", "parent": "158364e9-f35e-41ad-87ff-469ddd1c1cb4"}}, {"model": "ecommerce_client.category", "pk": "0a2fceeb-5597-4003-a09a-9853a3add7e8", "fields": {"name": "Backpacks & Bags", "emoji": "✈️", "parent": "03cc79de-72b5-4454-a029-2aea7f539850"}}, {"model": "ecommerce_client.category", "pk": "0b82a929-fdc3-4d1c-b8fb-082adea73478", "fields": {"name": "Mystery & Thriller", "emoji": "📖", "parent": "e7d51d34-0a83-405f-8307-5b3933a576cb"}}, {"model": "ecommerce_client.category", "pk": "0c571d1f-64d3-4ef5-8fb9-3b5c84dd8bac", "fields": {"name": "Sunscreen", "emoji": "🧴", "parent": "f8711492-f265-4e65-b1e3-fd4ef989abea"}}, {"model": "ecommerce_client.category", "pk": "0ce50134-f026-4a90-9390-45d4d733bac8", "fields": {"name": "Fine Jewelry", "emoji": "💍", "parent": "3c41049f-f39d-4285-b063-0ef9ee6add4c"}}, {"model": "ecommerce_client.category", "pk": "0dca1ae2-cd79-4e00-abd2-68ef1bfd0bc4", "fields": {"name": "Music Accessories", "emoji": "🎵", "parent": "8f712573-b890-4dc1-a091-640c9434874d"}}, {"model": "ecommerce_client.category", "pk": "0ef32abc-9c47-4491-82d6-23149067327d", "fields": {"name": "Personal Care", "emoji": "🚿", "parent": "474610c9-04e9-411c-94c5-211733f7ae80"}}, {"model": "ecommerce_client.category", "pk": "0f46d90d-1eca-44f3-8e73-56080b5c379e", "fields": {"name": "Automotive", "emoji": "🚗", "parent": null}}, {"model": "ecommerce_client.category", "pk": "0fb65199-f856-4579-9554-e4756e83220a", "fields": {"name": "Digital Downloads", "emoji": "🎵", "parent": "8f712573-b890-4dc1-a091-640c9434874d"}}, {"model": "ecommerce_client.category", "pk": "106acf83-3a7c-4e36-a550-578ceb5df094", "fields": {"name": "Cat Supplies", "emoji": "🐶", "parent": "febff3c9-d0a6-4da3-95dc-d28e04afbbc0"}}, {"model": "ecommerce_client.category", "pk": "11e94850-4a79-4660-8138-d45fdeb0e77a", "fields": {"name": "Biking", "emoji": "⚽", "parent": "4fe5c403-90b8-4088-9f87-778b4225e7d9"}}, {"model": "ecommerce_client.category", "pk": "151b597f-5446-4623-a44b-7f0db776591c", "fields": {"name": "Makeup", "emoji": "💅", "parent": "474610c9-04e9-411c-94c5-211733f7ae80"}}, {"model": "ecommerce_client.category", "pk": "158364e9-f35e-41ad-87ff-469ddd1c1cb4", "fields": {"name": "Appliances", "emoji": "🧺", "parent": "9130716f-179f-423d-b3d9-c70148249147"}}, {"model": "ecommerce_client.category", "pk": "16dfc421-f99d-4493-8c22-9a90f364e77a", "fields": {"name": "Printers & Scanners", "emoji": "💻", "parent": "3d068d51-d70e-48d0-a56b-256ff3a19d05"}}, {"model": "ecommerce_client.category", "pk": "1707fc1a-bf3d-4827-aead-2bb04c549407", "fields": {"name": "Makeup Tools & Brushes", "emoji": "💅", "parent": "151b597f-5446-4623-a44b-7f0db776591c"}}, {"model": "ecommerce_client.category", "pk": "1778cbcb-2596-44f8-9219-e7668edebfd1", "fields": {"name": "Pantry Staples", "emoji": "🛒", "parent": "92577252-ec6f-4b19-9a00-57901f6d93fd"}}, {"model": "ecommerce_client.category", "pk": "1de8bf57-9617-49fc-9a96-5a093a767c0f", "fields": {"name": "Toys & Games", "emoji": "👶", "parent": "9159a73f-b239-41c4-89a8-43c66abf843b"}}, {"model": "ecommerce_client.category", "pk": "20b2cc35-6cd4-4d4c-9c91-c32259f36733", "fields": {"name": "Vacuum Cleaners", "emoji": "🧺", "parent": "158364e9-f35e-41ad-87ff-469ddd1c1cb4"}}, {"model": "ecommerce_client.category", "pk": "23171739-d976-4efb-b50c-eb5c648bff72", "fields": {"name": "Streaming", "emoji": "🎥", "parent": "e01c1eeb-1d1d-4bab-aeb4-e97315d2a959"}}, {"model": "ecommerce_client.category", "pk": "248c4091-4c3c-4458-9815-4e66946db74a", "fields": {"name": "Music Instruments", "emoji": "🎵", "parent": "8f712573-b890-4dc1-a091-640c9434874d"}}, {"model": "ecommerce_client.category", "pk": "24befebd-5bfc-474a-80ae-7c81aaac860b", "fields": {"name": "Nursery & Décor", "emoji": "👶", "parent": "9159a73f-b239-41c4-89a8-43c66abf843b"}}, {"model": "ecommerce_client.category", "pk": "26221ed0-3215-4026-b8a5-1ed9f311c72f", "fields": {"name": "Car Safety & Security", "emoji": "🔧", "parent": "e877b2a9-6fff-4e17-8571-3a6eb0ac0ad3"}}, {"model": "ecommerce_client.category", "pk": "2a14d585-32ba-4c95-b38e-38bd21a29e9e", "fields": {"name": "Tops", "emoji": "👗", "parent": "62b54c9a-ab39-4aed-9564-346a0af05c44"}}, {"model": "ecommerce_client.category", "pk": "2d476411-fb75-47a1-8940-2261f64ce1d1", "fields": {"name": "Paper & Notebooks", "emoji": "📚", "parent": "bc6d1b21-0588-4607-b1ca-d0e459851c99"}}, {"model": "ecommerce_client.category", "pk": "2d664143-7d83-4c92-a406-d5183920324e", "fields": {"name": "Oils & Fluids", "emoji": "🔧", "parent": "e877b2a9-6fff-4e17-8571-3a6eb0ac0ad3"}}, {"model": "ecommerce_client.category", "pk": "2fbce7dd-70d5-4885-979b-cffb1c0bca9b", "fields": {"name": "Documentaries", "emoji": "🎥", "parent": "e01c1eeb-1d1d-4bab-aeb4-e97315d2a959"}}, {"model": "ecommerce_client.category", "pk": "313bfd31-9212-4d19-aa4e-b837dffebf9c", "fields": {"name": "Beer", "emoji": "🍷", "parent": "61c2099b-7dd6-448e-847f-d0e9a1f7e3e5"}}, {"model": "ecommerce_client.category", "pk": "3247d28b-8845-4715-a85d-0d586987c582", "fields": {"name": "Desktops", "emoji": "💻", "parent": "3d068d51-d70e-48d0-a56b-256ff3a19d05"}}, {"model": "ecommerce_client.category", "pk": "3495aa60-ffd7-4a7e-a37c-3228341652db", "fields": {"name": "Food & Beverages", "emoji": "🍽️", "parent": null}}, {"model": "ecommerce_client.category", "pk": "34c005c9-7f16-45ed-8f91-e07ca1ee328a", "fields": {"name": "Car Maintenance", "emoji": "🔧", "parent": "e877b2a9-6fff-4e17-8571-3a6eb0ac0ad3"}}, {"model": "ecommerce_client.category", "pk": "34d75006-20ef-4834-9b5c-f548e4834ff6", "fields": {"name": "Gourmet Foods", "emoji": "🛒", "parent": "92577252-ec6f-4b19-9a00-57901f6d93fd"}}, {"model": "ecommerce_client.category", "pk": "35506caf-dd0d-42e7-8893-af34e69e1b92", "fields": {"name": "Hobbies & Collectibles", "emoji": "🧩", "parent": "08ee91d5-a656-4dac-aa2c-d0d766306b03"}}, {"model": "ecommerce_client.category", "pk": "3aaa8b75-3ad7-496d-9143-228b4b976ff1", "fields": {"name": "Serums & Treatments", "emoji": "🧴", "parent": "f8711492-f265-4e65-b1e3-fd4ef989abea"}}, {"model": "ecommerce_client.category", "pk": "3c41049f-f39d-4285-b063-0ef9ee6add4c", "fields": {"name": "Jewelry & Watches", "emoji": "💍", "parent": null}}, {"model": "ecommerce_client.category", "pk": "3c4d216d-4759-43e5-95f7-4d781a330c2e", "fields": {"name": "Reptile & Amphibian Supplies", "emoji": "🐶", "parent": "febff3c9-d0a6-4da3-95dc-d28e04afbbc0"}}, {"model": "ecommerce_client.category", "pk": "3d068d51-d70e-48d0-a56b-256ff3a19d05", "fields": {"name": "Computers & Accessories", "emoji": "💻", "parent": "9ccf5013-2d50-4d43-8b6a-bfd8f5fa0691"}}, {"model": "ecommerce_client.category", "pk": "3d412a63-b2b8-4270-80a3-1a92f878d35f", "fields": {"name": "Hats & Caps", "emoji": "👜", "parent": "4d0a1120-e419-4c6e-9051-1e4cf1c65c1f"}}, {"model": "ecommerce_client.category", "pk": "3dcb42db-9252-433e-90b4-95b8242b4feb", "fields": {"name": "Exercise & Fitness", "emoji": "⚽", "parent": "4fe5c403-90b8-4088-9f87-778b4225e7d9"}}, {"model": "ecommerce_client.category", "pk": "3f2fad50-918f-431b-bb29-10deae3bb3ff", "fields": {"name": "Televisions", "emoji": "🎧", "parent": "98f670e4-73a2-4bf1-b758-1a3ed53913a6"}}, {"model": "ecommerce_client.category", "pk": "43339356-fa8b-4608-814b-3c3ab71c0f99", "fields": {"name": "Headphones & Earphones", "emoji": "🎧", "parent": "98f670e4-73a2-4bf1-b758-1a3ed53913a6"}}, {"model": "ecommerce_client.category", "pk": "45eb00b4-ab42-4b14-ae61-803bb6d3224b", "fields": {"name": "Activewear", "emoji": "🏃", "parent": "9df22a16-9202-49f2-ac53-5dc435b7ec2a"}}, {"model": "ecommerce_client.category", "pk": "46178df0-762e-43fd-ad30-87e3274d34e2", "fields": {"name": "Cameras & Camcorders", "emoji": "🎧", "parent": "98f670e4-73a2-4bf1-b758-1a3ed53913a6"}}, {"model": "ecommerce_client.category", "pk": "4673033b-0f80-41a2-9bf2-ac28d96268a4", "fields": {"name": "Lighting Fixtures", "emoji": "💡", "parent": "08fc2ed6-0ede-491f-803b-f3dafe5af032"}}, {"model": "ecommerce_client.category", "pk": "474610c9-04e9-411c-94c5-211733f7ae80", "fields": {"name": "Health & Beauty", "emoji": "💄", "parent": null}}, {"model": "ecommerce_client.category", "pk": "476e89a9-dfcb-4f81-baf6-623eb92c1317", "fields": {"name": "Oral Care", "emoji": "🚿", "parent": "0ef32abc-9c47-4491-82d6-23149067327d"}}, {"model": "ecommerce_client.category", "pk": "4a0e2841-4836-4bac-9211-30df5733c859", "fields": {"name": "Sports Supplements", "emoji": "🏃", "parent": "9df22a16-9202-49f2-ac53-5dc435b7ec2a"}}, {"model": "ecommerce_client.category", "pk": "4b650142-2cd0-409c-91e5-39968f1a31cf", "fields": {"name": "CDs & Vinyl", "emoji": "🎵", "parent": "8f712573-b890-4dc1-a091-640c9434874d"}}, {"model": "ecommerce_client.category", "pk": "4d0a1120-e419-4c6e-9051-1e4cf1c65c1f", "fields": {"name": "Accessories", "emoji": "👜", "parent": "e8366150-ff10-434e-89e2-741ca6372462"}}, {"model": "ecommerce_client.category", "pk": "4d854772-e26e-496f-bf62-195bcea15fff", "fields": {"name": "Diapers & Potty Training", "emoji": "👶", "parent": "9159a73f-b239-41c4-89a8-43c66abf843b"}}, {"model": "ecommerce_client.category", "pk": "4eec170d-85ad-4ab0-86e5-0711c97829cb", "fields": {"name": "Bird Supplies", "emoji": "🐶", "parent": "febff3c9-d0a6-4da3-95dc-d28e04afbbc0"}}, {"model": "ecommerce_client.category", "pk": "4f001879-f5d7-41e5-a455-06b3c605deec", "fields": {"name": "Rings", "emoji": "💍", "parent": "0ce50134-f026-4a90-9390-45d4d733bac8"}}, {"model": "ecommerce_client.category", "pk": "4fe5c403-90b8-4088-9f87-778b4225e7d9", "fields": {"name": "Sports Equipment", "emoji": "⚽", "parent": "cba1252f-206a-4996-8ea9-05070610e203"}}, {"model": "ecommerce_client.category", "pk": "528fe4a0-9433-4c5d-9352-731bd2321c10", "fields": {"name": "Biography", "emoji": "📖", "parent": "e7d51d34-0a83-405f-8307-5b3933a576cb"}}, {"model": "ecommerce_client.category", "pk": "54710573-b8ff-408c-a676-36a1f071c4a4", "fields": {"name": "Suits & Blazers", "emoji": "👔", "parent": "b8f6e92f-4fdf-4149-abd4-b9bff07e4493"}}, {"model": "ecommerce_client.category", "pk": "54798536-c284-4e8d-bf9c-f0b43689ee68", "fields": {"name": "Bedroom", "emoji": "🪑", "parent": "55f6553c-0782-41d7-adeb-9f968414d279"}}, {"model": "ecommerce_client.category", "pk": "54d139c3-94b2-4442-9123-b86282e57753", "fields": {"name": "Bath & Body", "emoji": "🚿", "parent": "0ef32abc-9c47-4491-82d6-23149067327d"}}, {"model": "ecommerce_client.category", "pk": "55f6553c-0782-41d7-adeb-9f968414d279", "fields": {"name": "Furniture", "emoji": "🪑", "parent": "9130716f-179f-423d-b3d9-c70148249147"}}, {"model": "ecommerce_client.category", "pk": "5626be1e-af35-4144-907a-cd8c1026bacd", "fields": {"name": "Writing Instruments", "emoji": "📚", "parent": "bc6d1b21-0588-4607-b1ca-d0e459851c99"}}, {"model": "ecommerce_client.category", "pk": "565b026c-1b0f-464b-b0ad-6f65a6e2390b", "fields": {"name": "Tires & Wheels", "emoji": "🔧", "parent": "e877b2a9-6fff-4e17-8571-3a6eb0ac0ad3"}}, {"model": "ecommerce_client.category", "pk": "57eb02e6-bbe1-4c48-866f-c4d94c9fabd1", "fields": {"name": "Pet Food", "emoji": "🐶", "parent": "87569cd4-1af3-485b-8e0b-b144a7d3c3eb"}}, {"model": "ecommerce_client.category", "pk": "583ac01e-619f-4189-9675-d3c75b28a6da", "fields": {"name": "Fresh Produce", "emoji": "🛒", "parent": "92577252-ec6f-4b19-9a00-57901f6d93fd"}}, {"model": "ecommerce_client.category", "pk": "5845f0f7-74bb-48ad-b2d8-729df3d8ab23", "fields": {"name": "Headphones & Earbuds", "emoji": "🎧", "parent": "f04b59db-fa02-4539-a7cf-ad3248cc8d50"}}, {"model": "ecommerce_client.category", "pk": "58ad0bdf-01f1-458f-9e6c-9bb4cd5ec728", "fields": {"name": "Shirts", "emoji": "👔", "parent": "b8f6e92f-4fdf-4149-abd4-b9bff07e4493"}}, {"model": "ecommerce_client.category", "pk": "591185cc-bfb9-427c-b58c-8e8d85a7a4a3", "fields": {"name": "Dog Supplies", "emoji": "🐶", "parent": "febff3c9-d0a6-4da3-95dc-d28e04afbbc0"}}, {"model": "ecommerce_client.category", "pk": "5a102f2f-c037-4e25-a5df-bf2d5c9f57c3", "fields": {"name": "Baby Clothing", "emoji": "👶", "parent": "9159a73f-b239-41c4-89a8-43c66abf843b"}}, {"model": "ecommerce_client.category", "pk": "5a34176e-12a7-480a-ae37-8fc7e1b9b1c2", "fields": {"name": "Ethnic & Cultural", "emoji": "🛍️", "parent": "a9fba063-8461-4b54-9053-91b08db59d13"}}, {"model": "ecommerce_client.category", "pk": "5bb56e0a-2db0-41fb-b63c-3b84798e83f1", "fields": {"name": "Sports Bags", "emoji": "🏃", "parent": "9df22a16-9202-49f2-ac53-5dc435b7ec2a"}}, {"model": "ecommerce_client.category", "pk": "5c4ffead-c7c1-48d0-b082-40d1fc098f18", "fields": {"name": "Eye Makeup", "emoji": "💅", "parent": "151b597f-5446-4623-a44b-7f0db776591c"}}, {"model": "ecommerce_client.category", "pk": "5e4c3605-5fd9-4c53-aa70-487b4f4b63a2", "fields": {"name": "Keyboards & Mice", "emoji": "💻", "parent": "3d068d51-d70e-48d0-a56b-256ff3a19d05"}}, {"model": "ecommerce_client.category", "pk": "61c2099b-7dd6-448e-847f-d0e9a1f7e3e5", "fields": {"name": "Alcohol", "emoji": "🍷", "parent": "3495aa60-ffd7-4a7e-a37c-3228341652db"}}, {"model": "ecommerce_client.category", "pk": "620f09d6-6e5d-41b9-a014-a0f1ffd8aa80", "fields": {"name": "Car Care", "emoji": "🔧", "parent": "e877b2a9-6fff-4e17-8571-3a6eb0ac0ad3"}}, {"model": "ecommerce_client.category", "pk": "6262a4bf-f1fb-4804-8801-160c252339fb", "fields": {"name": "Concert Tickets", "emoji": "🎵", "parent": "8f712573-b890-4dc1-a091-640c9434874d"}}, {"model": "ecommerce_client.category", "pk": "62b54c9a-ab39-4aed-9564-346a0af05c44", "fields": {"name": "Women's Clothing", "emoji": "👗", "parent": "e8366150-ff10-434e-89e2-741ca6372462"}}, {"model": "ecommerce_client.category", "pk": "63c3afce-65be-4943-a62a-5acdfa06780c", "fields": {"name": "Spirits", "emoji": "🍷", "parent": "61c2099b-7dd6-448e-847f-d0e9a1f7e3e5"}}, {"model": "ecommerce_client.category", "pk": "67534de5-2589-41a1-a5fa-0a2f96174a7e", "fields": {"name": "Bracelets", "emoji": "💍", "parent": "0ce50134-f026-4a90-9390-45d4d733bac8"}}, {"model": "ecommerce_client.category", "pk": "6af59c98-9e71-464f-a1f3-4e9916e2d348", "fields": {"name": "Wine", "emoji": "🍷", "parent": "61c2099b-7dd6-448e-847f-d0e9a1f7e3e5"}}, {"model": "ecommerce_client.category", "pk": "6b01dcd0-71f7-4459-8585-0fa1ef1383cb", "fields": {"name": "Science Fiction", "emoji": "📖", "parent": "e7d51d34-0a83-405f-8307-5b3933a576cb"}}, {"model": "ecommerce_client.category", "pk": "6b6ff6c8-2dfc-49ba-85cf-4f670525d643", "fields": {"name": "Bottoms", "emoji": "👗", "parent": "62b54c9a-ab39-4aed-9564-346a0af05c44"}}, {"model": "ecommerce_client.category", "pk": "6c050ecb-fe01-49f3-b27c-da503bc467ca", "fields": {"name": "Earrings", "emoji": "💍", "parent": "0ce50134-f026-4a90-9390-45d4d733bac8"}}, {"model": "ecommerce_client.category", "pk": "6d3aa8d9-878e-43c8-985a-70c14e0bd9bb", "fields": {"name": "Books, Movies & Music", "emoji": "📚", "parent": null}}, {"model": "ecommerce_client.category", "pk": "6e3fe637-d9f4-4d17-96cf-82f591a6eb70", "fields": {"name": "Educational Toys", "emoji": "🧸", "parent": "bc8717e5-4180-4fd4-ac33-79c5a2700dec"}}, {"model": "ecommerce_client.category", "pk": "70327b06-e872-4dfe-9e14-6a725f0d8efe", "fields": {"name": "Shaving & Grooming", "emoji": "🚿", "parent": "0ef32abc-9c47-4491-82d6-23149067327d"}}, {"model": "ecommerce_client.category", "pk": "715c5ac4-ab6c-42ce-af91-0fbe1b754317", "fields": {"name": "Cleaning & Detailing", "emoji": "🔧", "parent": "e877b2a9-6fff-4e17-8571-3a6eb0ac0ad3"}}, {"model": "ecommerce_client.category", "pk": "7283b168-7f67-4b27-bc09-9cbfe0a65c5c", "fields": {"name": "Cleansers & Toners", "emoji": "🧴", "parent": "f8711492-f265-4e65-b1e3-fd4ef989abea"}}, {"model": "ecommerce_client.category", "pk": "733e3bd7-2a59-45d2-8c7d-5c1de3ae182b", "fields": {"name": "Handmade & Artisanal", "emoji": "🛍️", "parent": "a9fba063-8461-4b54-9053-91b08db59d13"}}, {"model": "ecommerce_client.category", "pk": "7374c407-c612-480b-ac27-7d856f3f9429", "fields": {"name": "Champagne & Sparkling Wine", "emoji": "🍷", "parent": "61c2099b-7dd6-448e-847f-d0e9a1f7e3e5"}}, {"model": "ecommerce_client.category", "pk": "742518d7-d0ce-4de0-ab1f-53ee19aa275b", "fields": {"name": "Rugs & Carpets", "emoji": "💡", "parent": "08fc2ed6-0ede-491f-803b-f3dafe5af032"}}, {"model": "ecommerce_client.category", "pk": "74fe9a83-1905-427f-8429-abb9a4b922c7", "fields": {"name": "Luxury & High-End", "emoji": "🛍️", "parent": "a9fba063-8461-4b54-9053-91b08db59d13"}}, {"model": "ecommerce_client.category", "pk": "75a734f6-25b6-4942-a120-a09a9cd92937", "fields": {"name": "Watches", "emoji": "👜", "parent": "4d0a1120-e419-4c6e-9051-1e4cf1c65c1f"}}, {"model": "ecommerce_client.category", "pk": "7792bc7a-4825-434a-a8ee-46473d747f28", "fields": {"name": "Lip Makeup", "emoji": "💅", "parent": "151b597f-5446-4623-a44b-7f0db776591c"}}, {"model": "ecommerce_client.category", "pk": "7bb1341e-cba9-4220-8d43-0e79fcc286f9", "fields": {"name": "Laundry Appliances", "emoji": "🧺", "parent": "158364e9-f35e-41ad-87ff-469ddd1c1cb4"}}, {"model": "ecommerce_client.category", "pk": "7eba77a8-3852-4f1c-9133-0cec665910ac", "fields": {"name": "School Supplies", "emoji": "📚", "parent": "bc6d1b21-0588-4607-b1ca-d0e459851c99"}}, {"model": "ecommerce_client.category", "pk": "7f30f608-e6c9-4a0c-a43f-a5e1d890b845", "fields": {"name": "Moisturizers", "emoji": "🧴", "parent": "f8711492-f265-4e65-b1e3-fd4ef989abea"}}, {"model": "ecommerce_client.category", "pk": "7fae341b-2097-4fba-bab1-9f7b9aa8f853", "fields": {"name": "Chargers & Cables", "emoji": "📱", "parent": "f04b59db-fa02-4539-a7cf-ad3248cc8d50"}}, {"model": "ecommerce_client.category", "pk": "825720d1-d5f3-4171-8bea-2f3e692deee3", "fields": {"name": "Costume Jewelry", "emoji": "💍", "parent": "82ded232-012c-43b7-aeb4-a5da6d2571be"}}, {"model": "ecommerce_client.category", "pk": "82ded232-012c-43b7-aeb4-a5da6d2571be", "fields": {"name": "Fashion Jewelry", "emoji": "💍", "parent": "3c41049f-f39d-4285-b063-0ef9ee6add4c"}}, {"model": "ecommerce_client.category", "pk": "875366a2-6fde-4281-9fc2-e62ab184a667", "fields": {"name": "Home Security", "emoji": "🧺", "parent": "158364e9-f35e-41ad-87ff-469ddd1c1cb4"}}, {"model": "ecommerce_client.category", "pk": "87569cd4-1af3-485b-8e0b-b144a7d3c3eb", "fields": {"name": "Pets", "emoji": "🐾", "parent": null}}, {"model": "ecommerce_client.category", "pk": "882d6596-ec8e-4baa-b0da-41230560e415", "fields": {"name": "Footwear", "emoji": "👗", "parent": "62b54c9a-ab39-4aed-9564-346a0af05c44"}}, {"model": "ecommerce_client.category", "pk": "8c2f495a-d0ca-4abb-a68f-8066378f1577", "fields": {"name": "Dining Room", "emoji": "🪑", "parent": "55f6553c-0782-41d7-adeb-9f968414d279"}}, {"model": "ecommerce_client.category", "pk": "8d235dc4-f1e0-4d39-bb9a-3d7c8a60d057", "fields": {"name": "Monitors", "emoji": "💻", "parent": "3d068d51-d70e-48d0-a56b-256ff3a19d05"}}, {"model": "ecommerce_client.category", "pk": "8d87084a-c571-434f-9710-ed78da3cd259", "fields": {"name": "Home Audio Systems", "emoji": "🎧", "parent": "98f670e4-73a2-4bf1-b758-1a3ed53913a6"}}, {"model": "ecommerce_client.category", "pk": "8f65c2e6-4583-464f-aed4-350490ea0a2a", "fields": {"name": "Collectible Cards", "emoji": "🧩", "parent": "35506caf-dd0d-42e7-8893-af34e69e1b92"}}, {"model": "ecommerce_client.category", "pk": "8f712573-b890-4dc1-a091-640c9434874d", "fields": {"name": "Music", "emoji": "🎵", "parent": "6d3aa8d9-878e-43c8-985a-70c14e0bd9bb"}}, {"model": "ecommerce_client.category", "pk": "8fce6c64-b58f-474d-b477-613b7e426c56", "fields": {"name": "Laptops", "emoji": "💻", "parent": "3d068d51-d70e-48d0-a56b-256ff3a19d05"}}, {"model": "ecommerce_client.category", "pk": "9130716f-179f-423d-b3d9-c70148249147", "fields": {"name": "Home & Garden", "emoji": "🏡", "parent": null}}, {"model": "ecommerce_client.category", "pk": "9159a73f-b239-41c4-89a8-43c66abf843b", "fields": {"name": "Baby & Kids", "emoji": "👶", "parent": null}}, {"model": "ecommerce_client.category", "pk": "92577252-ec6f-4b19-9a00-57901f6d93fd", "fields": {"name": "Groceries", "emoji": "🛒", "parent": "3495aa60-ffd7-4a7e-a37c-3228341652db"}}, {"model": "ecommerce_client.category", "pk": "973c74f5-337b-41bb-b173-6b280926a8e3", "fields": {"name": "Travel Accessories", "emoji": "✈️", "parent": "03cc79de-72b5-4454-a029-2aea7f539850"}}, {"model": "ecommerce_client.category", "pk": "97a66a42-d69d-4842-8169-5fe1586dfe7b", "fields": {"name": "Vintage & Collectibles", "emoji": "🛍️", "parent": "a9fba063-8461-4b54-9053-91b08db59d13"}}, {"model": "ecommerce_client.category", "pk": "98f1fce7-e6b7-485c-8c5c-405aa8347b02", "fields": {"name": "Fragrances", "emoji": "🚿", "parent": "0ef32abc-9c47-4491-82d6-23149067327d"}}, {"model": "ecommerce_client.category", "pk": "98f670e4-73a2-4bf1-b758-1a3ed53913a6", "fields": {"name": "Audio & Video", "emoji": "🎧", "parent": "9ccf5013-2d50-4d43-8b6a-bfd8f5fa0691"}}, {"model": "ecommerce_client.category", "pk": "9bf6111d-6d18-496b-8b1c-cf3a28a8c537", "fields": {"name": "Exterior Accessories", "emoji": "🔧", "parent": "e877b2a9-6fff-4e17-8571-3a6eb0ac0ad3"}}, {"model": "ecommerce_client.category", "pk": "9c8c609c-94b5-42ec-b485-2152bb07de20", "fields": {"name": "Snacks & Candy", "emoji": "🛒", "parent": "92577252-ec6f-4b19-9a00-57901f6d93fd"}}, {"model": "ecommerce_client.category", "pk": "9cb49620-3c58-4bf0-86b5-ae4916c00180", "fields": {"name": "Tools & Equipment", "emoji": "🔧", "parent": "e877b2a9-6fff-4e17-8571-3a6eb0ac0ad3"}}, {"model": "ecommerce_client.category", "pk": "9ccf5013-2d50-4d43-8b6a-bfd8f5fa0691", "fields": {"name": "Electronics", "emoji": "📱", "parent": null}}, {"model": "ecommerce_client.category", "pk": "9df22a16-9202-49f2-ac53-5dc435b7ec2a", "fields": {"name": "Athletic Apparel", "emoji": "🏃", "parent": "cba1252f-206a-4996-8ea9-05070610e203"}}, {"model": "ecommerce_client.category", "pk": "9e025cec-2142-46c2-be64-76da25d63985", "fields": {"name": "Outdoor Recreation", "emoji": "⚽", "parent": "4fe5c403-90b8-4088-9f87-778b4225e7d9"}}, {"model": "ecommerce_client.category", "pk": "9f02c532-4024-4cb7-bc45-8bead23b45e1", "fields": {"name": "Curtains & Blinds", "emoji": "💡", "parent": "08fc2ed6-0ede-491f-803b-f3dafe5af032"}}, {"model": "ecommerce_client.category", "pk": "9f58b720-0140-49b1-b844-97a2c81f92a6", "fields": {"name": "Heating & Cooling", "emoji": "🧺", "parent": "158364e9-f35e-41ad-87ff-469ddd1c1cb4"}}, {"model": "ecommerce_client.category", "pk": "a0edaafa-cb08-41db-9880-9073be818ca6", "fields": {"name": "DVD", "emoji": "🎥", "parent": "e01c1eeb-1d1d-4bab-aeb4-e97315d2a959"}}, {"model": "ecommerce_client.category", "pk": "a14a59fd-ef5d-43b4-a609-cfe50fd24154", "fields": {"name": "Office Furniture", "emoji": "📚", "parent": "bc6d1b21-0588-4607-b1ca-d0e459851c99"}}, {"model": "ecommerce_client.category", "pk": "a26ea9e6-0d24-4456-82e7-9797e7a44fa0", "fields": {"name": "Travel Clothing", "emoji": "✈️", "parent": "03cc79de-72b5-4454-a029-2aea7f539850"}}, {"model": "ecommerce_client.category", "pk": "a3d600a1-43ee-4bb7-8e8c-efc213dd29ae", "fields": {"name": "Jewelry Storage", "emoji": "💍", "parent": "82ded232-012c-43b7-aeb4-a5da6d2571be"}}, {"model": "ecommerce_client.category", "pk": "a3e668a9-1c52-421e-ad90-8f2bfddd63cd", "fields": {"name": "Outdoor", "emoji": "🪑", "parent": "55f6553c-0782-41d7-adeb-9f968414d279"}}, {"model": "ecommerce_client.category", "pk": "a6e6b452-5966-4eae-a184-165c445442df", "fields": {"name": "Camping & Hiking", "emoji": "⚽", "parent": "4fe5c403-90b8-4088-9f87-778b4225e7d9"}}, {"model": "ecommerce_client.category", "pk": "a7db01fc-10a3-4b6f-85df-6e1ee217f1f0", "fields": {"name": "Handbags & Purses", "emoji": "👜", "parent": "4d0a1120-e419-4c6e-9051-1e4cf1c65c1f"}}, {"model": "ecommerce_client.category", "pk": "a9fba063-8461-4b54-9053-91b08db59d13", "fields": {"name": "Specialty Stores", "emoji": "🛍️", "parent": null}}, {"model": "ecommerce_client.category", "pk": "aaafc5a0-0465-4905-a059-958a642e5120", "fields": {"name": "TV Series", "emoji": "🎥", "parent": "e01c1eeb-1d1d-4bab-aeb4-e97315d2a959"}}, {"model": "ecommerce_client.category", "pk": "ab688690-1d37-464c-912a-6fc42d710df1", "fields": {"name": "RC Vehicles", "emoji": "🧩", "parent": "35506caf-dd0d-42e7-8893-af34e69e1b92"}}, {"model": "ecommerce_client.category", "pk": "ac858b83-8878-4afa-bd33-d051a30f714b", "fields": {"name": "Outdoor Play", "emoji": "🧸", "parent": "bc8717e5-4180-4fd4-ac33-79c5a2700dec"}}, {"model": "ecommerce_client.category", "pk": "ad1b14a2-b948-4e14-b025-2b9f3c474a0a", "fields": {"name": "Sports Accessories", "emoji": "🏃", "parent": "9df22a16-9202-49f2-ac53-5dc435b7ec2a"}}, {"model": "ecommerce_client.category", "pk": "ad97eea9-5239-46f3-aa19-992fedc191dd", "fields": {"name": "Sunglasses", "emoji": "👜", "parent": "4d0a1120-e419-4c6e-9051-1e4cf1c65c1f"}}, {"model": "ecommerce_client.category", "pk": "b05680e3-195c-45a8-934a-4ea0024899b6", "fields": {"name": "Car Audio & Electronics", "emoji": "🔧", "parent": "e877b2a9-6fff-4e17-8571-3a6eb0ac0ad3"}}, {"model": "ecommerce_client.category", "pk": "b1979b6e-44eb-4d6b-be94-4bd6766e1927", "fields": {"name": "Travel Electronics", "emoji": "✈️", "parent": "03cc79de-72b5-4454-a029-2aea7f539850"}}, {"model": "ecommerce_client.category", "pk": "b4ae480e-8cd7-4633-8bbe-7b0b7e9a030e", "fields": {"name": "Wall Art", "emoji": "💡", "parent": "08fc2ed6-0ede-491f-803b-f3dafe5af032"}}, {"model": "ecommerce_client.category", "pk": "b53d5f5a-376b-4887-9761-2be3998c972e", "fields": {"name": "Acne Care", "emoji": "🧴", "parent": "f8711492-f265-4e65-b1e3-fd4ef989abea"}}, {"model": "ecommerce_client.category", "pk": "b6bc471b-88cf-496a-8c9d-f80fff8a30e9", "fields": {"name": "Desk Accessories", "emoji": "📚", "parent": "bc6d1b21-0588-4607-b1ca-d0e459851c99"}}, {"model": "ecommerce_client.category", "pk": "b8381e0b-2e35-46d7-b392-5c11fbd25eb1", "fields": {"name": "Athletic Shoes", "emoji": "🏃", "parent": "9df22a16-9202-49f2-ac53-5dc435b7ec2a"}}, {"model": "ecommerce_client.category", "pk": "b8c3c058-97f8-41fa-9dee-4cc038eb8dc3", "fields": {"name": "Non-Fiction", "emoji": "📖", "parent": "e7d51d34-0a83-405f-8307-5b3933a576cb"}}, {"model": "ecommerce_client.category", "pk": "b8e157f9-e80c-4382-a632-b30770093b15", "fields": {"name": "Statement Necklaces", "emoji": "💍", "parent": "82ded232-012c-43b7-aeb4-a5da6d2571be"}}, {"model": "ecommerce_client.category", "pk": "b8f6e92f-4fdf-4149-abd4-b9bff07e4493", "fields": {"name": "Men's Clothing", "emoji": "👔", "parent": "e8366150-ff10-434e-89e2-741ca6372462"}}, {"model": "ecommerce_client.category", "pk": "b991a482-0b9b-41b2-b760-d46c3c0efc9f", "fields": {"name": "Projectors", "emoji": "🎧", "parent": "98f670e4-73a2-4bf1-b758-1a3ed53913a6"}}, {"model": "ecommerce_client.category", "pk": "bb86bf28-1733-4e56-aeeb-317a29465f3d", "fields": {"name": "Arts & Crafts", "emoji": "🧩", "parent": "35506caf-dd0d-42e7-8893-af34e69e1b92"}}, {"model": "ecommerce_client.category", "pk": "bc6d1b21-0588-4607-b1ca-d0e459851c99", "fields": {"name": "Office & School Supplies", "emoji": "📚", "parent": null}}, {"model": "ecommerce_client.category", "pk": "bc8717e5-4180-4fd4-ac33-79c5a2700dec", "fields": {"name": "Toys for Kids", "emoji": "🧸", "parent": "08ee91d5-a656-4dac-aa2c-d0d766306b03"}}, {"model": "ecommerce_client.category", "pk": "bf6c9717-0720-4e26-9851-b1e56ebcba62", "fields": {"name": "Small Animal Supplies", "emoji": "🐶", "parent": "febff3c9-d0a6-4da3-95dc-d28e04afbbc0"}}, {"model": "ecommerce_client.category", "pk": "c36f7fde-6799-403a-89b1-b4484bdb2daa", "fields": {"name": "Team Sports", "emoji": "⚽", "parent": "4fe5c403-90b8-4088-9f87-778b4225e7d9"}}, {"model": "ecommerce_client.category", "pk": "c586d4d6-9bd5-4158-9ee0-2cc4cff84b85", "fields": {"name": "Hair Care", "emoji": "🚿", "parent": "0ef32abc-9c47-4491-82d6-23149067327d"}}, {"model": "ecommerce_client.category", "pk": "cba1252f-206a-4996-8ea9-05070610e203", "fields": {"name": "Sports & Outdoors", "emoji": "🏋️", "parent": null}}, {"model": "ecommerce_client.category", "pk": "cc3f3814-0a5b-4d33-81ae-e093f9edabfa", "fields": {"name": "Blu-ray", "emoji": "🎥", "parent": "e01c1eeb-1d1d-4bab-aeb4-e97315d2a959"}}, {"model": "ecommerce_client.category", "pk": "cc8f94d8-6420-4574-a2fe-5cf2d1f5f38e", "fields": {"name": "Watches", "emoji": "💍", "parent": "0ce50134-f026-4a90-9390-45d4d733bac8"}}, {"model": "ecommerce_client.category", "pk": "cdb5d62a-f261-4a23-beac-1d9cf794ab52", "fields": {"name": "Automotive Electronics", "emoji": "🔧", "parent": "e877b2a9-6fff-4e17-8571-3a6eb0ac0ad3"}}, {"model": "ecommerce_client.category", "pk": "d0462b28-bfd0-45ee-a37b-fa43c95c8a80", "fields": {"name": "Jigsaw Puzzles", "emoji": "🧩", "parent": "35506caf-dd0d-42e7-8893-af34e69e1b92"}}, {"model": "ecommerce_client.category", "pk": "d2346c09-7d97-451a-bb78-97737d053c85", "fields": {"name": "Pet Toys & Accessories", "emoji": "🐶", "parent": "febff3c9-d0a6-4da3-95dc-d28e04afbbc0"}}, {"model": "ecommerce_client.category", "pk": "d3482be0-a4bb-4912-b35a-d28b7568f554", "fields": {"name": "Luggage & Suitcases", "emoji": "✈️", "parent": "03cc79de-72b5-4454-a029-2aea7f539850"}}, {"model": "ecommerce_client.category", "pk": "d4a6fc91-4f65-4c9e-ae0f-38dd4600f2e0", "fields": {"name": "Face Makeup", "emoji": "💅", "parent": "151b597f-5446-4623-a44b-7f0db776591c"}}, {"model": "ecommerce_client.category", "pk": "d6337fc8-0244-4b65-a052-9f4c0763c8cf", "fields": {"name": "Board Games", "emoji": "🧸", "parent": "bc8717e5-4180-4fd4-ac33-79c5a2700dec"}}, {"model": "ecommerce_client.category", "pk": "d67925d3-6dc0-445f-8ccb-f5f988fda42e", "fields": {"name": "Jackets & Coats", "emoji": "👔", "parent": "b8f6e92f-4fdf-4149-abd4-b9bff07e4493"}}, {"model": "ecommerce_client.category", "pk": "da587899-59f6-4c4e-a0c3-b5dc68978e44", "fields": {"name": "Dresses", "emoji": "👗", "parent": "62b54c9a-ab39-4aed-9564-346a0af05c44"}}, {"model": "ecommerce_client.category", "pk": "dbc2a817-de6c-4524-95de-3168f506bef5", "fields": {"name": "Home Décor", "emoji": "💡", "parent": "08fc2ed6-0ede-491f-803b-f3dafe5af032"}}, {"model": "ecommerce_client.category", "pk": "ded452bd-e10a-45a8-993e-74125a7aaa40", "fields": {"name": "Fashion Watches", "emoji": "💍", "parent": "82ded232-012c-43b7-aeb4-a5da6d2571be"}}, {"model": "ecommerce_client.category", "pk": "e01c1eeb-1d1d-4bab-aeb4-e97315d2a959", "fields": {"name": "Movies & TV Shows", "emoji": "🎥", "parent": "6d3aa8d9-878e-43c8-985a-70c14e0bd9bb"}}, {"model": "ecommerce_client.category", "pk": "e27aa527-98d4-4a2d-b9eb-8a7df137c99c", "fields": {"name": "Office Electronics", "emoji": "📚", "parent": "bc6d1b21-0588-4607-b1ca-d0e459851c99"}}, {"model": "ecommerce_client.category", "pk": "e419f974-9207-4f56-8393-3bb7dcdb8c71", "fields": {"name": "Baby Gear", "emoji": "👶", "parent": "9159a73f-b239-41c4-89a8-43c66abf843b"}}, {"model": "ecommerce_client.category", "pk": "e74fd743-57f9-460e-8988-50be666e6a09", "fields": {"name": "Necklaces", "emoji": "💍", "parent": "0ce50134-f026-4a90-9390-45d4d733bac8"}}, {"model": "ecommerce_client.category", "pk": "e79f2ad1-9b74-48ff-a0d7-5ea20657f75f", "fields": {"name": "Pet Care & Grooming", "emoji": "🐶", "parent": "febff3c9-d0a6-4da3-95dc-d28e04afbbc0"}}, {"model": "ecommerce_client.category", "pk": "e7d51d34-0a83-405f-8307-5b3933a576cb", "fields": {"name": "Books", "emoji": "📖", "parent": "6d3aa8d9-878e-43c8-985a-70c14e0bd9bb"}}, {"model": "ecommerce_client.category", "pk": "e8366150-ff10-434e-89e2-741ca6372462", "fields": {"name": "Fashion", "emoji": "👗", "parent": null}}, {"model": "ecommerce_client.category", "pk": "e877b2a9-6fff-4e17-8571-3a6eb0ac0ad3", "fields": {"name": "Auto Parts & Accessories", "emoji": "🔧", "parent": "0f46d90d-1eca-44f3-8e73-56080b5c379e"}}, {"model": "ecommerce_client.category", "pk": "eaae184b-d25b-4646-a644-7cc121c7c414", "fields": {"name": "Jewelry", "emoji": "👜", "parent": "4d0a1120-e419-4c6e-9051-1e4cf1c65c1f"}}, {"model": "ecommerce_client.category", "pk": "ed0d0151-1e07-4240-9085-b20b05a47b53", "fields": {"name": "Action Figures", "emoji": "🧸", "parent": "bc8717e5-4180-4fd4-ac33-79c5a2700dec"}}, {"model": "ecommerce_client.category", "pk": "ed1b46cd-45c8-49b9-a8fb-06f6cff77374", "fields": {"name": "Smartphones", "emoji": "📱", "parent": "f04b59db-fa02-4539-a7cf-ad3248cc8d50"}}, {"model": "ecommerce_client.category", "pk": "edc7e069-a86d-4260-8a41-b153a9bb0fad", "fields": {"name": "Outerwear", "emoji": "👗", "parent": "62b54c9a-ab39-4aed-9564-346a0af05c44"}}, {"model": "ecommerce_client.category", "pk": "ef3b7dec-90a3-48eb-8346-4203829172a5", "fields": {"name": "Model Kits", "emoji": "🧩", "parent": "35506caf-dd0d-42e7-8893-af34e69e1b92"}}, {"model": "ecommerce_client.category", "pk": "ef692fdc-1011-47d9-9e5c-53b0943bf764", "fields": {"name": "Living Room", "emoji": "🪑", "parent": "55f6553c-0782-41d7-adeb-9f968414d279"}}, {"model": "ecommerce_client.category", "pk": "f04b59db-fa02-4539-a7cf-ad3248cc8d50", "fields": {"name": "Smartphones & Accessories", "emoji": "📱", "parent": "9ccf5013-2d50-4d43-8b6a-bfd8f5fa0691"}}, {"model": "ecommerce_client.category", "pk": "f2f40cad-6d34-49f9-84b1-3bc46a103ae8", "fields": {"name": "Eco-Friendly & Sustainable", "emoji": "🛍️", "parent": "a9fba063-8461-4b54-9053-91b08db59d13"}}, {"model": "ecommerce_client.category", "pk": "f663bbcd-45d8-4196-ad47-f440ea71318c", "fields": {"name": "Shoes", "emoji": "👔", "parent": "b8f6e92f-4fdf-4149-abd4-b9bff07e4493"}}, {"model": "ecommerce_client.category", "pk": "f8711492-f265-4e65-b1e3-fd4ef989abea", "fields": {"name": "Skincare", "emoji": "🧴", "parent": "474610c9-04e9-411c-94c5-211733f7ae80"}}, {"model": "ecommerce_client.category", "pk": "febff3c9-d0a6-4da3-95dc-d28e04afbbc0", "fields": {"name": "Pet Supplies", "emoji": "🐶", "parent": "87569cd4-1af3-485b-8e0b-b144a7d3c3eb"}}]
+[
+    {
+        "model": "ecommerce_client.category",
+        "pk": "01469ff0-5a47-49d8-8444-a5c0f2f26f4f",
+        "fields": {
+            "name": "Screen Protectors",
+            "emoji": "📱",
+            "parent": "f04b59db-fa02-4539-a7cf-ad3248cc8d50"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "025448a7-c22b-45c2-84a1-c5309f43837e",
+        "fields": {
+            "name": "Beverages",
+            "emoji": "🛒",
+            "parent": "92577252-ec6f-4b19-9a00-57901f6d93fd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "030c753e-6a23-4978-91c4-4c66c227e4f8",
+        "fields": {
+            "name": "Phone Cases & Covers",
+            "emoji": "📱",
+            "parent": "f04b59db-fa02-4539-a7cf-ad3248cc8d50"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "036ae2f3-61f1-446e-b711-304d5fdc5cc0",
+        "fields": {
+            "name": "Pants",
+            "emoji": "👔",
+            "parent": "b8f6e92f-4fdf-4149-abd4-b9bff07e4493"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "03cc79de-72b5-4454-a029-2aea7f539850",
+        "fields": {
+            "name": "Travel & Luggage",
+            "emoji": "✈️",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "044cc165-d329-424c-964b-110c85a89bda",
+        "fields": {
+            "name": "Interior Accessories",
+            "emoji": "🔧",
+            "parent": "e877b2a9-6fff-4e17-8571-3a6eb0ac0ad3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "047b0006-4ea2-4d8b-904b-70baf9fba9d5",
+        "fields": {
+            "name": "Fiction",
+            "emoji": "📖",
+            "parent": "e7d51d34-0a83-405f-8307-5b3933a576cb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "05046bd2-cf25-44ea-aea8-e34a70a0f8d2",
+        "fields": {
+            "name": "Dolls & Dollhouses",
+            "emoji": "🧸",
+            "parent": "bc8717e5-4180-4fd4-ac33-79c5a2700dec"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "07945890-fc2c-4dc5-ab57-11b2fd46d837",
+        "fields": {
+            "name": "Mixers & Cocktails",
+            "emoji": "🍷",
+            "parent": "61c2099b-7dd6-448e-847f-d0e9a1f7e3e5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "08ee91d5-a656-4dac-aa2c-d0d766306b03",
+        "fields": {
+            "name": "Toys & Games",
+            "emoji": "🎮",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "08fc2ed6-0ede-491f-803b-f3dafe5af032",
+        "fields": {
+            "name": "Décor & Lighting",
+            "emoji": "💡",
+            "parent": "9130716f-179f-423d-b3d9-c70148249147"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0a1eae14-2516-496d-a283-fb88e321c7f4",
+        "fields": {
+            "name": "Kitchen Appliances",
+            "emoji": "🧺",
+            "parent": "158364e9-f35e-41ad-87ff-469ddd1c1cb4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0a2fceeb-5597-4003-a09a-9853a3add7e8",
+        "fields": {
+            "name": "Backpacks & Bags",
+            "emoji": "✈️",
+            "parent": "03cc79de-72b5-4454-a029-2aea7f539850"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0b82a929-fdc3-4d1c-b8fb-082adea73478",
+        "fields": {
+            "name": "Mystery & Thriller",
+            "emoji": "📖",
+            "parent": "e7d51d34-0a83-405f-8307-5b3933a576cb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0c571d1f-64d3-4ef5-8fb9-3b5c84dd8bac",
+        "fields": {
+            "name": "Sunscreen",
+            "emoji": "🧴",
+            "parent": "f8711492-f265-4e65-b1e3-fd4ef989abea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0ce50134-f026-4a90-9390-45d4d733bac8",
+        "fields": {
+            "name": "Fine Jewelry",
+            "emoji": "💍",
+            "parent": "3c41049f-f39d-4285-b063-0ef9ee6add4c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0dca1ae2-cd79-4e00-abd2-68ef1bfd0bc4",
+        "fields": {
+            "name": "Music Accessories",
+            "emoji": "🎵",
+            "parent": "8f712573-b890-4dc1-a091-640c9434874d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0ef32abc-9c47-4491-82d6-23149067327d",
+        "fields": {
+            "name": "Personal Care",
+            "emoji": "🚿",
+            "parent": "474610c9-04e9-411c-94c5-211733f7ae80"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0f46d90d-1eca-44f3-8e73-56080b5c379e",
+        "fields": {
+            "name": "Automotive",
+            "emoji": "🚗",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0fb65199-f856-4579-9554-e4756e83220a",
+        "fields": {
+            "name": "Digital Downloads",
+            "emoji": "🎵",
+            "parent": "8f712573-b890-4dc1-a091-640c9434874d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "106acf83-3a7c-4e36-a550-578ceb5df094",
+        "fields": {
+            "name": "Cat Supplies",
+            "emoji": "🐶",
+            "parent": "febff3c9-d0a6-4da3-95dc-d28e04afbbc0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "11e94850-4a79-4660-8138-d45fdeb0e77a",
+        "fields": {
+            "name": "Biking",
+            "emoji": "⚽",
+            "parent": "4fe5c403-90b8-4088-9f87-778b4225e7d9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "151b597f-5446-4623-a44b-7f0db776591c",
+        "fields": {
+            "name": "Makeup",
+            "emoji": "💅",
+            "parent": "474610c9-04e9-411c-94c5-211733f7ae80"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "158364e9-f35e-41ad-87ff-469ddd1c1cb4",
+        "fields": {
+            "name": "Appliances",
+            "emoji": "🧺",
+            "parent": "9130716f-179f-423d-b3d9-c70148249147"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "16dfc421-f99d-4493-8c22-9a90f364e77a",
+        "fields": {
+            "name": "Printers & Scanners",
+            "emoji": "💻",
+            "parent": "3d068d51-d70e-48d0-a56b-256ff3a19d05"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1707fc1a-bf3d-4827-aead-2bb04c549407",
+        "fields": {
+            "name": "Makeup Tools & Brushes",
+            "emoji": "💅",
+            "parent": "151b597f-5446-4623-a44b-7f0db776591c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1778cbcb-2596-44f8-9219-e7668edebfd1",
+        "fields": {
+            "name": "Pantry Staples",
+            "emoji": "🛒",
+            "parent": "92577252-ec6f-4b19-9a00-57901f6d93fd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1de8bf57-9617-49fc-9a96-5a093a767c0f",
+        "fields": {
+            "name": "Toys & Games",
+            "emoji": "👶",
+            "parent": "9159a73f-b239-41c4-89a8-43c66abf843b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "20b2cc35-6cd4-4d4c-9c91-c32259f36733",
+        "fields": {
+            "name": "Vacuum Cleaners",
+            "emoji": "🧺",
+            "parent": "158364e9-f35e-41ad-87ff-469ddd1c1cb4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "23171739-d976-4efb-b50c-eb5c648bff72",
+        "fields": {
+            "name": "Streaming",
+            "emoji": "🎥",
+            "parent": "e01c1eeb-1d1d-4bab-aeb4-e97315d2a959"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "248c4091-4c3c-4458-9815-4e66946db74a",
+        "fields": {
+            "name": "Music Instruments",
+            "emoji": "🎵",
+            "parent": "8f712573-b890-4dc1-a091-640c9434874d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "24befebd-5bfc-474a-80ae-7c81aaac860b",
+        "fields": {
+            "name": "Nursery & Décor",
+            "emoji": "👶",
+            "parent": "9159a73f-b239-41c4-89a8-43c66abf843b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "26221ed0-3215-4026-b8a5-1ed9f311c72f",
+        "fields": {
+            "name": "Car Safety & Security",
+            "emoji": "🔧",
+            "parent": "e877b2a9-6fff-4e17-8571-3a6eb0ac0ad3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2a14d585-32ba-4c95-b38e-38bd21a29e9e",
+        "fields": {
+            "name": "Tops",
+            "emoji": "👗",
+            "parent": "62b54c9a-ab39-4aed-9564-346a0af05c44"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2d476411-fb75-47a1-8940-2261f64ce1d1",
+        "fields": {
+            "name": "Paper & Notebooks",
+            "emoji": "📚",
+            "parent": "bc6d1b21-0588-4607-b1ca-d0e459851c99"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2d664143-7d83-4c92-a406-d5183920324e",
+        "fields": {
+            "name": "Oils & Fluids",
+            "emoji": "🔧",
+            "parent": "e877b2a9-6fff-4e17-8571-3a6eb0ac0ad3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2fbce7dd-70d5-4885-979b-cffb1c0bca9b",
+        "fields": {
+            "name": "Documentaries",
+            "emoji": "🎥",
+            "parent": "e01c1eeb-1d1d-4bab-aeb4-e97315d2a959"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "313bfd31-9212-4d19-aa4e-b837dffebf9c",
+        "fields": {
+            "name": "Beer",
+            "emoji": "🍷",
+            "parent": "61c2099b-7dd6-448e-847f-d0e9a1f7e3e5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3247d28b-8845-4715-a85d-0d586987c582",
+        "fields": {
+            "name": "Desktops",
+            "emoji": "💻",
+            "parent": "3d068d51-d70e-48d0-a56b-256ff3a19d05"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3495aa60-ffd7-4a7e-a37c-3228341652db",
+        "fields": {
+            "name": "Food & Beverages",
+            "emoji": "🍽️",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "34c005c9-7f16-45ed-8f91-e07ca1ee328a",
+        "fields": {
+            "name": "Car Maintenance",
+            "emoji": "🔧",
+            "parent": "e877b2a9-6fff-4e17-8571-3a6eb0ac0ad3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "34d75006-20ef-4834-9b5c-f548e4834ff6",
+        "fields": {
+            "name": "Gourmet Foods",
+            "emoji": "🛒",
+            "parent": "92577252-ec6f-4b19-9a00-57901f6d93fd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "35506caf-dd0d-42e7-8893-af34e69e1b92",
+        "fields": {
+            "name": "Hobbies & Collectibles",
+            "emoji": "🧩",
+            "parent": "08ee91d5-a656-4dac-aa2c-d0d766306b03"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3aaa8b75-3ad7-496d-9143-228b4b976ff1",
+        "fields": {
+            "name": "Serums & Treatments",
+            "emoji": "🧴",
+            "parent": "f8711492-f265-4e65-b1e3-fd4ef989abea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3c41049f-f39d-4285-b063-0ef9ee6add4c",
+        "fields": {
+            "name": "Jewelry & Watches",
+            "emoji": "💍",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3c4d216d-4759-43e5-95f7-4d781a330c2e",
+        "fields": {
+            "name": "Reptile & Amphibian Supplies",
+            "emoji": "🐶",
+            "parent": "febff3c9-d0a6-4da3-95dc-d28e04afbbc0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3d068d51-d70e-48d0-a56b-256ff3a19d05",
+        "fields": {
+            "name": "Computers & Accessories",
+            "emoji": "💻",
+            "parent": "9ccf5013-2d50-4d43-8b6a-bfd8f5fa0691"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3d412a63-b2b8-4270-80a3-1a92f878d35f",
+        "fields": {
+            "name": "Hats & Caps",
+            "emoji": "👜",
+            "parent": "4d0a1120-e419-4c6e-9051-1e4cf1c65c1f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3dcb42db-9252-433e-90b4-95b8242b4feb",
+        "fields": {
+            "name": "Exercise & Fitness",
+            "emoji": "⚽",
+            "parent": "4fe5c403-90b8-4088-9f87-778b4225e7d9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3f2fad50-918f-431b-bb29-10deae3bb3ff",
+        "fields": {
+            "name": "Televisions",
+            "emoji": "🎧",
+            "parent": "98f670e4-73a2-4bf1-b758-1a3ed53913a6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "43339356-fa8b-4608-814b-3c3ab71c0f99",
+        "fields": {
+            "name": "Headphones & Earphones",
+            "emoji": "🎧",
+            "parent": "98f670e4-73a2-4bf1-b758-1a3ed53913a6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "45eb00b4-ab42-4b14-ae61-803bb6d3224b",
+        "fields": {
+            "name": "Activewear",
+            "emoji": "🏃",
+            "parent": "9df22a16-9202-49f2-ac53-5dc435b7ec2a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "46178df0-762e-43fd-ad30-87e3274d34e2",
+        "fields": {
+            "name": "Cameras & Camcorders",
+            "emoji": "🎧",
+            "parent": "98f670e4-73a2-4bf1-b758-1a3ed53913a6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4673033b-0f80-41a2-9bf2-ac28d96268a4",
+        "fields": {
+            "name": "Lighting Fixtures",
+            "emoji": "💡",
+            "parent": "08fc2ed6-0ede-491f-803b-f3dafe5af032"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "474610c9-04e9-411c-94c5-211733f7ae80",
+        "fields": {
+            "name": "Health & Beauty",
+            "emoji": "💄",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "476e89a9-dfcb-4f81-baf6-623eb92c1317",
+        "fields": {
+            "name": "Oral Care",
+            "emoji": "🚿",
+            "parent": "0ef32abc-9c47-4491-82d6-23149067327d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4a0e2841-4836-4bac-9211-30df5733c859",
+        "fields": {
+            "name": "Sports Supplements",
+            "emoji": "🏃",
+            "parent": "9df22a16-9202-49f2-ac53-5dc435b7ec2a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4b650142-2cd0-409c-91e5-39968f1a31cf",
+        "fields": {
+            "name": "CDs & Vinyl",
+            "emoji": "🎵",
+            "parent": "8f712573-b890-4dc1-a091-640c9434874d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4d0a1120-e419-4c6e-9051-1e4cf1c65c1f",
+        "fields": {
+            "name": "Accessories",
+            "emoji": "👜",
+            "parent": "e8366150-ff10-434e-89e2-741ca6372462"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4d854772-e26e-496f-bf62-195bcea15fff",
+        "fields": {
+            "name": "Diapers & Potty Training",
+            "emoji": "👶",
+            "parent": "9159a73f-b239-41c4-89a8-43c66abf843b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4eec170d-85ad-4ab0-86e5-0711c97829cb",
+        "fields": {
+            "name": "Bird Supplies",
+            "emoji": "🐶",
+            "parent": "febff3c9-d0a6-4da3-95dc-d28e04afbbc0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4f001879-f5d7-41e5-a455-06b3c605deec",
+        "fields": {
+            "name": "Rings",
+            "emoji": "💍",
+            "parent": "0ce50134-f026-4a90-9390-45d4d733bac8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4fe5c403-90b8-4088-9f87-778b4225e7d9",
+        "fields": {
+            "name": "Sports Equipment",
+            "emoji": "⚽",
+            "parent": "cba1252f-206a-4996-8ea9-05070610e203"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "528fe4a0-9433-4c5d-9352-731bd2321c10",
+        "fields": {
+            "name": "Biography",
+            "emoji": "📖",
+            "parent": "e7d51d34-0a83-405f-8307-5b3933a576cb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "54710573-b8ff-408c-a676-36a1f071c4a4",
+        "fields": {
+            "name": "Suits & Blazers",
+            "emoji": "👔",
+            "parent": "b8f6e92f-4fdf-4149-abd4-b9bff07e4493"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "54798536-c284-4e8d-bf9c-f0b43689ee68",
+        "fields": {
+            "name": "Bedroom",
+            "emoji": "🪑",
+            "parent": "55f6553c-0782-41d7-adeb-9f968414d279"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "54d139c3-94b2-4442-9123-b86282e57753",
+        "fields": {
+            "name": "Bath & Body",
+            "emoji": "🚿",
+            "parent": "0ef32abc-9c47-4491-82d6-23149067327d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "55f6553c-0782-41d7-adeb-9f968414d279",
+        "fields": {
+            "name": "Furniture",
+            "emoji": "🪑",
+            "parent": "9130716f-179f-423d-b3d9-c70148249147"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5626be1e-af35-4144-907a-cd8c1026bacd",
+        "fields": {
+            "name": "Writing Instruments",
+            "emoji": "📚",
+            "parent": "bc6d1b21-0588-4607-b1ca-d0e459851c99"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "565b026c-1b0f-464b-b0ad-6f65a6e2390b",
+        "fields": {
+            "name": "Tires & Wheels",
+            "emoji": "🔧",
+            "parent": "e877b2a9-6fff-4e17-8571-3a6eb0ac0ad3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "57eb02e6-bbe1-4c48-866f-c4d94c9fabd1",
+        "fields": {
+            "name": "Pet Food",
+            "emoji": "🐶",
+            "parent": "87569cd4-1af3-485b-8e0b-b144a7d3c3eb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "583ac01e-619f-4189-9675-d3c75b28a6da",
+        "fields": {
+            "name": "Fresh Produce",
+            "emoji": "🛒",
+            "parent": "92577252-ec6f-4b19-9a00-57901f6d93fd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5845f0f7-74bb-48ad-b2d8-729df3d8ab23",
+        "fields": {
+            "name": "Headphones & Earbuds",
+            "emoji": "🎧",
+            "parent": "f04b59db-fa02-4539-a7cf-ad3248cc8d50"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "58ad0bdf-01f1-458f-9e6c-9bb4cd5ec728",
+        "fields": {
+            "name": "Shirts",
+            "emoji": "👔",
+            "parent": "b8f6e92f-4fdf-4149-abd4-b9bff07e4493"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "591185cc-bfb9-427c-b58c-8e8d85a7a4a3",
+        "fields": {
+            "name": "Dog Supplies",
+            "emoji": "🐶",
+            "parent": "febff3c9-d0a6-4da3-95dc-d28e04afbbc0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5a102f2f-c037-4e25-a5df-bf2d5c9f57c3",
+        "fields": {
+            "name": "Baby Clothing",
+            "emoji": "👶",
+            "parent": "9159a73f-b239-41c4-89a8-43c66abf843b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5a34176e-12a7-480a-ae37-8fc7e1b9b1c2",
+        "fields": {
+            "name": "Ethnic & Cultural",
+            "emoji": "🛍️",
+            "parent": "a9fba063-8461-4b54-9053-91b08db59d13"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5bb56e0a-2db0-41fb-b63c-3b84798e83f1",
+        "fields": {
+            "name": "Sports Bags",
+            "emoji": "🏃",
+            "parent": "9df22a16-9202-49f2-ac53-5dc435b7ec2a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5c4ffead-c7c1-48d0-b082-40d1fc098f18",
+        "fields": {
+            "name": "Eye Makeup",
+            "emoji": "💅",
+            "parent": "151b597f-5446-4623-a44b-7f0db776591c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5e4c3605-5fd9-4c53-aa70-487b4f4b63a2",
+        "fields": {
+            "name": "Keyboards & Mice",
+            "emoji": "💻",
+            "parent": "3d068d51-d70e-48d0-a56b-256ff3a19d05"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "61c2099b-7dd6-448e-847f-d0e9a1f7e3e5",
+        "fields": {
+            "name": "Alcohol",
+            "emoji": "🍷",
+            "parent": "3495aa60-ffd7-4a7e-a37c-3228341652db"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "620f09d6-6e5d-41b9-a014-a0f1ffd8aa80",
+        "fields": {
+            "name": "Car Care",
+            "emoji": "🔧",
+            "parent": "e877b2a9-6fff-4e17-8571-3a6eb0ac0ad3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6262a4bf-f1fb-4804-8801-160c252339fb",
+        "fields": {
+            "name": "Concert Tickets",
+            "emoji": "🎵",
+            "parent": "8f712573-b890-4dc1-a091-640c9434874d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "62b54c9a-ab39-4aed-9564-346a0af05c44",
+        "fields": {
+            "name": "Women's Clothing",
+            "emoji": "👗",
+            "parent": "e8366150-ff10-434e-89e2-741ca6372462"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "63c3afce-65be-4943-a62a-5acdfa06780c",
+        "fields": {
+            "name": "Spirits",
+            "emoji": "🍷",
+            "parent": "61c2099b-7dd6-448e-847f-d0e9a1f7e3e5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "67534de5-2589-41a1-a5fa-0a2f96174a7e",
+        "fields": {
+            "name": "Bracelets",
+            "emoji": "💍",
+            "parent": "0ce50134-f026-4a90-9390-45d4d733bac8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6af59c98-9e71-464f-a1f3-4e9916e2d348",
+        "fields": {
+            "name": "Wine",
+            "emoji": "🍷",
+            "parent": "61c2099b-7dd6-448e-847f-d0e9a1f7e3e5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6b01dcd0-71f7-4459-8585-0fa1ef1383cb",
+        "fields": {
+            "name": "Science Fiction",
+            "emoji": "📖",
+            "parent": "e7d51d34-0a83-405f-8307-5b3933a576cb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6b6ff6c8-2dfc-49ba-85cf-4f670525d643",
+        "fields": {
+            "name": "Bottoms",
+            "emoji": "👗",
+            "parent": "62b54c9a-ab39-4aed-9564-346a0af05c44"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6c050ecb-fe01-49f3-b27c-da503bc467ca",
+        "fields": {
+            "name": "Earrings",
+            "emoji": "💍",
+            "parent": "0ce50134-f026-4a90-9390-45d4d733bac8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6d3aa8d9-878e-43c8-985a-70c14e0bd9bb",
+        "fields": {
+            "name": "Books, Movies & Music",
+            "emoji": "📚",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6e3fe637-d9f4-4d17-96cf-82f591a6eb70",
+        "fields": {
+            "name": "Educational Toys",
+            "emoji": "🧸",
+            "parent": "bc8717e5-4180-4fd4-ac33-79c5a2700dec"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "70327b06-e872-4dfe-9e14-6a725f0d8efe",
+        "fields": {
+            "name": "Shaving & Grooming",
+            "emoji": "🚿",
+            "parent": "0ef32abc-9c47-4491-82d6-23149067327d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "715c5ac4-ab6c-42ce-af91-0fbe1b754317",
+        "fields": {
+            "name": "Cleaning & Detailing",
+            "emoji": "🔧",
+            "parent": "e877b2a9-6fff-4e17-8571-3a6eb0ac0ad3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7283b168-7f67-4b27-bc09-9cbfe0a65c5c",
+        "fields": {
+            "name": "Cleansers & Toners",
+            "emoji": "🧴",
+            "parent": "f8711492-f265-4e65-b1e3-fd4ef989abea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "733e3bd7-2a59-45d2-8c7d-5c1de3ae182b",
+        "fields": {
+            "name": "Handmade & Artisanal",
+            "emoji": "🛍️",
+            "parent": "a9fba063-8461-4b54-9053-91b08db59d13"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7374c407-c612-480b-ac27-7d856f3f9429",
+        "fields": {
+            "name": "Champagne & Sparkling Wine",
+            "emoji": "🍷",
+            "parent": "61c2099b-7dd6-448e-847f-d0e9a1f7e3e5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "742518d7-d0ce-4de0-ab1f-53ee19aa275b",
+        "fields": {
+            "name": "Rugs & Carpets",
+            "emoji": "💡",
+            "parent": "08fc2ed6-0ede-491f-803b-f3dafe5af032"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "74fe9a83-1905-427f-8429-abb9a4b922c7",
+        "fields": {
+            "name": "Luxury & High-End",
+            "emoji": "🛍️",
+            "parent": "a9fba063-8461-4b54-9053-91b08db59d13"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "75a734f6-25b6-4942-a120-a09a9cd92937",
+        "fields": {
+            "name": "Watches",
+            "emoji": "👜",
+            "parent": "4d0a1120-e419-4c6e-9051-1e4cf1c65c1f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7792bc7a-4825-434a-a8ee-46473d747f28",
+        "fields": {
+            "name": "Lip Makeup",
+            "emoji": "💅",
+            "parent": "151b597f-5446-4623-a44b-7f0db776591c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7bb1341e-cba9-4220-8d43-0e79fcc286f9",
+        "fields": {
+            "name": "Laundry Appliances",
+            "emoji": "🧺",
+            "parent": "158364e9-f35e-41ad-87ff-469ddd1c1cb4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7eba77a8-3852-4f1c-9133-0cec665910ac",
+        "fields": {
+            "name": "School Supplies",
+            "emoji": "📚",
+            "parent": "bc6d1b21-0588-4607-b1ca-d0e459851c99"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7f30f608-e6c9-4a0c-a43f-a5e1d890b845",
+        "fields": {
+            "name": "Moisturizers",
+            "emoji": "🧴",
+            "parent": "f8711492-f265-4e65-b1e3-fd4ef989abea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7fae341b-2097-4fba-bab1-9f7b9aa8f853",
+        "fields": {
+            "name": "Chargers & Cables",
+            "emoji": "📱",
+            "parent": "f04b59db-fa02-4539-a7cf-ad3248cc8d50"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "825720d1-d5f3-4171-8bea-2f3e692deee3",
+        "fields": {
+            "name": "Costume Jewelry",
+            "emoji": "💍",
+            "parent": "82ded232-012c-43b7-aeb4-a5da6d2571be"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "82ded232-012c-43b7-aeb4-a5da6d2571be",
+        "fields": {
+            "name": "Fashion Jewelry",
+            "emoji": "💍",
+            "parent": "3c41049f-f39d-4285-b063-0ef9ee6add4c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "875366a2-6fde-4281-9fc2-e62ab184a667",
+        "fields": {
+            "name": "Home Security",
+            "emoji": "🧺",
+            "parent": "158364e9-f35e-41ad-87ff-469ddd1c1cb4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "87569cd4-1af3-485b-8e0b-b144a7d3c3eb",
+        "fields": {
+            "name": "Pets",
+            "emoji": "🐾",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "882d6596-ec8e-4baa-b0da-41230560e415",
+        "fields": {
+            "name": "Footwear",
+            "emoji": "👗",
+            "parent": "62b54c9a-ab39-4aed-9564-346a0af05c44"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8c2f495a-d0ca-4abb-a68f-8066378f1577",
+        "fields": {
+            "name": "Dining Room",
+            "emoji": "🪑",
+            "parent": "55f6553c-0782-41d7-adeb-9f968414d279"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8d235dc4-f1e0-4d39-bb9a-3d7c8a60d057",
+        "fields": {
+            "name": "Monitors",
+            "emoji": "💻",
+            "parent": "3d068d51-d70e-48d0-a56b-256ff3a19d05"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8d87084a-c571-434f-9710-ed78da3cd259",
+        "fields": {
+            "name": "Home Audio Systems",
+            "emoji": "🎧",
+            "parent": "98f670e4-73a2-4bf1-b758-1a3ed53913a6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8f65c2e6-4583-464f-aed4-350490ea0a2a",
+        "fields": {
+            "name": "Collectible Cards",
+            "emoji": "🧩",
+            "parent": "35506caf-dd0d-42e7-8893-af34e69e1b92"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8f712573-b890-4dc1-a091-640c9434874d",
+        "fields": {
+            "name": "Music",
+            "emoji": "🎵",
+            "parent": "6d3aa8d9-878e-43c8-985a-70c14e0bd9bb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8fce6c64-b58f-474d-b477-613b7e426c56",
+        "fields": {
+            "name": "Laptops",
+            "emoji": "💻",
+            "parent": "3d068d51-d70e-48d0-a56b-256ff3a19d05"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9130716f-179f-423d-b3d9-c70148249147",
+        "fields": {
+            "name": "Home & Garden",
+            "emoji": "🏡",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9159a73f-b239-41c4-89a8-43c66abf843b",
+        "fields": {
+            "name": "Baby & Kids",
+            "emoji": "👶",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "92577252-ec6f-4b19-9a00-57901f6d93fd",
+        "fields": {
+            "name": "Groceries",
+            "emoji": "🛒",
+            "parent": "3495aa60-ffd7-4a7e-a37c-3228341652db"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "973c74f5-337b-41bb-b173-6b280926a8e3",
+        "fields": {
+            "name": "Travel Accessories",
+            "emoji": "✈️",
+            "parent": "03cc79de-72b5-4454-a029-2aea7f539850"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "97a66a42-d69d-4842-8169-5fe1586dfe7b",
+        "fields": {
+            "name": "Vintage & Collectibles",
+            "emoji": "🛍️",
+            "parent": "a9fba063-8461-4b54-9053-91b08db59d13"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "98f1fce7-e6b7-485c-8c5c-405aa8347b02",
+        "fields": {
+            "name": "Fragrances",
+            "emoji": "🚿",
+            "parent": "0ef32abc-9c47-4491-82d6-23149067327d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "98f670e4-73a2-4bf1-b758-1a3ed53913a6",
+        "fields": {
+            "name": "Audio & Video",
+            "emoji": "🎧",
+            "parent": "9ccf5013-2d50-4d43-8b6a-bfd8f5fa0691"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9bf6111d-6d18-496b-8b1c-cf3a28a8c537",
+        "fields": {
+            "name": "Exterior Accessories",
+            "emoji": "🔧",
+            "parent": "e877b2a9-6fff-4e17-8571-3a6eb0ac0ad3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9c8c609c-94b5-42ec-b485-2152bb07de20",
+        "fields": {
+            "name": "Snacks & Candy",
+            "emoji": "🛒",
+            "parent": "92577252-ec6f-4b19-9a00-57901f6d93fd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9cb49620-3c58-4bf0-86b5-ae4916c00180",
+        "fields": {
+            "name": "Tools & Equipment",
+            "emoji": "🔧",
+            "parent": "e877b2a9-6fff-4e17-8571-3a6eb0ac0ad3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9ccf5013-2d50-4d43-8b6a-bfd8f5fa0691",
+        "fields": {
+            "name": "Electronics",
+            "emoji": "📱",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9df22a16-9202-49f2-ac53-5dc435b7ec2a",
+        "fields": {
+            "name": "Athletic Apparel",
+            "emoji": "🏃",
+            "parent": "cba1252f-206a-4996-8ea9-05070610e203"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9e025cec-2142-46c2-be64-76da25d63985",
+        "fields": {
+            "name": "Outdoor Recreation",
+            "emoji": "⚽",
+            "parent": "4fe5c403-90b8-4088-9f87-778b4225e7d9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9f02c532-4024-4cb7-bc45-8bead23b45e1",
+        "fields": {
+            "name": "Curtains & Blinds",
+            "emoji": "💡",
+            "parent": "08fc2ed6-0ede-491f-803b-f3dafe5af032"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9f58b720-0140-49b1-b844-97a2c81f92a6",
+        "fields": {
+            "name": "Heating & Cooling",
+            "emoji": "🧺",
+            "parent": "158364e9-f35e-41ad-87ff-469ddd1c1cb4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a0edaafa-cb08-41db-9880-9073be818ca6",
+        "fields": {
+            "name": "DVD",
+            "emoji": "🎥",
+            "parent": "e01c1eeb-1d1d-4bab-aeb4-e97315d2a959"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a14a59fd-ef5d-43b4-a609-cfe50fd24154",
+        "fields": {
+            "name": "Office Furniture",
+            "emoji": "📚",
+            "parent": "bc6d1b21-0588-4607-b1ca-d0e459851c99"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a26ea9e6-0d24-4456-82e7-9797e7a44fa0",
+        "fields": {
+            "name": "Travel Clothing",
+            "emoji": "✈️",
+            "parent": "03cc79de-72b5-4454-a029-2aea7f539850"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a3d600a1-43ee-4bb7-8e8c-efc213dd29ae",
+        "fields": {
+            "name": "Jewelry Storage",
+            "emoji": "💍",
+            "parent": "82ded232-012c-43b7-aeb4-a5da6d2571be"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a3e668a9-1c52-421e-ad90-8f2bfddd63cd",
+        "fields": {
+            "name": "Outdoor",
+            "emoji": "🪑",
+            "parent": "55f6553c-0782-41d7-adeb-9f968414d279"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a6e6b452-5966-4eae-a184-165c445442df",
+        "fields": {
+            "name": "Camping & Hiking",
+            "emoji": "⚽",
+            "parent": "4fe5c403-90b8-4088-9f87-778b4225e7d9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a7db01fc-10a3-4b6f-85df-6e1ee217f1f0",
+        "fields": {
+            "name": "Handbags & Purses",
+            "emoji": "👜",
+            "parent": "4d0a1120-e419-4c6e-9051-1e4cf1c65c1f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a9fba063-8461-4b54-9053-91b08db59d13",
+        "fields": {
+            "name": "Specialty Stores",
+            "emoji": "🛍️",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aaafc5a0-0465-4905-a059-958a642e5120",
+        "fields": {
+            "name": "TV Series",
+            "emoji": "🎥",
+            "parent": "e01c1eeb-1d1d-4bab-aeb4-e97315d2a959"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ab688690-1d37-464c-912a-6fc42d710df1",
+        "fields": {
+            "name": "RC Vehicles",
+            "emoji": "🧩",
+            "parent": "35506caf-dd0d-42e7-8893-af34e69e1b92"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ac858b83-8878-4afa-bd33-d051a30f714b",
+        "fields": {
+            "name": "Outdoor Play",
+            "emoji": "🧸",
+            "parent": "bc8717e5-4180-4fd4-ac33-79c5a2700dec"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ad1b14a2-b948-4e14-b025-2b9f3c474a0a",
+        "fields": {
+            "name": "Sports Accessories",
+            "emoji": "🏃",
+            "parent": "9df22a16-9202-49f2-ac53-5dc435b7ec2a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ad97eea9-5239-46f3-aa19-992fedc191dd",
+        "fields": {
+            "name": "Sunglasses",
+            "emoji": "👜",
+            "parent": "4d0a1120-e419-4c6e-9051-1e4cf1c65c1f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b05680e3-195c-45a8-934a-4ea0024899b6",
+        "fields": {
+            "name": "Car Audio & Electronics",
+            "emoji": "🔧",
+            "parent": "e877b2a9-6fff-4e17-8571-3a6eb0ac0ad3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b1979b6e-44eb-4d6b-be94-4bd6766e1927",
+        "fields": {
+            "name": "Travel Electronics",
+            "emoji": "✈️",
+            "parent": "03cc79de-72b5-4454-a029-2aea7f539850"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b4ae480e-8cd7-4633-8bbe-7b0b7e9a030e",
+        "fields": {
+            "name": "Wall Art",
+            "emoji": "💡",
+            "parent": "08fc2ed6-0ede-491f-803b-f3dafe5af032"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b53d5f5a-376b-4887-9761-2be3998c972e",
+        "fields": {
+            "name": "Acne Care",
+            "emoji": "🧴",
+            "parent": "f8711492-f265-4e65-b1e3-fd4ef989abea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b6bc471b-88cf-496a-8c9d-f80fff8a30e9",
+        "fields": {
+            "name": "Desk Accessories",
+            "emoji": "📚",
+            "parent": "bc6d1b21-0588-4607-b1ca-d0e459851c99"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b8381e0b-2e35-46d7-b392-5c11fbd25eb1",
+        "fields": {
+            "name": "Athletic Shoes",
+            "emoji": "🏃",
+            "parent": "9df22a16-9202-49f2-ac53-5dc435b7ec2a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b8c3c058-97f8-41fa-9dee-4cc038eb8dc3",
+        "fields": {
+            "name": "Non-Fiction",
+            "emoji": "📖",
+            "parent": "e7d51d34-0a83-405f-8307-5b3933a576cb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b8e157f9-e80c-4382-a632-b30770093b15",
+        "fields": {
+            "name": "Statement Necklaces",
+            "emoji": "💍",
+            "parent": "82ded232-012c-43b7-aeb4-a5da6d2571be"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b8f6e92f-4fdf-4149-abd4-b9bff07e4493",
+        "fields": {
+            "name": "Men's Clothing",
+            "emoji": "👔",
+            "parent": "e8366150-ff10-434e-89e2-741ca6372462"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b991a482-0b9b-41b2-b760-d46c3c0efc9f",
+        "fields": {
+            "name": "Projectors",
+            "emoji": "🎧",
+            "parent": "98f670e4-73a2-4bf1-b758-1a3ed53913a6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bb86bf28-1733-4e56-aeeb-317a29465f3d",
+        "fields": {
+            "name": "Arts & Crafts",
+            "emoji": "🧩",
+            "parent": "35506caf-dd0d-42e7-8893-af34e69e1b92"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bc6d1b21-0588-4607-b1ca-d0e459851c99",
+        "fields": {
+            "name": "Office & School Supplies",
+            "emoji": "📚",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bc8717e5-4180-4fd4-ac33-79c5a2700dec",
+        "fields": {
+            "name": "Toys for Kids",
+            "emoji": "🧸",
+            "parent": "08ee91d5-a656-4dac-aa2c-d0d766306b03"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bf6c9717-0720-4e26-9851-b1e56ebcba62",
+        "fields": {
+            "name": "Small Animal Supplies",
+            "emoji": "🐶",
+            "parent": "febff3c9-d0a6-4da3-95dc-d28e04afbbc0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c36f7fde-6799-403a-89b1-b4484bdb2daa",
+        "fields": {
+            "name": "Team Sports",
+            "emoji": "⚽",
+            "parent": "4fe5c403-90b8-4088-9f87-778b4225e7d9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c586d4d6-9bd5-4158-9ee0-2cc4cff84b85",
+        "fields": {
+            "name": "Hair Care",
+            "emoji": "🚿",
+            "parent": "0ef32abc-9c47-4491-82d6-23149067327d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cba1252f-206a-4996-8ea9-05070610e203",
+        "fields": {
+            "name": "Sports & Outdoors",
+            "emoji": "🏋️",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cc3f3814-0a5b-4d33-81ae-e093f9edabfa",
+        "fields": {
+            "name": "Blu-ray",
+            "emoji": "🎥",
+            "parent": "e01c1eeb-1d1d-4bab-aeb4-e97315d2a959"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cc8f94d8-6420-4574-a2fe-5cf2d1f5f38e",
+        "fields": {
+            "name": "Watches",
+            "emoji": "💍",
+            "parent": "0ce50134-f026-4a90-9390-45d4d733bac8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cdb5d62a-f261-4a23-beac-1d9cf794ab52",
+        "fields": {
+            "name": "Automotive Electronics",
+            "emoji": "🔧",
+            "parent": "e877b2a9-6fff-4e17-8571-3a6eb0ac0ad3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d0462b28-bfd0-45ee-a37b-fa43c95c8a80",
+        "fields": {
+            "name": "Jigsaw Puzzles",
+            "emoji": "🧩",
+            "parent": "35506caf-dd0d-42e7-8893-af34e69e1b92"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d2346c09-7d97-451a-bb78-97737d053c85",
+        "fields": {
+            "name": "Pet Toys & Accessories",
+            "emoji": "🐶",
+            "parent": "febff3c9-d0a6-4da3-95dc-d28e04afbbc0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d3482be0-a4bb-4912-b35a-d28b7568f554",
+        "fields": {
+            "name": "Luggage & Suitcases",
+            "emoji": "✈️",
+            "parent": "03cc79de-72b5-4454-a029-2aea7f539850"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d4a6fc91-4f65-4c9e-ae0f-38dd4600f2e0",
+        "fields": {
+            "name": "Face Makeup",
+            "emoji": "💅",
+            "parent": "151b597f-5446-4623-a44b-7f0db776591c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d6337fc8-0244-4b65-a052-9f4c0763c8cf",
+        "fields": {
+            "name": "Board Games",
+            "emoji": "🧸",
+            "parent": "bc8717e5-4180-4fd4-ac33-79c5a2700dec"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d67925d3-6dc0-445f-8ccb-f5f988fda42e",
+        "fields": {
+            "name": "Jackets & Coats",
+            "emoji": "👔",
+            "parent": "b8f6e92f-4fdf-4149-abd4-b9bff07e4493"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "da587899-59f6-4c4e-a0c3-b5dc68978e44",
+        "fields": {
+            "name": "Dresses",
+            "emoji": "👗",
+            "parent": "62b54c9a-ab39-4aed-9564-346a0af05c44"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dbc2a817-de6c-4524-95de-3168f506bef5",
+        "fields": {
+            "name": "Home Décor",
+            "emoji": "💡",
+            "parent": "08fc2ed6-0ede-491f-803b-f3dafe5af032"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ded452bd-e10a-45a8-993e-74125a7aaa40",
+        "fields": {
+            "name": "Fashion Watches",
+            "emoji": "💍",
+            "parent": "82ded232-012c-43b7-aeb4-a5da6d2571be"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e01c1eeb-1d1d-4bab-aeb4-e97315d2a959",
+        "fields": {
+            "name": "Movies & TV Shows",
+            "emoji": "🎥",
+            "parent": "6d3aa8d9-878e-43c8-985a-70c14e0bd9bb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e27aa527-98d4-4a2d-b9eb-8a7df137c99c",
+        "fields": {
+            "name": "Office Electronics",
+            "emoji": "📚",
+            "parent": "bc6d1b21-0588-4607-b1ca-d0e459851c99"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e419f974-9207-4f56-8393-3bb7dcdb8c71",
+        "fields": {
+            "name": "Baby Gear",
+            "emoji": "👶",
+            "parent": "9159a73f-b239-41c4-89a8-43c66abf843b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e74fd743-57f9-460e-8988-50be666e6a09",
+        "fields": {
+            "name": "Necklaces",
+            "emoji": "💍",
+            "parent": "0ce50134-f026-4a90-9390-45d4d733bac8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e79f2ad1-9b74-48ff-a0d7-5ea20657f75f",
+        "fields": {
+            "name": "Pet Care & Grooming",
+            "emoji": "🐶",
+            "parent": "febff3c9-d0a6-4da3-95dc-d28e04afbbc0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e7d51d34-0a83-405f-8307-5b3933a576cb",
+        "fields": {
+            "name": "Books",
+            "emoji": "📖",
+            "parent": "6d3aa8d9-878e-43c8-985a-70c14e0bd9bb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e8366150-ff10-434e-89e2-741ca6372462",
+        "fields": {
+            "name": "Fashion",
+            "emoji": "👗",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e877b2a9-6fff-4e17-8571-3a6eb0ac0ad3",
+        "fields": {
+            "name": "Auto Parts & Accessories",
+            "emoji": "🔧",
+            "parent": "0f46d90d-1eca-44f3-8e73-56080b5c379e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "eaae184b-d25b-4646-a644-7cc121c7c414",
+        "fields": {
+            "name": "Jewelry",
+            "emoji": "👜",
+            "parent": "4d0a1120-e419-4c6e-9051-1e4cf1c65c1f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ed0d0151-1e07-4240-9085-b20b05a47b53",
+        "fields": {
+            "name": "Action Figures",
+            "emoji": "🧸",
+            "parent": "bc8717e5-4180-4fd4-ac33-79c5a2700dec"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ed1b46cd-45c8-49b9-a8fb-06f6cff77374",
+        "fields": {
+            "name": "Smartphones",
+            "emoji": "📱",
+            "parent": "f04b59db-fa02-4539-a7cf-ad3248cc8d50"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "edc7e069-a86d-4260-8a41-b153a9bb0fad",
+        "fields": {
+            "name": "Outerwear",
+            "emoji": "👗",
+            "parent": "62b54c9a-ab39-4aed-9564-346a0af05c44"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ef3b7dec-90a3-48eb-8346-4203829172a5",
+        "fields": {
+            "name": "Model Kits",
+            "emoji": "🧩",
+            "parent": "35506caf-dd0d-42e7-8893-af34e69e1b92"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ef692fdc-1011-47d9-9e5c-53b0943bf764",
+        "fields": {
+            "name": "Living Room",
+            "emoji": "🪑",
+            "parent": "55f6553c-0782-41d7-adeb-9f968414d279"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f04b59db-fa02-4539-a7cf-ad3248cc8d50",
+        "fields": {
+            "name": "Smartphones & Accessories",
+            "emoji": "📱",
+            "parent": "9ccf5013-2d50-4d43-8b6a-bfd8f5fa0691"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f2f40cad-6d34-49f9-84b1-3bc46a103ae8",
+        "fields": {
+            "name": "Eco-Friendly & Sustainable",
+            "emoji": "🛍️",
+            "parent": "a9fba063-8461-4b54-9053-91b08db59d13"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f663bbcd-45d8-4196-ad47-f440ea71318c",
+        "fields": {
+            "name": "Shoes",
+            "emoji": "👔",
+            "parent": "b8f6e92f-4fdf-4149-abd4-b9bff07e4493"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f8711492-f265-4e65-b1e3-fd4ef989abea",
+        "fields": {
+            "name": "Skincare",
+            "emoji": "🧴",
+            "parent": "474610c9-04e9-411c-94c5-211733f7ae80"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "febff3c9-d0a6-4da3-95dc-d28e04afbbc0",
+        "fields": {
+            "name": "Pet Supplies",
+            "emoji": "🐶",
+            "parent": "87569cd4-1af3-485b-8e0b-b144a7d3c3eb"
+        }
+    }
+]

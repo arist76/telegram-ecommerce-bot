@@ -1,8 +1,10 @@
 from __future__ import annotations
+import urllib.parse
 from pydantic import BaseModel
 from typing import ForwardRef, Optional, List
-import httpx
 from datetime import datetime
+import httpx
+import urllib
 
 # model_backend = os.environ.get("BACKEND_API_HOST")
 model_backend = "http://localhost:8000/client/"
@@ -21,7 +23,7 @@ class CreateMixin():
 
         user = self.__class__(data=data)
 
-        res = httpx.post(f"{model_backend}{self.resource_path}", data=data)
+        res = httpx.post(f"{model_backend}{self.resource_path()}", data=data)
 
         if res.status_code != 201:
             raise BackendAPIError(f"did not create resource, response with status code {res.status_code}")
@@ -36,7 +38,7 @@ class DeleteMixin():
     def delete(self) -> True:
         id = self.model_dump().get("id")
 
-        res = httpx.delete(f"{model_backend}{self.resource_path}{id}/")        
+        res = httpx.delete(f"{model_backend}{self.resource_path()}{id}/")        
 
 
         if res.status_code != 204:
@@ -45,13 +47,14 @@ class DeleteMixin():
         return True
 
 class ReadMixin():
-    def read(self, pk : int | None, data : dict | None):
+    @classmethod
+    def read(cls, pk : int | None = None, data : dict | None = None):
         if pk != None:
 
             if data != None:
                 raise ValueError("data must not be provided if pk is optional")
 
-            res = httpx.get(f"{model_backend}{self.resource_path}{pk}/")
+            res = httpx.get(f"{model_backend}{cls.resource_path()}{pk}/")
 
             if res.status_code != 200:
                 raise BackendAPIError(f"error getting resource, status code {res.status_code}")
@@ -61,7 +64,7 @@ class ReadMixin():
 
     @classmethod
     def exists(cls, pk : int):
-        res = httpx.head(f"{model_backend}{cls.resource_path}{pk}/")
+        res = httpx.head(f"{model_backend}{cls.resource_path()}{pk}/")
         
         if res.status_code == 200:
             return True
@@ -71,32 +74,38 @@ class ReadMixin():
 class ListMixin():
     @classmethod
     def all(cls, *args, **kwargs):
-        res = httpx.get(f"{model_backend}{cls.resource_path}", params=kwargs)
+        res = httpx.get(f"{model_backend}{cls.resource_path()}", params=kwargs)
 
         if res.status_code != 200:
             raise BackendAPIError(f"error getting resource, status code {res.status_code}")
         
         data = res.json()
 
-        return [cls(data=each) for each in data]
+        prev = urllib.parse.parse_qs(data.get("previous")).get("page", -1)
+        next = urllib.parse.parse_qs(data.get("next")).get("page", -1)
+
+        return [cls(data=each) for each in data.get("results")], data.get("count"), prev, next
         
 
 
 class Category(BaseModel, ReadMixin, ListMixin):
-    id: int
+    uuid: str
     name: Optional[str] = None
     emoji: Optional[str] = None
-    parent: Optional[int] = None
-    children: Optional[List[int]] = None
+    parent: Optional[str] = None
+    children: Optional[List[Category]] = None
 
 
-    def __init__(self, pk : int | None = None, data : dict | None = None):
-        super().__init__(**self.read(pk, data))
+    def __init__(self, pk : int | None = None, data : dict | None = None, **kwargs):
+        if data == None and kwargs:
+            data = kwargs
+
+        super().__init__(**self.read(pk=pk, data=data))
 
     @classmethod
-    @property
-    def resource_path(self):
+    def resource_path(cls):
         return f"category/"
+    
 
 
 
@@ -113,8 +122,7 @@ class User(BaseModel, CreateMixin, DeleteMixin, ReadMixin):
         super().__init__(**self.read(pk, data))
 
     @classmethod
-    @property
-    def resource_path(self):
+    def resource_path(cls):
         return f"user/"
 
 
@@ -122,10 +130,10 @@ class User(BaseModel, CreateMixin, DeleteMixin, ReadMixin):
 
 
 class Product(BaseModel, ReadMixin, CreateMixin, DeleteMixin, ListMixin):
-    id : int
+    uuid : str
     name: str
     price: Optional[float]
-    category: Optional[int]
+    category: Optional[str]
     sold: Optional[bool]
 
 
@@ -133,8 +141,7 @@ class Product(BaseModel, ReadMixin, CreateMixin, DeleteMixin, ListMixin):
         super().__init__(**self.read(pk, data))
 
     @classmethod
-    @property
-    def resource_path(self):
+    def resource_path(cls):
         return f"product/"
 
 class Click(BaseModel, ReadMixin, CreateMixin, DeleteMixin, ListMixin):
@@ -145,10 +152,9 @@ class Click(BaseModel, ReadMixin, CreateMixin, DeleteMixin, ListMixin):
 
     def __init__(self, pk : int | None = None, data : dict | None = None):
         super().__init__(**self.read(pk, data))   
-
+ 
     @classmethod
-    @property
-    def resource_path(self):
+    def resource_path(cls):
         return f"click/"
     
 class Notification(BaseModel, ReadMixin, CreateMixin, DeleteMixin, ListMixin):
@@ -160,6 +166,5 @@ class Notification(BaseModel, ReadMixin, CreateMixin, DeleteMixin, ListMixin):
         super().__init__(**self.read(pk, data))   
 
     @classmethod
-    @property
-    def resource_path(self):
+    def resource_path(cls):
         return f"notification/"

@@ -15,11 +15,11 @@ class CategoryWithChildrenSerializer(serializers.ModelSerializer):
         fields = ['uuid', 'name', 'emoji', 'parent', 'children']
     
     def get_children(self, obj):
-        c = models.Category.objects.filter(parent=obj.id)
-        return CategorySerializer(c, many=True).data
+        children = models.Category.objects.filter(parent=obj.uuid)
+        return CategorySerializer(children, many=True).data
     
 class ProductSerializer(serializers.ModelSerializer):
-    category = serializers.PrimaryKeyRelatedField(queryset=models.Category.objects.all())
+    # category = serializers.PrimaryKeyRelatedField(queryset=models.Category.objects.all())
     class Meta:
         model = models.Product
         fields = '__all__'

@@ -7,7 +7,7 @@ from telegram import (
 import models
 
 
-def home():
+def Home():
     return ReplyKeyboardMarkup(
         [
             [KeyboardButton("Categories 🗂"), KeyboardButton("Sell 💸")],
@@ -18,24 +18,33 @@ def home():
     )
 
 
-async def categories(parent_id: int = 0, cols: int = 2):
+async def categories(parent_id: str = None, cols: int = 2):
     pattern = "C"
-    categories = models.Category.all({"parent" : parent_id})
 
-    if not categories:
+    category_children = None
+    category  = None
+    markup = []
+    if parent_id:
+        category = models.Category(pk=parent_id)
+        category_children = category.children
+        
+        markup = [
+            InlineKeyboardButton(
+                "🔙",
+                callback_data=f"{pattern}-{category.parent}",
+            )
+        ]
+    else:
+        category_children, _ , _ , _= models.Category.all(parent_isnull=True)
+
+    if not category_children:
         return None
-
-    markup = [
-        InlineKeyboardButton(
-            "🔙",
-            callback_data=f"{pattern}-{models.Category.grand_parent(parent_id)}",
-        )
-    ]
-    for category in categories:
+    
+    for category in category_children:
         markup.append(
             InlineKeyboardButton(
                 f"{category.name} {category.emoji}",
-                callback_data=f"{pattern}-{category.id}",
+                callback_data=f"{pattern}-{category.uuid}",
             )
         )
 

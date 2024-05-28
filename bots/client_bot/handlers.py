@@ -1,3 +1,4 @@
+import uuid
 from telegram import (
     Update,
     KeyboardButton,
@@ -11,34 +12,34 @@ import utils
 import buttons
 import models
 
+
 @utils.reset_text_context
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Handles "/start" command, checks if a user exists and handles registration"""
     # check if the user exists
     updater_user = update.effective_user
-
     if models.User.exists(updater_user.id):
     # if False:
         await context.bot.send_message(
             update.effective_chat.id,
             text="Choose from the below keyboard buttons",
-            reply_markup=buttons.home(),
+            reply_markup=buttons.Home(),
         )
     else:
         user = models.User(
             data = {
-                "id" : "updater_user.id",
-                "is_bot" : "updater_user.is_bot",
-                "first_name" : "updater_user.first_name",
-                "last_name" : "updater_user.last_name",
-                "username" : "updater_user.username",
+                "id" : updater_user.id,
+                "is_bot" : updater_user.is_bot,
+                "first_name" : updater_user.first_name,
+                "last_name" : updater_user.last_name,
+                "username" : updater_user.username,
             }
         )
         user.create()
 
-        await context.bot.send_message(
-            update.effective_chat.id, text="Welcome, this is how to use the bot..."
-        )
+    await context.bot.send_message(
+        update.effective_chat.id, text="Welcome, this is how to use the bot..."
+    )
 
 
 async def text(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -50,6 +51,7 @@ async def text(update: Update, context: ContextTypes.DEFAULT_TYPE):
             await context.bot.send_message(
                 update.effective_chat.id,
                 text="Hooray, You have successfully made a search",
+                reply_markup=buttons.Home()
             )
             context.user_data["text_mode"] = None
 
@@ -98,20 +100,33 @@ async def text(update: Update, context: ContextTypes.DEFAULT_TYPE):
 @utils.reset_text_context
 async def categories(update: Update, context: ContextTypes):
     query = update.callback_query
-    category_id = int(query.data[2:])
-    inline = buttons.categories(category_id)
+
+    try:
+        category_id = uuid.UUID(query.data[2:])
+    except ValueError:  # default to base categories for invalid uuid
+        category_id = None
+    inline = await buttons.categories(category_id)
 
     if inline == None:
-        products = models.Product.paginate_by_category(category_id, 1)
+        products, count , prev , next= models.Product.all(category_id)
 
-        for product in products:
-            await product(update, context, product)
-
-        if len(products) == utils.ITEMS_PER_PAGE:
+        for p in products:
+            await context.bot.send_message(
+                update.effective_chat.id, text= query.message.text
+            )
+            await product(update, context, p)
+        
+        count_left = count % (utils.ITEMS_PER_PAGE*next )
+        if count_left not in [0, count]:
             await context.bot.send_message(
                 update.effective_chat.id,
                 text="👀.",
-                reply_markup=buttons.see_more(1),
+                reply_markup=buttons.product(next),
+            )
+        else:
+            await context.bot.send_message(
+                update.effective_chat.id,
+                text="End of products",
             )
     else:
         await query.edit_message_reply_markup(reply_markup=inline)
