@@ -6,11 +6,13 @@ from telegram import (
     InlineKeyboardButton,
     InlineKeyboardMarkup,
     ReplyKeyboardRemove,
+    InputMediaPhoto,
 )
 from telegram.ext import ContextTypes, ConversationHandler
 import utils
 import buttons
 import models
+import httpx
 
 
 @utils.reset_text_context
@@ -19,7 +21,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # check if the user exists
     updater_user = update.effective_user
     if models.User.exists(updater_user.id):
-    # if False:
+        # if False:
         await context.bot.send_message(
             update.effective_chat.id,
             text="Choose from the below keyboard buttons",
@@ -27,15 +29,14 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         )
     else:
         user = models.User(
-            data = {
-                "id" : updater_user.id,
-                "is_bot" : updater_user.is_bot,
-                "first_name" : updater_user.first_name,
-                "last_name" : updater_user.last_name,
-                "username" : updater_user.username,
+            data={
+                "id": updater_user.id,
+                "is_bot": updater_user.is_bot,
+                "first_name": updater_user.first_name,
+                "last_name": updater_user.last_name,
+                "username": updater_user.username,
             }
         )
-        user.create()
 
     await context.bot.send_message(
         update.effective_chat.id, text="Welcome, this is how to use the bot..."
@@ -48,10 +49,14 @@ async def text(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # Handle different text_mode as per "context.user_data.text_mode"
     match context.user_data.get("text_mode"):
         case "search":  # search mode
+            products, _, _, _ = models.Product.all(q=update.effective_message.text)
+            for p in products:
+                await product(update, context, p)
+
             await context.bot.send_message(
                 update.effective_chat.id,
                 text="Hooray, You have successfully made a search",
-                reply_markup=buttons.Home()
+                reply_markup=buttons.Home(),
             )
             context.user_data["text_mode"] = None
 
@@ -70,7 +75,6 @@ async def text(update: Update, context: ContextTypes.DEFAULT_TYPE):
                         reply_markup=buttons.seller(),
                     )
 
-
                 case "Search 🔍":
                     await context.bot.send_message(
                         update.effective_chat.id,
@@ -83,10 +87,22 @@ async def text(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     pass
 
                 case "Notifications 🔔":
-                    pass
+                    await context.bot.send_message(
+                        update.effective_chat.id,
+                        text="What up",
+                    )
 
                 case "Saved 💾":
-                    pass
+                    user_id = update.effective_user.id
+                    saved_products = models.Product.user_saved_products(user_id)
+                    for p in saved_products:
+                        await product(update, context, p)
+
+                    total_saved_products = len(saved_products)
+                    await context.bot.send_message(
+                        update.effective_chat.id,
+                        text=f"You have saved {total_saved_products} in total",
+                    )
 
                 case "Other ...":
                     pass
@@ -108,32 +124,26 @@ async def categories(update: Update, context: ContextTypes):
     inline = await buttons.categories(category_id)
 
     if inline == None:
-        products, count , prev , next= models.Product.all(category_id)
+        products, count, prev, next = models.Product.all(category=category_id)
 
         for p in products:
-            await context.bot.send_message(
-                update.effective_chat.id, text= query.message.text
-            )
             await product(update, context, p)
-        
-        count_left = count % (utils.ITEMS_PER_PAGE*next )
-        if count_left not in [0, count]:
+
+        if (count - (utils.ITEMS_PER_PAGE * (next - 1))) > 0:
             await context.bot.send_message(
                 update.effective_chat.id,
                 text="👀.",
-                reply_markup=buttons.product(next),
+                reply_markup=buttons.see_more(next),
             )
         else:
-            await context.bot.send_message(
-                update.effective_chat.id,
-                text="End of products",
-            )
+            text = "End of products" if count > 0 else "No products in the catalogue"
+            await context.bot.send_message(update.effective_chat.id, text=text)
     else:
         await query.edit_message_reply_markup(reply_markup=inline)
 
 
-
 ###################### Unregistered Views ######################
+
 
 @utils.reset_text_context
 async def product(
@@ -141,20 +151,49 @@ async def product(
 ):
     title = f"*Title*: {product.name}\n"
     price = f"*Price*: {product.price}"
+    image_temp = [
+        "https://dlcdnwebimgs.asus.com/gain/f69cfad3-af20-403e-ad93-1ffb91604d82/w800",
+        "https://dlcdnwebimgs.asus.com/gain/3eb89add-c844-4c13-aa49-f4441f5dbbef/w800",
+        "https://dlcdnwebimgs.asus.com/gain/3eb89add-c844-4c13-aa49-f4441f5dbbef/w800",
+    ]
+
+    images = [InputMediaPhoto(image) for image in image_temp]
 
     text = utils.escape_characters(title + price)
+    if images:
+        await context.bot.send_media_group(
+            update.effective_chat.id,
+            media=images,
+            caption=text,
+            parse_mode="MarkdownV2",
+        )
+        await context.bot.send_message(
+            update.effective_chat.id,
+            text="Actions.",
+            reply_markup=buttons.product(product),
+        )
 
-    await context.bot.send_message(
-        update.effective_chat.id,
-        text=text,
-        parse_mode="MarkdownV2",
-        reply_markup=buttons.product(),
-    )
 
 @utils.reset_text_context
 async def see_more(update: Update, context: ContextTypes.DEFAULT_TYPE, page_no):
     await context.bot.send_message(
-        update.effective_chat.id,
-        text = "...",
-        reply_markup= buttons.see_more(page_no)
+        update.effective_chat.id, text="...", reply_markup=buttons.see_more(page_no)
     )
+
+
+@utils.reset_text_context
+@utils.set_user_uuid
+async def save_product(
+    update: Update,
+    context: ContextTypes.DEFAULT_TYPE,
+):
+    query = update.callback_query
+    product_uuid = query.data[1:]
+    print(product_uuid, context.user_data.get("user_uuid"))
+    data = {"product": product_uuid, "user": context.user_data.get("user_uuid")}
+    res = httpx.post(f"{models.model_backend}saved/", data=data)
+
+    if res.status_code == 201:
+        await query.edit_message_reply_markup(
+            reply_markup=buttons.product_saved(product_uuid),
+        )

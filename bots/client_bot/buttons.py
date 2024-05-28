@@ -22,12 +22,12 @@ async def categories(parent_id: str = None, cols: int = 2):
     pattern = "C"
 
     category_children = None
-    category  = None
+    category = None
     markup = []
     if parent_id:
         category = models.Category(pk=parent_id)
         category_children = category.children
-        
+
         markup = [
             InlineKeyboardButton(
                 "🔙",
@@ -35,11 +35,11 @@ async def categories(parent_id: str = None, cols: int = 2):
             )
         ]
     else:
-        category_children, _ , _ , _= models.Category.all(parent_isnull=True)
+        category_children, _, _, _ = models.Category.all(parent_isnull=True)
 
     if not category_children:
         return None
-    
+
     for category in category_children:
         markup.append(
             InlineKeyboardButton(
@@ -64,20 +64,36 @@ def seller() -> InlineKeyboardMarkup:
     )
 
 
-def product():
+def product(product: models.Product):
     pattern = "P"  # callback route pattern
     return InlineKeyboardMarkup(
         [
             [InlineKeyboardButton("Buy 💸", callback_data=f"{pattern}-buy")],
             [
                 InlineKeyboardButton("Get  🔔", callback_data=f"{pattern}-notify"),
-                InlineKeyboardButton("Save 💾", callback_data=f"{pattern}-save"),
+                InlineKeyboardButton("Save 💾", callback_data=f"S-{product.uuid}"),
             ],
         ]
     )
 
 
-def see_more(page_no: int, data: [] = []):
+def product_saved(product):
+    pattern = "S"
+    return InlineKeyboardMarkup(
+        [
+            [InlineKeyboardButton("Buy 💸", callback_data=f"{pattern}-buy")],
+            [
+                InlineKeyboardButton("Get  🔔", callback_data=f"{pattern}-notify"),
+                InlineKeyboardButton(
+                    "Saved ✅", callback_data=f"null-pointer"
+                ),  # TODO: MAKE DELETE
+            ],
+        ]
+    )
+
+
+# TODO : THIS DOENSN'T WORK
+def see_more(page_no: int, data: list = []):
     pattern = "L"  # callback route pattern
     data = "|".join(data)
     return InlineKeyboardMarkup(

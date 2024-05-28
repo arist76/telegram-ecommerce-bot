@@ -13,10 +13,11 @@ model_backend = "http://localhost:8000/client/"
 class BackendAPIError(Exception):
     pass
 
+
 CategoryRef = ForwardRef("Category")
 
 
-class CreateMixin():
+class CreateMixin:
     def create(self):
 
         data = self.model_dump()
@@ -26,29 +27,35 @@ class CreateMixin():
         res = httpx.post(f"{model_backend}{self.resource_path()}", data=data)
 
         if res.status_code != 201:
-            raise BackendAPIError(f"did not create resource, response with status code {res.status_code}")
+            raise BackendAPIError(
+                f"did not create resource, response with status code {res.status_code}"
+            )
 
         return user
-    
-class UpdateMixin():
+
+
+class UpdateMixin:
     def update(self):
         pass
 
-class DeleteMixin():
+
+class DeleteMixin:
     def delete(self) -> True:
         id = self.model_dump().get("id")
 
-        res = httpx.delete(f"{model_backend}{self.resource_path()}{id}/")        
-
+        res = httpx.delete(f"{model_backend}{self.resource_path()}{id}/")
 
         if res.status_code != 204:
-            raise BackendAPIError(f"did not create resource, response with status code {res.status_code}")
-        
+            raise BackendAPIError(
+                f"did not create resource, response with status code {res.status_code}"
+            )
+
         return True
 
-class ReadMixin():
+
+class ReadMixin:
     @classmethod
-    def read(cls, pk : int | None = None, data : dict | None = None):
+    def read(cls, pk: int | None = None, data: dict | None = None):
         if pk != None:
 
             if data != None:
@@ -57,35 +64,43 @@ class ReadMixin():
             res = httpx.get(f"{model_backend}{cls.resource_path()}{pk}/")
 
             if res.status_code != 200:
-                raise BackendAPIError(f"error getting resource, status code {res.status_code}")
-                
+                raise BackendAPIError(
+                    f"error getting resource, status code {res.status_code}"
+                )
+
             data = res.json()
         return data
 
     @classmethod
-    def exists(cls, pk : int):
+    def exists(cls, pk: int):
         res = httpx.head(f"{model_backend}{cls.resource_path()}{pk}/")
-        
+
         if res.status_code == 200:
             return True
         return False
 
 
-class ListMixin():
+class ListMixin:
     @classmethod
     def all(cls, *args, **kwargs):
         res = httpx.get(f"{model_backend}{cls.resource_path()}", params=kwargs)
 
         if res.status_code != 200:
-            raise BackendAPIError(f"error getting resource, status code {res.status_code}")
-        
+            raise BackendAPIError(
+                f"error getting resource, status code {res.status_code}"
+            )
+
         data = res.json()
 
-        prev = urllib.parse.parse_qs(data.get("previous")).get("page", -1)
-        next = urllib.parse.parse_qs(data.get("next")).get("page", -1)
+        prev = urllib.parse.parse_qs(data.get("previous")).get("page", 0)
+        next = urllib.parse.parse_qs(data.get("next")).get("page", 2)
 
-        return [cls(data=each) for each in data.get("results")], data.get("count"), prev, next
-        
+        return (
+            [cls(data=each) for each in data.get("results")],
+            data.get("count"),
+            prev,
+            next,
+        )
 
 
 class Category(BaseModel, ReadMixin, ListMixin):
@@ -95,8 +110,7 @@ class Category(BaseModel, ReadMixin, ListMixin):
     parent: Optional[str] = None
     children: Optional[List[Category]] = None
 
-
-    def __init__(self, pk : int | None = None, data : dict | None = None, **kwargs):
+    def __init__(self, pk: int | None = None, data: dict | None = None, **kwargs):
         if data == None and kwargs:
             data = kwargs
 
@@ -105,20 +119,18 @@ class Category(BaseModel, ReadMixin, ListMixin):
     @classmethod
     def resource_path(cls):
         return f"category/"
-    
-
-
 
 
 class User(BaseModel, CreateMixin, DeleteMixin, ReadMixin):
+    uuid: str
     id: int
     is_bot: Optional[bool] = None
     first_name: Optional[str] = None
     last_name: Optional[str] = None
     username: Optional[str] = None
-    date_created : Optional[datetime] = None
+    date_created: Optional[datetime] = None
 
-    def __init__(self, pk : int | None = None, data : dict | None = None):
+    def __init__(self, pk: int | None = None, data: dict | None = None):
         super().__init__(**self.read(pk, data))
 
     @classmethod
@@ -126,44 +138,48 @@ class User(BaseModel, CreateMixin, DeleteMixin, ReadMixin):
         return f"user/"
 
 
-
-
-
 class Product(BaseModel, ReadMixin, CreateMixin, DeleteMixin, ListMixin):
-    uuid : str
+    uuid: str
     name: str
     price: Optional[float]
     category: Optional[str]
     sold: Optional[bool]
+    images: Optional[list[dict]]
 
-
-    def __init__(self, pk : int | None = None, data : dict | None = None):
+    def __init__(self, pk: int | None = None, data: dict | None = None):
         super().__init__(**self.read(pk, data))
 
     @classmethod
     def resource_path(cls):
         return f"product/"
 
-class Click(BaseModel, ReadMixin, CreateMixin, DeleteMixin, ListMixin):
-    id : int
-    type : Optional[str]
-    name : Optional[str]
-    user : Optional[int]
+    @classmethod
+    def user_saved_products(cls, user_id) -> list[Product]:
+        products, _, _, _ = Product.all(saved_by=user_id)
+        return products
 
-    def __init__(self, pk : int | None = None, data : dict | None = None):
-        super().__init__(**self.read(pk, data))   
- 
+
+class Click(BaseModel, ReadMixin, CreateMixin, DeleteMixin, ListMixin):
+    id: int
+    type: Optional[str]
+    name: Optional[str]
+    user: Optional[int]
+
+    def __init__(self, pk: int | None = None, data: dict | None = None):
+        super().__init__(**self.read(pk, data))
+
     @classmethod
     def resource_path(cls):
         return f"click/"
-    
-class Notification(BaseModel, ReadMixin, CreateMixin, DeleteMixin, ListMixin):
-    id : int
-    user : Optional[int]
-    category : Optional[int]
 
-    def __init__(self, pk : int | None = None, data : dict | None = None):
-        super().__init__(**self.read(pk, data))   
+
+class Notification(BaseModel, ReadMixin, CreateMixin, DeleteMixin, ListMixin):
+    id: int
+    user: Optional[int]
+    category: Optional[int]
+
+    def __init__(self, pk: int | None = None, data: dict | None = None):
+        super().__init__(**self.read(pk, data))
 
     @classmethod
     def resource_path(cls):
