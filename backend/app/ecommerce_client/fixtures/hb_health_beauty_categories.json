@@ -1,0 +1,4622 @@
+[
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1da08c88-ceb3-4b62-8d09-4811d7332bd1",
+        "fields": {
+            "uuid": "1da08c88-ceb3-4b62-8d09-4811d7332bd1",
+            "name": "Health & Beauty",
+            "emoji": "",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c5edda18-c5a7-48fb-b6c1-39ff1e8a0ae8",
+        "fields": {
+            "uuid": "c5edda18-c5a7-48fb-b6c1-39ff1e8a0ae8",
+            "name": "Health Care",
+            "emoji": "",
+            "parent": "1da08c88-ceb3-4b62-8d09-4811d7332bd1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "56c9960e-271e-45d9-b9d8-9c3c51f2b7ee",
+        "fields": {
+            "uuid": "56c9960e-271e-45d9-b9d8-9c3c51f2b7ee",
+            "name": "Acupuncture",
+            "emoji": "",
+            "parent": "c5edda18-c5a7-48fb-b6c1-39ff1e8a0ae8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "94e575b1-4ebf-4aa4-8211-caf0740c201d",
+        "fields": {
+            "uuid": "94e575b1-4ebf-4aa4-8211-caf0740c201d",
+            "name": "Acupuncture Models",
+            "emoji": "",
+            "parent": "56c9960e-271e-45d9-b9d8-9c3c51f2b7ee"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6f9cc2de-6d0d-4bfe-baf9-98ae1d5d2cfb",
+        "fields": {
+            "uuid": "6f9cc2de-6d0d-4bfe-baf9-98ae1d5d2cfb",
+            "name": "Acupuncture Needles",
+            "emoji": "",
+            "parent": "56c9960e-271e-45d9-b9d8-9c3c51f2b7ee"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8cc1fdca-da00-4be5-aff8-39ef9b82d1c2",
+        "fields": {
+            "uuid": "8cc1fdca-da00-4be5-aff8-39ef9b82d1c2",
+            "name": "Bed Pans",
+            "emoji": "",
+            "parent": "c5edda18-c5a7-48fb-b6c1-39ff1e8a0ae8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "355fdcf2-7bd5-455a-a8fb-1e20d8b6be16",
+        "fields": {
+            "uuid": "355fdcf2-7bd5-455a-a8fb-1e20d8b6be16",
+            "name": "Biometric Monitor Accessories",
+            "emoji": "",
+            "parent": "c5edda18-c5a7-48fb-b6c1-39ff1e8a0ae8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5a48974f-27cf-4f16-991e-f00fb71fb9b1",
+        "fields": {
+            "uuid": "5a48974f-27cf-4f16-991e-f00fb71fb9b1",
+            "name": "Activity Monitor Accessories",
+            "emoji": "",
+            "parent": "355fdcf2-7bd5-455a-a8fb-1e20d8b6be16"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "89fc06c1-caa8-4346-b379-771008421245",
+        "fields": {
+            "uuid": "89fc06c1-caa8-4346-b379-771008421245",
+            "name": "Blood Glucose Meter Accessories",
+            "emoji": "",
+            "parent": "355fdcf2-7bd5-455a-a8fb-1e20d8b6be16"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3138ff60-66b8-4c14-b707-5668c754e464",
+        "fields": {
+            "uuid": "3138ff60-66b8-4c14-b707-5668c754e464",
+            "name": "Blood Glucose Control Solution",
+            "emoji": "",
+            "parent": "89fc06c1-caa8-4346-b379-771008421245"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "defc7dd7-d343-4834-b586-aa98920cdd74",
+        "fields": {
+            "uuid": "defc7dd7-d343-4834-b586-aa98920cdd74",
+            "name": "Blood Glucose Test Strips",
+            "emoji": "",
+            "parent": "89fc06c1-caa8-4346-b379-771008421245"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7a7a213c-21f4-4645-9ffe-0752e3c021dd",
+        "fields": {
+            "uuid": "7a7a213c-21f4-4645-9ffe-0752e3c021dd",
+            "name": "Lancing Devices",
+            "emoji": "",
+            "parent": "89fc06c1-caa8-4346-b379-771008421245"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2dc7de69-4d5e-4dcf-b1fc-89038ab936ad",
+        "fields": {
+            "uuid": "2dc7de69-4d5e-4dcf-b1fc-89038ab936ad",
+            "name": "Blood Pressure Monitor Accessories",
+            "emoji": "",
+            "parent": "355fdcf2-7bd5-455a-a8fb-1e20d8b6be16"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "22ae6191-a1ec-49ae-8748-3c05d3d213bb",
+        "fields": {
+            "uuid": "22ae6191-a1ec-49ae-8748-3c05d3d213bb",
+            "name": "Blood Pressure Monitor Cuffs",
+            "emoji": "",
+            "parent": "2dc7de69-4d5e-4dcf-b1fc-89038ab936ad"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9a80394a-6027-41b3-be34-742d28703db3",
+        "fields": {
+            "uuid": "9a80394a-6027-41b3-be34-742d28703db3",
+            "name": "Body Weight Scale Accessories",
+            "emoji": "",
+            "parent": "355fdcf2-7bd5-455a-a8fb-1e20d8b6be16"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c48799bd-8ed9-4ebf-8d3a-0d3eee720356",
+        "fields": {
+            "uuid": "c48799bd-8ed9-4ebf-8d3a-0d3eee720356",
+            "name": "Biometric Monitors",
+            "emoji": "",
+            "parent": "c5edda18-c5a7-48fb-b6c1-39ff1e8a0ae8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4efc598a-d5e1-4ef0-a008-2081bfa94f84",
+        "fields": {
+            "uuid": "4efc598a-d5e1-4ef0-a008-2081bfa94f84",
+            "name": "Activity Monitors",
+            "emoji": "",
+            "parent": "c48799bd-8ed9-4ebf-8d3a-0d3eee720356"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8475cb19-38f8-4987-bebd-5871412aa9c3",
+        "fields": {
+            "uuid": "8475cb19-38f8-4987-bebd-5871412aa9c3",
+            "name": "Blood Glucose Meters",
+            "emoji": "",
+            "parent": "c48799bd-8ed9-4ebf-8d3a-0d3eee720356"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fb222b0c-d07d-437e-89f0-9c66fffeab9e",
+        "fields": {
+            "uuid": "fb222b0c-d07d-437e-89f0-9c66fffeab9e",
+            "name": "Blood Pressure Monitors",
+            "emoji": "",
+            "parent": "c48799bd-8ed9-4ebf-8d3a-0d3eee720356"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f9b5ce0f-d39a-4222-84ed-f867c953ab95",
+        "fields": {
+            "uuid": "f9b5ce0f-d39a-4222-84ed-f867c953ab95",
+            "name": "Body Fat Analyzers",
+            "emoji": "",
+            "parent": "c48799bd-8ed9-4ebf-8d3a-0d3eee720356"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cfcae396-22c0-4a32-8637-b09bc8b2acba",
+        "fields": {
+            "uuid": "cfcae396-22c0-4a32-8637-b09bc8b2acba",
+            "name": "Body Weight Scales",
+            "emoji": "",
+            "parent": "c48799bd-8ed9-4ebf-8d3a-0d3eee720356"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2d4cdeb9-0380-4ba1-b1d9-9fc3137792de",
+        "fields": {
+            "uuid": "2d4cdeb9-0380-4ba1-b1d9-9fc3137792de",
+            "name": "Breathalyzers",
+            "emoji": "",
+            "parent": "c48799bd-8ed9-4ebf-8d3a-0d3eee720356"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "baf60f12-ad33-45d1-98e8-683a176439bf",
+        "fields": {
+            "uuid": "baf60f12-ad33-45d1-98e8-683a176439bf",
+            "name": "Cholesterol Analyzers",
+            "emoji": "",
+            "parent": "c48799bd-8ed9-4ebf-8d3a-0d3eee720356"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4015e421-3d09-44b4-8360-7dc6c8dfb9b1",
+        "fields": {
+            "uuid": "4015e421-3d09-44b4-8360-7dc6c8dfb9b1",
+            "name": "Fertility Monitors and Ovulation Tests",
+            "emoji": "",
+            "parent": "c48799bd-8ed9-4ebf-8d3a-0d3eee720356"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "69fd7b32-1e71-4000-8058-7d6e8b8bff2c",
+        "fields": {
+            "uuid": "69fd7b32-1e71-4000-8058-7d6e8b8bff2c",
+            "name": "Fertility Tests & Monitors",
+            "emoji": "",
+            "parent": "4015e421-3d09-44b4-8360-7dc6c8dfb9b1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "20b64bb8-2a36-4a80-976d-476b7a7418af",
+        "fields": {
+            "uuid": "20b64bb8-2a36-4a80-976d-476b7a7418af",
+            "name": "Ovulation Tests",
+            "emoji": "",
+            "parent": "4015e421-3d09-44b4-8360-7dc6c8dfb9b1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "be3e212e-beaa-416c-976b-484df8a2c48f",
+        "fields": {
+            "uuid": "be3e212e-beaa-416c-976b-484df8a2c48f",
+            "name": "Medical Thermometers",
+            "emoji": "",
+            "parent": "c48799bd-8ed9-4ebf-8d3a-0d3eee720356"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d81e1591-ff98-4b5b-af9f-a5e3309ea9d4",
+        "fields": {
+            "uuid": "d81e1591-ff98-4b5b-af9f-a5e3309ea9d4",
+            "name": "Prenatal Heart Rate Monitors",
+            "emoji": "",
+            "parent": "c48799bd-8ed9-4ebf-8d3a-0d3eee720356"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "82359302-9a82-4fe8-a087-d082ed7b4530",
+        "fields": {
+            "uuid": "82359302-9a82-4fe8-a087-d082ed7b4530",
+            "name": "Pulse Oximeters",
+            "emoji": "",
+            "parent": "c48799bd-8ed9-4ebf-8d3a-0d3eee720356"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1f6c3d37-5645-466d-bf03-5ee7466916a6",
+        "fields": {
+            "uuid": "1f6c3d37-5645-466d-bf03-5ee7466916a6",
+            "name": "Condoms",
+            "emoji": "",
+            "parent": "c5edda18-c5a7-48fb-b6c1-39ff1e8a0ae8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5e8813b4-bde1-4719-a21d-ce254cf23529",
+        "fields": {
+            "uuid": "5e8813b4-bde1-4719-a21d-ce254cf23529",
+            "name": "Conductivity Gels & Lotions",
+            "emoji": "",
+            "parent": "c5edda18-c5a7-48fb-b6c1-39ff1e8a0ae8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ca7e45a3-509b-441c-96fa-ac63d956c88b",
+        "fields": {
+            "uuid": "ca7e45a3-509b-441c-96fa-ac63d956c88b",
+            "name": "Contraceptive Cases",
+            "emoji": "",
+            "parent": "c5edda18-c5a7-48fb-b6c1-39ff1e8a0ae8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "df3ede3c-dfe1-4b48-a724-650b560d65bd",
+        "fields": {
+            "uuid": "df3ede3c-dfe1-4b48-a724-650b560d65bd",
+            "name": "First Aid",
+            "emoji": "",
+            "parent": "c5edda18-c5a7-48fb-b6c1-39ff1e8a0ae8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c55f60f9-0751-41c8-a120-7c14f1daab1d",
+        "fields": {
+            "uuid": "c55f60f9-0751-41c8-a120-7c14f1daab1d",
+            "name": "Antiseptics & Cleaning Supplies",
+            "emoji": "",
+            "parent": "df3ede3c-dfe1-4b48-a724-650b560d65bd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d021e010-9eca-4668-963b-4add8f0e8f03",
+        "fields": {
+            "uuid": "d021e010-9eca-4668-963b-4add8f0e8f03",
+            "name": "Cast & Bandage Protectors",
+            "emoji": "",
+            "parent": "df3ede3c-dfe1-4b48-a724-650b560d65bd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "77f1b4c6-bf71-4467-9955-00e60ee4137c",
+        "fields": {
+            "uuid": "77f1b4c6-bf71-4467-9955-00e60ee4137c",
+            "name": "Eye Wash Supplies",
+            "emoji": "",
+            "parent": "df3ede3c-dfe1-4b48-a724-650b560d65bd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "eb17019c-d8ac-4009-8b1c-0bb8ad697ce9",
+        "fields": {
+            "uuid": "eb17019c-d8ac-4009-8b1c-0bb8ad697ce9",
+            "name": "First Aid Kits",
+            "emoji": "",
+            "parent": "df3ede3c-dfe1-4b48-a724-650b560d65bd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "21a9f6be-1f22-4aa4-803e-f333a277b507",
+        "fields": {
+            "uuid": "21a9f6be-1f22-4aa4-803e-f333a277b507",
+            "name": "Hot & Cold Therapies",
+            "emoji": "",
+            "parent": "df3ede3c-dfe1-4b48-a724-650b560d65bd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "881137f1-5d59-45c0-bcb3-144b412526f6",
+        "fields": {
+            "uuid": "881137f1-5d59-45c0-bcb3-144b412526f6",
+            "name": "Heat Rubs",
+            "emoji": "",
+            "parent": "21a9f6be-1f22-4aa4-803e-f333a277b507"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "320acd60-0d5e-4dbb-8cd4-97a8855b53a1",
+        "fields": {
+            "uuid": "320acd60-0d5e-4dbb-8cd4-97a8855b53a1",
+            "name": "Heating Pads",
+            "emoji": "",
+            "parent": "21a9f6be-1f22-4aa4-803e-f333a277b507"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d3ea28fb-fa44-40d9-9e29-1f8cf530fbfd",
+        "fields": {
+            "uuid": "d3ea28fb-fa44-40d9-9e29-1f8cf530fbfd",
+            "name": "Ice Packs",
+            "emoji": "",
+            "parent": "21a9f6be-1f22-4aa4-803e-f333a277b507"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fa40eadb-9026-45d2-8732-58bc7addf630",
+        "fields": {
+            "uuid": "fa40eadb-9026-45d2-8732-58bc7addf630",
+            "name": "Medical Tape & Bandages",
+            "emoji": "",
+            "parent": "df3ede3c-dfe1-4b48-a724-650b560d65bd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fc98d65e-0cea-4b86-b257-4210987f8b5b",
+        "fields": {
+            "uuid": "fc98d65e-0cea-4b86-b257-4210987f8b5b",
+            "name": "Fitness & Nutrition",
+            "emoji": "",
+            "parent": "c5edda18-c5a7-48fb-b6c1-39ff1e8a0ae8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "68678004-8fa0-4598-8c03-aec7cb62429a",
+        "fields": {
+            "uuid": "68678004-8fa0-4598-8c03-aec7cb62429a",
+            "name": "Nutrition Bars",
+            "emoji": "",
+            "parent": "fc98d65e-0cea-4b86-b257-4210987f8b5b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "10315ffb-3dbb-487e-ad0b-0c7ed7a09842",
+        "fields": {
+            "uuid": "10315ffb-3dbb-487e-ad0b-0c7ed7a09842",
+            "name": "Nutrition Drinks & Shakes",
+            "emoji": "",
+            "parent": "fc98d65e-0cea-4b86-b257-4210987f8b5b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "028087bd-7927-4a36-9df7-d9f0754981ed",
+        "fields": {
+            "uuid": "028087bd-7927-4a36-9df7-d9f0754981ed",
+            "name": "Nutrition Gels & Chews",
+            "emoji": "",
+            "parent": "fc98d65e-0cea-4b86-b257-4210987f8b5b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "64f726d3-11b5-4ffe-a51e-2cba358d640b",
+        "fields": {
+            "uuid": "64f726d3-11b5-4ffe-a51e-2cba358d640b",
+            "name": "Nutritional Food Pur\u00e9es",
+            "emoji": "",
+            "parent": "fc98d65e-0cea-4b86-b257-4210987f8b5b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5ea83515-c8c3-4458-9919-8dfa08527dba",
+        "fields": {
+            "uuid": "5ea83515-c8c3-4458-9919-8dfa08527dba",
+            "name": "Tube Feeding Supplements",
+            "emoji": "",
+            "parent": "fc98d65e-0cea-4b86-b257-4210987f8b5b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c8c82131-6114-461c-af30-3b8da8e1d2df",
+        "fields": {
+            "uuid": "c8c82131-6114-461c-af30-3b8da8e1d2df",
+            "name": "Vitamins & Supplements",
+            "emoji": "",
+            "parent": "fc98d65e-0cea-4b86-b257-4210987f8b5b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b2108b32-f59e-4e71-afc8-13bd2f324fcd",
+        "fields": {
+            "uuid": "b2108b32-f59e-4e71-afc8-13bd2f324fcd",
+            "name": "Amino Acids",
+            "emoji": "",
+            "parent": "c8c82131-6114-461c-af30-3b8da8e1d2df"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7068cc91-1d74-4b9b-9771-c501ae25dab1",
+        "fields": {
+            "uuid": "7068cc91-1d74-4b9b-9771-c501ae25dab1",
+            "name": "Collagen",
+            "emoji": "",
+            "parent": "c8c82131-6114-461c-af30-3b8da8e1d2df"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b1e434f8-04d9-4916-af5b-ad2289c60bef",
+        "fields": {
+            "uuid": "b1e434f8-04d9-4916-af5b-ad2289c60bef",
+            "name": "Creatine",
+            "emoji": "",
+            "parent": "c8c82131-6114-461c-af30-3b8da8e1d2df"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a6893afa-7898-426a-824b-ac6cce5dd561",
+        "fields": {
+            "uuid": "a6893afa-7898-426a-824b-ac6cce5dd561",
+            "name": "Digestive Supplements",
+            "emoji": "",
+            "parent": "c8c82131-6114-461c-af30-3b8da8e1d2df"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "22d12988-0f31-4b5a-9098-bf0c1ee74edb",
+        "fields": {
+            "uuid": "22d12988-0f31-4b5a-9098-bf0c1ee74edb",
+            "name": "Herbal Supplements",
+            "emoji": "",
+            "parent": "c8c82131-6114-461c-af30-3b8da8e1d2df"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "45171e68-9ff2-4d56-9905-7ea36e55d630",
+        "fields": {
+            "uuid": "45171e68-9ff2-4d56-9905-7ea36e55d630",
+            "name": "Minerals",
+            "emoji": "",
+            "parent": "c8c82131-6114-461c-af30-3b8da8e1d2df"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3f46dc7b-d9b8-4c2b-b122-d9ea6e6fb986",
+        "fields": {
+            "uuid": "3f46dc7b-d9b8-4c2b-b122-d9ea6e6fb986",
+            "name": "Multivitamin Supplements",
+            "emoji": "",
+            "parent": "c8c82131-6114-461c-af30-3b8da8e1d2df"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "29444cff-bd16-43c2-ac2b-2324963f1180",
+        "fields": {
+            "uuid": "29444cff-bd16-43c2-ac2b-2324963f1180",
+            "name": "Protein Supplements",
+            "emoji": "",
+            "parent": "c8c82131-6114-461c-af30-3b8da8e1d2df"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "96e2fd92-1962-4ebd-b71d-da6d8ad9066a",
+        "fields": {
+            "uuid": "96e2fd92-1962-4ebd-b71d-da6d8ad9066a",
+            "name": "Single Vitamins",
+            "emoji": "",
+            "parent": "c8c82131-6114-461c-af30-3b8da8e1d2df"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6959caec-136c-492e-b7f8-8d235cae8093",
+        "fields": {
+            "uuid": "6959caec-136c-492e-b7f8-8d235cae8093",
+            "name": "CBD Supplements",
+            "emoji": "",
+            "parent": "c8c82131-6114-461c-af30-3b8da8e1d2df"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3fc6e707-f2fe-462c-bd2c-3e07301a6fec",
+        "fields": {
+            "uuid": "3fc6e707-f2fe-462c-bd2c-3e07301a6fec",
+            "name": "Hearing Aids",
+            "emoji": "",
+            "parent": "c5edda18-c5a7-48fb-b6c1-39ff1e8a0ae8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fbb21b8d-8ce8-4ef9-b0a8-ecd93d6d708e",
+        "fields": {
+            "uuid": "fbb21b8d-8ce8-4ef9-b0a8-ecd93d6d708e",
+            "name": "Behind-The-Ear (BTE) Hearing Aids",
+            "emoji": "",
+            "parent": "3fc6e707-f2fe-462c-bd2c-3e07301a6fec"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "89bf1986-6ca3-4fd1-ae15-6cee71951ddb",
+        "fields": {
+            "uuid": "89bf1986-6ca3-4fd1-ae15-6cee71951ddb",
+            "name": "Body-Worn Hearing Aids",
+            "emoji": "",
+            "parent": "3fc6e707-f2fe-462c-bd2c-3e07301a6fec"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f2a2b108-dbef-4760-bc49-802762e948d6",
+        "fields": {
+            "uuid": "f2a2b108-dbef-4760-bc49-802762e948d6",
+            "name": "Bone-Anchored Hearing Aids (BAHA)",
+            "emoji": "",
+            "parent": "3fc6e707-f2fe-462c-bd2c-3e07301a6fec"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "afd7c32c-adb2-498e-ab39-6bce9c6e159b",
+        "fields": {
+            "uuid": "afd7c32c-adb2-498e-ab39-6bce9c6e159b",
+            "name": "Completely-In-Canal (CIC) Hearing Aids",
+            "emoji": "",
+            "parent": "3fc6e707-f2fe-462c-bd2c-3e07301a6fec"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7baf48c9-d591-4144-8f6c-3d993f9cf898",
+        "fields": {
+            "uuid": "7baf48c9-d591-4144-8f6c-3d993f9cf898",
+            "name": "Full-Shell In-the-Ear (FSITE) Hearing Aids",
+            "emoji": "",
+            "parent": "3fc6e707-f2fe-462c-bd2c-3e07301a6fec"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aa19d8cc-1a2d-49e9-b0e9-c0bf2a7f154a",
+        "fields": {
+            "uuid": "aa19d8cc-1a2d-49e9-b0e9-c0bf2a7f154a",
+            "name": "Half-Shell In-the-Ear (HSITE) Hearing Aids",
+            "emoji": "",
+            "parent": "3fc6e707-f2fe-462c-bd2c-3e07301a6fec"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a97aea23-3a06-4266-8d66-24534f3d6517",
+        "fields": {
+            "uuid": "a97aea23-3a06-4266-8d66-24534f3d6517",
+            "name": "In-The-Canal (ITC) Hearing Aids",
+            "emoji": "",
+            "parent": "3fc6e707-f2fe-462c-bd2c-3e07301a6fec"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "20475872-e180-4f68-a8b7-fc6f9932db15",
+        "fields": {
+            "uuid": "20475872-e180-4f68-a8b7-fc6f9932db15",
+            "name": "In-The-Ear (ITE) Hearing Aids",
+            "emoji": "",
+            "parent": "3fc6e707-f2fe-462c-bd2c-3e07301a6fec"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f1cfc6a2-a48d-44b3-9188-ff94cc5c49c2",
+        "fields": {
+            "uuid": "f1cfc6a2-a48d-44b3-9188-ff94cc5c49c2",
+            "name": "Invisible-In-Canal (IIC) Hearing Aids",
+            "emoji": "",
+            "parent": "3fc6e707-f2fe-462c-bd2c-3e07301a6fec"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7a513c4f-26d3-49b4-82dd-9b5720fc5107",
+        "fields": {
+            "uuid": "7a513c4f-26d3-49b4-82dd-9b5720fc5107",
+            "name": "Mini Behind-The-Ear (mBTE) Hearing Aids",
+            "emoji": "",
+            "parent": "3fc6e707-f2fe-462c-bd2c-3e07301a6fec"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a66cce4a-7562-407a-8da6-9614cb20696c",
+        "fields": {
+            "uuid": "a66cce4a-7562-407a-8da6-9614cb20696c",
+            "name": "Incontinence Aids",
+            "emoji": "",
+            "parent": "c5edda18-c5a7-48fb-b6c1-39ff1e8a0ae8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "849bbd1a-3abc-4540-bd0d-81113df8079c",
+        "fields": {
+            "uuid": "849bbd1a-3abc-4540-bd0d-81113df8079c",
+            "name": "Adult Diapers",
+            "emoji": "",
+            "parent": "a66cce4a-7562-407a-8da6-9614cb20696c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6a9d257b-2e37-4c8c-a371-da62ace65731",
+        "fields": {
+            "uuid": "6a9d257b-2e37-4c8c-a371-da62ace65731",
+            "name": "Bed Pads",
+            "emoji": "",
+            "parent": "a66cce4a-7562-407a-8da6-9614cb20696c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3f68e6d7-fbad-4ef9-bb01-ca544ab8af75",
+        "fields": {
+            "uuid": "3f68e6d7-fbad-4ef9-bb01-ca544ab8af75",
+            "name": "Incontinence Pads",
+            "emoji": "",
+            "parent": "a66cce4a-7562-407a-8da6-9614cb20696c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "581e7e60-292f-44df-b4b9-31e887df7ec1",
+        "fields": {
+            "uuid": "581e7e60-292f-44df-b4b9-31e887df7ec1",
+            "name": "Light Therapy Lamps",
+            "emoji": "",
+            "parent": "c5edda18-c5a7-48fb-b6c1-39ff1e8a0ae8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "eab1008e-b380-46b2-92c1-a091efb364e5",
+        "fields": {
+            "uuid": "eab1008e-b380-46b2-92c1-a091efb364e5",
+            "name": "Medical Alarm Systems",
+            "emoji": "",
+            "parent": "c5edda18-c5a7-48fb-b6c1-39ff1e8a0ae8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4dd6ae40-d033-4197-bf1c-3d70c2e3cfa9",
+        "fields": {
+            "uuid": "4dd6ae40-d033-4197-bf1c-3d70c2e3cfa9",
+            "name": "Medical Identification Tags & Jewelry",
+            "emoji": "",
+            "parent": "c5edda18-c5a7-48fb-b6c1-39ff1e8a0ae8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ed6f75ec-37a0-46f3-8237-158a30fe5c9d",
+        "fields": {
+            "uuid": "ed6f75ec-37a0-46f3-8237-158a30fe5c9d",
+            "name": "Medical Tests",
+            "emoji": "",
+            "parent": "c5edda18-c5a7-48fb-b6c1-39ff1e8a0ae8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5fe00093-976c-44a1-8566-632affcae984",
+        "fields": {
+            "uuid": "5fe00093-976c-44a1-8566-632affcae984",
+            "name": "Allergy Test Kits",
+            "emoji": "",
+            "parent": "ed6f75ec-37a0-46f3-8237-158a30fe5c9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1dea130e-d512-4eb7-a580-10b1b6e1dd47",
+        "fields": {
+            "uuid": "1dea130e-d512-4eb7-a580-10b1b6e1dd47",
+            "name": "Blood Typing Test Kits",
+            "emoji": "",
+            "parent": "ed6f75ec-37a0-46f3-8237-158a30fe5c9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b54fa730-df08-4ecd-9c58-ab8af9c8e65c",
+        "fields": {
+            "uuid": "b54fa730-df08-4ecd-9c58-ab8af9c8e65c",
+            "name": "Drug Tests",
+            "emoji": "",
+            "parent": "ed6f75ec-37a0-46f3-8237-158a30fe5c9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1fa99861-d899-4b2a-8968-5a84705b26d0",
+        "fields": {
+            "uuid": "1fa99861-d899-4b2a-8968-5a84705b26d0",
+            "name": "HIV Tests",
+            "emoji": "",
+            "parent": "ed6f75ec-37a0-46f3-8237-158a30fe5c9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f00d1d2b-8c8e-44dc-a5e8-3e70b27bfe7e",
+        "fields": {
+            "uuid": "f00d1d2b-8c8e-44dc-a5e8-3e70b27bfe7e",
+            "name": "Pregnancy Tests",
+            "emoji": "",
+            "parent": "ed6f75ec-37a0-46f3-8237-158a30fe5c9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f7c19a3f-16bb-4f30-8b67-d8da61b74391",
+        "fields": {
+            "uuid": "f7c19a3f-16bb-4f30-8b67-d8da61b74391",
+            "name": "Urinary Tract Infection Tests",
+            "emoji": "",
+            "parent": "ed6f75ec-37a0-46f3-8237-158a30fe5c9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e25f2f35-4f19-41b3-bb35-f3769151a682",
+        "fields": {
+            "uuid": "e25f2f35-4f19-41b3-bb35-f3769151a682",
+            "name": "Medicine & Drugs",
+            "emoji": "",
+            "parent": "c5edda18-c5a7-48fb-b6c1-39ff1e8a0ae8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "78e5ea70-2ef6-4ada-b3a1-ee8f131de0f1",
+        "fields": {
+            "uuid": "78e5ea70-2ef6-4ada-b3a1-ee8f131de0f1",
+            "name": "Mobility & Accessibility",
+            "emoji": "",
+            "parent": "c5edda18-c5a7-48fb-b6c1-39ff1e8a0ae8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a18d4b37-4719-46f6-b98d-d1aa0a230005",
+        "fields": {
+            "uuid": "a18d4b37-4719-46f6-b98d-d1aa0a230005",
+            "name": "Accessibility Equipment",
+            "emoji": "",
+            "parent": "78e5ea70-2ef6-4ada-b3a1-ee8f131de0f1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8956b819-9ec3-49c9-a6eb-f5782b6ad69b",
+        "fields": {
+            "uuid": "8956b819-9ec3-49c9-a6eb-f5782b6ad69b",
+            "name": "Mobility Scooters",
+            "emoji": "",
+            "parent": "a18d4b37-4719-46f6-b98d-d1aa0a230005"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f1a772d9-e11e-4a2d-95f9-d42653457318",
+        "fields": {
+            "uuid": "f1a772d9-e11e-4a2d-95f9-d42653457318",
+            "name": "Stair Lifts",
+            "emoji": "",
+            "parent": "a18d4b37-4719-46f6-b98d-d1aa0a230005"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "81a5a0b9-0589-48ca-b986-4e7b05f7bf02",
+        "fields": {
+            "uuid": "81a5a0b9-0589-48ca-b986-4e7b05f7bf02",
+            "name": "Transfer Boards & Sheets",
+            "emoji": "",
+            "parent": "a18d4b37-4719-46f6-b98d-d1aa0a230005"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3bf32db0-f107-48b6-9761-06ae959e4793",
+        "fields": {
+            "uuid": "3bf32db0-f107-48b6-9761-06ae959e4793",
+            "name": "Wheelchairs",
+            "emoji": "",
+            "parent": "a18d4b37-4719-46f6-b98d-d1aa0a230005"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ae7ceb46-b5bc-4b03-a098-bf3d26b3c2b9",
+        "fields": {
+            "uuid": "ae7ceb46-b5bc-4b03-a098-bf3d26b3c2b9",
+            "name": "Accessibility Equipment Accessories",
+            "emoji": "",
+            "parent": "78e5ea70-2ef6-4ada-b3a1-ee8f131de0f1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "725b0cc5-6e80-40f1-ab7c-93ad043e2e2b",
+        "fields": {
+            "uuid": "725b0cc5-6e80-40f1-ab7c-93ad043e2e2b",
+            "name": "Accessibility Furniture & Fixtures",
+            "emoji": "",
+            "parent": "78e5ea70-2ef6-4ada-b3a1-ee8f131de0f1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "019804ff-f1e0-4d51-9034-2d1b811a1198",
+        "fields": {
+            "uuid": "019804ff-f1e0-4d51-9034-2d1b811a1198",
+            "name": "Shower Benches & Seats",
+            "emoji": "",
+            "parent": "725b0cc5-6e80-40f1-ab7c-93ad043e2e2b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2eba84ac-f53f-4862-a39f-83de1cd5f999",
+        "fields": {
+            "uuid": "2eba84ac-f53f-4862-a39f-83de1cd5f999",
+            "name": "Padded Shower Benches",
+            "emoji": "",
+            "parent": "019804ff-f1e0-4d51-9034-2d1b811a1198"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bd0c3739-3ce6-4d78-8f5d-3f85fdb7d39a",
+        "fields": {
+            "uuid": "bd0c3739-3ce6-4d78-8f5d-3f85fdb7d39a",
+            "name": "Shower Benches",
+            "emoji": "",
+            "parent": "019804ff-f1e0-4d51-9034-2d1b811a1198"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ac0edd65-e5e5-4b04-97a4-f5c849390cb6",
+        "fields": {
+            "uuid": "ac0edd65-e5e5-4b04-97a4-f5c849390cb6",
+            "name": "Shower Seats",
+            "emoji": "",
+            "parent": "019804ff-f1e0-4d51-9034-2d1b811a1198"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b61bd978-19a1-43e0-895e-35f37620dafd",
+        "fields": {
+            "uuid": "b61bd978-19a1-43e0-895e-35f37620dafd",
+            "name": "Transfer Benches",
+            "emoji": "",
+            "parent": "019804ff-f1e0-4d51-9034-2d1b811a1198"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "51ce59d6-9684-4896-ae4f-c3b5a14cb004",
+        "fields": {
+            "uuid": "51ce59d6-9684-4896-ae4f-c3b5a14cb004",
+            "name": "Wall-Mounted Shower Seats",
+            "emoji": "",
+            "parent": "019804ff-f1e0-4d51-9034-2d1b811a1198"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a3314a97-c5e3-4fa4-8e92-72600a3d4674",
+        "fields": {
+            "uuid": "a3314a97-c5e3-4fa4-8e92-72600a3d4674",
+            "name": "Walking Aid Accessories",
+            "emoji": "",
+            "parent": "78e5ea70-2ef6-4ada-b3a1-ee8f131de0f1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f37e3721-0360-4b07-9ef3-f7b61b0dabf5",
+        "fields": {
+            "uuid": "f37e3721-0360-4b07-9ef3-f7b61b0dabf5",
+            "name": "Walking Aids",
+            "emoji": "",
+            "parent": "78e5ea70-2ef6-4ada-b3a1-ee8f131de0f1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ccb1584c-a749-4604-801e-b78a5a953588",
+        "fields": {
+            "uuid": "ccb1584c-a749-4604-801e-b78a5a953588",
+            "name": "Canes & Walking Sticks",
+            "emoji": "",
+            "parent": "f37e3721-0360-4b07-9ef3-f7b61b0dabf5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d5bcc64d-84b7-4980-bca8-d535cb892625",
+        "fields": {
+            "uuid": "d5bcc64d-84b7-4980-bca8-d535cb892625",
+            "name": "Folding Canes",
+            "emoji": "",
+            "parent": "ccb1584c-a749-4604-801e-b78a5a953588"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "10f0facc-3ba0-47c8-a440-c879b0bc8e48",
+        "fields": {
+            "uuid": "10f0facc-3ba0-47c8-a440-c879b0bc8e48",
+            "name": "Offset Canes",
+            "emoji": "",
+            "parent": "ccb1584c-a749-4604-801e-b78a5a953588"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "893b3a8d-1e0d-4ca4-8aed-efc7499875e9",
+        "fields": {
+            "uuid": "893b3a8d-1e0d-4ca4-8aed-efc7499875e9",
+            "name": "Quad Canes",
+            "emoji": "",
+            "parent": "ccb1584c-a749-4604-801e-b78a5a953588"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d12bef7f-202a-430d-8d7f-14b4e816875e",
+        "fields": {
+            "uuid": "d12bef7f-202a-430d-8d7f-14b4e816875e",
+            "name": "Walking Sticks",
+            "emoji": "",
+            "parent": "ccb1584c-a749-4604-801e-b78a5a953588"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0d5e9f90-f55d-41f8-9cbd-03fc242a3de9",
+        "fields": {
+            "uuid": "0d5e9f90-f55d-41f8-9cbd-03fc242a3de9",
+            "name": "Crutches",
+            "emoji": "",
+            "parent": "f37e3721-0360-4b07-9ef3-f7b61b0dabf5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f02da6c2-a80a-48b7-be08-dd1f3319868f",
+        "fields": {
+            "uuid": "f02da6c2-a80a-48b7-be08-dd1f3319868f",
+            "name": "Walkers",
+            "emoji": "",
+            "parent": "f37e3721-0360-4b07-9ef3-f7b61b0dabf5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f9781f57-e897-49a3-a657-8648039f820b",
+        "fields": {
+            "uuid": "f9781f57-e897-49a3-a657-8648039f820b",
+            "name": "Occupational & Physical Therapy Equipment",
+            "emoji": "",
+            "parent": "c5edda18-c5a7-48fb-b6c1-39ff1e8a0ae8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "56a66b46-a7cc-451a-9a65-40c7c47081ad",
+        "fields": {
+            "uuid": "56a66b46-a7cc-451a-9a65-40c7c47081ad",
+            "name": "Electrical Muscle Stimulators",
+            "emoji": "",
+            "parent": "f9781f57-e897-49a3-a657-8648039f820b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "67498e64-97b6-4948-a086-b31fe177d25c",
+        "fields": {
+            "uuid": "67498e64-97b6-4948-a086-b31fe177d25c",
+            "name": "Therapeutic Swings",
+            "emoji": "",
+            "parent": "f9781f57-e897-49a3-a657-8648039f820b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1a0f735d-d337-47dc-9756-efdb0fcee22e",
+        "fields": {
+            "uuid": "1a0f735d-d337-47dc-9756-efdb0fcee22e",
+            "name": "Pillboxes",
+            "emoji": "",
+            "parent": "c5edda18-c5a7-48fb-b6c1-39ff1e8a0ae8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f77836bb-a36b-4d7d-8373-d2f9c6b54bcd",
+        "fields": {
+            "uuid": "f77836bb-a36b-4d7d-8373-d2f9c6b54bcd",
+            "name": "Respiratory Care",
+            "emoji": "",
+            "parent": "c5edda18-c5a7-48fb-b6c1-39ff1e8a0ae8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9dfaa602-975c-46c6-a8a6-ac6f1669476b",
+        "fields": {
+            "uuid": "9dfaa602-975c-46c6-a8a6-ac6f1669476b",
+            "name": "Nebulizers",
+            "emoji": "",
+            "parent": "f77836bb-a36b-4d7d-8373-d2f9c6b54bcd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d85b240e-c517-4b5c-8499-5c782322c4a3",
+        "fields": {
+            "uuid": "d85b240e-c517-4b5c-8499-5c782322c4a3",
+            "name": "Oxygen Tanks",
+            "emoji": "",
+            "parent": "f77836bb-a36b-4d7d-8373-d2f9c6b54bcd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "27dcb49e-fbae-4d8c-9f05-6d498b14fad7",
+        "fields": {
+            "uuid": "27dcb49e-fbae-4d8c-9f05-6d498b14fad7",
+            "name": "PAP Machines",
+            "emoji": "",
+            "parent": "f77836bb-a36b-4d7d-8373-d2f9c6b54bcd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "560562c3-44cd-4b18-8940-12bc291dc9d7",
+        "fields": {
+            "uuid": "560562c3-44cd-4b18-8940-12bc291dc9d7",
+            "name": "APAP Machines",
+            "emoji": "",
+            "parent": "27dcb49e-fbae-4d8c-9f05-6d498b14fad7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fab45ba4-5d5e-413f-add7-cb473700d6a9",
+        "fields": {
+            "uuid": "fab45ba4-5d5e-413f-add7-cb473700d6a9",
+            "name": "BiPAP Machines",
+            "emoji": "",
+            "parent": "27dcb49e-fbae-4d8c-9f05-6d498b14fad7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1560b539-46ce-4ee1-88b1-6865129321dc",
+        "fields": {
+            "uuid": "1560b539-46ce-4ee1-88b1-6865129321dc",
+            "name": "CPAP Machines",
+            "emoji": "",
+            "parent": "27dcb49e-fbae-4d8c-9f05-6d498b14fad7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "57ae2753-24f7-43ad-afa4-3eb4202c3e80",
+        "fields": {
+            "uuid": "57ae2753-24f7-43ad-afa4-3eb4202c3e80",
+            "name": "PAP Masks",
+            "emoji": "",
+            "parent": "f77836bb-a36b-4d7d-8373-d2f9c6b54bcd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5505ea9d-87a4-471e-8dce-ce4a1839affb",
+        "fields": {
+            "uuid": "5505ea9d-87a4-471e-8dce-ce4a1839affb",
+            "name": "Steam Inhalers",
+            "emoji": "",
+            "parent": "f77836bb-a36b-4d7d-8373-d2f9c6b54bcd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "af5ffc27-4b27-4f55-bda9-8f9578858354",
+        "fields": {
+            "uuid": "af5ffc27-4b27-4f55-bda9-8f9578858354",
+            "name": "Specimen Cups",
+            "emoji": "",
+            "parent": "c5edda18-c5a7-48fb-b6c1-39ff1e8a0ae8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c7fdcde9-e713-48f6-8af7-7981aef58f45",
+        "fields": {
+            "uuid": "c7fdcde9-e713-48f6-8af7-7981aef58f45",
+            "name": "Spermicides",
+            "emoji": "",
+            "parent": "c5edda18-c5a7-48fb-b6c1-39ff1e8a0ae8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e72b8dfa-f129-4afd-a03e-faa41111dfa2",
+        "fields": {
+            "uuid": "e72b8dfa-f129-4afd-a03e-faa41111dfa2",
+            "name": "Stump Shrinkers",
+            "emoji": "",
+            "parent": "c5edda18-c5a7-48fb-b6c1-39ff1e8a0ae8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2b923dc8-4cd0-4610-bc7b-14a655f9cb54",
+        "fields": {
+            "uuid": "2b923dc8-4cd0-4610-bc7b-14a655f9cb54",
+            "name": "Supports & Braces",
+            "emoji": "",
+            "parent": "c5edda18-c5a7-48fb-b6c1-39ff1e8a0ae8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bfaa8072-c705-4b3d-8eba-a3263e1e69cb",
+        "fields": {
+            "uuid": "bfaa8072-c705-4b3d-8eba-a3263e1e69cb",
+            "name": "Ankle Supports",
+            "emoji": "",
+            "parent": "2b923dc8-4cd0-4610-bc7b-14a655f9cb54"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "307c78b7-39ee-4d05-845e-c9229d6f9d76",
+        "fields": {
+            "uuid": "307c78b7-39ee-4d05-845e-c9229d6f9d76",
+            "name": "Back Braces",
+            "emoji": "",
+            "parent": "2b923dc8-4cd0-4610-bc7b-14a655f9cb54"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8378386f-708f-40b8-aef4-acae31816187",
+        "fields": {
+            "uuid": "8378386f-708f-40b8-aef4-acae31816187",
+            "name": "Elbow Supports",
+            "emoji": "",
+            "parent": "2b923dc8-4cd0-4610-bc7b-14a655f9cb54"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d15c6bb3-2f78-42c8-8187-3bb31357468b",
+        "fields": {
+            "uuid": "d15c6bb3-2f78-42c8-8187-3bb31357468b",
+            "name": "Knee Braces",
+            "emoji": "",
+            "parent": "2b923dc8-4cd0-4610-bc7b-14a655f9cb54"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4173658d-e50c-4aac-8512-190026c74d98",
+        "fields": {
+            "uuid": "4173658d-e50c-4aac-8512-190026c74d98",
+            "name": "Neck Braces",
+            "emoji": "",
+            "parent": "2b923dc8-4cd0-4610-bc7b-14a655f9cb54"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1d9b792c-c7d0-43c1-9874-e45eae87522b",
+        "fields": {
+            "uuid": "1d9b792c-c7d0-43c1-9874-e45eae87522b",
+            "name": "Wrist Braces",
+            "emoji": "",
+            "parent": "2b923dc8-4cd0-4610-bc7b-14a655f9cb54"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f8dafa78-91b5-4556-945e-a68593a436e2",
+        "fields": {
+            "uuid": "f8dafa78-91b5-4556-945e-a68593a436e2",
+            "name": "Surgical Lubricants",
+            "emoji": "",
+            "parent": "c5edda18-c5a7-48fb-b6c1-39ff1e8a0ae8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d31504eb-5c44-47f4-afdb-f3828d45fc90",
+        "fields": {
+            "uuid": "d31504eb-5c44-47f4-afdb-f3828d45fc90",
+            "name": "Jewelry Cleaning & Care",
+            "emoji": "",
+            "parent": "1da08c88-ceb3-4b62-8d09-4811d7332bd1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "470e9e58-7829-4bf7-a080-04c90d34661d",
+        "fields": {
+            "uuid": "470e9e58-7829-4bf7-a080-04c90d34661d",
+            "name": "Jewelry Cleaning Solutions & Polishes",
+            "emoji": "",
+            "parent": "d31504eb-5c44-47f4-afdb-f3828d45fc90"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "76d2f9aa-f46c-464c-9b1c-0aa8a7f71371",
+        "fields": {
+            "uuid": "76d2f9aa-f46c-464c-9b1c-0aa8a7f71371",
+            "name": "Jewelry Cleaning Tools",
+            "emoji": "",
+            "parent": "d31504eb-5c44-47f4-afdb-f3828d45fc90"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a58cfe7d-6dc4-4663-ae35-01899c98185c",
+        "fields": {
+            "uuid": "a58cfe7d-6dc4-4663-ae35-01899c98185c",
+            "name": "Jewelry Cleaning Brushes",
+            "emoji": "",
+            "parent": "76d2f9aa-f46c-464c-9b1c-0aa8a7f71371"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e6fcca76-ab16-4932-b9d0-ba90d915ff65",
+        "fields": {
+            "uuid": "e6fcca76-ab16-4932-b9d0-ba90d915ff65",
+            "name": "Jewelry Polishing Cloths",
+            "emoji": "",
+            "parent": "76d2f9aa-f46c-464c-9b1c-0aa8a7f71371"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ae3fb23d-be5c-4fac-8088-1ecf421c9180",
+        "fields": {
+            "uuid": "ae3fb23d-be5c-4fac-8088-1ecf421c9180",
+            "name": "Jewelry Steam Cleaners",
+            "emoji": "",
+            "parent": "76d2f9aa-f46c-464c-9b1c-0aa8a7f71371"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a53e310d-0e60-4eb7-a48d-b38575ee8218",
+        "fields": {
+            "uuid": "a53e310d-0e60-4eb7-a48d-b38575ee8218",
+            "name": "Ultrasonic Jewelry Cleaners",
+            "emoji": "",
+            "parent": "76d2f9aa-f46c-464c-9b1c-0aa8a7f71371"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "305fdf82-3c55-47d5-93b7-d901011b7a70",
+        "fields": {
+            "uuid": "305fdf82-3c55-47d5-93b7-d901011b7a70",
+            "name": "Jewelry Holders",
+            "emoji": "",
+            "parent": "d31504eb-5c44-47f4-afdb-f3828d45fc90"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f35e6636-f456-4d84-81aa-5daa9d2e97f6",
+        "fields": {
+            "uuid": "f35e6636-f456-4d84-81aa-5daa9d2e97f6",
+            "name": "Jewelry Boxes",
+            "emoji": "",
+            "parent": "305fdf82-3c55-47d5-93b7-d901011b7a70"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "963f933c-3ed4-4f0d-bd47-e58e251ecf90",
+        "fields": {
+            "uuid": "963f933c-3ed4-4f0d-bd47-e58e251ecf90",
+            "name": "Jewelry Stands",
+            "emoji": "",
+            "parent": "305fdf82-3c55-47d5-93b7-d901011b7a70"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e9b741b6-d169-4f80-ba6e-3cc765bf46f2",
+        "fields": {
+            "uuid": "e9b741b6-d169-4f80-ba6e-3cc765bf46f2",
+            "name": "Jewelry Trays",
+            "emoji": "",
+            "parent": "305fdf82-3c55-47d5-93b7-d901011b7a70"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3b9cb984-a71c-4529-bd69-982bfa60e49e",
+        "fields": {
+            "uuid": "3b9cb984-a71c-4529-bd69-982bfa60e49e",
+            "name": "Ring Holders",
+            "emoji": "",
+            "parent": "305fdf82-3c55-47d5-93b7-d901011b7a70"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2c737f78-4977-4924-a831-a8382b3e05c2",
+        "fields": {
+            "uuid": "2c737f78-4977-4924-a831-a8382b3e05c2",
+            "name": "Wall-Mounted Jewelry Organizers",
+            "emoji": "",
+            "parent": "305fdf82-3c55-47d5-93b7-d901011b7a70"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "63c8fbbe-0664-427a-b7ba-ff1c4a7ce686",
+        "fields": {
+            "uuid": "63c8fbbe-0664-427a-b7ba-ff1c4a7ce686",
+            "name": "Jewelry Steam Cleaners",
+            "emoji": "",
+            "parent": "d31504eb-5c44-47f4-afdb-f3828d45fc90"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "af3f732a-00c6-4ad3-9ddb-3c2dec61a850",
+        "fields": {
+            "uuid": "af3f732a-00c6-4ad3-9ddb-3c2dec61a850",
+            "name": "Watch Repair Kits",
+            "emoji": "",
+            "parent": "d31504eb-5c44-47f4-afdb-f3828d45fc90"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3d9ee664-ea1e-473b-bd1d-af808ec25a4c",
+        "fields": {
+            "uuid": "3d9ee664-ea1e-473b-bd1d-af808ec25a4c",
+            "name": "Personal Care",
+            "emoji": "",
+            "parent": "1da08c88-ceb3-4b62-8d09-4811d7332bd1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c15800b4-9a53-4832-b3e0-83d537c1e7d0",
+        "fields": {
+            "uuid": "c15800b4-9a53-4832-b3e0-83d537c1e7d0",
+            "name": "Back Care",
+            "emoji": "",
+            "parent": "3d9ee664-ea1e-473b-bd1d-af808ec25a4c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b6444f83-0b37-403d-8cb2-dc8a0c6d1777",
+        "fields": {
+            "uuid": "b6444f83-0b37-403d-8cb2-dc8a0c6d1777",
+            "name": "Back & Lumbar Support Cushions",
+            "emoji": "",
+            "parent": "c15800b4-9a53-4832-b3e0-83d537c1e7d0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4fa8bb91-aaca-4649-bc9d-cfe6dce955bd",
+        "fields": {
+            "uuid": "4fa8bb91-aaca-4649-bc9d-cfe6dce955bd",
+            "name": "Cosmetics",
+            "emoji": "",
+            "parent": "3d9ee664-ea1e-473b-bd1d-af808ec25a4c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ba84e772-e806-4981-a8b1-e19cede9abe5",
+        "fields": {
+            "uuid": "ba84e772-e806-4981-a8b1-e19cede9abe5",
+            "name": "Bath & Body",
+            "emoji": "",
+            "parent": "4fa8bb91-aaca-4649-bc9d-cfe6dce955bd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "422ee29b-ae18-4cd0-9e39-4105847f088b",
+        "fields": {
+            "uuid": "422ee29b-ae18-4cd0-9e39-4105847f088b",
+            "name": "Bar Soap",
+            "emoji": "",
+            "parent": "ba84e772-e806-4981-a8b1-e19cede9abe5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f1112675-8587-49ac-ad63-cfeb7712c97a",
+        "fields": {
+            "uuid": "f1112675-8587-49ac-ad63-cfeb7712c97a",
+            "name": "Bath Additives",
+            "emoji": "",
+            "parent": "ba84e772-e806-4981-a8b1-e19cede9abe5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5417eb0b-4460-4822-806f-3bf117059067",
+        "fields": {
+            "uuid": "5417eb0b-4460-4822-806f-3bf117059067",
+            "name": "Bath Brushes",
+            "emoji": "",
+            "parent": "ba84e772-e806-4981-a8b1-e19cede9abe5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f961e477-1646-40ca-914a-05ec9285ac6c",
+        "fields": {
+            "uuid": "f961e477-1646-40ca-914a-05ec9285ac6c",
+            "name": "Bath Sponges & Loofahs",
+            "emoji": "",
+            "parent": "ba84e772-e806-4981-a8b1-e19cede9abe5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "606fc9f6-cb81-4ea1-9e2a-f8c01f73e6e7",
+        "fields": {
+            "uuid": "606fc9f6-cb81-4ea1-9e2a-f8c01f73e6e7",
+            "name": "Body Wash",
+            "emoji": "",
+            "parent": "ba84e772-e806-4981-a8b1-e19cede9abe5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "58e0f78c-16e3-4f78-bd3d-1151dbf6a9c0",
+        "fields": {
+            "uuid": "58e0f78c-16e3-4f78-bd3d-1151dbf6a9c0",
+            "name": "Hand Sanitizers & Wipes",
+            "emoji": "",
+            "parent": "ba84e772-e806-4981-a8b1-e19cede9abe5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3385c22f-ea46-4ffa-b2d4-37337b447b63",
+        "fields": {
+            "uuid": "3385c22f-ea46-4ffa-b2d4-37337b447b63",
+            "name": "Hygienic Wipes",
+            "emoji": "",
+            "parent": "ba84e772-e806-4981-a8b1-e19cede9abe5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9768168e-2350-47b1-96db-69b2b4a1bde9",
+        "fields": {
+            "uuid": "9768168e-2350-47b1-96db-69b2b4a1bde9",
+            "name": "Liquid Hand Soap",
+            "emoji": "",
+            "parent": "ba84e772-e806-4981-a8b1-e19cede9abe5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3c7d3f56-2f90-43ea-8492-b58c2c55a956",
+        "fields": {
+            "uuid": "3c7d3f56-2f90-43ea-8492-b58c2c55a956",
+            "name": "Powdered Hand Soap",
+            "emoji": "",
+            "parent": "ba84e772-e806-4981-a8b1-e19cede9abe5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "475783c4-17a7-4b4c-a4fd-41ec195268d8",
+        "fields": {
+            "uuid": "475783c4-17a7-4b4c-a4fd-41ec195268d8",
+            "name": "Shower Caps",
+            "emoji": "",
+            "parent": "ba84e772-e806-4981-a8b1-e19cede9abe5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f922d954-170c-4527-a00b-b2111bc6a53a",
+        "fields": {
+            "uuid": "f922d954-170c-4527-a00b-b2111bc6a53a",
+            "name": "Bath & Body Gift Sets",
+            "emoji": "",
+            "parent": "4fa8bb91-aaca-4649-bc9d-cfe6dce955bd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f2f58ddb-875a-4272-bfeb-d30edeb37dcf",
+        "fields": {
+            "uuid": "f2f58ddb-875a-4272-bfeb-d30edeb37dcf",
+            "name": "Cosmetic Sets",
+            "emoji": "",
+            "parent": "4fa8bb91-aaca-4649-bc9d-cfe6dce955bd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5f96040a-fa06-4090-a3ba-dd25d09c6f50",
+        "fields": {
+            "uuid": "5f96040a-fa06-4090-a3ba-dd25d09c6f50",
+            "name": "Cosmetic Tool Cleansers",
+            "emoji": "",
+            "parent": "4fa8bb91-aaca-4649-bc9d-cfe6dce955bd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "44237b1b-b5c9-4fdc-89f8-b559d19c23bd",
+        "fields": {
+            "uuid": "44237b1b-b5c9-4fdc-89f8-b559d19c23bd",
+            "name": "Cosmetic Tools",
+            "emoji": "",
+            "parent": "4fa8bb91-aaca-4649-bc9d-cfe6dce955bd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "835e2fca-86da-46c6-9ee9-bb006441f549",
+        "fields": {
+            "uuid": "835e2fca-86da-46c6-9ee9-bb006441f549",
+            "name": "Makeup Tools",
+            "emoji": "",
+            "parent": "44237b1b-b5c9-4fdc-89f8-b559d19c23bd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "84b53718-2d40-4695-88ee-4339aa8c27cd",
+        "fields": {
+            "uuid": "84b53718-2d40-4695-88ee-4339aa8c27cd",
+            "name": "Eyebrow Stencils",
+            "emoji": "",
+            "parent": "835e2fca-86da-46c6-9ee9-bb006441f549"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dfb69da5-1523-4e25-920b-47691e0f149e",
+        "fields": {
+            "uuid": "dfb69da5-1523-4e25-920b-47691e0f149e",
+            "name": "Eyelash Curler Refills",
+            "emoji": "",
+            "parent": "835e2fca-86da-46c6-9ee9-bb006441f549"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "17bfdb11-64f5-47f8-b66b-a6754a74ae03",
+        "fields": {
+            "uuid": "17bfdb11-64f5-47f8-b66b-a6754a74ae03",
+            "name": "Eyelash Curlers",
+            "emoji": "",
+            "parent": "835e2fca-86da-46c6-9ee9-bb006441f549"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "addbbb76-a5e9-4a6c-a8b0-74ac34bf036e",
+        "fields": {
+            "uuid": "addbbb76-a5e9-4a6c-a8b0-74ac34bf036e",
+            "name": "Face Mirrors",
+            "emoji": "",
+            "parent": "835e2fca-86da-46c6-9ee9-bb006441f549"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4ce184e3-9075-4416-ad97-1e8dc5cef67a",
+        "fields": {
+            "uuid": "4ce184e3-9075-4416-ad97-1e8dc5cef67a",
+            "name": "Facial Blotting Paper",
+            "emoji": "",
+            "parent": "835e2fca-86da-46c6-9ee9-bb006441f549"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a43891dc-c425-42f3-9046-692d9b174d5b",
+        "fields": {
+            "uuid": "a43891dc-c425-42f3-9046-692d9b174d5b",
+            "name": "False Eyelash Accessories",
+            "emoji": "",
+            "parent": "835e2fca-86da-46c6-9ee9-bb006441f549"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cbee861f-2a26-4717-8924-d3a20943a761",
+        "fields": {
+            "uuid": "cbee861f-2a26-4717-8924-d3a20943a761",
+            "name": "False Eyelash Adhesive",
+            "emoji": "",
+            "parent": "a43891dc-c425-42f3-9046-692d9b174d5b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "08e6109f-5132-4b1e-9540-d1ebd0606a48",
+        "fields": {
+            "uuid": "08e6109f-5132-4b1e-9540-d1ebd0606a48",
+            "name": "False Eyelash Applicators",
+            "emoji": "",
+            "parent": "a43891dc-c425-42f3-9046-692d9b174d5b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "09e3fc42-3553-4e0b-88ae-5ae367a53f96",
+        "fields": {
+            "uuid": "09e3fc42-3553-4e0b-88ae-5ae367a53f96",
+            "name": "False Eyelash Remover",
+            "emoji": "",
+            "parent": "a43891dc-c425-42f3-9046-692d9b174d5b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2555c730-fd08-47e8-9b05-687dba01728c",
+        "fields": {
+            "uuid": "2555c730-fd08-47e8-9b05-687dba01728c",
+            "name": "Makeup Brushes",
+            "emoji": "",
+            "parent": "835e2fca-86da-46c6-9ee9-bb006441f549"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "46e4d9b1-e2d8-4f00-add9-7544916ec85e",
+        "fields": {
+            "uuid": "46e4d9b1-e2d8-4f00-add9-7544916ec85e",
+            "name": "Makeup Sponges",
+            "emoji": "",
+            "parent": "835e2fca-86da-46c6-9ee9-bb006441f549"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "673a2125-13cf-4e2f-8d1d-abcfe10c4434",
+        "fields": {
+            "uuid": "673a2125-13cf-4e2f-8d1d-abcfe10c4434",
+            "name": "Refillable Makeup Palettes & Cases",
+            "emoji": "",
+            "parent": "835e2fca-86da-46c6-9ee9-bb006441f549"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "711ab51e-84c2-410e-8b52-28e7203c0b6a",
+        "fields": {
+            "uuid": "711ab51e-84c2-410e-8b52-28e7203c0b6a",
+            "name": "Double Eyelid Glue & Tape",
+            "emoji": "",
+            "parent": "835e2fca-86da-46c6-9ee9-bb006441f549"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3dd627c2-6fd9-4d12-807d-4332a721db22",
+        "fields": {
+            "uuid": "3dd627c2-6fd9-4d12-807d-4332a721db22",
+            "name": "Nail Tools",
+            "emoji": "",
+            "parent": "44237b1b-b5c9-4fdc-89f8-b559d19c23bd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e2c00764-2764-418a-9c69-f610221d4fc6",
+        "fields": {
+            "uuid": "e2c00764-2764-418a-9c69-f610221d4fc6",
+            "name": "Cuticle Pushers",
+            "emoji": "",
+            "parent": "3dd627c2-6fd9-4d12-807d-4332a721db22"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ec415c3c-e96d-4a4c-86bb-8182f4eb1e6b",
+        "fields": {
+            "uuid": "ec415c3c-e96d-4a4c-86bb-8182f4eb1e6b",
+            "name": "Cuticle Scissors",
+            "emoji": "",
+            "parent": "3dd627c2-6fd9-4d12-807d-4332a721db22"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bd1e17b1-e679-4ef3-9d65-e685ca08b0e7",
+        "fields": {
+            "uuid": "bd1e17b1-e679-4ef3-9d65-e685ca08b0e7",
+            "name": "Manicure & Pedicure Spacers",
+            "emoji": "",
+            "parent": "3dd627c2-6fd9-4d12-807d-4332a721db22"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f44f6965-4f1b-4f20-b33a-c2aa0888c7d5",
+        "fields": {
+            "uuid": "f44f6965-4f1b-4f20-b33a-c2aa0888c7d5",
+            "name": "Manicure Tool Sets",
+            "emoji": "",
+            "parent": "3dd627c2-6fd9-4d12-807d-4332a721db22"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "787c2dc9-9ebd-4230-a987-1a1e52d4727b",
+        "fields": {
+            "uuid": "787c2dc9-9ebd-4230-a987-1a1e52d4727b",
+            "name": "Nail Buffers",
+            "emoji": "",
+            "parent": "3dd627c2-6fd9-4d12-807d-4332a721db22"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8c049053-c58d-427f-b87a-048b2ad57792",
+        "fields": {
+            "uuid": "8c049053-c58d-427f-b87a-048b2ad57792",
+            "name": "Nail Clippers",
+            "emoji": "",
+            "parent": "3dd627c2-6fd9-4d12-807d-4332a721db22"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0637441b-ce29-4899-bdc1-f404b4b05343",
+        "fields": {
+            "uuid": "0637441b-ce29-4899-bdc1-f404b4b05343",
+            "name": "Nail Drill Accessories",
+            "emoji": "",
+            "parent": "3dd627c2-6fd9-4d12-807d-4332a721db22"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6a8f8d2b-1fc1-4c06-8d0f-322b78d39e2d",
+        "fields": {
+            "uuid": "6a8f8d2b-1fc1-4c06-8d0f-322b78d39e2d",
+            "name": "Nail Drills",
+            "emoji": "",
+            "parent": "3dd627c2-6fd9-4d12-807d-4332a721db22"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c464e462-4a86-4bfa-819f-aa8e03137693",
+        "fields": {
+            "uuid": "c464e462-4a86-4bfa-819f-aa8e03137693",
+            "name": "Nail Dryers",
+            "emoji": "",
+            "parent": "3dd627c2-6fd9-4d12-807d-4332a721db22"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3723bd7f-0563-44f5-ac72-b02aa7fdf22d",
+        "fields": {
+            "uuid": "3723bd7f-0563-44f5-ac72-b02aa7fdf22d",
+            "name": "Nail Files & Emery Boards",
+            "emoji": "",
+            "parent": "3dd627c2-6fd9-4d12-807d-4332a721db22"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4d358bc3-3708-40c0-a0ce-9774dca343ce",
+        "fields": {
+            "uuid": "4d358bc3-3708-40c0-a0ce-9774dca343ce",
+            "name": "Skin Care Tools",
+            "emoji": "",
+            "parent": "44237b1b-b5c9-4fdc-89f8-b559d19c23bd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1a737825-d397-4717-8067-12da4c3742dd",
+        "fields": {
+            "uuid": "1a737825-d397-4717-8067-12da4c3742dd",
+            "name": "Facial Saunas",
+            "emoji": "",
+            "parent": "4d358bc3-3708-40c0-a0ce-9774dca343ce"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "635a1494-b3a1-441c-8164-a00884d095ad",
+        "fields": {
+            "uuid": "635a1494-b3a1-441c-8164-a00884d095ad",
+            "name": "Foot Files",
+            "emoji": "",
+            "parent": "4d358bc3-3708-40c0-a0ce-9774dca343ce"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d9cab84d-a96c-47f1-8b0c-6fe13e88db39",
+        "fields": {
+            "uuid": "d9cab84d-a96c-47f1-8b0c-6fe13e88db39",
+            "name": "Lotion & Sunscreen Applicators",
+            "emoji": "",
+            "parent": "4d358bc3-3708-40c0-a0ce-9774dca343ce"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9e7f55a5-d0aa-4b6a-a67a-ea000046f28e",
+        "fields": {
+            "uuid": "9e7f55a5-d0aa-4b6a-a67a-ea000046f28e",
+            "name": "Pumice Stones",
+            "emoji": "",
+            "parent": "4d358bc3-3708-40c0-a0ce-9774dca343ce"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dbde5be6-23c2-4c9d-bc77-be5c807e88bd",
+        "fields": {
+            "uuid": "dbde5be6-23c2-4c9d-bc77-be5c807e88bd",
+            "name": "Skin Care Extractors",
+            "emoji": "",
+            "parent": "4d358bc3-3708-40c0-a0ce-9774dca343ce"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d9e2f729-77a7-4482-b6a2-57c8ce91ec95",
+        "fields": {
+            "uuid": "d9e2f729-77a7-4482-b6a2-57c8ce91ec95",
+            "name": "Skin Care Rollers",
+            "emoji": "",
+            "parent": "4d358bc3-3708-40c0-a0ce-9774dca343ce"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1d9841b1-d872-4307-b00a-e0cb62a32779",
+        "fields": {
+            "uuid": "1d9841b1-d872-4307-b00a-e0cb62a32779",
+            "name": "Skin Cleansing Brush Heads",
+            "emoji": "",
+            "parent": "4d358bc3-3708-40c0-a0ce-9774dca343ce"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "11fa1464-dcd3-49eb-8532-9b7291a46578",
+        "fields": {
+            "uuid": "11fa1464-dcd3-49eb-8532-9b7291a46578",
+            "name": "Skin Cleansing Brushes & Systems",
+            "emoji": "",
+            "parent": "4d358bc3-3708-40c0-a0ce-9774dca343ce"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dfd8012d-6b7b-4e1d-8fcf-abf9fb32f03a",
+        "fields": {
+            "uuid": "dfd8012d-6b7b-4e1d-8fcf-abf9fb32f03a",
+            "name": "Makeup",
+            "emoji": "",
+            "parent": "4fa8bb91-aaca-4649-bc9d-cfe6dce955bd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "574737cf-a42b-487a-bf48-0822fed96c9c",
+        "fields": {
+            "uuid": "574737cf-a42b-487a-bf48-0822fed96c9c",
+            "name": "Body Makeup",
+            "emoji": "",
+            "parent": "dfd8012d-6b7b-4e1d-8fcf-abf9fb32f03a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a989a8a5-7fc9-48c9-a507-df7a608da61b",
+        "fields": {
+            "uuid": "a989a8a5-7fc9-48c9-a507-df7a608da61b",
+            "name": "Body Paint & Foundation",
+            "emoji": "",
+            "parent": "574737cf-a42b-487a-bf48-0822fed96c9c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1a46c5ac-c780-49e8-acf8-1b8f49542158",
+        "fields": {
+            "uuid": "1a46c5ac-c780-49e8-acf8-1b8f49542158",
+            "name": "Body & Hair Glitter",
+            "emoji": "",
+            "parent": "574737cf-a42b-487a-bf48-0822fed96c9c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6c240130-79b9-4d57-876a-44c0740746ec",
+        "fields": {
+            "uuid": "6c240130-79b9-4d57-876a-44c0740746ec",
+            "name": "Costume & Stage Makeup",
+            "emoji": "",
+            "parent": "dfd8012d-6b7b-4e1d-8fcf-abf9fb32f03a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6999352f-b23b-40a8-9b3a-bd80aab5c9a9",
+        "fields": {
+            "uuid": "6999352f-b23b-40a8-9b3a-bd80aab5c9a9",
+            "name": "Eye Makeup",
+            "emoji": "",
+            "parent": "dfd8012d-6b7b-4e1d-8fcf-abf9fb32f03a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "228dc423-f1e0-43c6-a1de-fac25c2c1e50",
+        "fields": {
+            "uuid": "228dc423-f1e0-43c6-a1de-fac25c2c1e50",
+            "name": "Eye Primers",
+            "emoji": "",
+            "parent": "6999352f-b23b-40a8-9b3a-bd80aab5c9a9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "678044d7-233e-4947-bf0c-8f98e67b3412",
+        "fields": {
+            "uuid": "678044d7-233e-4947-bf0c-8f98e67b3412",
+            "name": "Eye Shadows",
+            "emoji": "",
+            "parent": "6999352f-b23b-40a8-9b3a-bd80aab5c9a9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "565b6e24-94f5-44b9-b710-54650022d82f",
+        "fields": {
+            "uuid": "565b6e24-94f5-44b9-b710-54650022d82f",
+            "name": "Eyebrow Enhancers",
+            "emoji": "",
+            "parent": "6999352f-b23b-40a8-9b3a-bd80aab5c9a9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0939d416-83f7-40b5-803d-96cf7c146b93",
+        "fields": {
+            "uuid": "0939d416-83f7-40b5-803d-96cf7c146b93",
+            "name": "Eyeliner",
+            "emoji": "",
+            "parent": "6999352f-b23b-40a8-9b3a-bd80aab5c9a9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cd9c1372-f00f-4d2d-9a0f-01c50f40773d",
+        "fields": {
+            "uuid": "cd9c1372-f00f-4d2d-9a0f-01c50f40773d",
+            "name": "False Eyelashes",
+            "emoji": "",
+            "parent": "6999352f-b23b-40a8-9b3a-bd80aab5c9a9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6b584181-f738-4a31-9c08-adff47019944",
+        "fields": {
+            "uuid": "6b584181-f738-4a31-9c08-adff47019944",
+            "name": "Lash & Brow Growth Treatments",
+            "emoji": "",
+            "parent": "6999352f-b23b-40a8-9b3a-bd80aab5c9a9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "04904855-7447-49b3-b911-ad67710a7cdc",
+        "fields": {
+            "uuid": "04904855-7447-49b3-b911-ad67710a7cdc",
+            "name": "Mascara Primers",
+            "emoji": "",
+            "parent": "6999352f-b23b-40a8-9b3a-bd80aab5c9a9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b71d9726-3d9a-4194-bb49-3ec383d911df",
+        "fields": {
+            "uuid": "b71d9726-3d9a-4194-bb49-3ec383d911df",
+            "name": "Mascaras",
+            "emoji": "",
+            "parent": "6999352f-b23b-40a8-9b3a-bd80aab5c9a9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "057fdc5d-d8e1-4c3c-9880-209ff40be557",
+        "fields": {
+            "uuid": "057fdc5d-d8e1-4c3c-9880-209ff40be557",
+            "name": "Face Makeup",
+            "emoji": "",
+            "parent": "dfd8012d-6b7b-4e1d-8fcf-abf9fb32f03a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "329c33c9-4303-4d20-ab64-5e1a3bf10ff3",
+        "fields": {
+            "uuid": "329c33c9-4303-4d20-ab64-5e1a3bf10ff3",
+            "name": "Blushes & Bronzers",
+            "emoji": "",
+            "parent": "057fdc5d-d8e1-4c3c-9880-209ff40be557"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "40ba75d1-b57b-4df8-b32e-a138f860d364",
+        "fields": {
+            "uuid": "40ba75d1-b57b-4df8-b32e-a138f860d364",
+            "name": "Face Powder",
+            "emoji": "",
+            "parent": "057fdc5d-d8e1-4c3c-9880-209ff40be557"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "678dbb60-6f2c-4482-a0cf-d00709d52f3f",
+        "fields": {
+            "uuid": "678dbb60-6f2c-4482-a0cf-d00709d52f3f",
+            "name": "Face Primers",
+            "emoji": "",
+            "parent": "057fdc5d-d8e1-4c3c-9880-209ff40be557"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d7181976-e433-4b4c-91f4-4eed2a264905",
+        "fields": {
+            "uuid": "d7181976-e433-4b4c-91f4-4eed2a264905",
+            "name": "Foundations & Concealers",
+            "emoji": "",
+            "parent": "057fdc5d-d8e1-4c3c-9880-209ff40be557"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1dead97a-4764-423f-9eca-1c08fc29cf32",
+        "fields": {
+            "uuid": "1dead97a-4764-423f-9eca-1c08fc29cf32",
+            "name": "Highlighters & Luminizers",
+            "emoji": "",
+            "parent": "057fdc5d-d8e1-4c3c-9880-209ff40be557"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "398b4927-1245-4715-a217-f25246be1888",
+        "fields": {
+            "uuid": "398b4927-1245-4715-a217-f25246be1888",
+            "name": "Lip Makeup",
+            "emoji": "",
+            "parent": "dfd8012d-6b7b-4e1d-8fcf-abf9fb32f03a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "494b2205-43f0-48f5-8941-3694e2d8349e",
+        "fields": {
+            "uuid": "494b2205-43f0-48f5-8941-3694e2d8349e",
+            "name": "Lip & Cheek Stains",
+            "emoji": "",
+            "parent": "398b4927-1245-4715-a217-f25246be1888"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "943b370f-58fa-47d7-ba77-ab19dbd1c3f0",
+        "fields": {
+            "uuid": "943b370f-58fa-47d7-ba77-ab19dbd1c3f0",
+            "name": "Lip Gloss",
+            "emoji": "",
+            "parent": "398b4927-1245-4715-a217-f25246be1888"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "857d3fbf-5fac-4254-ac73-ca89061d8a63",
+        "fields": {
+            "uuid": "857d3fbf-5fac-4254-ac73-ca89061d8a63",
+            "name": "Lip Liners",
+            "emoji": "",
+            "parent": "398b4927-1245-4715-a217-f25246be1888"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6a05ea11-c2ad-4a62-a82e-d62ac37d7ea7",
+        "fields": {
+            "uuid": "6a05ea11-c2ad-4a62-a82e-d62ac37d7ea7",
+            "name": "Lip Primers",
+            "emoji": "",
+            "parent": "398b4927-1245-4715-a217-f25246be1888"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e44480a8-8298-4598-8769-38b63cf9accc",
+        "fields": {
+            "uuid": "e44480a8-8298-4598-8769-38b63cf9accc",
+            "name": "Lipsticks",
+            "emoji": "",
+            "parent": "398b4927-1245-4715-a217-f25246be1888"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "392c2fa9-4f43-4861-9481-0c1522c01081",
+        "fields": {
+            "uuid": "392c2fa9-4f43-4861-9481-0c1522c01081",
+            "name": "Makeup Finishing Sprays",
+            "emoji": "",
+            "parent": "dfd8012d-6b7b-4e1d-8fcf-abf9fb32f03a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8550add3-5dd4-4c6c-9c41-6a869c0effd6",
+        "fields": {
+            "uuid": "8550add3-5dd4-4c6c-9c41-6a869c0effd6",
+            "name": "Temporary Tattoos",
+            "emoji": "",
+            "parent": "dfd8012d-6b7b-4e1d-8fcf-abf9fb32f03a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bd6c7ff3-2319-4634-89cd-53db4559c512",
+        "fields": {
+            "uuid": "bd6c7ff3-2319-4634-89cd-53db4559c512",
+            "name": "Nail Care",
+            "emoji": "",
+            "parent": "4fa8bb91-aaca-4649-bc9d-cfe6dce955bd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0e5cc250-2091-4528-b4b6-3afaf2ee2da8",
+        "fields": {
+            "uuid": "0e5cc250-2091-4528-b4b6-3afaf2ee2da8",
+            "name": "Cuticle Creams & Oil",
+            "emoji": "",
+            "parent": "bd6c7ff3-2319-4634-89cd-53db4559c512"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "99ae842b-644b-4930-98bc-c66c57da1173",
+        "fields": {
+            "uuid": "99ae842b-644b-4930-98bc-c66c57da1173",
+            "name": "Cuticle Creams",
+            "emoji": "",
+            "parent": "0e5cc250-2091-4528-b4b6-3afaf2ee2da8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5aff2f1a-d1df-4719-b687-3d247dfef8ef",
+        "fields": {
+            "uuid": "5aff2f1a-d1df-4719-b687-3d247dfef8ef",
+            "name": "Cuticle Oil",
+            "emoji": "",
+            "parent": "0e5cc250-2091-4528-b4b6-3afaf2ee2da8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "65902429-f3d5-46ee-9662-6725e0558130",
+        "fields": {
+            "uuid": "65902429-f3d5-46ee-9662-6725e0558130",
+            "name": "False Nails",
+            "emoji": "",
+            "parent": "bd6c7ff3-2319-4634-89cd-53db4559c512"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4023908e-051d-4d5d-8557-0b78744e3152",
+        "fields": {
+            "uuid": "4023908e-051d-4d5d-8557-0b78744e3152",
+            "name": "Manicure Glue",
+            "emoji": "",
+            "parent": "bd6c7ff3-2319-4634-89cd-53db4559c512"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "557a5c22-2feb-49d9-8115-d4cf326a1332",
+        "fields": {
+            "uuid": "557a5c22-2feb-49d9-8115-d4cf326a1332",
+            "name": "Nail Art Kits & Accessories",
+            "emoji": "",
+            "parent": "bd6c7ff3-2319-4634-89cd-53db4559c512"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c2ae67b8-c202-498c-9a04-c56ff5339d5b",
+        "fields": {
+            "uuid": "c2ae67b8-c202-498c-9a04-c56ff5339d5b",
+            "name": "Nail Polish Drying Drops & Sprays",
+            "emoji": "",
+            "parent": "bd6c7ff3-2319-4634-89cd-53db4559c512"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "df3e1978-2806-4859-8d57-aa395c9bcb54",
+        "fields": {
+            "uuid": "df3e1978-2806-4859-8d57-aa395c9bcb54",
+            "name": "Nail Polish Removers",
+            "emoji": "",
+            "parent": "bd6c7ff3-2319-4634-89cd-53db4559c512"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f21db38c-c4a2-4de4-9b2e-1a67da8480ab",
+        "fields": {
+            "uuid": "f21db38c-c4a2-4de4-9b2e-1a67da8480ab",
+            "name": "Nail Polish Thinners",
+            "emoji": "",
+            "parent": "bd6c7ff3-2319-4634-89cd-53db4559c512"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a0ccefef-2041-49e2-b24a-4b56134c4c65",
+        "fields": {
+            "uuid": "a0ccefef-2041-49e2-b24a-4b56134c4c65",
+            "name": "Nail Polishes",
+            "emoji": "",
+            "parent": "bd6c7ff3-2319-4634-89cd-53db4559c512"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ddba9221-e633-476b-9c54-36f5f861b96a",
+        "fields": {
+            "uuid": "ddba9221-e633-476b-9c54-36f5f861b96a",
+            "name": "Perfumes & Colognes",
+            "emoji": "",
+            "parent": "4fa8bb91-aaca-4649-bc9d-cfe6dce955bd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fdb47483-1d99-4f9a-9c15-ca693eb91ce8",
+        "fields": {
+            "uuid": "fdb47483-1d99-4f9a-9c15-ca693eb91ce8",
+            "name": "Body Mists",
+            "emoji": "",
+            "parent": "ddba9221-e633-476b-9c54-36f5f861b96a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ae588fcd-16a4-4413-940e-5cceedce3616",
+        "fields": {
+            "uuid": "ae588fcd-16a4-4413-940e-5cceedce3616",
+            "name": "Colognes",
+            "emoji": "",
+            "parent": "ddba9221-e633-476b-9c54-36f5f861b96a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7d9ca6fa-5ec1-44be-942f-2d1ba0ce0f9d",
+        "fields": {
+            "uuid": "7d9ca6fa-5ec1-44be-942f-2d1ba0ce0f9d",
+            "name": "Eaux de Parfum",
+            "emoji": "",
+            "parent": "ddba9221-e633-476b-9c54-36f5f861b96a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fce81937-4e46-42d4-a09a-bf3d43e5ac22",
+        "fields": {
+            "uuid": "fce81937-4e46-42d4-a09a-bf3d43e5ac22",
+            "name": "Eaux De Toilette",
+            "emoji": "",
+            "parent": "ddba9221-e633-476b-9c54-36f5f861b96a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b312ccb2-e11c-44d2-936f-69d67090bb0d",
+        "fields": {
+            "uuid": "b312ccb2-e11c-44d2-936f-69d67090bb0d",
+            "name": "Skin Care",
+            "emoji": "",
+            "parent": "4fa8bb91-aaca-4649-bc9d-cfe6dce955bd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f5fb4eee-eda5-4d3e-a2f5-8da29f455456",
+        "fields": {
+            "uuid": "f5fb4eee-eda5-4d3e-a2f5-8da29f455456",
+            "name": "Acne Treatments & Kits",
+            "emoji": "",
+            "parent": "b312ccb2-e11c-44d2-936f-69d67090bb0d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cc01479d-4b9b-469b-a735-8569a92127cd",
+        "fields": {
+            "uuid": "cc01479d-4b9b-469b-a735-8569a92127cd",
+            "name": "Anti-Aging Skin Care",
+            "emoji": "",
+            "parent": "b312ccb2-e11c-44d2-936f-69d67090bb0d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c15b283f-8d99-44ce-bddc-7abe2c46739c",
+        "fields": {
+            "uuid": "c15b283f-8d99-44ce-bddc-7abe2c46739c",
+            "name": "Body Oil",
+            "emoji": "",
+            "parent": "b312ccb2-e11c-44d2-936f-69d67090bb0d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "89235bba-7124-4e77-b057-5b8651823766",
+        "fields": {
+            "uuid": "89235bba-7124-4e77-b057-5b8651823766",
+            "name": "Body Powder",
+            "emoji": "",
+            "parent": "b312ccb2-e11c-44d2-936f-69d67090bb0d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a5bffb10-3b7c-43ed-be8c-6a66845f74da",
+        "fields": {
+            "uuid": "a5bffb10-3b7c-43ed-be8c-6a66845f74da",
+            "name": "Compressed Skin Care Mask Sheets",
+            "emoji": "",
+            "parent": "b312ccb2-e11c-44d2-936f-69d67090bb0d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5476ee1b-0f98-41c3-903e-de3df72a4889",
+        "fields": {
+            "uuid": "5476ee1b-0f98-41c3-903e-de3df72a4889",
+            "name": "Facial Cleansers",
+            "emoji": "",
+            "parent": "b312ccb2-e11c-44d2-936f-69d67090bb0d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "40d529b8-9ef6-438b-a2f0-5ffbfc606b33",
+        "fields": {
+            "uuid": "40d529b8-9ef6-438b-a2f0-5ffbfc606b33",
+            "name": "Facial Cleansing Kits",
+            "emoji": "",
+            "parent": "b312ccb2-e11c-44d2-936f-69d67090bb0d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ae33f597-5469-4b9e-8ed3-8423b85afc82",
+        "fields": {
+            "uuid": "ae33f597-5469-4b9e-8ed3-8423b85afc82",
+            "name": "Facial Pore Strips",
+            "emoji": "",
+            "parent": "b312ccb2-e11c-44d2-936f-69d67090bb0d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "be1635e9-1eab-4c93-8412-986058da1ab0",
+        "fields": {
+            "uuid": "be1635e9-1eab-4c93-8412-986058da1ab0",
+            "name": "Lip Balms & Treatments",
+            "emoji": "",
+            "parent": "b312ccb2-e11c-44d2-936f-69d67090bb0d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f4c109ab-4191-4d17-8487-875f70dd8c0e",
+        "fields": {
+            "uuid": "f4c109ab-4191-4d17-8487-875f70dd8c0e",
+            "name": "Lip Balms",
+            "emoji": "",
+            "parent": "be1635e9-1eab-4c93-8412-986058da1ab0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b9ab77e5-9080-417b-876f-10a242f93ec3",
+        "fields": {
+            "uuid": "b9ab77e5-9080-417b-876f-10a242f93ec3",
+            "name": "Medicated Lip Treatments",
+            "emoji": "",
+            "parent": "be1635e9-1eab-4c93-8412-986058da1ab0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "55e66f22-b50a-4c48-85ae-190082e97d79",
+        "fields": {
+            "uuid": "55e66f22-b50a-4c48-85ae-190082e97d79",
+            "name": "Lotions & Moisturizers",
+            "emoji": "",
+            "parent": "b312ccb2-e11c-44d2-936f-69d67090bb0d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "77b142f1-ba5e-4e37-a1f5-7f8edfe28e39",
+        "fields": {
+            "uuid": "77b142f1-ba5e-4e37-a1f5-7f8edfe28e39",
+            "name": "Makeup Removers",
+            "emoji": "",
+            "parent": "b312ccb2-e11c-44d2-936f-69d67090bb0d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9f9b746d-3ce6-407f-a082-318a782d71c0",
+        "fields": {
+            "uuid": "9f9b746d-3ce6-407f-a082-318a782d71c0",
+            "name": "Petroleum Jelly",
+            "emoji": "",
+            "parent": "b312ccb2-e11c-44d2-936f-69d67090bb0d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "349c0f13-bb95-4a48-80ee-ec5f9b708e79",
+        "fields": {
+            "uuid": "349c0f13-bb95-4a48-80ee-ec5f9b708e79",
+            "name": "Skin Care Masks & Peels",
+            "emoji": "",
+            "parent": "b312ccb2-e11c-44d2-936f-69d67090bb0d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6a1ac71d-dc06-4884-a21b-31e5b8960972",
+        "fields": {
+            "uuid": "6a1ac71d-dc06-4884-a21b-31e5b8960972",
+            "name": "Skin Insect Repellent",
+            "emoji": "",
+            "parent": "b312ccb2-e11c-44d2-936f-69d67090bb0d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a9659404-6649-4981-b0cc-6325df32a640",
+        "fields": {
+            "uuid": "a9659404-6649-4981-b0cc-6325df32a640",
+            "name": "Sunscreen",
+            "emoji": "",
+            "parent": "b312ccb2-e11c-44d2-936f-69d67090bb0d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "03fb7b8e-c03c-4aae-8e33-b2f96ab648cb",
+        "fields": {
+            "uuid": "03fb7b8e-c03c-4aae-8e33-b2f96ab648cb",
+            "name": "Tanning Products",
+            "emoji": "",
+            "parent": "b312ccb2-e11c-44d2-936f-69d67090bb0d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "08628d42-16af-44d4-ac8e-40d4b0f25f4c",
+        "fields": {
+            "uuid": "08628d42-16af-44d4-ac8e-40d4b0f25f4c",
+            "name": "Self Tanner",
+            "emoji": "",
+            "parent": "03fb7b8e-c03c-4aae-8e33-b2f96ab648cb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ff145bbf-ead1-48b3-8232-c4b49ad06e97",
+        "fields": {
+            "uuid": "ff145bbf-ead1-48b3-8232-c4b49ad06e97",
+            "name": "Tanning Oil & Lotions",
+            "emoji": "",
+            "parent": "03fb7b8e-c03c-4aae-8e33-b2f96ab648cb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dbe2768e-1824-4879-8cba-ffbcae8051fc",
+        "fields": {
+            "uuid": "dbe2768e-1824-4879-8cba-ffbcae8051fc",
+            "name": "Toners & Astringents",
+            "emoji": "",
+            "parent": "b312ccb2-e11c-44d2-936f-69d67090bb0d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9049cbe4-6e35-43f0-b91c-cb62e53b2c94",
+        "fields": {
+            "uuid": "9049cbe4-6e35-43f0-b91c-cb62e53b2c94",
+            "name": "Astringents",
+            "emoji": "",
+            "parent": "dbe2768e-1824-4879-8cba-ffbcae8051fc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c5289b83-5cd5-4235-80c8-7df511072c72",
+        "fields": {
+            "uuid": "c5289b83-5cd5-4235-80c8-7df511072c72",
+            "name": "Toners",
+            "emoji": "",
+            "parent": "dbe2768e-1824-4879-8cba-ffbcae8051fc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0bb0250e-cd8c-4e36-b8ec-e6c088c89bde",
+        "fields": {
+            "uuid": "0bb0250e-cd8c-4e36-b8ec-e6c088c89bde",
+            "name": "Wart Removers",
+            "emoji": "",
+            "parent": "b312ccb2-e11c-44d2-936f-69d67090bb0d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "207b5cb1-622f-41e6-9a53-9f2008fe87dc",
+        "fields": {
+            "uuid": "207b5cb1-622f-41e6-9a53-9f2008fe87dc",
+            "name": "Eye Creams",
+            "emoji": "",
+            "parent": "b312ccb2-e11c-44d2-936f-69d67090bb0d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7dd6d46b-4bca-45a4-9e8f-9d266d9ad02e",
+        "fields": {
+            "uuid": "7dd6d46b-4bca-45a4-9e8f-9d266d9ad02e",
+            "name": "Face Moisturizers",
+            "emoji": "",
+            "parent": "b312ccb2-e11c-44d2-936f-69d67090bb0d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "566569f6-b457-488d-a6de-79065a29ecd5",
+        "fields": {
+            "uuid": "566569f6-b457-488d-a6de-79065a29ecd5",
+            "name": "Face Serums",
+            "emoji": "",
+            "parent": "b312ccb2-e11c-44d2-936f-69d67090bb0d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ca924ce3-8ca6-4cc8-96ac-5f544b766dcb",
+        "fields": {
+            "uuid": "ca924ce3-8ca6-4cc8-96ac-5f544b766dcb",
+            "name": "Cotton Balls",
+            "emoji": "",
+            "parent": "3d9ee664-ea1e-473b-bd1d-af808ec25a4c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d134a99a-1388-46a9-9420-b9cc8e9c504a",
+        "fields": {
+            "uuid": "d134a99a-1388-46a9-9420-b9cc8e9c504a",
+            "name": "Cotton Swabs",
+            "emoji": "",
+            "parent": "3d9ee664-ea1e-473b-bd1d-af808ec25a4c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1980a5dc-0ca1-407a-9707-9ab1422d3ec4",
+        "fields": {
+            "uuid": "1980a5dc-0ca1-407a-9707-9ab1422d3ec4",
+            "name": "Deodorants & Anti-Perspirant",
+            "emoji": "",
+            "parent": "3d9ee664-ea1e-473b-bd1d-af808ec25a4c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2152e0c0-d733-47ec-9c1d-128351a585dc",
+        "fields": {
+            "uuid": "2152e0c0-d733-47ec-9c1d-128351a585dc",
+            "name": "Anti-Perspirant",
+            "emoji": "",
+            "parent": "1980a5dc-0ca1-407a-9707-9ab1422d3ec4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c7ac7da8-78ab-43f6-8ee0-2683d90392ff",
+        "fields": {
+            "uuid": "c7ac7da8-78ab-43f6-8ee0-2683d90392ff",
+            "name": "Deodorants",
+            "emoji": "",
+            "parent": "1980a5dc-0ca1-407a-9707-9ab1422d3ec4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f7e0cd89-58c8-425e-bc8f-177b3b2aa9cb",
+        "fields": {
+            "uuid": "f7e0cd89-58c8-425e-bc8f-177b3b2aa9cb",
+            "name": "Ear Care",
+            "emoji": "",
+            "parent": "3d9ee664-ea1e-473b-bd1d-af808ec25a4c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "374660cf-5bf9-4dcc-bacb-3f47b2391229",
+        "fields": {
+            "uuid": "374660cf-5bf9-4dcc-bacb-3f47b2391229",
+            "name": "Ear Candles",
+            "emoji": "",
+            "parent": "f7e0cd89-58c8-425e-bc8f-177b3b2aa9cb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "25bd21c8-3063-47ba-93e9-50bfd989a757",
+        "fields": {
+            "uuid": "25bd21c8-3063-47ba-93e9-50bfd989a757",
+            "name": "Ear Drops",
+            "emoji": "",
+            "parent": "f7e0cd89-58c8-425e-bc8f-177b3b2aa9cb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1814ccc3-54ce-433e-a7b5-89b4a4e6916e",
+        "fields": {
+            "uuid": "1814ccc3-54ce-433e-a7b5-89b4a4e6916e",
+            "name": "Ear Dryers",
+            "emoji": "",
+            "parent": "f7e0cd89-58c8-425e-bc8f-177b3b2aa9cb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f1a24445-0496-4d0d-a9cb-2b9956a743d4",
+        "fields": {
+            "uuid": "f1a24445-0496-4d0d-a9cb-2b9956a743d4",
+            "name": "Ear Picks & Spoons",
+            "emoji": "",
+            "parent": "f7e0cd89-58c8-425e-bc8f-177b3b2aa9cb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a9dd80ca-25b4-4887-a333-eca6f289aebf",
+        "fields": {
+            "uuid": "a9dd80ca-25b4-4887-a333-eca6f289aebf",
+            "name": "Ear Syringes",
+            "emoji": "",
+            "parent": "f7e0cd89-58c8-425e-bc8f-177b3b2aa9cb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "175b5db9-102d-463d-a84a-b669b22d8e19",
+        "fields": {
+            "uuid": "175b5db9-102d-463d-a84a-b669b22d8e19",
+            "name": "Ear Wax Removal Kits",
+            "emoji": "",
+            "parent": "f7e0cd89-58c8-425e-bc8f-177b3b2aa9cb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b295821e-d54e-4ef2-b8e8-b0c9baa663f3",
+        "fields": {
+            "uuid": "b295821e-d54e-4ef2-b8e8-b0c9baa663f3",
+            "name": "Earplug Dispensers",
+            "emoji": "",
+            "parent": "f7e0cd89-58c8-425e-bc8f-177b3b2aa9cb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8c4ecc7e-e97f-4bbf-a2db-935d45277528",
+        "fields": {
+            "uuid": "8c4ecc7e-e97f-4bbf-a2db-935d45277528",
+            "name": "Earplugs",
+            "emoji": "",
+            "parent": "f7e0cd89-58c8-425e-bc8f-177b3b2aa9cb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "79e00c1a-087b-4103-a937-267acf755274",
+        "fields": {
+            "uuid": "79e00c1a-087b-4103-a937-267acf755274",
+            "name": "Foam Earplugs",
+            "emoji": "",
+            "parent": "8c4ecc7e-e97f-4bbf-a2db-935d45277528"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fdaa9da0-b20e-45d0-95eb-49a17259bb64",
+        "fields": {
+            "uuid": "fdaa9da0-b20e-45d0-95eb-49a17259bb64",
+            "name": "Moldable Earplugs",
+            "emoji": "",
+            "parent": "8c4ecc7e-e97f-4bbf-a2db-935d45277528"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7d68375a-75e6-42e2-8c89-5e951976d769",
+        "fields": {
+            "uuid": "7d68375a-75e6-42e2-8c89-5e951976d769",
+            "name": "Pre-Molded Earplugs",
+            "emoji": "",
+            "parent": "8c4ecc7e-e97f-4bbf-a2db-935d45277528"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1e85c2ab-adf5-4ed3-9e82-718ea340ab8b",
+        "fields": {
+            "uuid": "1e85c2ab-adf5-4ed3-9e82-718ea340ab8b",
+            "name": "Enema Kits & Supplies",
+            "emoji": "",
+            "parent": "3d9ee664-ea1e-473b-bd1d-af808ec25a4c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4f6c1c44-4858-4c3f-b1c2-edd27ab60e7f",
+        "fields": {
+            "uuid": "4f6c1c44-4858-4c3f-b1c2-edd27ab60e7f",
+            "name": "Feminine Sanitary Supplies",
+            "emoji": "",
+            "parent": "3d9ee664-ea1e-473b-bd1d-af808ec25a4c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8103ff25-fb75-4866-a88b-233398bc174d",
+        "fields": {
+            "uuid": "8103ff25-fb75-4866-a88b-233398bc174d",
+            "name": "Feminine Deodorants",
+            "emoji": "",
+            "parent": "4f6c1c44-4858-4c3f-b1c2-edd27ab60e7f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0833c544-6d29-46fd-8f61-e463a37d5906",
+        "fields": {
+            "uuid": "0833c544-6d29-46fd-8f61-e463a37d5906",
+            "name": "Feminine Douches",
+            "emoji": "",
+            "parent": "4f6c1c44-4858-4c3f-b1c2-edd27ab60e7f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2dc9e856-32a7-4750-ad6e-5a0a93057832",
+        "fields": {
+            "uuid": "2dc9e856-32a7-4750-ad6e-5a0a93057832",
+            "name": "Feminine Pads & Protectors",
+            "emoji": "",
+            "parent": "4f6c1c44-4858-4c3f-b1c2-edd27ab60e7f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "55760672-3821-4eb4-8f77-a3cbc3b0eba8",
+        "fields": {
+            "uuid": "55760672-3821-4eb4-8f77-a3cbc3b0eba8",
+            "name": "Maternity Pads & Protectors",
+            "emoji": "",
+            "parent": "2dc9e856-32a7-4750-ad6e-5a0a93057832"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "25dcf53b-1412-4dd8-bf8f-156970529755",
+        "fields": {
+            "uuid": "25dcf53b-1412-4dd8-bf8f-156970529755",
+            "name": "Menstrual Pads & Protectors",
+            "emoji": "",
+            "parent": "2dc9e856-32a7-4750-ad6e-5a0a93057832"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "71b37297-813f-4a6e-b67f-b5cfe0398782",
+        "fields": {
+            "uuid": "71b37297-813f-4a6e-b67f-b5cfe0398782",
+            "name": "Overnight Pads & Protectors",
+            "emoji": "",
+            "parent": "2dc9e856-32a7-4750-ad6e-5a0a93057832"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e5af4782-681f-4c2a-aa7e-c1711f0e3fb6",
+        "fields": {
+            "uuid": "e5af4782-681f-4c2a-aa7e-c1711f0e3fb6",
+            "name": "Panty Liners",
+            "emoji": "",
+            "parent": "2dc9e856-32a7-4750-ad6e-5a0a93057832"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "745d658a-695b-4938-a0a3-3c59c07e37df",
+        "fields": {
+            "uuid": "745d658a-695b-4938-a0a3-3c59c07e37df",
+            "name": "Regular Pads & Protectors",
+            "emoji": "",
+            "parent": "2dc9e856-32a7-4750-ad6e-5a0a93057832"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4a6f1b26-ad49-4d9a-98ba-9969f8331bdf",
+        "fields": {
+            "uuid": "4a6f1b26-ad49-4d9a-98ba-9969f8331bdf",
+            "name": "Reusable Clothes",
+            "emoji": "",
+            "parent": "2dc9e856-32a7-4750-ad6e-5a0a93057832"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4b7f28d0-95f6-44eb-9f0b-bd49802e8cf0",
+        "fields": {
+            "uuid": "4b7f28d0-95f6-44eb-9f0b-bd49802e8cf0",
+            "name": "Menstrual Cups",
+            "emoji": "",
+            "parent": "4f6c1c44-4858-4c3f-b1c2-edd27ab60e7f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1ef52319-ddac-4892-ba93-9410667c15cb",
+        "fields": {
+            "uuid": "1ef52319-ddac-4892-ba93-9410667c15cb",
+            "name": "Tampons",
+            "emoji": "",
+            "parent": "4f6c1c44-4858-4c3f-b1c2-edd27ab60e7f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bf6cdf6f-969a-4876-903b-81d675101fed",
+        "fields": {
+            "uuid": "bf6cdf6f-969a-4876-903b-81d675101fed",
+            "name": "Foot Care",
+            "emoji": "",
+            "parent": "3d9ee664-ea1e-473b-bd1d-af808ec25a4c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "de7ab9db-316a-4734-af0f-75e416d369f0",
+        "fields": {
+            "uuid": "de7ab9db-316a-4734-af0f-75e416d369f0",
+            "name": "Bunion Care Supplies",
+            "emoji": "",
+            "parent": "bf6cdf6f-969a-4876-903b-81d675101fed"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5b245585-4622-4a82-8db5-62ecf41c950b",
+        "fields": {
+            "uuid": "5b245585-4622-4a82-8db5-62ecf41c950b",
+            "name": "Corn & Callus Care Supplies",
+            "emoji": "",
+            "parent": "bf6cdf6f-969a-4876-903b-81d675101fed"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "24700474-e321-4364-bc75-70ac6e59f5a9",
+        "fields": {
+            "uuid": "24700474-e321-4364-bc75-70ac6e59f5a9",
+            "name": "Foot Odor Removers",
+            "emoji": "",
+            "parent": "bf6cdf6f-969a-4876-903b-81d675101fed"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2bde8154-d051-457a-9a7a-f150635fc96d",
+        "fields": {
+            "uuid": "2bde8154-d051-457a-9a7a-f150635fc96d",
+            "name": "Insoles & Inserts",
+            "emoji": "",
+            "parent": "bf6cdf6f-969a-4876-903b-81d675101fed"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "05214c24-e0fc-4842-8525-164c8febe6e0",
+        "fields": {
+            "uuid": "05214c24-e0fc-4842-8525-164c8febe6e0",
+            "name": "Arch Supports",
+            "emoji": "",
+            "parent": "2bde8154-d051-457a-9a7a-f150635fc96d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "212d3dd1-ef8d-48dd-a87d-31056c129c04",
+        "fields": {
+            "uuid": "212d3dd1-ef8d-48dd-a87d-31056c129c04",
+            "name": "Gel Heel Pads",
+            "emoji": "",
+            "parent": "2bde8154-d051-457a-9a7a-f150635fc96d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9c49eff8-c82b-4f40-9978-adda06982b75",
+        "fields": {
+            "uuid": "9c49eff8-c82b-4f40-9978-adda06982b75",
+            "name": "Metatarsal Cushions",
+            "emoji": "",
+            "parent": "2bde8154-d051-457a-9a7a-f150635fc96d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a8be51f0-391f-458b-87b7-85977778cb47",
+        "fields": {
+            "uuid": "a8be51f0-391f-458b-87b7-85977778cb47",
+            "name": "Toe Spacers",
+            "emoji": "",
+            "parent": "bf6cdf6f-969a-4876-903b-81d675101fed"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cb29f7c2-ef34-45a8-9e08-a7d2e4ff7f68",
+        "fields": {
+            "uuid": "cb29f7c2-ef34-45a8-9e08-a7d2e4ff7f68",
+            "name": "Hair Care",
+            "emoji": "",
+            "parent": "3d9ee664-ea1e-473b-bd1d-af808ec25a4c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "18134bc7-e3fd-4938-a3bf-b4f8ed5054da",
+        "fields": {
+            "uuid": "18134bc7-e3fd-4938-a3bf-b4f8ed5054da",
+            "name": "Hair Care Kits",
+            "emoji": "",
+            "parent": "cb29f7c2-ef34-45a8-9e08-a7d2e4ff7f68"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5a34002c-b9d6-4329-a5d3-ce49fed8619b",
+        "fields": {
+            "uuid": "5a34002c-b9d6-4329-a5d3-ce49fed8619b",
+            "name": "Hair Color",
+            "emoji": "",
+            "parent": "cb29f7c2-ef34-45a8-9e08-a7d2e4ff7f68"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3e468ec2-6acc-4ec4-b9b3-863b8952a207",
+        "fields": {
+            "uuid": "3e468ec2-6acc-4ec4-b9b3-863b8952a207",
+            "name": "Hair Color Removers",
+            "emoji": "",
+            "parent": "cb29f7c2-ef34-45a8-9e08-a7d2e4ff7f68"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e8811a8d-2ccb-4526-908b-b589581ed3e1",
+        "fields": {
+            "uuid": "e8811a8d-2ccb-4526-908b-b589581ed3e1",
+            "name": "Hair Coloring Accessories",
+            "emoji": "",
+            "parent": "cb29f7c2-ef34-45a8-9e08-a7d2e4ff7f68"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d0bcb772-c061-4b04-a55a-383ee4858e40",
+        "fields": {
+            "uuid": "d0bcb772-c061-4b04-a55a-383ee4858e40",
+            "name": "Hair Loss Concealers",
+            "emoji": "",
+            "parent": "cb29f7c2-ef34-45a8-9e08-a7d2e4ff7f68"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "18b94289-6d82-4e1d-a08c-2b79c204a085",
+        "fields": {
+            "uuid": "18b94289-6d82-4e1d-a08c-2b79c204a085",
+            "name": "Hair Loss Treatments",
+            "emoji": "",
+            "parent": "cb29f7c2-ef34-45a8-9e08-a7d2e4ff7f68"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6403f69a-0ce2-488c-9d6b-2495b75f7c63",
+        "fields": {
+            "uuid": "6403f69a-0ce2-488c-9d6b-2495b75f7c63",
+            "name": "Hair Permanents & Straighteners",
+            "emoji": "",
+            "parent": "cb29f7c2-ef34-45a8-9e08-a7d2e4ff7f68"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7dc35914-5f0d-4447-9bd9-c5a10aaefef9",
+        "fields": {
+            "uuid": "7dc35914-5f0d-4447-9bd9-c5a10aaefef9",
+            "name": "Hair Shears",
+            "emoji": "",
+            "parent": "cb29f7c2-ef34-45a8-9e08-a7d2e4ff7f68"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7deb4955-a286-4aaf-ba6f-39f92f9340c5",
+        "fields": {
+            "uuid": "7deb4955-a286-4aaf-ba6f-39f92f9340c5",
+            "name": "Hair Steamers & Heat Caps",
+            "emoji": "",
+            "parent": "cb29f7c2-ef34-45a8-9e08-a7d2e4ff7f68"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1001e1c8-2825-4bea-9d43-58d5e92a0923",
+        "fields": {
+            "uuid": "1001e1c8-2825-4bea-9d43-58d5e92a0923",
+            "name": "Hair Styling Products",
+            "emoji": "",
+            "parent": "cb29f7c2-ef34-45a8-9e08-a7d2e4ff7f68"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2874f5c2-8a07-43b5-803f-08023ad7b753",
+        "fields": {
+            "uuid": "2874f5c2-8a07-43b5-803f-08023ad7b753",
+            "name": "Hair Styling Tool Accessories",
+            "emoji": "",
+            "parent": "cb29f7c2-ef34-45a8-9e08-a7d2e4ff7f68"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f3c606a8-c250-4cf8-baf1-0debeb3134f1",
+        "fields": {
+            "uuid": "f3c606a8-c250-4cf8-baf1-0debeb3134f1",
+            "name": "Hair Curler Clips & Pins",
+            "emoji": "",
+            "parent": "2874f5c2-8a07-43b5-803f-08023ad7b753"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d6be5cbc-dbca-4cc3-b2bc-732e87480005",
+        "fields": {
+            "uuid": "d6be5cbc-dbca-4cc3-b2bc-732e87480005",
+            "name": "Clips",
+            "emoji": "",
+            "parent": "f3c606a8-c250-4cf8-baf1-0debeb3134f1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c6aeefd3-fd68-4574-825d-21e076662e61",
+        "fields": {
+            "uuid": "c6aeefd3-fd68-4574-825d-21e076662e61",
+            "name": "Pins",
+            "emoji": "",
+            "parent": "f3c606a8-c250-4cf8-baf1-0debeb3134f1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fa7e0d72-1436-4a93-9abd-c8409c433b7d",
+        "fields": {
+            "uuid": "fa7e0d72-1436-4a93-9abd-c8409c433b7d",
+            "name": "Hair Dryer Accessories",
+            "emoji": "",
+            "parent": "2874f5c2-8a07-43b5-803f-08023ad7b753"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a9b47130-7be4-4501-8f55-fd798427dbf4",
+        "fields": {
+            "uuid": "a9b47130-7be4-4501-8f55-fd798427dbf4",
+            "name": "Hair Iron Accessories",
+            "emoji": "",
+            "parent": "2874f5c2-8a07-43b5-803f-08023ad7b753"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1d3e239c-7d58-411b-b7f5-3f9cdfcfcce6",
+        "fields": {
+            "uuid": "1d3e239c-7d58-411b-b7f5-3f9cdfcfcce6",
+            "name": "Hair Styling Tools",
+            "emoji": "",
+            "parent": "cb29f7c2-ef34-45a8-9e08-a7d2e4ff7f68"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7d9783f0-4ad9-4906-8d1f-78d4f9fce211",
+        "fields": {
+            "uuid": "7d9783f0-4ad9-4906-8d1f-78d4f9fce211",
+            "name": "Combs & Brushes",
+            "emoji": "",
+            "parent": "1d3e239c-7d58-411b-b7f5-3f9cdfcfcce6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9f2837a7-bf08-4627-b32f-5ec7e4d69d6b",
+        "fields": {
+            "uuid": "9f2837a7-bf08-4627-b32f-5ec7e4d69d6b",
+            "name": "Hair Combs",
+            "emoji": "",
+            "parent": "7d9783f0-4ad9-4906-8d1f-78d4f9fce211"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0d4cb172-1b8e-471c-b169-7e76b8954448",
+        "fields": {
+            "uuid": "0d4cb172-1b8e-471c-b169-7e76b8954448",
+            "name": "Hairbrushes & Combs",
+            "emoji": "",
+            "parent": "7d9783f0-4ad9-4906-8d1f-78d4f9fce211"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9e6863c8-a880-489d-8a53-1d1ec3fa44a4",
+        "fields": {
+            "uuid": "9e6863c8-a880-489d-8a53-1d1ec3fa44a4",
+            "name": "Hot Air Brushes",
+            "emoji": "",
+            "parent": "7d9783f0-4ad9-4906-8d1f-78d4f9fce211"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "007240d2-431b-4555-b99f-d56430ca9887",
+        "fields": {
+            "uuid": "007240d2-431b-4555-b99f-d56430ca9887",
+            "name": "Paddle Hairbrushes",
+            "emoji": "",
+            "parent": "7d9783f0-4ad9-4906-8d1f-78d4f9fce211"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d2e992ba-6f85-4701-898f-628aa4e5dc49",
+        "fields": {
+            "uuid": "d2e992ba-6f85-4701-898f-628aa4e5dc49",
+            "name": "Round Hairbrushes",
+            "emoji": "",
+            "parent": "7d9783f0-4ad9-4906-8d1f-78d4f9fce211"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6d240881-8dce-4e82-a29d-1278d566a6da",
+        "fields": {
+            "uuid": "6d240881-8dce-4e82-a29d-1278d566a6da",
+            "name": "Straightening Brushes",
+            "emoji": "",
+            "parent": "7d9783f0-4ad9-4906-8d1f-78d4f9fce211"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "07d1bb08-1e88-44b3-9da8-6435a63a2296",
+        "fields": {
+            "uuid": "07d1bb08-1e88-44b3-9da8-6435a63a2296",
+            "name": "Curling Irons",
+            "emoji": "",
+            "parent": "1d3e239c-7d58-411b-b7f5-3f9cdfcfcce6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "03e70d92-aba4-4fec-999b-f43e4fb0df5d",
+        "fields": {
+            "uuid": "03e70d92-aba4-4fec-999b-f43e4fb0df5d",
+            "name": "Hair Curlers",
+            "emoji": "",
+            "parent": "1d3e239c-7d58-411b-b7f5-3f9cdfcfcce6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1dcbdce1-04d1-4cdc-9ef3-4d00f14ef450",
+        "fields": {
+            "uuid": "1dcbdce1-04d1-4cdc-9ef3-4d00f14ef450",
+            "name": "Hair Dryers",
+            "emoji": "",
+            "parent": "1d3e239c-7d58-411b-b7f5-3f9cdfcfcce6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5c77b3aa-9b59-475e-81ae-fdf3c1af6813",
+        "fields": {
+            "uuid": "5c77b3aa-9b59-475e-81ae-fdf3c1af6813",
+            "name": "Hair Straighteners",
+            "emoji": "",
+            "parent": "1d3e239c-7d58-411b-b7f5-3f9cdfcfcce6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "85de5ad6-ef82-4a6b-bb14-fe91347783cc",
+        "fields": {
+            "uuid": "85de5ad6-ef82-4a6b-bb14-fe91347783cc",
+            "name": "Hair Styling Tool Sets",
+            "emoji": "",
+            "parent": "1d3e239c-7d58-411b-b7f5-3f9cdfcfcce6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "074bf029-7d4e-4833-ac8e-2a25357a02a7",
+        "fields": {
+            "uuid": "074bf029-7d4e-4833-ac8e-2a25357a02a7",
+            "name": "Shampoo & Conditioner",
+            "emoji": "",
+            "parent": "cb29f7c2-ef34-45a8-9e08-a7d2e4ff7f68"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2d0bb606-87ef-49ca-bc36-04710373b617",
+        "fields": {
+            "uuid": "2d0bb606-87ef-49ca-bc36-04710373b617",
+            "name": "Conditioners",
+            "emoji": "",
+            "parent": "074bf029-7d4e-4833-ac8e-2a25357a02a7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e242fbe7-7a35-4e81-a00c-01eafd58fc2f",
+        "fields": {
+            "uuid": "e242fbe7-7a35-4e81-a00c-01eafd58fc2f",
+            "name": "Shampoo & Conditioner Sets",
+            "emoji": "",
+            "parent": "074bf029-7d4e-4833-ac8e-2a25357a02a7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "182f2789-8830-4c30-9759-359819c56e21",
+        "fields": {
+            "uuid": "182f2789-8830-4c30-9759-359819c56e21",
+            "name": "Shampoo",
+            "emoji": "",
+            "parent": "074bf029-7d4e-4833-ac8e-2a25357a02a7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "77afe15a-0ddd-420b-acc6-eadf99c12b30",
+        "fields": {
+            "uuid": "77afe15a-0ddd-420b-acc6-eadf99c12b30",
+            "name": "Massage & Relaxation",
+            "emoji": "",
+            "parent": "3d9ee664-ea1e-473b-bd1d-af808ec25a4c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3e8c103e-88f0-4f93-8901-a53cb03e10ec",
+        "fields": {
+            "uuid": "3e8c103e-88f0-4f93-8901-a53cb03e10ec",
+            "name": "Back Scratchers",
+            "emoji": "",
+            "parent": "77afe15a-0ddd-420b-acc6-eadf99c12b30"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4ead9a4c-37ac-4269-a95d-b4389a02edec",
+        "fields": {
+            "uuid": "4ead9a4c-37ac-4269-a95d-b4389a02edec",
+            "name": "Eye Pillows",
+            "emoji": "",
+            "parent": "77afe15a-0ddd-420b-acc6-eadf99c12b30"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b12cf121-e838-4ce8-beea-0f8c9164cccb",
+        "fields": {
+            "uuid": "b12cf121-e838-4ce8-beea-0f8c9164cccb",
+            "name": "Massage Chairs",
+            "emoji": "",
+            "parent": "77afe15a-0ddd-420b-acc6-eadf99c12b30"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ae0f71f0-3abf-438e-bb6d-184b5c538aa9",
+        "fields": {
+            "uuid": "ae0f71f0-3abf-438e-bb6d-184b5c538aa9",
+            "name": "Massage Oil",
+            "emoji": "",
+            "parent": "77afe15a-0ddd-420b-acc6-eadf99c12b30"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8a96d022-2e2c-484c-9b25-091e96eb7200",
+        "fields": {
+            "uuid": "8a96d022-2e2c-484c-9b25-091e96eb7200",
+            "name": "Massage Stone Warmers",
+            "emoji": "",
+            "parent": "77afe15a-0ddd-420b-acc6-eadf99c12b30"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "39fb6967-8ce6-4581-91a2-2f26743e6375",
+        "fields": {
+            "uuid": "39fb6967-8ce6-4581-91a2-2f26743e6375",
+            "name": "Massage Stones",
+            "emoji": "",
+            "parent": "77afe15a-0ddd-420b-acc6-eadf99c12b30"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6fb4bbd6-8cf0-4d7d-b700-d21ca7123d9d",
+        "fields": {
+            "uuid": "6fb4bbd6-8cf0-4d7d-b700-d21ca7123d9d",
+            "name": "Massage Tables",
+            "emoji": "",
+            "parent": "77afe15a-0ddd-420b-acc6-eadf99c12b30"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c7c51a39-e666-4307-b4b0-13c573ea173f",
+        "fields": {
+            "uuid": "c7c51a39-e666-4307-b4b0-13c573ea173f",
+            "name": "Massagers",
+            "emoji": "",
+            "parent": "77afe15a-0ddd-420b-acc6-eadf99c12b30"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "737c374e-b7a3-42f2-8857-bb614746ddab",
+        "fields": {
+            "uuid": "737c374e-b7a3-42f2-8857-bb614746ddab",
+            "name": "Electric Massagers",
+            "emoji": "",
+            "parent": "c7c51a39-e666-4307-b4b0-13c573ea173f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "02879ccc-209b-43f3-b4bb-d886b272938b",
+        "fields": {
+            "uuid": "02879ccc-209b-43f3-b4bb-d886b272938b",
+            "name": "Manual Massage Tools",
+            "emoji": "",
+            "parent": "c7c51a39-e666-4307-b4b0-13c573ea173f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9f04ca3e-1920-4f11-8bc7-b538390edefa",
+        "fields": {
+            "uuid": "9f04ca3e-1920-4f11-8bc7-b538390edefa",
+            "name": "Massage Cushions",
+            "emoji": "",
+            "parent": "c7c51a39-e666-4307-b4b0-13c573ea173f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5a41fe74-e2b4-4f42-8823-b69c14c3c4da",
+        "fields": {
+            "uuid": "5a41fe74-e2b4-4f42-8823-b69c14c3c4da",
+            "name": "Oral Care",
+            "emoji": "",
+            "parent": "3d9ee664-ea1e-473b-bd1d-af808ec25a4c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "51435023-0e27-4931-b47a-815582cb9861",
+        "fields": {
+            "uuid": "51435023-0e27-4931-b47a-815582cb9861",
+            "name": "Breath Sprays",
+            "emoji": "",
+            "parent": "5a41fe74-e2b4-4f42-8823-b69c14c3c4da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "40e7894d-7acd-498f-a6c7-1e00114f087f",
+        "fields": {
+            "uuid": "40e7894d-7acd-498f-a6c7-1e00114f087f",
+            "name": "Dental Floss",
+            "emoji": "",
+            "parent": "5a41fe74-e2b4-4f42-8823-b69c14c3c4da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8e733d62-5981-4939-885c-0e942236844a",
+        "fields": {
+            "uuid": "8e733d62-5981-4939-885c-0e942236844a",
+            "name": "Dental Mouthguards",
+            "emoji": "",
+            "parent": "5a41fe74-e2b4-4f42-8823-b69c14c3c4da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cd105c4c-78b2-4892-94f9-b13e98b82eaf",
+        "fields": {
+            "uuid": "cd105c4c-78b2-4892-94f9-b13e98b82eaf",
+            "name": "Dental Water Jet Replacement Tips",
+            "emoji": "",
+            "parent": "5a41fe74-e2b4-4f42-8823-b69c14c3c4da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4c17351e-9b20-4e7c-8b0f-a34afcb33405",
+        "fields": {
+            "uuid": "4c17351e-9b20-4e7c-8b0f-a34afcb33405",
+            "name": "Dental Water Jets",
+            "emoji": "",
+            "parent": "5a41fe74-e2b4-4f42-8823-b69c14c3c4da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cb3643c2-e1a8-4964-a959-447f24cda885",
+        "fields": {
+            "uuid": "cb3643c2-e1a8-4964-a959-447f24cda885",
+            "name": "Denture Adhesives",
+            "emoji": "",
+            "parent": "5a41fe74-e2b4-4f42-8823-b69c14c3c4da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "836293f1-26a0-4867-8300-693d4e9ef2dd",
+        "fields": {
+            "uuid": "836293f1-26a0-4867-8300-693d4e9ef2dd",
+            "name": "Denture Cleaners",
+            "emoji": "",
+            "parent": "5a41fe74-e2b4-4f42-8823-b69c14c3c4da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0a839530-bcce-414c-a203-daa9a3ffa3cf",
+        "fields": {
+            "uuid": "0a839530-bcce-414c-a203-daa9a3ffa3cf",
+            "name": "Denture Repair Kits",
+            "emoji": "",
+            "parent": "5a41fe74-e2b4-4f42-8823-b69c14c3c4da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "13ce801b-ff25-481c-9815-d2bd3b856c16",
+        "fields": {
+            "uuid": "13ce801b-ff25-481c-9815-d2bd3b856c16",
+            "name": "Dentures",
+            "emoji": "",
+            "parent": "5a41fe74-e2b4-4f42-8823-b69c14c3c4da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "25f02fce-0bfa-4f9f-84ee-aec19a50da6b",
+        "fields": {
+            "uuid": "25f02fce-0bfa-4f9f-84ee-aec19a50da6b",
+            "name": "Gum Stimulators",
+            "emoji": "",
+            "parent": "5a41fe74-e2b4-4f42-8823-b69c14c3c4da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "481a3a34-4120-4b55-8dea-04a0f6b77a4b",
+        "fields": {
+            "uuid": "481a3a34-4120-4b55-8dea-04a0f6b77a4b",
+            "name": "Electric Gum Stimulators",
+            "emoji": "",
+            "parent": "25f02fce-0bfa-4f9f-84ee-aec19a50da6b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aa5332a8-4372-45c4-9396-492c9b7b9750",
+        "fields": {
+            "uuid": "aa5332a8-4372-45c4-9396-492c9b7b9750",
+            "name": "Manual Gum Stimulators",
+            "emoji": "",
+            "parent": "25f02fce-0bfa-4f9f-84ee-aec19a50da6b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d18e0b9d-1cc7-4128-809a-56efd9710183",
+        "fields": {
+            "uuid": "d18e0b9d-1cc7-4128-809a-56efd9710183",
+            "name": "Mouthwash",
+            "emoji": "",
+            "parent": "5a41fe74-e2b4-4f42-8823-b69c14c3c4da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d426ae17-9b50-42f3-9427-04b576fc5bda",
+        "fields": {
+            "uuid": "d426ae17-9b50-42f3-9427-04b576fc5bda",
+            "name": "Orthodontic Appliance Cases",
+            "emoji": "",
+            "parent": "5a41fe74-e2b4-4f42-8823-b69c14c3c4da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "27aca1f1-c7c9-4595-963b-7e6400f49b68",
+        "fields": {
+            "uuid": "27aca1f1-c7c9-4595-963b-7e6400f49b68",
+            "name": "Hard Orthodontic Appliance Cases",
+            "emoji": "",
+            "parent": "d426ae17-9b50-42f3-9427-04b576fc5bda"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3c8a46f9-f133-413e-90ee-6629bdb96a2d",
+        "fields": {
+            "uuid": "3c8a46f9-f133-413e-90ee-6629bdb96a2d",
+            "name": "Soft Orthodontic Appliance Cases",
+            "emoji": "",
+            "parent": "d426ae17-9b50-42f3-9427-04b576fc5bda"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "24c572f1-ba98-4042-92b2-2bf07ef4a917",
+        "fields": {
+            "uuid": "24c572f1-ba98-4042-92b2-2bf07ef4a917",
+            "name": "Power Flossers",
+            "emoji": "",
+            "parent": "5a41fe74-e2b4-4f42-8823-b69c14c3c4da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "91ca8e0f-3b57-475e-81c9-2ca3af147cbe",
+        "fields": {
+            "uuid": "91ca8e0f-3b57-475e-81c9-2ca3af147cbe",
+            "name": "Teeth Whiteners",
+            "emoji": "",
+            "parent": "5a41fe74-e2b4-4f42-8823-b69c14c3c4da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3ea2cdb3-8a86-4918-b985-2557c63b7dc7",
+        "fields": {
+            "uuid": "3ea2cdb3-8a86-4918-b985-2557c63b7dc7",
+            "name": "Charcoal Powder",
+            "emoji": "",
+            "parent": "91ca8e0f-3b57-475e-81c9-2ca3af147cbe"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "04b96212-14dc-45a2-9e49-265035be7a5d",
+        "fields": {
+            "uuid": "04b96212-14dc-45a2-9e49-265035be7a5d",
+            "name": "LED Light Kits",
+            "emoji": "",
+            "parent": "91ca8e0f-3b57-475e-81c9-2ca3af147cbe"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2dada680-1140-4f6e-8c33-edde74fb28e2",
+        "fields": {
+            "uuid": "2dada680-1140-4f6e-8c33-edde74fb28e2",
+            "name": "Tray Cases",
+            "emoji": "",
+            "parent": "91ca8e0f-3b57-475e-81c9-2ca3af147cbe"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b2765821-b43f-48b7-8a45-d98fa5395d49",
+        "fields": {
+            "uuid": "b2765821-b43f-48b7-8a45-d98fa5395d49",
+            "name": "Whitening Foam",
+            "emoji": "",
+            "parent": "91ca8e0f-3b57-475e-81c9-2ca3af147cbe"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fb695c5e-9cab-41dd-8778-fbb86c33d223",
+        "fields": {
+            "uuid": "fb695c5e-9cab-41dd-8778-fbb86c33d223",
+            "name": "Whitening Gels",
+            "emoji": "",
+            "parent": "91ca8e0f-3b57-475e-81c9-2ca3af147cbe"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "55df97fb-fbaa-40a1-b114-e5f5d47a8204",
+        "fields": {
+            "uuid": "55df97fb-fbaa-40a1-b114-e5f5d47a8204",
+            "name": "Whitening Mouthwash",
+            "emoji": "",
+            "parent": "91ca8e0f-3b57-475e-81c9-2ca3af147cbe"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5408baa9-7036-4827-a91b-b0f4107332ca",
+        "fields": {
+            "uuid": "5408baa9-7036-4827-a91b-b0f4107332ca",
+            "name": "Whitening Pens",
+            "emoji": "",
+            "parent": "91ca8e0f-3b57-475e-81c9-2ca3af147cbe"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e8ea8e04-2fe9-4eb0-aa55-cd65f0da7b1f",
+        "fields": {
+            "uuid": "e8ea8e04-2fe9-4eb0-aa55-cd65f0da7b1f",
+            "name": "Whitening Pods",
+            "emoji": "",
+            "parent": "91ca8e0f-3b57-475e-81c9-2ca3af147cbe"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e67cb154-a68f-4f8e-a9af-4d637c9ead5d",
+        "fields": {
+            "uuid": "e67cb154-a68f-4f8e-a9af-4d637c9ead5d",
+            "name": "Whitening Powder",
+            "emoji": "",
+            "parent": "91ca8e0f-3b57-475e-81c9-2ca3af147cbe"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6f03be19-8ce6-4914-9242-a54911003431",
+        "fields": {
+            "uuid": "6f03be19-8ce6-4914-9242-a54911003431",
+            "name": "Whitening Strips",
+            "emoji": "",
+            "parent": "91ca8e0f-3b57-475e-81c9-2ca3af147cbe"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "94dbadc8-a601-4d73-b81a-843b5256af94",
+        "fields": {
+            "uuid": "94dbadc8-a601-4d73-b81a-843b5256af94",
+            "name": "Tongue Scrapers",
+            "emoji": "",
+            "parent": "5a41fe74-e2b4-4f42-8823-b69c14c3c4da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c784a9e4-7680-4dbc-9c2b-05141a6a7d1e",
+        "fields": {
+            "uuid": "c784a9e4-7680-4dbc-9c2b-05141a6a7d1e",
+            "name": "Toothbrush Accessories",
+            "emoji": "",
+            "parent": "5a41fe74-e2b4-4f42-8823-b69c14c3c4da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ce68ee38-80bd-44ad-82f9-8051f06bb6ad",
+        "fields": {
+            "uuid": "ce68ee38-80bd-44ad-82f9-8051f06bb6ad",
+            "name": "Toothbrush Covers",
+            "emoji": "",
+            "parent": "c784a9e4-7680-4dbc-9c2b-05141a6a7d1e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f3f77ea6-1c66-4d1a-bba4-44b87be4c629",
+        "fields": {
+            "uuid": "f3f77ea6-1c66-4d1a-bba4-44b87be4c629",
+            "name": "Toothbrush Replacement Heads",
+            "emoji": "",
+            "parent": "c784a9e4-7680-4dbc-9c2b-05141a6a7d1e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f86e1059-d52b-4bb5-9a0a-5a7db16db0be",
+        "fields": {
+            "uuid": "f86e1059-d52b-4bb5-9a0a-5a7db16db0be",
+            "name": "Toothbrush Sanitizers",
+            "emoji": "",
+            "parent": "c784a9e4-7680-4dbc-9c2b-05141a6a7d1e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b44e802a-42da-480b-b37e-74c2db84f080",
+        "fields": {
+            "uuid": "b44e802a-42da-480b-b37e-74c2db84f080",
+            "name": "Toothbrushes",
+            "emoji": "",
+            "parent": "5a41fe74-e2b4-4f42-8823-b69c14c3c4da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "736f06dc-a07e-40c2-b618-7ce6a7bf3185",
+        "fields": {
+            "uuid": "736f06dc-a07e-40c2-b618-7ce6a7bf3185",
+            "name": "Electric Toothbrushes",
+            "emoji": "",
+            "parent": "b44e802a-42da-480b-b37e-74c2db84f080"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7b1ad9ce-752d-47b0-bf55-4fdc379ab2bc",
+        "fields": {
+            "uuid": "7b1ad9ce-752d-47b0-bf55-4fdc379ab2bc",
+            "name": "Manual Toothbrushes",
+            "emoji": "",
+            "parent": "b44e802a-42da-480b-b37e-74c2db84f080"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6cb4ed30-8599-410a-b476-88a8d58e0b85",
+        "fields": {
+            "uuid": "6cb4ed30-8599-410a-b476-88a8d58e0b85",
+            "name": "Toothbrush Sets",
+            "emoji": "",
+            "parent": "b44e802a-42da-480b-b37e-74c2db84f080"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d8dc21dc-a4b0-44fa-b7ed-02cfeb2c8c19",
+        "fields": {
+            "uuid": "d8dc21dc-a4b0-44fa-b7ed-02cfeb2c8c19",
+            "name": "Toothpaste Squeezers & Dispensers",
+            "emoji": "",
+            "parent": "5a41fe74-e2b4-4f42-8823-b69c14c3c4da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a098d3b2-5c7a-4db4-8784-02ec51b1062d",
+        "fields": {
+            "uuid": "a098d3b2-5c7a-4db4-8784-02ec51b1062d",
+            "name": "Toothpaste",
+            "emoji": "",
+            "parent": "5a41fe74-e2b4-4f42-8823-b69c14c3c4da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "813dc7b1-58a8-4299-9929-1702079547ad",
+        "fields": {
+            "uuid": "813dc7b1-58a8-4299-9929-1702079547ad",
+            "name": "Toothpicks",
+            "emoji": "",
+            "parent": "5a41fe74-e2b4-4f42-8823-b69c14c3c4da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7399c9d6-1c23-4bb7-898f-1a45dd353b69",
+        "fields": {
+            "uuid": "7399c9d6-1c23-4bb7-898f-1a45dd353b69",
+            "name": "Personal Lubricants",
+            "emoji": "",
+            "parent": "3d9ee664-ea1e-473b-bd1d-af808ec25a4c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ef1a7342-1724-4df9-b10a-7e0971a00975",
+        "fields": {
+            "uuid": "ef1a7342-1724-4df9-b10a-7e0971a00975",
+            "name": "Shaving & Grooming",
+            "emoji": "",
+            "parent": "3d9ee664-ea1e-473b-bd1d-af808ec25a4c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "55781122-a473-4d84-8319-5d8312f35435",
+        "fields": {
+            "uuid": "55781122-a473-4d84-8319-5d8312f35435",
+            "name": "Aftershave",
+            "emoji": "",
+            "parent": "ef1a7342-1724-4df9-b10a-7e0971a00975"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9694835c-efb7-41c8-82c3-676cbba6025e",
+        "fields": {
+            "uuid": "9694835c-efb7-41c8-82c3-676cbba6025e",
+            "name": "Body & Facial Hair Bleach",
+            "emoji": "",
+            "parent": "ef1a7342-1724-4df9-b10a-7e0971a00975"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cf4dd323-8bfb-4893-a82e-c23c5471a422",
+        "fields": {
+            "uuid": "cf4dd323-8bfb-4893-a82e-c23c5471a422",
+            "name": "Electric Razor Accessories",
+            "emoji": "",
+            "parent": "ef1a7342-1724-4df9-b10a-7e0971a00975"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b927c07a-a8b5-42db-be8f-66173a015ec7",
+        "fields": {
+            "uuid": "b927c07a-a8b5-42db-be8f-66173a015ec7",
+            "name": "Electric Razors",
+            "emoji": "",
+            "parent": "ef1a7342-1724-4df9-b10a-7e0971a00975"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1c09c6b6-d471-4016-b44e-402bcb9b5f79",
+        "fields": {
+            "uuid": "1c09c6b6-d471-4016-b44e-402bcb9b5f79",
+            "name": "Foil Electric Razors",
+            "emoji": "",
+            "parent": "b927c07a-a8b5-42db-be8f-66173a015ec7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "65d24b41-0308-4fe5-890e-f5aff51bd031",
+        "fields": {
+            "uuid": "65d24b41-0308-4fe5-890e-f5aff51bd031",
+            "name": "Rotary Electric Razors",
+            "emoji": "",
+            "parent": "b927c07a-a8b5-42db-be8f-66173a015ec7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4ec81ceb-9cf4-4bd3-b45e-64c69239b4cb",
+        "fields": {
+            "uuid": "4ec81ceb-9cf4-4bd3-b45e-64c69239b4cb",
+            "name": "Trimmers",
+            "emoji": "",
+            "parent": "b927c07a-a8b5-42db-be8f-66173a015ec7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2400e657-4f84-475f-8480-081fa8d59a8e",
+        "fields": {
+            "uuid": "2400e657-4f84-475f-8480-081fa8d59a8e",
+            "name": "Hair Clipper & Trimmer Accessories",
+            "emoji": "",
+            "parent": "ef1a7342-1724-4df9-b10a-7e0971a00975"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cab602d6-6df6-40bf-8682-026bbe005e6d",
+        "fields": {
+            "uuid": "cab602d6-6df6-40bf-8682-026bbe005e6d",
+            "name": "Hair Clippers & Trimmers",
+            "emoji": "",
+            "parent": "ef1a7342-1724-4df9-b10a-7e0971a00975"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "74df20a3-c8ea-4814-9f93-c5b53b86950e",
+        "fields": {
+            "uuid": "74df20a3-c8ea-4814-9f93-c5b53b86950e",
+            "name": "Hair Removal",
+            "emoji": "",
+            "parent": "ef1a7342-1724-4df9-b10a-7e0971a00975"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d2515efa-3a5f-4c8f-8924-b843c9f5ccec",
+        "fields": {
+            "uuid": "d2515efa-3a5f-4c8f-8924-b843c9f5ccec",
+            "name": "Depilatories",
+            "emoji": "",
+            "parent": "74df20a3-c8ea-4814-9f93-c5b53b86950e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "24ef9149-d4f0-4037-9e18-69613064bdd6",
+        "fields": {
+            "uuid": "24ef9149-d4f0-4037-9e18-69613064bdd6",
+            "name": "Electrolysis Devices",
+            "emoji": "",
+            "parent": "74df20a3-c8ea-4814-9f93-c5b53b86950e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f93c9d04-a791-4f99-bcb7-d35f7806fb37",
+        "fields": {
+            "uuid": "f93c9d04-a791-4f99-bcb7-d35f7806fb37",
+            "name": "Epilators",
+            "emoji": "",
+            "parent": "74df20a3-c8ea-4814-9f93-c5b53b86950e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "efc88256-cf65-485e-910e-5ed1484af178",
+        "fields": {
+            "uuid": "efc88256-cf65-485e-910e-5ed1484af178",
+            "name": "Hair Removal Wax Warmers",
+            "emoji": "",
+            "parent": "74df20a3-c8ea-4814-9f93-c5b53b86950e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ed65758e-2cb3-4dea-a40a-86a09af38878",
+        "fields": {
+            "uuid": "ed65758e-2cb3-4dea-a40a-86a09af38878",
+            "name": "Laser & IPL Hair Removal Devices",
+            "emoji": "",
+            "parent": "74df20a3-c8ea-4814-9f93-c5b53b86950e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3a8e09fc-c604-4630-86ad-3d33809ab945",
+        "fields": {
+            "uuid": "3a8e09fc-c604-4630-86ad-3d33809ab945",
+            "name": "IPL Hair Removal Devices",
+            "emoji": "",
+            "parent": "ed65758e-2cb3-4dea-a40a-86a09af38878"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0ccf12ad-204f-420e-a4b6-032d02084fce",
+        "fields": {
+            "uuid": "0ccf12ad-204f-420e-a4b6-032d02084fce",
+            "name": "Laser Hair Removal Devices",
+            "emoji": "",
+            "parent": "ed65758e-2cb3-4dea-a40a-86a09af38878"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "39b19e54-fbbb-4850-bf0f-d168623145a9",
+        "fields": {
+            "uuid": "39b19e54-fbbb-4850-bf0f-d168623145a9",
+            "name": "Waxing Kits & Supplies",
+            "emoji": "",
+            "parent": "74df20a3-c8ea-4814-9f93-c5b53b86950e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "05770e07-c060-4696-b876-21857ead3221",
+        "fields": {
+            "uuid": "05770e07-c060-4696-b876-21857ead3221",
+            "name": "Razors & Razor Blades",
+            "emoji": "",
+            "parent": "ef1a7342-1724-4df9-b10a-7e0971a00975"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6b78a74d-68a3-432a-92df-8f8acbdf6406",
+        "fields": {
+            "uuid": "6b78a74d-68a3-432a-92df-8f8acbdf6406",
+            "name": "Shaving Bowls & Mugs",
+            "emoji": "",
+            "parent": "ef1a7342-1724-4df9-b10a-7e0971a00975"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e71e974a-a0a8-4040-86cc-b27b2e18b0d6",
+        "fields": {
+            "uuid": "e71e974a-a0a8-4040-86cc-b27b2e18b0d6",
+            "name": "Shaving Brushes",
+            "emoji": "",
+            "parent": "ef1a7342-1724-4df9-b10a-7e0971a00975"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d6eae63d-cb12-4d7c-987c-2d7567dce41f",
+        "fields": {
+            "uuid": "d6eae63d-cb12-4d7c-987c-2d7567dce41f",
+            "name": "Shaving Creams",
+            "emoji": "",
+            "parent": "ef1a7342-1724-4df9-b10a-7e0971a00975"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "72dd4d3c-a202-4cfc-bee5-e1770bf28dac",
+        "fields": {
+            "uuid": "72dd4d3c-a202-4cfc-bee5-e1770bf28dac",
+            "name": "Shaving Kits",
+            "emoji": "",
+            "parent": "ef1a7342-1724-4df9-b10a-7e0971a00975"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "93c1fc10-630d-4a16-974d-e0ed3d7a5394",
+        "fields": {
+            "uuid": "93c1fc10-630d-4a16-974d-e0ed3d7a5394",
+            "name": "Styptic Pencils",
+            "emoji": "",
+            "parent": "ef1a7342-1724-4df9-b10a-7e0971a00975"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b3d70b00-7bcf-49ac-9fd4-aa55e63775b9",
+        "fields": {
+            "uuid": "b3d70b00-7bcf-49ac-9fd4-aa55e63775b9",
+            "name": "Sleeping Aids",
+            "emoji": "",
+            "parent": "3d9ee664-ea1e-473b-bd1d-af808ec25a4c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "43fb7afe-028c-4917-812f-b27bfa589682",
+        "fields": {
+            "uuid": "43fb7afe-028c-4917-812f-b27bfa589682",
+            "name": "Eye Masks",
+            "emoji": "",
+            "parent": "b3d70b00-7bcf-49ac-9fd4-aa55e63775b9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b921e942-56c0-492f-a517-ecadb40fb21d",
+        "fields": {
+            "uuid": "b921e942-56c0-492f-a517-ecadb40fb21d",
+            "name": "Snoring & Sleep Apnea Aids",
+            "emoji": "",
+            "parent": "b3d70b00-7bcf-49ac-9fd4-aa55e63775b9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "43218cb0-d3a4-4283-85c8-ab68a2263235",
+        "fields": {
+            "uuid": "43218cb0-d3a4-4283-85c8-ab68a2263235",
+            "name": "External Nasal Strips",
+            "emoji": "",
+            "parent": "b921e942-56c0-492f-a517-ecadb40fb21d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "891a4674-e70c-42a4-985d-61ad7071acee",
+        "fields": {
+            "uuid": "891a4674-e70c-42a4-985d-61ad7071acee",
+            "name": "Jaw Support Devices",
+            "emoji": "",
+            "parent": "b921e942-56c0-492f-a517-ecadb40fb21d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b8b7b6e4-2fea-4e46-b883-f7857c709522",
+        "fields": {
+            "uuid": "b8b7b6e4-2fea-4e46-b883-f7857c709522",
+            "name": "Mandibular Advancement Devices (MAD)",
+            "emoji": "",
+            "parent": "b921e942-56c0-492f-a517-ecadb40fb21d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a747cd33-bc5c-4bc9-88d3-42dbbe1c62f2",
+        "fields": {
+            "uuid": "a747cd33-bc5c-4bc9-88d3-42dbbe1c62f2",
+            "name": "Nasal Clips",
+            "emoji": "",
+            "parent": "b921e942-56c0-492f-a517-ecadb40fb21d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2a816478-9fe8-4715-a4c5-7a158ca084f0",
+        "fields": {
+            "uuid": "2a816478-9fe8-4715-a4c5-7a158ca084f0",
+            "name": "Nasal Cones",
+            "emoji": "",
+            "parent": "b921e942-56c0-492f-a517-ecadb40fb21d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9fac81be-bf59-4714-b59b-4a52aa7e33c4",
+        "fields": {
+            "uuid": "9fac81be-bf59-4714-b59b-4a52aa7e33c4",
+            "name": "Tongue Retaining Devices (TRD)",
+            "emoji": "",
+            "parent": "b921e942-56c0-492f-a517-ecadb40fb21d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cb687d46-b12e-473c-83ef-721c19814205",
+        "fields": {
+            "uuid": "cb687d46-b12e-473c-83ef-721c19814205",
+            "name": "Travel Pillows",
+            "emoji": "",
+            "parent": "b3d70b00-7bcf-49ac-9fd4-aa55e63775b9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "772af7b9-43f6-4aa0-bb8d-201e22f8e0b3",
+        "fields": {
+            "uuid": "772af7b9-43f6-4aa0-bb8d-201e22f8e0b3",
+            "name": "White Noise Machines",
+            "emoji": "",
+            "parent": "b3d70b00-7bcf-49ac-9fd4-aa55e63775b9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "35189d07-d2e5-4bf7-aeef-4a9e9a843b9f",
+        "fields": {
+            "uuid": "35189d07-d2e5-4bf7-aeef-4a9e9a843b9f",
+            "name": "Spray Tanning Tents",
+            "emoji": "",
+            "parent": "3d9ee664-ea1e-473b-bd1d-af808ec25a4c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "df7ddd87-84fe-49b4-a4e4-c8ff806df286",
+        "fields": {
+            "uuid": "df7ddd87-84fe-49b4-a4e4-c8ff806df286",
+            "name": "Tanning Beds",
+            "emoji": "",
+            "parent": "3d9ee664-ea1e-473b-bd1d-af808ec25a4c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1c2ab656-d6c2-40b0-a62d-8b5dab4fec38",
+        "fields": {
+            "uuid": "1c2ab656-d6c2-40b0-a62d-8b5dab4fec38",
+            "name": "Tweezers",
+            "emoji": "",
+            "parent": "3d9ee664-ea1e-473b-bd1d-af808ec25a4c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "634bcb56-1a8d-4059-a790-6b79ed10938a",
+        "fields": {
+            "uuid": "634bcb56-1a8d-4059-a790-6b79ed10938a",
+            "name": "Vision Care",
+            "emoji": "",
+            "parent": "3d9ee664-ea1e-473b-bd1d-af808ec25a4c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "02fc0504-c991-4330-9dff-ea4f20b302f6",
+        "fields": {
+            "uuid": "02fc0504-c991-4330-9dff-ea4f20b302f6",
+            "name": "Contact Lens Care",
+            "emoji": "",
+            "parent": "634bcb56-1a8d-4059-a790-6b79ed10938a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a222f49a-a20a-4166-b747-4a0613a3fd85",
+        "fields": {
+            "uuid": "a222f49a-a20a-4166-b747-4a0613a3fd85",
+            "name": "Contact Lens Care Kits",
+            "emoji": "",
+            "parent": "02fc0504-c991-4330-9dff-ea4f20b302f6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "39504d1f-ba1a-4b01-88f5-2ef30c4b22eb",
+        "fields": {
+            "uuid": "39504d1f-ba1a-4b01-88f5-2ef30c4b22eb",
+            "name": "Contact Lens Cases",
+            "emoji": "",
+            "parent": "02fc0504-c991-4330-9dff-ea4f20b302f6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4ec6c5c3-0bc6-4366-8b22-7fb6738cfd7a",
+        "fields": {
+            "uuid": "4ec6c5c3-0bc6-4366-8b22-7fb6738cfd7a",
+            "name": "Barrel Contact Lens Cases",
+            "emoji": "",
+            "parent": "39504d1f-ba1a-4b01-88f5-2ef30c4b22eb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aef8cec4-c7da-49bb-9669-31107af37fac",
+        "fields": {
+            "uuid": "aef8cec4-c7da-49bb-9669-31107af37fac",
+            "name": "Flat Contact Lens Cases",
+            "emoji": "",
+            "parent": "39504d1f-ba1a-4b01-88f5-2ef30c4b22eb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "760d14a5-ec7b-4613-9811-864856bf074c",
+        "fields": {
+            "uuid": "760d14a5-ec7b-4613-9811-864856bf074c",
+            "name": "Contact Lens Solution",
+            "emoji": "",
+            "parent": "02fc0504-c991-4330-9dff-ea4f20b302f6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9c6208a0-a9fc-4263-88bf-2a60682bdcc0",
+        "fields": {
+            "uuid": "9c6208a0-a9fc-4263-88bf-2a60682bdcc0",
+            "name": "Contact Lenses",
+            "emoji": "",
+            "parent": "02fc0504-c991-4330-9dff-ea4f20b302f6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bbb5e4af-c958-4f20-8b19-973b209edf33",
+        "fields": {
+            "uuid": "bbb5e4af-c958-4f20-8b19-973b209edf33",
+            "name": "Biweekly Contact Lenses",
+            "emoji": "",
+            "parent": "9c6208a0-a9fc-4263-88bf-2a60682bdcc0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d455eaf9-4c6a-4978-9816-6d8fc3e83abc",
+        "fields": {
+            "uuid": "d455eaf9-4c6a-4978-9816-6d8fc3e83abc",
+            "name": "Daily Contact Lenses",
+            "emoji": "",
+            "parent": "9c6208a0-a9fc-4263-88bf-2a60682bdcc0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c7d32316-f738-4254-8300-ebb4a9cc7e53",
+        "fields": {
+            "uuid": "c7d32316-f738-4254-8300-ebb4a9cc7e53",
+            "name": "Monthly Contact Lenses",
+            "emoji": "",
+            "parent": "9c6208a0-a9fc-4263-88bf-2a60682bdcc0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7df2e066-f8fc-4152-9c25-72ce1268b248",
+        "fields": {
+            "uuid": "7df2e066-f8fc-4152-9c25-72ce1268b248",
+            "name": "Weekly Contact Lenses",
+            "emoji": "",
+            "parent": "9c6208a0-a9fc-4263-88bf-2a60682bdcc0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fae293b4-fea7-4c5d-a8ca-34406ddff026",
+        "fields": {
+            "uuid": "fae293b4-fea7-4c5d-a8ca-34406ddff026",
+            "name": "Yearly Contact Lenses",
+            "emoji": "",
+            "parent": "9c6208a0-a9fc-4263-88bf-2a60682bdcc0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f702a2d5-ec5c-438c-8403-8612f2e98508",
+        "fields": {
+            "uuid": "f702a2d5-ec5c-438c-8403-8612f2e98508",
+            "name": "Eye Drops & Lubricants",
+            "emoji": "",
+            "parent": "634bcb56-1a8d-4059-a790-6b79ed10938a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c6f261a4-8d01-4b48-bbc7-4d36e4c824a3",
+        "fields": {
+            "uuid": "c6f261a4-8d01-4b48-bbc7-4d36e4c824a3",
+            "name": "Eyeglass Lenses",
+            "emoji": "",
+            "parent": "634bcb56-1a8d-4059-a790-6b79ed10938a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "071e1482-ced6-43cd-816c-08bd3e8edb5c",
+        "fields": {
+            "uuid": "071e1482-ced6-43cd-816c-08bd3e8edb5c",
+            "name": "Eyeglasses",
+            "emoji": "",
+            "parent": "634bcb56-1a8d-4059-a790-6b79ed10938a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d6066a67-25a7-46fc-a385-3e6d4874f4ca",
+        "fields": {
+            "uuid": "d6066a67-25a7-46fc-a385-3e6d4874f4ca",
+            "name": "Eyewear Accessories",
+            "emoji": "",
+            "parent": "634bcb56-1a8d-4059-a790-6b79ed10938a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "42aeebfd-2ffc-4fe8-9eb3-7cc78fe29bee",
+        "fields": {
+            "uuid": "42aeebfd-2ffc-4fe8-9eb3-7cc78fe29bee",
+            "name": "Eyewear Cases & Holders",
+            "emoji": "",
+            "parent": "d6066a67-25a7-46fc-a385-3e6d4874f4ca"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "813ba123-9330-4c6c-8847-9cb75081f460",
+        "fields": {
+            "uuid": "813ba123-9330-4c6c-8847-9cb75081f460",
+            "name": "Eyewear Lens Cleaning Solutions",
+            "emoji": "",
+            "parent": "d6066a67-25a7-46fc-a385-3e6d4874f4ca"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cde70415-197f-4211-b6d9-6e7b9aad6712",
+        "fields": {
+            "uuid": "cde70415-197f-4211-b6d9-6e7b9aad6712",
+            "name": "Eyewear Replacement Parts",
+            "emoji": "",
+            "parent": "d6066a67-25a7-46fc-a385-3e6d4874f4ca"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "213dd001-d5e3-43a6-b85f-bdc7c0b56bf7",
+        "fields": {
+            "uuid": "213dd001-d5e3-43a6-b85f-bdc7c0b56bf7",
+            "name": "Eyewear Straps & Chains",
+            "emoji": "",
+            "parent": "d6066a67-25a7-46fc-a385-3e6d4874f4ca"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "82f7ef88-dfe1-4557-9ffc-00d145a74295",
+        "fields": {
+            "uuid": "82f7ef88-dfe1-4557-9ffc-00d145a74295",
+            "name": "Eyewear Chains",
+            "emoji": "",
+            "parent": "213dd001-d5e3-43a6-b85f-bdc7c0b56bf7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6dce1215-92ea-4fe4-8f9e-195bab5fe97e",
+        "fields": {
+            "uuid": "6dce1215-92ea-4fe4-8f9e-195bab5fe97e",
+            "name": "Eyewear Straps",
+            "emoji": "",
+            "parent": "213dd001-d5e3-43a6-b85f-bdc7c0b56bf7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b37f0363-5c83-43cf-955c-a13a3e8a7818",
+        "fields": {
+            "uuid": "b37f0363-5c83-43cf-955c-a13a3e8a7818",
+            "name": "Sunglass Lenses",
+            "emoji": "",
+            "parent": "634bcb56-1a8d-4059-a790-6b79ed10938a"
+        }
+    }
+]

@@ -1,0 +1,472 @@
+[
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aa3a5491-2a4b-4692-a993-f53fbae99df9",
+        "fields": {
+            "uuid": "aa3a5491-2a4b-4692-a993-f53fbae99df9",
+            "name": "Services",
+            "emoji": "",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "382b207f-3588-4efc-a21c-ea9750abaece",
+        "fields": {
+            "uuid": "382b207f-3588-4efc-a21c-ea9750abaece",
+            "name": "Automotive Services",
+            "emoji": "",
+            "parent": "aa3a5491-2a4b-4692-a993-f53fbae99df9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3ec947e5-b532-4010-8567-7949d1b670fc",
+        "fields": {
+            "uuid": "3ec947e5-b532-4010-8567-7949d1b670fc",
+            "name": "Automotive Electrical Services",
+            "emoji": "",
+            "parent": "382b207f-3588-4efc-a21c-ea9750abaece"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "674b81e5-6260-4926-9eb7-8ef871d76b65",
+        "fields": {
+            "uuid": "674b81e5-6260-4926-9eb7-8ef871d76b65",
+            "name": "Car Valeting & Detailing",
+            "emoji": "",
+            "parent": "382b207f-3588-4efc-a21c-ea9750abaece"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "de66f188-e590-4f96-8b3b-6096f93e87e7",
+        "fields": {
+            "uuid": "de66f188-e590-4f96-8b3b-6096f93e87e7",
+            "name": "Car Repair & Maintenance",
+            "emoji": "",
+            "parent": "382b207f-3588-4efc-a21c-ea9750abaece"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "847a1fbe-1e30-47f1-977d-3ef474f68f15",
+        "fields": {
+            "uuid": "847a1fbe-1e30-47f1-977d-3ef474f68f15",
+            "name": "Car Security & Safety",
+            "emoji": "",
+            "parent": "382b207f-3588-4efc-a21c-ea9750abaece"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0c1fc2a2-dd5d-4c7e-9c1b-9bbe1571e575",
+        "fields": {
+            "uuid": "0c1fc2a2-dd5d-4c7e-9c1b-9bbe1571e575",
+            "name": "Tire & Wheel Services",
+            "emoji": "",
+            "parent": "382b207f-3588-4efc-a21c-ea9750abaece"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "81be5135-1812-4e8e-b3b8-5c8b5f0b17ce",
+        "fields": {
+            "uuid": "81be5135-1812-4e8e-b3b8-5c8b5f0b17ce",
+            "name": "Vehicle Inspection",
+            "emoji": "",
+            "parent": "382b207f-3588-4efc-a21c-ea9750abaece"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "76425b35-9f30-40e0-a02e-9bac847cc98a",
+        "fields": {
+            "uuid": "76425b35-9f30-40e0-a02e-9bac847cc98a",
+            "name": "Building & Construction Services",
+            "emoji": "",
+            "parent": "aa3a5491-2a4b-4692-a993-f53fbae99df9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c3cfc0bf-9195-4ab9-b336-cd1e2428efb6",
+        "fields": {
+            "uuid": "c3cfc0bf-9195-4ab9-b336-cd1e2428efb6",
+            "name": "Commercial Construction",
+            "emoji": "",
+            "parent": "76425b35-9f30-40e0-a02e-9bac847cc98a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "397b27ee-bbb2-4e1c-9d09-54094587b661",
+        "fields": {
+            "uuid": "397b27ee-bbb2-4e1c-9d09-54094587b661",
+            "name": "Outdoor Construction",
+            "emoji": "",
+            "parent": "76425b35-9f30-40e0-a02e-9bac847cc98a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3697a19a-f756-4f7a-b034-fc275f537833",
+        "fields": {
+            "uuid": "3697a19a-f756-4f7a-b034-fc275f537833",
+            "name": "Residential Construction & Renovation",
+            "emoji": "",
+            "parent": "76425b35-9f30-40e0-a02e-9bac847cc98a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c391a36c-ef7c-474a-a614-ac824cb8ac93",
+        "fields": {
+            "uuid": "c391a36c-ef7c-474a-a614-ac824cb8ac93",
+            "name": "Specialized Construction Services",
+            "emoji": "",
+            "parent": "76425b35-9f30-40e0-a02e-9bac847cc98a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "becc032b-0a8f-4725-9cf2-85ba7c07ea25",
+        "fields": {
+            "uuid": "becc032b-0a8f-4725-9cf2-85ba7c07ea25",
+            "name": "Carpentry",
+            "emoji": "",
+            "parent": "c391a36c-ef7c-474a-a614-ac824cb8ac93"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "87929c5f-6ff4-4086-bf4a-7110518cc037",
+        "fields": {
+            "uuid": "87929c5f-6ff4-4086-bf4a-7110518cc037",
+            "name": "Concrete & Foundations",
+            "emoji": "",
+            "parent": "c391a36c-ef7c-474a-a614-ac824cb8ac93"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "670f270f-4531-49ba-bc93-51df7eb114a8",
+        "fields": {
+            "uuid": "670f270f-4531-49ba-bc93-51df7eb114a8",
+            "name": "Roofing & Guttering",
+            "emoji": "",
+            "parent": "c391a36c-ef7c-474a-a614-ac824cb8ac93"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ab16d65d-f127-4e95-9ace-c39803926b05",
+        "fields": {
+            "uuid": "ab16d65d-f127-4e95-9ace-c39803926b05",
+            "name": "Business Services",
+            "emoji": "",
+            "parent": "aa3a5491-2a4b-4692-a993-f53fbae99df9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f1a2ee12-c266-4d3c-968f-ff4905d17a40",
+        "fields": {
+            "uuid": "f1a2ee12-c266-4d3c-968f-ff4905d17a40",
+            "name": "Human Resources & Payroll",
+            "emoji": "",
+            "parent": "ab16d65d-f127-4e95-9ace-c39803926b05"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e981d267-68ff-4067-82d7-83c116ac4aaa",
+        "fields": {
+            "uuid": "e981d267-68ff-4067-82d7-83c116ac4aaa",
+            "name": "Logistics & Removals",
+            "emoji": "",
+            "parent": "ab16d65d-f127-4e95-9ace-c39803926b05"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6dee1935-eea8-4c87-af45-e1b232e94d3c",
+        "fields": {
+            "uuid": "6dee1935-eea8-4c87-af45-e1b232e94d3c",
+            "name": "Office Services",
+            "emoji": "",
+            "parent": "ab16d65d-f127-4e95-9ace-c39803926b05"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "04b38299-2bf5-4c8e-9001-2932b98fddbc",
+        "fields": {
+            "uuid": "04b38299-2bf5-4c8e-9001-2932b98fddbc",
+            "name": "Security Services",
+            "emoji": "",
+            "parent": "ab16d65d-f127-4e95-9ace-c39803926b05"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "42e1db43-0084-40e3-a449-3ede9ec079a6",
+        "fields": {
+            "uuid": "42e1db43-0084-40e3-a449-3ede9ec079a6",
+            "name": "Entertainment & Recreation Services",
+            "emoji": "",
+            "parent": "aa3a5491-2a4b-4692-a993-f53fbae99df9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bdccf19e-7670-468a-8e8b-be00ecd1d91c",
+        "fields": {
+            "uuid": "bdccf19e-7670-468a-8e8b-be00ecd1d91c",
+            "name": "Concerts & Entertainment Events",
+            "emoji": "",
+            "parent": "42e1db43-0084-40e3-a449-3ede9ec079a6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "74e38525-2f97-4025-b069-93d1e372ab3a",
+        "fields": {
+            "uuid": "74e38525-2f97-4025-b069-93d1e372ab3a",
+            "name": "Event Planning",
+            "emoji": "",
+            "parent": "42e1db43-0084-40e3-a449-3ede9ec079a6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f0e0d927-e6ed-4d14-abed-1a3b7c6faa53",
+        "fields": {
+            "uuid": "f0e0d927-e6ed-4d14-abed-1a3b7c6faa53",
+            "name": "Travel & Leisure",
+            "emoji": "",
+            "parent": "42e1db43-0084-40e3-a449-3ede9ec079a6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2603e1af-b1bf-4efa-9a40-850bd8794c29",
+        "fields": {
+            "uuid": "2603e1af-b1bf-4efa-9a40-850bd8794c29",
+            "name": "Children Activities",
+            "emoji": "",
+            "parent": "42e1db43-0084-40e3-a449-3ede9ec079a6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2e63e5f4-ccf3-43ab-93d8-8c6de085ead2",
+        "fields": {
+            "uuid": "2e63e5f4-ccf3-43ab-93d8-8c6de085ead2",
+            "name": "Indoor Activities",
+            "emoji": "",
+            "parent": "42e1db43-0084-40e3-a449-3ede9ec079a6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "19e44b58-5d01-4a25-ae79-f79ec1522e25",
+        "fields": {
+            "uuid": "19e44b58-5d01-4a25-ae79-f79ec1522e25",
+            "name": "Outdoor Activities",
+            "emoji": "",
+            "parent": "42e1db43-0084-40e3-a449-3ede9ec079a6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c6b6d79c-adb5-45d6-b568-094298461cc0",
+        "fields": {
+            "uuid": "c6b6d79c-adb5-45d6-b568-094298461cc0",
+            "name": "Home Improvement Services",
+            "emoji": "",
+            "parent": "aa3a5491-2a4b-4692-a993-f53fbae99df9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "98ed56f4-7c5c-4a1b-895c-76310a2bc112",
+        "fields": {
+            "uuid": "98ed56f4-7c5c-4a1b-895c-76310a2bc112",
+            "name": "Electrical Services",
+            "emoji": "",
+            "parent": "c6b6d79c-adb5-45d6-b568-094298461cc0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9527f2c9-ee2b-4686-a144-43bd1380b06f",
+        "fields": {
+            "uuid": "9527f2c9-ee2b-4686-a144-43bd1380b06f",
+            "name": "Outdoor Services",
+            "emoji": "",
+            "parent": "c6b6d79c-adb5-45d6-b568-094298461cc0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "446c087d-ac05-4682-8b65-c907862cb6c0",
+        "fields": {
+            "uuid": "446c087d-ac05-4682-8b65-c907862cb6c0",
+            "name": "Plumbing",
+            "emoji": "",
+            "parent": "c6b6d79c-adb5-45d6-b568-094298461cc0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a7901887-5205-4002-8e9f-997c5c7cb065",
+        "fields": {
+            "uuid": "a7901887-5205-4002-8e9f-997c5c7cb065",
+            "name": "Specialized Home Services",
+            "emoji": "",
+            "parent": "c6b6d79c-adb5-45d6-b568-094298461cc0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8cbd840a-d43c-40cd-beae-e4c77543711c",
+        "fields": {
+            "uuid": "8cbd840a-d43c-40cd-beae-e4c77543711c",
+            "name": "Personal Services",
+            "emoji": "",
+            "parent": "aa3a5491-2a4b-4692-a993-f53fbae99df9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c579ee65-96f5-4c48-af25-660d72b44b78",
+        "fields": {
+            "uuid": "c579ee65-96f5-4c48-af25-660d72b44b78",
+            "name": "Beauty & Personal Care",
+            "emoji": "",
+            "parent": "8cbd840a-d43c-40cd-beae-e4c77543711c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a6e53650-c811-4fdf-9297-977a75b95dd1",
+        "fields": {
+            "uuid": "a6e53650-c811-4fdf-9297-977a75b95dd1",
+            "name": "Educational Services",
+            "emoji": "",
+            "parent": "8cbd840a-d43c-40cd-beae-e4c77543711c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cf736bc8-e2f7-4351-a3c3-67fcba5fe305",
+        "fields": {
+            "uuid": "cf736bc8-e2f7-4351-a3c3-67fcba5fe305",
+            "name": "Healthcare Services",
+            "emoji": "",
+            "parent": "8cbd840a-d43c-40cd-beae-e4c77543711c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5d939aae-430b-4492-991c-36200824c79a",
+        "fields": {
+            "uuid": "5d939aae-430b-4492-991c-36200824c79a",
+            "name": "Lifestyle Services",
+            "emoji": "",
+            "parent": "8cbd840a-d43c-40cd-beae-e4c77543711c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8fd24393-dd83-4fe8-8863-79b960877f9e",
+        "fields": {
+            "uuid": "8fd24393-dd83-4fe8-8863-79b960877f9e",
+            "name": "Fitness & Wellness",
+            "emoji": "",
+            "parent": "8cbd840a-d43c-40cd-beae-e4c77543711c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c78c98f2-b01c-4c7f-b05c-5ffda21753f5",
+        "fields": {
+            "uuid": "c78c98f2-b01c-4c7f-b05c-5ffda21753f5",
+            "name": "Professional Services",
+            "emoji": "",
+            "parent": "aa3a5491-2a4b-4692-a993-f53fbae99df9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e3c9e043-471f-4e4a-be32-b31123628e1e",
+        "fields": {
+            "uuid": "e3c9e043-471f-4e4a-be32-b31123628e1e",
+            "name": "Consulting Services",
+            "emoji": "",
+            "parent": "c78c98f2-b01c-4c7f-b05c-5ffda21753f5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "da105e87-8dde-4e5b-af39-a669f47bd0fc",
+        "fields": {
+            "uuid": "da105e87-8dde-4e5b-af39-a669f47bd0fc",
+            "name": "Finance & Insurance",
+            "emoji": "",
+            "parent": "c78c98f2-b01c-4c7f-b05c-5ffda21753f5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5cffefb0-6f2d-4a36-89da-60bd62e9f733",
+        "fields": {
+            "uuid": "5cffefb0-6f2d-4a36-89da-60bd62e9f733",
+            "name": "IT & Technology",
+            "emoji": "",
+            "parent": "c78c98f2-b01c-4c7f-b05c-5ffda21753f5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ab59becd-e29e-439a-b693-d1b26e07fd15",
+        "fields": {
+            "uuid": "ab59becd-e29e-439a-b693-d1b26e07fd15",
+            "name": "Legal Services",
+            "emoji": "",
+            "parent": "c78c98f2-b01c-4c7f-b05c-5ffda21753f5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "63471898-de55-4f2d-b6e3-21edf22a4e4f",
+        "fields": {
+            "uuid": "63471898-de55-4f2d-b6e3-21edf22a4e4f",
+            "name": "Marketing & Advertising",
+            "emoji": "",
+            "parent": "c78c98f2-b01c-4c7f-b05c-5ffda21753f5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e9a99473-f5c8-4cce-8cd7-8e2d23f9b318",
+        "fields": {
+            "uuid": "e9a99473-f5c8-4cce-8cd7-8e2d23f9b318",
+            "name": "Real Estate",
+            "emoji": "",
+            "parent": "c78c98f2-b01c-4c7f-b05c-5ffda21753f5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "08bf47b2-50ed-41c5-9f5e-446c3292c348",
+        "fields": {
+            "uuid": "08bf47b2-50ed-41c5-9f5e-446c3292c348",
+            "name": "Property Management",
+            "emoji": "",
+            "parent": "c78c98f2-b01c-4c7f-b05c-5ffda21753f5"
+        }
+    }
+]

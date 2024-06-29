@@ -8,14 +8,24 @@ import os
 import secrets
 
 
+# category manager
+class CategoryManager(models.Manager):
+    def get_only_product_queryset(self) -> models.QuerySet:
+        return Category.objects.annotate(products_count=models.Count("product")).filter(
+            products_count__gt=0
+        )
+
+
 class Category(models.Model):
     uuid = models.UUIDField(primary_key=True, default=uuid_gen.uuid4, editable=False)
-    name = models.CharField(max_length=50)
-    emoji = models.CharField(max_length=25)
+    schema_id = models.CharField(max_length=255)
+    name = models.CharField(max_length=255)
     parent = models.ForeignKey("self", on_delete=models.SET_NULL, null=True, blank=True)
 
+    objects = CategoryManager()
+
     def __str__(self) -> str:
-        return f"{self.uuid} - {self.name}{self.emoji}"
+        return f"Category: {self.name}"
 
 
 class Product(models.Model):
@@ -36,7 +46,7 @@ class Product(models.Model):
     seller_details = models.TextField(null=True, blank=True)
 
     def __str__(self) -> str:
-        return f"{self.name}"
+        return f"Product: {self.name}"
 
     # NOTICE : if you override save() it will cause problems in signals
     # def save(self)
@@ -69,6 +79,63 @@ class ProductImage(models.Model):
             product_count = ProductImage.objects.count()
             print(product_count)
             self.count = product_count + 1
+        super().save(*args, **kwargs)
+
+
+class Attribute(models.Model):
+    uuid = models.UUIDField(primary_key=True, default=uuid_gen.uuid4, editable=False)
+    schema_id = models.CharField(max_length=255, null=True, blank=True)
+    name = models.CharField(max_length=255)
+    description = models.TextField()
+    friendly_id = models.CharField(max_length=255)
+    handle = models.CharField(max_length=255)
+
+    def __str__(self):
+        return f"Attribute: {self.name}"
+
+
+class CategoryAttribute(models.Model):
+    uuid = models.UUIDField(primary_key=True, default=uuid_gen.uuid4, editable=False)
+    category = models.ForeignKey(Category, on_delete=models.CASCADE)
+    attribute = models.ForeignKey(Attribute, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return f"Category to Attribute: {self.category.name} - {self.attribute.name}"
+
+
+class ValueOption(models.Model):
+    uuid = models.UUIDField(primary_key=True, default=uuid_gen.uuid4, editable=False)
+    schema_id = models.CharField(max_length=255)
+    name = models.CharField(max_length=255)
+    schema_friendly_id = models.CharField(max_length=255)
+    handle = models.CharField(max_length=255)
+
+    def __str__(self):
+        return f"Value Option: {self.name}"
+
+
+class AttributeValueOptions(models.Model):
+    uuid = models.UUIDField(primary_key=True, default=uuid_gen.uuid4, editable=False)
+    attribute = models.ForeignKey(Attribute, on_delete=models.CASCADE)
+    value = models.ForeignKey(ValueOption, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return f"Attribute to Value: {self.attribute.name} - {self.value.name}"
+
+
+class ProductAttribute(models.Model):
+    uuid = models.UUIDField(primary_key=True, default=uuid_gen.uuid4, editable=False)
+    product = models.ForeignKey(
+        Product, on_delete=models.CASCADE, related_name="product_attributes"
+    )
+    attribute = models.ForeignKey(Attribute, on_delete=models.CASCADE)
+    value = models.CharField(max_length=255)
+
+    def save(self, *args, **kwargs):
+        # check if the attribute exists in the category
+        if not self.attribute.category == self.product.category:
+            raise ValueError("Attribute does not belong to the category")
+
         super().save(*args, **kwargs)
 
 

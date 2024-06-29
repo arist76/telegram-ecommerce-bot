@@ -1,0 +1,2162 @@
+[
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "c741cd0d-f76f-4bfc-a150-775180a9eb5d",
+        "fields": {
+            "uuid": "c741cd0d-f76f-4bfc-a150-775180a9eb5d",
+            "name": "software_features",
+            "category": "f51897be-3c68-4465-b452-e2cdadcf357c"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "b90c419e-cf42-4711-ab57-697685ba09d0",
+        "fields": {
+            "uuid": "b90c419e-cf42-4711-ab57-697685ba09d0",
+            "name": "license_type",
+            "category": "1dfbbaf0-f5d7-46d4-b236-65d4c219e617"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "84b4221b-bf70-4b45-a404-d38ea181e625",
+        "fields": {
+            "uuid": "84b4221b-bf70-4b45-a404-d38ea181e625",
+            "name": "operating_system",
+            "category": "1dfbbaf0-f5d7-46d4-b236-65d4c219e617"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "784fec83-fea5-4cb4-9ceb-d915fad9a6a3",
+        "fields": {
+            "uuid": "784fec83-fea5-4cb4-9ceb-d915fad9a6a3",
+            "name": "software_features",
+            "category": "1dfbbaf0-f5d7-46d4-b236-65d4c219e617"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "3e32df6f-3284-4510-95d5-a6113f15e5d1",
+        "fields": {
+            "uuid": "3e32df6f-3284-4510-95d5-a6113f15e5d1",
+            "name": "supported_language",
+            "category": "1dfbbaf0-f5d7-46d4-b236-65d4c219e617"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "577d20f6-8c80-47fd-b190-89d4bb815200",
+        "fields": {
+            "uuid": "577d20f6-8c80-47fd-b190-89d4bb815200",
+            "name": "user_type",
+            "category": "1dfbbaf0-f5d7-46d4-b236-65d4c219e617"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "f8b738b2-37a1-493e-908b-726e716af945",
+        "fields": {
+            "uuid": "f8b738b2-37a1-493e-908b-726e716af945",
+            "name": "additional_security_software_features",
+            "category": "3286e146-7ae7-41d4-8f4d-6a1f64de24e3"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "3105c3de-e65c-4a34-a507-f3ed3674a44c",
+        "fields": {
+            "uuid": "3105c3de-e65c-4a34-a507-f3ed3674a44c",
+            "name": "license_type",
+            "category": "3286e146-7ae7-41d4-8f4d-6a1f64de24e3"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "e1e163fe-40a7-4ab0-8eda-780915999850",
+        "fields": {
+            "uuid": "e1e163fe-40a7-4ab0-8eda-780915999850",
+            "name": "operating_system",
+            "category": "3286e146-7ae7-41d4-8f4d-6a1f64de24e3"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "4e49be0d-aa31-45d2-98a9-3187eadfb54f",
+        "fields": {
+            "uuid": "4e49be0d-aa31-45d2-98a9-3187eadfb54f",
+            "name": "software_features",
+            "category": "3286e146-7ae7-41d4-8f4d-6a1f64de24e3"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "9ae3da8f-c485-4ad5-bcee-3172a1325708",
+        "fields": {
+            "uuid": "9ae3da8f-c485-4ad5-bcee-3172a1325708",
+            "name": "supported_language",
+            "category": "3286e146-7ae7-41d4-8f4d-6a1f64de24e3"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "c6b3771c-4ef1-4e4c-af7a-da86a10e165b",
+        "fields": {
+            "uuid": "c6b3771c-4ef1-4e4c-af7a-da86a10e165b",
+            "name": "user_type",
+            "category": "3286e146-7ae7-41d4-8f4d-6a1f64de24e3"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "3bacd4ff-d70e-41ce-ae67-284cf3f5630a",
+        "fields": {
+            "uuid": "3bacd4ff-d70e-41ce-ae67-284cf3f5630a",
+            "name": "customer_support_channels",
+            "category": "e23fe2b5-6167-4c7e-91c5-290631fd1577"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "4cd45192-3a90-462c-bb93-cca5b83b54e4",
+        "fields": {
+            "uuid": "4cd45192-3a90-462c-bb93-cca5b83b54e4",
+            "name": "license_type",
+            "category": "e23fe2b5-6167-4c7e-91c5-290631fd1577"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "4ccb9512-ea03-4f21-b09c-88fca8b9006f",
+        "fields": {
+            "uuid": "4ccb9512-ea03-4f21-b09c-88fca8b9006f",
+            "name": "operating_system",
+            "category": "e23fe2b5-6167-4c7e-91c5-290631fd1577"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "23361ec3-c893-4cbf-b825-5b858222da5e",
+        "fields": {
+            "uuid": "23361ec3-c893-4cbf-b825-5b858222da5e",
+            "name": "software_features",
+            "category": "e23fe2b5-6167-4c7e-91c5-290631fd1577"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "be2f804b-8a82-42f6-89ff-08d54aded475",
+        "fields": {
+            "uuid": "be2f804b-8a82-42f6-89ff-08d54aded475",
+            "name": "supported_language",
+            "category": "e23fe2b5-6167-4c7e-91c5-290631fd1577"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "505803bc-371e-4b4d-a23b-f848228275e6",
+        "fields": {
+            "uuid": "505803bc-371e-4b4d-a23b-f848228275e6",
+            "name": "user_type",
+            "category": "e23fe2b5-6167-4c7e-91c5-290631fd1577"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "0b9d3e6b-e0b9-4766-93e6-9a936cb59b45",
+        "fields": {
+            "uuid": "0b9d3e6b-e0b9-4766-93e6-9a936cb59b45",
+            "name": "customer_support_channels",
+            "category": "7ee16c79-7616-4720-bbc7-efbc712c4755"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "3c18fa4b-f2be-44dc-b4f4-13645bbd405e",
+        "fields": {
+            "uuid": "3c18fa4b-f2be-44dc-b4f4-13645bbd405e",
+            "name": "license_type",
+            "category": "7ee16c79-7616-4720-bbc7-efbc712c4755"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "a73409fe-bea4-4b36-a9ca-99da47ec771b",
+        "fields": {
+            "uuid": "a73409fe-bea4-4b36-a9ca-99da47ec771b",
+            "name": "operating_system",
+            "category": "7ee16c79-7616-4720-bbc7-efbc712c4755"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "a0172d1e-9fc4-4c1c-963d-0d3fcdf34d1a",
+        "fields": {
+            "uuid": "a0172d1e-9fc4-4c1c-963d-0d3fcdf34d1a",
+            "name": "software_features",
+            "category": "7ee16c79-7616-4720-bbc7-efbc712c4755"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "325ade70-d253-4bb1-9c86-f9d8bcfe0554",
+        "fields": {
+            "uuid": "325ade70-d253-4bb1-9c86-f9d8bcfe0554",
+            "name": "supported_language",
+            "category": "7ee16c79-7616-4720-bbc7-efbc712c4755"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "87f10b0b-687e-44de-a422-ba1a8e606635",
+        "fields": {
+            "uuid": "87f10b0b-687e-44de-a422-ba1a8e606635",
+            "name": "user_type",
+            "category": "7ee16c79-7616-4720-bbc7-efbc712c4755"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "badba84a-652e-4302-a828-4a1d008148d0",
+        "fields": {
+            "uuid": "badba84a-652e-4302-a828-4a1d008148d0",
+            "name": "customer_support_channels",
+            "category": "558971ac-dd58-40c0-9fdd-291cf0903105"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "7b2af607-c384-4830-8f0c-5584f3360414",
+        "fields": {
+            "uuid": "7b2af607-c384-4830-8f0c-5584f3360414",
+            "name": "license_type",
+            "category": "558971ac-dd58-40c0-9fdd-291cf0903105"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "86e95c92-5e59-46ee-aebe-dc0d7d7e9966",
+        "fields": {
+            "uuid": "86e95c92-5e59-46ee-aebe-dc0d7d7e9966",
+            "name": "operating_system",
+            "category": "558971ac-dd58-40c0-9fdd-291cf0903105"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "d6aa6b24-4e29-42f5-b845-2d740ac53432",
+        "fields": {
+            "uuid": "d6aa6b24-4e29-42f5-b845-2d740ac53432",
+            "name": "software_features",
+            "category": "558971ac-dd58-40c0-9fdd-291cf0903105"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "317ef0a2-2693-4f06-9ef3-a93e88a67aff",
+        "fields": {
+            "uuid": "317ef0a2-2693-4f06-9ef3-a93e88a67aff",
+            "name": "supported_language",
+            "category": "558971ac-dd58-40c0-9fdd-291cf0903105"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "97136058-1634-4e8d-a672-5e7d54a73cd2",
+        "fields": {
+            "uuid": "97136058-1634-4e8d-a672-5e7d54a73cd2",
+            "name": "user_type",
+            "category": "558971ac-dd58-40c0-9fdd-291cf0903105"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "01402bd7-c149-4cd4-a3d4-b9994391287a",
+        "fields": {
+            "uuid": "01402bd7-c149-4cd4-a3d4-b9994391287a",
+            "name": "customer_support_channels",
+            "category": "84712fb5-6031-4efb-84f8-1e83e835a0cc"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "8cb5939f-6ffb-4c29-ad79-6aeb7c05c21e",
+        "fields": {
+            "uuid": "8cb5939f-6ffb-4c29-ad79-6aeb7c05c21e",
+            "name": "license_type",
+            "category": "84712fb5-6031-4efb-84f8-1e83e835a0cc"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "ad88ab7b-8041-4d40-a7f3-ac88a7374b74",
+        "fields": {
+            "uuid": "ad88ab7b-8041-4d40-a7f3-ac88a7374b74",
+            "name": "operating_system",
+            "category": "84712fb5-6031-4efb-84f8-1e83e835a0cc"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "93eae83f-8cb9-4d77-b712-5884579f80fa",
+        "fields": {
+            "uuid": "93eae83f-8cb9-4d77-b712-5884579f80fa",
+            "name": "software_features",
+            "category": "84712fb5-6031-4efb-84f8-1e83e835a0cc"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "5c452593-2de6-4ac4-bf5c-f0b2dfdfa478",
+        "fields": {
+            "uuid": "5c452593-2de6-4ac4-bf5c-f0b2dfdfa478",
+            "name": "supported_language",
+            "category": "84712fb5-6031-4efb-84f8-1e83e835a0cc"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "3ff77d6b-6fba-4fd7-8633-69448555a0ce",
+        "fields": {
+            "uuid": "3ff77d6b-6fba-4fd7-8633-69448555a0ce",
+            "name": "user_type",
+            "category": "84712fb5-6031-4efb-84f8-1e83e835a0cc"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "d981f71c-65c0-497c-818d-bd489f1e5f23",
+        "fields": {
+            "uuid": "d981f71c-65c0-497c-818d-bd489f1e5f23",
+            "name": "customer_support_channels",
+            "category": "d0cc9ba1-e1b8-4de3-a182-0e6290e2605b"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "517c9df5-5550-45a1-9c4b-f27344299b33",
+        "fields": {
+            "uuid": "517c9df5-5550-45a1-9c4b-f27344299b33",
+            "name": "license_type",
+            "category": "d0cc9ba1-e1b8-4de3-a182-0e6290e2605b"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "85422227-d209-48a2-901c-02df391be61e",
+        "fields": {
+            "uuid": "85422227-d209-48a2-901c-02df391be61e",
+            "name": "operating_system",
+            "category": "d0cc9ba1-e1b8-4de3-a182-0e6290e2605b"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "682ee0b6-829a-4eb2-9265-4baca201a9a0",
+        "fields": {
+            "uuid": "682ee0b6-829a-4eb2-9265-4baca201a9a0",
+            "name": "software_features",
+            "category": "d0cc9ba1-e1b8-4de3-a182-0e6290e2605b"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "26a947ba-e712-404d-b314-f4507d2e7a61",
+        "fields": {
+            "uuid": "26a947ba-e712-404d-b314-f4507d2e7a61",
+            "name": "supported_language",
+            "category": "d0cc9ba1-e1b8-4de3-a182-0e6290e2605b"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "a1cf9a43-3d2b-4d7e-9706-fc5d73631b2c",
+        "fields": {
+            "uuid": "a1cf9a43-3d2b-4d7e-9706-fc5d73631b2c",
+            "name": "user_type",
+            "category": "d0cc9ba1-e1b8-4de3-a182-0e6290e2605b"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "f7b4cf4d-1449-4762-9e47-0607e71517b9",
+        "fields": {
+            "uuid": "f7b4cf4d-1449-4762-9e47-0607e71517b9",
+            "name": "customer_support_channels",
+            "category": "35d5e135-21e1-4edf-a9c2-144b97e3c255"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "c28122cb-ca5b-4332-818c-86ac6cc5bb8f",
+        "fields": {
+            "uuid": "c28122cb-ca5b-4332-818c-86ac6cc5bb8f",
+            "name": "license_type",
+            "category": "35d5e135-21e1-4edf-a9c2-144b97e3c255"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "acb8276c-31d3-4b70-81c4-e02e50f8fcbb",
+        "fields": {
+            "uuid": "acb8276c-31d3-4b70-81c4-e02e50f8fcbb",
+            "name": "operating_system",
+            "category": "35d5e135-21e1-4edf-a9c2-144b97e3c255"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "7d7d1920-29c3-4ee8-848e-9d4b7e7055cf",
+        "fields": {
+            "uuid": "7d7d1920-29c3-4ee8-848e-9d4b7e7055cf",
+            "name": "software_features",
+            "category": "35d5e135-21e1-4edf-a9c2-144b97e3c255"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "cd5869cc-8696-48da-883e-6aa995852b7d",
+        "fields": {
+            "uuid": "cd5869cc-8696-48da-883e-6aa995852b7d",
+            "name": "supported_language",
+            "category": "35d5e135-21e1-4edf-a9c2-144b97e3c255"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "12607ded-3cde-4450-b647-3a587ccc656f",
+        "fields": {
+            "uuid": "12607ded-3cde-4450-b647-3a587ccc656f",
+            "name": "user_type",
+            "category": "35d5e135-21e1-4edf-a9c2-144b97e3c255"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "a4dfb950-628a-4099-8ec6-2839fdf86f36",
+        "fields": {
+            "uuid": "a4dfb950-628a-4099-8ec6-2839fdf86f36",
+            "name": "customer_support_channels",
+            "category": "45756778-f3ff-40b8-b1fd-c52fec738773"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "914c5df6-7530-46d4-87f3-3e7d6fe055ed",
+        "fields": {
+            "uuid": "914c5df6-7530-46d4-87f3-3e7d6fe055ed",
+            "name": "license_type",
+            "category": "45756778-f3ff-40b8-b1fd-c52fec738773"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "6b346d8e-8c4c-4a62-991f-11431a87fdc7",
+        "fields": {
+            "uuid": "6b346d8e-8c4c-4a62-991f-11431a87fdc7",
+            "name": "operating_system",
+            "category": "45756778-f3ff-40b8-b1fd-c52fec738773"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "95586045-f19c-4b51-82ac-a8dc973baad9",
+        "fields": {
+            "uuid": "95586045-f19c-4b51-82ac-a8dc973baad9",
+            "name": "software_features",
+            "category": "45756778-f3ff-40b8-b1fd-c52fec738773"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "132a1a8f-31ab-4e93-b302-1a6de3f05f1c",
+        "fields": {
+            "uuid": "132a1a8f-31ab-4e93-b302-1a6de3f05f1c",
+            "name": "supported_language",
+            "category": "45756778-f3ff-40b8-b1fd-c52fec738773"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "914a5313-42fb-425c-824d-bed6736bfd3d",
+        "fields": {
+            "uuid": "914a5313-42fb-425c-824d-bed6736bfd3d",
+            "name": "user_type",
+            "category": "45756778-f3ff-40b8-b1fd-c52fec738773"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "5e9c48fb-47e1-45e5-8b9f-30974303b1a2",
+        "fields": {
+            "uuid": "5e9c48fb-47e1-45e5-8b9f-30974303b1a2",
+            "name": "compatible_programming_languages",
+            "category": "3ec28920-c1c7-442a-ada8-2a267d218467"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "5e7c8745-4b03-448b-bf43-7bf4cf5f7b99",
+        "fields": {
+            "uuid": "5e7c8745-4b03-448b-bf43-7bf4cf5f7b99",
+            "name": "license_type",
+            "category": "3ec28920-c1c7-442a-ada8-2a267d218467"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "6a487817-49d5-4ea8-981d-1690dd027e97",
+        "fields": {
+            "uuid": "6a487817-49d5-4ea8-981d-1690dd027e97",
+            "name": "operating_system",
+            "category": "3ec28920-c1c7-442a-ada8-2a267d218467"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "143ca4a4-6a1c-4b88-91a9-a8e3fd7e2724",
+        "fields": {
+            "uuid": "143ca4a4-6a1c-4b88-91a9-a8e3fd7e2724",
+            "name": "software_features",
+            "category": "3ec28920-c1c7-442a-ada8-2a267d218467"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "051e0e6c-8550-4f38-b851-338e65f952a4",
+        "fields": {
+            "uuid": "051e0e6c-8550-4f38-b851-338e65f952a4",
+            "name": "software_tool_type",
+            "category": "3ec28920-c1c7-442a-ada8-2a267d218467"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "ec235319-6844-4fea-b9d3-019118db46c2",
+        "fields": {
+            "uuid": "ec235319-6844-4fea-b9d3-019118db46c2",
+            "name": "supported_language",
+            "category": "3ec28920-c1c7-442a-ada8-2a267d218467"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "48305cca-9f27-4caa-a1f2-cc23df0acf8b",
+        "fields": {
+            "uuid": "48305cca-9f27-4caa-a1f2-cc23df0acf8b",
+            "name": "user_type",
+            "category": "3ec28920-c1c7-442a-ada8-2a267d218467"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "00590478-6ef4-413d-84c6-1ed7f3617d0c",
+        "fields": {
+            "uuid": "00590478-6ef4-413d-84c6-1ed7f3617d0c",
+            "name": "compatible_programming_languages",
+            "category": "d0bb21f5-6062-4bc1-b586-4ab44c22b4c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "4b87622f-ea7a-4f8f-b96a-d6923d3005ea",
+        "fields": {
+            "uuid": "4b87622f-ea7a-4f8f-b96a-d6923d3005ea",
+            "name": "license_type",
+            "category": "d0bb21f5-6062-4bc1-b586-4ab44c22b4c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "89cc1f84-553a-4211-b64b-15df552817e3",
+        "fields": {
+            "uuid": "89cc1f84-553a-4211-b64b-15df552817e3",
+            "name": "operating_system",
+            "category": "d0bb21f5-6062-4bc1-b586-4ab44c22b4c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "13715485-25b3-446f-a9c0-90bc9723f531",
+        "fields": {
+            "uuid": "13715485-25b3-446f-a9c0-90bc9723f531",
+            "name": "software_features",
+            "category": "d0bb21f5-6062-4bc1-b586-4ab44c22b4c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "955fd4a6-5a01-4fe8-ad73-40d2727b0b22",
+        "fields": {
+            "uuid": "955fd4a6-5a01-4fe8-ad73-40d2727b0b22",
+            "name": "software_tool_type",
+            "category": "d0bb21f5-6062-4bc1-b586-4ab44c22b4c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "becdc987-68fa-407c-b51c-3416de430c50",
+        "fields": {
+            "uuid": "becdc987-68fa-407c-b51c-3416de430c50",
+            "name": "supported_language",
+            "category": "d0bb21f5-6062-4bc1-b586-4ab44c22b4c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "6254e622-eed6-4a91-a552-d1ffa086dca0",
+        "fields": {
+            "uuid": "6254e622-eed6-4a91-a552-d1ffa086dca0",
+            "name": "user_type",
+            "category": "d0bb21f5-6062-4bc1-b586-4ab44c22b4c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "3e26cfd0-7cce-4438-a88c-2418d9f25178",
+        "fields": {
+            "uuid": "3e26cfd0-7cce-4438-a88c-2418d9f25178",
+            "name": "license_type",
+            "category": "beed0db7-d51c-410a-a5b1-ac078d0acd9c"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "8d8e3fa8-2dc9-438f-a551-e380daf25687",
+        "fields": {
+            "uuid": "8d8e3fa8-2dc9-438f-a551-e380daf25687",
+            "name": "operating_system",
+            "category": "beed0db7-d51c-410a-a5b1-ac078d0acd9c"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "c76c9fee-aa9f-45eb-b2c2-872e6024119f",
+        "fields": {
+            "uuid": "c76c9fee-aa9f-45eb-b2c2-872e6024119f",
+            "name": "software_features",
+            "category": "beed0db7-d51c-410a-a5b1-ac078d0acd9c"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "6dfa1503-425b-40cb-8e6b-206fd4f24730",
+        "fields": {
+            "uuid": "6dfa1503-425b-40cb-8e6b-206fd4f24730",
+            "name": "supported_language",
+            "category": "beed0db7-d51c-410a-a5b1-ac078d0acd9c"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "1cf8b6cb-b37d-4527-9e9b-c24e289e0595",
+        "fields": {
+            "uuid": "1cf8b6cb-b37d-4527-9e9b-c24e289e0595",
+            "name": "user_type",
+            "category": "beed0db7-d51c-410a-a5b1-ac078d0acd9c"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "c2455323-029b-45b6-87c5-0c92f5fda287",
+        "fields": {
+            "uuid": "c2455323-029b-45b6-87c5-0c92f5fda287",
+            "name": "utility/maintenance_task_type",
+            "category": "beed0db7-d51c-410a-a5b1-ac078d0acd9c"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "465b8e41-b22f-49df-b205-61046669a276",
+        "fields": {
+            "uuid": "465b8e41-b22f-49df-b205-61046669a276",
+            "name": "license_type",
+            "category": "6b0c4997-0758-4b6c-90d2-38528e60adb3"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "f415a155-62cc-43a9-bd44-a107e81e606f",
+        "fields": {
+            "uuid": "f415a155-62cc-43a9-bd44-a107e81e606f",
+            "name": "operating_system",
+            "category": "6b0c4997-0758-4b6c-90d2-38528e60adb3"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "0a3e3a2f-a733-4e6f-9599-d0394ad7e3c7",
+        "fields": {
+            "uuid": "0a3e3a2f-a733-4e6f-9599-d0394ad7e3c7",
+            "name": "software_features",
+            "category": "6b0c4997-0758-4b6c-90d2-38528e60adb3"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "cc1ca809-9033-4814-aabd-eee5458a8892",
+        "fields": {
+            "uuid": "cc1ca809-9033-4814-aabd-eee5458a8892",
+            "name": "supported_language",
+            "category": "6b0c4997-0758-4b6c-90d2-38528e60adb3"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "5667ec93-092d-4a17-8cb5-ce62eef67f84",
+        "fields": {
+            "uuid": "5667ec93-092d-4a17-8cb5-ce62eef67f84",
+            "name": "user_type",
+            "category": "6b0c4997-0758-4b6c-90d2-38528e60adb3"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "1bc94b8e-74d8-43a1-a45e-9ac5cd0abe2f",
+        "fields": {
+            "uuid": "1bc94b8e-74d8-43a1-a45e-9ac5cd0abe2f",
+            "name": "education_level",
+            "category": "f44dc696-7254-4a46-b339-00a2689f60ee"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "3bad1550-f3c3-4d9f-b2a1-a06d76ae43db",
+        "fields": {
+            "uuid": "3bad1550-f3c3-4d9f-b2a1-a06d76ae43db",
+            "name": "license_type",
+            "category": "f44dc696-7254-4a46-b339-00a2689f60ee"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "85145104-bd9f-44c1-aee7-f93299f77dfb",
+        "fields": {
+            "uuid": "85145104-bd9f-44c1-aee7-f93299f77dfb",
+            "name": "operating_system",
+            "category": "f44dc696-7254-4a46-b339-00a2689f60ee"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "1f6b77a7-2df6-44a0-8812-7859b8ac6f7f",
+        "fields": {
+            "uuid": "1f6b77a7-2df6-44a0-8812-7859b8ac6f7f",
+            "name": "software_features",
+            "category": "f44dc696-7254-4a46-b339-00a2689f60ee"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "4e0ad6ab-b1d8-4191-9df0-f475eb8385db",
+        "fields": {
+            "uuid": "4e0ad6ab-b1d8-4191-9df0-f475eb8385db",
+            "name": "supported_language",
+            "category": "f44dc696-7254-4a46-b339-00a2689f60ee"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "1337e379-0d98-45b6-ad64-2d6431a2c202",
+        "fields": {
+            "uuid": "1337e379-0d98-45b6-ad64-2d6431a2c202",
+            "name": "user_type",
+            "category": "f44dc696-7254-4a46-b339-00a2689f60ee"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "d2942ca4-37fd-4c56-bbf3-03962fd93524",
+        "fields": {
+            "uuid": "d2942ca4-37fd-4c56-bbf3-03962fd93524",
+            "name": "additional_financial_software_features",
+            "category": "8f54e45d-3f1c-41a5-a8bd-6d27943ac99e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "78ddb026-3968-410a-a7ae-e9f7d7a59fa8",
+        "fields": {
+            "uuid": "78ddb026-3968-410a-a7ae-e9f7d7a59fa8",
+            "name": "license_type",
+            "category": "8f54e45d-3f1c-41a5-a8bd-6d27943ac99e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "aeedd3e0-2aba-44f3-8e0f-cd57db9d1c9f",
+        "fields": {
+            "uuid": "aeedd3e0-2aba-44f3-8e0f-cd57db9d1c9f",
+            "name": "operating_system",
+            "category": "8f54e45d-3f1c-41a5-a8bd-6d27943ac99e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "d6088a76-22c3-46d4-b2fe-d8569915d917",
+        "fields": {
+            "uuid": "d6088a76-22c3-46d4-b2fe-d8569915d917",
+            "name": "software_features",
+            "category": "8f54e45d-3f1c-41a5-a8bd-6d27943ac99e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "057057ce-e084-44ed-ab68-fdf4ab94e1d3",
+        "fields": {
+            "uuid": "057057ce-e084-44ed-ab68-fdf4ab94e1d3",
+            "name": "supported_language",
+            "category": "8f54e45d-3f1c-41a5-a8bd-6d27943ac99e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "3bb4048a-1479-4e74-866d-663c73474c1c",
+        "fields": {
+            "uuid": "3bb4048a-1479-4e74-866d-663c73474c1c",
+            "name": "user_type",
+            "category": "8f54e45d-3f1c-41a5-a8bd-6d27943ac99e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "87bef1ec-576f-445d-aa16-130344d491d9",
+        "fields": {
+            "uuid": "87bef1ec-576f-445d-aa16-130344d491d9",
+            "name": "coverage_area",
+            "category": "be6fc8e6-21b4-4035-92be-0a7ca3f0c353"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "6f55d0a5-8c06-492c-a9e1-4debe1bed1f8",
+        "fields": {
+            "uuid": "6f55d0a5-8c06-492c-a9e1-4debe1bed1f8",
+            "name": "coverage_region",
+            "category": "be6fc8e6-21b4-4035-92be-0a7ca3f0c353"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "1d388a41-de2f-4926-9827-fe2f8f426985",
+        "fields": {
+            "uuid": "1d388a41-de2f-4926-9827-fe2f8f426985",
+            "name": "gps_compatible_device",
+            "category": "be6fc8e6-21b4-4035-92be-0a7ca3f0c353"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "63a92899-ff43-4e53-a4a0-4db8c505f8ae",
+        "fields": {
+            "uuid": "63a92899-ff43-4e53-a4a0-4db8c505f8ae",
+            "name": "gps_map_type",
+            "category": "be6fc8e6-21b4-4035-92be-0a7ca3f0c353"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "af9ae88b-f491-48e1-8908-1bc66937332f",
+        "fields": {
+            "uuid": "af9ae88b-f491-48e1-8908-1bc66937332f",
+            "name": "gps_software_focus",
+            "category": "be6fc8e6-21b4-4035-92be-0a7ca3f0c353"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "e1c5b478-0320-4c7d-a75b-8e466443b91b",
+        "fields": {
+            "uuid": "e1c5b478-0320-4c7d-a75b-8e466443b91b",
+            "name": "license_type",
+            "category": "be6fc8e6-21b4-4035-92be-0a7ca3f0c353"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "9063af90-b5fe-454e-8c8a-2314ceed115c",
+        "fields": {
+            "uuid": "9063af90-b5fe-454e-8c8a-2314ceed115c",
+            "name": "operating_system",
+            "category": "be6fc8e6-21b4-4035-92be-0a7ca3f0c353"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "317d3fc7-b8d4-47e1-8077-d5a245350f4a",
+        "fields": {
+            "uuid": "317d3fc7-b8d4-47e1-8077-d5a245350f4a",
+            "name": "software_features",
+            "category": "be6fc8e6-21b4-4035-92be-0a7ca3f0c353"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "e789a9f7-9353-45fc-84c7-9fea10b378ae",
+        "fields": {
+            "uuid": "e789a9f7-9353-45fc-84c7-9fea10b378ae",
+            "name": "supported_language",
+            "category": "be6fc8e6-21b4-4035-92be-0a7ca3f0c353"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "1e718b4e-730c-4d95-830f-b49e2adab7ad",
+        "fields": {
+            "uuid": "1e718b4e-730c-4d95-830f-b49e2adab7ad",
+            "name": "update_frequency",
+            "category": "be6fc8e6-21b4-4035-92be-0a7ca3f0c353"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "9f16dc3b-318b-481e-8334-1544dfab669e",
+        "fields": {
+            "uuid": "9f16dc3b-318b-481e-8334-1544dfab669e",
+            "name": "user_type",
+            "category": "be6fc8e6-21b4-4035-92be-0a7ca3f0c353"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "4c64875f-2434-44af-aede-4dbb4a9cc200",
+        "fields": {
+            "uuid": "4c64875f-2434-44af-aede-4dbb4a9cc200",
+            "name": "license_type",
+            "category": "5cec6731-7488-4954-97db-e9ee78f6ff76"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "4ef9d981-397e-42e8-b2b0-e22fc0c853c3",
+        "fields": {
+            "uuid": "4ef9d981-397e-42e8-b2b0-e22fc0c853c3",
+            "name": "operating_system",
+            "category": "5cec6731-7488-4954-97db-e9ee78f6ff76"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "6a915ff4-773f-4028-b13a-f7d8c2fd0ca7",
+        "fields": {
+            "uuid": "6a915ff4-773f-4028-b13a-f7d8c2fd0ca7",
+            "name": "software_features",
+            "category": "5cec6731-7488-4954-97db-e9ee78f6ff76"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "af7592e3-d663-4bd7-8b32-a8f946d16a01",
+        "fields": {
+            "uuid": "af7592e3-d663-4bd7-8b32-a8f946d16a01",
+            "name": "supported_language",
+            "category": "5cec6731-7488-4954-97db-e9ee78f6ff76"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "daf5ff3a-d544-428e-acf3-eb3e5757c5ab",
+        "fields": {
+            "uuid": "daf5ff3a-d544-428e-acf3-eb3e5757c5ab",
+            "name": "user_type",
+            "category": "5cec6731-7488-4954-97db-e9ee78f6ff76"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "3461a500-8c34-4583-8a96-fe2d94220477",
+        "fields": {
+            "uuid": "3461a500-8c34-4583-8a96-fe2d94220477",
+            "name": "license_type",
+            "category": "161298b7-73fd-49c7-8ae8-6a11fcd3c7f5"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "e42783d6-e736-4094-83a5-67d02fd37e64",
+        "fields": {
+            "uuid": "e42783d6-e736-4094-83a5-67d02fd37e64",
+            "name": "operating_system",
+            "category": "161298b7-73fd-49c7-8ae8-6a11fcd3c7f5"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "81cdeae7-111a-43a4-a42a-a7e457d10f44",
+        "fields": {
+            "uuid": "81cdeae7-111a-43a4-a42a-a7e457d10f44",
+            "name": "software_features",
+            "category": "161298b7-73fd-49c7-8ae8-6a11fcd3c7f5"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "d82b27ee-1a65-4ef1-83bd-2fbbb4fa00dd",
+        "fields": {
+            "uuid": "d82b27ee-1a65-4ef1-83bd-2fbbb4fa00dd",
+            "name": "supported_language",
+            "category": "161298b7-73fd-49c7-8ae8-6a11fcd3c7f5"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "456f4bf6-c098-450b-a690-bde2ff8e43e1",
+        "fields": {
+            "uuid": "456f4bf6-c098-450b-a690-bde2ff8e43e1",
+            "name": "user_type",
+            "category": "161298b7-73fd-49c7-8ae8-6a11fcd3c7f5"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "313b695a-574f-4dd7-b932-37bd1284df15",
+        "fields": {
+            "uuid": "313b695a-574f-4dd7-b932-37bd1284df15",
+            "name": "license_type",
+            "category": "a6ca58ae-6b39-45b8-86c4-41b27736b5f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "2b9a3f19-ba6f-4690-a8d9-6f379d38c382",
+        "fields": {
+            "uuid": "2b9a3f19-ba6f-4690-a8d9-6f379d38c382",
+            "name": "operating_system",
+            "category": "a6ca58ae-6b39-45b8-86c4-41b27736b5f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "9e7e9a47-15d3-4b03-9e1e-ad2b3f2e75ed",
+        "fields": {
+            "uuid": "9e7e9a47-15d3-4b03-9e1e-ad2b3f2e75ed",
+            "name": "software_features",
+            "category": "a6ca58ae-6b39-45b8-86c4-41b27736b5f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "5695741b-30e9-4034-9024-38a944c89209",
+        "fields": {
+            "uuid": "5695741b-30e9-4034-9024-38a944c89209",
+            "name": "supported_language",
+            "category": "a6ca58ae-6b39-45b8-86c4-41b27736b5f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "39c3d365-d3b7-4306-aabf-97d0c55f7a82",
+        "fields": {
+            "uuid": "39c3d365-d3b7-4306-aabf-97d0c55f7a82",
+            "name": "user_type",
+            "category": "a6ca58ae-6b39-45b8-86c4-41b27736b5f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "a60c99b8-3943-4809-86bd-a18addebe5bd",
+        "fields": {
+            "uuid": "a60c99b8-3943-4809-86bd-a18addebe5bd",
+            "name": "additional_animation_software_features",
+            "category": "472065fb-f8d1-4fe5-88f4-bbe0d0089025"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "de8a46e4-ca15-4b20-b7a8-94eca4c4fc5c",
+        "fields": {
+            "uuid": "de8a46e4-ca15-4b20-b7a8-94eca4c4fc5c",
+            "name": "license_type",
+            "category": "472065fb-f8d1-4fe5-88f4-bbe0d0089025"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "d3b0ac1b-ce37-481e-b1e6-2fdec1b69d09",
+        "fields": {
+            "uuid": "d3b0ac1b-ce37-481e-b1e6-2fdec1b69d09",
+            "name": "operating_system",
+            "category": "472065fb-f8d1-4fe5-88f4-bbe0d0089025"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "1ea550cd-c090-4d69-aa0e-40761aede0ca",
+        "fields": {
+            "uuid": "1ea550cd-c090-4d69-aa0e-40761aede0ca",
+            "name": "software_features",
+            "category": "472065fb-f8d1-4fe5-88f4-bbe0d0089025"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "db2b4198-f81a-4485-9d43-740bb4653ce8",
+        "fields": {
+            "uuid": "db2b4198-f81a-4485-9d43-740bb4653ce8",
+            "name": "supported_language",
+            "category": "472065fb-f8d1-4fe5-88f4-bbe0d0089025"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "080c7c3f-494d-4a2a-a2fa-b8c95956e6de",
+        "fields": {
+            "uuid": "080c7c3f-494d-4a2a-a2fa-b8c95956e6de",
+            "name": "user_type",
+            "category": "472065fb-f8d1-4fe5-88f4-bbe0d0089025"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "29179371-e1bd-478e-a65d-1f1faf66b96a",
+        "fields": {
+            "uuid": "29179371-e1bd-478e-a65d-1f1faf66b96a",
+            "name": "additional_graphic_software_features",
+            "category": "41ce50fd-1457-4cde-914d-4ae830cb8ee0"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "7cd6f0bb-7fb9-44a2-a9cb-d0df277dd128",
+        "fields": {
+            "uuid": "7cd6f0bb-7fb9-44a2-a9cb-d0df277dd128",
+            "name": "license_type",
+            "category": "41ce50fd-1457-4cde-914d-4ae830cb8ee0"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "171f5c6f-6bda-430f-9311-a332ba1100dd",
+        "fields": {
+            "uuid": "171f5c6f-6bda-430f-9311-a332ba1100dd",
+            "name": "operating_system",
+            "category": "41ce50fd-1457-4cde-914d-4ae830cb8ee0"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "f85ab05d-40dd-44dc-9507-2d6bb9706cfc",
+        "fields": {
+            "uuid": "f85ab05d-40dd-44dc-9507-2d6bb9706cfc",
+            "name": "software_features",
+            "category": "41ce50fd-1457-4cde-914d-4ae830cb8ee0"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "9e78af13-32fd-4d90-8460-029d901757fb",
+        "fields": {
+            "uuid": "9e78af13-32fd-4d90-8460-029d901757fb",
+            "name": "supported_language",
+            "category": "41ce50fd-1457-4cde-914d-4ae830cb8ee0"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "b339fbd8-beef-42d9-b1d6-f0088b90d524",
+        "fields": {
+            "uuid": "b339fbd8-beef-42d9-b1d6-f0088b90d524",
+            "name": "user_type",
+            "category": "41ce50fd-1457-4cde-914d-4ae830cb8ee0"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "04438c01-26cf-4037-8586-7346a6831d21",
+        "fields": {
+            "uuid": "04438c01-26cf-4037-8586-7346a6831d21",
+            "name": "additional_design_software_type",
+            "category": "e202ab7d-d975-4524-ac02-a431791ea87f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "2b93fff1-1d79-4d2b-abca-200cf8b7ef09",
+        "fields": {
+            "uuid": "2b93fff1-1d79-4d2b-abca-200cf8b7ef09",
+            "name": "license_type",
+            "category": "e202ab7d-d975-4524-ac02-a431791ea87f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "64680a8f-d28c-407d-816c-cae7c959dfed",
+        "fields": {
+            "uuid": "64680a8f-d28c-407d-816c-cae7c959dfed",
+            "name": "operating_system",
+            "category": "e202ab7d-d975-4524-ac02-a431791ea87f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "d750e802-3c9c-4ab3-a531-a1582af65c76",
+        "fields": {
+            "uuid": "d750e802-3c9c-4ab3-a531-a1582af65c76",
+            "name": "software_features",
+            "category": "e202ab7d-d975-4524-ac02-a431791ea87f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "ee38ecdf-747b-4cd2-9e3a-406ecd171b61",
+        "fields": {
+            "uuid": "ee38ecdf-747b-4cd2-9e3a-406ecd171b61",
+            "name": "supported_language",
+            "category": "e202ab7d-d975-4524-ac02-a431791ea87f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "83c1b4d4-4104-4273-8a68-766a6c9c0deb",
+        "fields": {
+            "uuid": "83c1b4d4-4104-4273-8a68-766a6c9c0deb",
+            "name": "user_type",
+            "category": "e202ab7d-d975-4524-ac02-a431791ea87f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "e8497787-0cdd-49fd-9568-1c3681fb6ac2",
+        "fields": {
+            "uuid": "e8497787-0cdd-49fd-9568-1c3681fb6ac2",
+            "name": "additional_publishing_software_features",
+            "category": "1987110e-857e-4e17-b60f-8de71dacdd9f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "1e6f24ea-f810-42c6-a363-edbbcca45f2e",
+        "fields": {
+            "uuid": "1e6f24ea-f810-42c6-a363-edbbcca45f2e",
+            "name": "license_type",
+            "category": "1987110e-857e-4e17-b60f-8de71dacdd9f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "dba95eba-c4ea-4263-a089-987294458296",
+        "fields": {
+            "uuid": "dba95eba-c4ea-4263-a089-987294458296",
+            "name": "operating_system",
+            "category": "1987110e-857e-4e17-b60f-8de71dacdd9f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "8fbba6a1-b04e-4054-9285-03d05eba66ce",
+        "fields": {
+            "uuid": "8fbba6a1-b04e-4054-9285-03d05eba66ce",
+            "name": "software_features",
+            "category": "1987110e-857e-4e17-b60f-8de71dacdd9f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "93abaffd-2525-41af-9abb-02377dab7973",
+        "fields": {
+            "uuid": "93abaffd-2525-41af-9abb-02377dab7973",
+            "name": "supported_language",
+            "category": "1987110e-857e-4e17-b60f-8de71dacdd9f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "e25b9948-3bd3-49c8-b92c-588937d7281c",
+        "fields": {
+            "uuid": "e25b9948-3bd3-49c8-b92c-588937d7281c",
+            "name": "user_type",
+            "category": "1987110e-857e-4e17-b60f-8de71dacdd9f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "1337fd25-6424-4685-a66e-2fab98e09a4d",
+        "fields": {
+            "uuid": "1337fd25-6424-4685-a66e-2fab98e09a4d",
+            "name": "license_type",
+            "category": "b0648e64-f565-48b6-800f-b20d476da386"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "d84f443d-a0cb-42d5-affd-61594946f8b0",
+        "fields": {
+            "uuid": "d84f443d-a0cb-42d5-affd-61594946f8b0",
+            "name": "operating_system",
+            "category": "b0648e64-f565-48b6-800f-b20d476da386"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "87218f3a-fe48-483f-b6a2-b4da5e574dc4",
+        "fields": {
+            "uuid": "87218f3a-fe48-483f-b6a2-b4da5e574dc4",
+            "name": "software_features",
+            "category": "b0648e64-f565-48b6-800f-b20d476da386"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "8cb5455d-5f03-49b6-b29d-4048d29c7d2a",
+        "fields": {
+            "uuid": "8cb5455d-5f03-49b6-b29d-4048d29c7d2a",
+            "name": "supported_language",
+            "category": "b0648e64-f565-48b6-800f-b20d476da386"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "6e2a058a-e3b4-42e1-8d33-a54ac01647d1",
+        "fields": {
+            "uuid": "6e2a058a-e3b4-42e1-8d33-a54ac01647d1",
+            "name": "user_type",
+            "category": "b0648e64-f565-48b6-800f-b20d476da386"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "2998e07b-c56e-4f56-b5aa-8bf49dcce988",
+        "fields": {
+            "uuid": "2998e07b-c56e-4f56-b5aa-8bf49dcce988",
+            "name": "license_type",
+            "category": "7e8078d9-36f0-4908-984d-2e020707efcf"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "fb984d03-e42a-4758-8843-ae915839e0de",
+        "fields": {
+            "uuid": "fb984d03-e42a-4758-8843-ae915839e0de",
+            "name": "operating_system",
+            "category": "7e8078d9-36f0-4908-984d-2e020707efcf"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "7efd767c-2201-43e5-b3da-ceb2622cd245",
+        "fields": {
+            "uuid": "7efd767c-2201-43e5-b3da-ceb2622cd245",
+            "name": "software_features",
+            "category": "7e8078d9-36f0-4908-984d-2e020707efcf"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "043422d1-64d4-43e0-9f7e-bd3469095b5a",
+        "fields": {
+            "uuid": "043422d1-64d4-43e0-9f7e-bd3469095b5a",
+            "name": "supported_language",
+            "category": "7e8078d9-36f0-4908-984d-2e020707efcf"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "5197d95b-950b-47b2-825f-55ef19689abc",
+        "fields": {
+            "uuid": "5197d95b-950b-47b2-825f-55ef19689abc",
+            "name": "user_type",
+            "category": "7e8078d9-36f0-4908-984d-2e020707efcf"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "a0868a2b-735c-4fb2-b4bd-373df9dd7b48",
+        "fields": {
+            "uuid": "a0868a2b-735c-4fb2-b4bd-373df9dd7b48",
+            "name": "license_type",
+            "category": "a1bec439-c96b-4623-b0a0-990720fbb3fc"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "2f2b8256-3b52-408b-9e60-5cec80edfeac",
+        "fields": {
+            "uuid": "2f2b8256-3b52-408b-9e60-5cec80edfeac",
+            "name": "operating_system",
+            "category": "a1bec439-c96b-4623-b0a0-990720fbb3fc"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "473ce441-8f13-41f2-8b41-9e57af065971",
+        "fields": {
+            "uuid": "473ce441-8f13-41f2-8b41-9e57af065971",
+            "name": "software_features",
+            "category": "a1bec439-c96b-4623-b0a0-990720fbb3fc"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "cc89b332-4d9f-4e44-adf8-d16862f79658",
+        "fields": {
+            "uuid": "cc89b332-4d9f-4e44-adf8-d16862f79658",
+            "name": "supported_language",
+            "category": "a1bec439-c96b-4623-b0a0-990720fbb3fc"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "dfaf9e86-58a3-43a0-8322-493c45929c3f",
+        "fields": {
+            "uuid": "dfaf9e86-58a3-43a0-8322-493c45929c3f",
+            "name": "user_type",
+            "category": "a1bec439-c96b-4623-b0a0-990720fbb3fc"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "f873281c-323f-4340-88b4-fc2aea066c5c",
+        "fields": {
+            "uuid": "f873281c-323f-4340-88b4-fc2aea066c5c",
+            "name": "license_type",
+            "category": "c41f2849-2683-4481-8557-02e8fc723b0d"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "4ecd3021-0a36-46d2-80f3-4e4749f88c1b",
+        "fields": {
+            "uuid": "4ecd3021-0a36-46d2-80f3-4e4749f88c1b",
+            "name": "operating_system",
+            "category": "c41f2849-2683-4481-8557-02e8fc723b0d"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "bc162a59-2054-488f-8360-7cec8d558bcd",
+        "fields": {
+            "uuid": "bc162a59-2054-488f-8360-7cec8d558bcd",
+            "name": "software_features",
+            "category": "c41f2849-2683-4481-8557-02e8fc723b0d"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "48dc043e-0150-427c-9375-693298f93c95",
+        "fields": {
+            "uuid": "48dc043e-0150-427c-9375-693298f93c95",
+            "name": "supported_language",
+            "category": "c41f2849-2683-4481-8557-02e8fc723b0d"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "f53a31de-1f64-4291-85cd-641f910a2d10",
+        "fields": {
+            "uuid": "f53a31de-1f64-4291-85cd-641f910a2d10",
+            "name": "user_type",
+            "category": "c41f2849-2683-4481-8557-02e8fc723b0d"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "8dca1625-7025-4678-9ccf-76c639f88dd3",
+        "fields": {
+            "uuid": "8dca1625-7025-4678-9ccf-76c639f88dd3",
+            "name": "license_type",
+            "category": "9f0f2f26-f606-4079-b477-b7aa83d05c62"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "49e22db0-4cff-4503-8073-46788ad90a18",
+        "fields": {
+            "uuid": "49e22db0-4cff-4503-8073-46788ad90a18",
+            "name": "operating_system",
+            "category": "9f0f2f26-f606-4079-b477-b7aa83d05c62"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "9eb04c9f-ca30-48e1-8edc-30454a5dd3ba",
+        "fields": {
+            "uuid": "9eb04c9f-ca30-48e1-8edc-30454a5dd3ba",
+            "name": "software_features",
+            "category": "9f0f2f26-f606-4079-b477-b7aa83d05c62"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "5588641b-5c5a-43e1-9563-9385e430f08f",
+        "fields": {
+            "uuid": "5588641b-5c5a-43e1-9563-9385e430f08f",
+            "name": "supported_language",
+            "category": "9f0f2f26-f606-4079-b477-b7aa83d05c62"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "ce657daf-b242-4852-bbf1-36f79e3968e7",
+        "fields": {
+            "uuid": "ce657daf-b242-4852-bbf1-36f79e3968e7",
+            "name": "user_type",
+            "category": "9f0f2f26-f606-4079-b477-b7aa83d05c62"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "a1746e45-93e2-44f4-a458-c3938988a8e8",
+        "fields": {
+            "uuid": "a1746e45-93e2-44f4-a458-c3938988a8e8",
+            "name": "license_type",
+            "category": "10bce43a-6af5-4ae4-9de7-d078253da9b0"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "be5cd778-6a20-4b48-83d3-fbef5c8f0d97",
+        "fields": {
+            "uuid": "be5cd778-6a20-4b48-83d3-fbef5c8f0d97",
+            "name": "operating_system",
+            "category": "10bce43a-6af5-4ae4-9de7-d078253da9b0"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "b30948ff-162c-45fc-8d02-2c49a32caa97",
+        "fields": {
+            "uuid": "b30948ff-162c-45fc-8d02-2c49a32caa97",
+            "name": "software_features",
+            "category": "10bce43a-6af5-4ae4-9de7-d078253da9b0"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "d9439da9-114a-446f-bb01-ba0b741fa3f4",
+        "fields": {
+            "uuid": "d9439da9-114a-446f-bb01-ba0b741fa3f4",
+            "name": "supported_language",
+            "category": "10bce43a-6af5-4ae4-9de7-d078253da9b0"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "8d027a52-60be-4039-a1f9-b915c94f3ccf",
+        "fields": {
+            "uuid": "8d027a52-60be-4039-a1f9-b915c94f3ccf",
+            "name": "user_type",
+            "category": "10bce43a-6af5-4ae4-9de7-d078253da9b0"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "fe01183c-e910-40e7-8d29-1241b953d830",
+        "fields": {
+            "uuid": "fe01183c-e910-40e7-8d29-1241b953d830",
+            "name": "license_type",
+            "category": "598ab388-4d84-4aa8-9867-bee987d61d94"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "a409dd85-1437-40af-af97-e04e1364ea81",
+        "fields": {
+            "uuid": "a409dd85-1437-40af-af97-e04e1364ea81",
+            "name": "operating_system",
+            "category": "598ab388-4d84-4aa8-9867-bee987d61d94"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "e77dcba0-0a48-4d8b-a49c-3e40e08b8960",
+        "fields": {
+            "uuid": "e77dcba0-0a48-4d8b-a49c-3e40e08b8960",
+            "name": "software_features",
+            "category": "598ab388-4d84-4aa8-9867-bee987d61d94"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "3e8170fd-2f98-426a-bd0f-f58fe5d93bb7",
+        "fields": {
+            "uuid": "3e8170fd-2f98-426a-bd0f-f58fe5d93bb7",
+            "name": "supported_language",
+            "category": "598ab388-4d84-4aa8-9867-bee987d61d94"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "e9867f1c-3cc0-470a-b8b3-f1a7a6274ddf",
+        "fields": {
+            "uuid": "e9867f1c-3cc0-470a-b8b3-f1a7a6274ddf",
+            "name": "user_type",
+            "category": "598ab388-4d84-4aa8-9867-bee987d61d94"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "39e42259-ba9f-499a-b1d9-a68be30bba52",
+        "fields": {
+            "uuid": "39e42259-ba9f-499a-b1d9-a68be30bba52",
+            "name": "license_type",
+            "category": "552b82d9-e4a5-4da9-be5e-ddd48c8cef7f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "388d9cf4-17ff-44ed-a3a8-620aac376938",
+        "fields": {
+            "uuid": "388d9cf4-17ff-44ed-a3a8-620aac376938",
+            "name": "operating_system",
+            "category": "552b82d9-e4a5-4da9-be5e-ddd48c8cef7f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "58aea186-f00a-46db-8459-9a7eb63a83af",
+        "fields": {
+            "uuid": "58aea186-f00a-46db-8459-9a7eb63a83af",
+            "name": "software_features",
+            "category": "552b82d9-e4a5-4da9-be5e-ddd48c8cef7f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "3b98a482-d445-4b86-bbed-87819bac5f11",
+        "fields": {
+            "uuid": "3b98a482-d445-4b86-bbed-87819bac5f11",
+            "name": "supported_language",
+            "category": "552b82d9-e4a5-4da9-be5e-ddd48c8cef7f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "16db1840-a988-4ec7-9622-e74c5e99ac8b",
+        "fields": {
+            "uuid": "16db1840-a988-4ec7-9622-e74c5e99ac8b",
+            "name": "user_type",
+            "category": "552b82d9-e4a5-4da9-be5e-ddd48c8cef7f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "a48b5adc-fe7d-4bcc-baa3-a5cac5034f46",
+        "fields": {
+            "uuid": "a48b5adc-fe7d-4bcc-baa3-a5cac5034f46",
+            "name": "disk_format_type",
+            "category": "7d1d717c-c396-47b6-8ff2-b8aaca52c850"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "a14c0469-7ec1-4c3e-9bac-5bbe008ed75e",
+        "fields": {
+            "uuid": "a14c0469-7ec1-4c3e-9bac-5bbe008ed75e",
+            "name": "license_type",
+            "category": "7d1d717c-c396-47b6-8ff2-b8aaca52c850"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "5b4ee364-2191-4abc-ab46-831fc78af0d9",
+        "fields": {
+            "uuid": "5b4ee364-2191-4abc-ab46-831fc78af0d9",
+            "name": "operating_system",
+            "category": "7d1d717c-c396-47b6-8ff2-b8aaca52c850"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "62a04439-cfd3-4ed6-a755-4ec818e65051",
+        "fields": {
+            "uuid": "62a04439-cfd3-4ed6-a755-4ec818e65051",
+            "name": "software_features",
+            "category": "7d1d717c-c396-47b6-8ff2-b8aaca52c850"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "e528a230-f02a-4233-9c88-94a59035e511",
+        "fields": {
+            "uuid": "e528a230-f02a-4233-9c88-94a59035e511",
+            "name": "supported_language",
+            "category": "7d1d717c-c396-47b6-8ff2-b8aaca52c850"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "64b049ce-15ec-4410-9d2f-c3db07aff0aa",
+        "fields": {
+            "uuid": "64b049ce-15ec-4410-9d2f-c3db07aff0aa",
+            "name": "user_type",
+            "category": "7d1d717c-c396-47b6-8ff2-b8aaca52c850"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "0bab0a3a-c3c8-4ed1-9884-9aa2874e8a62",
+        "fields": {
+            "uuid": "0bab0a3a-c3c8-4ed1-9884-9aa2874e8a62",
+            "name": "ai_application",
+            "category": "c18fd59e-5bc7-40cb-b18e-35bc32a424e0"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "6372c5b2-cdfd-4c58-a807-9369f3173b8b",
+        "fields": {
+            "uuid": "6372c5b2-cdfd-4c58-a807-9369f3173b8b",
+            "name": "compatible_programming_languages",
+            "category": "c18fd59e-5bc7-40cb-b18e-35bc32a424e0"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "6a7b0ea4-c8ab-473b-83a7-04de56afaa1e",
+        "fields": {
+            "uuid": "6a7b0ea4-c8ab-473b-83a7-04de56afaa1e",
+            "name": "deployment_type",
+            "category": "c18fd59e-5bc7-40cb-b18e-35bc32a424e0"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "7b704d86-4d3f-4444-a939-04f04132d43d",
+        "fields": {
+            "uuid": "7b704d86-4d3f-4444-a939-04f04132d43d",
+            "name": "industry_focus",
+            "category": "c18fd59e-5bc7-40cb-b18e-35bc32a424e0"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "53e59c74-e8df-464d-a24a-a980afb64cba",
+        "fields": {
+            "uuid": "53e59c74-e8df-464d-a24a-a980afb64cba",
+            "name": "license_type",
+            "category": "c18fd59e-5bc7-40cb-b18e-35bc32a424e0"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "8c1e24d9-1ff8-48a4-b7d2-2acafe5d712b",
+        "fields": {
+            "uuid": "8c1e24d9-1ff8-48a4-b7d2-2acafe5d712b",
+            "name": "performance_metrics",
+            "category": "c18fd59e-5bc7-40cb-b18e-35bc32a424e0"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "6e9aa811-bf3b-402a-8fbd-0937bfb3ce79",
+        "fields": {
+            "uuid": "6e9aa811-bf3b-402a-8fbd-0937bfb3ce79",
+            "name": "training_data_requirements",
+            "category": "c18fd59e-5bc7-40cb-b18e-35bc32a424e0"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "07550c8e-f388-44cf-8d71-0689aafc6da5",
+        "fields": {
+            "uuid": "07550c8e-f388-44cf-8d71-0689aafc6da5",
+            "name": "ai_application",
+            "category": "85661368-10bf-4c6b-8535-f28357e55c4f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "3fffb3bd-1d38-486b-9677-ee4a8082bb79",
+        "fields": {
+            "uuid": "3fffb3bd-1d38-486b-9677-ee4a8082bb79",
+            "name": "compatible_programming_languages",
+            "category": "85661368-10bf-4c6b-8535-f28357e55c4f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "76725fff-9ecb-4b0e-b320-c7bb3800ece1",
+        "fields": {
+            "uuid": "76725fff-9ecb-4b0e-b320-c7bb3800ece1",
+            "name": "industry_focus",
+            "category": "85661368-10bf-4c6b-8535-f28357e55c4f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "7901b32d-c716-4b23-a31a-a54becfea98f",
+        "fields": {
+            "uuid": "7901b32d-c716-4b23-a31a-a54becfea98f",
+            "name": "license_type",
+            "category": "85661368-10bf-4c6b-8535-f28357e55c4f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "cbdb51f9-1d58-4800-8c64-2d7265e33e20",
+        "fields": {
+            "uuid": "cbdb51f9-1d58-4800-8c64-2d7265e33e20",
+            "name": "performance_metrics",
+            "category": "85661368-10bf-4c6b-8535-f28357e55c4f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "8bea844e-fd65-41ff-b32a-adb837bd25fd",
+        "fields": {
+            "uuid": "8bea844e-fd65-41ff-b32a-adb837bd25fd",
+            "name": "training_data_requirements",
+            "category": "85661368-10bf-4c6b-8535-f28357e55c4f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "b6722f38-5999-46fd-a5b9-04d8edbc3b40",
+        "fields": {
+            "uuid": "b6722f38-5999-46fd-a5b9-04d8edbc3b40",
+            "name": "operating_system",
+            "category": "5260ca32-8788-4ea1-b1c4-a4374cd4e876"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "9e7bbcd5-6a3e-4f01-8325-6302a44dbd08",
+        "fields": {
+            "uuid": "9e7bbcd5-6a3e-4f01-8325-6302a44dbd08",
+            "name": "software_features",
+            "category": "5260ca32-8788-4ea1-b1c4-a4374cd4e876"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "3df4b578-82a0-404e-85a9-fc22229234f4",
+        "fields": {
+            "uuid": "3df4b578-82a0-404e-85a9-fc22229234f4",
+            "name": "file_format_type",
+            "category": "6c43e10d-b0f1-46ba-9d52-10d554e5106b"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "31489c3c-1464-4325-aa86-2ab3dafeec22",
+        "fields": {
+            "uuid": "31489c3c-1464-4325-aa86-2ab3dafeec22",
+            "name": "icon_type",
+            "category": "6c43e10d-b0f1-46ba-9d52-10d554e5106b"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "abd8708e-e200-47b3-ac45-4237abd60fad",
+        "fields": {
+            "uuid": "abd8708e-e200-47b3-ac45-4237abd60fad",
+            "name": "operating_system",
+            "category": "6c43e10d-b0f1-46ba-9d52-10d554e5106b"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "acf4b5f0-4317-4140-8457-bd742eff1978",
+        "fields": {
+            "uuid": "acf4b5f0-4317-4140-8457-bd742eff1978",
+            "name": "software_features",
+            "category": "6c43e10d-b0f1-46ba-9d52-10d554e5106b"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "9030590a-30bf-4edc-85dc-779812b7ad1d",
+        "fields": {
+            "uuid": "9030590a-30bf-4edc-85dc-779812b7ad1d",
+            "name": "file_format_type",
+            "category": "f27afbca-704e-472a-9c15-194e5c0e883e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "94fd6edf-3f40-45d6-959a-9b6cc102748d",
+        "fields": {
+            "uuid": "94fd6edf-3f40-45d6-959a-9b6cc102748d",
+            "name": "operating_system",
+            "category": "f27afbca-704e-472a-9c15-194e5c0e883e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "263277c0-7b6c-4bd3-b86c-ece4b811896b",
+        "fields": {
+            "uuid": "263277c0-7b6c-4bd3-b86c-ece4b811896b",
+            "name": "software_features",
+            "category": "f27afbca-704e-472a-9c15-194e5c0e883e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "9426191f-1cf5-43bd-8d27-66d56d8ae5b8",
+        "fields": {
+            "uuid": "9426191f-1cf5-43bd-8d27-66d56d8ae5b8",
+            "name": "wallpaper_theme",
+            "category": "f27afbca-704e-472a-9c15-194e5c0e883e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "8a67c773-2246-4b4d-858e-55bf7d0ff3c0",
+        "fields": {
+            "uuid": "8a67c773-2246-4b4d-858e-55bf7d0ff3c0",
+            "name": "artwork_type",
+            "category": "2e544429-71c9-49a6-8983-2a330f01773b"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "5333dd07-a28e-4e0b-be22-eb3b8ae5d240",
+        "fields": {
+            "uuid": "5333dd07-a28e-4e0b-be22-eb3b8ae5d240",
+            "name": "file_format_type",
+            "category": "2e544429-71c9-49a6-8983-2a330f01773b"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "554cb797-da49-46d9-80ef-8441de6a0d6f",
+        "fields": {
+            "uuid": "554cb797-da49-46d9-80ef-8441de6a0d6f",
+            "name": "operating_system",
+            "category": "2e544429-71c9-49a6-8983-2a330f01773b"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "55f958bb-b094-415d-9de7-d3f704a91535",
+        "fields": {
+            "uuid": "55f958bb-b094-415d-9de7-d3f704a91535",
+            "name": "software_features",
+            "category": "2e544429-71c9-49a6-8983-2a330f01773b"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "b31869bf-ba6d-471b-987c-5e23b1e64aad",
+        "fields": {
+            "uuid": "b31869bf-ba6d-471b-987c-5e23b1e64aad",
+            "name": "compatible_software_platform",
+            "category": "11fb8b69-d677-44e1-8a1f-a7d2787f458a"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "77e7441d-ae4b-4fc3-8df9-ce7d31aa7976",
+        "fields": {
+            "uuid": "77e7441d-ae4b-4fc3-8df9-ce7d31aa7976",
+            "name": "file_format_type",
+            "category": "11fb8b69-d677-44e1-8a1f-a7d2787f458a"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "e6b98b44-3eea-4c55-b127-cc5dfb008762",
+        "fields": {
+            "uuid": "e6b98b44-3eea-4c55-b127-cc5dfb008762",
+            "name": "operating_system",
+            "category": "11fb8b69-d677-44e1-8a1f-a7d2787f458a"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "0e068050-3e9a-49e2-89da-bfd2244c851d",
+        "fields": {
+            "uuid": "0e068050-3e9a-49e2-89da-bfd2244c851d",
+            "name": "software_features",
+            "category": "11fb8b69-d677-44e1-8a1f-a7d2787f458a"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "aac41686-b6cf-4611-89fe-3afa140f8bdd",
+        "fields": {
+            "uuid": "aac41686-b6cf-4611-89fe-3afa140f8bdd",
+            "name": "template_type",
+            "category": "11fb8b69-d677-44e1-8a1f-a7d2787f458a"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "d11f7b2e-30ab-41cd-aad1-7527feb501c1",
+        "fields": {
+            "uuid": "d11f7b2e-30ab-41cd-aad1-7527feb501c1",
+            "name": "file_format_type",
+            "category": "10f69f93-c9be-42bf-897c-fb3ba8f1862d"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "0fcb645b-9c13-47cd-a433-b80e9ce2e1ae",
+        "fields": {
+            "uuid": "0fcb645b-9c13-47cd-a433-b80e9ce2e1ae",
+            "name": "font_style",
+            "category": "10f69f93-c9be-42bf-897c-fb3ba8f1862d"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "a1bba06b-dc97-4b54-85a1-0d0d04f04b73",
+        "fields": {
+            "uuid": "a1bba06b-dc97-4b54-85a1-0d0d04f04b73",
+            "name": "operating_system",
+            "category": "10f69f93-c9be-42bf-897c-fb3ba8f1862d"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "4a32f4e1-1795-46dc-914c-8d9168636103",
+        "fields": {
+            "uuid": "4a32f4e1-1795-46dc-914c-8d9168636103",
+            "name": "software_features",
+            "category": "10f69f93-c9be-42bf-897c-fb3ba8f1862d"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "9d0f4c94-1591-4ab2-8d18-bee617da9f0e",
+        "fields": {
+            "uuid": "9d0f4c94-1591-4ab2-8d18-bee617da9f0e",
+            "name": "file_format_type",
+            "category": "d6c571ac-9895-4b17-9c00-4b0de8ba5430"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "70d7d8a9-151b-4da6-a26c-8ecf9680a259",
+        "fields": {
+            "uuid": "70d7d8a9-151b-4da6-a26c-8ecf9680a259",
+            "name": "footage_type",
+            "category": "d6c571ac-9895-4b17-9c00-4b0de8ba5430"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "ae1a006e-23e3-42b6-ba11-aab46f675400",
+        "fields": {
+            "uuid": "ae1a006e-23e3-42b6-ba11-aab46f675400",
+            "name": "operating_system",
+            "category": "d6c571ac-9895-4b17-9c00-4b0de8ba5430"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "78702380-afd4-4249-b0a2-33328e11f2c7",
+        "fields": {
+            "uuid": "78702380-afd4-4249-b0a2-33328e11f2c7",
+            "name": "software_features",
+            "category": "d6c571ac-9895-4b17-9c00-4b0de8ba5430"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "77269380-2702-4171-a210-f1df9973ae1c",
+        "fields": {
+            "uuid": "77269380-2702-4171-a210-f1df9973ae1c",
+            "name": "software_features",
+            "category": "457fcbcf-24ea-4f2b-89c3-10a89b812058"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "2a4b6d69-c7a0-41b0-9825-d4c926ae62d3",
+        "fields": {
+            "uuid": "2a4b6d69-c7a0-41b0-9825-d4c926ae62d3",
+            "name": "esrb_rating",
+            "category": "8fa47ecf-8974-46f8-baf3-23df45a30d2d"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "712eb85d-570c-4566-a899-42003c2f3dd3",
+        "fields": {
+            "uuid": "712eb85d-570c-4566-a899-42003c2f3dd3",
+            "name": "national/regional_rating",
+            "category": "8fa47ecf-8974-46f8-baf3-23df45a30d2d"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "1eaccfab-b22d-4e1c-9187-2a33905aec8f",
+        "fields": {
+            "uuid": "1eaccfab-b22d-4e1c-9187-2a33905aec8f",
+            "name": "pegi_rating",
+            "category": "8fa47ecf-8974-46f8-baf3-23df45a30d2d"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "a45efbac-3cce-4964-8942-d91cce865229",
+        "fields": {
+            "uuid": "a45efbac-3cce-4964-8942-d91cce865229",
+            "name": "region_code",
+            "category": "8fa47ecf-8974-46f8-baf3-23df45a30d2d"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "493072ee-4625-4fc2-abd2-160a52f25d61",
+        "fields": {
+            "uuid": "493072ee-4625-4fc2-abd2-160a52f25d61",
+            "name": "video_game_content_features",
+            "category": "8fa47ecf-8974-46f8-baf3-23df45a30d2d"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "9a65c00e-57f8-4573-9e91-2f20b3ac0adc",
+        "fields": {
+            "uuid": "9a65c00e-57f8-4573-9e91-2f20b3ac0adc",
+            "name": "video_game_genre",
+            "category": "8fa47ecf-8974-46f8-baf3-23df45a30d2d"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "a6e24319-65d9-47fd-a772-91415fe20769",
+        "fields": {
+            "uuid": "a6e24319-65d9-47fd-a772-91415fe20769",
+            "name": "video_game_platform",
+            "category": "8fa47ecf-8974-46f8-baf3-23df45a30d2d"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "b50b14eb-86a1-4420-95e9-a260f49a3166",
+        "fields": {
+            "uuid": "b50b14eb-86a1-4420-95e9-a260f49a3166",
+            "name": "video_game_sub_genre",
+            "category": "8fa47ecf-8974-46f8-baf3-23df45a30d2d"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "6e2d7802-725f-47d9-ae2b-f1b1f112764b",
+        "fields": {
+            "uuid": "6e2d7802-725f-47d9-ae2b-f1b1f112764b",
+            "name": "compatible_programming_languages",
+            "category": "e2abb953-b554-4226-be28-c9c258ba54a1"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "601e5b5f-1777-4c83-a6d4-1293e92fc0a9",
+        "fields": {
+            "uuid": "601e5b5f-1777-4c83-a6d4-1293e92fc0a9",
+            "name": "compliance_certifications",
+            "category": "e2abb953-b554-4226-be28-c9c258ba54a1"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "f27ed435-b96c-4e1b-a82d-fee938f0bab0",
+        "fields": {
+            "uuid": "f27ed435-b96c-4e1b-a82d-fee938f0bab0",
+            "name": "primary_region",
+            "category": "e2abb953-b554-4226-be28-c9c258ba54a1"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "bf18ce12-8ce8-4d22-8f6a-3517718d44cf",
+        "fields": {
+            "uuid": "bf18ce12-8ce8-4d22-8f6a-3517718d44cf",
+            "name": "service_type",
+            "category": "e2abb953-b554-4226-be28-c9c258ba54a1"
+        }
+    }
+]

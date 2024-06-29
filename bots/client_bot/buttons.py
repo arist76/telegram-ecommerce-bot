@@ -106,3 +106,9 @@ def see_more(page_no: int, data: list = []):
             ]
         ]
     )
+
+
+def main_filter():
+    pattern = "F"
+    filter_names = [["price", "category", "condition"]]
+    return InlineKeyboardMarkup([[]])

@@ -1,0 +1,2122 @@
+[
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7617d9d4-1d1c-4016-bd3b-44bd7a8748b0",
+        "fields": {
+            "uuid": "7617d9d4-1d1c-4016-bd3b-44bd7a8748b0",
+            "name": "Cameras & Optics",
+            "emoji": "",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e1e96718-72f8-41ff-a354-985806a53685",
+        "fields": {
+            "uuid": "e1e96718-72f8-41ff-a354-985806a53685",
+            "name": "Camera & Optic Accessories",
+            "emoji": "",
+            "parent": "7617d9d4-1d1c-4016-bd3b-44bd7a8748b0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "74964056-deb5-4c8e-a367-899a135d46d0",
+        "fields": {
+            "uuid": "74964056-deb5-4c8e-a367-899a135d46d0",
+            "name": "Camera & Optic Replacement Cables",
+            "emoji": "",
+            "parent": "e1e96718-72f8-41ff-a354-985806a53685"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6f4c21ad-c9f9-4d67-80ad-089a623c009c",
+        "fields": {
+            "uuid": "6f4c21ad-c9f9-4d67-80ad-089a623c009c",
+            "name": "Component Video Cables",
+            "emoji": "",
+            "parent": "74964056-deb5-4c8e-a367-899a135d46d0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "716e2a38-5b06-4177-bf5e-66251f51f04d",
+        "fields": {
+            "uuid": "716e2a38-5b06-4177-bf5e-66251f51f04d",
+            "name": "Composite Video Cables",
+            "emoji": "",
+            "parent": "74964056-deb5-4c8e-a367-899a135d46d0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5de5ec16-544a-494c-8bd9-fa0b70f4a913",
+        "fields": {
+            "uuid": "5de5ec16-544a-494c-8bd9-fa0b70f4a913",
+            "name": "Optical Audio Cables",
+            "emoji": "",
+            "parent": "74964056-deb5-4c8e-a367-899a135d46d0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0e52d425-7b0d-4e1c-b8c4-6dddaed1bdf9",
+        "fields": {
+            "uuid": "0e52d425-7b0d-4e1c-b8c4-6dddaed1bdf9",
+            "name": "Camera & Video Camera Lenses",
+            "emoji": "",
+            "parent": "e1e96718-72f8-41ff-a354-985806a53685"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6dc565b7-8302-4b45-b11c-eaf5cacd3a31",
+        "fields": {
+            "uuid": "6dc565b7-8302-4b45-b11c-eaf5cacd3a31",
+            "name": "Camera Lenses",
+            "emoji": "",
+            "parent": "0e52d425-7b0d-4e1c-b8c4-6dddaed1bdf9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e8207185-e67e-4b83-8c04-19f894426e07",
+        "fields": {
+            "uuid": "e8207185-e67e-4b83-8c04-19f894426e07",
+            "name": "Surveillance Camera Lenses",
+            "emoji": "",
+            "parent": "0e52d425-7b0d-4e1c-b8c4-6dddaed1bdf9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2bfb816b-0809-40c6-8053-eddbf8fea545",
+        "fields": {
+            "uuid": "2bfb816b-0809-40c6-8053-eddbf8fea545",
+            "name": "Video Camera Lenses",
+            "emoji": "",
+            "parent": "0e52d425-7b0d-4e1c-b8c4-6dddaed1bdf9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f4721a53-0976-45fb-b59d-c865f053b67b",
+        "fields": {
+            "uuid": "f4721a53-0976-45fb-b59d-c865f053b67b",
+            "name": "Camera Lens Accessories",
+            "emoji": "",
+            "parent": "e1e96718-72f8-41ff-a354-985806a53685"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bb7e73a0-c8a9-4fed-8763-30fb34d1ed9e",
+        "fields": {
+            "uuid": "bb7e73a0-c8a9-4fed-8763-30fb34d1ed9e",
+            "name": "Lens & Filter Adapter Rings",
+            "emoji": "",
+            "parent": "f4721a53-0976-45fb-b59d-c865f053b67b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aec81996-b231-44d7-829c-f4849d412d78",
+        "fields": {
+            "uuid": "aec81996-b231-44d7-829c-f4849d412d78",
+            "name": "Lens Bags",
+            "emoji": "",
+            "parent": "f4721a53-0976-45fb-b59d-c865f053b67b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "23e8a92e-37b0-47f3-89e1-34058be2c8b4",
+        "fields": {
+            "uuid": "23e8a92e-37b0-47f3-89e1-34058be2c8b4",
+            "name": "Lens Caps",
+            "emoji": "",
+            "parent": "f4721a53-0976-45fb-b59d-c865f053b67b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9a0839b9-ac0d-4f65-b5c4-805cdf68ae07",
+        "fields": {
+            "uuid": "9a0839b9-ac0d-4f65-b5c4-805cdf68ae07",
+            "name": "Lens Converters",
+            "emoji": "",
+            "parent": "f4721a53-0976-45fb-b59d-c865f053b67b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "78d52af7-f35d-49c5-9717-c1fa89fff81a",
+        "fields": {
+            "uuid": "78d52af7-f35d-49c5-9717-c1fa89fff81a",
+            "name": "Lens Filters",
+            "emoji": "",
+            "parent": "f4721a53-0976-45fb-b59d-c865f053b67b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c7da4d70-06d3-4b89-bd86-0f1505a43b8b",
+        "fields": {
+            "uuid": "c7da4d70-06d3-4b89-bd86-0f1505a43b8b",
+            "name": "Lens Hoods",
+            "emoji": "",
+            "parent": "f4721a53-0976-45fb-b59d-c865f053b67b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "64b3af84-c975-4f80-90bb-59ab47794b8d",
+        "fields": {
+            "uuid": "64b3af84-c975-4f80-90bb-59ab47794b8d",
+            "name": "Camera Parts & Accessories",
+            "emoji": "",
+            "parent": "e1e96718-72f8-41ff-a354-985806a53685"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "af83810f-3eec-4bc9-8ba5-76a3cd28e324",
+        "fields": {
+            "uuid": "af83810f-3eec-4bc9-8ba5-76a3cd28e324",
+            "name": "Camera Accessory Sets",
+            "emoji": "",
+            "parent": "64b3af84-c975-4f80-90bb-59ab47794b8d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "94267073-71ff-4042-adb8-fe4f4dc0cb71",
+        "fields": {
+            "uuid": "94267073-71ff-4042-adb8-fe4f4dc0cb71",
+            "name": "Camera Bags & Cases",
+            "emoji": "",
+            "parent": "64b3af84-c975-4f80-90bb-59ab47794b8d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cee745ce-c738-41e6-b3c0-a40448942e16",
+        "fields": {
+            "uuid": "cee745ce-c738-41e6-b3c0-a40448942e16",
+            "name": "Camera Backpacks",
+            "emoji": "",
+            "parent": "94267073-71ff-4042-adb8-fe4f4dc0cb71"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e3b383e2-51ce-43f0-9b6e-ce6388b6b69e",
+        "fields": {
+            "uuid": "e3b383e2-51ce-43f0-9b6e-ce6388b6b69e",
+            "name": "Camera Hard Cases",
+            "emoji": "",
+            "parent": "94267073-71ff-4042-adb8-fe4f4dc0cb71"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "41288782-f480-42df-b66c-2ebfcc34177c",
+        "fields": {
+            "uuid": "41288782-f480-42df-b66c-2ebfcc34177c",
+            "name": "Camera Holster Bags",
+            "emoji": "",
+            "parent": "94267073-71ff-4042-adb8-fe4f4dc0cb71"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0b3eb82c-dd51-4d0e-b8d0-cbf31ad057cd",
+        "fields": {
+            "uuid": "0b3eb82c-dd51-4d0e-b8d0-cbf31ad057cd",
+            "name": "Camera Rolling Cases",
+            "emoji": "",
+            "parent": "94267073-71ff-4042-adb8-fe4f4dc0cb71"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0837189a-86d3-4b99-9e6b-14c48aa82be3",
+        "fields": {
+            "uuid": "0837189a-86d3-4b99-9e6b-14c48aa82be3",
+            "name": "Camera Shoulder Bags",
+            "emoji": "",
+            "parent": "94267073-71ff-4042-adb8-fe4f4dc0cb71"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ff6cf60e-f2ac-44ff-ad9e-2000b36382bd",
+        "fields": {
+            "uuid": "ff6cf60e-f2ac-44ff-ad9e-2000b36382bd",
+            "name": "Camera Sling Bags",
+            "emoji": "",
+            "parent": "94267073-71ff-4042-adb8-fe4f4dc0cb71"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d6217fb2-0fda-4950-93e4-69394209538d",
+        "fields": {
+            "uuid": "d6217fb2-0fda-4950-93e4-69394209538d",
+            "name": "Camera Soft Pouches",
+            "emoji": "",
+            "parent": "94267073-71ff-4042-adb8-fe4f4dc0cb71"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "23a6291e-e765-4381-ae5a-720b1d2220be",
+        "fields": {
+            "uuid": "23a6291e-e765-4381-ae5a-720b1d2220be",
+            "name": "Camera Tote Bags",
+            "emoji": "",
+            "parent": "94267073-71ff-4042-adb8-fe4f4dc0cb71"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "419a7e75-4126-4e5f-9e6a-7dff9cafe501",
+        "fields": {
+            "uuid": "419a7e75-4126-4e5f-9e6a-7dff9cafe501",
+            "name": "Camera Underwater Cases",
+            "emoji": "",
+            "parent": "94267073-71ff-4042-adb8-fe4f4dc0cb71"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5fb0f2ef-0b4d-454b-b300-a41d17153db2",
+        "fields": {
+            "uuid": "5fb0f2ef-0b4d-454b-b300-a41d17153db2",
+            "name": "Camera Body Replacement Panels & Doors",
+            "emoji": "",
+            "parent": "64b3af84-c975-4f80-90bb-59ab47794b8d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d0a9e8f8-62e1-4168-a03e-6d2adfab7a87",
+        "fields": {
+            "uuid": "d0a9e8f8-62e1-4168-a03e-6d2adfab7a87",
+            "name": "Camera Digital Backs",
+            "emoji": "",
+            "parent": "64b3af84-c975-4f80-90bb-59ab47794b8d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "30324029-e12e-4d22-a924-d0997348792b",
+        "fields": {
+            "uuid": "30324029-e12e-4d22-a924-d0997348792b",
+            "name": "Camera Film",
+            "emoji": "",
+            "parent": "64b3af84-c975-4f80-90bb-59ab47794b8d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e6985d8c-7231-469e-9f17-30979d04d4b9",
+        "fields": {
+            "uuid": "e6985d8c-7231-469e-9f17-30979d04d4b9",
+            "name": "Black & White Film",
+            "emoji": "",
+            "parent": "30324029-e12e-4d22-a924-d0997348792b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a5a3abfc-2b7d-4a9e-afc5-b80150ab14bd",
+        "fields": {
+            "uuid": "a5a3abfc-2b7d-4a9e-afc5-b80150ab14bd",
+            "name": "Color Negative Film",
+            "emoji": "",
+            "parent": "30324029-e12e-4d22-a924-d0997348792b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a5f15af3-77c2-444b-8a5b-bc10586ee443",
+        "fields": {
+            "uuid": "a5f15af3-77c2-444b-8a5b-bc10586ee443",
+            "name": "Infrared Film",
+            "emoji": "",
+            "parent": "30324029-e12e-4d22-a924-d0997348792b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9cb571c0-fd2c-4328-88af-d272373e6fb5",
+        "fields": {
+            "uuid": "9cb571c0-fd2c-4328-88af-d272373e6fb5",
+            "name": "Instant Film",
+            "emoji": "",
+            "parent": "30324029-e12e-4d22-a924-d0997348792b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a4b201e9-24c9-4d26-a28c-66db28c76485",
+        "fields": {
+            "uuid": "a4b201e9-24c9-4d26-a28c-66db28c76485",
+            "name": "Slide Film",
+            "emoji": "",
+            "parent": "30324029-e12e-4d22-a924-d0997348792b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ab43262f-c6f0-4117-987c-d8a5e871c74f",
+        "fields": {
+            "uuid": "ab43262f-c6f0-4117-987c-d8a5e871c74f",
+            "name": "Special Effects Film",
+            "emoji": "",
+            "parent": "30324029-e12e-4d22-a924-d0997348792b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c2694450-105d-4e9d-b6df-f68ada2421b6",
+        "fields": {
+            "uuid": "c2694450-105d-4e9d-b6df-f68ada2421b6",
+            "name": "Camera Flash Accessories",
+            "emoji": "",
+            "parent": "64b3af84-c975-4f80-90bb-59ab47794b8d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3efd1e84-c3dd-4a68-9538-5f1d75aa1539",
+        "fields": {
+            "uuid": "3efd1e84-c3dd-4a68-9538-5f1d75aa1539",
+            "name": "Camera Flashes",
+            "emoji": "",
+            "parent": "64b3af84-c975-4f80-90bb-59ab47794b8d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b8fc0053-0e2b-4729-8301-b7bfa8d9cde5",
+        "fields": {
+            "uuid": "b8fc0053-0e2b-4729-8301-b7bfa8d9cde5",
+            "name": "Camera Focus Devices",
+            "emoji": "",
+            "parent": "64b3af84-c975-4f80-90bb-59ab47794b8d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c35d33ad-8cb0-4cb6-9f99-8a176505e380",
+        "fields": {
+            "uuid": "c35d33ad-8cb0-4cb6-9f99-8a176505e380",
+            "name": "Camera Gears",
+            "emoji": "",
+            "parent": "64b3af84-c975-4f80-90bb-59ab47794b8d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "17ec47b5-a08c-47e8-8e67-f1a910a174cd",
+        "fields": {
+            "uuid": "17ec47b5-a08c-47e8-8e67-f1a910a174cd",
+            "name": "Camera Grips",
+            "emoji": "",
+            "parent": "64b3af84-c975-4f80-90bb-59ab47794b8d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2a5c0169-36dc-4a26-85af-091aed4166b2",
+        "fields": {
+            "uuid": "2a5c0169-36dc-4a26-85af-091aed4166b2",
+            "name": "Battery Grips",
+            "emoji": "",
+            "parent": "17ec47b5-a08c-47e8-8e67-f1a910a174cd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "923eac2e-e9e1-44b6-864f-836aa9642ebe",
+        "fields": {
+            "uuid": "923eac2e-e9e1-44b6-864f-836aa9642ebe",
+            "name": "Finger Grips",
+            "emoji": "",
+            "parent": "17ec47b5-a08c-47e8-8e67-f1a910a174cd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e1299375-1e75-4364-8cc9-ef4684fbd4d1",
+        "fields": {
+            "uuid": "e1299375-1e75-4364-8cc9-ef4684fbd4d1",
+            "name": "Hand Grips",
+            "emoji": "",
+            "parent": "17ec47b5-a08c-47e8-8e67-f1a910a174cd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b56206f8-2e42-41ca-be55-086a10ace34e",
+        "fields": {
+            "uuid": "b56206f8-2e42-41ca-be55-086a10ace34e",
+            "name": "Shoulder Grips",
+            "emoji": "",
+            "parent": "17ec47b5-a08c-47e8-8e67-f1a910a174cd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "af4f8f39-e7db-4a01-8280-ccd6a0d37637",
+        "fields": {
+            "uuid": "af4f8f39-e7db-4a01-8280-ccd6a0d37637",
+            "name": "Strap Grips",
+            "emoji": "",
+            "parent": "17ec47b5-a08c-47e8-8e67-f1a910a174cd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f99bc731-16c7-4c6d-bbba-fa2ebbdc55be",
+        "fields": {
+            "uuid": "f99bc731-16c7-4c6d-bbba-fa2ebbdc55be",
+            "name": "Underwater Grips",
+            "emoji": "",
+            "parent": "17ec47b5-a08c-47e8-8e67-f1a910a174cd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "98788d24-2671-461a-8e1e-d8584e7d1c01",
+        "fields": {
+            "uuid": "98788d24-2671-461a-8e1e-d8584e7d1c01",
+            "name": "Wrist Grips",
+            "emoji": "",
+            "parent": "17ec47b5-a08c-47e8-8e67-f1a910a174cd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c8480b10-6937-4333-8897-6239181cbebd",
+        "fields": {
+            "uuid": "c8480b10-6937-4333-8897-6239181cbebd",
+            "name": "Camera Image Sensors",
+            "emoji": "",
+            "parent": "64b3af84-c975-4f80-90bb-59ab47794b8d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "10640840-5417-4eaf-b748-bf06f983ff7f",
+        "fields": {
+            "uuid": "10640840-5417-4eaf-b748-bf06f983ff7f",
+            "name": "Camera Lens Zoom Units",
+            "emoji": "",
+            "parent": "64b3af84-c975-4f80-90bb-59ab47794b8d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f294c235-8ce8-44ff-a37e-7f35d7d87eb3",
+        "fields": {
+            "uuid": "f294c235-8ce8-44ff-a37e-7f35d7d87eb3",
+            "name": "Digital Zoom Units",
+            "emoji": "",
+            "parent": "10640840-5417-4eaf-b748-bf06f983ff7f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "949c404c-f133-407d-969a-d8ad646ef41c",
+        "fields": {
+            "uuid": "949c404c-f133-407d-969a-d8ad646ef41c",
+            "name": "Manual Zoom Units",
+            "emoji": "",
+            "parent": "10640840-5417-4eaf-b748-bf06f983ff7f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ae009041-d75b-47a8-8108-8ad3c1b452e7",
+        "fields": {
+            "uuid": "ae009041-d75b-47a8-8108-8ad3c1b452e7",
+            "name": "Motorized Zoom Units",
+            "emoji": "",
+            "parent": "10640840-5417-4eaf-b748-bf06f983ff7f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5c85725b-7a9e-40a5-9518-ffec90928c7a",
+        "fields": {
+            "uuid": "5c85725b-7a9e-40a5-9518-ffec90928c7a",
+            "name": "Optical Zoom Units",
+            "emoji": "",
+            "parent": "10640840-5417-4eaf-b748-bf06f983ff7f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8eb882ce-f3e5-43ab-a910-735125a0b011",
+        "fields": {
+            "uuid": "8eb882ce-f3e5-43ab-a910-735125a0b011",
+            "name": "Servo Zoom Units",
+            "emoji": "",
+            "parent": "10640840-5417-4eaf-b748-bf06f983ff7f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "03ea5519-62e2-4a53-bef0-25e6d9beb21c",
+        "fields": {
+            "uuid": "03ea5519-62e2-4a53-bef0-25e6d9beb21c",
+            "name": "Camera Remote Controls",
+            "emoji": "",
+            "parent": "64b3af84-c975-4f80-90bb-59ab47794b8d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dbac2aa6-f691-4ae7-a1ae-cd310fcc531b",
+        "fields": {
+            "uuid": "dbac2aa6-f691-4ae7-a1ae-cd310fcc531b",
+            "name": "Camera Replacement Buttons & Knobs",
+            "emoji": "",
+            "parent": "64b3af84-c975-4f80-90bb-59ab47794b8d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6641c06c-29b5-4333-8af1-8fac7c375aa1",
+        "fields": {
+            "uuid": "6641c06c-29b5-4333-8af1-8fac7c375aa1",
+            "name": "Camera Replacement Screens & Displays",
+            "emoji": "",
+            "parent": "64b3af84-c975-4f80-90bb-59ab47794b8d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3b61621f-400e-40c0-8959-6a2001d0bb8b",
+        "fields": {
+            "uuid": "3b61621f-400e-40c0-8959-6a2001d0bb8b",
+            "name": "Camera Silencers & Sound Blimps",
+            "emoji": "",
+            "parent": "64b3af84-c975-4f80-90bb-59ab47794b8d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "60bf63f5-c4e3-48d4-a48e-cd15b340aaee",
+        "fields": {
+            "uuid": "60bf63f5-c4e3-48d4-a48e-cd15b340aaee",
+            "name": "Camera Stabilizers & Supports",
+            "emoji": "",
+            "parent": "64b3af84-c975-4f80-90bb-59ab47794b8d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4559f396-e2ca-4c07-9507-999ebf69b694",
+        "fields": {
+            "uuid": "4559f396-e2ca-4c07-9507-999ebf69b694",
+            "name": "Camera Straps",
+            "emoji": "",
+            "parent": "64b3af84-c975-4f80-90bb-59ab47794b8d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a0ca4738-21e2-4419-bacb-b93642068f70",
+        "fields": {
+            "uuid": "a0ca4738-21e2-4419-bacb-b93642068f70",
+            "name": "Belt Straps",
+            "emoji": "",
+            "parent": "4559f396-e2ca-4c07-9507-999ebf69b694"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cafa3ed3-3a05-4806-990e-71deb45f4bef",
+        "fields": {
+            "uuid": "cafa3ed3-3a05-4806-990e-71deb45f4bef",
+            "name": "Chest Straps",
+            "emoji": "",
+            "parent": "4559f396-e2ca-4c07-9507-999ebf69b694"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e1274a17-6290-4c90-9182-523681a234b1",
+        "fields": {
+            "uuid": "e1274a17-6290-4c90-9182-523681a234b1",
+            "name": "Hand Straps",
+            "emoji": "",
+            "parent": "4559f396-e2ca-4c07-9507-999ebf69b694"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1180ce2c-5273-4e8c-a2f7-f7ceab1502d5",
+        "fields": {
+            "uuid": "1180ce2c-5273-4e8c-a2f7-f7ceab1502d5",
+            "name": "Harness Straps",
+            "emoji": "",
+            "parent": "4559f396-e2ca-4c07-9507-999ebf69b694"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "38cc3129-af9b-4b08-a175-677277facbd7",
+        "fields": {
+            "uuid": "38cc3129-af9b-4b08-a175-677277facbd7",
+            "name": "Neck Straps",
+            "emoji": "",
+            "parent": "4559f396-e2ca-4c07-9507-999ebf69b694"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dfaee638-06f1-4de8-8b9a-70ce098c3585",
+        "fields": {
+            "uuid": "dfaee638-06f1-4de8-8b9a-70ce098c3585",
+            "name": "Quick-Release Straps",
+            "emoji": "",
+            "parent": "4559f396-e2ca-4c07-9507-999ebf69b694"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c5b5466e-9598-4281-95dc-ba22bd513d97",
+        "fields": {
+            "uuid": "c5b5466e-9598-4281-95dc-ba22bd513d97",
+            "name": "Shoulder Straps",
+            "emoji": "",
+            "parent": "4559f396-e2ca-4c07-9507-999ebf69b694"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "74d3f019-7095-4134-85f4-b9c1c4e4ceb5",
+        "fields": {
+            "uuid": "74d3f019-7095-4134-85f4-b9c1c4e4ceb5",
+            "name": "Wrist Straps",
+            "emoji": "",
+            "parent": "4559f396-e2ca-4c07-9507-999ebf69b694"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "72a04d5d-30c0-4185-a32e-53831c862030",
+        "fields": {
+            "uuid": "72a04d5d-30c0-4185-a32e-53831c862030",
+            "name": "Camera Sun Hoods & Viewfinder Attachments",
+            "emoji": "",
+            "parent": "64b3af84-c975-4f80-90bb-59ab47794b8d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f71c3904-d881-433d-8c13-267661226ee5",
+        "fields": {
+            "uuid": "f71c3904-d881-433d-8c13-267661226ee5",
+            "name": "Flash Brackets",
+            "emoji": "",
+            "parent": "64b3af84-c975-4f80-90bb-59ab47794b8d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cce1eb7b-a305-40b0-848d-b56039feaba6",
+        "fields": {
+            "uuid": "cce1eb7b-a305-40b0-848d-b56039feaba6",
+            "name": "On-Camera Monitors",
+            "emoji": "",
+            "parent": "64b3af84-c975-4f80-90bb-59ab47794b8d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1911c5b4-9e62-4471-a5be-66eb0ae65f62",
+        "fields": {
+            "uuid": "1911c5b4-9e62-4471-a5be-66eb0ae65f62",
+            "name": "Surveillance Camera Accessories",
+            "emoji": "",
+            "parent": "64b3af84-c975-4f80-90bb-59ab47794b8d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "68664a47-295e-4471-bd17-1f4310844f76",
+        "fields": {
+            "uuid": "68664a47-295e-4471-bd17-1f4310844f76",
+            "name": "Underwater Camera Housing Accessories",
+            "emoji": "",
+            "parent": "64b3af84-c975-4f80-90bb-59ab47794b8d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7e7640e0-de3e-4386-a545-62e9ccbe5dec",
+        "fields": {
+            "uuid": "7e7640e0-de3e-4386-a545-62e9ccbe5dec",
+            "name": "Underwater Camera Housings",
+            "emoji": "",
+            "parent": "64b3af84-c975-4f80-90bb-59ab47794b8d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e793e370-3d53-4f31-a2fe-8a4203da8061",
+        "fields": {
+            "uuid": "e793e370-3d53-4f31-a2fe-8a4203da8061",
+            "name": "Video Camera Lights",
+            "emoji": "",
+            "parent": "64b3af84-c975-4f80-90bb-59ab47794b8d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a1663409-b548-4872-82cc-39ee2913b6c1",
+        "fields": {
+            "uuid": "a1663409-b548-4872-82cc-39ee2913b6c1",
+            "name": "Optic Accessories",
+            "emoji": "",
+            "parent": "e1e96718-72f8-41ff-a354-985806a53685"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "687cd4aa-8577-4a60-930b-5378610b5b16",
+        "fields": {
+            "uuid": "687cd4aa-8577-4a60-930b-5378610b5b16",
+            "name": "Binocular & Monocular Accessories",
+            "emoji": "",
+            "parent": "a1663409-b548-4872-82cc-39ee2913b6c1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c1ac7d6a-b94a-4064-9051-a559da5cfe3f",
+        "fields": {
+            "uuid": "c1ac7d6a-b94a-4064-9051-a559da5cfe3f",
+            "name": "Optics Bags & Cases",
+            "emoji": "",
+            "parent": "a1663409-b548-4872-82cc-39ee2913b6c1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "17494746-123b-4700-be0d-cdd7fbfce2cd",
+        "fields": {
+            "uuid": "17494746-123b-4700-be0d-cdd7fbfce2cd",
+            "name": "Accessory Cases",
+            "emoji": "",
+            "parent": "c1ac7d6a-b94a-4064-9051-a559da5cfe3f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0c4f749b-3616-44e2-88f1-980c7a943e58",
+        "fields": {
+            "uuid": "0c4f749b-3616-44e2-88f1-980c7a943e58",
+            "name": "Binocular Cases",
+            "emoji": "",
+            "parent": "c1ac7d6a-b94a-4064-9051-a559da5cfe3f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d6e7a08a-822a-47c9-bcbf-4038bea52439",
+        "fields": {
+            "uuid": "d6e7a08a-822a-47c9-bcbf-4038bea52439",
+            "name": "Drone Cases",
+            "emoji": "",
+            "parent": "c1ac7d6a-b94a-4064-9051-a559da5cfe3f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "69d18dbb-f033-4b88-ae91-fad28161833d",
+        "fields": {
+            "uuid": "69d18dbb-f033-4b88-ae91-fad28161833d",
+            "name": "Lens Bags",
+            "emoji": "",
+            "parent": "c1ac7d6a-b94a-4064-9051-a559da5cfe3f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "141488d0-be83-4521-8768-72308dfa7442",
+        "fields": {
+            "uuid": "141488d0-be83-4521-8768-72308dfa7442",
+            "name": "Microscope Cases",
+            "emoji": "",
+            "parent": "c1ac7d6a-b94a-4064-9051-a559da5cfe3f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "49f78a9a-81cc-4d39-9b41-25e68b92bcaa",
+        "fields": {
+            "uuid": "49f78a9a-81cc-4d39-9b41-25e68b92bcaa",
+            "name": "Monocular Cases",
+            "emoji": "",
+            "parent": "c1ac7d6a-b94a-4064-9051-a559da5cfe3f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7d1c38d1-edc9-4936-8e96-9d99b0675366",
+        "fields": {
+            "uuid": "7d1c38d1-edc9-4936-8e96-9d99b0675366",
+            "name": "Rangefinder Cases",
+            "emoji": "",
+            "parent": "c1ac7d6a-b94a-4064-9051-a559da5cfe3f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cac5b4a4-d161-4a72-a08b-c34c2ae3ab13",
+        "fields": {
+            "uuid": "cac5b4a4-d161-4a72-a08b-c34c2ae3ab13",
+            "name": "Spotting Scope Cases",
+            "emoji": "",
+            "parent": "c1ac7d6a-b94a-4064-9051-a559da5cfe3f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2a65b211-42a3-4a44-8b33-0bc1dea333b0",
+        "fields": {
+            "uuid": "2a65b211-42a3-4a44-8b33-0bc1dea333b0",
+            "name": "Telescope Bags",
+            "emoji": "",
+            "parent": "c1ac7d6a-b94a-4064-9051-a559da5cfe3f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "01050c61-58df-46b3-825d-c18edc86fa09",
+        "fields": {
+            "uuid": "01050c61-58df-46b3-825d-c18edc86fa09",
+            "name": "Rangefinder Accessories",
+            "emoji": "",
+            "parent": "a1663409-b548-4872-82cc-39ee2913b6c1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "11c4bb99-5c7d-4b03-843a-32e462a0acf7",
+        "fields": {
+            "uuid": "11c4bb99-5c7d-4b03-843a-32e462a0acf7",
+            "name": "Spotting Scope Accessories",
+            "emoji": "",
+            "parent": "a1663409-b548-4872-82cc-39ee2913b6c1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ea4db244-f383-4ec4-86e4-2e6bb357fcaa",
+        "fields": {
+            "uuid": "ea4db244-f383-4ec4-86e4-2e6bb357fcaa",
+            "name": "Telescope Accessories",
+            "emoji": "",
+            "parent": "a1663409-b548-4872-82cc-39ee2913b6c1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ad7134ec-2ba1-4438-ad53-d640982fc1a4",
+        "fields": {
+            "uuid": "ad7134ec-2ba1-4438-ad53-d640982fc1a4",
+            "name": "Thermal Optic Accessories",
+            "emoji": "",
+            "parent": "a1663409-b548-4872-82cc-39ee2913b6c1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b48c8961-e072-44c6-b0a0-3af4ea6487bf",
+        "fields": {
+            "uuid": "b48c8961-e072-44c6-b0a0-3af4ea6487bf",
+            "name": "Weapon Scope & Sight Accessories",
+            "emoji": "",
+            "parent": "a1663409-b548-4872-82cc-39ee2913b6c1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2f62700f-79d1-4245-88e0-7b2350f8165a",
+        "fields": {
+            "uuid": "2f62700f-79d1-4245-88e0-7b2350f8165a",
+            "name": "Tripod & Monopod Accessories",
+            "emoji": "",
+            "parent": "e1e96718-72f8-41ff-a354-985806a53685"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d3af7a59-5658-472b-a520-e619060eaa04",
+        "fields": {
+            "uuid": "d3af7a59-5658-472b-a520-e619060eaa04",
+            "name": "Tripod & Monopod Cases",
+            "emoji": "",
+            "parent": "2f62700f-79d1-4245-88e0-7b2350f8165a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e6b1d065-2a6f-4818-a4da-8f55a6f83519",
+        "fields": {
+            "uuid": "e6b1d065-2a6f-4818-a4da-8f55a6f83519",
+            "name": "Tripod & Monopod Heads",
+            "emoji": "",
+            "parent": "2f62700f-79d1-4245-88e0-7b2350f8165a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "86923363-f179-4eb6-a645-9993802008c3",
+        "fields": {
+            "uuid": "86923363-f179-4eb6-a645-9993802008c3",
+            "name": "Tripod Collars & Mounts",
+            "emoji": "",
+            "parent": "2f62700f-79d1-4245-88e0-7b2350f8165a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e1c23203-5639-4a32-a29b-ac61cdae00e7",
+        "fields": {
+            "uuid": "e1c23203-5639-4a32-a29b-ac61cdae00e7",
+            "name": "Tripod Handles",
+            "emoji": "",
+            "parent": "2f62700f-79d1-4245-88e0-7b2350f8165a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "44116efd-92b9-4ff7-bc1e-8f3e38aae7c9",
+        "fields": {
+            "uuid": "44116efd-92b9-4ff7-bc1e-8f3e38aae7c9",
+            "name": "Tripod Spreaders",
+            "emoji": "",
+            "parent": "2f62700f-79d1-4245-88e0-7b2350f8165a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "21d9eb1a-cac2-42a9-98a4-f206357a6934",
+        "fields": {
+            "uuid": "21d9eb1a-cac2-42a9-98a4-f206357a6934",
+            "name": "Tripods & Monopods",
+            "emoji": "",
+            "parent": "e1e96718-72f8-41ff-a354-985806a53685"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "34f9ac39-4ae0-4d12-90ec-f07369499cd2",
+        "fields": {
+            "uuid": "34f9ac39-4ae0-4d12-90ec-f07369499cd2",
+            "name": "Boom Stands",
+            "emoji": "",
+            "parent": "21d9eb1a-cac2-42a9-98a4-f206357a6934"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f4262fb6-4435-4286-bd07-bf593d6d79dc",
+        "fields": {
+            "uuid": "f4262fb6-4435-4286-bd07-bf593d6d79dc",
+            "name": "Light Stands",
+            "emoji": "",
+            "parent": "21d9eb1a-cac2-42a9-98a4-f206357a6934"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a9bc96ab-ff07-4e2a-b171-e5372871e9da",
+        "fields": {
+            "uuid": "a9bc96ab-ff07-4e2a-b171-e5372871e9da",
+            "name": "Monopods",
+            "emoji": "",
+            "parent": "21d9eb1a-cac2-42a9-98a4-f206357a6934"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fee21b49-f5fc-4e16-bf22-d8bba0a71dc8",
+        "fields": {
+            "uuid": "fee21b49-f5fc-4e16-bf22-d8bba0a71dc8",
+            "name": "Pocket Tripods",
+            "emoji": "",
+            "parent": "21d9eb1a-cac2-42a9-98a4-f206357a6934"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "99fc9c5a-e3a0-4422-a265-b121ce1bbe90",
+        "fields": {
+            "uuid": "99fc9c5a-e3a0-4422-a265-b121ce1bbe90",
+            "name": "Studio Tripods",
+            "emoji": "",
+            "parent": "21d9eb1a-cac2-42a9-98a4-f206357a6934"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "45cdae55-cef7-457b-bbb3-9cee083f9c5c",
+        "fields": {
+            "uuid": "45cdae55-cef7-457b-bbb3-9cee083f9c5c",
+            "name": "Tabletop Tripods",
+            "emoji": "",
+            "parent": "21d9eb1a-cac2-42a9-98a4-f206357a6934"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f800306a-7172-4d1a-84c0-ee4c34ee27b1",
+        "fields": {
+            "uuid": "f800306a-7172-4d1a-84c0-ee4c34ee27b1",
+            "name": "Travel Tripods",
+            "emoji": "",
+            "parent": "21d9eb1a-cac2-42a9-98a4-f206357a6934"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fd67b299-d7d7-40ea-8ef4-5d63c491c417",
+        "fields": {
+            "uuid": "fd67b299-d7d7-40ea-8ef4-5d63c491c417",
+            "name": "Underwater Tripods",
+            "emoji": "",
+            "parent": "21d9eb1a-cac2-42a9-98a4-f206357a6934"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "92058545-6786-451d-94aa-aca4030b3138",
+        "fields": {
+            "uuid": "92058545-6786-451d-94aa-aca4030b3138",
+            "name": "Video Tripods",
+            "emoji": "",
+            "parent": "21d9eb1a-cac2-42a9-98a4-f206357a6934"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dd943332-93fc-430a-82a6-9071e8754c2e",
+        "fields": {
+            "uuid": "dd943332-93fc-430a-82a6-9071e8754c2e",
+            "name": "Cameras",
+            "emoji": "",
+            "parent": "7617d9d4-1d1c-4016-bd3b-44bd7a8748b0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d72bad20-186c-4d7a-ae6c-e32fbb719983",
+        "fields": {
+            "uuid": "d72bad20-186c-4d7a-ae6c-e32fbb719983",
+            "name": "Borescopes",
+            "emoji": "",
+            "parent": "dd943332-93fc-430a-82a6-9071e8754c2e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "eedb947e-d931-433b-b988-597127d7633f",
+        "fields": {
+            "uuid": "eedb947e-d931-433b-b988-597127d7633f",
+            "name": "Digital Cameras",
+            "emoji": "",
+            "parent": "dd943332-93fc-430a-82a6-9071e8754c2e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4560c79b-4be1-4f1a-90f8-ad55bf376754",
+        "fields": {
+            "uuid": "4560c79b-4be1-4f1a-90f8-ad55bf376754",
+            "name": "360-Degree Digital Cameras",
+            "emoji": "",
+            "parent": "eedb947e-d931-433b-b988-597127d7633f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "31a00a32-0269-4fef-b5e4-c4db3585dd54",
+        "fields": {
+            "uuid": "31a00a32-0269-4fef-b5e4-c4db3585dd54",
+            "name": "Action Digital Cameras",
+            "emoji": "",
+            "parent": "eedb947e-d931-433b-b988-597127d7633f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "182d8321-0e37-424e-987e-6031fc2aeb6a",
+        "fields": {
+            "uuid": "182d8321-0e37-424e-987e-6031fc2aeb6a",
+            "name": "Compact Digital Cameras",
+            "emoji": "",
+            "parent": "eedb947e-d931-433b-b988-597127d7633f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8713fce9-0505-4dd2-82e8-2fde2ccf4e6d",
+        "fields": {
+            "uuid": "8713fce9-0505-4dd2-82e8-2fde2ccf4e6d",
+            "name": "Digital Single-Lens Reflex (DSLR) Cameras",
+            "emoji": "",
+            "parent": "eedb947e-d931-433b-b988-597127d7633f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "11862b95-293e-44b3-8e60-26a68536a513",
+        "fields": {
+            "uuid": "11862b95-293e-44b3-8e60-26a68536a513",
+            "name": "Medium Format Digital Cameras",
+            "emoji": "",
+            "parent": "eedb947e-d931-433b-b988-597127d7633f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "64b64afb-cb6d-49ce-9e39-b7cc4d752c34",
+        "fields": {
+            "uuid": "64b64afb-cb6d-49ce-9e39-b7cc4d752c34",
+            "name": "Mirrorless Digital Cameras",
+            "emoji": "",
+            "parent": "eedb947e-d931-433b-b988-597127d7633f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4c90ac54-95fa-4775-b0b6-7ccddeae63ec",
+        "fields": {
+            "uuid": "4c90ac54-95fa-4775-b0b6-7ccddeae63ec",
+            "name": "Point-and-Shoot Digital Cameras",
+            "emoji": "",
+            "parent": "eedb947e-d931-433b-b988-597127d7633f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5ab7ec67-feb6-4c18-b4d2-a4fd60f37e8f",
+        "fields": {
+            "uuid": "5ab7ec67-feb6-4c18-b4d2-a4fd60f37e8f",
+            "name": "Rangefinder Digital Cameras",
+            "emoji": "",
+            "parent": "eedb947e-d931-433b-b988-597127d7633f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ee0677d6-aebe-47f7-8785-090cdfc37520",
+        "fields": {
+            "uuid": "ee0677d6-aebe-47f7-8785-090cdfc37520",
+            "name": "Disposable Cameras",
+            "emoji": "",
+            "parent": "dd943332-93fc-430a-82a6-9071e8754c2e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a6c044a1-fdcc-424f-984f-3b50a70abe67",
+        "fields": {
+            "uuid": "a6c044a1-fdcc-424f-984f-3b50a70abe67",
+            "name": "Film Cameras",
+            "emoji": "",
+            "parent": "dd943332-93fc-430a-82a6-9071e8754c2e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6c2188f5-cbde-48c9-9c4c-47fc3369adbc",
+        "fields": {
+            "uuid": "6c2188f5-cbde-48c9-9c4c-47fc3369adbc",
+            "name": "Compact Film Cameras",
+            "emoji": "",
+            "parent": "a6c044a1-fdcc-424f-984f-3b50a70abe67"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "24bfda3c-8726-4a39-afec-bf1c79d7bc45",
+        "fields": {
+            "uuid": "24bfda3c-8726-4a39-afec-bf1c79d7bc45",
+            "name": "Instant Film Cameras",
+            "emoji": "",
+            "parent": "a6c044a1-fdcc-424f-984f-3b50a70abe67"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "afabbadb-3aa6-48ec-93bd-e8682035c3c0",
+        "fields": {
+            "uuid": "afabbadb-3aa6-48ec-93bd-e8682035c3c0",
+            "name": "Large Format Film Cameras",
+            "emoji": "",
+            "parent": "a6c044a1-fdcc-424f-984f-3b50a70abe67"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "86124e9c-6009-496d-9429-26835b9755e7",
+        "fields": {
+            "uuid": "86124e9c-6009-496d-9429-26835b9755e7",
+            "name": "Medium Format Film Cameras",
+            "emoji": "",
+            "parent": "a6c044a1-fdcc-424f-984f-3b50a70abe67"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "56c09e05-5b6e-4c0f-9054-1b574444ab61",
+        "fields": {
+            "uuid": "56c09e05-5b6e-4c0f-9054-1b574444ab61",
+            "name": "Rangefinder Film Cameras",
+            "emoji": "",
+            "parent": "a6c044a1-fdcc-424f-984f-3b50a70abe67"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b2ad0d67-204c-4cad-8b03-c5d487870b05",
+        "fields": {
+            "uuid": "b2ad0d67-204c-4cad-8b03-c5d487870b05",
+            "name": "SLR Film Cameras",
+            "emoji": "",
+            "parent": "a6c044a1-fdcc-424f-984f-3b50a70abe67"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d3e2d30a-ba8c-4b67-83d9-92a7e54f22ba",
+        "fields": {
+            "uuid": "d3e2d30a-ba8c-4b67-83d9-92a7e54f22ba",
+            "name": "Surveillance Cameras",
+            "emoji": "",
+            "parent": "dd943332-93fc-430a-82a6-9071e8754c2e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5408b607-5b3d-4b30-92d4-0461cf7fe6b0",
+        "fields": {
+            "uuid": "5408b607-5b3d-4b30-92d4-0461cf7fe6b0",
+            "name": "Trail Cameras",
+            "emoji": "",
+            "parent": "dd943332-93fc-430a-82a6-9071e8754c2e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d27a25a3-2003-4cad-a954-488e34d1a17d",
+        "fields": {
+            "uuid": "d27a25a3-2003-4cad-a954-488e34d1a17d",
+            "name": "Video Cameras",
+            "emoji": "",
+            "parent": "dd943332-93fc-430a-82a6-9071e8754c2e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "43578ac7-ad21-4b08-ab48-f74c3edeb9e0",
+        "fields": {
+            "uuid": "43578ac7-ad21-4b08-ab48-f74c3edeb9e0",
+            "name": "360-Degree Video Cameras",
+            "emoji": "",
+            "parent": "d27a25a3-2003-4cad-a954-488e34d1a17d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1fe62d28-754c-49b5-bf4e-9e2c8bb0606c",
+        "fields": {
+            "uuid": "1fe62d28-754c-49b5-bf4e-9e2c8bb0606c",
+            "name": "Action Video Cameras",
+            "emoji": "",
+            "parent": "d27a25a3-2003-4cad-a954-488e34d1a17d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bdacb04f-edfd-47bd-b69a-ac0b1f5b5192",
+        "fields": {
+            "uuid": "bdacb04f-edfd-47bd-b69a-ac0b1f5b5192",
+            "name": "Camcorders",
+            "emoji": "",
+            "parent": "d27a25a3-2003-4cad-a954-488e34d1a17d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9e2bc5db-6f3d-459c-bb72-b369ce45434e",
+        "fields": {
+            "uuid": "9e2bc5db-6f3d-459c-bb72-b369ce45434e",
+            "name": "Cinema Video Cameras",
+            "emoji": "",
+            "parent": "d27a25a3-2003-4cad-a954-488e34d1a17d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "affb3360-d5b5-4ceb-bf02-66fc44fe0f95",
+        "fields": {
+            "uuid": "affb3360-d5b5-4ceb-bf02-66fc44fe0f95",
+            "name": "Dash Video Cameras",
+            "emoji": "",
+            "parent": "d27a25a3-2003-4cad-a954-488e34d1a17d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "45ebea32-892c-43a8-9c63-cbdf6191af1e",
+        "fields": {
+            "uuid": "45ebea32-892c-43a8-9c63-cbdf6191af1e",
+            "name": "Drone Video Cameras",
+            "emoji": "",
+            "parent": "d27a25a3-2003-4cad-a954-488e34d1a17d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3326ab51-81f4-4fad-9c6d-b328cd68119f",
+        "fields": {
+            "uuid": "3326ab51-81f4-4fad-9c6d-b328cd68119f",
+            "name": "Webcams",
+            "emoji": "",
+            "parent": "dd943332-93fc-430a-82a6-9071e8754c2e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "14af16b0-5e1a-42a1-8052-35616f564418",
+        "fields": {
+            "uuid": "14af16b0-5e1a-42a1-8052-35616f564418",
+            "name": "Optics",
+            "emoji": "",
+            "parent": "7617d9d4-1d1c-4016-bd3b-44bd7a8748b0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aa3ac6bc-4aa4-40e4-be9f-84f60c14cbef",
+        "fields": {
+            "uuid": "aa3ac6bc-4aa4-40e4-be9f-84f60c14cbef",
+            "name": "Binoculars",
+            "emoji": "",
+            "parent": "14af16b0-5e1a-42a1-8052-35616f564418"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0f64b979-45e1-4135-832a-fac30090319f",
+        "fields": {
+            "uuid": "0f64b979-45e1-4135-832a-fac30090319f",
+            "name": "Monoculars",
+            "emoji": "",
+            "parent": "14af16b0-5e1a-42a1-8052-35616f564418"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "82bf677a-4b25-40f8-8f3a-d370129f0f59",
+        "fields": {
+            "uuid": "82bf677a-4b25-40f8-8f3a-d370129f0f59",
+            "name": "Rangefinders",
+            "emoji": "",
+            "parent": "14af16b0-5e1a-42a1-8052-35616f564418"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7cd47215-0843-4cc7-a93d-c6fb0cae73a2",
+        "fields": {
+            "uuid": "7cd47215-0843-4cc7-a93d-c6fb0cae73a2",
+            "name": "Scopes",
+            "emoji": "",
+            "parent": "14af16b0-5e1a-42a1-8052-35616f564418"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4947dc5c-f0ef-4159-845c-ad139f70d56c",
+        "fields": {
+            "uuid": "4947dc5c-f0ef-4159-845c-ad139f70d56c",
+            "name": "Spotting Scopes",
+            "emoji": "",
+            "parent": "7cd47215-0843-4cc7-a93d-c6fb0cae73a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ce9d1570-f881-4b40-af42-f325383434ea",
+        "fields": {
+            "uuid": "ce9d1570-f881-4b40-af42-f325383434ea",
+            "name": "Telescopes",
+            "emoji": "",
+            "parent": "7cd47215-0843-4cc7-a93d-c6fb0cae73a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bf1026f9-e592-4013-99ec-611c1ec8c133",
+        "fields": {
+            "uuid": "bf1026f9-e592-4013-99ec-611c1ec8c133",
+            "name": "Catadioptric Telescopes",
+            "emoji": "",
+            "parent": "ce9d1570-f881-4b40-af42-f325383434ea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "db64fed7-d0be-4301-8a6b-0f09140079ee",
+        "fields": {
+            "uuid": "db64fed7-d0be-4301-8a6b-0f09140079ee",
+            "name": "Compound Telescopes",
+            "emoji": "",
+            "parent": "ce9d1570-f881-4b40-af42-f325383434ea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a1f19830-3f18-499f-9d9c-3caa41a75580",
+        "fields": {
+            "uuid": "a1f19830-3f18-499f-9d9c-3caa41a75580",
+            "name": "Dobsonian Telescopes",
+            "emoji": "",
+            "parent": "ce9d1570-f881-4b40-af42-f325383434ea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bd864a20-8b88-48b0-bbec-e4a5757e35eb",
+        "fields": {
+            "uuid": "bd864a20-8b88-48b0-bbec-e4a5757e35eb",
+            "name": "Reflector Telescopes",
+            "emoji": "",
+            "parent": "ce9d1570-f881-4b40-af42-f325383434ea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "134469a4-bda9-4c48-83f3-66909e9df26f",
+        "fields": {
+            "uuid": "134469a4-bda9-4c48-83f3-66909e9df26f",
+            "name": "Refractor Telescopes",
+            "emoji": "",
+            "parent": "ce9d1570-f881-4b40-af42-f325383434ea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c8e54252-4ec5-428a-9a0d-35ce963aa1f3",
+        "fields": {
+            "uuid": "c8e54252-4ec5-428a-9a0d-35ce963aa1f3",
+            "name": "Solar Telescopes",
+            "emoji": "",
+            "parent": "ce9d1570-f881-4b40-af42-f325383434ea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "79d0904f-e4ed-4387-9a8c-8f2acbd987e4",
+        "fields": {
+            "uuid": "79d0904f-e4ed-4387-9a8c-8f2acbd987e4",
+            "name": "Weapon Scopes & Sights",
+            "emoji": "",
+            "parent": "7cd47215-0843-4cc7-a93d-c6fb0cae73a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a7ba93ae-282f-478a-aeef-4bf2f91a3652",
+        "fields": {
+            "uuid": "a7ba93ae-282f-478a-aeef-4bf2f91a3652",
+            "name": "Photography",
+            "emoji": "",
+            "parent": "7617d9d4-1d1c-4016-bd3b-44bd7a8748b0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "520cf3cb-29c1-4844-b325-923161f3b0c7",
+        "fields": {
+            "uuid": "520cf3cb-29c1-4844-b325-923161f3b0c7",
+            "name": "Darkroom",
+            "emoji": "",
+            "parent": "a7ba93ae-282f-478a-aeef-4bf2f91a3652"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9b77e9a1-eb9b-4b7e-9418-0f55f343d53e",
+        "fields": {
+            "uuid": "9b77e9a1-eb9b-4b7e-9418-0f55f343d53e",
+            "name": "Developing & Processing Equipment",
+            "emoji": "",
+            "parent": "520cf3cb-29c1-4844-b325-923161f3b0c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3afa9077-c07a-4fbb-a9f6-cbb9616085c8",
+        "fields": {
+            "uuid": "3afa9077-c07a-4fbb-a9f6-cbb9616085c8",
+            "name": "Copystands",
+            "emoji": "",
+            "parent": "9b77e9a1-eb9b-4b7e-9418-0f55f343d53e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ef1fd310-7b8c-4053-b3fb-8110a6b7cb32",
+        "fields": {
+            "uuid": "ef1fd310-7b8c-4053-b3fb-8110a6b7cb32",
+            "name": "Darkroom Sinks",
+            "emoji": "",
+            "parent": "9b77e9a1-eb9b-4b7e-9418-0f55f343d53e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6b5fdc2e-4cf4-49fd-8a30-1a5bfe7e0b73",
+        "fields": {
+            "uuid": "6b5fdc2e-4cf4-49fd-8a30-1a5bfe7e0b73",
+            "name": "Developing Tanks & Reels",
+            "emoji": "",
+            "parent": "9b77e9a1-eb9b-4b7e-9418-0f55f343d53e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "99d2dd97-dc13-4fc4-b3da-70a5db4e9560",
+        "fields": {
+            "uuid": "99d2dd97-dc13-4fc4-b3da-70a5db4e9560",
+            "name": "Print Trays, Washers & Dryers",
+            "emoji": "",
+            "parent": "9b77e9a1-eb9b-4b7e-9418-0f55f343d53e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "04b6b587-dec4-4ca0-8494-966ac52590cb",
+        "fields": {
+            "uuid": "04b6b587-dec4-4ca0-8494-966ac52590cb",
+            "name": "Film Dryers",
+            "emoji": "",
+            "parent": "99d2dd97-dc13-4fc4-b3da-70a5db4e9560"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "93273c89-d6bb-4515-909d-af6fc416ac01",
+        "fields": {
+            "uuid": "93273c89-d6bb-4515-909d-af6fc416ac01",
+            "name": "Film Washers",
+            "emoji": "",
+            "parent": "99d2dd97-dc13-4fc4-b3da-70a5db4e9560"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "331c2374-e0d7-4b22-bb49-c836b8687c81",
+        "fields": {
+            "uuid": "331c2374-e0d7-4b22-bb49-c836b8687c81",
+            "name": "Print Dryers",
+            "emoji": "",
+            "parent": "99d2dd97-dc13-4fc4-b3da-70a5db4e9560"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3b891e74-f2b8-411f-a28e-66142f4a83ed",
+        "fields": {
+            "uuid": "3b891e74-f2b8-411f-a28e-66142f4a83ed",
+            "name": "Print Tongs",
+            "emoji": "",
+            "parent": "99d2dd97-dc13-4fc4-b3da-70a5db4e9560"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "30072d36-1750-4a5c-8844-ec98604e7a11",
+        "fields": {
+            "uuid": "30072d36-1750-4a5c-8844-ec98604e7a11",
+            "name": "Print Trays",
+            "emoji": "",
+            "parent": "99d2dd97-dc13-4fc4-b3da-70a5db4e9560"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "25f51428-45a9-4aff-956e-81cd83568a62",
+        "fields": {
+            "uuid": "25f51428-45a9-4aff-956e-81cd83568a62",
+            "name": "Print Washers",
+            "emoji": "",
+            "parent": "99d2dd97-dc13-4fc4-b3da-70a5db4e9560"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f7e538c8-752c-4c1a-b89e-ebef3eaefd54",
+        "fields": {
+            "uuid": "f7e538c8-752c-4c1a-b89e-ebef3eaefd54",
+            "name": "Retouching Equipment & Supplies",
+            "emoji": "",
+            "parent": "9b77e9a1-eb9b-4b7e-9418-0f55f343d53e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "90a6c7ef-fdac-4c17-95fd-19e397a87be2",
+        "fields": {
+            "uuid": "90a6c7ef-fdac-4c17-95fd-19e397a87be2",
+            "name": "Enlarging Equipment",
+            "emoji": "",
+            "parent": "520cf3cb-29c1-4844-b325-923161f3b0c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f6aaff5b-623d-45b5-ad3b-1c4d073adee2",
+        "fields": {
+            "uuid": "f6aaff5b-623d-45b5-ad3b-1c4d073adee2",
+            "name": "Darkroom Easels",
+            "emoji": "",
+            "parent": "90a6c7ef-fdac-4c17-95fd-19e397a87be2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "abaaed38-0913-4695-b349-da1ecd274df3",
+        "fields": {
+            "uuid": "abaaed38-0913-4695-b349-da1ecd274df3",
+            "name": "Darkroom Timers",
+            "emoji": "",
+            "parent": "90a6c7ef-fdac-4c17-95fd-19e397a87be2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "830dfe9d-ad80-4029-97ec-12d87c5ffbcb",
+        "fields": {
+            "uuid": "830dfe9d-ad80-4029-97ec-12d87c5ffbcb",
+            "name": "Focusing Aids",
+            "emoji": "",
+            "parent": "90a6c7ef-fdac-4c17-95fd-19e397a87be2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5b38d08b-837c-4a62-8a6a-a094a72fd9ec",
+        "fields": {
+            "uuid": "5b38d08b-837c-4a62-8a6a-a094a72fd9ec",
+            "name": "Photographic Analyzers",
+            "emoji": "",
+            "parent": "90a6c7ef-fdac-4c17-95fd-19e397a87be2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e80264ee-0bd2-44c1-b2f9-a725952da781",
+        "fields": {
+            "uuid": "e80264ee-0bd2-44c1-b2f9-a725952da781",
+            "name": "Photographic Enlargers",
+            "emoji": "",
+            "parent": "90a6c7ef-fdac-4c17-95fd-19e397a87be2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "edb760d7-ca22-4845-a1ba-834ab7246b0f",
+        "fields": {
+            "uuid": "edb760d7-ca22-4845-a1ba-834ab7246b0f",
+            "name": "Photographic Chemicals",
+            "emoji": "",
+            "parent": "520cf3cb-29c1-4844-b325-923161f3b0c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1699f4b7-4efc-47e8-8333-e28d45769908",
+        "fields": {
+            "uuid": "1699f4b7-4efc-47e8-8333-e28d45769908",
+            "name": "Bleaches",
+            "emoji": "",
+            "parent": "edb760d7-ca22-4845-a1ba-834ab7246b0f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6bd2fd62-8208-4ece-a0e5-e9958df71bbc",
+        "fields": {
+            "uuid": "6bd2fd62-8208-4ece-a0e5-e9958df71bbc",
+            "name": "Film Developers",
+            "emoji": "",
+            "parent": "edb760d7-ca22-4845-a1ba-834ab7246b0f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0aa9417c-0c7e-4d63-87e3-faa27e219b98",
+        "fields": {
+            "uuid": "0aa9417c-0c7e-4d63-87e3-faa27e219b98",
+            "name": "Film Hardeners",
+            "emoji": "",
+            "parent": "edb760d7-ca22-4845-a1ba-834ab7246b0f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "69e3b96f-34e3-43a9-b411-d3dd59160381",
+        "fields": {
+            "uuid": "69e3b96f-34e3-43a9-b411-d3dd59160381",
+            "name": "Fixers",
+            "emoji": "",
+            "parent": "edb760d7-ca22-4845-a1ba-834ab7246b0f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1591a89f-e2fe-4e04-9c34-e3824dcd565b",
+        "fields": {
+            "uuid": "1591a89f-e2fe-4e04-9c34-e3824dcd565b",
+            "name": "Hypo Clearing Agents",
+            "emoji": "",
+            "parent": "edb760d7-ca22-4845-a1ba-834ab7246b0f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dbde0c83-552e-4bae-8562-077495803e1f",
+        "fields": {
+            "uuid": "dbde0c83-552e-4bae-8562-077495803e1f",
+            "name": "Paper Developers",
+            "emoji": "",
+            "parent": "edb760d7-ca22-4845-a1ba-834ab7246b0f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5803726c-aa51-4545-96ca-afd78a8010b1",
+        "fields": {
+            "uuid": "5803726c-aa51-4545-96ca-afd78a8010b1",
+            "name": "Reversal Baths",
+            "emoji": "",
+            "parent": "edb760d7-ca22-4845-a1ba-834ab7246b0f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cdee520a-e020-44fd-8f72-dfc551ef0333",
+        "fields": {
+            "uuid": "cdee520a-e020-44fd-8f72-dfc551ef0333",
+            "name": "Stop Baths",
+            "emoji": "",
+            "parent": "edb760d7-ca22-4845-a1ba-834ab7246b0f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1ee1412c-99ad-4eff-bab6-c766dff42ab0",
+        "fields": {
+            "uuid": "1ee1412c-99ad-4eff-bab6-c766dff42ab0",
+            "name": "Toners",
+            "emoji": "",
+            "parent": "edb760d7-ca22-4845-a1ba-834ab7246b0f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c74a42f3-dc3e-450f-8376-6e90be1eb22f",
+        "fields": {
+            "uuid": "c74a42f3-dc3e-450f-8376-6e90be1eb22f",
+            "name": "Wetting Agents",
+            "emoji": "",
+            "parent": "edb760d7-ca22-4845-a1ba-834ab7246b0f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f27a0f6d-b32e-4d0b-8519-5ee66f250f95",
+        "fields": {
+            "uuid": "f27a0f6d-b32e-4d0b-8519-5ee66f250f95",
+            "name": "Photographic Paper",
+            "emoji": "",
+            "parent": "520cf3cb-29c1-4844-b325-923161f3b0c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b4130618-75c0-4121-9b6e-ab79d6a296da",
+        "fields": {
+            "uuid": "b4130618-75c0-4121-9b6e-ab79d6a296da",
+            "name": "Safelights",
+            "emoji": "",
+            "parent": "520cf3cb-29c1-4844-b325-923161f3b0c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bd539719-d164-4227-90ba-7851c20a2196",
+        "fields": {
+            "uuid": "bd539719-d164-4227-90ba-7851c20a2196",
+            "name": "Lighting & Studio",
+            "emoji": "",
+            "parent": "a7ba93ae-282f-478a-aeef-4bf2f91a3652"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "daac6c52-443c-4655-aedd-14dc783d6cf9",
+        "fields": {
+            "uuid": "daac6c52-443c-4655-aedd-14dc783d6cf9",
+            "name": "Light Meter Accessories",
+            "emoji": "",
+            "parent": "bd539719-d164-4227-90ba-7851c20a2196"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bde04245-4305-481d-9e00-cef63e3bdbe9",
+        "fields": {
+            "uuid": "bde04245-4305-481d-9e00-cef63e3bdbe9",
+            "name": "Light Meters",
+            "emoji": "",
+            "parent": "bd539719-d164-4227-90ba-7851c20a2196"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ca247476-99e2-466f-ace3-8a2cbedd603a",
+        "fields": {
+            "uuid": "ca247476-99e2-466f-ace3-8a2cbedd603a",
+            "name": "Studio Backgrounds",
+            "emoji": "",
+            "parent": "bd539719-d164-4227-90ba-7851c20a2196"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6caf90c8-cc4a-4bb4-86cc-5aa396f44d19",
+        "fields": {
+            "uuid": "6caf90c8-cc4a-4bb4-86cc-5aa396f44d19",
+            "name": "Studio Light & Flash Accessories",
+            "emoji": "",
+            "parent": "bd539719-d164-4227-90ba-7851c20a2196"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b078ff77-7a76-4408-8860-224409fe3d38",
+        "fields": {
+            "uuid": "b078ff77-7a76-4408-8860-224409fe3d38",
+            "name": "Studio Lighting Controls",
+            "emoji": "",
+            "parent": "bd539719-d164-4227-90ba-7851c20a2196"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6d02df9b-4bde-4443-a874-de0bcffdfa2d",
+        "fields": {
+            "uuid": "6d02df9b-4bde-4443-a874-de0bcffdfa2d",
+            "name": "Flash Diffusers",
+            "emoji": "",
+            "parent": "b078ff77-7a76-4408-8860-224409fe3d38"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6db7aa33-aace-4224-af0f-e26fedff6f9e",
+        "fields": {
+            "uuid": "6db7aa33-aace-4224-af0f-e26fedff6f9e",
+            "name": "Flash Reflectors",
+            "emoji": "",
+            "parent": "b078ff77-7a76-4408-8860-224409fe3d38"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d18755ac-a981-4e7e-b93f-835a55037cb5",
+        "fields": {
+            "uuid": "d18755ac-a981-4e7e-b93f-835a55037cb5",
+            "name": "Lighting Filters & Gobos",
+            "emoji": "",
+            "parent": "b078ff77-7a76-4408-8860-224409fe3d38"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d069b7d8-1a9a-467c-9bc9-707e44275629",
+        "fields": {
+            "uuid": "d069b7d8-1a9a-467c-9bc9-707e44275629",
+            "name": "Softboxes",
+            "emoji": "",
+            "parent": "b078ff77-7a76-4408-8860-224409fe3d38"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e505de1e-3b36-402c-841a-d3090af097e3",
+        "fields": {
+            "uuid": "e505de1e-3b36-402c-841a-d3090af097e3",
+            "name": "Studio Lights & Flashes",
+            "emoji": "",
+            "parent": "bd539719-d164-4227-90ba-7851c20a2196"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8df9ada3-9a91-4489-ac77-bb246564a524",
+        "fields": {
+            "uuid": "8df9ada3-9a91-4489-ac77-bb246564a524",
+            "name": "Studio Stand & Mount Accessories",
+            "emoji": "",
+            "parent": "bd539719-d164-4227-90ba-7851c20a2196"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a9d7be50-1775-42d2-8efe-917b2b22aa43",
+        "fields": {
+            "uuid": "a9d7be50-1775-42d2-8efe-917b2b22aa43",
+            "name": "Studio Stands & Mounts",
+            "emoji": "",
+            "parent": "bd539719-d164-4227-90ba-7851c20a2196"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b255916e-0690-4574-900a-c8d8cec75929",
+        "fields": {
+            "uuid": "b255916e-0690-4574-900a-c8d8cec75929",
+            "name": "Backdrop Stands",
+            "emoji": "",
+            "parent": "a9d7be50-1775-42d2-8efe-917b2b22aa43"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3e1c3056-f9b0-40dd-bfe9-43c581ec544e",
+        "fields": {
+            "uuid": "3e1c3056-f9b0-40dd-bfe9-43c581ec544e",
+            "name": "Boom Arms",
+            "emoji": "",
+            "parent": "a9d7be50-1775-42d2-8efe-917b2b22aa43"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9fb36f4b-8308-49b0-8226-8b6ce090512a",
+        "fields": {
+            "uuid": "9fb36f4b-8308-49b0-8226-8b6ce090512a",
+            "name": "C-Stands",
+            "emoji": "",
+            "parent": "a9d7be50-1775-42d2-8efe-917b2b22aa43"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ac501ab2-bea6-4040-8a66-b9e92c5d3885",
+        "fields": {
+            "uuid": "ac501ab2-bea6-4040-8a66-b9e92c5d3885",
+            "name": "Ceiling Mounts",
+            "emoji": "",
+            "parent": "a9d7be50-1775-42d2-8efe-917b2b22aa43"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "411ad507-0e43-4107-83c4-52c5f1f527d6",
+        "fields": {
+            "uuid": "411ad507-0e43-4107-83c4-52c5f1f527d6",
+            "name": "Clamps",
+            "emoji": "",
+            "parent": "a9d7be50-1775-42d2-8efe-917b2b22aa43"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "92465af1-25e3-4086-abd7-bb5f5eae0507",
+        "fields": {
+            "uuid": "92465af1-25e3-4086-abd7-bb5f5eae0507",
+            "name": "Grip Heads",
+            "emoji": "",
+            "parent": "a9d7be50-1775-42d2-8efe-917b2b22aa43"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "af253639-d3ec-4149-b336-219c095a11dd",
+        "fields": {
+            "uuid": "af253639-d3ec-4149-b336-219c095a11dd",
+            "name": "Light Stands",
+            "emoji": "",
+            "parent": "a9d7be50-1775-42d2-8efe-917b2b22aa43"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e3ab73ce-96fe-4302-88ed-85c53943a583",
+        "fields": {
+            "uuid": "e3ab73ce-96fe-4302-88ed-85c53943a583",
+            "name": "Reflector Holders",
+            "emoji": "",
+            "parent": "a9d7be50-1775-42d2-8efe-917b2b22aa43"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "15aaa2d0-d4b7-48ba-9317-50c878c47dd5",
+        "fields": {
+            "uuid": "15aaa2d0-d4b7-48ba-9317-50c878c47dd5",
+            "name": "Tabletop Stands",
+            "emoji": "",
+            "parent": "a9d7be50-1775-42d2-8efe-917b2b22aa43"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "27d32177-7563-44b3-8fcc-a61be16a36e6",
+        "fields": {
+            "uuid": "27d32177-7563-44b3-8fcc-a61be16a36e6",
+            "name": "Wall Mounts",
+            "emoji": "",
+            "parent": "a9d7be50-1775-42d2-8efe-917b2b22aa43"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c7f200eb-ce97-4073-93c3-1b182a2bb007",
+        "fields": {
+            "uuid": "c7f200eb-ce97-4073-93c3-1b182a2bb007",
+            "name": "Photo Mounting Supplies",
+            "emoji": "",
+            "parent": "a7ba93ae-282f-478a-aeef-4bf2f91a3652"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "20ce3633-19b0-4e7a-bd6b-67122ce35563",
+        "fields": {
+            "uuid": "20ce3633-19b0-4e7a-bd6b-67122ce35563",
+            "name": "Photo Negative & Slide Storage",
+            "emoji": "",
+            "parent": "a7ba93ae-282f-478a-aeef-4bf2f91a3652"
+        }
+    }
+]

@@ -1,0 +1,2432 @@
+[
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6e68056c-77f3-4ea2-bf17-05d2e8598cd1",
+        "fields": {
+            "uuid": "6e68056c-77f3-4ea2-bf17-05d2e8598cd1",
+            "name": "Office Supplies",
+            "emoji": "",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3bf122b6-1c80-499f-b5c2-1f26cb0949a1",
+        "fields": {
+            "uuid": "3bf122b6-1c80-499f-b5c2-1f26cb0949a1",
+            "name": "Book Accessories",
+            "emoji": "",
+            "parent": "6e68056c-77f3-4ea2-bf17-05d2e8598cd1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "edbd3d69-b2b2-4be9-ab79-cb6fd84c6b63",
+        "fields": {
+            "uuid": "edbd3d69-b2b2-4be9-ab79-cb6fd84c6b63",
+            "name": "Book Covers",
+            "emoji": "",
+            "parent": "3bf122b6-1c80-499f-b5c2-1f26cb0949a1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b9e0f857-3298-40c5-89b4-5f1c03b49865",
+        "fields": {
+            "uuid": "b9e0f857-3298-40c5-89b4-5f1c03b49865",
+            "name": "Book Lights",
+            "emoji": "",
+            "parent": "3bf122b6-1c80-499f-b5c2-1f26cb0949a1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "06c78e41-2bb5-434b-adfc-a414c57d33c4",
+        "fields": {
+            "uuid": "06c78e41-2bb5-434b-adfc-a414c57d33c4",
+            "name": "Book Stands & Rests",
+            "emoji": "",
+            "parent": "3bf122b6-1c80-499f-b5c2-1f26cb0949a1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a24a2427-1fb9-4791-9cb8-3e9802991923",
+        "fields": {
+            "uuid": "a24a2427-1fb9-4791-9cb8-3e9802991923",
+            "name": "Bookmarks",
+            "emoji": "",
+            "parent": "3bf122b6-1c80-499f-b5c2-1f26cb0949a1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3857cfe7-c737-48f2-9b8d-b84575d04175",
+        "fields": {
+            "uuid": "3857cfe7-c737-48f2-9b8d-b84575d04175",
+            "name": "Desk Pads & Blotters",
+            "emoji": "",
+            "parent": "6e68056c-77f3-4ea2-bf17-05d2e8598cd1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8b00394c-4a8d-410f-b41d-19c2c5981b96",
+        "fields": {
+            "uuid": "8b00394c-4a8d-410f-b41d-19c2c5981b96",
+            "name": "Filing & Organization",
+            "emoji": "",
+            "parent": "6e68056c-77f3-4ea2-bf17-05d2e8598cd1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a8197dd6-9516-4730-8383-56828287fad5",
+        "fields": {
+            "uuid": "a8197dd6-9516-4730-8383-56828287fad5",
+            "name": "Address Books",
+            "emoji": "",
+            "parent": "8b00394c-4a8d-410f-b41d-19c2c5981b96"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e5939284-ef41-43a4-a5c6-c3ae9271ba60",
+        "fields": {
+            "uuid": "e5939284-ef41-43a4-a5c6-c3ae9271ba60",
+            "name": "Binding Supplies",
+            "emoji": "",
+            "parent": "8b00394c-4a8d-410f-b41d-19c2c5981b96"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e6ddb7f2-c0f5-4a26-81c5-dd1915fe5b85",
+        "fields": {
+            "uuid": "e6ddb7f2-c0f5-4a26-81c5-dd1915fe5b85",
+            "name": "Binder Accessories",
+            "emoji": "",
+            "parent": "e5939284-ef41-43a4-a5c6-c3ae9271ba60"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "05a99eaf-be01-41ed-baea-b60a422221dd",
+        "fields": {
+            "uuid": "05a99eaf-be01-41ed-baea-b60a422221dd",
+            "name": "Binder Rings",
+            "emoji": "",
+            "parent": "e6ddb7f2-c0f5-4a26-81c5-dd1915fe5b85"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "783e30e9-61e1-46d8-9226-977766afdff5",
+        "fields": {
+            "uuid": "783e30e9-61e1-46d8-9226-977766afdff5",
+            "name": "Index Dividers",
+            "emoji": "",
+            "parent": "e6ddb7f2-c0f5-4a26-81c5-dd1915fe5b85"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "55720ec2-1962-4901-8b88-a91dfc8e5a8c",
+        "fields": {
+            "uuid": "55720ec2-1962-4901-8b88-a91dfc8e5a8c",
+            "name": "Sheet Protectors",
+            "emoji": "",
+            "parent": "e6ddb7f2-c0f5-4a26-81c5-dd1915fe5b85"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a56448bf-70ab-4f82-9fee-ee2cb7de9f28",
+        "fields": {
+            "uuid": "a56448bf-70ab-4f82-9fee-ee2cb7de9f28",
+            "name": "Binders",
+            "emoji": "",
+            "parent": "e5939284-ef41-43a4-a5c6-c3ae9271ba60"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "197ac449-77f5-44db-969e-5a730d5040ad",
+        "fields": {
+            "uuid": "197ac449-77f5-44db-969e-5a730d5040ad",
+            "name": "Binding Combs & Spines",
+            "emoji": "",
+            "parent": "e5939284-ef41-43a4-a5c6-c3ae9271ba60"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "76f80542-4259-4e5c-a3ae-a2ef6f2bfc26",
+        "fields": {
+            "uuid": "76f80542-4259-4e5c-a3ae-a2ef6f2bfc26",
+            "name": "Binding Machines",
+            "emoji": "",
+            "parent": "e5939284-ef41-43a4-a5c6-c3ae9271ba60"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "59d7060b-6b87-47ea-abfa-80b53a6ed51b",
+        "fields": {
+            "uuid": "59d7060b-6b87-47ea-abfa-80b53a6ed51b",
+            "name": "Electric Binding Machines",
+            "emoji": "",
+            "parent": "76f80542-4259-4e5c-a3ae-a2ef6f2bfc26"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a4984e4f-6dd6-4cd6-a1c9-b21b65decd73",
+        "fields": {
+            "uuid": "a4984e4f-6dd6-4cd6-a1c9-b21b65decd73",
+            "name": "Manual Binding Machines",
+            "emoji": "",
+            "parent": "76f80542-4259-4e5c-a3ae-a2ef6f2bfc26"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "acbedbc9-c126-4c38-bb90-349f2dff8755",
+        "fields": {
+            "uuid": "acbedbc9-c126-4c38-bb90-349f2dff8755",
+            "name": "Business Card Books",
+            "emoji": "",
+            "parent": "8b00394c-4a8d-410f-b41d-19c2c5981b96"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "827f7650-6b94-4798-8901-c95694ce3ff3",
+        "fields": {
+            "uuid": "827f7650-6b94-4798-8901-c95694ce3ff3",
+            "name": "Business Card Stands",
+            "emoji": "",
+            "parent": "8b00394c-4a8d-410f-b41d-19c2c5981b96"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9dddba64-5495-483d-9a0d-f709bbab42d1",
+        "fields": {
+            "uuid": "9dddba64-5495-483d-9a0d-f709bbab42d1",
+            "name": "Calendars, Organizers & Planners",
+            "emoji": "",
+            "parent": "8b00394c-4a8d-410f-b41d-19c2c5981b96"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e1b6c8c4-233b-47a7-a41e-48c3866ecba9",
+        "fields": {
+            "uuid": "e1b6c8c4-233b-47a7-a41e-48c3866ecba9",
+            "name": "Desk Calendars",
+            "emoji": "",
+            "parent": "9dddba64-5495-483d-9a0d-f709bbab42d1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7b427642-f093-4689-a9e5-8c158068ffdb",
+        "fields": {
+            "uuid": "7b427642-f093-4689-a9e5-8c158068ffdb",
+            "name": "Organizers",
+            "emoji": "",
+            "parent": "9dddba64-5495-483d-9a0d-f709bbab42d1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "80531770-bb80-4b84-81f5-03c9f59e7697",
+        "fields": {
+            "uuid": "80531770-bb80-4b84-81f5-03c9f59e7697",
+            "name": "Planners",
+            "emoji": "",
+            "parent": "9dddba64-5495-483d-9a0d-f709bbab42d1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2f16c786-628d-49b2-9adf-fa21ea616e69",
+        "fields": {
+            "uuid": "2f16c786-628d-49b2-9adf-fa21ea616e69",
+            "name": "Wall Calendars",
+            "emoji": "",
+            "parent": "9dddba64-5495-483d-9a0d-f709bbab42d1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "df82f325-b32c-4600-a3a4-1dfc02b49cd9",
+        "fields": {
+            "uuid": "df82f325-b32c-4600-a3a4-1dfc02b49cd9",
+            "name": "Card Files",
+            "emoji": "",
+            "parent": "8b00394c-4a8d-410f-b41d-19c2c5981b96"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "20f89fd7-db0c-4b81-bbf6-9875e5dfba6a",
+        "fields": {
+            "uuid": "20f89fd7-db0c-4b81-bbf6-9875e5dfba6a",
+            "name": "Card Sleeves",
+            "emoji": "",
+            "parent": "8b00394c-4a8d-410f-b41d-19c2c5981b96"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fe0db928-8b30-481d-a4f5-19091e52296a",
+        "fields": {
+            "uuid": "fe0db928-8b30-481d-a4f5-19091e52296a",
+            "name": "Cash Boxes",
+            "emoji": "",
+            "parent": "8b00394c-4a8d-410f-b41d-19c2c5981b96"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2b2d5517-fd33-4faf-8202-89fc39948ed4",
+        "fields": {
+            "uuid": "2b2d5517-fd33-4faf-8202-89fc39948ed4",
+            "name": "CD/DVD Cases & Organizers",
+            "emoji": "",
+            "parent": "8b00394c-4a8d-410f-b41d-19c2c5981b96"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ca6288da-ca7a-4f6e-9787-4688eecd858c",
+        "fields": {
+            "uuid": "ca6288da-ca7a-4f6e-9787-4688eecd858c",
+            "name": "Desk Organizers",
+            "emoji": "",
+            "parent": "8b00394c-4a8d-410f-b41d-19c2c5981b96"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9115e4f8-5b1e-4e26-bdc3-ac582cb93c91",
+        "fields": {
+            "uuid": "9115e4f8-5b1e-4e26-bdc3-ac582cb93c91",
+            "name": "Desktop Organizers",
+            "emoji": "",
+            "parent": "ca6288da-ca7a-4f6e-9787-4688eecd858c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7573da63-f8e4-4796-90c2-c2a82b254966",
+        "fields": {
+            "uuid": "7573da63-f8e4-4796-90c2-c2a82b254966",
+            "name": "Drawer Organizers",
+            "emoji": "",
+            "parent": "ca6288da-ca7a-4f6e-9787-4688eecd858c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "38fbddf8-e5e1-419d-999c-519afff75b58",
+        "fields": {
+            "uuid": "38fbddf8-e5e1-419d-999c-519afff75b58",
+            "name": "File Sorters",
+            "emoji": "",
+            "parent": "ca6288da-ca7a-4f6e-9787-4688eecd858c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "76cc8845-a193-427a-ba03-dac7ac2b40c0",
+        "fields": {
+            "uuid": "76cc8845-a193-427a-ba03-dac7ac2b40c0",
+            "name": "Pen Holders",
+            "emoji": "",
+            "parent": "ca6288da-ca7a-4f6e-9787-4688eecd858c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2f7105ef-e348-4458-b81d-8a5d9dcb834b",
+        "fields": {
+            "uuid": "2f7105ef-e348-4458-b81d-8a5d9dcb834b",
+            "name": "File Boxes",
+            "emoji": "",
+            "parent": "8b00394c-4a8d-410f-b41d-19c2c5981b96"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8d016288-7df5-4353-a484-1e2d60123979",
+        "fields": {
+            "uuid": "8d016288-7df5-4353-a484-1e2d60123979",
+            "name": "File Folders",
+            "emoji": "",
+            "parent": "8b00394c-4a8d-410f-b41d-19c2c5981b96"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5265d096-d064-4d55-b524-80a4fd90ab33",
+        "fields": {
+            "uuid": "5265d096-d064-4d55-b524-80a4fd90ab33",
+            "name": "Folders & Report Covers",
+            "emoji": "",
+            "parent": "8b00394c-4a8d-410f-b41d-19c2c5981b96"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bad2101b-3c04-4d02-85e5-f157f541b48b",
+        "fields": {
+            "uuid": "bad2101b-3c04-4d02-85e5-f157f541b48b",
+            "name": "Pocket Folders",
+            "emoji": "",
+            "parent": "5265d096-d064-4d55-b524-80a4fd90ab33"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5520d643-740f-4282-8f3f-ce10fa869cc5",
+        "fields": {
+            "uuid": "5520d643-740f-4282-8f3f-ce10fa869cc5",
+            "name": "Report Covers",
+            "emoji": "",
+            "parent": "5265d096-d064-4d55-b524-80a4fd90ab33"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bc7e7e20-af7d-4333-925e-98f5cb4f86ab",
+        "fields": {
+            "uuid": "bc7e7e20-af7d-4333-925e-98f5cb4f86ab",
+            "name": "Greeting Card Organizers",
+            "emoji": "",
+            "parent": "8b00394c-4a8d-410f-b41d-19c2c5981b96"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7dec55e4-2301-42a9-b60a-3360497a742c",
+        "fields": {
+            "uuid": "7dec55e4-2301-42a9-b60a-3360497a742c",
+            "name": "Mail Sorters",
+            "emoji": "",
+            "parent": "8b00394c-4a8d-410f-b41d-19c2c5981b96"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "78135184-7e74-41a3-a1f0-b55ec904d9da",
+        "fields": {
+            "uuid": "78135184-7e74-41a3-a1f0-b55ec904d9da",
+            "name": "Pen & Pencil Cases",
+            "emoji": "",
+            "parent": "8b00394c-4a8d-410f-b41d-19c2c5981b96"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2cc02c33-a0f4-44ae-b0dc-1f5772c0dce4",
+        "fields": {
+            "uuid": "2cc02c33-a0f4-44ae-b0dc-1f5772c0dce4",
+            "name": "Portfolios & Padfolios",
+            "emoji": "",
+            "parent": "8b00394c-4a8d-410f-b41d-19c2c5981b96"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2ec2ff31-19dd-418e-8182-2b72603ee3ba",
+        "fields": {
+            "uuid": "2ec2ff31-19dd-418e-8182-2b72603ee3ba",
+            "name": "Padfolios",
+            "emoji": "",
+            "parent": "2cc02c33-a0f4-44ae-b0dc-1f5772c0dce4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a4800e84-d05e-4518-9715-a0d377309fc7",
+        "fields": {
+            "uuid": "a4800e84-d05e-4518-9715-a0d377309fc7",
+            "name": "Portfolios",
+            "emoji": "",
+            "parent": "2cc02c33-a0f4-44ae-b0dc-1f5772c0dce4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5fce6d2b-86b9-4c1a-8ee0-94f6bc55ad92",
+        "fields": {
+            "uuid": "5fce6d2b-86b9-4c1a-8ee0-94f6bc55ad92",
+            "name": "Recipe Card Boxes",
+            "emoji": "",
+            "parent": "8b00394c-4a8d-410f-b41d-19c2c5981b96"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8bd0e52e-6571-466a-bad9-4d13ef3f1bc5",
+        "fields": {
+            "uuid": "8bd0e52e-6571-466a-bad9-4d13ef3f1bc5",
+            "name": "General Office Supplies",
+            "emoji": "",
+            "parent": "6e68056c-77f3-4ea2-bf17-05d2e8598cd1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "37412e4a-9458-4147-8a21-1c56ca7599e8",
+        "fields": {
+            "uuid": "37412e4a-9458-4147-8a21-1c56ca7599e8",
+            "name": "Brass Fasteners",
+            "emoji": "",
+            "parent": "8bd0e52e-6571-466a-bad9-4d13ef3f1bc5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "146cb5e0-3a69-4760-8f10-7ad3986a6a61",
+        "fields": {
+            "uuid": "146cb5e0-3a69-4760-8f10-7ad3986a6a61",
+            "name": "Correction Fluids, Pens & Tapes",
+            "emoji": "",
+            "parent": "8bd0e52e-6571-466a-bad9-4d13ef3f1bc5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3b1e2160-2b7f-43a5-9ef4-31633c93fed5",
+        "fields": {
+            "uuid": "3b1e2160-2b7f-43a5-9ef4-31633c93fed5",
+            "name": "Correction Fluids",
+            "emoji": "",
+            "parent": "146cb5e0-3a69-4760-8f10-7ad3986a6a61"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "66a84808-1263-4a1e-ab71-4a440a553620",
+        "fields": {
+            "uuid": "66a84808-1263-4a1e-ab71-4a440a553620",
+            "name": "Correction Pens",
+            "emoji": "",
+            "parent": "146cb5e0-3a69-4760-8f10-7ad3986a6a61"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bd20f99b-e205-40d0-a6ad-e5c875c024af",
+        "fields": {
+            "uuid": "bd20f99b-e205-40d0-a6ad-e5c875c024af",
+            "name": "Correction Tapes",
+            "emoji": "",
+            "parent": "146cb5e0-3a69-4760-8f10-7ad3986a6a61"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "53c3933e-2cf7-4f43-9186-12490155e73f",
+        "fields": {
+            "uuid": "53c3933e-2cf7-4f43-9186-12490155e73f",
+            "name": "Erasers",
+            "emoji": "",
+            "parent": "8bd0e52e-6571-466a-bad9-4d13ef3f1bc5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "270bf953-d8bc-4b71-b06f-ec7129cb16ef",
+        "fields": {
+            "uuid": "270bf953-d8bc-4b71-b06f-ec7129cb16ef",
+            "name": "Kneaded Erasers",
+            "emoji": "",
+            "parent": "53c3933e-2cf7-4f43-9186-12490155e73f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "61b1784f-2362-4cf7-8be4-1eda17f28216",
+        "fields": {
+            "uuid": "61b1784f-2362-4cf7-8be4-1eda17f28216",
+            "name": "Mechanical Erasers",
+            "emoji": "",
+            "parent": "53c3933e-2cf7-4f43-9186-12490155e73f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b3efaa86-9bc0-43c7-80f7-ee95ccb7a064",
+        "fields": {
+            "uuid": "b3efaa86-9bc0-43c7-80f7-ee95ccb7a064",
+            "name": "Standard Erasers",
+            "emoji": "",
+            "parent": "53c3933e-2cf7-4f43-9186-12490155e73f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "241a8ca5-e09d-48f1-b2ae-a82dc8b4a777",
+        "fields": {
+            "uuid": "241a8ca5-e09d-48f1-b2ae-a82dc8b4a777",
+            "name": "Labels & Tags",
+            "emoji": "",
+            "parent": "8bd0e52e-6571-466a-bad9-4d13ef3f1bc5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0d46da27-c898-4959-b4c5-e1a883ea9a9f",
+        "fields": {
+            "uuid": "0d46da27-c898-4959-b4c5-e1a883ea9a9f",
+            "name": "Address Labels",
+            "emoji": "",
+            "parent": "241a8ca5-e09d-48f1-b2ae-a82dc8b4a777"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d522a90b-160a-411e-b94d-4bb2f464cf3f",
+        "fields": {
+            "uuid": "d522a90b-160a-411e-b94d-4bb2f464cf3f",
+            "name": "Folder Tabs",
+            "emoji": "",
+            "parent": "241a8ca5-e09d-48f1-b2ae-a82dc8b4a777"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6689f516-75b1-4a68-9cdd-e06d9c1a9b0d",
+        "fields": {
+            "uuid": "6689f516-75b1-4a68-9cdd-e06d9c1a9b0d",
+            "name": "Label Clips",
+            "emoji": "",
+            "parent": "241a8ca5-e09d-48f1-b2ae-a82dc8b4a777"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "16c63eb7-fb4a-4ae6-9ab5-65b29f31a09a",
+        "fields": {
+            "uuid": "16c63eb7-fb4a-4ae6-9ab5-65b29f31a09a",
+            "name": "Label Tapes & Refill Rolls",
+            "emoji": "",
+            "parent": "241a8ca5-e09d-48f1-b2ae-a82dc8b4a777"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2abd7645-9ee0-4c82-b3cb-583703fc4b42",
+        "fields": {
+            "uuid": "2abd7645-9ee0-4c82-b3cb-583703fc4b42",
+            "name": "Shipping Labels",
+            "emoji": "",
+            "parent": "241a8ca5-e09d-48f1-b2ae-a82dc8b4a777"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5dbd9b66-475c-4bf9-a547-c71d95a28f27",
+        "fields": {
+            "uuid": "5dbd9b66-475c-4bf9-a547-c71d95a28f27",
+            "name": "Shipping Tags",
+            "emoji": "",
+            "parent": "241a8ca5-e09d-48f1-b2ae-a82dc8b4a777"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "75288c6c-8078-40ba-b94f-ec745d95629c",
+        "fields": {
+            "uuid": "75288c6c-8078-40ba-b94f-ec745d95629c",
+            "name": "Laminating Film, Pouches & Sheets",
+            "emoji": "",
+            "parent": "8bd0e52e-6571-466a-bad9-4d13ef3f1bc5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0d5d157c-a91d-4869-895e-ce498d5eeab4",
+        "fields": {
+            "uuid": "0d5d157c-a91d-4869-895e-ce498d5eeab4",
+            "name": "Laminating Film Rolls",
+            "emoji": "",
+            "parent": "75288c6c-8078-40ba-b94f-ec745d95629c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "158eafab-67c1-46ed-ab30-d4fe017be855",
+        "fields": {
+            "uuid": "158eafab-67c1-46ed-ab30-d4fe017be855",
+            "name": "Laminating Pouches",
+            "emoji": "",
+            "parent": "75288c6c-8078-40ba-b94f-ec745d95629c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "83e9d083-73c4-4865-9208-e68e1fdfa04e",
+        "fields": {
+            "uuid": "83e9d083-73c4-4865-9208-e68e1fdfa04e",
+            "name": "Laminating Sheets",
+            "emoji": "",
+            "parent": "75288c6c-8078-40ba-b94f-ec745d95629c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e9630948-78b7-4f9d-9ba3-40535368aed7",
+        "fields": {
+            "uuid": "e9630948-78b7-4f9d-9ba3-40535368aed7",
+            "name": "Mounting Putty",
+            "emoji": "",
+            "parent": "8bd0e52e-6571-466a-bad9-4d13ef3f1bc5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "509d1565-23eb-4822-9360-a5271833d54e",
+        "fields": {
+            "uuid": "509d1565-23eb-4822-9360-a5271833d54e",
+            "name": "Office Tape",
+            "emoji": "",
+            "parent": "8bd0e52e-6571-466a-bad9-4d13ef3f1bc5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6c55efbf-4924-4fb3-b89f-d47a1601c34f",
+        "fields": {
+            "uuid": "6c55efbf-4924-4fb3-b89f-d47a1601c34f",
+            "name": "Invisible Tape",
+            "emoji": "",
+            "parent": "509d1565-23eb-4822-9360-a5271833d54e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "821df14d-e131-444a-9805-f9e45419052c",
+        "fields": {
+            "uuid": "821df14d-e131-444a-9805-f9e45419052c",
+            "name": "Transparent Tape",
+            "emoji": "",
+            "parent": "509d1565-23eb-4822-9360-a5271833d54e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dcdbe631-3faf-4465-8878-b564635a9a07",
+        "fields": {
+            "uuid": "dcdbe631-3faf-4465-8878-b564635a9a07",
+            "name": "Paper Clips & Clamps",
+            "emoji": "",
+            "parent": "8bd0e52e-6571-466a-bad9-4d13ef3f1bc5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "70141d9b-7b22-4eb7-8438-5dcbb5c3cbd7",
+        "fields": {
+            "uuid": "70141d9b-7b22-4eb7-8438-5dcbb5c3cbd7",
+            "name": "Binder Clips",
+            "emoji": "",
+            "parent": "dcdbe631-3faf-4465-8878-b564635a9a07"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a373a9a2-ed0a-445f-9e1c-de1c19f0f1ef",
+        "fields": {
+            "uuid": "a373a9a2-ed0a-445f-9e1c-de1c19f0f1ef",
+            "name": "Paper Clips",
+            "emoji": "",
+            "parent": "dcdbe631-3faf-4465-8878-b564635a9a07"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b11dd24f-f16e-4391-b2b5-001ec9db2484",
+        "fields": {
+            "uuid": "b11dd24f-f16e-4391-b2b5-001ec9db2484",
+            "name": "Paper Products",
+            "emoji": "",
+            "parent": "8bd0e52e-6571-466a-bad9-4d13ef3f1bc5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5c36c07b-3b74-47de-90b9-760b1a2ce638",
+        "fields": {
+            "uuid": "5c36c07b-3b74-47de-90b9-760b1a2ce638",
+            "name": "Binder Paper",
+            "emoji": "",
+            "parent": "b11dd24f-f16e-4391-b2b5-001ec9db2484"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8b63cf2e-b6bb-45ca-bfd5-17966924304d",
+        "fields": {
+            "uuid": "8b63cf2e-b6bb-45ca-bfd5-17966924304d",
+            "name": "Blank ID Cards",
+            "emoji": "",
+            "parent": "b11dd24f-f16e-4391-b2b5-001ec9db2484"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ee8922a6-cff9-48f2-be87-3583ac7933e4",
+        "fields": {
+            "uuid": "ee8922a6-cff9-48f2-be87-3583ac7933e4",
+            "name": "Business Cards",
+            "emoji": "",
+            "parent": "b11dd24f-f16e-4391-b2b5-001ec9db2484"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "35db30c3-6871-4a04-8dfe-0468d9768902",
+        "fields": {
+            "uuid": "35db30c3-6871-4a04-8dfe-0468d9768902",
+            "name": "Business Forms & Receipts",
+            "emoji": "",
+            "parent": "b11dd24f-f16e-4391-b2b5-001ec9db2484"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3d8eddb4-756f-4af6-b85c-126b370bc900",
+        "fields": {
+            "uuid": "3d8eddb4-756f-4af6-b85c-126b370bc900",
+            "name": "Checks",
+            "emoji": "",
+            "parent": "b11dd24f-f16e-4391-b2b5-001ec9db2484"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "474966a3-de9f-458d-9e25-1bd211897d86",
+        "fields": {
+            "uuid": "474966a3-de9f-458d-9e25-1bd211897d86",
+            "name": "Cover Paper",
+            "emoji": "",
+            "parent": "b11dd24f-f16e-4391-b2b5-001ec9db2484"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c5440882-fd4c-432f-8da3-dd3715352f58",
+        "fields": {
+            "uuid": "c5440882-fd4c-432f-8da3-dd3715352f58",
+            "name": "Envelopes",
+            "emoji": "",
+            "parent": "b11dd24f-f16e-4391-b2b5-001ec9db2484"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6d52cb22-a47f-4f26-8012-260b8b459f7a",
+        "fields": {
+            "uuid": "6d52cb22-a47f-4f26-8012-260b8b459f7a",
+            "name": "Index Cards",
+            "emoji": "",
+            "parent": "b11dd24f-f16e-4391-b2b5-001ec9db2484"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1ba1bbb0-51a7-49f1-8b65-c6a85437069d",
+        "fields": {
+            "uuid": "1ba1bbb0-51a7-49f1-8b65-c6a85437069d",
+            "name": "Notebooks & Notepads",
+            "emoji": "",
+            "parent": "b11dd24f-f16e-4391-b2b5-001ec9db2484"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e4ad0c79-e80e-4bb5-9470-b84e0a99ba42",
+        "fields": {
+            "uuid": "e4ad0c79-e80e-4bb5-9470-b84e0a99ba42",
+            "name": "Journals",
+            "emoji": "",
+            "parent": "1ba1bbb0-51a7-49f1-8b65-c6a85437069d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b65e77cf-3330-4184-9297-9f4b524746cb",
+        "fields": {
+            "uuid": "b65e77cf-3330-4184-9297-9f4b524746cb",
+            "name": "Memo Pads",
+            "emoji": "",
+            "parent": "1ba1bbb0-51a7-49f1-8b65-c6a85437069d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "950c38c4-19b9-4c11-8262-8cdac1a13b0f",
+        "fields": {
+            "uuid": "950c38c4-19b9-4c11-8262-8cdac1a13b0f",
+            "name": "Notepads",
+            "emoji": "",
+            "parent": "1ba1bbb0-51a7-49f1-8b65-c6a85437069d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8af1adb7-3ac0-451f-9709-b45d1f8e24e2",
+        "fields": {
+            "uuid": "8af1adb7-3ac0-451f-9709-b45d1f8e24e2",
+            "name": "Pocket Notebooks",
+            "emoji": "",
+            "parent": "1ba1bbb0-51a7-49f1-8b65-c6a85437069d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5214c3e2-6294-4393-859f-08fcff4da779",
+        "fields": {
+            "uuid": "5214c3e2-6294-4393-859f-08fcff4da779",
+            "name": "Post Cards",
+            "emoji": "",
+            "parent": "b11dd24f-f16e-4391-b2b5-001ec9db2484"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "107a803b-0dd4-47ea-b258-82476587d945",
+        "fields": {
+            "uuid": "107a803b-0dd4-47ea-b258-82476587d945",
+            "name": "Printer & Copier Paper",
+            "emoji": "",
+            "parent": "b11dd24f-f16e-4391-b2b5-001ec9db2484"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f12248c3-3a7f-48ee-b6ff-a2ccbaa1fc97",
+        "fields": {
+            "uuid": "f12248c3-3a7f-48ee-b6ff-a2ccbaa1fc97",
+            "name": "Receipt & Adding Machine Paper Rolls",
+            "emoji": "",
+            "parent": "b11dd24f-f16e-4391-b2b5-001ec9db2484"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "df73341d-5fc8-485f-a565-72bb170fe4f8",
+        "fields": {
+            "uuid": "df73341d-5fc8-485f-a565-72bb170fe4f8",
+            "name": "Stationery",
+            "emoji": "",
+            "parent": "b11dd24f-f16e-4391-b2b5-001ec9db2484"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7c59c831-113e-4329-927a-cab8ba834802",
+        "fields": {
+            "uuid": "7c59c831-113e-4329-927a-cab8ba834802",
+            "name": "Sticky Notes",
+            "emoji": "",
+            "parent": "b11dd24f-f16e-4391-b2b5-001ec9db2484"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1f3d8424-31ff-4e53-b53c-832165828b19",
+        "fields": {
+            "uuid": "1f3d8424-31ff-4e53-b53c-832165828b19",
+            "name": "Rubber Bands",
+            "emoji": "",
+            "parent": "8bd0e52e-6571-466a-bad9-4d13ef3f1bc5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "02f60902-e093-4557-a9ad-cfd9305571f4",
+        "fields": {
+            "uuid": "02f60902-e093-4557-a9ad-cfd9305571f4",
+            "name": "Staples",
+            "emoji": "",
+            "parent": "8bd0e52e-6571-466a-bad9-4d13ef3f1bc5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f251de10-da03-4c66-a0c4-59c173e5ec66",
+        "fields": {
+            "uuid": "f251de10-da03-4c66-a0c4-59c173e5ec66",
+            "name": "Tacks & Pushpins",
+            "emoji": "",
+            "parent": "8bd0e52e-6571-466a-bad9-4d13ef3f1bc5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c4ce3c1a-4023-472a-95a5-3314770c5a2f",
+        "fields": {
+            "uuid": "c4ce3c1a-4023-472a-95a5-3314770c5a2f",
+            "name": "Impulse Sealers",
+            "emoji": "",
+            "parent": "6e68056c-77f3-4ea2-bf17-05d2e8598cd1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "405dd673-b24c-4a17-a0b9-fd5440dac92d",
+        "fields": {
+            "uuid": "405dd673-b24c-4a17-a0b9-fd5440dac92d",
+            "name": "Handheld Impulse Sealers",
+            "emoji": "",
+            "parent": "c4ce3c1a-4023-472a-95a5-3314770c5a2f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "04ce1979-60fb-4c09-b1a6-ef86ce98fefd",
+        "fields": {
+            "uuid": "04ce1979-60fb-4c09-b1a6-ef86ce98fefd",
+            "name": "Tabletop Impulse Sealers",
+            "emoji": "",
+            "parent": "c4ce3c1a-4023-472a-95a5-3314770c5a2f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "746a87db-0ce2-4ca2-bac5-e37ffe570a7e",
+        "fields": {
+            "uuid": "746a87db-0ce2-4ca2-bac5-e37ffe570a7e",
+            "name": "Lap Desks",
+            "emoji": "",
+            "parent": "6e68056c-77f3-4ea2-bf17-05d2e8598cd1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "02df5b0e-011d-4c23-817f-e0c325c7ac5e",
+        "fields": {
+            "uuid": "02df5b0e-011d-4c23-817f-e0c325c7ac5e",
+            "name": "Name Plates",
+            "emoji": "",
+            "parent": "6e68056c-77f3-4ea2-bf17-05d2e8598cd1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9ce6fdb0-fc5d-497a-8552-807a097fb030",
+        "fields": {
+            "uuid": "9ce6fdb0-fc5d-497a-8552-807a097fb030",
+            "name": "Desk Name Plates",
+            "emoji": "",
+            "parent": "02df5b0e-011d-4c23-817f-e0c325c7ac5e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "308fea2e-b99a-483b-adb8-1d72b51cc75e",
+        "fields": {
+            "uuid": "308fea2e-b99a-483b-adb8-1d72b51cc75e",
+            "name": "Door Name Plates",
+            "emoji": "",
+            "parent": "02df5b0e-011d-4c23-817f-e0c325c7ac5e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "38fc8b38-292e-4acd-87ad-ec9573579f76",
+        "fields": {
+            "uuid": "38fc8b38-292e-4acd-87ad-ec9573579f76",
+            "name": "Office & Chair Mats",
+            "emoji": "",
+            "parent": "6e68056c-77f3-4ea2-bf17-05d2e8598cd1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3ede76ea-1f1d-4d11-9a71-4caefb009175",
+        "fields": {
+            "uuid": "3ede76ea-1f1d-4d11-9a71-4caefb009175",
+            "name": "Anti-Fatigue Mats",
+            "emoji": "",
+            "parent": "38fc8b38-292e-4acd-87ad-ec9573579f76"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4d903539-2d0a-45c9-88b8-8f73ab070644",
+        "fields": {
+            "uuid": "4d903539-2d0a-45c9-88b8-8f73ab070644",
+            "name": "Chair Mats",
+            "emoji": "",
+            "parent": "38fc8b38-292e-4acd-87ad-ec9573579f76"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f5c09421-9a6f-4f4f-b4cc-db2704faa687",
+        "fields": {
+            "uuid": "f5c09421-9a6f-4f4f-b4cc-db2704faa687",
+            "name": "Office Mats",
+            "emoji": "",
+            "parent": "38fc8b38-292e-4acd-87ad-ec9573579f76"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cc5824fe-21ad-4697-9518-782489a69199",
+        "fields": {
+            "uuid": "cc5824fe-21ad-4697-9518-782489a69199",
+            "name": "Office Carts",
+            "emoji": "",
+            "parent": "6e68056c-77f3-4ea2-bf17-05d2e8598cd1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "843b3cc8-b6f6-4130-8f78-910b6638ea2a",
+        "fields": {
+            "uuid": "843b3cc8-b6f6-4130-8f78-910b6638ea2a",
+            "name": "AV Carts",
+            "emoji": "",
+            "parent": "cc5824fe-21ad-4697-9518-782489a69199"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b2debba7-8153-4deb-8c9b-d3b76dc5826f",
+        "fields": {
+            "uuid": "b2debba7-8153-4deb-8c9b-d3b76dc5826f",
+            "name": "Book Carts",
+            "emoji": "",
+            "parent": "cc5824fe-21ad-4697-9518-782489a69199"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4efd54c6-5d5f-40c9-92b8-8787d2b00b39",
+        "fields": {
+            "uuid": "4efd54c6-5d5f-40c9-92b8-8787d2b00b39",
+            "name": "File Carts",
+            "emoji": "",
+            "parent": "cc5824fe-21ad-4697-9518-782489a69199"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "58417f1e-084f-4e12-86f1-f89344b01bfa",
+        "fields": {
+            "uuid": "58417f1e-084f-4e12-86f1-f89344b01bfa",
+            "name": "Mail Carts",
+            "emoji": "",
+            "parent": "cc5824fe-21ad-4697-9518-782489a69199"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9ee2b31e-b81a-4641-a8af-581d31a6202f",
+        "fields": {
+            "uuid": "9ee2b31e-b81a-4641-a8af-581d31a6202f",
+            "name": "Utility Carts",
+            "emoji": "",
+            "parent": "cc5824fe-21ad-4697-9518-782489a69199"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b8175c47-48a2-4807-b242-4440f37d7d0c",
+        "fields": {
+            "uuid": "b8175c47-48a2-4807-b242-4440f37d7d0c",
+            "name": "Office Equipment",
+            "emoji": "",
+            "parent": "6e68056c-77f3-4ea2-bf17-05d2e8598cd1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "58805b9f-4ec3-402e-b41c-fd50b69d9078",
+        "fields": {
+            "uuid": "58805b9f-4ec3-402e-b41c-fd50b69d9078",
+            "name": "Calculator Accessories",
+            "emoji": "",
+            "parent": "b8175c47-48a2-4807-b242-4440f37d7d0c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f7a2dfea-f116-4569-aca5-020449d9a61d",
+        "fields": {
+            "uuid": "f7a2dfea-f116-4569-aca5-020449d9a61d",
+            "name": "Calculators",
+            "emoji": "",
+            "parent": "b8175c47-48a2-4807-b242-4440f37d7d0c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7f89532a-fe62-46ca-8d86-09782c33c423",
+        "fields": {
+            "uuid": "7f89532a-fe62-46ca-8d86-09782c33c423",
+            "name": "Basic Calculators",
+            "emoji": "",
+            "parent": "f7a2dfea-f116-4569-aca5-020449d9a61d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "090e198d-dc3e-4740-bc58-5b09d2226a5b",
+        "fields": {
+            "uuid": "090e198d-dc3e-4740-bc58-5b09d2226a5b",
+            "name": "Construction Calculators",
+            "emoji": "",
+            "parent": "f7a2dfea-f116-4569-aca5-020449d9a61d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1cd386d3-3591-4cf7-a90c-2ed67dc8b74d",
+        "fields": {
+            "uuid": "1cd386d3-3591-4cf7-a90c-2ed67dc8b74d",
+            "name": "Financial Calculators",
+            "emoji": "",
+            "parent": "f7a2dfea-f116-4569-aca5-020449d9a61d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1b398316-ed7a-4d11-a38b-068f0b004895",
+        "fields": {
+            "uuid": "1b398316-ed7a-4d11-a38b-068f0b004895",
+            "name": "Graphing Calculators",
+            "emoji": "",
+            "parent": "f7a2dfea-f116-4569-aca5-020449d9a61d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c5b35a4a-8011-428c-bcc0-7856b96f2f11",
+        "fields": {
+            "uuid": "c5b35a4a-8011-428c-bcc0-7856b96f2f11",
+            "name": "Scientific Calculators",
+            "emoji": "",
+            "parent": "f7a2dfea-f116-4569-aca5-020449d9a61d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c9d8203d-e975-43c4-bf56-4d8151644c65",
+        "fields": {
+            "uuid": "c9d8203d-e975-43c4-bf56-4d8151644c65",
+            "name": "Electronic Dictionaries & Translators",
+            "emoji": "",
+            "parent": "b8175c47-48a2-4807-b242-4440f37d7d0c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "edc8abed-a1e3-4f2d-af37-283c0bdfa97b",
+        "fields": {
+            "uuid": "edc8abed-a1e3-4f2d-af37-283c0bdfa97b",
+            "name": "Label Makers",
+            "emoji": "",
+            "parent": "b8175c47-48a2-4807-b242-4440f37d7d0c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7c4c77ed-5c66-43dd-8e9c-53895f5c31b3",
+        "fields": {
+            "uuid": "7c4c77ed-5c66-43dd-8e9c-53895f5c31b3",
+            "name": "Laminators",
+            "emoji": "",
+            "parent": "b8175c47-48a2-4807-b242-4440f37d7d0c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a58bce97-3741-45fa-9d3e-c185259c4533",
+        "fields": {
+            "uuid": "a58bce97-3741-45fa-9d3e-c185259c4533",
+            "name": "Office Shredders",
+            "emoji": "",
+            "parent": "b8175c47-48a2-4807-b242-4440f37d7d0c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "437b8506-7ceb-4320-a597-2155d78db899",
+        "fields": {
+            "uuid": "437b8506-7ceb-4320-a597-2155d78db899",
+            "name": "Postage Meters",
+            "emoji": "",
+            "parent": "b8175c47-48a2-4807-b242-4440f37d7d0c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "07f6c976-5004-47bc-82d6-8b8a016ba42b",
+        "fields": {
+            "uuid": "07f6c976-5004-47bc-82d6-8b8a016ba42b",
+            "name": "Time & Attendance Clocks",
+            "emoji": "",
+            "parent": "b8175c47-48a2-4807-b242-4440f37d7d0c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bcd00be1-29df-4c1a-83eb-960479951088",
+        "fields": {
+            "uuid": "bcd00be1-29df-4c1a-83eb-960479951088",
+            "name": "Transcribers & Dictation Systems",
+            "emoji": "",
+            "parent": "b8175c47-48a2-4807-b242-4440f37d7d0c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "44815983-dcc9-417c-b54d-329d31ac78c4",
+        "fields": {
+            "uuid": "44815983-dcc9-417c-b54d-329d31ac78c4",
+            "name": "Typewriters",
+            "emoji": "",
+            "parent": "b8175c47-48a2-4807-b242-4440f37d7d0c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f2854978-a66f-4aee-8f3c-d9d0f83ca8c4",
+        "fields": {
+            "uuid": "f2854978-a66f-4aee-8f3c-d9d0f83ca8c4",
+            "name": "Office Instruments",
+            "emoji": "",
+            "parent": "6e68056c-77f3-4ea2-bf17-05d2e8598cd1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e315da9e-7100-430f-a286-f41b5db6c060",
+        "fields": {
+            "uuid": "e315da9e-7100-430f-a286-f41b5db6c060",
+            "name": "Call Bells",
+            "emoji": "",
+            "parent": "f2854978-a66f-4aee-8f3c-d9d0f83ca8c4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "47294aaa-ceff-4857-aa73-e1bafd8e5f5b",
+        "fields": {
+            "uuid": "47294aaa-ceff-4857-aa73-e1bafd8e5f5b",
+            "name": "Clipboards",
+            "emoji": "",
+            "parent": "f2854978-a66f-4aee-8f3c-d9d0f83ca8c4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "617da48c-8dc2-43a1-8cd7-e87d1244d256",
+        "fields": {
+            "uuid": "617da48c-8dc2-43a1-8cd7-e87d1244d256",
+            "name": "Letter Openers",
+            "emoji": "",
+            "parent": "f2854978-a66f-4aee-8f3c-d9d0f83ca8c4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "529fac25-7855-445d-97bd-26315fc17b2a",
+        "fields": {
+            "uuid": "529fac25-7855-445d-97bd-26315fc17b2a",
+            "name": "Magnifiers",
+            "emoji": "",
+            "parent": "f2854978-a66f-4aee-8f3c-d9d0f83ca8c4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "626e9916-18af-4c0f-ac74-fa0fa890a657",
+        "fields": {
+            "uuid": "626e9916-18af-4c0f-ac74-fa0fa890a657",
+            "name": "Office Stamps",
+            "emoji": "",
+            "parent": "f2854978-a66f-4aee-8f3c-d9d0f83ca8c4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4b3439bc-6777-41c1-81a1-d7b9fde05094",
+        "fields": {
+            "uuid": "4b3439bc-6777-41c1-81a1-d7b9fde05094",
+            "name": "Address Stamps",
+            "emoji": "",
+            "parent": "626e9916-18af-4c0f-ac74-fa0fa890a657"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6a2bf5ae-690d-41ef-8942-1c6190d9c31e",
+        "fields": {
+            "uuid": "6a2bf5ae-690d-41ef-8942-1c6190d9c31e",
+            "name": "Date Stamps",
+            "emoji": "",
+            "parent": "626e9916-18af-4c0f-ac74-fa0fa890a657"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f5a73e37-10fc-4030-babc-50e912290837",
+        "fields": {
+            "uuid": "f5a73e37-10fc-4030-babc-50e912290837",
+            "name": "Embossing Stamps",
+            "emoji": "",
+            "parent": "626e9916-18af-4c0f-ac74-fa0fa890a657"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "30617599-7f9b-44e3-a506-2f222c5e2bca",
+        "fields": {
+            "uuid": "30617599-7f9b-44e3-a506-2f222c5e2bca",
+            "name": "Notary Stamps",
+            "emoji": "",
+            "parent": "626e9916-18af-4c0f-ac74-fa0fa890a657"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f49c4d39-57db-46ed-b991-25e854455c12",
+        "fields": {
+            "uuid": "f49c4d39-57db-46ed-b991-25e854455c12",
+            "name": "Passport Stamps",
+            "emoji": "",
+            "parent": "626e9916-18af-4c0f-ac74-fa0fa890a657"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8ddb005a-d7f9-4624-b85c-cd0eb7fbc7e5",
+        "fields": {
+            "uuid": "8ddb005a-d7f9-4624-b85c-cd0eb7fbc7e5",
+            "name": "Postage Stamps",
+            "emoji": "",
+            "parent": "626e9916-18af-4c0f-ac74-fa0fa890a657"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "792a246d-3776-4883-83e6-ea17d2f97ca3",
+        "fields": {
+            "uuid": "792a246d-3776-4883-83e6-ea17d2f97ca3",
+            "name": "Signature Stamps",
+            "emoji": "",
+            "parent": "626e9916-18af-4c0f-ac74-fa0fa890a657"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "abc3546c-84ef-4bf7-82ba-ad8c0eb1760f",
+        "fields": {
+            "uuid": "abc3546c-84ef-4bf7-82ba-ad8c0eb1760f",
+            "name": "Vintage Stamps",
+            "emoji": "",
+            "parent": "626e9916-18af-4c0f-ac74-fa0fa890a657"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8f160cc0-34bb-4e41-8616-928425305dac",
+        "fields": {
+            "uuid": "8f160cc0-34bb-4e41-8616-928425305dac",
+            "name": "Pencil Sharpeners",
+            "emoji": "",
+            "parent": "f2854978-a66f-4aee-8f3c-d9d0f83ca8c4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ded46039-8d9d-4a95-9b89-301bba9a5f9f",
+        "fields": {
+            "uuid": "ded46039-8d9d-4a95-9b89-301bba9a5f9f",
+            "name": "Bladeless Sharpeners",
+            "emoji": "",
+            "parent": "8f160cc0-34bb-4e41-8616-928425305dac"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f20ca51b-abd2-41fd-8bf0-691e88c21a80",
+        "fields": {
+            "uuid": "f20ca51b-abd2-41fd-8bf0-691e88c21a80",
+            "name": "Carpenter Sharpeners",
+            "emoji": "",
+            "parent": "8f160cc0-34bb-4e41-8616-928425305dac"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "23f130a3-bf85-4a11-8b26-9d03a60c104d",
+        "fields": {
+            "uuid": "23f130a3-bf85-4a11-8b26-9d03a60c104d",
+            "name": "Double Sharpeners",
+            "emoji": "",
+            "parent": "8f160cc0-34bb-4e41-8616-928425305dac"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "596b44b9-8859-47fe-a221-44777ddee226",
+        "fields": {
+            "uuid": "596b44b9-8859-47fe-a221-44777ddee226",
+            "name": "Electric Pencil Sharpeners",
+            "emoji": "",
+            "parent": "8f160cc0-34bb-4e41-8616-928425305dac"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2aea490c-c736-4b50-9999-744ef3a8675e",
+        "fields": {
+            "uuid": "2aea490c-c736-4b50-9999-744ef3a8675e",
+            "name": "Mechanical Sharpeners",
+            "emoji": "",
+            "parent": "8f160cc0-34bb-4e41-8616-928425305dac"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "06cc7871-5be4-4d78-abdf-73c7c15d728c",
+        "fields": {
+            "uuid": "06cc7871-5be4-4d78-abdf-73c7c15d728c",
+            "name": "Standard Sharpeners",
+            "emoji": "",
+            "parent": "8f160cc0-34bb-4e41-8616-928425305dac"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "05d4d7e8-0013-4ec8-a572-cd9f951e6e1b",
+        "fields": {
+            "uuid": "05d4d7e8-0013-4ec8-a572-cd9f951e6e1b",
+            "name": "Staple Removers",
+            "emoji": "",
+            "parent": "f2854978-a66f-4aee-8f3c-d9d0f83ca8c4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "56c0c4ac-1e47-4b8a-9e90-1cb066d7b15f",
+        "fields": {
+            "uuid": "56c0c4ac-1e47-4b8a-9e90-1cb066d7b15f",
+            "name": "Staplers",
+            "emoji": "",
+            "parent": "f2854978-a66f-4aee-8f3c-d9d0f83ca8c4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4e5e9990-0f0c-457a-adde-76820251b5e5",
+        "fields": {
+            "uuid": "4e5e9990-0f0c-457a-adde-76820251b5e5",
+            "name": "Bookbinding Staplers",
+            "emoji": "",
+            "parent": "56c0c4ac-1e47-4b8a-9e90-1cb066d7b15f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "01b81a69-40dd-4394-81f4-e769942afbae",
+        "fields": {
+            "uuid": "01b81a69-40dd-4394-81f4-e769942afbae",
+            "name": "Electric Staplers",
+            "emoji": "",
+            "parent": "56c0c4ac-1e47-4b8a-9e90-1cb066d7b15f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4a34cc42-ad87-4b7f-93c2-541f69139b61",
+        "fields": {
+            "uuid": "4a34cc42-ad87-4b7f-93c2-541f69139b61",
+            "name": "Full Strip Staplers",
+            "emoji": "",
+            "parent": "56c0c4ac-1e47-4b8a-9e90-1cb066d7b15f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "35bde1a3-ef5b-4755-93de-23a3a12594ab",
+        "fields": {
+            "uuid": "35bde1a3-ef5b-4755-93de-23a3a12594ab",
+            "name": "Half Strip Staplers",
+            "emoji": "",
+            "parent": "56c0c4ac-1e47-4b8a-9e90-1cb066d7b15f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "032b9f3e-a796-4d8b-b86b-4598bc8e7602",
+        "fields": {
+            "uuid": "032b9f3e-a796-4d8b-b86b-4598bc8e7602",
+            "name": "Heavy Duty Staplers",
+            "emoji": "",
+            "parent": "56c0c4ac-1e47-4b8a-9e90-1cb066d7b15f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4aa8ce3f-6881-4a91-8047-82f0cc49923e",
+        "fields": {
+            "uuid": "4aa8ce3f-6881-4a91-8047-82f0cc49923e",
+            "name": "Long Reach Staplers",
+            "emoji": "",
+            "parent": "56c0c4ac-1e47-4b8a-9e90-1cb066d7b15f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "38212d80-dc51-4be6-8eef-6b5525f96fd6",
+        "fields": {
+            "uuid": "38212d80-dc51-4be6-8eef-6b5525f96fd6",
+            "name": "Mini Staplers",
+            "emoji": "",
+            "parent": "56c0c4ac-1e47-4b8a-9e90-1cb066d7b15f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "03189b8c-846a-4c89-a6d6-1c1abacb29c6",
+        "fields": {
+            "uuid": "03189b8c-846a-4c89-a6d6-1c1abacb29c6",
+            "name": "Plier Staplers",
+            "emoji": "",
+            "parent": "56c0c4ac-1e47-4b8a-9e90-1cb066d7b15f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1fecd4b5-be9c-4c89-be84-79839da7a617",
+        "fields": {
+            "uuid": "1fecd4b5-be9c-4c89-be84-79839da7a617",
+            "name": "Saddle Staplers",
+            "emoji": "",
+            "parent": "56c0c4ac-1e47-4b8a-9e90-1cb066d7b15f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2d0e4d01-2671-4712-b13f-59a1e9b89499",
+        "fields": {
+            "uuid": "2d0e4d01-2671-4712-b13f-59a1e9b89499",
+            "name": "Tape Dispensers",
+            "emoji": "",
+            "parent": "f2854978-a66f-4aee-8f3c-d9d0f83ca8c4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "668c4413-eef7-4d7a-b790-14a5d5e009dc",
+        "fields": {
+            "uuid": "668c4413-eef7-4d7a-b790-14a5d5e009dc",
+            "name": "Writing & Drawing Instrument Accessories",
+            "emoji": "",
+            "parent": "f2854978-a66f-4aee-8f3c-d9d0f83ca8c4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e36dab6d-2cab-4afc-96e6-0a971c7da891",
+        "fields": {
+            "uuid": "e36dab6d-2cab-4afc-96e6-0a971c7da891",
+            "name": "Marker & Highlighter Ink Refills",
+            "emoji": "",
+            "parent": "668c4413-eef7-4d7a-b790-14a5d5e009dc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "850b5234-292c-4817-92bb-25033f451ef6",
+        "fields": {
+            "uuid": "850b5234-292c-4817-92bb-25033f451ef6",
+            "name": "Highlighter Refills",
+            "emoji": "",
+            "parent": "e36dab6d-2cab-4afc-96e6-0a971c7da891"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6c71e17b-a02d-4c7b-960f-ad98b0e5f7b6",
+        "fields": {
+            "uuid": "6c71e17b-a02d-4c7b-960f-ad98b0e5f7b6",
+            "name": "Marker Refills",
+            "emoji": "",
+            "parent": "e36dab6d-2cab-4afc-96e6-0a971c7da891"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6b5b433e-7154-4503-b2c7-5329fc91c2c7",
+        "fields": {
+            "uuid": "6b5b433e-7154-4503-b2c7-5329fc91c2c7",
+            "name": "Pen Ink & Refills",
+            "emoji": "",
+            "parent": "668c4413-eef7-4d7a-b790-14a5d5e009dc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "938f6de9-2aae-4c2e-88d9-aba897f170c3",
+        "fields": {
+            "uuid": "938f6de9-2aae-4c2e-88d9-aba897f170c3",
+            "name": "Pencil Lead & Refills",
+            "emoji": "",
+            "parent": "668c4413-eef7-4d7a-b790-14a5d5e009dc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4f7a3491-5995-4039-a046-febd57c511d2",
+        "fields": {
+            "uuid": "4f7a3491-5995-4039-a046-febd57c511d2",
+            "name": "Writing & Drawing Instruments",
+            "emoji": "",
+            "parent": "f2854978-a66f-4aee-8f3c-d9d0f83ca8c4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "00ad421b-27e2-4824-b311-44358c016133",
+        "fields": {
+            "uuid": "00ad421b-27e2-4824-b311-44358c016133",
+            "name": "Art Charcoals",
+            "emoji": "",
+            "parent": "4f7a3491-5995-4039-a046-febd57c511d2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8fc16f72-a08d-4eea-9b41-1a95bb45b939",
+        "fields": {
+            "uuid": "8fc16f72-a08d-4eea-9b41-1a95bb45b939",
+            "name": "Charcoal Pencils",
+            "emoji": "",
+            "parent": "00ad421b-27e2-4824-b311-44358c016133"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9026f8be-5a8e-4667-8e6e-d0abc46f9eba",
+        "fields": {
+            "uuid": "9026f8be-5a8e-4667-8e6e-d0abc46f9eba",
+            "name": "Compressed Charcoals",
+            "emoji": "",
+            "parent": "00ad421b-27e2-4824-b311-44358c016133"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6382b685-6cb8-4954-8bf5-ce355aea991c",
+        "fields": {
+            "uuid": "6382b685-6cb8-4954-8bf5-ce355aea991c",
+            "name": "Cont\u00e9 Charcoals",
+            "emoji": "",
+            "parent": "00ad421b-27e2-4824-b311-44358c016133"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "53182a29-7f4f-4ef0-a70d-604c13882257",
+        "fields": {
+            "uuid": "53182a29-7f4f-4ef0-a70d-604c13882257",
+            "name": "Graphite Charcoals",
+            "emoji": "",
+            "parent": "00ad421b-27e2-4824-b311-44358c016133"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8f322d2c-7b30-47f5-bb11-b74d600d4512",
+        "fields": {
+            "uuid": "8f322d2c-7b30-47f5-bb11-b74d600d4512",
+            "name": "Nitram Charcoals",
+            "emoji": "",
+            "parent": "00ad421b-27e2-4824-b311-44358c016133"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "45e69f7b-bc43-4ae5-a508-605e544a59c7",
+        "fields": {
+            "uuid": "45e69f7b-bc43-4ae5-a508-605e544a59c7",
+            "name": "Pastel Charcoals",
+            "emoji": "",
+            "parent": "00ad421b-27e2-4824-b311-44358c016133"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dbba07c4-da2d-4d23-83fc-4f06d27becb2",
+        "fields": {
+            "uuid": "dbba07c4-da2d-4d23-83fc-4f06d27becb2",
+            "name": "Powdered Charcoals",
+            "emoji": "",
+            "parent": "00ad421b-27e2-4824-b311-44358c016133"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "89dd27bb-e50c-4010-a577-69d2e3bbbf09",
+        "fields": {
+            "uuid": "89dd27bb-e50c-4010-a577-69d2e3bbbf09",
+            "name": "Vine Charcoals",
+            "emoji": "",
+            "parent": "00ad421b-27e2-4824-b311-44358c016133"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a4364ed8-63df-408b-ba40-96cbe942f64b",
+        "fields": {
+            "uuid": "a4364ed8-63df-408b-ba40-96cbe942f64b",
+            "name": "Willow Charcoals",
+            "emoji": "",
+            "parent": "00ad421b-27e2-4824-b311-44358c016133"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e2c3e9b2-acfe-4a15-8339-9d861bb5e3f2",
+        "fields": {
+            "uuid": "e2c3e9b2-acfe-4a15-8339-9d861bb5e3f2",
+            "name": "Chalk",
+            "emoji": "",
+            "parent": "4f7a3491-5995-4039-a046-febd57c511d2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "203af61a-1567-4aa7-9108-405f3593b4ff",
+        "fields": {
+            "uuid": "203af61a-1567-4aa7-9108-405f3593b4ff",
+            "name": "Crayons",
+            "emoji": "",
+            "parent": "4f7a3491-5995-4039-a046-febd57c511d2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "939daa41-a4ed-417c-a38b-9d0ab529ee74",
+        "fields": {
+            "uuid": "939daa41-a4ed-417c-a38b-9d0ab529ee74",
+            "name": "Gel Crayons",
+            "emoji": "",
+            "parent": "203af61a-1567-4aa7-9108-405f3593b4ff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d2eafc6c-9504-4eb2-954b-54bcb602c786",
+        "fields": {
+            "uuid": "d2eafc6c-9504-4eb2-954b-54bcb602c786",
+            "name": "Jumbo Crayons",
+            "emoji": "",
+            "parent": "203af61a-1567-4aa7-9108-405f3593b4ff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9e681f15-87b3-4225-b78e-0c15cc0c1818",
+        "fields": {
+            "uuid": "9e681f15-87b3-4225-b78e-0c15cc0c1818",
+            "name": "Metallic Crayons",
+            "emoji": "",
+            "parent": "203af61a-1567-4aa7-9108-405f3593b4ff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ae957dd1-7b4e-4c52-b97f-973c108b206d",
+        "fields": {
+            "uuid": "ae957dd1-7b4e-4c52-b97f-973c108b206d",
+            "name": "Neon Crayons",
+            "emoji": "",
+            "parent": "203af61a-1567-4aa7-9108-405f3593b4ff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "caa5630d-8f7c-46ab-ace8-0cd54c7328c0",
+        "fields": {
+            "uuid": "caa5630d-8f7c-46ab-ace8-0cd54c7328c0",
+            "name": "Regular Crayons",
+            "emoji": "",
+            "parent": "203af61a-1567-4aa7-9108-405f3593b4ff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7c154bc8-997f-44a8-a1e4-af586999e1c8",
+        "fields": {
+            "uuid": "7c154bc8-997f-44a8-a1e4-af586999e1c8",
+            "name": "Scented Crayons",
+            "emoji": "",
+            "parent": "203af61a-1567-4aa7-9108-405f3593b4ff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2b308414-d796-4d98-8f03-ace7d4d2bfca",
+        "fields": {
+            "uuid": "2b308414-d796-4d98-8f03-ace7d4d2bfca",
+            "name": "Twistable Crayons",
+            "emoji": "",
+            "parent": "203af61a-1567-4aa7-9108-405f3593b4ff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a6a8c4a8-850a-49cb-b770-8574f3eb6478",
+        "fields": {
+            "uuid": "a6a8c4a8-850a-49cb-b770-8574f3eb6478",
+            "name": "Watercolor Crayons",
+            "emoji": "",
+            "parent": "203af61a-1567-4aa7-9108-405f3593b4ff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "378b1aa1-40c4-4d05-b185-16d29e331f2c",
+        "fields": {
+            "uuid": "378b1aa1-40c4-4d05-b185-16d29e331f2c",
+            "name": "Markers & Highlighters",
+            "emoji": "",
+            "parent": "4f7a3491-5995-4039-a046-febd57c511d2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9ca691cd-d760-48d8-b13d-27342838419c",
+        "fields": {
+            "uuid": "9ca691cd-d760-48d8-b13d-27342838419c",
+            "name": "Highlighters",
+            "emoji": "",
+            "parent": "378b1aa1-40c4-4d05-b185-16d29e331f2c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "01df06ae-d2fa-47c5-81f3-2b0d7b073cea",
+        "fields": {
+            "uuid": "01df06ae-d2fa-47c5-81f3-2b0d7b073cea",
+            "name": "Markers",
+            "emoji": "",
+            "parent": "378b1aa1-40c4-4d05-b185-16d29e331f2c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3808eb88-2822-490f-9142-ea3512dad362",
+        "fields": {
+            "uuid": "3808eb88-2822-490f-9142-ea3512dad362",
+            "name": "Multifunction Writing Instruments",
+            "emoji": "",
+            "parent": "4f7a3491-5995-4039-a046-febd57c511d2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e47e28dd-d8ab-4874-8b65-6290a1ad53df",
+        "fields": {
+            "uuid": "e47e28dd-d8ab-4874-8b65-6290a1ad53df",
+            "name": "Pastels",
+            "emoji": "",
+            "parent": "4f7a3491-5995-4039-a046-febd57c511d2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "77480db6-1767-489d-acee-d2c3c3e6c026",
+        "fields": {
+            "uuid": "77480db6-1767-489d-acee-d2c3c3e6c026",
+            "name": "Chalk Pastels",
+            "emoji": "",
+            "parent": "e47e28dd-d8ab-4874-8b65-6290a1ad53df"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1d37fa1b-8b02-4979-9557-07b0db88b7fb",
+        "fields": {
+            "uuid": "1d37fa1b-8b02-4979-9557-07b0db88b7fb",
+            "name": "Hard Pastels",
+            "emoji": "",
+            "parent": "e47e28dd-d8ab-4874-8b65-6290a1ad53df"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "eb72cf3c-627c-4d45-ae49-09f4a86ecb13",
+        "fields": {
+            "uuid": "eb72cf3c-627c-4d45-ae49-09f4a86ecb13",
+            "name": "Oil Pastels",
+            "emoji": "",
+            "parent": "e47e28dd-d8ab-4874-8b65-6290a1ad53df"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6b71d92e-5d5f-4770-a29c-cea20a9eb53a",
+        "fields": {
+            "uuid": "6b71d92e-5d5f-4770-a29c-cea20a9eb53a",
+            "name": "Pan Pastels",
+            "emoji": "",
+            "parent": "e47e28dd-d8ab-4874-8b65-6290a1ad53df"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a5caf576-f4a6-407a-9fb2-1d7294b8a211",
+        "fields": {
+            "uuid": "a5caf576-f4a6-407a-9fb2-1d7294b8a211",
+            "name": "Pastel Pencils",
+            "emoji": "",
+            "parent": "e47e28dd-d8ab-4874-8b65-6290a1ad53df"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "49e07aa1-4801-4912-bfbd-f5cda8204224",
+        "fields": {
+            "uuid": "49e07aa1-4801-4912-bfbd-f5cda8204224",
+            "name": "Soft Pastels",
+            "emoji": "",
+            "parent": "e47e28dd-d8ab-4874-8b65-6290a1ad53df"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "55ce2756-b643-4df2-9457-9ad6db116f6c",
+        "fields": {
+            "uuid": "55ce2756-b643-4df2-9457-9ad6db116f6c",
+            "name": "Pens & Pencils",
+            "emoji": "",
+            "parent": "4f7a3491-5995-4039-a046-febd57c511d2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7ef95808-0eea-4c14-a47b-047160ad5a14",
+        "fields": {
+            "uuid": "7ef95808-0eea-4c14-a47b-047160ad5a14",
+            "name": "Pen & Pencil Sets",
+            "emoji": "",
+            "parent": "55ce2756-b643-4df2-9457-9ad6db116f6c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cfcc33f5-f961-498f-810f-d9d88ff55d68",
+        "fields": {
+            "uuid": "cfcc33f5-f961-498f-810f-d9d88ff55d68",
+            "name": "Pencils",
+            "emoji": "",
+            "parent": "55ce2756-b643-4df2-9457-9ad6db116f6c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dfa818f0-4ac2-46e4-b6ed-fa823213195f",
+        "fields": {
+            "uuid": "dfa818f0-4ac2-46e4-b6ed-fa823213195f",
+            "name": "Art Pencils",
+            "emoji": "",
+            "parent": "cfcc33f5-f961-498f-810f-d9d88ff55d68"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "793ae572-02db-4a82-a224-848730289514",
+        "fields": {
+            "uuid": "793ae572-02db-4a82-a224-848730289514",
+            "name": "Writing Pencils",
+            "emoji": "",
+            "parent": "cfcc33f5-f961-498f-810f-d9d88ff55d68"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6aeeab82-29cf-46be-acde-a84a02facf8e",
+        "fields": {
+            "uuid": "6aeeab82-29cf-46be-acde-a84a02facf8e",
+            "name": "Mechanical Pencils",
+            "emoji": "",
+            "parent": "793ae572-02db-4a82-a224-848730289514"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "40db122a-d671-42e2-989e-25f8b1fdad34",
+        "fields": {
+            "uuid": "40db122a-d671-42e2-989e-25f8b1fdad34",
+            "name": "Wooden Pencils",
+            "emoji": "",
+            "parent": "793ae572-02db-4a82-a224-848730289514"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "87ed8267-ea10-498a-b815-765854d26d45",
+        "fields": {
+            "uuid": "87ed8267-ea10-498a-b815-765854d26d45",
+            "name": "Pens",
+            "emoji": "",
+            "parent": "55ce2756-b643-4df2-9457-9ad6db116f6c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ebb31dec-0c30-4238-82c1-9e6d518b5f2c",
+        "fields": {
+            "uuid": "ebb31dec-0c30-4238-82c1-9e6d518b5f2c",
+            "name": "Ballpoint Pens",
+            "emoji": "",
+            "parent": "87ed8267-ea10-498a-b815-765854d26d45"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "17f27ce2-d766-4283-ad92-75e63a0f09f5",
+        "fields": {
+            "uuid": "17f27ce2-d766-4283-ad92-75e63a0f09f5",
+            "name": "Felt Tips",
+            "emoji": "",
+            "parent": "87ed8267-ea10-498a-b815-765854d26d45"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d5bc9102-ae92-47b8-9a5d-9f4569d5e4f5",
+        "fields": {
+            "uuid": "d5bc9102-ae92-47b8-9a5d-9f4569d5e4f5",
+            "name": "Fountain Pens",
+            "emoji": "",
+            "parent": "87ed8267-ea10-498a-b815-765854d26d45"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b08e57c0-3a7c-4e70-a40b-d5340e5de74c",
+        "fields": {
+            "uuid": "b08e57c0-3a7c-4e70-a40b-d5340e5de74c",
+            "name": "Gel Pens",
+            "emoji": "",
+            "parent": "87ed8267-ea10-498a-b815-765854d26d45"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f5afc2bc-6e06-49c2-98c2-cfaaf7a535b2",
+        "fields": {
+            "uuid": "f5afc2bc-6e06-49c2-98c2-cfaaf7a535b2",
+            "name": "Rollerball Pens",
+            "emoji": "",
+            "parent": "87ed8267-ea10-498a-b815-765854d26d45"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ba16a7ce-0eba-4d78-b312-5c043343e9b6",
+        "fields": {
+            "uuid": "ba16a7ce-0eba-4d78-b312-5c043343e9b6",
+            "name": "Paper Handling",
+            "emoji": "",
+            "parent": "6e68056c-77f3-4ea2-bf17-05d2e8598cd1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e2e9a3ba-1613-4e85-b719-e1dc8415aa85",
+        "fields": {
+            "uuid": "e2e9a3ba-1613-4e85-b719-e1dc8415aa85",
+            "name": "Fingertip Grips",
+            "emoji": "",
+            "parent": "ba16a7ce-0eba-4d78-b312-5c043343e9b6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "29d86e54-2962-41b9-8e66-188beddded1a",
+        "fields": {
+            "uuid": "29d86e54-2962-41b9-8e66-188beddded1a",
+            "name": "Hole Punches",
+            "emoji": "",
+            "parent": "ba16a7ce-0eba-4d78-b312-5c043343e9b6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0b66b1bc-c65f-4bcf-851e-a0a8cf0827a0",
+        "fields": {
+            "uuid": "0b66b1bc-c65f-4bcf-851e-a0a8cf0827a0",
+            "name": "Paper Folding Machines",
+            "emoji": "",
+            "parent": "ba16a7ce-0eba-4d78-b312-5c043343e9b6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0b20e276-4483-4269-b9fc-f329d669590e",
+        "fields": {
+            "uuid": "0b20e276-4483-4269-b9fc-f329d669590e",
+            "name": "Paper Joggers",
+            "emoji": "",
+            "parent": "ba16a7ce-0eba-4d78-b312-5c043343e9b6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6eb7ecbb-bcba-4650-b68d-b072b903da78",
+        "fields": {
+            "uuid": "6eb7ecbb-bcba-4650-b68d-b072b903da78",
+            "name": "Paperweights",
+            "emoji": "",
+            "parent": "ba16a7ce-0eba-4d78-b312-5c043343e9b6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ade2f07b-12de-4a92-9991-54c594931e9b",
+        "fields": {
+            "uuid": "ade2f07b-12de-4a92-9991-54c594931e9b",
+            "name": "Pencil Boards",
+            "emoji": "",
+            "parent": "ba16a7ce-0eba-4d78-b312-5c043343e9b6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2aa6d6d5-5128-459b-8989-c5d348ae050f",
+        "fields": {
+            "uuid": "2aa6d6d5-5128-459b-8989-c5d348ae050f",
+            "name": "Presentation Supplies",
+            "emoji": "",
+            "parent": "6e68056c-77f3-4ea2-bf17-05d2e8598cd1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c40ff5ce-c165-40dd-bad8-2bba754f5287",
+        "fields": {
+            "uuid": "c40ff5ce-c165-40dd-bad8-2bba754f5287",
+            "name": "Chalkboards",
+            "emoji": "",
+            "parent": "2aa6d6d5-5128-459b-8989-c5d348ae050f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fa367adc-d8e8-4441-aa3b-3e56ae035d61",
+        "fields": {
+            "uuid": "fa367adc-d8e8-4441-aa3b-3e56ae035d61",
+            "name": "Display Boards",
+            "emoji": "",
+            "parent": "2aa6d6d5-5128-459b-8989-c5d348ae050f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5f76ab71-d016-406e-8eaf-3d4be8601f20",
+        "fields": {
+            "uuid": "5f76ab71-d016-406e-8eaf-3d4be8601f20",
+            "name": "Bulletin Board Accessories",
+            "emoji": "",
+            "parent": "fa367adc-d8e8-4441-aa3b-3e56ae035d61"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "52097d79-95cf-45e6-a106-88c58bb89ffd",
+        "fields": {
+            "uuid": "52097d79-95cf-45e6-a106-88c58bb89ffd",
+            "name": "Bulletin Board Trim",
+            "emoji": "",
+            "parent": "5f76ab71-d016-406e-8eaf-3d4be8601f20"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "94ad5111-773e-495c-88ea-c201468bb640",
+        "fields": {
+            "uuid": "94ad5111-773e-495c-88ea-c201468bb640",
+            "name": "Bulletin Board Trim Sets",
+            "emoji": "",
+            "parent": "5f76ab71-d016-406e-8eaf-3d4be8601f20"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "763b2857-8773-47e0-85a3-9c45a1110214",
+        "fields": {
+            "uuid": "763b2857-8773-47e0-85a3-9c45a1110214",
+            "name": "Bulletin Boards",
+            "emoji": "",
+            "parent": "fa367adc-d8e8-4441-aa3b-3e56ae035d61"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "96461150-d353-4061-a71a-95e44b8ef3f2",
+        "fields": {
+            "uuid": "96461150-d353-4061-a71a-95e44b8ef3f2",
+            "name": "Foam Boards",
+            "emoji": "",
+            "parent": "fa367adc-d8e8-4441-aa3b-3e56ae035d61"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3c3de721-a7c8-470c-b93f-ae91a03a7925",
+        "fields": {
+            "uuid": "3c3de721-a7c8-470c-b93f-ae91a03a7925",
+            "name": "Mounting Boards",
+            "emoji": "",
+            "parent": "fa367adc-d8e8-4441-aa3b-3e56ae035d61"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "883e2b4c-3eec-41db-9a76-7639fd0471e6",
+        "fields": {
+            "uuid": "883e2b4c-3eec-41db-9a76-7639fd0471e6",
+            "name": "Poster Boards",
+            "emoji": "",
+            "parent": "fa367adc-d8e8-4441-aa3b-3e56ae035d61"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "370c0ad7-437d-4fed-ae17-8512ac1e1afe",
+        "fields": {
+            "uuid": "370c0ad7-437d-4fed-ae17-8512ac1e1afe",
+            "name": "Document Cameras",
+            "emoji": "",
+            "parent": "2aa6d6d5-5128-459b-8989-c5d348ae050f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "db26c3de-2fe5-460b-b9d7-208573a63bdb",
+        "fields": {
+            "uuid": "db26c3de-2fe5-460b-b9d7-208573a63bdb",
+            "name": "Dry-Erase Boards",
+            "emoji": "",
+            "parent": "2aa6d6d5-5128-459b-8989-c5d348ae050f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dbced3dd-0794-47f8-baa9-0cd4a8e8461c",
+        "fields": {
+            "uuid": "dbced3dd-0794-47f8-baa9-0cd4a8e8461c",
+            "name": "Easel Pads",
+            "emoji": "",
+            "parent": "2aa6d6d5-5128-459b-8989-c5d348ae050f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f3c54b90-9c3d-4da9-88ac-d302f7655843",
+        "fields": {
+            "uuid": "f3c54b90-9c3d-4da9-88ac-d302f7655843",
+            "name": "Easels",
+            "emoji": "",
+            "parent": "2aa6d6d5-5128-459b-8989-c5d348ae050f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2d486778-e57d-4669-990e-fdd9730aa054",
+        "fields": {
+            "uuid": "2d486778-e57d-4669-990e-fdd9730aa054",
+            "name": "Laser Pointers",
+            "emoji": "",
+            "parent": "2aa6d6d5-5128-459b-8989-c5d348ae050f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2d8370b8-e2fc-4982-af06-04ae999424eb",
+        "fields": {
+            "uuid": "2d8370b8-e2fc-4982-af06-04ae999424eb",
+            "name": "Lecterns",
+            "emoji": "",
+            "parent": "2aa6d6d5-5128-459b-8989-c5d348ae050f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d3b88a6f-8fe8-444c-b6d8-5272f8c17280",
+        "fields": {
+            "uuid": "d3b88a6f-8fe8-444c-b6d8-5272f8c17280",
+            "name": "Transparencies",
+            "emoji": "",
+            "parent": "2aa6d6d5-5128-459b-8989-c5d348ae050f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "11c03261-42aa-407f-aad7-780eed939115",
+        "fields": {
+            "uuid": "11c03261-42aa-407f-aad7-780eed939115",
+            "name": "Wireless Presenters",
+            "emoji": "",
+            "parent": "2aa6d6d5-5128-459b-8989-c5d348ae050f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6d52655c-74ee-4613-a822-6e087d44776d",
+        "fields": {
+            "uuid": "6d52655c-74ee-4613-a822-6e087d44776d",
+            "name": "Shipping Supplies",
+            "emoji": "",
+            "parent": "6e68056c-77f3-4ea2-bf17-05d2e8598cd1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "511c1626-ee70-4427-b9c7-dea74af702bd",
+        "fields": {
+            "uuid": "511c1626-ee70-4427-b9c7-dea74af702bd",
+            "name": "Moving & Shipping Boxes",
+            "emoji": "",
+            "parent": "6d52655c-74ee-4613-a822-6e087d44776d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "23b4055b-d53c-4e7d-81cb-4fea5ef0b842",
+        "fields": {
+            "uuid": "23b4055b-d53c-4e7d-81cb-4fea5ef0b842",
+            "name": "Packing Materials",
+            "emoji": "",
+            "parent": "6d52655c-74ee-4613-a822-6e087d44776d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "59c651b0-192e-46c5-9a10-ebabb4b06622",
+        "fields": {
+            "uuid": "59c651b0-192e-46c5-9a10-ebabb4b06622",
+            "name": "Packing Tape",
+            "emoji": "",
+            "parent": "6d52655c-74ee-4613-a822-6e087d44776d"
+        }
+    }
+]

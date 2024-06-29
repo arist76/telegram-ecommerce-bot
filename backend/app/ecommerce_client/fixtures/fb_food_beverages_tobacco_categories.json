@@ -1,0 +1,4332 @@
+[
+    {
+        "model": "ecommerce_client.category",
+        "pk": "19fa142c-99f2-4a44-82b9-dbd21eb59b57",
+        "fields": {
+            "uuid": "19fa142c-99f2-4a44-82b9-dbd21eb59b57",
+            "name": "Food, Beverages & Tobacco",
+            "emoji": "",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f762ff64-e0e0-4969-b227-31185ecc1c5c",
+        "fields": {
+            "uuid": "f762ff64-e0e0-4969-b227-31185ecc1c5c",
+            "name": "Beverages",
+            "emoji": "",
+            "parent": "19fa142c-99f2-4a44-82b9-dbd21eb59b57"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9f2de79a-075e-43cc-a441-76904fe17765",
+        "fields": {
+            "uuid": "9f2de79a-075e-43cc-a441-76904fe17765",
+            "name": "Alcoholic Beverages",
+            "emoji": "",
+            "parent": "f762ff64-e0e0-4969-b227-31185ecc1c5c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c8fd9421-eeca-4796-a206-7e0190ed508c",
+        "fields": {
+            "uuid": "c8fd9421-eeca-4796-a206-7e0190ed508c",
+            "name": "Beer",
+            "emoji": "",
+            "parent": "9f2de79a-075e-43cc-a441-76904fe17765"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d6cc39bd-a77c-42e0-9ec6-88e284cdbff7",
+        "fields": {
+            "uuid": "d6cc39bd-a77c-42e0-9ec6-88e284cdbff7",
+            "name": "Bitters",
+            "emoji": "",
+            "parent": "9f2de79a-075e-43cc-a441-76904fe17765"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c63cbba2-f785-48ee-a9fe-768017e0b7c9",
+        "fields": {
+            "uuid": "c63cbba2-f785-48ee-a9fe-768017e0b7c9",
+            "name": "Flavored Alcoholic Beverages",
+            "emoji": "",
+            "parent": "9f2de79a-075e-43cc-a441-76904fe17765"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5ccffd44-9ab3-4c14-ba67-db64b2b5b807",
+        "fields": {
+            "uuid": "5ccffd44-9ab3-4c14-ba67-db64b2b5b807",
+            "name": "Hard Cider",
+            "emoji": "",
+            "parent": "9f2de79a-075e-43cc-a441-76904fe17765"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ac2a426d-27ef-4413-a0b5-a542381e9871",
+        "fields": {
+            "uuid": "ac2a426d-27ef-4413-a0b5-a542381e9871",
+            "name": "Liquor & Spirits",
+            "emoji": "",
+            "parent": "9f2de79a-075e-43cc-a441-76904fe17765"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6cc4b02b-bfe8-4e1c-953c-8141f93ffc90",
+        "fields": {
+            "uuid": "6cc4b02b-bfe8-4e1c-953c-8141f93ffc90",
+            "name": "Absinthe",
+            "emoji": "",
+            "parent": "ac2a426d-27ef-4413-a0b5-a542381e9871"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d0091549-a4f2-4517-8008-4734c66152ea",
+        "fields": {
+            "uuid": "d0091549-a4f2-4517-8008-4734c66152ea",
+            "name": "Brandy",
+            "emoji": "",
+            "parent": "ac2a426d-27ef-4413-a0b5-a542381e9871"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f8577aad-6944-4fb9-b6a0-558e46c90081",
+        "fields": {
+            "uuid": "f8577aad-6944-4fb9-b6a0-558e46c90081",
+            "name": "Gin",
+            "emoji": "",
+            "parent": "ac2a426d-27ef-4413-a0b5-a542381e9871"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ff2d7b0b-9cdb-408a-b7d9-ad763133c388",
+        "fields": {
+            "uuid": "ff2d7b0b-9cdb-408a-b7d9-ad763133c388",
+            "name": "Liqueurs",
+            "emoji": "",
+            "parent": "ac2a426d-27ef-4413-a0b5-a542381e9871"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "84948edb-3a76-4b8e-bb20-532cdb625633",
+        "fields": {
+            "uuid": "84948edb-3a76-4b8e-bb20-532cdb625633",
+            "name": "Rum",
+            "emoji": "",
+            "parent": "ac2a426d-27ef-4413-a0b5-a542381e9871"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "93a75bae-e72f-4987-8d35-62ef7b697226",
+        "fields": {
+            "uuid": "93a75bae-e72f-4987-8d35-62ef7b697226",
+            "name": "Shochu & Soju",
+            "emoji": "",
+            "parent": "ac2a426d-27ef-4413-a0b5-a542381e9871"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "af7545b5-4c58-4270-bce1-c3a079d63499",
+        "fields": {
+            "uuid": "af7545b5-4c58-4270-bce1-c3a079d63499",
+            "name": "Shochu",
+            "emoji": "",
+            "parent": "93a75bae-e72f-4987-8d35-62ef7b697226"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1944dc97-6629-4a1b-8f11-1a2dd3cedfdd",
+        "fields": {
+            "uuid": "1944dc97-6629-4a1b-8f11-1a2dd3cedfdd",
+            "name": "Soju",
+            "emoji": "",
+            "parent": "93a75bae-e72f-4987-8d35-62ef7b697226"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "967dd7c0-b000-4ec7-a4c6-bff900b1f08d",
+        "fields": {
+            "uuid": "967dd7c0-b000-4ec7-a4c6-bff900b1f08d",
+            "name": "Tequila",
+            "emoji": "",
+            "parent": "ac2a426d-27ef-4413-a0b5-a542381e9871"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0dc365eb-497c-48c9-8220-ec0c2d07aee1",
+        "fields": {
+            "uuid": "0dc365eb-497c-48c9-8220-ec0c2d07aee1",
+            "name": "Vodka",
+            "emoji": "",
+            "parent": "ac2a426d-27ef-4413-a0b5-a542381e9871"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4f44b5e4-3ce4-4b01-ac11-bdd0ce4e0d4d",
+        "fields": {
+            "uuid": "4f44b5e4-3ce4-4b01-ac11-bdd0ce4e0d4d",
+            "name": "Whiskey",
+            "emoji": "",
+            "parent": "ac2a426d-27ef-4413-a0b5-a542381e9871"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "edcd4412-db3b-4517-bf9e-50d6aec5093b",
+        "fields": {
+            "uuid": "edcd4412-db3b-4517-bf9e-50d6aec5093b",
+            "name": "Premixed Spirits & Cocktail Mixes",
+            "emoji": "",
+            "parent": "9f2de79a-075e-43cc-a441-76904fe17765"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c382c068-c072-4f69-9754-ec6495f75f9a",
+        "fields": {
+            "uuid": "c382c068-c072-4f69-9754-ec6495f75f9a",
+            "name": "Beer-Based Cocktails",
+            "emoji": "",
+            "parent": "edcd4412-db3b-4517-bf9e-50d6aec5093b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2abeb7fa-549a-497a-9e00-278caa542db0",
+        "fields": {
+            "uuid": "2abeb7fa-549a-497a-9e00-278caa542db0",
+            "name": "Fruit Mix Preparations",
+            "emoji": "",
+            "parent": "edcd4412-db3b-4517-bf9e-50d6aec5093b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0624e977-d7d8-49fd-b117-5b9773c03b5d",
+        "fields": {
+            "uuid": "0624e977-d7d8-49fd-b117-5b9773c03b5d",
+            "name": "Hard Seltzers",
+            "emoji": "",
+            "parent": "edcd4412-db3b-4517-bf9e-50d6aec5093b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "168f493e-da8d-455a-9ff3-6018c5c2c63f",
+        "fields": {
+            "uuid": "168f493e-da8d-455a-9ff3-6018c5c2c63f",
+            "name": "Liquor & Spirit-Based Cocktails",
+            "emoji": "",
+            "parent": "edcd4412-db3b-4517-bf9e-50d6aec5093b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ca84d558-362a-46f9-96a1-e28c713c399a",
+        "fields": {
+            "uuid": "ca84d558-362a-46f9-96a1-e28c713c399a",
+            "name": "Spice Mix Preparations",
+            "emoji": "",
+            "parent": "edcd4412-db3b-4517-bf9e-50d6aec5093b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "397d2730-5d52-41b2-9557-aeb327d3a048",
+        "fields": {
+            "uuid": "397d2730-5d52-41b2-9557-aeb327d3a048",
+            "name": "Wine-Based Cocktails",
+            "emoji": "",
+            "parent": "edcd4412-db3b-4517-bf9e-50d6aec5093b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4da1efdd-89cb-45e6-9367-462dea2032da",
+        "fields": {
+            "uuid": "4da1efdd-89cb-45e6-9367-462dea2032da",
+            "name": "Wine",
+            "emoji": "",
+            "parent": "9f2de79a-075e-43cc-a441-76904fe17765"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e01149d8-651c-4e5f-b529-f802b6388f7c",
+        "fields": {
+            "uuid": "e01149d8-651c-4e5f-b529-f802b6388f7c",
+            "name": "Buttermilk",
+            "emoji": "",
+            "parent": "f762ff64-e0e0-4969-b227-31185ecc1c5c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ed2911ab-7b58-4539-82fa-0dee50ef7f35",
+        "fields": {
+            "uuid": "ed2911ab-7b58-4539-82fa-0dee50ef7f35",
+            "name": "Coffee",
+            "emoji": "",
+            "parent": "f762ff64-e0e0-4969-b227-31185ecc1c5c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "11e68b8e-3c0f-4a88-8f21-684d64ab5bcf",
+        "fields": {
+            "uuid": "11e68b8e-3c0f-4a88-8f21-684d64ab5bcf",
+            "name": "Coffee Beans & Ground Coffee",
+            "emoji": "",
+            "parent": "ed2911ab-7b58-4539-82fa-0dee50ef7f35"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "90dcdea4-162c-46e7-8c78-5b651d61615e",
+        "fields": {
+            "uuid": "90dcdea4-162c-46e7-8c78-5b651d61615e",
+            "name": "Coffee Pods & Capsules",
+            "emoji": "",
+            "parent": "ed2911ab-7b58-4539-82fa-0dee50ef7f35"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8ea3977b-1684-4966-a243-8e20f6da6dc3",
+        "fields": {
+            "uuid": "8ea3977b-1684-4966-a243-8e20f6da6dc3",
+            "name": "Instant Coffee",
+            "emoji": "",
+            "parent": "ed2911ab-7b58-4539-82fa-0dee50ef7f35"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2535b3a0-357a-4f96-affc-551eb4a492af",
+        "fields": {
+            "uuid": "2535b3a0-357a-4f96-affc-551eb4a492af",
+            "name": "Cordials, Syrups & Squash",
+            "emoji": "",
+            "parent": "f762ff64-e0e0-4969-b227-31185ecc1c5c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6d355983-884d-4696-b762-d23071694cd5",
+        "fields": {
+            "uuid": "6d355983-884d-4696-b762-d23071694cd5",
+            "name": "Fruit Flavored Drinks",
+            "emoji": "",
+            "parent": "f762ff64-e0e0-4969-b227-31185ecc1c5c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c61f4feb-5da9-474e-9dae-4c778b0164c1",
+        "fields": {
+            "uuid": "c61f4feb-5da9-474e-9dae-4c778b0164c1",
+            "name": "Hot Chocolate",
+            "emoji": "",
+            "parent": "f762ff64-e0e0-4969-b227-31185ecc1c5c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "68562ccc-2926-4e8f-b7a3-fa65656f3021",
+        "fields": {
+            "uuid": "68562ccc-2926-4e8f-b7a3-fa65656f3021",
+            "name": "Cocoa Powder",
+            "emoji": "",
+            "parent": "c61f4feb-5da9-474e-9dae-4c778b0164c1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "16a32a5e-deb1-4374-bf6d-c3ed001bd27f",
+        "fields": {
+            "uuid": "16a32a5e-deb1-4374-bf6d-c3ed001bd27f",
+            "name": "Hot Chocolate Mixes",
+            "emoji": "",
+            "parent": "c61f4feb-5da9-474e-9dae-4c778b0164c1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3092d83d-b3dd-46d0-b38e-fbc0926f4bc4",
+        "fields": {
+            "uuid": "3092d83d-b3dd-46d0-b38e-fbc0926f4bc4",
+            "name": "Malted Milk",
+            "emoji": "",
+            "parent": "c61f4feb-5da9-474e-9dae-4c778b0164c1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "093a350d-2ef7-4b8d-b0c7-6bc9bb376f10",
+        "fields": {
+            "uuid": "093a350d-2ef7-4b8d-b0c7-6bc9bb376f10",
+            "name": "Juices, Milkshakes & Smoothies",
+            "emoji": "",
+            "parent": "f762ff64-e0e0-4969-b227-31185ecc1c5c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "57348596-775b-4428-8af8-626a994ac508",
+        "fields": {
+            "uuid": "57348596-775b-4428-8af8-626a994ac508",
+            "name": "Low Alcohol & Alcohol-Free Beverages",
+            "emoji": "",
+            "parent": "f762ff64-e0e0-4969-b227-31185ecc1c5c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fa60f427-e2da-40c7-adf8-fb3be9b450a5",
+        "fields": {
+            "uuid": "fa60f427-e2da-40c7-adf8-fb3be9b450a5",
+            "name": "Low Alcohol & Alcohol-Free Beer",
+            "emoji": "",
+            "parent": "57348596-775b-4428-8af8-626a994ac508"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "94e0a6fe-59a6-46c2-837b-67927400a21d",
+        "fields": {
+            "uuid": "94e0a6fe-59a6-46c2-837b-67927400a21d",
+            "name": "Low Alcohol & Alcohol-Free Bitters",
+            "emoji": "",
+            "parent": "57348596-775b-4428-8af8-626a994ac508"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0bc03508-5fcc-48c6-ae0c-5bc07007c518",
+        "fields": {
+            "uuid": "0bc03508-5fcc-48c6-ae0c-5bc07007c518",
+            "name": "Low Alcohol & Alcohol-Free Cocktail Mixes",
+            "emoji": "",
+            "parent": "57348596-775b-4428-8af8-626a994ac508"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "265df961-b794-40f1-98d6-8a296b57029f",
+        "fields": {
+            "uuid": "265df961-b794-40f1-98d6-8a296b57029f",
+            "name": "Low Alcohol & Alcohol-Free Hard Cider",
+            "emoji": "",
+            "parent": "57348596-775b-4428-8af8-626a994ac508"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "72cb979b-62e6-4842-8405-877294119b74",
+        "fields": {
+            "uuid": "72cb979b-62e6-4842-8405-877294119b74",
+            "name": "Low Alcohol & Alcohol-Free Liquors & Spirits",
+            "emoji": "",
+            "parent": "57348596-775b-4428-8af8-626a994ac508"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "339a1934-dfa3-4d63-999a-0a54b757e719",
+        "fields": {
+            "uuid": "339a1934-dfa3-4d63-999a-0a54b757e719",
+            "name": "Low Alcohol & Alcohol-Free Wine",
+            "emoji": "",
+            "parent": "57348596-775b-4428-8af8-626a994ac508"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "95e69622-1059-40ab-a6d2-4dcebb823e27",
+        "fields": {
+            "uuid": "95e69622-1059-40ab-a6d2-4dcebb823e27",
+            "name": "Milk",
+            "emoji": "",
+            "parent": "f762ff64-e0e0-4969-b227-31185ecc1c5c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7a04efee-d66b-4926-8219-7009b6dff5b4",
+        "fields": {
+            "uuid": "7a04efee-d66b-4926-8219-7009b6dff5b4",
+            "name": "Non-Dairy Milk",
+            "emoji": "",
+            "parent": "f762ff64-e0e0-4969-b227-31185ecc1c5c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "87480ca9-757e-4135-9e08-54590e2ca7d1",
+        "fields": {
+            "uuid": "87480ca9-757e-4135-9e08-54590e2ca7d1",
+            "name": "Coconut Milk & Drinks",
+            "emoji": "",
+            "parent": "7a04efee-d66b-4926-8219-7009b6dff5b4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "92f971bb-ae73-4a67-8b9a-4acc9a00f23a",
+        "fields": {
+            "uuid": "92f971bb-ae73-4a67-8b9a-4acc9a00f23a",
+            "name": "Nut Drinks",
+            "emoji": "",
+            "parent": "7a04efee-d66b-4926-8219-7009b6dff5b4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "243c59df-4dee-4af3-ab65-6797c6ae6465",
+        "fields": {
+            "uuid": "243c59df-4dee-4af3-ab65-6797c6ae6465",
+            "name": "Oat Drinks",
+            "emoji": "",
+            "parent": "7a04efee-d66b-4926-8219-7009b6dff5b4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "401c68c0-a594-4499-9dbb-c1019564c4a2",
+        "fields": {
+            "uuid": "401c68c0-a594-4499-9dbb-c1019564c4a2",
+            "name": "Rice Drinks",
+            "emoji": "",
+            "parent": "7a04efee-d66b-4926-8219-7009b6dff5b4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6bdeeb5c-d34e-49e4-9514-b60371fed2ff",
+        "fields": {
+            "uuid": "6bdeeb5c-d34e-49e4-9514-b60371fed2ff",
+            "name": "Soy Drinks",
+            "emoji": "",
+            "parent": "7a04efee-d66b-4926-8219-7009b6dff5b4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8e4efbe2-de5f-4626-9f73-118edfff8b77",
+        "fields": {
+            "uuid": "8e4efbe2-de5f-4626-9f73-118edfff8b77",
+            "name": "Powdered Beverage Mixes",
+            "emoji": "",
+            "parent": "f762ff64-e0e0-4969-b227-31185ecc1c5c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9c9dc6d1-909b-4d62-8cfa-d80cb582921e",
+        "fields": {
+            "uuid": "9c9dc6d1-909b-4d62-8cfa-d80cb582921e",
+            "name": "Soda",
+            "emoji": "",
+            "parent": "f762ff64-e0e0-4969-b227-31185ecc1c5c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bc917efb-717c-49b3-8d99-b277fa078dbb",
+        "fields": {
+            "uuid": "bc917efb-717c-49b3-8d99-b277fa078dbb",
+            "name": "Sports & Energy Drinks",
+            "emoji": "",
+            "parent": "f762ff64-e0e0-4969-b227-31185ecc1c5c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "11c52763-2951-4a97-abc8-b607d5416e56",
+        "fields": {
+            "uuid": "11c52763-2951-4a97-abc8-b607d5416e56",
+            "name": "Energy Drinks",
+            "emoji": "",
+            "parent": "bc917efb-717c-49b3-8d99-b277fa078dbb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "941c6802-3e12-4bf6-832d-9b9f9334b987",
+        "fields": {
+            "uuid": "941c6802-3e12-4bf6-832d-9b9f9334b987",
+            "name": "Sports Drinks",
+            "emoji": "",
+            "parent": "bc917efb-717c-49b3-8d99-b277fa078dbb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "464d519f-6441-4800-86fc-cb350b65acd7",
+        "fields": {
+            "uuid": "464d519f-6441-4800-86fc-cb350b65acd7",
+            "name": "Tea & Infusions",
+            "emoji": "",
+            "parent": "f762ff64-e0e0-4969-b227-31185ecc1c5c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a02f2c25-fa18-4659-b356-89600bcaf69e",
+        "fields": {
+            "uuid": "a02f2c25-fa18-4659-b356-89600bcaf69e",
+            "name": "Infusions",
+            "emoji": "",
+            "parent": "464d519f-6441-4800-86fc-cb350b65acd7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f2ff0b16-1a1f-4406-8142-749359732a7d",
+        "fields": {
+            "uuid": "f2ff0b16-1a1f-4406-8142-749359732a7d",
+            "name": "Tea",
+            "emoji": "",
+            "parent": "464d519f-6441-4800-86fc-cb350b65acd7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1fc5109a-4f93-44e9-9e40-0565cfc8d641",
+        "fields": {
+            "uuid": "1fc5109a-4f93-44e9-9e40-0565cfc8d641",
+            "name": "Vinegar Drinks",
+            "emoji": "",
+            "parent": "f762ff64-e0e0-4969-b227-31185ecc1c5c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b3dddfd6-6aae-4ab8-8e6c-9743c5344f71",
+        "fields": {
+            "uuid": "b3dddfd6-6aae-4ab8-8e6c-9743c5344f71",
+            "name": "Water",
+            "emoji": "",
+            "parent": "f762ff64-e0e0-4969-b227-31185ecc1c5c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "739cec75-182d-4e32-ae9a-fd319f142747",
+        "fields": {
+            "uuid": "739cec75-182d-4e32-ae9a-fd319f142747",
+            "name": "Carbonated Water",
+            "emoji": "",
+            "parent": "b3dddfd6-6aae-4ab8-8e6c-9743c5344f71"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6f90eb6c-53c2-4415-81e8-356ddd9014f5",
+        "fields": {
+            "uuid": "6f90eb6c-53c2-4415-81e8-356ddd9014f5",
+            "name": "Distilled Water",
+            "emoji": "",
+            "parent": "b3dddfd6-6aae-4ab8-8e6c-9743c5344f71"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "40311b3f-592f-4f27-a9a5-be1dfe1a3863",
+        "fields": {
+            "uuid": "40311b3f-592f-4f27-a9a5-be1dfe1a3863",
+            "name": "Flat Mineral Water",
+            "emoji": "",
+            "parent": "b3dddfd6-6aae-4ab8-8e6c-9743c5344f71"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "62418e76-deeb-44ae-97c5-53a8d7727edc",
+        "fields": {
+            "uuid": "62418e76-deeb-44ae-97c5-53a8d7727edc",
+            "name": "Spring Water",
+            "emoji": "",
+            "parent": "b3dddfd6-6aae-4ab8-8e6c-9743c5344f71"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f2f9cfcd-8007-4b52-9713-6003f4138647",
+        "fields": {
+            "uuid": "f2f9cfcd-8007-4b52-9713-6003f4138647",
+            "name": "Food Items",
+            "emoji": "",
+            "parent": "19fa142c-99f2-4a44-82b9-dbd21eb59b57"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bb3dbe50-d774-4e87-a886-d90b042873f4",
+        "fields": {
+            "uuid": "bb3dbe50-d774-4e87-a886-d90b042873f4",
+            "name": "Bakery",
+            "emoji": "",
+            "parent": "f2f9cfcd-8007-4b52-9713-6003f4138647"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dd1d74a8-acfd-48c4-89a4-2342f5523701",
+        "fields": {
+            "uuid": "dd1d74a8-acfd-48c4-89a4-2342f5523701",
+            "name": "Bagels",
+            "emoji": "",
+            "parent": "bb3dbe50-d774-4e87-a886-d90b042873f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1cea0658-e50e-457d-8643-7f259746cc93",
+        "fields": {
+            "uuid": "1cea0658-e50e-457d-8643-7f259746cc93",
+            "name": "Bakery Assortments",
+            "emoji": "",
+            "parent": "bb3dbe50-d774-4e87-a886-d90b042873f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0fff8ec4-4b8f-4f13-9ff7-b66cd63df4d5",
+        "fields": {
+            "uuid": "0fff8ec4-4b8f-4f13-9ff7-b66cd63df4d5",
+            "name": "Breads & Buns",
+            "emoji": "",
+            "parent": "bb3dbe50-d774-4e87-a886-d90b042873f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1fd8087f-533b-4bed-8c8c-603120586cc9",
+        "fields": {
+            "uuid": "1fd8087f-533b-4bed-8c8c-603120586cc9",
+            "name": "Cakes & Dessert Bars",
+            "emoji": "",
+            "parent": "bb3dbe50-d774-4e87-a886-d90b042873f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d5a9412a-3eef-4dee-8b2a-62097fc3e63d",
+        "fields": {
+            "uuid": "d5a9412a-3eef-4dee-8b2a-62097fc3e63d",
+            "name": "Cakes",
+            "emoji": "",
+            "parent": "1fd8087f-533b-4bed-8c8c-603120586cc9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "af7e8269-23cb-44d1-ae83-a629531288d2",
+        "fields": {
+            "uuid": "af7e8269-23cb-44d1-ae83-a629531288d2",
+            "name": "Dessert Bars",
+            "emoji": "",
+            "parent": "1fd8087f-533b-4bed-8c8c-603120586cc9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "20633d47-5a54-4f9e-9106-a2d26a5be34c",
+        "fields": {
+            "uuid": "20633d47-5a54-4f9e-9106-a2d26a5be34c",
+            "name": "Coffee Cakes",
+            "emoji": "",
+            "parent": "bb3dbe50-d774-4e87-a886-d90b042873f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e8c7ae83-7bb0-4acd-b9ef-8248ae6b0cb9",
+        "fields": {
+            "uuid": "e8c7ae83-7bb0-4acd-b9ef-8248ae6b0cb9",
+            "name": "Cookies",
+            "emoji": "",
+            "parent": "bb3dbe50-d774-4e87-a886-d90b042873f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c058c726-8c59-4d67-8f15-c4bb23697823",
+        "fields": {
+            "uuid": "c058c726-8c59-4d67-8f15-c4bb23697823",
+            "name": "Cupcakes",
+            "emoji": "",
+            "parent": "bb3dbe50-d774-4e87-a886-d90b042873f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d2f6da4b-14ec-4104-9dde-6fb3764b7620",
+        "fields": {
+            "uuid": "d2f6da4b-14ec-4104-9dde-6fb3764b7620",
+            "name": "Donuts",
+            "emoji": "",
+            "parent": "bb3dbe50-d774-4e87-a886-d90b042873f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "afc1324e-ae23-46cf-a4ef-ef7a56a6e334",
+        "fields": {
+            "uuid": "afc1324e-ae23-46cf-a4ef-ef7a56a6e334",
+            "name": "Fudge",
+            "emoji": "",
+            "parent": "bb3dbe50-d774-4e87-a886-d90b042873f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b0ade3e5-c055-474a-921a-cb696b2a384d",
+        "fields": {
+            "uuid": "b0ade3e5-c055-474a-921a-cb696b2a384d",
+            "name": "Ice Cream Cones",
+            "emoji": "",
+            "parent": "bb3dbe50-d774-4e87-a886-d90b042873f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9ce13dde-e05b-464d-9fec-eca6e7ddb0c6",
+        "fields": {
+            "uuid": "9ce13dde-e05b-464d-9fec-eca6e7ddb0c6",
+            "name": "Muffins",
+            "emoji": "",
+            "parent": "bb3dbe50-d774-4e87-a886-d90b042873f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6106f3d9-42bc-4c59-a556-a46b3ef4e9fe",
+        "fields": {
+            "uuid": "6106f3d9-42bc-4c59-a556-a46b3ef4e9fe",
+            "name": "Pastries & Scones",
+            "emoji": "",
+            "parent": "bb3dbe50-d774-4e87-a886-d90b042873f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bced6ea5-b320-413a-a902-a08baa7ad6d5",
+        "fields": {
+            "uuid": "bced6ea5-b320-413a-a902-a08baa7ad6d5",
+            "name": "Pies & Tarts",
+            "emoji": "",
+            "parent": "bb3dbe50-d774-4e87-a886-d90b042873f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e584b811-9cf9-4baf-8e2d-67bb736f89ee",
+        "fields": {
+            "uuid": "e584b811-9cf9-4baf-8e2d-67bb736f89ee",
+            "name": "Taco Shells & Tostadas",
+            "emoji": "",
+            "parent": "bb3dbe50-d774-4e87-a886-d90b042873f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "802889f5-91f8-4175-b243-fdfb6cabbe85",
+        "fields": {
+            "uuid": "802889f5-91f8-4175-b243-fdfb6cabbe85",
+            "name": "Tortillas & Wraps",
+            "emoji": "",
+            "parent": "bb3dbe50-d774-4e87-a886-d90b042873f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "502f9e34-5afa-4b56-8991-7c71cdcf06ab",
+        "fields": {
+            "uuid": "502f9e34-5afa-4b56-8991-7c71cdcf06ab",
+            "name": "Candied & Chocolate Covered Fruit",
+            "emoji": "",
+            "parent": "f2f9cfcd-8007-4b52-9713-6003f4138647"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5e496e3c-39ac-4a8d-9a31-1ebda1da5abe",
+        "fields": {
+            "uuid": "5e496e3c-39ac-4a8d-9a31-1ebda1da5abe",
+            "name": "Candied Fruit",
+            "emoji": "",
+            "parent": "502f9e34-5afa-4b56-8991-7c71cdcf06ab"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "82ddd31a-5928-4dfc-8443-6d6766d65dd9",
+        "fields": {
+            "uuid": "82ddd31a-5928-4dfc-8443-6d6766d65dd9",
+            "name": "Chocolate Covered Fruit",
+            "emoji": "",
+            "parent": "502f9e34-5afa-4b56-8991-7c71cdcf06ab"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e75c0850-db9f-47e8-94bd-ad024a5a4dda",
+        "fields": {
+            "uuid": "e75c0850-db9f-47e8-94bd-ad024a5a4dda",
+            "name": "Candy & Chocolate",
+            "emoji": "",
+            "parent": "f2f9cfcd-8007-4b52-9713-6003f4138647"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b64c26bf-3207-4393-8825-33488c35b101",
+        "fields": {
+            "uuid": "b64c26bf-3207-4393-8825-33488c35b101",
+            "name": "Candy",
+            "emoji": "",
+            "parent": "e75c0850-db9f-47e8-94bd-ad024a5a4dda"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2ccaab59-986c-465e-aaeb-cc1fd49fb25b",
+        "fields": {
+            "uuid": "2ccaab59-986c-465e-aaeb-cc1fd49fb25b",
+            "name": "Chocolate",
+            "emoji": "",
+            "parent": "e75c0850-db9f-47e8-94bd-ad024a5a4dda"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "64bd86f0-a300-4c62-9dfa-1763ff6aed5f",
+        "fields": {
+            "uuid": "64bd86f0-a300-4c62-9dfa-1763ff6aed5f",
+            "name": "Condiments & Sauces",
+            "emoji": "",
+            "parent": "f2f9cfcd-8007-4b52-9713-6003f4138647"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "334dd069-956e-4404-b178-474ae727bfc0",
+        "fields": {
+            "uuid": "334dd069-956e-4404-b178-474ae727bfc0",
+            "name": "Cocktail Sauce",
+            "emoji": "",
+            "parent": "64bd86f0-a300-4c62-9dfa-1763ff6aed5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2cf8d5bf-8429-4bfd-8fa7-221228e7a319",
+        "fields": {
+            "uuid": "2cf8d5bf-8429-4bfd-8fa7-221228e7a319",
+            "name": "Curry Sauce",
+            "emoji": "",
+            "parent": "64bd86f0-a300-4c62-9dfa-1763ff6aed5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1302b08a-ed2b-4d56-9a48-c726c731c648",
+        "fields": {
+            "uuid": "1302b08a-ed2b-4d56-9a48-c726c731c648",
+            "name": "Dessert Toppings",
+            "emoji": "",
+            "parent": "64bd86f0-a300-4c62-9dfa-1763ff6aed5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d1e3ac80-53ed-467d-9c21-b51d09a39371",
+        "fields": {
+            "uuid": "d1e3ac80-53ed-467d-9c21-b51d09a39371",
+            "name": "Fruit Toppings",
+            "emoji": "",
+            "parent": "1302b08a-ed2b-4d56-9a48-c726c731c648"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "26d14107-8c21-49c6-81bd-76c4bf1df551",
+        "fields": {
+            "uuid": "26d14107-8c21-49c6-81bd-76c4bf1df551",
+            "name": "Ice Cream Syrup",
+            "emoji": "",
+            "parent": "1302b08a-ed2b-4d56-9a48-c726c731c648"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a6c29ce5-1fbc-422d-8c10-8ae5715dd6e0",
+        "fields": {
+            "uuid": "a6c29ce5-1fbc-422d-8c10-8ae5715dd6e0",
+            "name": "Fish Sauce",
+            "emoji": "",
+            "parent": "64bd86f0-a300-4c62-9dfa-1763ff6aed5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0180f75d-d6b5-4d61-9ab6-b3ade7631db0",
+        "fields": {
+            "uuid": "0180f75d-d6b5-4d61-9ab6-b3ade7631db0",
+            "name": "Gravy",
+            "emoji": "",
+            "parent": "64bd86f0-a300-4c62-9dfa-1763ff6aed5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a3671e6b-dfa7-4117-80e9-3ef3cd3cacd6",
+        "fields": {
+            "uuid": "a3671e6b-dfa7-4117-80e9-3ef3cd3cacd6",
+            "name": "Honey",
+            "emoji": "",
+            "parent": "64bd86f0-a300-4c62-9dfa-1763ff6aed5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5e7da784-8b36-4ab2-938a-e019bd6cb47d",
+        "fields": {
+            "uuid": "5e7da784-8b36-4ab2-938a-e019bd6cb47d",
+            "name": "Horseradish Sauce",
+            "emoji": "",
+            "parent": "64bd86f0-a300-4c62-9dfa-1763ff6aed5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aaa69581-b498-4131-99f2-1e088f88accf",
+        "fields": {
+            "uuid": "aaa69581-b498-4131-99f2-1e088f88accf",
+            "name": "Hot Sauce",
+            "emoji": "",
+            "parent": "64bd86f0-a300-4c62-9dfa-1763ff6aed5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "85d54b30-9973-4bce-b7df-c50148ca4c8c",
+        "fields": {
+            "uuid": "85d54b30-9973-4bce-b7df-c50148ca4c8c",
+            "name": "Ketchup",
+            "emoji": "",
+            "parent": "64bd86f0-a300-4c62-9dfa-1763ff6aed5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e7c9c543-5b5f-4d0b-a78d-0c709b259583",
+        "fields": {
+            "uuid": "e7c9c543-5b5f-4d0b-a78d-0c709b259583",
+            "name": "Marinades & Grilling Sauces",
+            "emoji": "",
+            "parent": "64bd86f0-a300-4c62-9dfa-1763ff6aed5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5afbadc1-6c87-4bc7-8c8f-e918ccb8894e",
+        "fields": {
+            "uuid": "5afbadc1-6c87-4bc7-8c8f-e918ccb8894e",
+            "name": "Mayonnaise",
+            "emoji": "",
+            "parent": "64bd86f0-a300-4c62-9dfa-1763ff6aed5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b40b6b73-30a9-4612-926b-06f03e079184",
+        "fields": {
+            "uuid": "b40b6b73-30a9-4612-926b-06f03e079184",
+            "name": "Mustard",
+            "emoji": "",
+            "parent": "64bd86f0-a300-4c62-9dfa-1763ff6aed5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "42b1a23b-6304-474d-b5c9-4265040d2ecd",
+        "fields": {
+            "uuid": "42b1a23b-6304-474d-b5c9-4265040d2ecd",
+            "name": "Olives & Capers",
+            "emoji": "",
+            "parent": "64bd86f0-a300-4c62-9dfa-1763ff6aed5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1d985c9b-0777-4323-89dc-e2cfbc772bae",
+        "fields": {
+            "uuid": "1d985c9b-0777-4323-89dc-e2cfbc772bae",
+            "name": "Capers",
+            "emoji": "",
+            "parent": "42b1a23b-6304-474d-b5c9-4265040d2ecd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ff0abc22-100e-4c71-bc57-b42120cc2aec",
+        "fields": {
+            "uuid": "ff0abc22-100e-4c71-bc57-b42120cc2aec",
+            "name": "Olives",
+            "emoji": "",
+            "parent": "42b1a23b-6304-474d-b5c9-4265040d2ecd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4705defe-0b9a-45c6-a400-a4fb18c11edf",
+        "fields": {
+            "uuid": "4705defe-0b9a-45c6-a400-a4fb18c11edf",
+            "name": "Pasta Sauce",
+            "emoji": "",
+            "parent": "64bd86f0-a300-4c62-9dfa-1763ff6aed5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "06939311-e590-4f45-8519-3f9a89fe003e",
+        "fields": {
+            "uuid": "06939311-e590-4f45-8519-3f9a89fe003e",
+            "name": "Pickled Fruits & Vegetables",
+            "emoji": "",
+            "parent": "64bd86f0-a300-4c62-9dfa-1763ff6aed5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b51d8d61-84ba-4398-b278-bcf506e0b627",
+        "fields": {
+            "uuid": "b51d8d61-84ba-4398-b278-bcf506e0b627",
+            "name": "Pizza Sauce",
+            "emoji": "",
+            "parent": "64bd86f0-a300-4c62-9dfa-1763ff6aed5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "856ca49b-fbd9-4bed-bb02-5a3d61326497",
+        "fields": {
+            "uuid": "856ca49b-fbd9-4bed-bb02-5a3d61326497",
+            "name": "Relish & Chutney",
+            "emoji": "",
+            "parent": "64bd86f0-a300-4c62-9dfa-1763ff6aed5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "30de518a-6ccd-42f5-90ce-364e931c1fbe",
+        "fields": {
+            "uuid": "30de518a-6ccd-42f5-90ce-364e931c1fbe",
+            "name": "Salad Dressing",
+            "emoji": "",
+            "parent": "64bd86f0-a300-4c62-9dfa-1763ff6aed5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "be5fee59-11fe-4a01-a15d-194234d5f710",
+        "fields": {
+            "uuid": "be5fee59-11fe-4a01-a15d-194234d5f710",
+            "name": "Satay Sauce",
+            "emoji": "",
+            "parent": "64bd86f0-a300-4c62-9dfa-1763ff6aed5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bc726b12-c853-48d9-b954-b825e63eea6c",
+        "fields": {
+            "uuid": "bc726b12-c853-48d9-b954-b825e63eea6c",
+            "name": "Soy Sauce",
+            "emoji": "",
+            "parent": "64bd86f0-a300-4c62-9dfa-1763ff6aed5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "70376ffc-05e4-4f4e-b707-34292ec8e06b",
+        "fields": {
+            "uuid": "70376ffc-05e4-4f4e-b707-34292ec8e06b",
+            "name": "Sweet and Sour Sauces",
+            "emoji": "",
+            "parent": "64bd86f0-a300-4c62-9dfa-1763ff6aed5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a547e056-3c98-4869-80b4-15a3c4b47133",
+        "fields": {
+            "uuid": "a547e056-3c98-4869-80b4-15a3c4b47133",
+            "name": "Syrup",
+            "emoji": "",
+            "parent": "64bd86f0-a300-4c62-9dfa-1763ff6aed5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4ee7f5ef-d856-4b3f-a7aa-fa7ee28ce492",
+        "fields": {
+            "uuid": "4ee7f5ef-d856-4b3f-a7aa-fa7ee28ce492",
+            "name": "Tahini",
+            "emoji": "",
+            "parent": "64bd86f0-a300-4c62-9dfa-1763ff6aed5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "beff4501-7161-4b48-9ddc-068928e2cf24",
+        "fields": {
+            "uuid": "beff4501-7161-4b48-9ddc-068928e2cf24",
+            "name": "Tartar Sauce",
+            "emoji": "",
+            "parent": "64bd86f0-a300-4c62-9dfa-1763ff6aed5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8610f10b-5bdf-445f-94ec-7b8357bcd6ce",
+        "fields": {
+            "uuid": "8610f10b-5bdf-445f-94ec-7b8357bcd6ce",
+            "name": "White & Cream Sauces",
+            "emoji": "",
+            "parent": "64bd86f0-a300-4c62-9dfa-1763ff6aed5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d3f6b0b7-3797-4531-9e8d-0aff7a0c05aa",
+        "fields": {
+            "uuid": "d3f6b0b7-3797-4531-9e8d-0aff7a0c05aa",
+            "name": "Worcestershire Sauce",
+            "emoji": "",
+            "parent": "64bd86f0-a300-4c62-9dfa-1763ff6aed5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "efe4d485-4da9-4587-9c56-403ee912851e",
+        "fields": {
+            "uuid": "efe4d485-4da9-4587-9c56-403ee912851e",
+            "name": "Cooking & Baking Ingredients",
+            "emoji": "",
+            "parent": "f2f9cfcd-8007-4b52-9713-6003f4138647"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5b481386-e4ef-4c32-9e9e-0ccc37b68963",
+        "fields": {
+            "uuid": "5b481386-e4ef-4c32-9e9e-0ccc37b68963",
+            "name": "Baking Chips",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bbb31e53-9b73-4227-a5ff-92b447fc3b64",
+        "fields": {
+            "uuid": "bbb31e53-9b73-4227-a5ff-92b447fc3b64",
+            "name": "Baking Chocolate",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "68fb2482-686d-435c-9adf-a5376dcb6efa",
+        "fields": {
+            "uuid": "68fb2482-686d-435c-9adf-a5376dcb6efa",
+            "name": "Baking Flavors & Extracts",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e4404c56-ec78-4e07-b705-f0fe866b55bf",
+        "fields": {
+            "uuid": "e4404c56-ec78-4e07-b705-f0fe866b55bf",
+            "name": "Baking Mixes",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "235c62b4-b3cf-400e-bc77-d8215132763c",
+        "fields": {
+            "uuid": "235c62b4-b3cf-400e-bc77-d8215132763c",
+            "name": "Baking Powder",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5e9978c2-de21-4aa2-956e-33c94ca79925",
+        "fields": {
+            "uuid": "5e9978c2-de21-4aa2-956e-33c94ca79925",
+            "name": "Baking Soda",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0433a759-1c0c-4610-8dea-e8b06ff3ce3c",
+        "fields": {
+            "uuid": "0433a759-1c0c-4610-8dea-e8b06ff3ce3c",
+            "name": "Batter & Coating Mixes",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "664ce49f-676c-4bfb-8384-913b9eea27ae",
+        "fields": {
+            "uuid": "664ce49f-676c-4bfb-8384-913b9eea27ae",
+            "name": "Bean Paste",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "456a042c-13a9-4874-9817-4b57874b787b",
+        "fields": {
+            "uuid": "456a042c-13a9-4874-9817-4b57874b787b",
+            "name": "Bread Crumbs",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2fdd9129-9413-4e5c-b552-4c966da7bd03",
+        "fields": {
+            "uuid": "2fdd9129-9413-4e5c-b552-4c966da7bd03",
+            "name": "Canned & Dry Milk",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cfcaa1b9-1839-4acd-8a63-f130a8188de0",
+        "fields": {
+            "uuid": "cfcaa1b9-1839-4acd-8a63-f130a8188de0",
+            "name": "Condensed Milk",
+            "emoji": "",
+            "parent": "2fdd9129-9413-4e5c-b552-4c966da7bd03"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5ac3b45b-a6a5-4e70-92c6-49e178774534",
+        "fields": {
+            "uuid": "5ac3b45b-a6a5-4e70-92c6-49e178774534",
+            "name": "Evaporated Milk",
+            "emoji": "",
+            "parent": "2fdd9129-9413-4e5c-b552-4c966da7bd03"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5a6f0892-43c2-41f2-b517-f7670d9c34cc",
+        "fields": {
+            "uuid": "5a6f0892-43c2-41f2-b517-f7670d9c34cc",
+            "name": "Powdered Milk",
+            "emoji": "",
+            "parent": "2fdd9129-9413-4e5c-b552-4c966da7bd03"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1f10f452-e083-4d47-914a-a4f969975974",
+        "fields": {
+            "uuid": "1f10f452-e083-4d47-914a-a4f969975974",
+            "name": "Cookie Decorating Kits",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ed854216-1695-45e5-9a73-344ad5e5cd31",
+        "fields": {
+            "uuid": "ed854216-1695-45e5-9a73-344ad5e5cd31",
+            "name": "Cooking Oils",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1c890211-e427-45f4-885f-31fdf5b17462",
+        "fields": {
+            "uuid": "1c890211-e427-45f4-885f-31fdf5b17462",
+            "name": "Avocado Oil",
+            "emoji": "",
+            "parent": "ed854216-1695-45e5-9a73-344ad5e5cd31"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aa1993fa-9178-4afa-a9cd-4610dbda3cb4",
+        "fields": {
+            "uuid": "aa1993fa-9178-4afa-a9cd-4610dbda3cb4",
+            "name": "Coconut Oil",
+            "emoji": "",
+            "parent": "ed854216-1695-45e5-9a73-344ad5e5cd31"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1132b888-1410-4142-8d3b-7dfc6dd2f1f6",
+        "fields": {
+            "uuid": "1132b888-1410-4142-8d3b-7dfc6dd2f1f6",
+            "name": "Corn Oil",
+            "emoji": "",
+            "parent": "ed854216-1695-45e5-9a73-344ad5e5cd31"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a49e1072-ff15-4d51-a248-87ae4c67fd35",
+        "fields": {
+            "uuid": "a49e1072-ff15-4d51-a248-87ae4c67fd35",
+            "name": "Olive Oil",
+            "emoji": "",
+            "parent": "ed854216-1695-45e5-9a73-344ad5e5cd31"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0c45b0c2-652e-4c54-a994-d959d3cd8565",
+        "fields": {
+            "uuid": "0c45b0c2-652e-4c54-a994-d959d3cd8565",
+            "name": "Peanut Oil",
+            "emoji": "",
+            "parent": "ed854216-1695-45e5-9a73-344ad5e5cd31"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6cd08773-b6ab-4b72-81d6-38867acc567e",
+        "fields": {
+            "uuid": "6cd08773-b6ab-4b72-81d6-38867acc567e",
+            "name": "Rapeseed Oil",
+            "emoji": "",
+            "parent": "ed854216-1695-45e5-9a73-344ad5e5cd31"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bb7585ae-85f2-4349-a9f4-4d5763e338b7",
+        "fields": {
+            "uuid": "bb7585ae-85f2-4349-a9f4-4d5763e338b7",
+            "name": "Sesame Oil",
+            "emoji": "",
+            "parent": "ed854216-1695-45e5-9a73-344ad5e5cd31"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a70a9dd4-4ed5-443f-b81b-ed9aedf29c82",
+        "fields": {
+            "uuid": "a70a9dd4-4ed5-443f-b81b-ed9aedf29c82",
+            "name": "Soybean Oil",
+            "emoji": "",
+            "parent": "ed854216-1695-45e5-9a73-344ad5e5cd31"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9d8ca584-dd1b-49aa-acc0-bcf7c55f8edb",
+        "fields": {
+            "uuid": "9d8ca584-dd1b-49aa-acc0-bcf7c55f8edb",
+            "name": "Sunflower Oil",
+            "emoji": "",
+            "parent": "ed854216-1695-45e5-9a73-344ad5e5cd31"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6e5181e0-3f80-4331-a4b5-21aa86b752ec",
+        "fields": {
+            "uuid": "6e5181e0-3f80-4331-a4b5-21aa86b752ec",
+            "name": "Vegetable Oil",
+            "emoji": "",
+            "parent": "ed854216-1695-45e5-9a73-344ad5e5cd31"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "12c9599d-e25e-4625-b2f0-daf4e4a8e49a",
+        "fields": {
+            "uuid": "12c9599d-e25e-4625-b2f0-daf4e4a8e49a",
+            "name": "Cooking Starch",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "992a21f2-614b-4f14-81b1-fa7b7595bd2e",
+        "fields": {
+            "uuid": "992a21f2-614b-4f14-81b1-fa7b7595bd2e",
+            "name": "Cooking Wine",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "961c1cf6-9274-4b85-b717-b243fb705523",
+        "fields": {
+            "uuid": "961c1cf6-9274-4b85-b717-b243fb705523",
+            "name": "Corn Syrup",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7d994609-568e-4c99-b0fb-7e9607f5c1a2",
+        "fields": {
+            "uuid": "7d994609-568e-4c99-b0fb-7e9607f5c1a2",
+            "name": "Dough",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "16ed36b0-5d52-4646-b49a-53efb27b82dc",
+        "fields": {
+            "uuid": "16ed36b0-5d52-4646-b49a-53efb27b82dc",
+            "name": "Bread & Pastry Dough",
+            "emoji": "",
+            "parent": "7d994609-568e-4c99-b0fb-7e9607f5c1a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bccf4f1d-f851-4735-8e34-0fb435f56e45",
+        "fields": {
+            "uuid": "bccf4f1d-f851-4735-8e34-0fb435f56e45",
+            "name": "Cookie & Brownie Dough",
+            "emoji": "",
+            "parent": "7d994609-568e-4c99-b0fb-7e9607f5c1a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fa1f8fa3-a4b3-416a-a7b1-b6a61a295875",
+        "fields": {
+            "uuid": "fa1f8fa3-a4b3-416a-a7b1-b6a61a295875",
+            "name": "Pie Crusts",
+            "emoji": "",
+            "parent": "7d994609-568e-4c99-b0fb-7e9607f5c1a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fd59f729-5183-47eb-ac10-d6248ed7081f",
+        "fields": {
+            "uuid": "fd59f729-5183-47eb-ac10-d6248ed7081f",
+            "name": "Edible Baking Decorations",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "616f69f4-c195-47b5-90b7-a8879ea2d10f",
+        "fields": {
+            "uuid": "616f69f4-c195-47b5-90b7-a8879ea2d10f",
+            "name": "Egg Replacers",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9f213d21-3604-48f6-8e2f-a6461dc54e92",
+        "fields": {
+            "uuid": "9f213d21-3604-48f6-8e2f-a6461dc54e92",
+            "name": "Floss Sugar",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f18765d4-0141-48e2-b601-6a45446c141f",
+        "fields": {
+            "uuid": "f18765d4-0141-48e2-b601-6a45446c141f",
+            "name": "Flour",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "699e867e-cd0a-411f-93a0-f26d480484c7",
+        "fields": {
+            "uuid": "699e867e-cd0a-411f-93a0-f26d480484c7",
+            "name": "Food Coloring",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "20075a35-af0e-4193-ab5a-064a386ec574",
+        "fields": {
+            "uuid": "20075a35-af0e-4193-ab5a-064a386ec574",
+            "name": "Frosting & Icing",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "46b7711e-e3ee-4cd0-ac01-e9d71e52cec9",
+        "fields": {
+            "uuid": "46b7711e-e3ee-4cd0-ac01-e9d71e52cec9",
+            "name": "Lemon & Lime Juice",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7e15ff42-807d-4d93-a76d-3d41dadf4e0e",
+        "fields": {
+            "uuid": "7e15ff42-807d-4d93-a76d-3d41dadf4e0e",
+            "name": "Marshmallows",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1ce4bb4c-c7eb-41f5-a0d0-afac88859002",
+        "fields": {
+            "uuid": "1ce4bb4c-c7eb-41f5-a0d0-afac88859002",
+            "name": "Meal",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "11a8e7ff-57aa-47da-9191-3a21d3d7e748",
+        "fields": {
+            "uuid": "11a8e7ff-57aa-47da-9191-3a21d3d7e748",
+            "name": "Molasses",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3863da23-e09f-4126-98fc-4750fb0118a7",
+        "fields": {
+            "uuid": "3863da23-e09f-4126-98fc-4750fb0118a7",
+            "name": "Pie & Pastry Fillings",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9b8cfd3d-5d65-41a7-abbb-cd6fef319642",
+        "fields": {
+            "uuid": "9b8cfd3d-5d65-41a7-abbb-cd6fef319642",
+            "name": "Shortening & Lard",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c8f5ea05-ec48-4e16-a9e4-d9f2b8768e5a",
+        "fields": {
+            "uuid": "c8f5ea05-ec48-4e16-a9e4-d9f2b8768e5a",
+            "name": "Starter Cultures",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "29dee2f7-8cc4-440e-b321-c539e929d68a",
+        "fields": {
+            "uuid": "29dee2f7-8cc4-440e-b321-c539e929d68a",
+            "name": "Sugar & Sweeteners",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e2016dfa-32f7-4cec-a3dd-3fda0a9c4be4",
+        "fields": {
+            "uuid": "e2016dfa-32f7-4cec-a3dd-3fda0a9c4be4",
+            "name": "Granulated Sugar",
+            "emoji": "",
+            "parent": "29dee2f7-8cc4-440e-b321-c539e929d68a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "49be2f48-b1b8-4669-96a3-248203447fb1",
+        "fields": {
+            "uuid": "49be2f48-b1b8-4669-96a3-248203447fb1",
+            "name": "Icing Sugar",
+            "emoji": "",
+            "parent": "29dee2f7-8cc4-440e-b321-c539e929d68a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2c1bd9bd-9686-44d8-b479-1a08884d73a7",
+        "fields": {
+            "uuid": "2c1bd9bd-9686-44d8-b479-1a08884d73a7",
+            "name": "Sweeteners",
+            "emoji": "",
+            "parent": "29dee2f7-8cc4-440e-b321-c539e929d68a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "18366c35-e723-46d7-9565-668cbc31e8dd",
+        "fields": {
+            "uuid": "18366c35-e723-46d7-9565-668cbc31e8dd",
+            "name": "Syrups & Nectars",
+            "emoji": "",
+            "parent": "29dee2f7-8cc4-440e-b321-c539e929d68a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "38d1799b-131b-4252-bbb0-b211a6f929d6",
+        "fields": {
+            "uuid": "38d1799b-131b-4252-bbb0-b211a6f929d6",
+            "name": "Tapioca Pearls",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e47cd743-d2e3-4ef5-8237-f23346d2c5f0",
+        "fields": {
+            "uuid": "e47cd743-d2e3-4ef5-8237-f23346d2c5f0",
+            "name": "Tomato Paste",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5a921913-9c60-4bee-a930-d3229fc658f2",
+        "fields": {
+            "uuid": "5a921913-9c60-4bee-a930-d3229fc658f2",
+            "name": "Unflavored Gelatin",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4de442ae-97fe-4bc5-877b-66a4ca5e5469",
+        "fields": {
+            "uuid": "4de442ae-97fe-4bc5-877b-66a4ca5e5469",
+            "name": "Vinegar",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3a2302fa-2b66-40f6-a700-19f3baafdbfe",
+        "fields": {
+            "uuid": "3a2302fa-2b66-40f6-a700-19f3baafdbfe",
+            "name": "Waffle & Pancake Mixes",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fb53e667-4f37-4089-96fd-e35bfa2fc137",
+        "fields": {
+            "uuid": "fb53e667-4f37-4089-96fd-e35bfa2fc137",
+            "name": "Yeast",
+            "emoji": "",
+            "parent": "efe4d485-4da9-4587-9c56-403ee912851e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ac3bc559-90b0-4ddc-b2e3-0d39146e3e29",
+        "fields": {
+            "uuid": "ac3bc559-90b0-4ddc-b2e3-0d39146e3e29",
+            "name": "Dairy Products",
+            "emoji": "",
+            "parent": "f2f9cfcd-8007-4b52-9713-6003f4138647"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a0b1da2d-3a82-485b-9c56-569781d595da",
+        "fields": {
+            "uuid": "a0b1da2d-3a82-485b-9c56-569781d595da",
+            "name": "Butter & Margarine",
+            "emoji": "",
+            "parent": "ac3bc559-90b0-4ddc-b2e3-0d39146e3e29"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ce805c41-ad66-4135-b6a2-cf8481792b98",
+        "fields": {
+            "uuid": "ce805c41-ad66-4135-b6a2-cf8481792b98",
+            "name": "Margarine",
+            "emoji": "",
+            "parent": "a0b1da2d-3a82-485b-9c56-569781d595da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fe35aef5-b683-4a78-b5d6-1933d17040e3",
+        "fields": {
+            "uuid": "fe35aef5-b683-4a78-b5d6-1933d17040e3",
+            "name": "Salted Butter",
+            "emoji": "",
+            "parent": "a0b1da2d-3a82-485b-9c56-569781d595da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "27c6393a-f412-444a-b5dc-1e7f75d40c42",
+        "fields": {
+            "uuid": "27c6393a-f412-444a-b5dc-1e7f75d40c42",
+            "name": "Unsalted Butter",
+            "emoji": "",
+            "parent": "a0b1da2d-3a82-485b-9c56-569781d595da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3861d595-89ad-43bb-af74-6147c8e46296",
+        "fields": {
+            "uuid": "3861d595-89ad-43bb-af74-6147c8e46296",
+            "name": "Whipped Butter",
+            "emoji": "",
+            "parent": "a0b1da2d-3a82-485b-9c56-569781d595da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1b2082c4-297f-4809-a1bc-c1c8779360bd",
+        "fields": {
+            "uuid": "1b2082c4-297f-4809-a1bc-c1c8779360bd",
+            "name": "Cheese",
+            "emoji": "",
+            "parent": "ac3bc559-90b0-4ddc-b2e3-0d39146e3e29"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d51f2e2b-d4d6-494a-aad8-00e8954718a4",
+        "fields": {
+            "uuid": "d51f2e2b-d4d6-494a-aad8-00e8954718a4",
+            "name": "Coffee Creamer",
+            "emoji": "",
+            "parent": "ac3bc559-90b0-4ddc-b2e3-0d39146e3e29"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "90ac95aa-691b-468c-a048-acf79970efd7",
+        "fields": {
+            "uuid": "90ac95aa-691b-468c-a048-acf79970efd7",
+            "name": "Cottage Cheese",
+            "emoji": "",
+            "parent": "ac3bc559-90b0-4ddc-b2e3-0d39146e3e29"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fce5ce8f-21bb-4c2e-a3d1-525e3db4a063",
+        "fields": {
+            "uuid": "fce5ce8f-21bb-4c2e-a3d1-525e3db4a063",
+            "name": "Cream",
+            "emoji": "",
+            "parent": "ac3bc559-90b0-4ddc-b2e3-0d39146e3e29"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ff459f5d-a80c-44a3-a1a0-103a1ed1e4f2",
+        "fields": {
+            "uuid": "ff459f5d-a80c-44a3-a1a0-103a1ed1e4f2",
+            "name": "Fresh Cream",
+            "emoji": "",
+            "parent": "fce5ce8f-21bb-4c2e-a3d1-525e3db4a063"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "49a58fb6-7c94-4e85-92bc-a1867268a9f8",
+        "fields": {
+            "uuid": "49a58fb6-7c94-4e85-92bc-a1867268a9f8",
+            "name": "Whipping Cream",
+            "emoji": "",
+            "parent": "fce5ce8f-21bb-4c2e-a3d1-525e3db4a063"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bc9955e4-f748-4a7d-93df-b4422519b248",
+        "fields": {
+            "uuid": "bc9955e4-f748-4a7d-93df-b4422519b248",
+            "name": "Sour Cream",
+            "emoji": "",
+            "parent": "ac3bc559-90b0-4ddc-b2e3-0d39146e3e29"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9981b64e-fcb8-442d-9362-8012edea79c8",
+        "fields": {
+            "uuid": "9981b64e-fcb8-442d-9362-8012edea79c8",
+            "name": "Whipped Cream",
+            "emoji": "",
+            "parent": "ac3bc559-90b0-4ddc-b2e3-0d39146e3e29"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8224693e-a8d2-4fd6-9abc-be956ad35814",
+        "fields": {
+            "uuid": "8224693e-a8d2-4fd6-9abc-be956ad35814",
+            "name": "Yogurt",
+            "emoji": "",
+            "parent": "ac3bc559-90b0-4ddc-b2e3-0d39146e3e29"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c043a995-e570-4d20-906c-edd2bc6e67ff",
+        "fields": {
+            "uuid": "c043a995-e570-4d20-906c-edd2bc6e67ff",
+            "name": "Dips & Spreads",
+            "emoji": "",
+            "parent": "f2f9cfcd-8007-4b52-9713-6003f4138647"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a4e5d93e-2842-4f90-864f-63e7d61b74b7",
+        "fields": {
+            "uuid": "a4e5d93e-2842-4f90-864f-63e7d61b74b7",
+            "name": "Apple Butter",
+            "emoji": "",
+            "parent": "c043a995-e570-4d20-906c-edd2bc6e67ff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0dc23490-bd92-4627-81b0-f520cfac9e53",
+        "fields": {
+            "uuid": "0dc23490-bd92-4627-81b0-f520cfac9e53",
+            "name": "Cheese Dips & Spreads",
+            "emoji": "",
+            "parent": "c043a995-e570-4d20-906c-edd2bc6e67ff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f9657f91-84f9-4a39-8d66-f6fd6090f975",
+        "fields": {
+            "uuid": "f9657f91-84f9-4a39-8d66-f6fd6090f975",
+            "name": "Cream Cheese",
+            "emoji": "",
+            "parent": "c043a995-e570-4d20-906c-edd2bc6e67ff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aceacb89-919e-455f-a882-65ccc44a30f4",
+        "fields": {
+            "uuid": "aceacb89-919e-455f-a882-65ccc44a30f4",
+            "name": "Guacamole",
+            "emoji": "",
+            "parent": "c043a995-e570-4d20-906c-edd2bc6e67ff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3d870d53-aade-4a60-80f5-ef7ceb2bf183",
+        "fields": {
+            "uuid": "3d870d53-aade-4a60-80f5-ef7ceb2bf183",
+            "name": "Hummus",
+            "emoji": "",
+            "parent": "c043a995-e570-4d20-906c-edd2bc6e67ff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "109c1da4-6b33-4d2b-b8b7-9ff3659b1d0f",
+        "fields": {
+            "uuid": "109c1da4-6b33-4d2b-b8b7-9ff3659b1d0f",
+            "name": "Jams & Jellies",
+            "emoji": "",
+            "parent": "c043a995-e570-4d20-906c-edd2bc6e67ff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "de4ce463-ecff-491a-aba7-3be2284090dc",
+        "fields": {
+            "uuid": "de4ce463-ecff-491a-aba7-3be2284090dc",
+            "name": "Nut Butters",
+            "emoji": "",
+            "parent": "c043a995-e570-4d20-906c-edd2bc6e67ff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cc67f2b3-db41-43b1-9816-2f8cc94e6311",
+        "fields": {
+            "uuid": "cc67f2b3-db41-43b1-9816-2f8cc94e6311",
+            "name": "Salsa",
+            "emoji": "",
+            "parent": "c043a995-e570-4d20-906c-edd2bc6e67ff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3ba81411-7c6c-4941-a128-53df73a9c31c",
+        "fields": {
+            "uuid": "3ba81411-7c6c-4941-a128-53df73a9c31c",
+            "name": "Tapenade",
+            "emoji": "",
+            "parent": "c043a995-e570-4d20-906c-edd2bc6e67ff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d366955e-96f0-4c2f-80fb-f4fa171a8125",
+        "fields": {
+            "uuid": "d366955e-96f0-4c2f-80fb-f4fa171a8125",
+            "name": "Vegetable Dip",
+            "emoji": "",
+            "parent": "c043a995-e570-4d20-906c-edd2bc6e67ff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f37b097e-029e-44c7-9ab2-11c37dd414a4",
+        "fields": {
+            "uuid": "f37b097e-029e-44c7-9ab2-11c37dd414a4",
+            "name": "Food Gift Baskets",
+            "emoji": "",
+            "parent": "f2f9cfcd-8007-4b52-9713-6003f4138647"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8532df9d-f711-4596-a214-059e829bfc2e",
+        "fields": {
+            "uuid": "8532df9d-f711-4596-a214-059e829bfc2e",
+            "name": "Frozen Desserts & Novelties",
+            "emoji": "",
+            "parent": "f2f9cfcd-8007-4b52-9713-6003f4138647"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1a9a1dfd-0647-418b-97b8-001964591d21",
+        "fields": {
+            "uuid": "1a9a1dfd-0647-418b-97b8-001964591d21",
+            "name": "Ice Cream & Frozen Yogurt",
+            "emoji": "",
+            "parent": "8532df9d-f711-4596-a214-059e829bfc2e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "706f1661-585e-40b4-8af3-4d85c8ebc9e8",
+        "fields": {
+            "uuid": "706f1661-585e-40b4-8af3-4d85c8ebc9e8",
+            "name": "Frozen Yogurt",
+            "emoji": "",
+            "parent": "1a9a1dfd-0647-418b-97b8-001964591d21"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c6776cb9-b44f-4215-91fa-2a504ace8622",
+        "fields": {
+            "uuid": "c6776cb9-b44f-4215-91fa-2a504ace8622",
+            "name": "Gelato",
+            "emoji": "",
+            "parent": "1a9a1dfd-0647-418b-97b8-001964591d21"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "38c6f877-ec59-4d00-980b-33af4570e201",
+        "fields": {
+            "uuid": "38c6f877-ec59-4d00-980b-33af4570e201",
+            "name": "Ice Cream",
+            "emoji": "",
+            "parent": "1a9a1dfd-0647-418b-97b8-001964591d21"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e3fb49cf-1094-4827-9d4c-7cf927fbdfb7",
+        "fields": {
+            "uuid": "e3fb49cf-1094-4827-9d4c-7cf927fbdfb7",
+            "name": "Sherbet",
+            "emoji": "",
+            "parent": "1a9a1dfd-0647-418b-97b8-001964591d21"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "552e84d6-e700-4a26-89e5-7f9d98bfec89",
+        "fields": {
+            "uuid": "552e84d6-e700-4a26-89e5-7f9d98bfec89",
+            "name": "Sorbet",
+            "emoji": "",
+            "parent": "1a9a1dfd-0647-418b-97b8-001964591d21"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3c2779dd-ff1e-4f8c-a690-24672efc76a8",
+        "fields": {
+            "uuid": "3c2779dd-ff1e-4f8c-a690-24672efc76a8",
+            "name": "Ice Cream Novelties",
+            "emoji": "",
+            "parent": "8532df9d-f711-4596-a214-059e829bfc2e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ecaa273c-3cb1-4819-a20a-fd52e81b76af",
+        "fields": {
+            "uuid": "ecaa273c-3cb1-4819-a20a-fd52e81b76af",
+            "name": "Ice Pops",
+            "emoji": "",
+            "parent": "8532df9d-f711-4596-a214-059e829bfc2e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c9beb3b0-f6b4-4ea1-a50b-44106c6e69e2",
+        "fields": {
+            "uuid": "c9beb3b0-f6b4-4ea1-a50b-44106c6e69e2",
+            "name": "Fruits & Vegetables",
+            "emoji": "",
+            "parent": "f2f9cfcd-8007-4b52-9713-6003f4138647"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b0ecc8c0-c0cb-4a37-8a12-e15e4cb63b7d",
+        "fields": {
+            "uuid": "b0ecc8c0-c0cb-4a37-8a12-e15e4cb63b7d",
+            "name": "Canned & Jarred Fruits",
+            "emoji": "",
+            "parent": "c9beb3b0-f6b4-4ea1-a50b-44106c6e69e2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d0bc0377-dbca-4aef-8d16-0aa3df7d22a5",
+        "fields": {
+            "uuid": "d0bc0377-dbca-4aef-8d16-0aa3df7d22a5",
+            "name": "Canned & Jarred Vegetables",
+            "emoji": "",
+            "parent": "c9beb3b0-f6b4-4ea1-a50b-44106c6e69e2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4be6a425-237e-41d2-9093-c88e6a0ecbe3",
+        "fields": {
+            "uuid": "4be6a425-237e-41d2-9093-c88e6a0ecbe3",
+            "name": "Canned & Prepared Beans",
+            "emoji": "",
+            "parent": "c9beb3b0-f6b4-4ea1-a50b-44106c6e69e2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c644b6c0-247b-4be6-91fe-7a7443099cf5",
+        "fields": {
+            "uuid": "c644b6c0-247b-4be6-91fe-7a7443099cf5",
+            "name": "Dried Fruits",
+            "emoji": "",
+            "parent": "c9beb3b0-f6b4-4ea1-a50b-44106c6e69e2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3d795e51-c71a-4e5d-aa7f-94c0cacc57ce",
+        "fields": {
+            "uuid": "3d795e51-c71a-4e5d-aa7f-94c0cacc57ce",
+            "name": "Dried Vegetables",
+            "emoji": "",
+            "parent": "c9beb3b0-f6b4-4ea1-a50b-44106c6e69e2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "500667e5-9c12-408f-a586-b074caf6d4a3",
+        "fields": {
+            "uuid": "500667e5-9c12-408f-a586-b074caf6d4a3",
+            "name": "Dry Beans",
+            "emoji": "",
+            "parent": "c9beb3b0-f6b4-4ea1-a50b-44106c6e69e2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "65db9212-cde1-444f-a96f-c8833a92ffa8",
+        "fields": {
+            "uuid": "65db9212-cde1-444f-a96f-c8833a92ffa8",
+            "name": "Fresh & Frozen Fruits",
+            "emoji": "",
+            "parent": "c9beb3b0-f6b4-4ea1-a50b-44106c6e69e2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e2629bd4-ba79-43b2-a438-30240780da9e",
+        "fields": {
+            "uuid": "e2629bd4-ba79-43b2-a438-30240780da9e",
+            "name": "Apples",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dffd43e2-c870-44a3-a378-38357d81551e",
+        "fields": {
+            "uuid": "dffd43e2-c870-44a3-a378-38357d81551e",
+            "name": "Atemoyas",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c92424f1-15c3-4fca-9cd7-69280d82ad5a",
+        "fields": {
+            "uuid": "c92424f1-15c3-4fca-9cd7-69280d82ad5a",
+            "name": "Avocados",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "25b45bcd-8ad3-465a-b85a-ed4a558ba6f7",
+        "fields": {
+            "uuid": "25b45bcd-8ad3-465a-b85a-ed4a558ba6f7",
+            "name": "Babacos",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ed89781e-951d-48a2-b7e1-24587201f883",
+        "fields": {
+            "uuid": "ed89781e-951d-48a2-b7e1-24587201f883",
+            "name": "Bananas",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "09566b91-c86f-4118-84af-13719d32d5a2",
+        "fields": {
+            "uuid": "09566b91-c86f-4118-84af-13719d32d5a2",
+            "name": "Berries",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "59dcc9d8-9955-458b-815b-1de93fdf35dc",
+        "fields": {
+            "uuid": "59dcc9d8-9955-458b-815b-1de93fdf35dc",
+            "name": "Breadfruit",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "078ee1c8-2eca-4f8e-aea9-9feeb3f0be01",
+        "fields": {
+            "uuid": "078ee1c8-2eca-4f8e-aea9-9feeb3f0be01",
+            "name": "Cactus Pears",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "71d70b86-6510-4eac-a40e-48d3b54953c7",
+        "fields": {
+            "uuid": "71d70b86-6510-4eac-a40e-48d3b54953c7",
+            "name": "Cherimoyas",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "21adb501-231b-4130-b6a1-34200f6123a1",
+        "fields": {
+            "uuid": "21adb501-231b-4130-b6a1-34200f6123a1",
+            "name": "Citrus Fruits",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "843d634f-170b-46c0-a802-3d9bd97f0697",
+        "fields": {
+            "uuid": "843d634f-170b-46c0-a802-3d9bd97f0697",
+            "name": "Grapefruits",
+            "emoji": "",
+            "parent": "21adb501-231b-4130-b6a1-34200f6123a1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0a5c30a9-264f-48e2-b4cc-e7ee0f6d5e66",
+        "fields": {
+            "uuid": "0a5c30a9-264f-48e2-b4cc-e7ee0f6d5e66",
+            "name": "Kumquats",
+            "emoji": "",
+            "parent": "21adb501-231b-4130-b6a1-34200f6123a1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "12c499af-1850-46f4-bfd1-5bb7f6b79bba",
+        "fields": {
+            "uuid": "12c499af-1850-46f4-bfd1-5bb7f6b79bba",
+            "name": "Lemons",
+            "emoji": "",
+            "parent": "21adb501-231b-4130-b6a1-34200f6123a1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0bfca92b-c1ab-48c7-9547-b5bd5cbf0ce4",
+        "fields": {
+            "uuid": "0bfca92b-c1ab-48c7-9547-b5bd5cbf0ce4",
+            "name": "Limequats",
+            "emoji": "",
+            "parent": "21adb501-231b-4130-b6a1-34200f6123a1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "da3d4c8a-215a-40fd-8603-108f4faf9902",
+        "fields": {
+            "uuid": "da3d4c8a-215a-40fd-8603-108f4faf9902",
+            "name": "Limes",
+            "emoji": "",
+            "parent": "21adb501-231b-4130-b6a1-34200f6123a1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c39c17b8-9e18-4dc7-9de8-f96de99e3c5d",
+        "fields": {
+            "uuid": "c39c17b8-9e18-4dc7-9de8-f96de99e3c5d",
+            "name": "Oranges",
+            "emoji": "",
+            "parent": "21adb501-231b-4130-b6a1-34200f6123a1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d9c3ad40-58b1-44ba-8d16-b03098666848",
+        "fields": {
+            "uuid": "d9c3ad40-58b1-44ba-8d16-b03098666848",
+            "name": "Tangelos",
+            "emoji": "",
+            "parent": "21adb501-231b-4130-b6a1-34200f6123a1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fcbe5d73-c553-41c6-a5bc-0d2c4ce9703b",
+        "fields": {
+            "uuid": "fcbe5d73-c553-41c6-a5bc-0d2c4ce9703b",
+            "name": "Coconuts",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dbadc405-6417-4d19-a10a-a831b591153d",
+        "fields": {
+            "uuid": "dbadc405-6417-4d19-a10a-a831b591153d",
+            "name": "Dates",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f6fd2f1c-a7e3-4d88-ad20-44201c4363c9",
+        "fields": {
+            "uuid": "f6fd2f1c-a7e3-4d88-ad20-44201c4363c9",
+            "name": "Feijoas",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f0698d43-589b-416e-874d-8f4a11732e1a",
+        "fields": {
+            "uuid": "f0698d43-589b-416e-874d-8f4a11732e1a",
+            "name": "Figs",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "efe7bd27-ead1-473e-8432-8132108784ed",
+        "fields": {
+            "uuid": "efe7bd27-ead1-473e-8432-8132108784ed",
+            "name": "Fruit Mixes",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "07cfa30d-bb09-4095-8afa-7069b2d722d5",
+        "fields": {
+            "uuid": "07cfa30d-bb09-4095-8afa-7069b2d722d5",
+            "name": "Grapes",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7efb1247-cdc6-4292-9dd1-90d917b5207a",
+        "fields": {
+            "uuid": "7efb1247-cdc6-4292-9dd1-90d917b5207a",
+            "name": "Guavas",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a131bfc3-55ec-4bbe-a970-3db37aea9f3c",
+        "fields": {
+            "uuid": "a131bfc3-55ec-4bbe-a970-3db37aea9f3c",
+            "name": "Homely Fruits",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c039ebfa-712e-4a1a-8815-59e374a9b657",
+        "fields": {
+            "uuid": "c039ebfa-712e-4a1a-8815-59e374a9b657",
+            "name": "Kiwis",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b4f61fa0-4769-43f9-bcba-162f634a6030",
+        "fields": {
+            "uuid": "b4f61fa0-4769-43f9-bcba-162f634a6030",
+            "name": "Longan",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7a5d08ba-b4de-43ec-bff2-c780a2429405",
+        "fields": {
+            "uuid": "7a5d08ba-b4de-43ec-bff2-c780a2429405",
+            "name": "Loquats",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "45ee5979-e0b5-4b07-83c3-3923b6f55782",
+        "fields": {
+            "uuid": "45ee5979-e0b5-4b07-83c3-3923b6f55782",
+            "name": "Lychees",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4d4e466d-6052-4d16-a7a8-a334556be593",
+        "fields": {
+            "uuid": "4d4e466d-6052-4d16-a7a8-a334556be593",
+            "name": "Madro\u00f1o",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "470e7709-090a-45da-94c2-720529b658a3",
+        "fields": {
+            "uuid": "470e7709-090a-45da-94c2-720529b658a3",
+            "name": "Mamey",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "63670a16-bc09-4316-a8ea-9f74c822db5e",
+        "fields": {
+            "uuid": "63670a16-bc09-4316-a8ea-9f74c822db5e",
+            "name": "Mangosteens",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9e3d24e4-a5ad-4128-ad62-98079cc4818c",
+        "fields": {
+            "uuid": "9e3d24e4-a5ad-4128-ad62-98079cc4818c",
+            "name": "Melons",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9a576264-e579-4386-8731-343cd1c2cb39",
+        "fields": {
+            "uuid": "9a576264-e579-4386-8731-343cd1c2cb39",
+            "name": "Papayas",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "76c51ef9-98da-4cb6-aa48-ed3489f69de5",
+        "fields": {
+            "uuid": "76c51ef9-98da-4cb6-aa48-ed3489f69de5",
+            "name": "Passion Fruit",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "73cfe669-5ef0-4def-b50a-5fe2b3fba96f",
+        "fields": {
+            "uuid": "73cfe669-5ef0-4def-b50a-5fe2b3fba96f",
+            "name": "Pears",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "097218c3-6510-4aaf-a51a-35e689123459",
+        "fields": {
+            "uuid": "097218c3-6510-4aaf-a51a-35e689123459",
+            "name": "Persimmons",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2fecf1de-6a94-4545-94dc-7d751a099ef5",
+        "fields": {
+            "uuid": "2fecf1de-6a94-4545-94dc-7d751a099ef5",
+            "name": "Physalis",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ae99631b-7754-4dfb-ade5-b205e9963d97",
+        "fields": {
+            "uuid": "ae99631b-7754-4dfb-ade5-b205e9963d97",
+            "name": "Pineapples",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f0244234-65e3-4c85-bd0d-1619b3727532",
+        "fields": {
+            "uuid": "f0244234-65e3-4c85-bd0d-1619b3727532",
+            "name": "Pitahayas",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cd7a0a77-b2a2-40ee-b446-ed7a13954f60",
+        "fields": {
+            "uuid": "cd7a0a77-b2a2-40ee-b446-ed7a13954f60",
+            "name": "Pomegranates",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5818a217-8935-44b1-8449-6fa0453da8a6",
+        "fields": {
+            "uuid": "5818a217-8935-44b1-8449-6fa0453da8a6",
+            "name": "Quince",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b7d58b86-94b5-4b3f-bf4e-cc693f50871c",
+        "fields": {
+            "uuid": "b7d58b86-94b5-4b3f-bf4e-cc693f50871c",
+            "name": "Rambutans",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7151463a-f088-4270-914c-e3214974c8f1",
+        "fields": {
+            "uuid": "7151463a-f088-4270-914c-e3214974c8f1",
+            "name": "Sapodillo",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bf44b603-bba2-4ae5-af25-bf7046116130",
+        "fields": {
+            "uuid": "bf44b603-bba2-4ae5-af25-bf7046116130",
+            "name": "Sapote",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "391fa64f-2950-4aa0-a2ea-d176e7f21184",
+        "fields": {
+            "uuid": "391fa64f-2950-4aa0-a2ea-d176e7f21184",
+            "name": "Soursops",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d5d28535-4e45-41e3-ad9b-8c6720c9b1d1",
+        "fields": {
+            "uuid": "d5d28535-4e45-41e3-ad9b-8c6720c9b1d1",
+            "name": "Starfruits",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "65423430-0246-40de-993d-4b7b354a04ea",
+        "fields": {
+            "uuid": "65423430-0246-40de-993d-4b7b354a04ea",
+            "name": "Stone Fruits",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "26ab4bf9-585b-40e7-86fb-db21e3b3c182",
+        "fields": {
+            "uuid": "26ab4bf9-585b-40e7-86fb-db21e3b3c182",
+            "name": "Apricots",
+            "emoji": "",
+            "parent": "65423430-0246-40de-993d-4b7b354a04ea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "672d8d85-dcf8-4a43-be4f-030909404e95",
+        "fields": {
+            "uuid": "672d8d85-dcf8-4a43-be4f-030909404e95",
+            "name": "Cherries",
+            "emoji": "",
+            "parent": "65423430-0246-40de-993d-4b7b354a04ea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5a297ac3-d8dc-4c81-b5fc-e3d2f146e34e",
+        "fields": {
+            "uuid": "5a297ac3-d8dc-4c81-b5fc-e3d2f146e34e",
+            "name": "Mangoes",
+            "emoji": "",
+            "parent": "65423430-0246-40de-993d-4b7b354a04ea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8fa61751-ee41-42fa-9576-a3e0b2c9d595",
+        "fields": {
+            "uuid": "8fa61751-ee41-42fa-9576-a3e0b2c9d595",
+            "name": "Peaches & Nectarines",
+            "emoji": "",
+            "parent": "65423430-0246-40de-993d-4b7b354a04ea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c72dd227-1a40-4c08-a6c6-14909a15a0fd",
+        "fields": {
+            "uuid": "c72dd227-1a40-4c08-a6c6-14909a15a0fd",
+            "name": "Plumcots",
+            "emoji": "",
+            "parent": "65423430-0246-40de-993d-4b7b354a04ea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8ee27d52-7b55-4336-a1e7-f298c9bc1674",
+        "fields": {
+            "uuid": "8ee27d52-7b55-4336-a1e7-f298c9bc1674",
+            "name": "Plums",
+            "emoji": "",
+            "parent": "65423430-0246-40de-993d-4b7b354a04ea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f7f9a0de-b684-4706-b3c9-59a32d6408bb",
+        "fields": {
+            "uuid": "f7f9a0de-b684-4706-b3c9-59a32d6408bb",
+            "name": "Sugar Apples",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ef0423d1-44a5-44b8-a8fe-3cc46bb32482",
+        "fields": {
+            "uuid": "ef0423d1-44a5-44b8-a8fe-3cc46bb32482",
+            "name": "Tamarindo",
+            "emoji": "",
+            "parent": "65db9212-cde1-444f-a96f-c8833a92ffa8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e95cb809-4aaf-4ed3-966d-f45481233540",
+        "fields": {
+            "uuid": "e95cb809-4aaf-4ed3-966d-f45481233540",
+            "name": "Fresh & Frozen Vegetables",
+            "emoji": "",
+            "parent": "c9beb3b0-f6b4-4ea1-a50b-44106c6e69e2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "746a4d56-5f69-4061-9a18-392a5df9a384",
+        "fields": {
+            "uuid": "746a4d56-5f69-4061-9a18-392a5df9a384",
+            "name": "Arracachas",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "48a3feb9-64f9-4b11-86f4-ce44825edfdf",
+        "fields": {
+            "uuid": "48a3feb9-64f9-4b11-86f4-ce44825edfdf",
+            "name": "Artichokes",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d8613efe-fb30-49c9-96af-48bb9d4e8246",
+        "fields": {
+            "uuid": "d8613efe-fb30-49c9-96af-48bb9d4e8246",
+            "name": "Asparagus",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0d3cfd40-51d0-45d4-98ef-93c8397c73b7",
+        "fields": {
+            "uuid": "0d3cfd40-51d0-45d4-98ef-93c8397c73b7",
+            "name": "Beans",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4ba4c606-d1b1-442e-824d-db1ccb57ec3a",
+        "fields": {
+            "uuid": "4ba4c606-d1b1-442e-824d-db1ccb57ec3a",
+            "name": "Beets",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7a88dbff-35c3-4378-8e13-a2358af2e402",
+        "fields": {
+            "uuid": "7a88dbff-35c3-4378-8e13-a2358af2e402",
+            "name": "Borage",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0539f739-c202-4b4d-8e60-4ffc5bcecf69",
+        "fields": {
+            "uuid": "0539f739-c202-4b4d-8e60-4ffc5bcecf69",
+            "name": "Broccoli",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4b7ca152-469b-48a3-b90b-94e99b0fbf4a",
+        "fields": {
+            "uuid": "4b7ca152-469b-48a3-b90b-94e99b0fbf4a",
+            "name": "Brussel Sprouts",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ad00ff3e-749e-49ee-bf40-e7a6245f31fa",
+        "fields": {
+            "uuid": "ad00ff3e-749e-49ee-bf40-e7a6245f31fa",
+            "name": "Cabbage",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3eedd3d3-30f3-4d45-ba30-5d65bf890c9f",
+        "fields": {
+            "uuid": "3eedd3d3-30f3-4d45-ba30-5d65bf890c9f",
+            "name": "Cactus Leaves",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "69db6874-2e05-4c05-a560-9b12ff0c3cde",
+        "fields": {
+            "uuid": "69db6874-2e05-4c05-a560-9b12ff0c3cde",
+            "name": "Cardoon",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "54da4048-fac5-4bcd-aade-c340b9fa8efc",
+        "fields": {
+            "uuid": "54da4048-fac5-4bcd-aade-c340b9fa8efc",
+            "name": "Carrots",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "690c93be-69c1-4805-bb50-d90da4367e19",
+        "fields": {
+            "uuid": "690c93be-69c1-4805-bb50-d90da4367e19",
+            "name": "Cauliflower",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "87cad2f5-6cde-4cc5-937a-2a118ebea665",
+        "fields": {
+            "uuid": "87cad2f5-6cde-4cc5-937a-2a118ebea665",
+            "name": "Celery",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "72717ad9-155c-4095-bf57-9c4486f0d99e",
+        "fields": {
+            "uuid": "72717ad9-155c-4095-bf57-9c4486f0d99e",
+            "name": "Celery Roots",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "633e6c55-89b4-47ac-8787-684aabbead12",
+        "fields": {
+            "uuid": "633e6c55-89b4-47ac-8787-684aabbead12",
+            "name": "Corn",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "972c4fb0-b5bd-4f46-b205-ac0e5da2f06b",
+        "fields": {
+            "uuid": "972c4fb0-b5bd-4f46-b205-ac0e5da2f06b",
+            "name": "Cucumbers",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9e2e1a1c-0cfe-4595-b2c6-8e7ae26ad427",
+        "fields": {
+            "uuid": "9e2e1a1c-0cfe-4595-b2c6-8e7ae26ad427",
+            "name": "Eggplants",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "811b60d0-0637-4638-ba7e-da64c6c0de8b",
+        "fields": {
+            "uuid": "811b60d0-0637-4638-ba7e-da64c6c0de8b",
+            "name": "Fennel Bulbs",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "16f8e9d7-49f7-400f-ae62-c285f9e5b3ef",
+        "fields": {
+            "uuid": "16f8e9d7-49f7-400f-ae62-c285f9e5b3ef",
+            "name": "Fiddlehead Ferns",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dd6f3819-5828-4c11-a92a-0dd77e2b0d02",
+        "fields": {
+            "uuid": "dd6f3819-5828-4c11-a92a-0dd77e2b0d02",
+            "name": "Gai Choy",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "43139d95-5591-4452-949e-c13019965465",
+        "fields": {
+            "uuid": "43139d95-5591-4452-949e-c13019965465",
+            "name": "Gai Lan",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aa34f464-55c7-40f6-93e2-5afa545aa037",
+        "fields": {
+            "uuid": "aa34f464-55c7-40f6-93e2-5afa545aa037",
+            "name": "Garlic",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "df022dec-16e6-4a4a-bfe0-86d72ce40ca1",
+        "fields": {
+            "uuid": "df022dec-16e6-4a4a-bfe0-86d72ce40ca1",
+            "name": "Ginger Root",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ee7f0fb8-7ce5-44ca-967f-3009050b0909",
+        "fields": {
+            "uuid": "ee7f0fb8-7ce5-44ca-967f-3009050b0909",
+            "name": "Gobo Root",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b529841c-fb27-4583-8cc6-4bc02a4f5eb0",
+        "fields": {
+            "uuid": "b529841c-fb27-4583-8cc6-4bc02a4f5eb0",
+            "name": "Greens",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fef66306-34d1-4c4f-8090-58c93a8326a5",
+        "fields": {
+            "uuid": "fef66306-34d1-4c4f-8090-58c93a8326a5",
+            "name": "Arugula",
+            "emoji": "",
+            "parent": "b529841c-fb27-4583-8cc6-4bc02a4f5eb0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cd1e8f29-cfb6-4d1e-8576-ae4727ec77ba",
+        "fields": {
+            "uuid": "cd1e8f29-cfb6-4d1e-8576-ae4727ec77ba",
+            "name": "Beet Greens",
+            "emoji": "",
+            "parent": "b529841c-fb27-4583-8cc6-4bc02a4f5eb0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fd7a40d4-a8c5-491f-b34c-d647dfbba08d",
+        "fields": {
+            "uuid": "fd7a40d4-a8c5-491f-b34c-d647dfbba08d",
+            "name": "Bok Choy",
+            "emoji": "",
+            "parent": "b529841c-fb27-4583-8cc6-4bc02a4f5eb0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "269066dc-0951-4cdd-a008-1a5a0bd22652",
+        "fields": {
+            "uuid": "269066dc-0951-4cdd-a008-1a5a0bd22652",
+            "name": "Chard",
+            "emoji": "",
+            "parent": "b529841c-fb27-4583-8cc6-4bc02a4f5eb0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "730c2239-6806-4dda-bf3d-158caa85f05b",
+        "fields": {
+            "uuid": "730c2239-6806-4dda-bf3d-158caa85f05b",
+            "name": "Chicory",
+            "emoji": "",
+            "parent": "b529841c-fb27-4583-8cc6-4bc02a4f5eb0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "663a51ee-2042-4990-ab31-b46dc834e8f8",
+        "fields": {
+            "uuid": "663a51ee-2042-4990-ab31-b46dc834e8f8",
+            "name": "Choy Sum",
+            "emoji": "",
+            "parent": "b529841c-fb27-4583-8cc6-4bc02a4f5eb0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c7b4eb1b-5b1c-41dc-ab32-9262c8f34512",
+        "fields": {
+            "uuid": "c7b4eb1b-5b1c-41dc-ab32-9262c8f34512",
+            "name": "Kale",
+            "emoji": "",
+            "parent": "b529841c-fb27-4583-8cc6-4bc02a4f5eb0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "05e3f7e9-dfa9-4227-9365-ee49c5c8038e",
+        "fields": {
+            "uuid": "05e3f7e9-dfa9-4227-9365-ee49c5c8038e",
+            "name": "Lettuce",
+            "emoji": "",
+            "parent": "b529841c-fb27-4583-8cc6-4bc02a4f5eb0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9687220f-45f7-43bb-a584-1b5e79133974",
+        "fields": {
+            "uuid": "9687220f-45f7-43bb-a584-1b5e79133974",
+            "name": "On Choy",
+            "emoji": "",
+            "parent": "b529841c-fb27-4583-8cc6-4bc02a4f5eb0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "84942e3b-4d7b-4605-8a54-d80d3d1990e7",
+        "fields": {
+            "uuid": "84942e3b-4d7b-4605-8a54-d80d3d1990e7",
+            "name": "Salad Mixes",
+            "emoji": "",
+            "parent": "b529841c-fb27-4583-8cc6-4bc02a4f5eb0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6aa9b238-d794-4dbc-a945-f86aca01e55f",
+        "fields": {
+            "uuid": "6aa9b238-d794-4dbc-a945-f86aca01e55f",
+            "name": "Spinach",
+            "emoji": "",
+            "parent": "b529841c-fb27-4583-8cc6-4bc02a4f5eb0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "746d534a-39ed-4127-b33f-656305f80b61",
+        "fields": {
+            "uuid": "746d534a-39ed-4127-b33f-656305f80b61",
+            "name": "Yu Choy",
+            "emoji": "",
+            "parent": "b529841c-fb27-4583-8cc6-4bc02a4f5eb0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "02d7a3b7-0d04-4709-8012-e06bf804a6eb",
+        "fields": {
+            "uuid": "02d7a3b7-0d04-4709-8012-e06bf804a6eb",
+            "name": "Horseradish Root",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "69d9afa4-aec2-4f1a-a116-e61d0a56322a",
+        "fields": {
+            "uuid": "69d9afa4-aec2-4f1a-a116-e61d0a56322a",
+            "name": "Jicama",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3eb59a32-db15-4f7d-9f37-3632955cc2cb",
+        "fields": {
+            "uuid": "3eb59a32-db15-4f7d-9f37-3632955cc2cb",
+            "name": "Kohlrabi",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3d9f2aab-5dce-438a-abaa-0d5f131226ff",
+        "fields": {
+            "uuid": "3d9f2aab-5dce-438a-abaa-0d5f131226ff",
+            "name": "Leeks",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2b1f8c2d-afc9-4e66-a360-42705980ba52",
+        "fields": {
+            "uuid": "2b1f8c2d-afc9-4e66-a360-42705980ba52",
+            "name": "Lotus Roots",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "65b61da2-c614-43de-a7c7-6d46e9a2df5e",
+        "fields": {
+            "uuid": "65b61da2-c614-43de-a7c7-6d46e9a2df5e",
+            "name": "Malangas",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1600b758-75f8-4b93-bdf5-a6231961143a",
+        "fields": {
+            "uuid": "1600b758-75f8-4b93-bdf5-a6231961143a",
+            "name": "Mushrooms",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3aab0fb5-324e-4543-a62a-182ef207f089",
+        "fields": {
+            "uuid": "3aab0fb5-324e-4543-a62a-182ef207f089",
+            "name": "Okra",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0043794c-3594-48f8-a2f1-77e40c09dd90",
+        "fields": {
+            "uuid": "0043794c-3594-48f8-a2f1-77e40c09dd90",
+            "name": "Onions",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c6e0a8c0-db9b-4216-a117-e0e96b72e359",
+        "fields": {
+            "uuid": "c6e0a8c0-db9b-4216-a117-e0e96b72e359",
+            "name": "Parsley Roots",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4197120f-3212-4291-9658-b6e787de874e",
+        "fields": {
+            "uuid": "4197120f-3212-4291-9658-b6e787de874e",
+            "name": "Parsnips",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "030ccbfe-e5db-4785-b2ac-42ca3ba33edf",
+        "fields": {
+            "uuid": "030ccbfe-e5db-4785-b2ac-42ca3ba33edf",
+            "name": "Peas",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "80ba0e47-51ba-4c96-a61d-022ecc4f0f95",
+        "fields": {
+            "uuid": "80ba0e47-51ba-4c96-a61d-022ecc4f0f95",
+            "name": "Peppers",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "43f0c692-95d6-468c-b25d-42c0abf8cdf4",
+        "fields": {
+            "uuid": "43f0c692-95d6-468c-b25d-42c0abf8cdf4",
+            "name": "Potatoes",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b05edc6a-68c6-4654-8de5-7048837424bc",
+        "fields": {
+            "uuid": "b05edc6a-68c6-4654-8de5-7048837424bc",
+            "name": "Radishes",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "73dec861-5e1c-4894-a170-f6ba8121eeee",
+        "fields": {
+            "uuid": "73dec861-5e1c-4894-a170-f6ba8121eeee",
+            "name": "Rhubarb",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b0516983-507e-4b44-9fee-0ed28044528c",
+        "fields": {
+            "uuid": "b0516983-507e-4b44-9fee-0ed28044528c",
+            "name": "Shallots",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0c111d25-f544-46de-b209-f42c46ab6542",
+        "fields": {
+            "uuid": "0c111d25-f544-46de-b209-f42c46ab6542",
+            "name": "Sprouts",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c0f07065-38aa-4ca0-b082-41ad66b10e74",
+        "fields": {
+            "uuid": "c0f07065-38aa-4ca0-b082-41ad66b10e74",
+            "name": "Squashes & Gourds",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7a1ec21d-c36c-43e9-8afc-537486ab09e2",
+        "fields": {
+            "uuid": "7a1ec21d-c36c-43e9-8afc-537486ab09e2",
+            "name": "Sugar Cane",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "18857eed-bc05-4b74-852d-d228d5eebcef",
+        "fields": {
+            "uuid": "18857eed-bc05-4b74-852d-d228d5eebcef",
+            "name": "Sunchokes",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "582879d0-5835-4cd6-a942-194e889685b0",
+        "fields": {
+            "uuid": "582879d0-5835-4cd6-a942-194e889685b0",
+            "name": "Sweet Potatoes",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1160764b-8eee-4e0f-9f29-01f8b1518d88",
+        "fields": {
+            "uuid": "1160764b-8eee-4e0f-9f29-01f8b1518d88",
+            "name": "Tamarillos",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c5076b12-689d-451b-8458-5914557388f8",
+        "fields": {
+            "uuid": "c5076b12-689d-451b-8458-5914557388f8",
+            "name": "Taro Root",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cee82f10-eec9-4022-b6f2-4834eb579189",
+        "fields": {
+            "uuid": "cee82f10-eec9-4022-b6f2-4834eb579189",
+            "name": "Tomatoes",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c03f2e50-3743-4801-a594-13d1fb655ce5",
+        "fields": {
+            "uuid": "c03f2e50-3743-4801-a594-13d1fb655ce5",
+            "name": "Turnips & Rutabagas",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8c807e50-4204-4a30-819f-3d6de3a96942",
+        "fields": {
+            "uuid": "8c807e50-4204-4a30-819f-3d6de3a96942",
+            "name": "Vegetable Mixes",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6bff4cfa-4140-4949-9421-bc121447969b",
+        "fields": {
+            "uuid": "6bff4cfa-4140-4949-9421-bc121447969b",
+            "name": "Water Chestnuts",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9b8368a6-cb52-4337-9228-dc2d7a4f7dba",
+        "fields": {
+            "uuid": "9b8368a6-cb52-4337-9228-dc2d7a4f7dba",
+            "name": "Watercress",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "025a53c5-7404-4ff9-87f3-8c88e6d5f008",
+        "fields": {
+            "uuid": "025a53c5-7404-4ff9-87f3-8c88e6d5f008",
+            "name": "Wheatgrass",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b14241df-59d4-4832-9320-4db7136138cb",
+        "fields": {
+            "uuid": "b14241df-59d4-4832-9320-4db7136138cb",
+            "name": "Yams",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "54f2ce4c-fd48-4b97-a4af-139ee4db8974",
+        "fields": {
+            "uuid": "54f2ce4c-fd48-4b97-a4af-139ee4db8974",
+            "name": "Yuca Root",
+            "emoji": "",
+            "parent": "e95cb809-4aaf-4ed3-966d-f45481233540"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5ba1d87c-4c4b-4cf0-9207-05272ac15421",
+        "fields": {
+            "uuid": "5ba1d87c-4c4b-4cf0-9207-05272ac15421",
+            "name": "Fruit Sauces",
+            "emoji": "",
+            "parent": "c9beb3b0-f6b4-4ea1-a50b-44106c6e69e2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bdac7073-9463-4c25-a580-4f08926afa22",
+        "fields": {
+            "uuid": "bdac7073-9463-4c25-a580-4f08926afa22",
+            "name": "Grains, Rice & Cereal",
+            "emoji": "",
+            "parent": "f2f9cfcd-8007-4b52-9713-6003f4138647"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "939751db-48a5-497d-948a-000bd446b3bb",
+        "fields": {
+            "uuid": "939751db-48a5-497d-948a-000bd446b3bb",
+            "name": "Amaranth",
+            "emoji": "",
+            "parent": "bdac7073-9463-4c25-a580-4f08926afa22"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1c16fd72-4697-4788-b974-829eb4742123",
+        "fields": {
+            "uuid": "1c16fd72-4697-4788-b974-829eb4742123",
+            "name": "Barley",
+            "emoji": "",
+            "parent": "bdac7073-9463-4c25-a580-4f08926afa22"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2d0f8c4a-c59f-44ab-90e0-668ae1ba74c5",
+        "fields": {
+            "uuid": "2d0f8c4a-c59f-44ab-90e0-668ae1ba74c5",
+            "name": "Buckwheat",
+            "emoji": "",
+            "parent": "bdac7073-9463-4c25-a580-4f08926afa22"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d799f7cf-495d-44e0-92f9-67cc859aa769",
+        "fields": {
+            "uuid": "d799f7cf-495d-44e0-92f9-67cc859aa769",
+            "name": "Cereal & Granola",
+            "emoji": "",
+            "parent": "bdac7073-9463-4c25-a580-4f08926afa22"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5396ab0c-fc2f-404d-ad1a-e2a63c4252cf",
+        "fields": {
+            "uuid": "5396ab0c-fc2f-404d-ad1a-e2a63c4252cf",
+            "name": "Couscous",
+            "emoji": "",
+            "parent": "bdac7073-9463-4c25-a580-4f08926afa22"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2b2441b4-8884-4fee-8dcd-ce6a52c9c749",
+        "fields": {
+            "uuid": "2b2441b4-8884-4fee-8dcd-ce6a52c9c749",
+            "name": "Millet",
+            "emoji": "",
+            "parent": "bdac7073-9463-4c25-a580-4f08926afa22"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ea64e367-51ca-46b1-8c38-16d7117798f3",
+        "fields": {
+            "uuid": "ea64e367-51ca-46b1-8c38-16d7117798f3",
+            "name": "Oats, Grits & Hot Cereal",
+            "emoji": "",
+            "parent": "bdac7073-9463-4c25-a580-4f08926afa22"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "919f5d3a-fdb6-4c0f-a934-2a5dc9200be1",
+        "fields": {
+            "uuid": "919f5d3a-fdb6-4c0f-a934-2a5dc9200be1",
+            "name": "Quinoa",
+            "emoji": "",
+            "parent": "bdac7073-9463-4c25-a580-4f08926afa22"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8b044364-3b49-402a-a902-96300fb4247c",
+        "fields": {
+            "uuid": "8b044364-3b49-402a-a902-96300fb4247c",
+            "name": "Rice",
+            "emoji": "",
+            "parent": "bdac7073-9463-4c25-a580-4f08926afa22"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f0eae3ea-e71c-4a41-a278-bf90060e00b8",
+        "fields": {
+            "uuid": "f0eae3ea-e71c-4a41-a278-bf90060e00b8",
+            "name": "Rye",
+            "emoji": "",
+            "parent": "bdac7073-9463-4c25-a580-4f08926afa22"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d7d8b03e-957e-4e9b-bdee-d9b82e58437b",
+        "fields": {
+            "uuid": "d7d8b03e-957e-4e9b-bdee-d9b82e58437b",
+            "name": "Wheat",
+            "emoji": "",
+            "parent": "bdac7073-9463-4c25-a580-4f08926afa22"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ee60c5bf-96db-4319-a691-324ce7f617da",
+        "fields": {
+            "uuid": "ee60c5bf-96db-4319-a691-324ce7f617da",
+            "name": "Meat, Seafood & Eggs",
+            "emoji": "",
+            "parent": "f2f9cfcd-8007-4b52-9713-6003f4138647"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "23b5039c-8680-4897-b713-5f9b51ad8079",
+        "fields": {
+            "uuid": "23b5039c-8680-4897-b713-5f9b51ad8079",
+            "name": "Eggs",
+            "emoji": "",
+            "parent": "ee60c5bf-96db-4319-a691-324ce7f617da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8df5e40d-0cce-4522-88cd-a1b43cdf17d7",
+        "fields": {
+            "uuid": "8df5e40d-0cce-4522-88cd-a1b43cdf17d7",
+            "name": "Egg Whites",
+            "emoji": "",
+            "parent": "23b5039c-8680-4897-b713-5f9b51ad8079"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "589c3aee-48a1-46d6-939d-9c9ce5cb1d2a",
+        "fields": {
+            "uuid": "589c3aee-48a1-46d6-939d-9c9ce5cb1d2a",
+            "name": "Liquid & Frozen Eggs",
+            "emoji": "",
+            "parent": "23b5039c-8680-4897-b713-5f9b51ad8079"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f402b625-c16f-4bd4-802b-4019b838bced",
+        "fields": {
+            "uuid": "f402b625-c16f-4bd4-802b-4019b838bced",
+            "name": "Prepared Eggs",
+            "emoji": "",
+            "parent": "23b5039c-8680-4897-b713-5f9b51ad8079"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d0e6d0a8-911d-4f36-adc4-a999c38b0478",
+        "fields": {
+            "uuid": "d0e6d0a8-911d-4f36-adc4-a999c38b0478",
+            "name": "Whole Eggs",
+            "emoji": "",
+            "parent": "23b5039c-8680-4897-b713-5f9b51ad8079"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3e37f6b5-6544-4aec-8f8a-b8ad3ccfcf27",
+        "fields": {
+            "uuid": "3e37f6b5-6544-4aec-8f8a-b8ad3ccfcf27",
+            "name": "Meat",
+            "emoji": "",
+            "parent": "ee60c5bf-96db-4319-a691-324ce7f617da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a885fdba-529b-4715-b769-942c1c0e0bab",
+        "fields": {
+            "uuid": "a885fdba-529b-4715-b769-942c1c0e0bab",
+            "name": "Canned Meats",
+            "emoji": "",
+            "parent": "3e37f6b5-6544-4aec-8f8a-b8ad3ccfcf27"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6a9445b4-d9ef-4c40-8e7c-e3d7d37172b1",
+        "fields": {
+            "uuid": "6a9445b4-d9ef-4c40-8e7c-e3d7d37172b1",
+            "name": "Fresh & Frozen Meats",
+            "emoji": "",
+            "parent": "3e37f6b5-6544-4aec-8f8a-b8ad3ccfcf27"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1f10ea2a-6020-461b-a556-6d5309219928",
+        "fields": {
+            "uuid": "1f10ea2a-6020-461b-a556-6d5309219928",
+            "name": "Beef",
+            "emoji": "",
+            "parent": "6a9445b4-d9ef-4c40-8e7c-e3d7d37172b1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7fe87af7-f6d1-4d32-b8ea-6081c11c5151",
+        "fields": {
+            "uuid": "7fe87af7-f6d1-4d32-b8ea-6081c11c5151",
+            "name": "Game",
+            "emoji": "",
+            "parent": "6a9445b4-d9ef-4c40-8e7c-e3d7d37172b1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a303873d-9fcc-4662-8b07-c5f175662b92",
+        "fields": {
+            "uuid": "a303873d-9fcc-4662-8b07-c5f175662b92",
+            "name": "Lamb",
+            "emoji": "",
+            "parent": "6a9445b4-d9ef-4c40-8e7c-e3d7d37172b1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3268a2e5-7757-4a9a-b552-1b23f45b392a",
+        "fields": {
+            "uuid": "3268a2e5-7757-4a9a-b552-1b23f45b392a",
+            "name": "Pork",
+            "emoji": "",
+            "parent": "6a9445b4-d9ef-4c40-8e7c-e3d7d37172b1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "de339f4e-97b2-4b87-89b4-93df4b957df9",
+        "fields": {
+            "uuid": "de339f4e-97b2-4b87-89b4-93df4b957df9",
+            "name": "Poultry",
+            "emoji": "",
+            "parent": "6a9445b4-d9ef-4c40-8e7c-e3d7d37172b1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2d1bedd5-0082-44e4-9cb7-3134f31f4e85",
+        "fields": {
+            "uuid": "2d1bedd5-0082-44e4-9cb7-3134f31f4e85",
+            "name": "Chicken",
+            "emoji": "",
+            "parent": "de339f4e-97b2-4b87-89b4-93df4b957df9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2b1a52eb-b2b8-4e56-9f3d-e75403d758a7",
+        "fields": {
+            "uuid": "2b1a52eb-b2b8-4e56-9f3d-e75403d758a7",
+            "name": "Turkey",
+            "emoji": "",
+            "parent": "de339f4e-97b2-4b87-89b4-93df4b957df9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "25ade840-f106-40a8-8e57-44b80fe328f8",
+        "fields": {
+            "uuid": "25ade840-f106-40a8-8e57-44b80fe328f8",
+            "name": "Lunch & Deli Meats",
+            "emoji": "",
+            "parent": "3e37f6b5-6544-4aec-8f8a-b8ad3ccfcf27"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9151e25b-3499-4203-b648-e661bddc5466",
+        "fields": {
+            "uuid": "9151e25b-3499-4203-b648-e661bddc5466",
+            "name": "Seafood",
+            "emoji": "",
+            "parent": "ee60c5bf-96db-4319-a691-324ce7f617da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "34f8eb03-83f7-4964-8a2a-b1c79c2ff68c",
+        "fields": {
+            "uuid": "34f8eb03-83f7-4964-8a2a-b1c79c2ff68c",
+            "name": "Canned Seafood",
+            "emoji": "",
+            "parent": "9151e25b-3499-4203-b648-e661bddc5466"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cbd3a69b-a0d9-4faf-b20b-064dd1acc78e",
+        "fields": {
+            "uuid": "cbd3a69b-a0d9-4faf-b20b-064dd1acc78e",
+            "name": "Fresh & Frozen Seafood",
+            "emoji": "",
+            "parent": "9151e25b-3499-4203-b648-e661bddc5466"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "74af74e1-9044-4268-b83d-20028b2d2b76",
+        "fields": {
+            "uuid": "74af74e1-9044-4268-b83d-20028b2d2b76",
+            "name": "Nuts & Seeds",
+            "emoji": "",
+            "parent": "f2f9cfcd-8007-4b52-9713-6003f4138647"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "930ded39-db82-4da4-8b20-6595c8d3b331",
+        "fields": {
+            "uuid": "930ded39-db82-4da4-8b20-6595c8d3b331",
+            "name": "Pasta & Noodles",
+            "emoji": "",
+            "parent": "f2f9cfcd-8007-4b52-9713-6003f4138647"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1b16d409-17aa-4a7b-b777-cd7be1e65435",
+        "fields": {
+            "uuid": "1b16d409-17aa-4a7b-b777-cd7be1e65435",
+            "name": "Prepared Foods",
+            "emoji": "",
+            "parent": "f2f9cfcd-8007-4b52-9713-6003f4138647"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e3ffbc87-c920-4ff4-8c2b-f4fc556d4d6a",
+        "fields": {
+            "uuid": "e3ffbc87-c920-4ff4-8c2b-f4fc556d4d6a",
+            "name": "Prepared Appetizers & Side Dishes",
+            "emoji": "",
+            "parent": "1b16d409-17aa-4a7b-b777-cd7be1e65435"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7c74af99-e5a0-44e1-a4bf-fcd7eae8b4bb",
+        "fields": {
+            "uuid": "7c74af99-e5a0-44e1-a4bf-fcd7eae8b4bb",
+            "name": "Prepared Meals & Entr\u00e9es",
+            "emoji": "",
+            "parent": "1b16d409-17aa-4a7b-b777-cd7be1e65435"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fe841225-f4f8-4039-b701-1341c190ceeb",
+        "fields": {
+            "uuid": "fe841225-f4f8-4039-b701-1341c190ceeb",
+            "name": "Seasonings & Spices",
+            "emoji": "",
+            "parent": "f2f9cfcd-8007-4b52-9713-6003f4138647"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1ab0677b-7ed9-4f9c-a456-49c6231ed3bc",
+        "fields": {
+            "uuid": "1ab0677b-7ed9-4f9c-a456-49c6231ed3bc",
+            "name": "Herbs & Spices",
+            "emoji": "",
+            "parent": "fe841225-f4f8-4039-b701-1341c190ceeb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0c3b0e7b-00b4-4aed-aa38-31be0b31190d",
+        "fields": {
+            "uuid": "0c3b0e7b-00b4-4aed-aa38-31be0b31190d",
+            "name": "MSG",
+            "emoji": "",
+            "parent": "fe841225-f4f8-4039-b701-1341c190ceeb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "08ed0d61-6a57-4fe3-b415-d3596f97afc0",
+        "fields": {
+            "uuid": "08ed0d61-6a57-4fe3-b415-d3596f97afc0",
+            "name": "Pepper",
+            "emoji": "",
+            "parent": "fe841225-f4f8-4039-b701-1341c190ceeb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5e65264e-4b7d-4848-81b4-deb7186ce85e",
+        "fields": {
+            "uuid": "5e65264e-4b7d-4848-81b4-deb7186ce85e",
+            "name": "Salt",
+            "emoji": "",
+            "parent": "fe841225-f4f8-4039-b701-1341c190ceeb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d108ba7d-a4c0-4c4c-a2f0-8c6d6781c456",
+        "fields": {
+            "uuid": "d108ba7d-a4c0-4c4c-a2f0-8c6d6781c456",
+            "name": "Snack Foods",
+            "emoji": "",
+            "parent": "f2f9cfcd-8007-4b52-9713-6003f4138647"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "63caf7e8-ad1b-44e5-9087-92b86c258fe5",
+        "fields": {
+            "uuid": "63caf7e8-ad1b-44e5-9087-92b86c258fe5",
+            "name": "Breadsticks",
+            "emoji": "",
+            "parent": "d108ba7d-a4c0-4c4c-a2f0-8c6d6781c456"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8ff1f8b3-9404-4d1e-b7d9-88ee86e422d5",
+        "fields": {
+            "uuid": "8ff1f8b3-9404-4d1e-b7d9-88ee86e422d5",
+            "name": "Cereal & Granola Bars",
+            "emoji": "",
+            "parent": "d108ba7d-a4c0-4c4c-a2f0-8c6d6781c456"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f4ad7edf-9558-440c-94a4-7537adc00da4",
+        "fields": {
+            "uuid": "f4ad7edf-9558-440c-94a4-7537adc00da4",
+            "name": "Cereal Bars",
+            "emoji": "",
+            "parent": "8ff1f8b3-9404-4d1e-b7d9-88ee86e422d5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "89e551ed-219c-4ce0-ae01-f9ec5902e9fc",
+        "fields": {
+            "uuid": "89e551ed-219c-4ce0-ae01-f9ec5902e9fc",
+            "name": "Granola Bars",
+            "emoji": "",
+            "parent": "8ff1f8b3-9404-4d1e-b7d9-88ee86e422d5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3e4aae8d-bf82-4ab0-b11e-804b7a01cfe0",
+        "fields": {
+            "uuid": "3e4aae8d-bf82-4ab0-b11e-804b7a01cfe0",
+            "name": "Cheese Puffs",
+            "emoji": "",
+            "parent": "d108ba7d-a4c0-4c4c-a2f0-8c6d6781c456"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "101d47a5-201f-43bc-a1b6-4d8166eccf25",
+        "fields": {
+            "uuid": "101d47a5-201f-43bc-a1b6-4d8166eccf25",
+            "name": "Chips",
+            "emoji": "",
+            "parent": "d108ba7d-a4c0-4c4c-a2f0-8c6d6781c456"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fee5b98f-efc7-4529-90d1-34ce16a02f9f",
+        "fields": {
+            "uuid": "fee5b98f-efc7-4529-90d1-34ce16a02f9f",
+            "name": "Crackers",
+            "emoji": "",
+            "parent": "d108ba7d-a4c0-4c4c-a2f0-8c6d6781c456"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0a327f3e-2624-4b67-a6d8-f4fb05f34798",
+        "fields": {
+            "uuid": "0a327f3e-2624-4b67-a6d8-f4fb05f34798",
+            "name": "Croutons",
+            "emoji": "",
+            "parent": "d108ba7d-a4c0-4c4c-a2f0-8c6d6781c456"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2d068be5-146a-48cb-a91c-c9206cca3121",
+        "fields": {
+            "uuid": "2d068be5-146a-48cb-a91c-c9206cca3121",
+            "name": "Fruit Snacks",
+            "emoji": "",
+            "parent": "d108ba7d-a4c0-4c4c-a2f0-8c6d6781c456"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "04308a57-c0a0-46e8-8d6d-90699370cee2",
+        "fields": {
+            "uuid": "04308a57-c0a0-46e8-8d6d-90699370cee2",
+            "name": "Jerky",
+            "emoji": "",
+            "parent": "d108ba7d-a4c0-4c4c-a2f0-8c6d6781c456"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "099ceab8-be74-4db3-b557-930e7d839a72",
+        "fields": {
+            "uuid": "099ceab8-be74-4db3-b557-930e7d839a72",
+            "name": "Popcorn",
+            "emoji": "",
+            "parent": "d108ba7d-a4c0-4c4c-a2f0-8c6d6781c456"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f13ea160-bb41-4b0c-978d-06ee5713bb53",
+        "fields": {
+            "uuid": "f13ea160-bb41-4b0c-978d-06ee5713bb53",
+            "name": "Pork Rinds",
+            "emoji": "",
+            "parent": "d108ba7d-a4c0-4c4c-a2f0-8c6d6781c456"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2a0d0db3-d318-4e59-a677-b8280bf15fa2",
+        "fields": {
+            "uuid": "2a0d0db3-d318-4e59-a677-b8280bf15fa2",
+            "name": "Pretzels",
+            "emoji": "",
+            "parent": "d108ba7d-a4c0-4c4c-a2f0-8c6d6781c456"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6cc07a6a-c956-4a0a-bebd-88df76a84e60",
+        "fields": {
+            "uuid": "6cc07a6a-c956-4a0a-bebd-88df76a84e60",
+            "name": "Pudding & Gelatin Snacks",
+            "emoji": "",
+            "parent": "d108ba7d-a4c0-4c4c-a2f0-8c6d6781c456"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4eab9b18-b6f9-4976-b983-95e7aa1afb9b",
+        "fields": {
+            "uuid": "4eab9b18-b6f9-4976-b983-95e7aa1afb9b",
+            "name": "Puffed Rice Cakes",
+            "emoji": "",
+            "parent": "d108ba7d-a4c0-4c4c-a2f0-8c6d6781c456"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c9d51752-da2b-4893-962e-9ec18187025b",
+        "fields": {
+            "uuid": "c9d51752-da2b-4893-962e-9ec18187025b",
+            "name": "Salad Toppings",
+            "emoji": "",
+            "parent": "d108ba7d-a4c0-4c4c-a2f0-8c6d6781c456"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8a789f7a-9008-4992-a560-0eee2ac40d6b",
+        "fields": {
+            "uuid": "8a789f7a-9008-4992-a560-0eee2ac40d6b",
+            "name": "Sesame Sticks",
+            "emoji": "",
+            "parent": "d108ba7d-a4c0-4c4c-a2f0-8c6d6781c456"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "83aac6e9-c81d-4fdb-99de-02719466caf1",
+        "fields": {
+            "uuid": "83aac6e9-c81d-4fdb-99de-02719466caf1",
+            "name": "Snack Cakes",
+            "emoji": "",
+            "parent": "d108ba7d-a4c0-4c4c-a2f0-8c6d6781c456"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d3650fff-5435-44ee-b2e7-65a36a088965",
+        "fields": {
+            "uuid": "d3650fff-5435-44ee-b2e7-65a36a088965",
+            "name": "Sticky Rice Cakes",
+            "emoji": "",
+            "parent": "d108ba7d-a4c0-4c4c-a2f0-8c6d6781c456"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b59ffaa5-3455-45c1-950b-a0d4c10325ad",
+        "fields": {
+            "uuid": "b59ffaa5-3455-45c1-950b-a0d4c10325ad",
+            "name": "Trail & Snack Mixes",
+            "emoji": "",
+            "parent": "d108ba7d-a4c0-4c4c-a2f0-8c6d6781c456"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "20042620-d1e9-462f-b583-b0bb3bce9ae6",
+        "fields": {
+            "uuid": "20042620-d1e9-462f-b583-b0bb3bce9ae6",
+            "name": "Soups & Broths",
+            "emoji": "",
+            "parent": "f2f9cfcd-8007-4b52-9713-6003f4138647"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "af580848-3e18-451f-9cc7-b6dfc8b2df67",
+        "fields": {
+            "uuid": "af580848-3e18-451f-9cc7-b6dfc8b2df67",
+            "name": "Tofu, Soy & Vegetarian Products",
+            "emoji": "",
+            "parent": "f2f9cfcd-8007-4b52-9713-6003f4138647"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "20c99fed-7fee-4f75-a422-33db48f03a54",
+        "fields": {
+            "uuid": "20c99fed-7fee-4f75-a422-33db48f03a54",
+            "name": "Cheese Alternatives",
+            "emoji": "",
+            "parent": "af580848-3e18-451f-9cc7-b6dfc8b2df67"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b016bd33-f35f-4d4b-872b-f433214d7495",
+        "fields": {
+            "uuid": "b016bd33-f35f-4d4b-872b-f433214d7495",
+            "name": "Meat Alternatives",
+            "emoji": "",
+            "parent": "af580848-3e18-451f-9cc7-b6dfc8b2df67"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "642f4a99-8d2b-41d6-8e36-19b7379133d9",
+        "fields": {
+            "uuid": "642f4a99-8d2b-41d6-8e36-19b7379133d9",
+            "name": "Seitan",
+            "emoji": "",
+            "parent": "af580848-3e18-451f-9cc7-b6dfc8b2df67"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "37ce758b-df00-4e5f-9ef2-e83fdbb9a93b",
+        "fields": {
+            "uuid": "37ce758b-df00-4e5f-9ef2-e83fdbb9a93b",
+            "name": "Tempeh",
+            "emoji": "",
+            "parent": "af580848-3e18-451f-9cc7-b6dfc8b2df67"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dacbc31a-087e-4b18-a616-2f085af0ed46",
+        "fields": {
+            "uuid": "dacbc31a-087e-4b18-a616-2f085af0ed46",
+            "name": "Tofu",
+            "emoji": "",
+            "parent": "af580848-3e18-451f-9cc7-b6dfc8b2df67"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d8b9b7cf-2cb2-408f-84b3-aa4ef5d106df",
+        "fields": {
+            "uuid": "d8b9b7cf-2cb2-408f-84b3-aa4ef5d106df",
+            "name": "Tobacco Products",
+            "emoji": "",
+            "parent": "19fa142c-99f2-4a44-82b9-dbd21eb59b57"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0ca59a45-58e1-4e74-8fa7-91f76ca67a46",
+        "fields": {
+            "uuid": "0ca59a45-58e1-4e74-8fa7-91f76ca67a46",
+            "name": "Chewing Tobacco",
+            "emoji": "",
+            "parent": "d8b9b7cf-2cb2-408f-84b3-aa4ef5d106df"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e0aa972b-a87e-4f69-9e57-4f82e8ce4d59",
+        "fields": {
+            "uuid": "e0aa972b-a87e-4f69-9e57-4f82e8ce4d59",
+            "name": "Cigarettes",
+            "emoji": "",
+            "parent": "d8b9b7cf-2cb2-408f-84b3-aa4ef5d106df"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "59ecaba6-6e3c-4820-a30f-489573ca8520",
+        "fields": {
+            "uuid": "59ecaba6-6e3c-4820-a30f-489573ca8520",
+            "name": "Cigars",
+            "emoji": "",
+            "parent": "d8b9b7cf-2cb2-408f-84b3-aa4ef5d106df"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "55b5b2c8-d098-4cc1-af1c-00424fc985ee",
+        "fields": {
+            "uuid": "55b5b2c8-d098-4cc1-af1c-00424fc985ee",
+            "name": "Loose Tobacco",
+            "emoji": "",
+            "parent": "d8b9b7cf-2cb2-408f-84b3-aa4ef5d106df"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bad4470f-3b62-4c82-923b-76085c3beb7c",
+        "fields": {
+            "uuid": "bad4470f-3b62-4c82-923b-76085c3beb7c",
+            "name": "Smoking Pipes",
+            "emoji": "",
+            "parent": "d8b9b7cf-2cb2-408f-84b3-aa4ef5d106df"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5cf32b4c-7026-4dcc-8c38-8dae2bd81243",
+        "fields": {
+            "uuid": "5cf32b4c-7026-4dcc-8c38-8dae2bd81243",
+            "name": "Vaporizers & Electronic Cigarettes",
+            "emoji": "",
+            "parent": "d8b9b7cf-2cb2-408f-84b3-aa4ef5d106df"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bb5bd8d9-b4d1-40e4-bf56-66d8dc467818",
+        "fields": {
+            "uuid": "bb5bd8d9-b4d1-40e4-bf56-66d8dc467818",
+            "name": "E-Liquid",
+            "emoji": "",
+            "parent": "5cf32b4c-7026-4dcc-8c38-8dae2bd81243"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "35a5aded-6599-44a4-b2ce-1ae8f9aa4ead",
+        "fields": {
+            "uuid": "35a5aded-6599-44a4-b2ce-1ae8f9aa4ead",
+            "name": "Electronic Cigarettes",
+            "emoji": "",
+            "parent": "5cf32b4c-7026-4dcc-8c38-8dae2bd81243"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "27600c7d-c6a0-4664-ac60-73d62f49f88f",
+        "fields": {
+            "uuid": "27600c7d-c6a0-4664-ac60-73d62f49f88f",
+            "name": "Vaporizers",
+            "emoji": "",
+            "parent": "5cf32b4c-7026-4dcc-8c38-8dae2bd81243"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bd1e6b81-de64-4de1-abe7-e6074a1a6c72",
+        "fields": {
+            "uuid": "bd1e6b81-de64-4de1-abe7-e6074a1a6c72",
+            "name": "Rolling Papers",
+            "emoji": "",
+            "parent": "d8b9b7cf-2cb2-408f-84b3-aa4ef5d106df"
+        }
+    }
+]

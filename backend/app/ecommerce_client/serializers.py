@@ -1,11 +1,17 @@
+from django.db.models import Count
 from rest_framework import serializers
 from ecommerce_client import models
 
 
 class CategorySerializer(serializers.ModelSerializer):
+    product_count = serializers.SerializerMethodField()
+
     class Meta:
         model = models.Category
-        fields = ["uuid", "name", "emoji", "parent"]
+        fields = ["uuid", "name", "parent", "product_count"]
+
+    def get_product_count(self, obj):
+        return models.Product.objects.filter(category=obj).count()
 
 
 class CategoryWithChildrenSerializer(serializers.ModelSerializer):
@@ -13,10 +19,16 @@ class CategoryWithChildrenSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = models.Category
-        fields = ["uuid", "name", "emoji", "parent", "children"]
+        fields = ["uuid", "name", "parent", "children"]
 
     def get_children(self, obj):
-        children = models.Category.objects.filter(parent=obj.uuid)
+        if self.context.get("with_product"):
+            children = models.Category.objects.get_only_product_queryset().filter(
+                parent=obj.uuid
+            )
+        else:
+            children = models.Category.objects.filter(parent=obj.uuid)
+
         return CategorySerializer(children, many=True).data
 
 
@@ -62,6 +74,12 @@ class ProductSerializer(serializers.ModelSerializer):
                 models.ProductImage.objects.create(product=instance, **image_data)
 
         return instance
+
+
+class AttributeSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = models.Attribute
+        fields = "__all__"
 
 
 class UserSerializer(serializers.ModelSerializer):

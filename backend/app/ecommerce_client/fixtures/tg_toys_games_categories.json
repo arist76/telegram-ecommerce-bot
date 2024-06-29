@@ -1,0 +1,2462 @@
+[
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d5cafaa2-eaae-4ee7-ad9d-41d7b1808747",
+        "fields": {
+            "uuid": "d5cafaa2-eaae-4ee7-ad9d-41d7b1808747",
+            "name": "Toys & Games",
+            "emoji": "",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "33eb943a-3a27-409c-a58e-04373c3794b2",
+        "fields": {
+            "uuid": "33eb943a-3a27-409c-a58e-04373c3794b2",
+            "name": "Game Timers",
+            "emoji": "",
+            "parent": "d5cafaa2-eaae-4ee7-ad9d-41d7b1808747"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f09f0e50-8671-4e94-9b9b-5a4fa66a0a40",
+        "fields": {
+            "uuid": "f09f0e50-8671-4e94-9b9b-5a4fa66a0a40",
+            "name": "Games",
+            "emoji": "",
+            "parent": "d5cafaa2-eaae-4ee7-ad9d-41d7b1808747"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "410532ef-18cd-4799-93e0-c9d31e6e2996",
+        "fields": {
+            "uuid": "410532ef-18cd-4799-93e0-c9d31e6e2996",
+            "name": "Battle Top Accessories",
+            "emoji": "",
+            "parent": "f09f0e50-8671-4e94-9b9b-5a4fa66a0a40"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e467acea-b89f-413e-a3e4-f6c982d598d8",
+        "fields": {
+            "uuid": "e467acea-b89f-413e-a3e4-f6c982d598d8",
+            "name": "Battle Tops",
+            "emoji": "",
+            "parent": "f09f0e50-8671-4e94-9b9b-5a4fa66a0a40"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c814ad28-2e8f-4124-bb90-705a051f8be7",
+        "fields": {
+            "uuid": "c814ad28-2e8f-4124-bb90-705a051f8be7",
+            "name": "Bingo Sets",
+            "emoji": "",
+            "parent": "f09f0e50-8671-4e94-9b9b-5a4fa66a0a40"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "18846782-e682-4d5d-a91f-563c2212deba",
+        "fields": {
+            "uuid": "18846782-e682-4d5d-a91f-563c2212deba",
+            "name": "Blackjack & Craps Sets",
+            "emoji": "",
+            "parent": "f09f0e50-8671-4e94-9b9b-5a4fa66a0a40"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c043fcc4-1d8d-410f-9a13-0d0b6edd6a91",
+        "fields": {
+            "uuid": "c043fcc4-1d8d-410f-9a13-0d0b6edd6a91",
+            "name": "Blackjack Sets",
+            "emoji": "",
+            "parent": "18846782-e682-4d5d-a91f-563c2212deba"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8974a131-f8fc-405c-8ba6-eb35138ba651",
+        "fields": {
+            "uuid": "8974a131-f8fc-405c-8ba6-eb35138ba651",
+            "name": "Craps Sets",
+            "emoji": "",
+            "parent": "18846782-e682-4d5d-a91f-563c2212deba"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "62818ae1-da4d-4add-a259-8aea07d43de8",
+        "fields": {
+            "uuid": "62818ae1-da4d-4add-a259-8aea07d43de8",
+            "name": "Board Games",
+            "emoji": "",
+            "parent": "f09f0e50-8671-4e94-9b9b-5a4fa66a0a40"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f9fef201-79fa-4fb4-92fe-8784a3840be2",
+        "fields": {
+            "uuid": "f9fef201-79fa-4fb4-92fe-8784a3840be2",
+            "name": "Card Game Accessories",
+            "emoji": "",
+            "parent": "f09f0e50-8671-4e94-9b9b-5a4fa66a0a40"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8941dd9c-6e2d-4aac-80e9-f05a1b2f9467",
+        "fields": {
+            "uuid": "8941dd9c-6e2d-4aac-80e9-f05a1b2f9467",
+            "name": "Card Games",
+            "emoji": "",
+            "parent": "f09f0e50-8671-4e94-9b9b-5a4fa66a0a40"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8603d982-2183-4ea2-af61-1a7d621edde8",
+        "fields": {
+            "uuid": "8603d982-2183-4ea2-af61-1a7d621edde8",
+            "name": "Dexterity Games",
+            "emoji": "",
+            "parent": "f09f0e50-8671-4e94-9b9b-5a4fa66a0a40"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e2f026a8-8564-446f-80d6-00f889ea7881",
+        "fields": {
+            "uuid": "e2f026a8-8564-446f-80d6-00f889ea7881",
+            "name": "Dice Sets & Games",
+            "emoji": "",
+            "parent": "f09f0e50-8671-4e94-9b9b-5a4fa66a0a40"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bb3dbcbe-8acf-41e3-a929-baaa7bf4baa1",
+        "fields": {
+            "uuid": "bb3dbcbe-8acf-41e3-a929-baaa7bf4baa1",
+            "name": "Poker Chip Accessories",
+            "emoji": "",
+            "parent": "f09f0e50-8671-4e94-9b9b-5a4fa66a0a40"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f8305de1-5888-42bb-b0e1-2d33b43c2849",
+        "fields": {
+            "uuid": "f8305de1-5888-42bb-b0e1-2d33b43c2849",
+            "name": "Poker Chip Carriers & Trays",
+            "emoji": "",
+            "parent": "bb3dbcbe-8acf-41e3-a929-baaa7bf4baa1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "355bb336-1995-4f71-9e61-275d011ff341",
+        "fields": {
+            "uuid": "355bb336-1995-4f71-9e61-275d011ff341",
+            "name": "Poker Chips & Sets",
+            "emoji": "",
+            "parent": "f09f0e50-8671-4e94-9b9b-5a4fa66a0a40"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "399c5071-4111-4da2-8b55-cfa11260e330",
+        "fields": {
+            "uuid": "399c5071-4111-4da2-8b55-cfa11260e330",
+            "name": "Portable Electronic Games",
+            "emoji": "",
+            "parent": "f09f0e50-8671-4e94-9b9b-5a4fa66a0a40"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cdaaa165-e9d4-4dc4-ad5f-aaa989e10245",
+        "fields": {
+            "uuid": "cdaaa165-e9d4-4dc4-ad5f-aaa989e10245",
+            "name": "Roulette Wheels & Sets",
+            "emoji": "",
+            "parent": "f09f0e50-8671-4e94-9b9b-5a4fa66a0a40"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "260d9bbe-3528-44c9-8783-31f34ac05067",
+        "fields": {
+            "uuid": "260d9bbe-3528-44c9-8783-31f34ac05067",
+            "name": "Slot Machines",
+            "emoji": "",
+            "parent": "f09f0e50-8671-4e94-9b9b-5a4fa66a0a40"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5b8b3111-ca46-41bf-b242-8c4b4631d76f",
+        "fields": {
+            "uuid": "5b8b3111-ca46-41bf-b242-8c4b4631d76f",
+            "name": "Tile Games",
+            "emoji": "",
+            "parent": "f09f0e50-8671-4e94-9b9b-5a4fa66a0a40"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b73caee9-e1fc-407f-a1cd-cf53ac329d32",
+        "fields": {
+            "uuid": "b73caee9-e1fc-407f-a1cd-cf53ac329d32",
+            "name": "Outdoor Play Equipment",
+            "emoji": "",
+            "parent": "d5cafaa2-eaae-4ee7-ad9d-41d7b1808747"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e6f8a7b3-a69b-4668-9190-31a19b14ca6f",
+        "fields": {
+            "uuid": "e6f8a7b3-a69b-4668-9190-31a19b14ca6f",
+            "name": "Inflatable Bouncer Accessories",
+            "emoji": "",
+            "parent": "b73caee9-e1fc-407f-a1cd-cf53ac329d32"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "71b0e4f0-0968-415f-80b4-a9a7213ff1ca",
+        "fields": {
+            "uuid": "71b0e4f0-0968-415f-80b4-a9a7213ff1ca",
+            "name": "Inflatable Bouncers",
+            "emoji": "",
+            "parent": "b73caee9-e1fc-407f-a1cd-cf53ac329d32"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6321cf8e-90fd-4deb-ae5a-f48c1545b943",
+        "fields": {
+            "uuid": "6321cf8e-90fd-4deb-ae5a-f48c1545b943",
+            "name": "Play Swings",
+            "emoji": "",
+            "parent": "b73caee9-e1fc-407f-a1cd-cf53ac329d32"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8e849ad7-7cc5-40d1-84cf-14921305220f",
+        "fields": {
+            "uuid": "8e849ad7-7cc5-40d1-84cf-14921305220f",
+            "name": "Play Tents & Tunnels",
+            "emoji": "",
+            "parent": "b73caee9-e1fc-407f-a1cd-cf53ac329d32"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b36025a2-3e9b-427b-9708-4eee33880c36",
+        "fields": {
+            "uuid": "b36025a2-3e9b-427b-9708-4eee33880c36",
+            "name": "Playhouses",
+            "emoji": "",
+            "parent": "b73caee9-e1fc-407f-a1cd-cf53ac329d32"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "40015645-067b-4760-8acb-1e9b85c2f4b8",
+        "fields": {
+            "uuid": "40015645-067b-4760-8acb-1e9b85c2f4b8",
+            "name": "Pogo Sticks",
+            "emoji": "",
+            "parent": "b73caee9-e1fc-407f-a1cd-cf53ac329d32"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "596a0b7a-f579-4a0f-92f1-48782846bf51",
+        "fields": {
+            "uuid": "596a0b7a-f579-4a0f-92f1-48782846bf51",
+            "name": "Sandboxes",
+            "emoji": "",
+            "parent": "b73caee9-e1fc-407f-a1cd-cf53ac329d32"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ba051e9d-5ac1-4ac7-be1e-41f2843a28ca",
+        "fields": {
+            "uuid": "ba051e9d-5ac1-4ac7-be1e-41f2843a28ca",
+            "name": "Sand Tables",
+            "emoji": "",
+            "parent": "596a0b7a-f579-4a0f-92f1-48782846bf51"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "80c5ae3c-e967-4284-977f-845203c583ab",
+        "fields": {
+            "uuid": "80c5ae3c-e967-4284-977f-845203c583ab",
+            "name": "Sandbox Covers",
+            "emoji": "",
+            "parent": "596a0b7a-f579-4a0f-92f1-48782846bf51"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cd186aa8-6c06-4c2c-9404-e1391cc31db3",
+        "fields": {
+            "uuid": "cd186aa8-6c06-4c2c-9404-e1391cc31db3",
+            "name": "See Saws",
+            "emoji": "",
+            "parent": "b73caee9-e1fc-407f-a1cd-cf53ac329d32"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9fcd60f6-3159-4c03-ae4b-e6636c955679",
+        "fields": {
+            "uuid": "9fcd60f6-3159-4c03-ae4b-e6636c955679",
+            "name": "Slides",
+            "emoji": "",
+            "parent": "b73caee9-e1fc-407f-a1cd-cf53ac329d32"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bc5e7b1d-7e06-4015-aa95-d67211f6a7ad",
+        "fields": {
+            "uuid": "bc5e7b1d-7e06-4015-aa95-d67211f6a7ad",
+            "name": "Stilts",
+            "emoji": "",
+            "parent": "b73caee9-e1fc-407f-a1cd-cf53ac329d32"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ac5436ea-339b-4e3d-ad16-5587e7cd109d",
+        "fields": {
+            "uuid": "ac5436ea-339b-4e3d-ad16-5587e7cd109d",
+            "name": "Swing Set & Playset Accessories",
+            "emoji": "",
+            "parent": "b73caee9-e1fc-407f-a1cd-cf53ac329d32"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "deeaec53-5e57-4f75-8cf4-38c3643afa45",
+        "fields": {
+            "uuid": "deeaec53-5e57-4f75-8cf4-38c3643afa45",
+            "name": "Swing Sets & Playsets",
+            "emoji": "",
+            "parent": "b73caee9-e1fc-407f-a1cd-cf53ac329d32"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a40b79b7-9c13-4804-a090-c2bc20d9ec5d",
+        "fields": {
+            "uuid": "a40b79b7-9c13-4804-a090-c2bc20d9ec5d",
+            "name": "Trampoline Accessories",
+            "emoji": "",
+            "parent": "b73caee9-e1fc-407f-a1cd-cf53ac329d32"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6d8b2a22-28ee-45d9-beb8-491c2c6f7f05",
+        "fields": {
+            "uuid": "6d8b2a22-28ee-45d9-beb8-491c2c6f7f05",
+            "name": "Trampolines",
+            "emoji": "",
+            "parent": "b73caee9-e1fc-407f-a1cd-cf53ac329d32"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aab4026e-80ca-4124-b189-5767bb05ae68",
+        "fields": {
+            "uuid": "aab4026e-80ca-4124-b189-5767bb05ae68",
+            "name": "Water Play Equipment",
+            "emoji": "",
+            "parent": "b73caee9-e1fc-407f-a1cd-cf53ac329d32"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4e9ac6bf-4baa-431b-a791-90bec8ed948a",
+        "fields": {
+            "uuid": "4e9ac6bf-4baa-431b-a791-90bec8ed948a",
+            "name": "Play Sprinklers",
+            "emoji": "",
+            "parent": "aab4026e-80ca-4124-b189-5767bb05ae68"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b3e3eb07-7a9c-46e0-abf3-eefaa5f13edd",
+        "fields": {
+            "uuid": "b3e3eb07-7a9c-46e0-abf3-eefaa5f13edd",
+            "name": "Water Parks & Slides",
+            "emoji": "",
+            "parent": "aab4026e-80ca-4124-b189-5767bb05ae68"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "efe9bb96-4436-4ef8-b606-2b0b7275ed3e",
+        "fields": {
+            "uuid": "efe9bb96-4436-4ef8-b606-2b0b7275ed3e",
+            "name": "Water Tables",
+            "emoji": "",
+            "parent": "aab4026e-80ca-4124-b189-5767bb05ae68"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "67e0512a-512a-4447-b6fb-6841510a8133",
+        "fields": {
+            "uuid": "67e0512a-512a-4447-b6fb-6841510a8133",
+            "name": "Puzzles",
+            "emoji": "",
+            "parent": "d5cafaa2-eaae-4ee7-ad9d-41d7b1808747"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2f05f7ce-0799-4de4-9b56-7f51425133b6",
+        "fields": {
+            "uuid": "2f05f7ce-0799-4de4-9b56-7f51425133b6",
+            "name": "Jigsaw Puzzle Accessories",
+            "emoji": "",
+            "parent": "67e0512a-512a-4447-b6fb-6841510a8133"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "96d9ad21-0def-4b30-a3ae-52e6c2ef3966",
+        "fields": {
+            "uuid": "96d9ad21-0def-4b30-a3ae-52e6c2ef3966",
+            "name": "Jigsaw Puzzles",
+            "emoji": "",
+            "parent": "67e0512a-512a-4447-b6fb-6841510a8133"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3c53d9b6-5da6-4755-bffc-0c67398fee76",
+        "fields": {
+            "uuid": "3c53d9b6-5da6-4755-bffc-0c67398fee76",
+            "name": "Mechanical Puzzles",
+            "emoji": "",
+            "parent": "67e0512a-512a-4447-b6fb-6841510a8133"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f749c95a-4e76-4188-b9f4-7ebe7ae6d434",
+        "fields": {
+            "uuid": "f749c95a-4e76-4188-b9f4-7ebe7ae6d434",
+            "name": "Wooden & Pegged Puzzles",
+            "emoji": "",
+            "parent": "67e0512a-512a-4447-b6fb-6841510a8133"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "77a51823-e8c1-483a-a971-37379d4d14da",
+        "fields": {
+            "uuid": "77a51823-e8c1-483a-a971-37379d4d14da",
+            "name": "Toys",
+            "emoji": "",
+            "parent": "d5cafaa2-eaae-4ee7-ad9d-41d7b1808747"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "49598f01-9d66-4c87-a3a3-c0f11a3f9697",
+        "fields": {
+            "uuid": "49598f01-9d66-4c87-a3a3-c0f11a3f9697",
+            "name": "Activity Toys",
+            "emoji": "",
+            "parent": "77a51823-e8c1-483a-a971-37379d4d14da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2be42804-445a-4a3b-b8b2-6536bde4ae05",
+        "fields": {
+            "uuid": "2be42804-445a-4a3b-b8b2-6536bde4ae05",
+            "name": "Ball & Cup Games",
+            "emoji": "",
+            "parent": "49598f01-9d66-4c87-a3a3-c0f11a3f9697"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ba341eaf-76d9-4c35-83a2-b57d18d5087e",
+        "fields": {
+            "uuid": "ba341eaf-76d9-4c35-83a2-b57d18d5087e",
+            "name": "Bouncy Balls",
+            "emoji": "",
+            "parent": "49598f01-9d66-4c87-a3a3-c0f11a3f9697"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6a3e4d44-47ff-43d2-8119-65e9615d5550",
+        "fields": {
+            "uuid": "6a3e4d44-47ff-43d2-8119-65e9615d5550",
+            "name": "Bubble Blowing Solutions",
+            "emoji": "",
+            "parent": "49598f01-9d66-4c87-a3a3-c0f11a3f9697"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fb06dd5d-afbf-47ad-89c9-854f6d414cea",
+        "fields": {
+            "uuid": "fb06dd5d-afbf-47ad-89c9-854f6d414cea",
+            "name": "Bubble Blowing Toys",
+            "emoji": "",
+            "parent": "49598f01-9d66-4c87-a3a3-c0f11a3f9697"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aa1aa424-f70a-466d-9a60-3837c89597a8",
+        "fields": {
+            "uuid": "aa1aa424-f70a-466d-9a60-3837c89597a8",
+            "name": "Bubble Blowers",
+            "emoji": "",
+            "parent": "fb06dd5d-afbf-47ad-89c9-854f6d414cea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e04903eb-8552-4df4-813b-873f830c20d1",
+        "fields": {
+            "uuid": "e04903eb-8552-4df4-813b-873f830c20d1",
+            "name": "Bubble Guns",
+            "emoji": "",
+            "parent": "fb06dd5d-afbf-47ad-89c9-854f6d414cea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cfb8bd75-e825-44b1-a3ef-8e7c33aee1f8",
+        "fields": {
+            "uuid": "cfb8bd75-e825-44b1-a3ef-8e7c33aee1f8",
+            "name": "Bubble Machines",
+            "emoji": "",
+            "parent": "fb06dd5d-afbf-47ad-89c9-854f6d414cea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aaa740e7-2ba8-455e-aef6-4b9ae176c342",
+        "fields": {
+            "uuid": "aaa740e7-2ba8-455e-aef6-4b9ae176c342",
+            "name": "Coiled Spring Toys",
+            "emoji": "",
+            "parent": "49598f01-9d66-4c87-a3a3-c0f11a3f9697"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "447e372b-2b67-4961-b6c1-2c6d490df6fe",
+        "fields": {
+            "uuid": "447e372b-2b67-4961-b6c1-2c6d490df6fe",
+            "name": "Marbles",
+            "emoji": "",
+            "parent": "49598f01-9d66-4c87-a3a3-c0f11a3f9697"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "902e5078-f223-422e-b3b5-64541bdf70d5",
+        "fields": {
+            "uuid": "902e5078-f223-422e-b3b5-64541bdf70d5",
+            "name": "Paddle Ball Toys",
+            "emoji": "",
+            "parent": "49598f01-9d66-4c87-a3a3-c0f11a3f9697"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bc5c632b-4d03-452a-8270-5be05bbce283",
+        "fields": {
+            "uuid": "bc5c632b-4d03-452a-8270-5be05bbce283",
+            "name": "Ribbon & Streamer Toys",
+            "emoji": "",
+            "parent": "49598f01-9d66-4c87-a3a3-c0f11a3f9697"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "05fe4245-2aba-4649-880d-515f4b441a49",
+        "fields": {
+            "uuid": "05fe4245-2aba-4649-880d-515f4b441a49",
+            "name": "Spinning Tops",
+            "emoji": "",
+            "parent": "49598f01-9d66-4c87-a3a3-c0f11a3f9697"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aa843a1d-d755-4ea3-97df-4ddc061e5101",
+        "fields": {
+            "uuid": "aa843a1d-d755-4ea3-97df-4ddc061e5101",
+            "name": "Toy Jacks",
+            "emoji": "",
+            "parent": "49598f01-9d66-4c87-a3a3-c0f11a3f9697"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b0ca9090-a118-48a2-9647-7280cdbd265b",
+        "fields": {
+            "uuid": "b0ca9090-a118-48a2-9647-7280cdbd265b",
+            "name": "Yo-Yo Parts & Accessories",
+            "emoji": "",
+            "parent": "49598f01-9d66-4c87-a3a3-c0f11a3f9697"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a96b8765-50b1-49de-8480-ec308f4d170b",
+        "fields": {
+            "uuid": "a96b8765-50b1-49de-8480-ec308f4d170b",
+            "name": "Yo-Yos",
+            "emoji": "",
+            "parent": "49598f01-9d66-4c87-a3a3-c0f11a3f9697"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0161a45e-7d46-4aa7-b879-7f77f4311ae4",
+        "fields": {
+            "uuid": "0161a45e-7d46-4aa7-b879-7f77f4311ae4",
+            "name": "Art & Drawing Toys",
+            "emoji": "",
+            "parent": "77a51823-e8c1-483a-a971-37379d4d14da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d7ac2347-07aa-41ab-a8e9-054d37df7a69",
+        "fields": {
+            "uuid": "d7ac2347-07aa-41ab-a8e9-054d37df7a69",
+            "name": "Beading & Jewelry Making Kits",
+            "emoji": "",
+            "parent": "0161a45e-7d46-4aa7-b879-7f77f4311ae4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "83b845c1-a2a6-4135-b0b4-fc26f4f6a40f",
+        "fields": {
+            "uuid": "83b845c1-a2a6-4135-b0b4-fc26f4f6a40f",
+            "name": "Coloring Books & Pads",
+            "emoji": "",
+            "parent": "0161a45e-7d46-4aa7-b879-7f77f4311ae4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6f905801-800b-4e17-ac44-bdda768e6422",
+        "fields": {
+            "uuid": "6f905801-800b-4e17-ac44-bdda768e6422",
+            "name": "Craft Kits",
+            "emoji": "",
+            "parent": "0161a45e-7d46-4aa7-b879-7f77f4311ae4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "13ab9a36-797e-4cab-a7c2-7f4c5f7620df",
+        "fields": {
+            "uuid": "13ab9a36-797e-4cab-a7c2-7f4c5f7620df",
+            "name": "Easel & Art Desks",
+            "emoji": "",
+            "parent": "0161a45e-7d46-4aa7-b879-7f77f4311ae4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "30bcc4c1-0a7f-45c5-83ba-5d975631830f",
+        "fields": {
+            "uuid": "30bcc4c1-0a7f-45c5-83ba-5d975631830f",
+            "name": "Paint-By-Number Kits",
+            "emoji": "",
+            "parent": "0161a45e-7d46-4aa7-b879-7f77f4311ae4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f8042f05-87af-4acd-8749-1e2701ba43cb",
+        "fields": {
+            "uuid": "f8042f05-87af-4acd-8749-1e2701ba43cb",
+            "name": "Play Dough & Putty",
+            "emoji": "",
+            "parent": "0161a45e-7d46-4aa7-b879-7f77f4311ae4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "846ae0df-88d4-4124-bced-7e2c3e126d60",
+        "fields": {
+            "uuid": "846ae0df-88d4-4124-bced-7e2c3e126d60",
+            "name": "Dough Extruders",
+            "emoji": "",
+            "parent": "f8042f05-87af-4acd-8749-1e2701ba43cb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0e65c8cc-d3ab-4682-8fba-926c378c0e61",
+        "fields": {
+            "uuid": "0e65c8cc-d3ab-4682-8fba-926c378c0e61",
+            "name": "Glow In The Dark Putty",
+            "emoji": "",
+            "parent": "f8042f05-87af-4acd-8749-1e2701ba43cb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "616d3a0a-ce4b-4d1e-b8e4-43849ad84b69",
+        "fields": {
+            "uuid": "616d3a0a-ce4b-4d1e-b8e4-43849ad84b69",
+            "name": "Magnetic Putty",
+            "emoji": "",
+            "parent": "f8042f05-87af-4acd-8749-1e2701ba43cb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "be4db057-77ae-45c7-a238-35748d32c5b1",
+        "fields": {
+            "uuid": "be4db057-77ae-45c7-a238-35748d32c5b1",
+            "name": "Play Dough Sets",
+            "emoji": "",
+            "parent": "f8042f05-87af-4acd-8749-1e2701ba43cb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b2834653-3939-4d1c-b330-5328b0e6cd7f",
+        "fields": {
+            "uuid": "b2834653-3939-4d1c-b330-5328b0e6cd7f",
+            "name": "Play Dough Tool Sets",
+            "emoji": "",
+            "parent": "f8042f05-87af-4acd-8749-1e2701ba43cb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b25e5567-0023-4eb3-9e47-ecbd5a4f85aa",
+        "fields": {
+            "uuid": "b25e5567-0023-4eb3-9e47-ecbd5a4f85aa",
+            "name": "Slime & Putty Toys",
+            "emoji": "",
+            "parent": "f8042f05-87af-4acd-8749-1e2701ba43cb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9b9bf938-80db-4231-8fc5-7d7b583c22ba",
+        "fields": {
+            "uuid": "9b9bf938-80db-4231-8fc5-7d7b583c22ba",
+            "name": "Spin & Spiral Art Kits",
+            "emoji": "",
+            "parent": "0161a45e-7d46-4aa7-b879-7f77f4311ae4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "48d488e8-643f-478f-bcb0-c1004d6d8fa3",
+        "fields": {
+            "uuid": "48d488e8-643f-478f-bcb0-c1004d6d8fa3",
+            "name": "Stamp & Stamp Pad Sets",
+            "emoji": "",
+            "parent": "0161a45e-7d46-4aa7-b879-7f77f4311ae4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "22ec4e5b-1aee-4687-9248-6ec984f05d1b",
+        "fields": {
+            "uuid": "22ec4e5b-1aee-4687-9248-6ec984f05d1b",
+            "name": "Stencil & Tracing Papers",
+            "emoji": "",
+            "parent": "0161a45e-7d46-4aa7-b879-7f77f4311ae4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5c9ca4c0-bdee-4f23-a1d9-3e59b1b18f3e",
+        "fields": {
+            "uuid": "5c9ca4c0-bdee-4f23-a1d9-3e59b1b18f3e",
+            "name": "Stickers & Sticker Machines",
+            "emoji": "",
+            "parent": "0161a45e-7d46-4aa7-b879-7f77f4311ae4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b9c5e9df-ec6b-49d6-b459-f6c0827cb4c6",
+        "fields": {
+            "uuid": "b9c5e9df-ec6b-49d6-b459-f6c0827cb4c6",
+            "name": "Toy Drawing Tablets",
+            "emoji": "",
+            "parent": "0161a45e-7d46-4aa7-b879-7f77f4311ae4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "baed28e6-51e8-4ea0-995b-c6a8c26cb89c",
+        "fields": {
+            "uuid": "baed28e6-51e8-4ea0-995b-c6a8c26cb89c",
+            "name": "Ball Pit Accessories",
+            "emoji": "",
+            "parent": "77a51823-e8c1-483a-a971-37379d4d14da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a48a57f5-006f-4513-9041-d0c80f861c9b",
+        "fields": {
+            "uuid": "a48a57f5-006f-4513-9041-d0c80f861c9b",
+            "name": "Ball Pit Balls",
+            "emoji": "",
+            "parent": "baed28e6-51e8-4ea0-995b-c6a8c26cb89c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6d70e8a9-14b1-4fe9-826e-5b12729a9c7b",
+        "fields": {
+            "uuid": "6d70e8a9-14b1-4fe9-826e-5b12729a9c7b",
+            "name": "Ball Pits",
+            "emoji": "",
+            "parent": "77a51823-e8c1-483a-a971-37379d4d14da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aabf1e03-b792-4903-88fb-f29e883617c2",
+        "fields": {
+            "uuid": "aabf1e03-b792-4903-88fb-f29e883617c2",
+            "name": "Bath Toys",
+            "emoji": "",
+            "parent": "77a51823-e8c1-483a-a971-37379d4d14da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "73651a6b-9a33-4a02-bdb5-9e520b5e8f75",
+        "fields": {
+            "uuid": "73651a6b-9a33-4a02-bdb5-9e520b5e8f75",
+            "name": "Bath Book Toys",
+            "emoji": "",
+            "parent": "aabf1e03-b792-4903-88fb-f29e883617c2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7fd7f195-5947-49b4-a454-6dab8022be84",
+        "fields": {
+            "uuid": "7fd7f195-5947-49b4-a454-6dab8022be84",
+            "name": "Bath Bubble Machines",
+            "emoji": "",
+            "parent": "aabf1e03-b792-4903-88fb-f29e883617c2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d4193515-671e-445b-840c-e033e70f4d4c",
+        "fields": {
+            "uuid": "d4193515-671e-445b-840c-e033e70f4d4c",
+            "name": "Bath Crayons",
+            "emoji": "",
+            "parent": "aabf1e03-b792-4903-88fb-f29e883617c2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b180f65c-10a9-47e3-b619-ee59b927298e",
+        "fields": {
+            "uuid": "b180f65c-10a9-47e3-b619-ee59b927298e",
+            "name": "Bath Puzzles",
+            "emoji": "",
+            "parent": "aabf1e03-b792-4903-88fb-f29e883617c2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b5664a3d-ee53-4a0c-9627-3e87d13e5584",
+        "fields": {
+            "uuid": "b5664a3d-ee53-4a0c-9627-3e87d13e5584",
+            "name": "Bath Squirters",
+            "emoji": "",
+            "parent": "aabf1e03-b792-4903-88fb-f29e883617c2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bf1ba933-1f58-4eb1-a860-aaecfcf3039b",
+        "fields": {
+            "uuid": "bf1ba933-1f58-4eb1-a860-aaecfcf3039b",
+            "name": "Floating Bath Toys",
+            "emoji": "",
+            "parent": "aabf1e03-b792-4903-88fb-f29e883617c2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "65bce11d-3bcf-4c01-b4c2-1b934502954f",
+        "fields": {
+            "uuid": "65bce11d-3bcf-4c01-b4c2-1b934502954f",
+            "name": "Interactive Bath Toys",
+            "emoji": "",
+            "parent": "aabf1e03-b792-4903-88fb-f29e883617c2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d15640e7-bb34-459e-95ce-7f3467870391",
+        "fields": {
+            "uuid": "d15640e7-bb34-459e-95ce-7f3467870391",
+            "name": "Rubber Duckies",
+            "emoji": "",
+            "parent": "aabf1e03-b792-4903-88fb-f29e883617c2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e0c040f4-833a-4d02-9d95-9e2e796cade1",
+        "fields": {
+            "uuid": "e0c040f4-833a-4d02-9d95-9e2e796cade1",
+            "name": "Stacking Cups",
+            "emoji": "",
+            "parent": "aabf1e03-b792-4903-88fb-f29e883617c2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "52d10bc9-8e22-405a-94c0-828a0bdfcf78",
+        "fields": {
+            "uuid": "52d10bc9-8e22-405a-94c0-828a0bdfcf78",
+            "name": "Waterproof Bath Dolls",
+            "emoji": "",
+            "parent": "aabf1e03-b792-4903-88fb-f29e883617c2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ce0fd3c6-3411-4844-82bd-3a540b59f3b5",
+        "fields": {
+            "uuid": "ce0fd3c6-3411-4844-82bd-3a540b59f3b5",
+            "name": "Beach & Sand Toys",
+            "emoji": "",
+            "parent": "77a51823-e8c1-483a-a971-37379d4d14da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "21b0714b-c8d5-4946-b1ef-ed677d6b4e9e",
+        "fields": {
+            "uuid": "21b0714b-c8d5-4946-b1ef-ed677d6b4e9e",
+            "name": "Beach Balls",
+            "emoji": "",
+            "parent": "ce0fd3c6-3411-4844-82bd-3a540b59f3b5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4eaeddee-53b2-4750-87aa-c623c08f637e",
+        "fields": {
+            "uuid": "4eaeddee-53b2-4750-87aa-c623c08f637e",
+            "name": "Beach Buckets",
+            "emoji": "",
+            "parent": "ce0fd3c6-3411-4844-82bd-3a540b59f3b5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7468f633-3100-4ddf-a964-586a195c742c",
+        "fields": {
+            "uuid": "7468f633-3100-4ddf-a964-586a195c742c",
+            "name": "Inflatable Rafts & Floats",
+            "emoji": "",
+            "parent": "ce0fd3c6-3411-4844-82bd-3a540b59f3b5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "91d8e18a-99ad-4329-ba4b-afbc18dd1b15",
+        "fields": {
+            "uuid": "91d8e18a-99ad-4329-ba4b-afbc18dd1b15",
+            "name": "Sand & Water Mills",
+            "emoji": "",
+            "parent": "ce0fd3c6-3411-4844-82bd-3a540b59f3b5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "53cb0ba3-8ad9-42e2-8940-2dd4f3eb2471",
+        "fields": {
+            "uuid": "53cb0ba3-8ad9-42e2-8940-2dd4f3eb2471",
+            "name": "Sand Castle Molds",
+            "emoji": "",
+            "parent": "ce0fd3c6-3411-4844-82bd-3a540b59f3b5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "df551da9-ea71-4e37-8353-dd07a10a1003",
+        "fields": {
+            "uuid": "df551da9-ea71-4e37-8353-dd07a10a1003",
+            "name": "Sand Cups",
+            "emoji": "",
+            "parent": "ce0fd3c6-3411-4844-82bd-3a540b59f3b5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "899b8c7c-ce0a-4b77-973b-78e7cae94fb4",
+        "fields": {
+            "uuid": "899b8c7c-ce0a-4b77-973b-78e7cae94fb4",
+            "name": "Sand Rakes",
+            "emoji": "",
+            "parent": "ce0fd3c6-3411-4844-82bd-3a540b59f3b5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3576e0da-d7b8-4a24-9c44-ccadeeb2f5f6",
+        "fields": {
+            "uuid": "3576e0da-d7b8-4a24-9c44-ccadeeb2f5f6",
+            "name": "Sand Shovels & Spades",
+            "emoji": "",
+            "parent": "ce0fd3c6-3411-4844-82bd-3a540b59f3b5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1e48334a-c74d-47e4-844a-398aef831de6",
+        "fields": {
+            "uuid": "1e48334a-c74d-47e4-844a-398aef831de6",
+            "name": "Sand Sifting Sieves",
+            "emoji": "",
+            "parent": "ce0fd3c6-3411-4844-82bd-3a540b59f3b5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d6e3780f-3f2f-4b2c-a81a-a42da8eea21a",
+        "fields": {
+            "uuid": "d6e3780f-3f2f-4b2c-a81a-a42da8eea21a",
+            "name": "Sand Toy Sets",
+            "emoji": "",
+            "parent": "ce0fd3c6-3411-4844-82bd-3a540b59f3b5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "180c3fe8-424c-44f5-a1ce-db03e1423f6f",
+        "fields": {
+            "uuid": "180c3fe8-424c-44f5-a1ce-db03e1423f6f",
+            "name": "Water Guns",
+            "emoji": "",
+            "parent": "ce0fd3c6-3411-4844-82bd-3a540b59f3b5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "970451bb-2b6e-4380-a232-d7785979e3a4",
+        "fields": {
+            "uuid": "970451bb-2b6e-4380-a232-d7785979e3a4",
+            "name": "Building Toys",
+            "emoji": "",
+            "parent": "77a51823-e8c1-483a-a971-37379d4d14da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "12c7aa66-c24c-47b8-a8e7-0ddfd3d2fae5",
+        "fields": {
+            "uuid": "12c7aa66-c24c-47b8-a8e7-0ddfd3d2fae5",
+            "name": "Construction Set Toys",
+            "emoji": "",
+            "parent": "970451bb-2b6e-4380-a232-d7785979e3a4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d62bb648-4c1e-41e2-b2de-f672f7ea83ea",
+        "fields": {
+            "uuid": "d62bb648-4c1e-41e2-b2de-f672f7ea83ea",
+            "name": "Foam Blocks",
+            "emoji": "",
+            "parent": "970451bb-2b6e-4380-a232-d7785979e3a4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9ad5a59a-46c1-437c-a34a-130509f9f441",
+        "fields": {
+            "uuid": "9ad5a59a-46c1-437c-a34a-130509f9f441",
+            "name": "Interlocking Blocks",
+            "emoji": "",
+            "parent": "970451bb-2b6e-4380-a232-d7785979e3a4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d01ead60-b957-4767-a82b-e2371cad3039",
+        "fields": {
+            "uuid": "d01ead60-b957-4767-a82b-e2371cad3039",
+            "name": "Marble Track Sets",
+            "emoji": "",
+            "parent": "970451bb-2b6e-4380-a232-d7785979e3a4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6076e8d3-2059-46fa-83be-e0540bf59caf",
+        "fields": {
+            "uuid": "6076e8d3-2059-46fa-83be-e0540bf59caf",
+            "name": "Wooden Blocks",
+            "emoji": "",
+            "parent": "970451bb-2b6e-4380-a232-d7785979e3a4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b8b28cc1-24be-4c6e-9613-db0c97fa6d97",
+        "fields": {
+            "uuid": "b8b28cc1-24be-4c6e-9613-db0c97fa6d97",
+            "name": "Dolls, Playsets & Toy Figures",
+            "emoji": "",
+            "parent": "77a51823-e8c1-483a-a971-37379d4d14da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "df226866-cfa4-459c-a76b-9fc087f0445c",
+        "fields": {
+            "uuid": "df226866-cfa4-459c-a76b-9fc087f0445c",
+            "name": "Action & Toy Figures",
+            "emoji": "",
+            "parent": "b8b28cc1-24be-4c6e-9613-db0c97fa6d97"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5b8da254-ae80-4212-b03c-eac0e5c8c8e3",
+        "fields": {
+            "uuid": "5b8da254-ae80-4212-b03c-eac0e5c8c8e3",
+            "name": "Action Figures",
+            "emoji": "",
+            "parent": "df226866-cfa4-459c-a76b-9fc087f0445c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c5f51f23-4a7b-4a45-8d3b-3a24dfcfb4ec",
+        "fields": {
+            "uuid": "c5f51f23-4a7b-4a45-8d3b-3a24dfcfb4ec",
+            "name": "Animal Figures",
+            "emoji": "",
+            "parent": "df226866-cfa4-459c-a76b-9fc087f0445c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0ab54053-fb86-4805-a4e7-b78d02f5fbb2",
+        "fields": {
+            "uuid": "0ab54053-fb86-4805-a4e7-b78d02f5fbb2",
+            "name": "Bobblehead Figures",
+            "emoji": "",
+            "parent": "b8b28cc1-24be-4c6e-9613-db0c97fa6d97"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a60f474b-cfbe-42a3-afb8-51f70f2fb866",
+        "fields": {
+            "uuid": "a60f474b-cfbe-42a3-afb8-51f70f2fb866",
+            "name": "Doll & Action Figure Accessories",
+            "emoji": "",
+            "parent": "b8b28cc1-24be-4c6e-9613-db0c97fa6d97"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "14ca3685-9d61-4189-9818-b2563a88df80",
+        "fields": {
+            "uuid": "14ca3685-9d61-4189-9818-b2563a88df80",
+            "name": "Dollhouse Accessories",
+            "emoji": "",
+            "parent": "b8b28cc1-24be-4c6e-9613-db0c97fa6d97"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "db8bfb31-540d-4dd3-b5ec-d292aefc4304",
+        "fields": {
+            "uuid": "db8bfb31-540d-4dd3-b5ec-d292aefc4304",
+            "name": "Dollhouses",
+            "emoji": "",
+            "parent": "b8b28cc1-24be-4c6e-9613-db0c97fa6d97"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2e4dd4ce-15d9-4698-b42e-1b144417c08d",
+        "fields": {
+            "uuid": "2e4dd4ce-15d9-4698-b42e-1b144417c08d",
+            "name": "Dolls",
+            "emoji": "",
+            "parent": "b8b28cc1-24be-4c6e-9613-db0c97fa6d97"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a0adc0d2-312f-432d-a780-8c72791004b5",
+        "fields": {
+            "uuid": "a0adc0d2-312f-432d-a780-8c72791004b5",
+            "name": "Paper & Magnetic Dolls",
+            "emoji": "",
+            "parent": "b8b28cc1-24be-4c6e-9613-db0c97fa6d97"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fb0453c3-37d8-4bde-a215-0f5738f265ff",
+        "fields": {
+            "uuid": "fb0453c3-37d8-4bde-a215-0f5738f265ff",
+            "name": "Puppet & Puppet Theater Accessories",
+            "emoji": "",
+            "parent": "b8b28cc1-24be-4c6e-9613-db0c97fa6d97"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "56f480c9-0f0e-460b-84a6-5bf05248b282",
+        "fields": {
+            "uuid": "56f480c9-0f0e-460b-84a6-5bf05248b282",
+            "name": "Puppet Theaters",
+            "emoji": "",
+            "parent": "b8b28cc1-24be-4c6e-9613-db0c97fa6d97"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4ba6ac92-1470-4b93-be14-c2bdcae7e7d7",
+        "fields": {
+            "uuid": "4ba6ac92-1470-4b93-be14-c2bdcae7e7d7",
+            "name": "Puppets & Marionettes",
+            "emoji": "",
+            "parent": "b8b28cc1-24be-4c6e-9613-db0c97fa6d97"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c16af371-86c0-4d1b-a647-5400becee793",
+        "fields": {
+            "uuid": "c16af371-86c0-4d1b-a647-5400becee793",
+            "name": "Stuffed Animals",
+            "emoji": "",
+            "parent": "b8b28cc1-24be-4c6e-9613-db0c97fa6d97"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5d2c4dcf-7e69-4bdb-a6c3-6917b47203f7",
+        "fields": {
+            "uuid": "5d2c4dcf-7e69-4bdb-a6c3-6917b47203f7",
+            "name": "Toy Playsets",
+            "emoji": "",
+            "parent": "b8b28cc1-24be-4c6e-9613-db0c97fa6d97"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ef17efbf-d479-440a-a0d0-218eac3fbdac",
+        "fields": {
+            "uuid": "ef17efbf-d479-440a-a0d0-218eac3fbdac",
+            "name": "Action Figure Playsets",
+            "emoji": "",
+            "parent": "5d2c4dcf-7e69-4bdb-a6c3-6917b47203f7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c9902ec6-87ed-4956-be96-8d3d6835f4f1",
+        "fields": {
+            "uuid": "c9902ec6-87ed-4956-be96-8d3d6835f4f1",
+            "name": "Car Playsets",
+            "emoji": "",
+            "parent": "5d2c4dcf-7e69-4bdb-a6c3-6917b47203f7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "be130a4a-396b-46b4-a9f5-57e3e7870afc",
+        "fields": {
+            "uuid": "be130a4a-396b-46b4-a9f5-57e3e7870afc",
+            "name": "Castle Playsets",
+            "emoji": "",
+            "parent": "5d2c4dcf-7e69-4bdb-a6c3-6917b47203f7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "495fbb50-fa5b-4475-b835-dac9ac46ea36",
+        "fields": {
+            "uuid": "495fbb50-fa5b-4475-b835-dac9ac46ea36",
+            "name": "Dinosaur Playsets",
+            "emoji": "",
+            "parent": "5d2c4dcf-7e69-4bdb-a6c3-6917b47203f7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "93cc6c93-3698-4a57-9856-22744c286f2f",
+        "fields": {
+            "uuid": "93cc6c93-3698-4a57-9856-22744c286f2f",
+            "name": "Doctor Playsets",
+            "emoji": "",
+            "parent": "5d2c4dcf-7e69-4bdb-a6c3-6917b47203f7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "45a886e6-8ac6-460d-8c1f-f02eb7fc9c0e",
+        "fields": {
+            "uuid": "45a886e6-8ac6-460d-8c1f-f02eb7fc9c0e",
+            "name": "Doll House Playsets",
+            "emoji": "",
+            "parent": "5d2c4dcf-7e69-4bdb-a6c3-6917b47203f7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "12f0aa44-393d-4019-9171-0050720b253c",
+        "fields": {
+            "uuid": "12f0aa44-393d-4019-9171-0050720b253c",
+            "name": "Farm Animal Playsets",
+            "emoji": "",
+            "parent": "5d2c4dcf-7e69-4bdb-a6c3-6917b47203f7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6c53cc02-e1df-4cdf-84d0-bc4e2d603bf3",
+        "fields": {
+            "uuid": "6c53cc02-e1df-4cdf-84d0-bc4e2d603bf3",
+            "name": "Kitchen Playsets",
+            "emoji": "",
+            "parent": "5d2c4dcf-7e69-4bdb-a6c3-6917b47203f7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c6aaebdc-359e-40f2-b3bd-e5f1d917fe6c",
+        "fields": {
+            "uuid": "c6aaebdc-359e-40f2-b3bd-e5f1d917fe6c",
+            "name": "Picnic Playsets",
+            "emoji": "",
+            "parent": "5d2c4dcf-7e69-4bdb-a6c3-6917b47203f7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "df93c2ee-d9ef-4284-9af3-65efc2b967b5",
+        "fields": {
+            "uuid": "df93c2ee-d9ef-4284-9af3-65efc2b967b5",
+            "name": "Educational Toys",
+            "emoji": "",
+            "parent": "77a51823-e8c1-483a-a971-37379d4d14da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fab9887a-3722-4001-bb76-00c64120548a",
+        "fields": {
+            "uuid": "fab9887a-3722-4001-bb76-00c64120548a",
+            "name": "Ant Farms",
+            "emoji": "",
+            "parent": "df93c2ee-d9ef-4284-9af3-65efc2b967b5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cc542862-f4e4-47a2-ac1b-81d101098795",
+        "fields": {
+            "uuid": "cc542862-f4e4-47a2-ac1b-81d101098795",
+            "name": "Astronomy Toys & Models",
+            "emoji": "",
+            "parent": "df93c2ee-d9ef-4284-9af3-65efc2b967b5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "75cf060e-2c1d-43f3-81c8-ca1544bf3416",
+        "fields": {
+            "uuid": "75cf060e-2c1d-43f3-81c8-ca1544bf3416",
+            "name": "Astronomy Puzzles",
+            "emoji": "",
+            "parent": "cc542862-f4e4-47a2-ac1b-81d101098795"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "13629c0d-9ab2-47b0-b0e4-877b89e0b6bb",
+        "fields": {
+            "uuid": "13629c0d-9ab2-47b0-b0e4-877b89e0b6bb",
+            "name": "Interactive Astronomy Books",
+            "emoji": "",
+            "parent": "cc542862-f4e4-47a2-ac1b-81d101098795"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "50542c63-5141-4069-8e84-ddb04db383b1",
+        "fields": {
+            "uuid": "50542c63-5141-4069-8e84-ddb04db383b1",
+            "name": "Planetariums",
+            "emoji": "",
+            "parent": "cc542862-f4e4-47a2-ac1b-81d101098795"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "38c76204-6a05-4d71-9e5b-7e61b891139a",
+        "fields": {
+            "uuid": "38c76204-6a05-4d71-9e5b-7e61b891139a",
+            "name": "Solar System Models",
+            "emoji": "",
+            "parent": "cc542862-f4e4-47a2-ac1b-81d101098795"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "69372787-6534-4027-acf6-0519cba3eb7f",
+        "fields": {
+            "uuid": "69372787-6534-4027-acf6-0519cba3eb7f",
+            "name": "Star & Planet Maps",
+            "emoji": "",
+            "parent": "cc542862-f4e4-47a2-ac1b-81d101098795"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dcd4ed77-8528-4e46-bffc-39354c381c4e",
+        "fields": {
+            "uuid": "dcd4ed77-8528-4e46-bffc-39354c381c4e",
+            "name": "Telescopes",
+            "emoji": "",
+            "parent": "cc542862-f4e4-47a2-ac1b-81d101098795"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "92f9386c-aeb3-4734-bfd1-a968e5f9fd8a",
+        "fields": {
+            "uuid": "92f9386c-aeb3-4734-bfd1-a968e5f9fd8a",
+            "name": "Bug Collecting Kits",
+            "emoji": "",
+            "parent": "df93c2ee-d9ef-4284-9af3-65efc2b967b5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e1440ac2-4477-47aa-ae19-e72879f7e5d1",
+        "fields": {
+            "uuid": "e1440ac2-4477-47aa-ae19-e72879f7e5d1",
+            "name": "Educational Flash Cards",
+            "emoji": "",
+            "parent": "df93c2ee-d9ef-4284-9af3-65efc2b967b5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e09c5664-6f3a-4450-8d2b-1673a6419101",
+        "fields": {
+            "uuid": "e09c5664-6f3a-4450-8d2b-1673a6419101",
+            "name": "Reading Toys",
+            "emoji": "",
+            "parent": "df93c2ee-d9ef-4284-9af3-65efc2b967b5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "37947f4f-1fe6-4306-8ea2-d7bce89c7ffb",
+        "fields": {
+            "uuid": "37947f4f-1fe6-4306-8ea2-d7bce89c7ffb",
+            "name": "Science & Exploration Sets",
+            "emoji": "",
+            "parent": "df93c2ee-d9ef-4284-9af3-65efc2b967b5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cd756dfc-4762-41fa-a242-6d8f4ab1d72d",
+        "fields": {
+            "uuid": "cd756dfc-4762-41fa-a242-6d8f4ab1d72d",
+            "name": "Toy Abacuses",
+            "emoji": "",
+            "parent": "df93c2ee-d9ef-4284-9af3-65efc2b967b5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0fb5f847-5464-4115-82df-8e7231548b88",
+        "fields": {
+            "uuid": "0fb5f847-5464-4115-82df-8e7231548b88",
+            "name": "Executive Toys",
+            "emoji": "",
+            "parent": "77a51823-e8c1-483a-a971-37379d4d14da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dab145ac-aea1-4da2-abcb-f7f372aecc9a",
+        "fields": {
+            "uuid": "dab145ac-aea1-4da2-abcb-f7f372aecc9a",
+            "name": "Magnet Toys",
+            "emoji": "",
+            "parent": "0fb5f847-5464-4115-82df-8e7231548b88"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "56201de7-5660-4afa-bc86-95410bac9f18",
+        "fields": {
+            "uuid": "56201de7-5660-4afa-bc86-95410bac9f18",
+            "name": "Flying Toy Accessories",
+            "emoji": "",
+            "parent": "77a51823-e8c1-483a-a971-37379d4d14da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "31b1d464-5d1f-499e-9c81-833bd96683f1",
+        "fields": {
+            "uuid": "31b1d464-5d1f-499e-9c81-833bd96683f1",
+            "name": "Flying Toys",
+            "emoji": "",
+            "parent": "77a51823-e8c1-483a-a971-37379d4d14da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8ed7675b-7b4d-41d0-8fe6-e87107cd7f4b",
+        "fields": {
+            "uuid": "8ed7675b-7b4d-41d0-8fe6-e87107cd7f4b",
+            "name": "Drones",
+            "emoji": "",
+            "parent": "31b1d464-5d1f-499e-9c81-833bd96683f1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ecf0029c-4538-4814-9769-7e72e8263010",
+        "fields": {
+            "uuid": "ecf0029c-4538-4814-9769-7e72e8263010",
+            "name": "Kites",
+            "emoji": "",
+            "parent": "31b1d464-5d1f-499e-9c81-833bd96683f1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fc09d542-52f1-431c-b2c3-14d9ac3f5970",
+        "fields": {
+            "uuid": "fc09d542-52f1-431c-b2c3-14d9ac3f5970",
+            "name": "Model Aircrafts",
+            "emoji": "",
+            "parent": "31b1d464-5d1f-499e-9c81-833bd96683f1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fe4b1b0c-1ed9-4fbc-9113-00892d189596",
+        "fields": {
+            "uuid": "fe4b1b0c-1ed9-4fbc-9113-00892d189596",
+            "name": "Model Rockets",
+            "emoji": "",
+            "parent": "31b1d464-5d1f-499e-9c81-833bd96683f1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b5d0ee95-ed35-4ef8-99e2-6d912d93ca0b",
+        "fields": {
+            "uuid": "b5d0ee95-ed35-4ef8-99e2-6d912d93ca0b",
+            "name": "Toy Gliders",
+            "emoji": "",
+            "parent": "31b1d464-5d1f-499e-9c81-833bd96683f1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fa4b727f-8291-4206-9f92-2005ffec5bba",
+        "fields": {
+            "uuid": "fa4b727f-8291-4206-9f92-2005ffec5bba",
+            "name": "Toy Helicopters",
+            "emoji": "",
+            "parent": "31b1d464-5d1f-499e-9c81-833bd96683f1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "af038409-01f4-47d5-8787-7f1613b55023",
+        "fields": {
+            "uuid": "af038409-01f4-47d5-8787-7f1613b55023",
+            "name": "Toy Parachutes",
+            "emoji": "",
+            "parent": "31b1d464-5d1f-499e-9c81-833bd96683f1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e2fe4680-e09e-420a-8baf-e1207af75923",
+        "fields": {
+            "uuid": "e2fe4680-e09e-420a-8baf-e1207af75923",
+            "name": "Air & Water Rockets",
+            "emoji": "",
+            "parent": "31b1d464-5d1f-499e-9c81-833bd96683f1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c16c5b4e-56e2-4fad-b683-55105cef5f80",
+        "fields": {
+            "uuid": "c16c5b4e-56e2-4fad-b683-55105cef5f80",
+            "name": "Musical Toys",
+            "emoji": "",
+            "parent": "77a51823-e8c1-483a-a971-37379d4d14da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "abf3ea72-a33b-4cbc-a295-9637faad54b9",
+        "fields": {
+            "uuid": "abf3ea72-a33b-4cbc-a295-9637faad54b9",
+            "name": "DJ Studio Sets",
+            "emoji": "",
+            "parent": "c16c5b4e-56e2-4fad-b683-55105cef5f80"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d5eea1b6-52d5-494b-b945-28eff8f13819",
+        "fields": {
+            "uuid": "d5eea1b6-52d5-494b-b945-28eff8f13819",
+            "name": "Drums & Percussion Instruments",
+            "emoji": "",
+            "parent": "c16c5b4e-56e2-4fad-b683-55105cef5f80"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "16827930-d497-45f5-9fd8-2d872dbc9a74",
+        "fields": {
+            "uuid": "16827930-d497-45f5-9fd8-2d872dbc9a74",
+            "name": "Interactive Musical Mats",
+            "emoji": "",
+            "parent": "c16c5b4e-56e2-4fad-b683-55105cef5f80"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "562ff324-ca1c-43c6-8270-1dbd7ba8b26d",
+        "fields": {
+            "uuid": "562ff324-ca1c-43c6-8270-1dbd7ba8b26d",
+            "name": "Karaoke Sets",
+            "emoji": "",
+            "parent": "c16c5b4e-56e2-4fad-b683-55105cef5f80"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "12cd9ea6-97b9-4bd0-900a-13f13a54010f",
+        "fields": {
+            "uuid": "12cd9ea6-97b9-4bd0-900a-13f13a54010f",
+            "name": "Microphones",
+            "emoji": "",
+            "parent": "c16c5b4e-56e2-4fad-b683-55105cef5f80"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8ef04c24-3015-4a09-8cef-d3958aaeaa20",
+        "fields": {
+            "uuid": "8ef04c24-3015-4a09-8cef-d3958aaeaa20",
+            "name": "Musical Books",
+            "emoji": "",
+            "parent": "c16c5b4e-56e2-4fad-b683-55105cef5f80"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9464fd78-2734-4256-ac34-16e4443529f9",
+        "fields": {
+            "uuid": "9464fd78-2734-4256-ac34-16e4443529f9",
+            "name": "Musical Boxes",
+            "emoji": "",
+            "parent": "c16c5b4e-56e2-4fad-b683-55105cef5f80"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e24d38dd-a6b0-47a9-885d-6edbe2a42794",
+        "fields": {
+            "uuid": "e24d38dd-a6b0-47a9-885d-6edbe2a42794",
+            "name": "Pianos & Keyboards",
+            "emoji": "",
+            "parent": "c16c5b4e-56e2-4fad-b683-55105cef5f80"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c0f9d5e9-28a4-4848-ab13-87e8284cca9c",
+        "fields": {
+            "uuid": "c0f9d5e9-28a4-4848-ab13-87e8284cca9c",
+            "name": "String Instruments",
+            "emoji": "",
+            "parent": "c16c5b4e-56e2-4fad-b683-55105cef5f80"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1eac2c4f-fffe-42bf-a546-b2b36babeb4d",
+        "fields": {
+            "uuid": "1eac2c4f-fffe-42bf-a546-b2b36babeb4d",
+            "name": "Wind Instruments",
+            "emoji": "",
+            "parent": "c16c5b4e-56e2-4fad-b683-55105cef5f80"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5395216a-abf8-447b-b138-4da6095cff17",
+        "fields": {
+            "uuid": "5395216a-abf8-447b-b138-4da6095cff17",
+            "name": "Xylophones",
+            "emoji": "",
+            "parent": "c16c5b4e-56e2-4fad-b683-55105cef5f80"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b0d5686c-cae9-4e3d-a49c-bfe5575dfda7",
+        "fields": {
+            "uuid": "b0d5686c-cae9-4e3d-a49c-bfe5575dfda7",
+            "name": "Play Vehicle Accessories",
+            "emoji": "",
+            "parent": "77a51823-e8c1-483a-a971-37379d4d14da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9a8264e5-5c19-4603-a1a3-4c79751a0e13",
+        "fields": {
+            "uuid": "9a8264e5-5c19-4603-a1a3-4c79751a0e13",
+            "name": "Play Vehicles",
+            "emoji": "",
+            "parent": "77a51823-e8c1-483a-a971-37379d4d14da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8783077a-d2b1-453c-b45c-7723f7078d12",
+        "fields": {
+            "uuid": "8783077a-d2b1-453c-b45c-7723f7078d12",
+            "name": "Toy Airplanes",
+            "emoji": "",
+            "parent": "9a8264e5-5c19-4603-a1a3-4c79751a0e13"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8233b6d8-0c8f-4c4f-b444-a286ac661594",
+        "fields": {
+            "uuid": "8233b6d8-0c8f-4c4f-b444-a286ac661594",
+            "name": "Toy Boats",
+            "emoji": "",
+            "parent": "9a8264e5-5c19-4603-a1a3-4c79751a0e13"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5908f54e-c43e-4e56-96e0-1b1103207303",
+        "fields": {
+            "uuid": "5908f54e-c43e-4e56-96e0-1b1103207303",
+            "name": "Toy Cars",
+            "emoji": "",
+            "parent": "9a8264e5-5c19-4603-a1a3-4c79751a0e13"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bb378bb1-e6b0-4984-b1c0-503eb19f626f",
+        "fields": {
+            "uuid": "bb378bb1-e6b0-4984-b1c0-503eb19f626f",
+            "name": "Toy Helicopters",
+            "emoji": "",
+            "parent": "9a8264e5-5c19-4603-a1a3-4c79751a0e13"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9e2e5557-376a-495b-af65-4a806491db14",
+        "fields": {
+            "uuid": "9e2e5557-376a-495b-af65-4a806491db14",
+            "name": "Toy Motorcycles",
+            "emoji": "",
+            "parent": "9a8264e5-5c19-4603-a1a3-4c79751a0e13"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "794b7a76-9811-42a9-9715-241cbb030e83",
+        "fields": {
+            "uuid": "794b7a76-9811-42a9-9715-241cbb030e83",
+            "name": "Toy Race Car & Track Sets",
+            "emoji": "",
+            "parent": "9a8264e5-5c19-4603-a1a3-4c79751a0e13"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8f764e2a-4000-428d-aadc-6de77693b142",
+        "fields": {
+            "uuid": "8f764e2a-4000-428d-aadc-6de77693b142",
+            "name": "Toy Spaceships",
+            "emoji": "",
+            "parent": "9a8264e5-5c19-4603-a1a3-4c79751a0e13"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8f41dcb5-9668-4201-9adf-8ca0660f7a8d",
+        "fields": {
+            "uuid": "8f41dcb5-9668-4201-9adf-8ca0660f7a8d",
+            "name": "Toy Trains & Train Sets",
+            "emoji": "",
+            "parent": "9a8264e5-5c19-4603-a1a3-4c79751a0e13"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7cc5df10-4249-4efe-958f-19bddb497604",
+        "fields": {
+            "uuid": "7cc5df10-4249-4efe-958f-19bddb497604",
+            "name": "Toy Trucks & Construction Vehicles",
+            "emoji": "",
+            "parent": "9a8264e5-5c19-4603-a1a3-4c79751a0e13"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "133a1f4e-084c-463f-91e3-d7893e4f4758",
+        "fields": {
+            "uuid": "133a1f4e-084c-463f-91e3-d7893e4f4758",
+            "name": "Pretend Play",
+            "emoji": "",
+            "parent": "77a51823-e8c1-483a-a971-37379d4d14da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "800d2617-fdcc-4996-82e5-7e7c1f0f1769",
+        "fields": {
+            "uuid": "800d2617-fdcc-4996-82e5-7e7c1f0f1769",
+            "name": "Play Money & Banking",
+            "emoji": "",
+            "parent": "133a1f4e-084c-463f-91e3-d7893e4f4758"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "868bf292-9b9a-4ffc-a283-12e6d7194e3f",
+        "fields": {
+            "uuid": "868bf292-9b9a-4ffc-a283-12e6d7194e3f",
+            "name": "Pretend Electronics",
+            "emoji": "",
+            "parent": "133a1f4e-084c-463f-91e3-d7893e4f4758"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5dc8a888-907c-4e72-b07a-4299c96b20da",
+        "fields": {
+            "uuid": "5dc8a888-907c-4e72-b07a-4299c96b20da",
+            "name": "Pretend Housekeeping",
+            "emoji": "",
+            "parent": "133a1f4e-084c-463f-91e3-d7893e4f4758"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3b0a401d-b68f-4a4c-8e73-e80a83e94d2a",
+        "fields": {
+            "uuid": "3b0a401d-b68f-4a4c-8e73-e80a83e94d2a",
+            "name": "Pretend Lawn & Garden",
+            "emoji": "",
+            "parent": "133a1f4e-084c-463f-91e3-d7893e4f4758"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e4c8fa35-445e-4c82-939c-9b988fe941f4",
+        "fields": {
+            "uuid": "e4c8fa35-445e-4c82-939c-9b988fe941f4",
+            "name": "Pretend Professions & Role Playing",
+            "emoji": "",
+            "parent": "133a1f4e-084c-463f-91e3-d7893e4f4758"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "87463e82-b251-4f79-80aa-f42ff107b442",
+        "fields": {
+            "uuid": "87463e82-b251-4f79-80aa-f42ff107b442",
+            "name": "Pretend Shopping & Grocery",
+            "emoji": "",
+            "parent": "133a1f4e-084c-463f-91e3-d7893e4f4758"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1e645638-964d-4b40-b6b2-e5c6906ced0e",
+        "fields": {
+            "uuid": "1e645638-964d-4b40-b6b2-e5c6906ced0e",
+            "name": "Toy Kitchens & Play Food",
+            "emoji": "",
+            "parent": "133a1f4e-084c-463f-91e3-d7893e4f4758"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a1de82b0-ce20-4074-9934-ead6bd3ad56b",
+        "fields": {
+            "uuid": "a1de82b0-ce20-4074-9934-ead6bd3ad56b",
+            "name": "Play Food",
+            "emoji": "",
+            "parent": "1e645638-964d-4b40-b6b2-e5c6906ced0e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aabb021f-9306-40b0-8d78-52cac2cd6c78",
+        "fields": {
+            "uuid": "aabb021f-9306-40b0-8d78-52cac2cd6c78",
+            "name": "Toy Cookware",
+            "emoji": "",
+            "parent": "1e645638-964d-4b40-b6b2-e5c6906ced0e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "33c089c0-42e0-4e75-ae13-8c118dd2e795",
+        "fields": {
+            "uuid": "33c089c0-42e0-4e75-ae13-8c118dd2e795",
+            "name": "Toy Kitchens",
+            "emoji": "",
+            "parent": "1e645638-964d-4b40-b6b2-e5c6906ced0e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ab9df284-f192-4088-b227-f321e52251be",
+        "fields": {
+            "uuid": "ab9df284-f192-4088-b227-f321e52251be",
+            "name": "Toy Tableware",
+            "emoji": "",
+            "parent": "1e645638-964d-4b40-b6b2-e5c6906ced0e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6da2acfb-f272-4987-a370-126a6f7684df",
+        "fields": {
+            "uuid": "6da2acfb-f272-4987-a370-126a6f7684df",
+            "name": "Toy Tools",
+            "emoji": "",
+            "parent": "133a1f4e-084c-463f-91e3-d7893e4f4758"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3affdb30-7c94-471c-9230-893064deea09",
+        "fields": {
+            "uuid": "3affdb30-7c94-471c-9230-893064deea09",
+            "name": "Remote Control Toy Accessories",
+            "emoji": "",
+            "parent": "77a51823-e8c1-483a-a971-37379d4d14da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "458aedd0-f80c-435c-819d-f56c380116a5",
+        "fields": {
+            "uuid": "458aedd0-f80c-435c-819d-f56c380116a5",
+            "name": "Remote Control Toys",
+            "emoji": "",
+            "parent": "77a51823-e8c1-483a-a971-37379d4d14da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "de5fc07f-f43e-46d0-9a2e-91a487e13337",
+        "fields": {
+            "uuid": "de5fc07f-f43e-46d0-9a2e-91a487e13337",
+            "name": "Remote Control Airships & Blimps",
+            "emoji": "",
+            "parent": "458aedd0-f80c-435c-819d-f56c380116a5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "62d64c3a-8b00-422c-89a6-0c609a1a36b0",
+        "fields": {
+            "uuid": "62d64c3a-8b00-422c-89a6-0c609a1a36b0",
+            "name": "Remote Control Boats & Watercraft",
+            "emoji": "",
+            "parent": "458aedd0-f80c-435c-819d-f56c380116a5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "98aa8458-07cc-46ce-89f7-788f44ce1f00",
+        "fields": {
+            "uuid": "98aa8458-07cc-46ce-89f7-788f44ce1f00",
+            "name": "Remote Control Cars & Trucks",
+            "emoji": "",
+            "parent": "458aedd0-f80c-435c-819d-f56c380116a5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f4fb298c-f505-4ca6-944e-762c94997d70",
+        "fields": {
+            "uuid": "f4fb298c-f505-4ca6-944e-762c94997d70",
+            "name": "Remote Control Helicopters",
+            "emoji": "",
+            "parent": "458aedd0-f80c-435c-819d-f56c380116a5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ae1f1a45-ec33-4fcf-b808-8f68021e09e2",
+        "fields": {
+            "uuid": "ae1f1a45-ec33-4fcf-b808-8f68021e09e2",
+            "name": "Remote Control Motorcycles",
+            "emoji": "",
+            "parent": "458aedd0-f80c-435c-819d-f56c380116a5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "799d56fc-997a-41b2-a0d6-db0019908dcb",
+        "fields": {
+            "uuid": "799d56fc-997a-41b2-a0d6-db0019908dcb",
+            "name": "Remote Control Planes",
+            "emoji": "",
+            "parent": "458aedd0-f80c-435c-819d-f56c380116a5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "55b3d8e0-a285-45a9-b32d-ac17c7cceffb",
+        "fields": {
+            "uuid": "55b3d8e0-a285-45a9-b32d-ac17c7cceffb",
+            "name": "Remote Control Robots",
+            "emoji": "",
+            "parent": "458aedd0-f80c-435c-819d-f56c380116a5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "15ccca30-7447-47a7-94d5-545283559936",
+        "fields": {
+            "uuid": "15ccca30-7447-47a7-94d5-545283559936",
+            "name": "Remote Control Tanks",
+            "emoji": "",
+            "parent": "458aedd0-f80c-435c-819d-f56c380116a5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5895f7af-d10f-4b89-b6ae-2df46d612259",
+        "fields": {
+            "uuid": "5895f7af-d10f-4b89-b6ae-2df46d612259",
+            "name": "Riding Toy Accessories",
+            "emoji": "",
+            "parent": "77a51823-e8c1-483a-a971-37379d4d14da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "12d752fa-2ef5-48a4-a9c1-695eb8a47574",
+        "fields": {
+            "uuid": "12d752fa-2ef5-48a4-a9c1-695eb8a47574",
+            "name": "Riding Toys",
+            "emoji": "",
+            "parent": "77a51823-e8c1-483a-a971-37379d4d14da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e94c4f76-db8e-46e5-b630-5bdd2b0bb7c0",
+        "fields": {
+            "uuid": "e94c4f76-db8e-46e5-b630-5bdd2b0bb7c0",
+            "name": "Electric Riding Vehicles",
+            "emoji": "",
+            "parent": "12d752fa-2ef5-48a4-a9c1-695eb8a47574"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1a809ece-c3e7-426b-b221-26abee32e8c7",
+        "fields": {
+            "uuid": "1a809ece-c3e7-426b-b221-26abee32e8c7",
+            "name": "Hobby Horses",
+            "emoji": "",
+            "parent": "12d752fa-2ef5-48a4-a9c1-695eb8a47574"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "addda2a4-45dd-419f-b900-08fa93bf75b0",
+        "fields": {
+            "uuid": "addda2a4-45dd-419f-b900-08fa93bf75b0",
+            "name": "Push & Pedal Riding Vehicles",
+            "emoji": "",
+            "parent": "12d752fa-2ef5-48a4-a9c1-695eb8a47574"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d06f7b4e-19b6-4d15-9624-1fb5a6715ff5",
+        "fields": {
+            "uuid": "d06f7b4e-19b6-4d15-9624-1fb5a6715ff5",
+            "name": "Rocking & Spring Riding Toys",
+            "emoji": "",
+            "parent": "12d752fa-2ef5-48a4-a9c1-695eb8a47574"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "abe27463-7570-437a-a466-c91d5f3217ad",
+        "fields": {
+            "uuid": "abe27463-7570-437a-a466-c91d5f3217ad",
+            "name": "Wagons",
+            "emoji": "",
+            "parent": "12d752fa-2ef5-48a4-a9c1-695eb8a47574"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "890a1347-4b1f-4d61-9b73-0de8b22b1062",
+        "fields": {
+            "uuid": "890a1347-4b1f-4d61-9b73-0de8b22b1062",
+            "name": "Robotic Toys",
+            "emoji": "",
+            "parent": "77a51823-e8c1-483a-a971-37379d4d14da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "75ad4503-0066-4d13-b7d9-243134c4961e",
+        "fields": {
+            "uuid": "75ad4503-0066-4d13-b7d9-243134c4961e",
+            "name": "Sports Toy Accessories",
+            "emoji": "",
+            "parent": "77a51823-e8c1-483a-a971-37379d4d14da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4568959a-91d3-47e4-8ef3-db142cf0b87a",
+        "fields": {
+            "uuid": "4568959a-91d3-47e4-8ef3-db142cf0b87a",
+            "name": "Sports Toys",
+            "emoji": "",
+            "parent": "77a51823-e8c1-483a-a971-37379d4d14da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e7194543-2e02-4b3a-8669-8b492f686bf5",
+        "fields": {
+            "uuid": "e7194543-2e02-4b3a-8669-8b492f686bf5",
+            "name": "American Football Toys",
+            "emoji": "",
+            "parent": "4568959a-91d3-47e4-8ef3-db142cf0b87a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "409e81be-aac4-47dc-91c8-6b684bdf9814",
+        "fields": {
+            "uuid": "409e81be-aac4-47dc-91c8-6b684bdf9814",
+            "name": "Baseball Toys",
+            "emoji": "",
+            "parent": "4568959a-91d3-47e4-8ef3-db142cf0b87a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "da87a8fa-2d0d-434d-b77b-59083ae87abf",
+        "fields": {
+            "uuid": "da87a8fa-2d0d-434d-b77b-59083ae87abf",
+            "name": "Basketball Toys",
+            "emoji": "",
+            "parent": "4568959a-91d3-47e4-8ef3-db142cf0b87a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "43d841d4-2760-4dc6-8da3-7d2d918a0a74",
+        "fields": {
+            "uuid": "43d841d4-2760-4dc6-8da3-7d2d918a0a74",
+            "name": "Boomerangs",
+            "emoji": "",
+            "parent": "4568959a-91d3-47e4-8ef3-db142cf0b87a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c7fc2121-3dc8-4c13-974b-e3455219f433",
+        "fields": {
+            "uuid": "c7fc2121-3dc8-4c13-974b-e3455219f433",
+            "name": "Bowling Toys",
+            "emoji": "",
+            "parent": "4568959a-91d3-47e4-8ef3-db142cf0b87a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "499b219f-4188-48c1-83cc-47f02a75aace",
+        "fields": {
+            "uuid": "499b219f-4188-48c1-83cc-47f02a75aace",
+            "name": "Fingerboards & Fingerboard Sets",
+            "emoji": "",
+            "parent": "4568959a-91d3-47e4-8ef3-db142cf0b87a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e1239374-57d2-4ac7-84ff-b04aecb7fa92",
+        "fields": {
+            "uuid": "e1239374-57d2-4ac7-84ff-b04aecb7fa92",
+            "name": "Fishing Toys",
+            "emoji": "",
+            "parent": "4568959a-91d3-47e4-8ef3-db142cf0b87a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3faeefa8-f388-4525-805e-75d25b893f2a",
+        "fields": {
+            "uuid": "3faeefa8-f388-4525-805e-75d25b893f2a",
+            "name": "Fitness Toys",
+            "emoji": "",
+            "parent": "4568959a-91d3-47e4-8ef3-db142cf0b87a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4dd44cda-cef8-4831-946b-11d74b8b4abc",
+        "fields": {
+            "uuid": "4dd44cda-cef8-4831-946b-11d74b8b4abc",
+            "name": "Hula Hoops",
+            "emoji": "",
+            "parent": "3faeefa8-f388-4525-805e-75d25b893f2a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "77761dba-9dfa-4a25-a8ec-8bf8c24393c4",
+        "fields": {
+            "uuid": "77761dba-9dfa-4a25-a8ec-8bf8c24393c4",
+            "name": "Jump Ropes",
+            "emoji": "",
+            "parent": "3faeefa8-f388-4525-805e-75d25b893f2a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6b892fce-2bba-4c62-8bdf-c5d95344832f",
+        "fields": {
+            "uuid": "6b892fce-2bba-4c62-8bdf-c5d95344832f",
+            "name": "Kids' Exercise Balls",
+            "emoji": "",
+            "parent": "3faeefa8-f388-4525-805e-75d25b893f2a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ddc96822-4231-4345-b545-e8f02607182c",
+        "fields": {
+            "uuid": "ddc96822-4231-4345-b545-e8f02607182c",
+            "name": "Kids' Yoga Mats & Sets",
+            "emoji": "",
+            "parent": "3faeefa8-f388-4525-805e-75d25b893f2a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b69358f0-6a51-4b13-a53c-816187cefd81",
+        "fields": {
+            "uuid": "b69358f0-6a51-4b13-a53c-816187cefd81",
+            "name": "Mini Trampolines",
+            "emoji": "",
+            "parent": "3faeefa8-f388-4525-805e-75d25b893f2a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fbdd63e2-5a18-4532-a126-83dadd48d065",
+        "fields": {
+            "uuid": "fbdd63e2-5a18-4532-a126-83dadd48d065",
+            "name": "Flying Discs",
+            "emoji": "",
+            "parent": "4568959a-91d3-47e4-8ef3-db142cf0b87a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ff373ee9-8e5c-47c1-bf1b-31dbbc17c184",
+        "fields": {
+            "uuid": "ff373ee9-8e5c-47c1-bf1b-31dbbc17c184",
+            "name": "Footbags",
+            "emoji": "",
+            "parent": "4568959a-91d3-47e4-8ef3-db142cf0b87a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "87a0b774-3f04-4f2b-8aca-cc07dcd87496",
+        "fields": {
+            "uuid": "87a0b774-3f04-4f2b-8aca-cc07dcd87496",
+            "name": "Golf Toys",
+            "emoji": "",
+            "parent": "4568959a-91d3-47e4-8ef3-db142cf0b87a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "83147c7f-14d1-430c-9cd5-166f726e151c",
+        "fields": {
+            "uuid": "83147c7f-14d1-430c-9cd5-166f726e151c",
+            "name": "Hockey Toys",
+            "emoji": "",
+            "parent": "4568959a-91d3-47e4-8ef3-db142cf0b87a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6c878549-95a5-4071-aeec-a9ad26d7702a",
+        "fields": {
+            "uuid": "6c878549-95a5-4071-aeec-a9ad26d7702a",
+            "name": "Playground Balls",
+            "emoji": "",
+            "parent": "4568959a-91d3-47e4-8ef3-db142cf0b87a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a79d541b-2b78-4f97-9d31-929c014cc85a",
+        "fields": {
+            "uuid": "a79d541b-2b78-4f97-9d31-929c014cc85a",
+            "name": "Racquet Sport Toys",
+            "emoji": "",
+            "parent": "4568959a-91d3-47e4-8ef3-db142cf0b87a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e69804c7-f34b-4134-8405-f5fe295e87f4",
+        "fields": {
+            "uuid": "e69804c7-f34b-4134-8405-f5fe295e87f4",
+            "name": "Toy Gift Baskets",
+            "emoji": "",
+            "parent": "77a51823-e8c1-483a-a971-37379d4d14da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2c81d415-b4bd-4755-b49a-b93ddb6cf320",
+        "fields": {
+            "uuid": "2c81d415-b4bd-4755-b49a-b93ddb6cf320",
+            "name": "Toy Weapon & Gadget Accessories",
+            "emoji": "",
+            "parent": "77a51823-e8c1-483a-a971-37379d4d14da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e5f846f9-dc95-4b83-bbda-9469e8685634",
+        "fields": {
+            "uuid": "e5f846f9-dc95-4b83-bbda-9469e8685634",
+            "name": "Toy Weapons & Gadgets",
+            "emoji": "",
+            "parent": "77a51823-e8c1-483a-a971-37379d4d14da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b5bda631-f778-41ea-a8bb-970af746c2cd",
+        "fields": {
+            "uuid": "b5bda631-f778-41ea-a8bb-970af746c2cd",
+            "name": "Visual Toys",
+            "emoji": "",
+            "parent": "77a51823-e8c1-483a-a971-37379d4d14da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1b32eca7-d4e5-4d0d-bb48-c8ff7b392da5",
+        "fields": {
+            "uuid": "1b32eca7-d4e5-4d0d-bb48-c8ff7b392da5",
+            "name": "Kaleidoscopes",
+            "emoji": "",
+            "parent": "b5bda631-f778-41ea-a8bb-970af746c2cd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1cfddb2f-16c7-4791-86eb-d3eb62245fb4",
+        "fields": {
+            "uuid": "1cfddb2f-16c7-4791-86eb-d3eb62245fb4",
+            "name": "Prisms",
+            "emoji": "",
+            "parent": "b5bda631-f778-41ea-a8bb-970af746c2cd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "82383c43-a582-4863-a1a4-97ace0adb47b",
+        "fields": {
+            "uuid": "82383c43-a582-4863-a1a4-97ace0adb47b",
+            "name": "Wind-Up Toys",
+            "emoji": "",
+            "parent": "77a51823-e8c1-483a-a971-37379d4d14da"
+        }
+    }
+]

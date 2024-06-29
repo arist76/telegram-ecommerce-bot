@@ -1,0 +1,4182 @@
+[
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f3e5cd44-4396-4a46-8111-493de4aff4d4",
+        "fields": {
+            "uuid": "f3e5cd44-4396-4a46-8111-493de4aff4d4",
+            "name": "Animals & Pet Supplies",
+            "emoji": "",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2c704ca8-fa1c-4721-882d-561f2520ea87",
+        "fields": {
+            "uuid": "2c704ca8-fa1c-4721-882d-561f2520ea87",
+            "name": "Live Animals",
+            "emoji": "",
+            "parent": "f3e5cd44-4396-4a46-8111-493de4aff4d4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bca712bc-883b-4a8d-88ea-cf5c76b61172",
+        "fields": {
+            "uuid": "bca712bc-883b-4a8d-88ea-cf5c76b61172",
+            "name": "Pet Supplies",
+            "emoji": "",
+            "parent": "f3e5cd44-4396-4a46-8111-493de4aff4d4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9336a734-b30d-4773-8be5-8782f36bb44c",
+        "fields": {
+            "uuid": "9336a734-b30d-4773-8be5-8782f36bb44c",
+            "name": "Bird Supplies",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f8ccc9fc-0282-4c43-9a55-baad99c5e9e7",
+        "fields": {
+            "uuid": "f8ccc9fc-0282-4c43-9a55-baad99c5e9e7",
+            "name": "Bird Cage Accessories",
+            "emoji": "",
+            "parent": "9336a734-b30d-4773-8be5-8782f36bb44c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2dee97ae-1aca-46bb-bcad-e88928c17181",
+        "fields": {
+            "uuid": "2dee97ae-1aca-46bb-bcad-e88928c17181",
+            "name": "Bird Cage Bird Baths",
+            "emoji": "",
+            "parent": "f8ccc9fc-0282-4c43-9a55-baad99c5e9e7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "df3c8bac-21df-48f0-aad3-b6d8ab187ba5",
+        "fields": {
+            "uuid": "df3c8bac-21df-48f0-aad3-b6d8ab187ba5",
+            "name": "Bird Cage Food & Water Dishes",
+            "emoji": "",
+            "parent": "f8ccc9fc-0282-4c43-9a55-baad99c5e9e7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b5120be8-1acd-4170-b01c-165f575f5304",
+        "fields": {
+            "uuid": "b5120be8-1acd-4170-b01c-165f575f5304",
+            "name": "Bird Cage Food Dishes",
+            "emoji": "",
+            "parent": "df3c8bac-21df-48f0-aad3-b6d8ab187ba5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "65879a1e-f5aa-41d2-a290-abb1d2642d68",
+        "fields": {
+            "uuid": "65879a1e-f5aa-41d2-a290-abb1d2642d68",
+            "name": "Bird Cage Water Dishes",
+            "emoji": "",
+            "parent": "df3c8bac-21df-48f0-aad3-b6d8ab187ba5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2aac270b-ccae-4636-a443-56a4e745de06",
+        "fields": {
+            "uuid": "2aac270b-ccae-4636-a443-56a4e745de06",
+            "name": "Combined Bird Cage Food & Water Dishes",
+            "emoji": "",
+            "parent": "df3c8bac-21df-48f0-aad3-b6d8ab187ba5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d152f00e-2f1d-41e4-adb8-44d25c8b9d2e",
+        "fields": {
+            "uuid": "d152f00e-2f1d-41e4-adb8-44d25c8b9d2e",
+            "name": "Bird Cages & Stands",
+            "emoji": "",
+            "parent": "9336a734-b30d-4773-8be5-8782f36bb44c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d13e6cda-abd9-4e6a-85b2-fd9d6914b736",
+        "fields": {
+            "uuid": "d13e6cda-abd9-4e6a-85b2-fd9d6914b736",
+            "name": "Bird Food",
+            "emoji": "",
+            "parent": "9336a734-b30d-4773-8be5-8782f36bb44c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "78312a0a-835e-41f9-8f97-82b648a63813",
+        "fields": {
+            "uuid": "78312a0a-835e-41f9-8f97-82b648a63813",
+            "name": "Bird Gyms & Playstands",
+            "emoji": "",
+            "parent": "9336a734-b30d-4773-8be5-8782f36bb44c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d7780eff-fb76-4ac0-8d8d-f0db6197c8e7",
+        "fields": {
+            "uuid": "d7780eff-fb76-4ac0-8d8d-f0db6197c8e7",
+            "name": "Bird Ladders & Perches",
+            "emoji": "",
+            "parent": "9336a734-b30d-4773-8be5-8782f36bb44c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2f760928-8010-451b-9a44-020494a884b1",
+        "fields": {
+            "uuid": "2f760928-8010-451b-9a44-020494a884b1",
+            "name": "Ladders & Steps",
+            "emoji": "",
+            "parent": "d7780eff-fb76-4ac0-8d8d-f0db6197c8e7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4279b734-2c28-402b-a3ca-db53ac93a423",
+        "fields": {
+            "uuid": "4279b734-2c28-402b-a3ca-db53ac93a423",
+            "name": "Swings & Perches",
+            "emoji": "",
+            "parent": "d7780eff-fb76-4ac0-8d8d-f0db6197c8e7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4999fc6e-c313-4e1b-afe2-348450e638f5",
+        "fields": {
+            "uuid": "4999fc6e-c313-4e1b-afe2-348450e638f5",
+            "name": "Bird Toys",
+            "emoji": "",
+            "parent": "9336a734-b30d-4773-8be5-8782f36bb44c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4b8dd82d-f09e-44b1-9de0-75c6358b7219",
+        "fields": {
+            "uuid": "4b8dd82d-f09e-44b1-9de0-75c6358b7219",
+            "name": "Balls & Fetch Toys",
+            "emoji": "",
+            "parent": "4999fc6e-c313-4e1b-afe2-348450e638f5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fc059034-a48a-4023-afe6-fab46600df9a",
+        "fields": {
+            "uuid": "fc059034-a48a-4023-afe6-fab46600df9a",
+            "name": "Bells & Beads",
+            "emoji": "",
+            "parent": "4999fc6e-c313-4e1b-afe2-348450e638f5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fc2faa3e-a3b7-4654-a4c4-922bdaa13719",
+        "fields": {
+            "uuid": "fc2faa3e-a3b7-4654-a4c4-922bdaa13719",
+            "name": "Chew Toys",
+            "emoji": "",
+            "parent": "4999fc6e-c313-4e1b-afe2-348450e638f5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f0e07ac9-26b6-4dab-9263-b8637068555b",
+        "fields": {
+            "uuid": "f0e07ac9-26b6-4dab-9263-b8637068555b",
+            "name": "Foraging Toys",
+            "emoji": "",
+            "parent": "4999fc6e-c313-4e1b-afe2-348450e638f5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3475b839-6c27-490e-86e0-16f7905f9179",
+        "fields": {
+            "uuid": "3475b839-6c27-490e-86e0-16f7905f9179",
+            "name": "Mirrors",
+            "emoji": "",
+            "parent": "4999fc6e-c313-4e1b-afe2-348450e638f5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a950f00f-b277-47fa-9f10-67fd8763058b",
+        "fields": {
+            "uuid": "a950f00f-b277-47fa-9f10-67fd8763058b",
+            "name": "Puzzles & Interactive Toys",
+            "emoji": "",
+            "parent": "4999fc6e-c313-4e1b-afe2-348450e638f5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2ac3b30d-5480-4474-b6af-29d8076dfcf4",
+        "fields": {
+            "uuid": "2ac3b30d-5480-4474-b6af-29d8076dfcf4",
+            "name": "Ropes & Knots",
+            "emoji": "",
+            "parent": "4999fc6e-c313-4e1b-afe2-348450e638f5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bf699cf5-dac3-49fe-9048-0757561bae21",
+        "fields": {
+            "uuid": "bf699cf5-dac3-49fe-9048-0757561bae21",
+            "name": "Tunnels & Tubes",
+            "emoji": "",
+            "parent": "4999fc6e-c313-4e1b-afe2-348450e638f5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f82e6633-f2b9-4027-8db9-27ce2e1a19ca",
+        "fields": {
+            "uuid": "f82e6633-f2b9-4027-8db9-27ce2e1a19ca",
+            "name": "Bird Treats",
+            "emoji": "",
+            "parent": "9336a734-b30d-4773-8be5-8782f36bb44c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "90a3bb03-96c2-4963-aa9b-74efd48a8d22",
+        "fields": {
+            "uuid": "90a3bb03-96c2-4963-aa9b-74efd48a8d22",
+            "name": "Cat Supplies",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3aa57bb6-f816-49b7-bc21-4db2db8ed6f3",
+        "fields": {
+            "uuid": "3aa57bb6-f816-49b7-bc21-4db2db8ed6f3",
+            "name": "Cat Food",
+            "emoji": "",
+            "parent": "90a3bb03-96c2-4963-aa9b-74efd48a8d22"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ec7d4411-dbf6-4332-9d50-1d2521634a91",
+        "fields": {
+            "uuid": "ec7d4411-dbf6-4332-9d50-1d2521634a91",
+            "name": "Non-Prescription Cat Food",
+            "emoji": "",
+            "parent": "3aa57bb6-f816-49b7-bc21-4db2db8ed6f3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "edfd2f7a-8291-4ab1-9d2b-bd584be78bf4",
+        "fields": {
+            "uuid": "edfd2f7a-8291-4ab1-9d2b-bd584be78bf4",
+            "name": "Prescription Cat Food",
+            "emoji": "",
+            "parent": "3aa57bb6-f816-49b7-bc21-4db2db8ed6f3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b64c3ed5-693f-4486-952e-b8f4f0ebeaff",
+        "fields": {
+            "uuid": "b64c3ed5-693f-4486-952e-b8f4f0ebeaff",
+            "name": "Cat Furniture",
+            "emoji": "",
+            "parent": "90a3bb03-96c2-4963-aa9b-74efd48a8d22"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1a2bef0b-333e-412b-bc46-7d5dea1815e2",
+        "fields": {
+            "uuid": "1a2bef0b-333e-412b-bc46-7d5dea1815e2",
+            "name": "Cat Condos & Houses",
+            "emoji": "",
+            "parent": "b64c3ed5-693f-4486-952e-b8f4f0ebeaff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d9e3084f-841c-476e-b3e9-de43ab5f612e",
+        "fields": {
+            "uuid": "d9e3084f-841c-476e-b3e9-de43ab5f612e",
+            "name": "Cat Perches & Shelves",
+            "emoji": "",
+            "parent": "b64c3ed5-693f-4486-952e-b8f4f0ebeaff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2cbf6e0d-1b90-4e22-87c2-3a007cbdbf15",
+        "fields": {
+            "uuid": "2cbf6e0d-1b90-4e22-87c2-3a007cbdbf15",
+            "name": "Cat Scratchers & Scratching Posts",
+            "emoji": "",
+            "parent": "b64c3ed5-693f-4486-952e-b8f4f0ebeaff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "adc0a2cb-66f0-4ca1-a26a-9ca49febdd46",
+        "fields": {
+            "uuid": "adc0a2cb-66f0-4ca1-a26a-9ca49febdd46",
+            "name": "Cat Steps & Ramps",
+            "emoji": "",
+            "parent": "b64c3ed5-693f-4486-952e-b8f4f0ebeaff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5b931245-91cd-4da7-bd0d-c23b7a016df9",
+        "fields": {
+            "uuid": "5b931245-91cd-4da7-bd0d-c23b7a016df9",
+            "name": "Cat Trees & Towers",
+            "emoji": "",
+            "parent": "b64c3ed5-693f-4486-952e-b8f4f0ebeaff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4ec90d19-3dbf-471f-8e4f-935eacc19d68",
+        "fields": {
+            "uuid": "4ec90d19-3dbf-471f-8e4f-935eacc19d68",
+            "name": "Cat Window Beds & Perches",
+            "emoji": "",
+            "parent": "b64c3ed5-693f-4486-952e-b8f4f0ebeaff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ad945ea3-fe2e-4c2b-a112-c16e93f3355e",
+        "fields": {
+            "uuid": "ad945ea3-fe2e-4c2b-a112-c16e93f3355e",
+            "name": "Outdoor Cat Houses",
+            "emoji": "",
+            "parent": "b64c3ed5-693f-4486-952e-b8f4f0ebeaff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a3e36092-c18d-44c1-ac77-0421c3d8d148",
+        "fields": {
+            "uuid": "a3e36092-c18d-44c1-ac77-0421c3d8d148",
+            "name": "Cat Furniture Accessories",
+            "emoji": "",
+            "parent": "90a3bb03-96c2-4963-aa9b-74efd48a8d22"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "41af9831-53c0-4992-b762-93b398bcd0bc",
+        "fields": {
+            "uuid": "41af9831-53c0-4992-b762-93b398bcd0bc",
+            "name": "Cat Litter",
+            "emoji": "",
+            "parent": "90a3bb03-96c2-4963-aa9b-74efd48a8d22"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b7be5dbd-e41e-4dad-a12c-6d7aa6c2bec2",
+        "fields": {
+            "uuid": "b7be5dbd-e41e-4dad-a12c-6d7aa6c2bec2",
+            "name": "Cat Litter Box Liners",
+            "emoji": "",
+            "parent": "41af9831-53c0-4992-b762-93b398bcd0bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9710cb0e-328c-4b7a-b05b-b84436c15f1f",
+        "fields": {
+            "uuid": "9710cb0e-328c-4b7a-b05b-b84436c15f1f",
+            "name": "Cat Litter Box Mats",
+            "emoji": "",
+            "parent": "41af9831-53c0-4992-b762-93b398bcd0bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8c460cef-d978-4657-87bd-834c344d938b",
+        "fields": {
+            "uuid": "8c460cef-d978-4657-87bd-834c344d938b",
+            "name": "Cat Litter Boxes",
+            "emoji": "",
+            "parent": "41af9831-53c0-4992-b762-93b398bcd0bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9c2b111f-bb77-4446-a636-6e6f2e2444f3",
+        "fields": {
+            "uuid": "9c2b111f-bb77-4446-a636-6e6f2e2444f3",
+            "name": "Cat Toys",
+            "emoji": "",
+            "parent": "90a3bb03-96c2-4963-aa9b-74efd48a8d22"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ca51cf81-fed4-4469-8f68-a83139b89695",
+        "fields": {
+            "uuid": "ca51cf81-fed4-4469-8f68-a83139b89695",
+            "name": "Balls & Chasers",
+            "emoji": "",
+            "parent": "9c2b111f-bb77-4446-a636-6e6f2e2444f3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "98dec962-dc8f-4273-b2dc-6f94bd47454b",
+        "fields": {
+            "uuid": "98dec962-dc8f-4273-b2dc-6f94bd47454b",
+            "name": "Catnip Toys",
+            "emoji": "",
+            "parent": "9c2b111f-bb77-4446-a636-6e6f2e2444f3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b79d3ad4-0bb8-4232-9c53-fbe9cba4b69a",
+        "fields": {
+            "uuid": "b79d3ad4-0bb8-4232-9c53-fbe9cba4b69a",
+            "name": "Chew Toys",
+            "emoji": "",
+            "parent": "9c2b111f-bb77-4446-a636-6e6f2e2444f3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "16cb9343-09dc-4557-a6e8-9ad4b369db6a",
+        "fields": {
+            "uuid": "16cb9343-09dc-4557-a6e8-9ad4b369db6a",
+            "name": "Feathers & Teasers",
+            "emoji": "",
+            "parent": "9c2b111f-bb77-4446-a636-6e6f2e2444f3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "305559e4-fb54-4973-90cc-14790f63dd07",
+        "fields": {
+            "uuid": "305559e4-fb54-4973-90cc-14790f63dd07",
+            "name": "Interactive Toys",
+            "emoji": "",
+            "parent": "9c2b111f-bb77-4446-a636-6e6f2e2444f3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "998222eb-758d-4814-8d30-b7190cf468e9",
+        "fields": {
+            "uuid": "998222eb-758d-4814-8d30-b7190cf468e9",
+            "name": "Laser Toys",
+            "emoji": "",
+            "parent": "9c2b111f-bb77-4446-a636-6e6f2e2444f3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5b61426b-5516-4f4c-8931-8b9ce4c05615",
+        "fields": {
+            "uuid": "5b61426b-5516-4f4c-8931-8b9ce4c05615",
+            "name": "Puzzles & Treat-Dispensing Toys",
+            "emoji": "",
+            "parent": "9c2b111f-bb77-4446-a636-6e6f2e2444f3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "12b4fe9f-4931-467e-9714-5000ef1d79a0",
+        "fields": {
+            "uuid": "12b4fe9f-4931-467e-9714-5000ef1d79a0",
+            "name": "Squeakies",
+            "emoji": "",
+            "parent": "9c2b111f-bb77-4446-a636-6e6f2e2444f3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "03a69d8b-5d21-4f17-8f3c-d348cf196658",
+        "fields": {
+            "uuid": "03a69d8b-5d21-4f17-8f3c-d348cf196658",
+            "name": "Stuffed Toys & Plushies",
+            "emoji": "",
+            "parent": "9c2b111f-bb77-4446-a636-6e6f2e2444f3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fd161190-d9f3-454e-b245-3369786b7359",
+        "fields": {
+            "uuid": "fd161190-d9f3-454e-b245-3369786b7359",
+            "name": "Tunnels",
+            "emoji": "",
+            "parent": "9c2b111f-bb77-4446-a636-6e6f2e2444f3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a181110a-9627-4665-a94e-368c1231923f",
+        "fields": {
+            "uuid": "a181110a-9627-4665-a94e-368c1231923f",
+            "name": "Wands",
+            "emoji": "",
+            "parent": "9c2b111f-bb77-4446-a636-6e6f2e2444f3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6cb67fd3-db8d-4fff-9fe0-acb574a45096",
+        "fields": {
+            "uuid": "6cb67fd3-db8d-4fff-9fe0-acb574a45096",
+            "name": "Cat Treats",
+            "emoji": "",
+            "parent": "90a3bb03-96c2-4963-aa9b-74efd48a8d22"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "767013d6-36c7-4008-9bf5-e9c67c39932b",
+        "fields": {
+            "uuid": "767013d6-36c7-4008-9bf5-e9c67c39932b",
+            "name": "Dog Supplies",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "54342aea-9335-4a84-8d7f-8fde862a7aa5",
+        "fields": {
+            "uuid": "54342aea-9335-4a84-8d7f-8fde862a7aa5",
+            "name": "Dog Diaper Pads & Liners",
+            "emoji": "",
+            "parent": "767013d6-36c7-4008-9bf5-e9c67c39932b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4f0d893d-96bd-4fb1-a15e-0444ddd1bc6b",
+        "fields": {
+            "uuid": "4f0d893d-96bd-4fb1-a15e-0444ddd1bc6b",
+            "name": "Dog Diapers",
+            "emoji": "",
+            "parent": "767013d6-36c7-4008-9bf5-e9c67c39932b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "92f4c509-5da4-4f99-8dae-6250ebb30f43",
+        "fields": {
+            "uuid": "92f4c509-5da4-4f99-8dae-6250ebb30f43",
+            "name": "Dog Food",
+            "emoji": "",
+            "parent": "767013d6-36c7-4008-9bf5-e9c67c39932b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cdd67142-1277-4a02-86ca-213f28d5de35",
+        "fields": {
+            "uuid": "cdd67142-1277-4a02-86ca-213f28d5de35",
+            "name": "Non-Prescription Dog Food",
+            "emoji": "",
+            "parent": "92f4c509-5da4-4f99-8dae-6250ebb30f43"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "11d819d1-04e2-4c22-916c-db66710f274c",
+        "fields": {
+            "uuid": "11d819d1-04e2-4c22-916c-db66710f274c",
+            "name": "Prescription Dog Food",
+            "emoji": "",
+            "parent": "92f4c509-5da4-4f99-8dae-6250ebb30f43"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a7974316-270f-47bf-993b-426bfa3c8559",
+        "fields": {
+            "uuid": "a7974316-270f-47bf-993b-426bfa3c8559",
+            "name": "Dog Houses",
+            "emoji": "",
+            "parent": "767013d6-36c7-4008-9bf5-e9c67c39932b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e5ac1828-5a8d-49ce-a622-2bc3e4d9e338",
+        "fields": {
+            "uuid": "e5ac1828-5a8d-49ce-a622-2bc3e4d9e338",
+            "name": "Dog Kennel & Run Accessories",
+            "emoji": "",
+            "parent": "767013d6-36c7-4008-9bf5-e9c67c39932b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9ca50cea-e217-4052-9174-b448a745e697",
+        "fields": {
+            "uuid": "9ca50cea-e217-4052-9174-b448a745e697",
+            "name": "Dog Kennels & Runs",
+            "emoji": "",
+            "parent": "767013d6-36c7-4008-9bf5-e9c67c39932b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3a9cd1f9-fd7a-4222-a160-9ae47414aefc",
+        "fields": {
+            "uuid": "3a9cd1f9-fd7a-4222-a160-9ae47414aefc",
+            "name": "Dog Pens",
+            "emoji": "",
+            "parent": "9ca50cea-e217-4052-9174-b448a745e697"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f38b0839-db72-4cfa-b9c6-ee01c4594017",
+        "fields": {
+            "uuid": "f38b0839-db72-4cfa-b9c6-ee01c4594017",
+            "name": "Dog Runs",
+            "emoji": "",
+            "parent": "9ca50cea-e217-4052-9174-b448a745e697"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b0a36346-f3cd-4bfe-9468-eaa4d2c8a6a7",
+        "fields": {
+            "uuid": "b0a36346-f3cd-4bfe-9468-eaa4d2c8a6a7",
+            "name": "Indoor Dog Kennels",
+            "emoji": "",
+            "parent": "9ca50cea-e217-4052-9174-b448a745e697"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6ed91636-eef1-4d1b-9d40-fcef137abbf5",
+        "fields": {
+            "uuid": "6ed91636-eef1-4d1b-9d40-fcef137abbf5",
+            "name": "Outdoor Dog Kennels",
+            "emoji": "",
+            "parent": "9ca50cea-e217-4052-9174-b448a745e697"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e9ff0630-bcef-46f9-8a1e-62a30b790044",
+        "fields": {
+            "uuid": "e9ff0630-bcef-46f9-8a1e-62a30b790044",
+            "name": "Portable Dog Kennels",
+            "emoji": "",
+            "parent": "9ca50cea-e217-4052-9174-b448a745e697"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ead888b7-dd1f-4482-a727-0de433a9546b",
+        "fields": {
+            "uuid": "ead888b7-dd1f-4482-a727-0de433a9546b",
+            "name": "Dog Toys",
+            "emoji": "",
+            "parent": "767013d6-36c7-4008-9bf5-e9c67c39932b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "640f2e51-3968-4b44-9f13-41ef43e0cea6",
+        "fields": {
+            "uuid": "640f2e51-3968-4b44-9f13-41ef43e0cea6",
+            "name": "Dog Treadmills",
+            "emoji": "",
+            "parent": "767013d6-36c7-4008-9bf5-e9c67c39932b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ea6d7599-4339-42e6-ae23-0454cbcca238",
+        "fields": {
+            "uuid": "ea6d7599-4339-42e6-ae23-0454cbcca238",
+            "name": "Dog Treats",
+            "emoji": "",
+            "parent": "767013d6-36c7-4008-9bf5-e9c67c39932b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0f5e61c9-1df1-472d-ab77-fe0674ee3d83",
+        "fields": {
+            "uuid": "0f5e61c9-1df1-472d-ab77-fe0674ee3d83",
+            "name": "Fish & Aquatic Supplies",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5d1efb91-7eaf-4f38-9af1-767da8a2aec9",
+        "fields": {
+            "uuid": "5d1efb91-7eaf-4f38-9af1-767da8a2aec9",
+            "name": "Aquarium & Pond Tubings",
+            "emoji": "",
+            "parent": "0f5e61c9-1df1-472d-ab77-fe0674ee3d83"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "448d9cb7-0923-4f74-afa3-75f65c18b441",
+        "fields": {
+            "uuid": "448d9cb7-0923-4f74-afa3-75f65c18b441",
+            "name": "Airlines",
+            "emoji": "",
+            "parent": "5d1efb91-7eaf-4f38-9af1-767da8a2aec9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7e005714-66e2-4c15-ac0c-b370a95080a5",
+        "fields": {
+            "uuid": "7e005714-66e2-4c15-ac0c-b370a95080a5",
+            "name": "Coil Tubings",
+            "emoji": "",
+            "parent": "5d1efb91-7eaf-4f38-9af1-767da8a2aec9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0230f75a-dd26-4e3b-a532-5eb695efe475",
+        "fields": {
+            "uuid": "0230f75a-dd26-4e3b-a532-5eb695efe475",
+            "name": "Flexible Tubings",
+            "emoji": "",
+            "parent": "5d1efb91-7eaf-4f38-9af1-767da8a2aec9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d9c43473-0733-4ebc-96d8-077224c7a411",
+        "fields": {
+            "uuid": "d9c43473-0733-4ebc-96d8-077224c7a411",
+            "name": "Rigid Tubings",
+            "emoji": "",
+            "parent": "5d1efb91-7eaf-4f38-9af1-767da8a2aec9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "82452f54-7343-4689-a6a3-43c903ddd260",
+        "fields": {
+            "uuid": "82452f54-7343-4689-a6a3-43c903ddd260",
+            "name": "Standard Tubings",
+            "emoji": "",
+            "parent": "5d1efb91-7eaf-4f38-9af1-767da8a2aec9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5ecadddc-1843-4d71-aa51-6f73f6b1a3a5",
+        "fields": {
+            "uuid": "5ecadddc-1843-4d71-aa51-6f73f6b1a3a5",
+            "name": "Aquarium Air Stones & Diffusers",
+            "emoji": "",
+            "parent": "0f5e61c9-1df1-472d-ab77-fe0674ee3d83"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "204897e3-2a47-45e6-aaa7-289b7fe4fb4a",
+        "fields": {
+            "uuid": "204897e3-2a47-45e6-aaa7-289b7fe4fb4a",
+            "name": "Air Diffusers",
+            "emoji": "",
+            "parent": "5ecadddc-1843-4d71-aa51-6f73f6b1a3a5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2a67023f-7f4b-48db-a86d-90e770d20474",
+        "fields": {
+            "uuid": "2a67023f-7f4b-48db-a86d-90e770d20474",
+            "name": "Disc Air Stones",
+            "emoji": "",
+            "parent": "5ecadddc-1843-4d71-aa51-6f73f6b1a3a5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e1954dc3-89ee-454c-8f1f-bd4ddb67f602",
+        "fields": {
+            "uuid": "e1954dc3-89ee-454c-8f1f-bd4ddb67f602",
+            "name": "Standard Air Stones",
+            "emoji": "",
+            "parent": "5ecadddc-1843-4d71-aa51-6f73f6b1a3a5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0f63491c-8ba4-4e7e-98cc-ef11075d8702",
+        "fields": {
+            "uuid": "0f63491c-8ba4-4e7e-98cc-ef11075d8702",
+            "name": "Tube Air Stones",
+            "emoji": "",
+            "parent": "5ecadddc-1843-4d71-aa51-6f73f6b1a3a5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b6ea86a4-ddad-4b3f-acfb-77ece5365def",
+        "fields": {
+            "uuid": "b6ea86a4-ddad-4b3f-acfb-77ece5365def",
+            "name": "Wall Air Stones",
+            "emoji": "",
+            "parent": "5ecadddc-1843-4d71-aa51-6f73f6b1a3a5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1c9d9126-fb9c-48d3-a001-0b909247aa2d",
+        "fields": {
+            "uuid": "1c9d9126-fb9c-48d3-a001-0b909247aa2d",
+            "name": "Aquarium Cleaning Supplies",
+            "emoji": "",
+            "parent": "0f5e61c9-1df1-472d-ab77-fe0674ee3d83"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cb03f2cf-b358-4ad7-a986-0acce5fc41a2",
+        "fields": {
+            "uuid": "cb03f2cf-b358-4ad7-a986-0acce5fc41a2",
+            "name": "Algae Scrapers",
+            "emoji": "",
+            "parent": "1c9d9126-fb9c-48d3-a001-0b909247aa2d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8d9a70c3-2a0c-4c4e-aaf1-6d4bf41b1857",
+        "fields": {
+            "uuid": "8d9a70c3-2a0c-4c4e-aaf1-6d4bf41b1857",
+            "name": "Aquarium Gloves",
+            "emoji": "",
+            "parent": "1c9d9126-fb9c-48d3-a001-0b909247aa2d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "41b735be-88ab-4a8b-9a46-e9c369af7aef",
+        "fields": {
+            "uuid": "41b735be-88ab-4a8b-9a46-e9c369af7aef",
+            "name": "Cleaning Brushes",
+            "emoji": "",
+            "parent": "1c9d9126-fb9c-48d3-a001-0b909247aa2d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4dd37921-74af-425c-865a-3860e7f6b9cf",
+        "fields": {
+            "uuid": "4dd37921-74af-425c-865a-3860e7f6b9cf",
+            "name": "Cleaning Solutions",
+            "emoji": "",
+            "parent": "1c9d9126-fb9c-48d3-a001-0b909247aa2d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "82c589ba-24fb-4571-ad10-1e7f6c8bfa12",
+        "fields": {
+            "uuid": "82c589ba-24fb-4571-ad10-1e7f6c8bfa12",
+            "name": "Gravel Vacuums",
+            "emoji": "",
+            "parent": "1c9d9126-fb9c-48d3-a001-0b909247aa2d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1c87faa8-7c6a-41c1-92d1-4273cf3d5717",
+        "fields": {
+            "uuid": "1c87faa8-7c6a-41c1-92d1-4273cf3d5717",
+            "name": "Scrub Pads",
+            "emoji": "",
+            "parent": "1c9d9126-fb9c-48d3-a001-0b909247aa2d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ed837137-3f66-4673-875f-0983e91e093c",
+        "fields": {
+            "uuid": "ed837137-3f66-4673-875f-0983e91e093c",
+            "name": "Siphons",
+            "emoji": "",
+            "parent": "1c9d9126-fb9c-48d3-a001-0b909247aa2d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5e3fcd61-1f2e-4d73-9cbd-55feb0d40540",
+        "fields": {
+            "uuid": "5e3fcd61-1f2e-4d73-9cbd-55feb0d40540",
+            "name": "Tank Cleaners",
+            "emoji": "",
+            "parent": "1c9d9126-fb9c-48d3-a001-0b909247aa2d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f7bcef66-35a5-4bea-9216-59b741a6a255",
+        "fields": {
+            "uuid": "f7bcef66-35a5-4bea-9216-59b741a6a255",
+            "name": "Aquarium Decors",
+            "emoji": "",
+            "parent": "0f5e61c9-1df1-472d-ab77-fe0674ee3d83"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "beae66dd-04ae-4b1d-8e77-e28f90c2456c",
+        "fields": {
+            "uuid": "beae66dd-04ae-4b1d-8e77-e28f90c2456c",
+            "name": "Aquarium Backgrounds",
+            "emoji": "",
+            "parent": "f7bcef66-35a5-4bea-9216-59b741a6a255"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4ab4f3fa-d133-4d4f-b6a9-cee6600acb3a",
+        "fields": {
+            "uuid": "4ab4f3fa-d133-4d4f-b6a9-cee6600acb3a",
+            "name": "Aquarium Caves & Shelters",
+            "emoji": "",
+            "parent": "f7bcef66-35a5-4bea-9216-59b741a6a255"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "267b867a-d208-4ff5-82f2-2ffb4805dccb",
+        "fields": {
+            "uuid": "267b867a-d208-4ff5-82f2-2ffb4805dccb",
+            "name": "Aquarium Rocks",
+            "emoji": "",
+            "parent": "f7bcef66-35a5-4bea-9216-59b741a6a255"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ec4116d4-0ba8-4e86-9666-22d3e378dc0f",
+        "fields": {
+            "uuid": "ec4116d4-0ba8-4e86-9666-22d3e378dc0f",
+            "name": "Aquarium Substrates",
+            "emoji": "",
+            "parent": "f7bcef66-35a5-4bea-9216-59b741a6a255"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f0031785-ed03-48b3-95a2-deaf009e7530",
+        "fields": {
+            "uuid": "f0031785-ed03-48b3-95a2-deaf009e7530",
+            "name": "Artificial Plants",
+            "emoji": "",
+            "parent": "f7bcef66-35a5-4bea-9216-59b741a6a255"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "81d5bcd1-8c4d-4f72-8378-af1ff51d86ac",
+        "fields": {
+            "uuid": "81d5bcd1-8c4d-4f72-8378-af1ff51d86ac",
+            "name": "Bubbling Decorations",
+            "emoji": "",
+            "parent": "f7bcef66-35a5-4bea-9216-59b741a6a255"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a0b6faf8-3cdf-497e-8eb2-6029539cb3a8",
+        "fields": {
+            "uuid": "a0b6faf8-3cdf-497e-8eb2-6029539cb3a8",
+            "name": "Driftwood",
+            "emoji": "",
+            "parent": "f7bcef66-35a5-4bea-9216-59b741a6a255"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9314f0be-1741-4f71-bea6-9c53ef879f99",
+        "fields": {
+            "uuid": "9314f0be-1741-4f71-bea6-9c53ef879f99",
+            "name": "Ornaments",
+            "emoji": "",
+            "parent": "f7bcef66-35a5-4bea-9216-59b741a6a255"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bae8e7e1-6d53-4e57-abac-7663d8938c62",
+        "fields": {
+            "uuid": "bae8e7e1-6d53-4e57-abac-7663d8938c62",
+            "name": "Shipwrecks",
+            "emoji": "",
+            "parent": "f7bcef66-35a5-4bea-9216-59b741a6a255"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7567abc1-bcc2-429d-8bfd-2455b4d21355",
+        "fields": {
+            "uuid": "7567abc1-bcc2-429d-8bfd-2455b4d21355",
+            "name": "Aquarium Filters",
+            "emoji": "",
+            "parent": "0f5e61c9-1df1-472d-ab77-fe0674ee3d83"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "59f5c2fa-1aee-461c-a8a0-7d29028199fe",
+        "fields": {
+            "uuid": "59f5c2fa-1aee-461c-a8a0-7d29028199fe",
+            "name": "External & Canister Aquarium Filters",
+            "emoji": "",
+            "parent": "7567abc1-bcc2-429d-8bfd-2455b4d21355"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3270023b-5498-4a84-adee-896205a8b1d7",
+        "fields": {
+            "uuid": "3270023b-5498-4a84-adee-896205a8b1d7",
+            "name": "Hang-On-Back (HOB) Aquarium Filters",
+            "emoji": "",
+            "parent": "7567abc1-bcc2-429d-8bfd-2455b4d21355"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4c3cf0fc-0625-4afe-b753-120fd31e5dcf",
+        "fields": {
+            "uuid": "4c3cf0fc-0625-4afe-b753-120fd31e5dcf",
+            "name": "Internal Aquarium Filters",
+            "emoji": "",
+            "parent": "7567abc1-bcc2-429d-8bfd-2455b4d21355"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "538d5ef3-5f1d-43e1-be83-b554565ace54",
+        "fields": {
+            "uuid": "538d5ef3-5f1d-43e1-be83-b554565ace54",
+            "name": "Sponge Aquarium Filters",
+            "emoji": "",
+            "parent": "7567abc1-bcc2-429d-8bfd-2455b4d21355"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "de162738-07a6-454a-9052-0489f758ddc5",
+        "fields": {
+            "uuid": "de162738-07a6-454a-9052-0489f758ddc5",
+            "name": "Undergravel Aquarium Filters",
+            "emoji": "",
+            "parent": "7567abc1-bcc2-429d-8bfd-2455b4d21355"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6b9594d9-86ba-468a-87c9-56c55cb49393",
+        "fields": {
+            "uuid": "6b9594d9-86ba-468a-87c9-56c55cb49393",
+            "name": "Aquarium Fish Nets",
+            "emoji": "",
+            "parent": "0f5e61c9-1df1-472d-ab77-fe0674ee3d83"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "57bfcc93-7cc8-42ab-bb2e-b16a920aa159",
+        "fields": {
+            "uuid": "57bfcc93-7cc8-42ab-bb2e-b16a920aa159",
+            "name": "Scoop Nets",
+            "emoji": "",
+            "parent": "6b9594d9-86ba-468a-87c9-56c55cb49393"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "79a92400-6119-47fc-9d4b-017df975bfc1",
+        "fields": {
+            "uuid": "79a92400-6119-47fc-9d4b-017df975bfc1",
+            "name": "Shrimp Nets",
+            "emoji": "",
+            "parent": "6b9594d9-86ba-468a-87c9-56c55cb49393"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "698540b4-572e-4f60-80f1-cdb28097159d",
+        "fields": {
+            "uuid": "698540b4-572e-4f60-80f1-cdb28097159d",
+            "name": "Sock Nets",
+            "emoji": "",
+            "parent": "6b9594d9-86ba-468a-87c9-56c55cb49393"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4f7afbbc-55da-4df8-8749-104a37259a9c",
+        "fields": {
+            "uuid": "4f7afbbc-55da-4df8-8749-104a37259a9c",
+            "name": "Standard Nets",
+            "emoji": "",
+            "parent": "6b9594d9-86ba-468a-87c9-56c55cb49393"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5c8336bf-b35b-40a8-9618-efaa036e5ab2",
+        "fields": {
+            "uuid": "5c8336bf-b35b-40a8-9618-efaa036e5ab2",
+            "name": "Aquarium Gravel & Substrates",
+            "emoji": "",
+            "parent": "0f5e61c9-1df1-472d-ab77-fe0674ee3d83"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "de3d5713-70c1-4a8d-9835-cdc5e758dd76",
+        "fields": {
+            "uuid": "de3d5713-70c1-4a8d-9835-cdc5e758dd76",
+            "name": "Aquarium Soil",
+            "emoji": "",
+            "parent": "5c8336bf-b35b-40a8-9618-efaa036e5ab2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2159defc-72f7-4868-becf-bd20e36482be",
+        "fields": {
+            "uuid": "2159defc-72f7-4868-becf-bd20e36482be",
+            "name": "Aragonite Sands",
+            "emoji": "",
+            "parent": "5c8336bf-b35b-40a8-9618-efaa036e5ab2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2995e739-4682-46d2-b2b9-60ba9f81ba93",
+        "fields": {
+            "uuid": "2995e739-4682-46d2-b2b9-60ba9f81ba93",
+            "name": "Crushed Corals",
+            "emoji": "",
+            "parent": "5c8336bf-b35b-40a8-9618-efaa036e5ab2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a1c4d2a7-2205-4d8b-b3e5-d458d541ca17",
+        "fields": {
+            "uuid": "a1c4d2a7-2205-4d8b-b3e5-d458d541ca17",
+            "name": "Glass Stones",
+            "emoji": "",
+            "parent": "5c8336bf-b35b-40a8-9618-efaa036e5ab2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cbaf3032-d4ca-4853-ac87-ba01bbe43eae",
+        "fields": {
+            "uuid": "cbaf3032-d4ca-4853-ac87-ba01bbe43eae",
+            "name": "Gravel",
+            "emoji": "",
+            "parent": "5c8336bf-b35b-40a8-9618-efaa036e5ab2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "144a3c70-f76b-49ee-8f93-75e238a528c9",
+        "fields": {
+            "uuid": "144a3c70-f76b-49ee-8f93-75e238a528c9",
+            "name": "Pebbles",
+            "emoji": "",
+            "parent": "5c8336bf-b35b-40a8-9618-efaa036e5ab2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "720488b6-c879-4fe8-abb4-564c4f7f8346",
+        "fields": {
+            "uuid": "720488b6-c879-4fe8-abb4-564c4f7f8346",
+            "name": "Sand",
+            "emoji": "",
+            "parent": "5c8336bf-b35b-40a8-9618-efaa036e5ab2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "277b6615-9d70-4745-8cae-46f63566992d",
+        "fields": {
+            "uuid": "277b6615-9d70-4745-8cae-46f63566992d",
+            "name": "Aquarium Lighting",
+            "emoji": "",
+            "parent": "0f5e61c9-1df1-472d-ab77-fe0674ee3d83"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7897eb1e-8ca8-4b12-a708-e9b7fb1ab4f5",
+        "fields": {
+            "uuid": "7897eb1e-8ca8-4b12-a708-e9b7fb1ab4f5",
+            "name": "Aquarium Overflow Boxes",
+            "emoji": "",
+            "parent": "0f5e61c9-1df1-472d-ab77-fe0674ee3d83"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "05c1de4c-cf6e-466b-92d8-b627a1811847",
+        "fields": {
+            "uuid": "05c1de4c-cf6e-466b-92d8-b627a1811847",
+            "name": "Aquarium Stands",
+            "emoji": "",
+            "parent": "0f5e61c9-1df1-472d-ab77-fe0674ee3d83"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "19e2ef85-ce7d-4762-9087-c911728b275a",
+        "fields": {
+            "uuid": "19e2ef85-ce7d-4762-9087-c911728b275a",
+            "name": "Box Frame Stands",
+            "emoji": "",
+            "parent": "05c1de4c-cf6e-466b-92d8-b627a1811847"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "24d6ac06-75b4-4f2c-b892-8af7e1a5e660",
+        "fields": {
+            "uuid": "24d6ac06-75b4-4f2c-b892-8af7e1a5e660",
+            "name": "Cabinet Stands",
+            "emoji": "",
+            "parent": "05c1de4c-cf6e-466b-92d8-b627a1811847"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "762313ae-ddd1-4d18-9693-191bcbc98dac",
+        "fields": {
+            "uuid": "762313ae-ddd1-4d18-9693-191bcbc98dac",
+            "name": "Double Tank Stands",
+            "emoji": "",
+            "parent": "05c1de4c-cf6e-466b-92d8-b627a1811847"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c0528ecf-8807-4c05-b1a8-6faf0500be46",
+        "fields": {
+            "uuid": "c0528ecf-8807-4c05-b1a8-6faf0500be46",
+            "name": "Wrought Iron Stands",
+            "emoji": "",
+            "parent": "05c1de4c-cf6e-466b-92d8-b627a1811847"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "193d2c3a-3180-453b-b19f-9cc654348a33",
+        "fields": {
+            "uuid": "193d2c3a-3180-453b-b19f-9cc654348a33",
+            "name": "Aquarium Temperature Controllers",
+            "emoji": "",
+            "parent": "0f5e61c9-1df1-472d-ab77-fe0674ee3d83"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8eb6ed49-6392-433a-b686-9dbb224704b0",
+        "fields": {
+            "uuid": "8eb6ed49-6392-433a-b686-9dbb224704b0",
+            "name": "Analog Temperature Controllers",
+            "emoji": "",
+            "parent": "193d2c3a-3180-453b-b19f-9cc654348a33"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fd0dd091-7a5a-4441-b60b-dc2d4875984a",
+        "fields": {
+            "uuid": "fd0dd091-7a5a-4441-b60b-dc2d4875984a",
+            "name": "Digital Temperature Controllers",
+            "emoji": "",
+            "parent": "193d2c3a-3180-453b-b19f-9cc654348a33"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "485a272b-5a5a-4434-931d-50e2d1e6cdc8",
+        "fields": {
+            "uuid": "485a272b-5a5a-4434-931d-50e2d1e6cdc8",
+            "name": "Aquarium Water Treatments",
+            "emoji": "",
+            "parent": "0f5e61c9-1df1-472d-ab77-fe0674ee3d83"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "68d0dd3e-33dd-4ecf-b8de-3a5e0f055333",
+        "fields": {
+            "uuid": "68d0dd3e-33dd-4ecf-b8de-3a5e0f055333",
+            "name": "Algae Control",
+            "emoji": "",
+            "parent": "485a272b-5a5a-4434-931d-50e2d1e6cdc8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8e9109fa-ebca-4994-b023-b293ae6ac56c",
+        "fields": {
+            "uuid": "8e9109fa-ebca-4994-b023-b293ae6ac56c",
+            "name": "Ammonia Removers",
+            "emoji": "",
+            "parent": "485a272b-5a5a-4434-931d-50e2d1e6cdc8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6d7f945e-5a11-40c6-8779-16a036ca22fd",
+        "fields": {
+            "uuid": "6d7f945e-5a11-40c6-8779-16a036ca22fd",
+            "name": "Fungal & Bacterial Treatments",
+            "emoji": "",
+            "parent": "485a272b-5a5a-4434-931d-50e2d1e6cdc8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ab87b980-4719-4d0b-9969-e481a3615a2a",
+        "fields": {
+            "uuid": "ab87b980-4719-4d0b-9969-e481a3615a2a",
+            "name": "Nitrate Removers",
+            "emoji": "",
+            "parent": "485a272b-5a5a-4434-931d-50e2d1e6cdc8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c494e6e4-9d0b-4e6b-9fe5-d8c641c7c38b",
+        "fields": {
+            "uuid": "c494e6e4-9d0b-4e6b-9fe5-d8c641c7c38b",
+            "name": "PH Adjusters",
+            "emoji": "",
+            "parent": "485a272b-5a5a-4434-931d-50e2d1e6cdc8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "42a676cd-d3d1-4de3-af87-b6aa7f9d3d57",
+        "fields": {
+            "uuid": "42a676cd-d3d1-4de3-af87-b6aa7f9d3d57",
+            "name": "Tap Water Detoxifiers",
+            "emoji": "",
+            "parent": "485a272b-5a5a-4434-931d-50e2d1e6cdc8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4e90a02d-0ef4-4c78-b90b-29e532e42fac",
+        "fields": {
+            "uuid": "4e90a02d-0ef4-4c78-b90b-29e532e42fac",
+            "name": "Water Clarifiers",
+            "emoji": "",
+            "parent": "485a272b-5a5a-4434-931d-50e2d1e6cdc8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "43a43495-a7d8-40ea-a7ed-4bfedc60c13f",
+        "fields": {
+            "uuid": "43a43495-a7d8-40ea-a7ed-4bfedc60c13f",
+            "name": "Water Conditioners",
+            "emoji": "",
+            "parent": "485a272b-5a5a-4434-931d-50e2d1e6cdc8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f3f87019-0625-4633-947e-d0dac2054d9a",
+        "fields": {
+            "uuid": "f3f87019-0625-4633-947e-d0dac2054d9a",
+            "name": "Aquariums",
+            "emoji": "",
+            "parent": "0f5e61c9-1df1-472d-ab77-fe0674ee3d83"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c3d52c04-5f3b-4d8d-b1f3-4e3dddaf0c33",
+        "fields": {
+            "uuid": "c3d52c04-5f3b-4d8d-b1f3-4e3dddaf0c33",
+            "name": "Aquatic Plant Fertilizers",
+            "emoji": "",
+            "parent": "0f5e61c9-1df1-472d-ab77-fe0674ee3d83"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b2c20899-7e8c-4b13-bf1e-976610640b26",
+        "fields": {
+            "uuid": "b2c20899-7e8c-4b13-bf1e-976610640b26",
+            "name": "Granular Fertilizers",
+            "emoji": "",
+            "parent": "c3d52c04-5f3b-4d8d-b1f3-4e3dddaf0c33"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9c431a49-4293-4f2b-a67f-519b8b47c442",
+        "fields": {
+            "uuid": "9c431a49-4293-4f2b-a67f-519b8b47c442",
+            "name": "Liquid Fertilizers",
+            "emoji": "",
+            "parent": "c3d52c04-5f3b-4d8d-b1f3-4e3dddaf0c33"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c9c448d3-8ce3-4da6-a5cf-ca65bc4b7c38",
+        "fields": {
+            "uuid": "c9c448d3-8ce3-4da6-a5cf-ca65bc4b7c38",
+            "name": "Powder Fertilizers",
+            "emoji": "",
+            "parent": "c3d52c04-5f3b-4d8d-b1f3-4e3dddaf0c33"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "634f4121-f668-44f1-a766-fddd427bd27f",
+        "fields": {
+            "uuid": "634f4121-f668-44f1-a766-fddd427bd27f",
+            "name": "Tablet Fertilizers",
+            "emoji": "",
+            "parent": "c3d52c04-5f3b-4d8d-b1f3-4e3dddaf0c33"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4ddd6808-a153-4728-92c1-36b14054a84b",
+        "fields": {
+            "uuid": "4ddd6808-a153-4728-92c1-36b14054a84b",
+            "name": "Fish Feeders",
+            "emoji": "",
+            "parent": "0f5e61c9-1df1-472d-ab77-fe0674ee3d83"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8cca7ff3-9a7b-4169-9c04-cf35da554c5a",
+        "fields": {
+            "uuid": "8cca7ff3-9a7b-4169-9c04-cf35da554c5a",
+            "name": "Fish Food",
+            "emoji": "",
+            "parent": "0f5e61c9-1df1-472d-ab77-fe0674ee3d83"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "812b4d80-f718-4580-9408-5c67c165d499",
+        "fields": {
+            "uuid": "812b4d80-f718-4580-9408-5c67c165d499",
+            "name": "Algae Wafers",
+            "emoji": "",
+            "parent": "8cca7ff3-9a7b-4169-9c04-cf35da554c5a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d02de399-e274-47e5-beda-9d30caf200fc",
+        "fields": {
+            "uuid": "d02de399-e274-47e5-beda-9d30caf200fc",
+            "name": "Betta Food",
+            "emoji": "",
+            "parent": "8cca7ff3-9a7b-4169-9c04-cf35da554c5a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "02c3a310-bf21-4e10-a493-ff71b8b6dd0d",
+        "fields": {
+            "uuid": "02c3a310-bf21-4e10-a493-ff71b8b6dd0d",
+            "name": "Cichlid Food",
+            "emoji": "",
+            "parent": "8cca7ff3-9a7b-4169-9c04-cf35da554c5a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bc9fa7c8-4543-4bd7-bc25-d33ece0f1c8e",
+        "fields": {
+            "uuid": "bc9fa7c8-4543-4bd7-bc25-d33ece0f1c8e",
+            "name": "Dry Fish Food",
+            "emoji": "",
+            "parent": "8cca7ff3-9a7b-4169-9c04-cf35da554c5a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "59122b7c-932e-4fd2-9712-400b4e8520c0",
+        "fields": {
+            "uuid": "59122b7c-932e-4fd2-9712-400b4e8520c0",
+            "name": "Freeze-Dried Food",
+            "emoji": "",
+            "parent": "8cca7ff3-9a7b-4169-9c04-cf35da554c5a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "93258200-df71-461b-bfb3-d69aeacce0c4",
+        "fields": {
+            "uuid": "93258200-df71-461b-bfb3-d69aeacce0c4",
+            "name": "Frozen Food",
+            "emoji": "",
+            "parent": "8cca7ff3-9a7b-4169-9c04-cf35da554c5a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "07a5f6e7-8c1f-47b3-a034-c357fcaf2e1f",
+        "fields": {
+            "uuid": "07a5f6e7-8c1f-47b3-a034-c357fcaf2e1f",
+            "name": "Goldfish Food",
+            "emoji": "",
+            "parent": "8cca7ff3-9a7b-4169-9c04-cf35da554c5a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cab89495-b838-4e79-a116-00b014e2fa49",
+        "fields": {
+            "uuid": "cab89495-b838-4e79-a116-00b014e2fa49",
+            "name": "Live Food",
+            "emoji": "",
+            "parent": "8cca7ff3-9a7b-4169-9c04-cf35da554c5a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8de1aa89-2a19-4dd2-8f70-7da204456c53",
+        "fields": {
+            "uuid": "8de1aa89-2a19-4dd2-8f70-7da204456c53",
+            "name": "Medicated Food",
+            "emoji": "",
+            "parent": "8cca7ff3-9a7b-4169-9c04-cf35da554c5a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8551bd4c-5243-45cd-929a-46b125f4f49d",
+        "fields": {
+            "uuid": "8551bd4c-5243-45cd-929a-46b125f4f49d",
+            "name": "Pet Agility Equipment",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "35089a34-243d-49e6-b215-abc84eb6780a",
+        "fields": {
+            "uuid": "35089a34-243d-49e6-b215-abc84eb6780a",
+            "name": "A-Frames",
+            "emoji": "",
+            "parent": "8551bd4c-5243-45cd-929a-46b125f4f49d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "187e7d61-482d-4574-825e-507a175adc98",
+        "fields": {
+            "uuid": "187e7d61-482d-4574-825e-507a175adc98",
+            "name": "Agility Tunnels",
+            "emoji": "",
+            "parent": "8551bd4c-5243-45cd-929a-46b125f4f49d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "83488255-eddc-4051-8ec9-0ebac5802bd4",
+        "fields": {
+            "uuid": "83488255-eddc-4051-8ec9-0ebac5802bd4",
+            "name": "Dog Walks & Ramps",
+            "emoji": "",
+            "parent": "8551bd4c-5243-45cd-929a-46b125f4f49d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "189868e1-b452-4fd1-ae9d-513b90210622",
+        "fields": {
+            "uuid": "189868e1-b452-4fd1-ae9d-513b90210622",
+            "name": "Jump Bars",
+            "emoji": "",
+            "parent": "8551bd4c-5243-45cd-929a-46b125f4f49d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9b2660f8-812c-4b57-a345-818af4b51066",
+        "fields": {
+            "uuid": "9b2660f8-812c-4b57-a345-818af4b51066",
+            "name": "Pause Tables",
+            "emoji": "",
+            "parent": "8551bd4c-5243-45cd-929a-46b125f4f49d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "58065519-3648-448c-ba52-5fc3ac5164a0",
+        "fields": {
+            "uuid": "58065519-3648-448c-ba52-5fc3ac5164a0",
+            "name": "Poles",
+            "emoji": "",
+            "parent": "8551bd4c-5243-45cd-929a-46b125f4f49d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "361349e1-4af6-4346-bf68-01569c610b9a",
+        "fields": {
+            "uuid": "361349e1-4af6-4346-bf68-01569c610b9a",
+            "name": "Teeter Boards",
+            "emoji": "",
+            "parent": "8551bd4c-5243-45cd-929a-46b125f4f49d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "69558f60-7149-4288-bda0-a8f879ef644d",
+        "fields": {
+            "uuid": "69558f60-7149-4288-bda0-a8f879ef644d",
+            "name": "Tire Jumps",
+            "emoji": "",
+            "parent": "8551bd4c-5243-45cd-929a-46b125f4f49d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d0e3b695-4ddb-49f0-8a9f-11aac1503ff9",
+        "fields": {
+            "uuid": "d0e3b695-4ddb-49f0-8a9f-11aac1503ff9",
+            "name": "Pet Apparel",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "97043681-f643-4559-becb-597f001e2916",
+        "fields": {
+            "uuid": "97043681-f643-4559-becb-597f001e2916",
+            "name": "Pet Bandanas",
+            "emoji": "",
+            "parent": "d0e3b695-4ddb-49f0-8a9f-11aac1503ff9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "70818dce-7138-4648-b0f2-2ea683e64dfd",
+        "fields": {
+            "uuid": "70818dce-7138-4648-b0f2-2ea683e64dfd",
+            "name": "Pet Bows & Ribbons",
+            "emoji": "",
+            "parent": "d0e3b695-4ddb-49f0-8a9f-11aac1503ff9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9c0502b8-b43b-4b04-ae65-8e216d718230",
+        "fields": {
+            "uuid": "9c0502b8-b43b-4b04-ae65-8e216d718230",
+            "name": "Pet Coats",
+            "emoji": "",
+            "parent": "d0e3b695-4ddb-49f0-8a9f-11aac1503ff9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2227a3ec-2987-4c9a-b45f-ba36b83b7192",
+        "fields": {
+            "uuid": "2227a3ec-2987-4c9a-b45f-ba36b83b7192",
+            "name": "Pet Collars & Ties",
+            "emoji": "",
+            "parent": "d0e3b695-4ddb-49f0-8a9f-11aac1503ff9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f63fc223-de9d-49bc-8a1c-196fd8a93d4e",
+        "fields": {
+            "uuid": "f63fc223-de9d-49bc-8a1c-196fd8a93d4e",
+            "name": "Pet Costumes",
+            "emoji": "",
+            "parent": "d0e3b695-4ddb-49f0-8a9f-11aac1503ff9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d91b9697-de96-4828-9480-b86daa447d41",
+        "fields": {
+            "uuid": "d91b9697-de96-4828-9480-b86daa447d41",
+            "name": "Pet Dresses",
+            "emoji": "",
+            "parent": "d0e3b695-4ddb-49f0-8a9f-11aac1503ff9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "198fc37d-cf14-4247-b7ee-525efab2169b",
+        "fields": {
+            "uuid": "198fc37d-cf14-4247-b7ee-525efab2169b",
+            "name": "Pet Hats",
+            "emoji": "",
+            "parent": "d0e3b695-4ddb-49f0-8a9f-11aac1503ff9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ab1a1b1f-fc25-4ad6-9f6d-174e30451b88",
+        "fields": {
+            "uuid": "ab1a1b1f-fc25-4ad6-9f6d-174e30451b88",
+            "name": "Pet Hoodies",
+            "emoji": "",
+            "parent": "d0e3b695-4ddb-49f0-8a9f-11aac1503ff9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fac2f4c4-8ca4-40d9-b33f-0224d5a79db8",
+        "fields": {
+            "uuid": "fac2f4c4-8ca4-40d9-b33f-0224d5a79db8",
+            "name": "Pet Jackets",
+            "emoji": "",
+            "parent": "d0e3b695-4ddb-49f0-8a9f-11aac1503ff9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7bd2f2d5-2b78-4f1e-8016-214edaf33eb9",
+        "fields": {
+            "uuid": "7bd2f2d5-2b78-4f1e-8016-214edaf33eb9",
+            "name": "Pet Rain Coats",
+            "emoji": "",
+            "parent": "d0e3b695-4ddb-49f0-8a9f-11aac1503ff9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cff1e976-e409-444a-ae6d-dded0ea24b44",
+        "fields": {
+            "uuid": "cff1e976-e409-444a-ae6d-dded0ea24b44",
+            "name": "Pet Safety Vests",
+            "emoji": "",
+            "parent": "d0e3b695-4ddb-49f0-8a9f-11aac1503ff9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1b5b8e5f-5d58-4542-b5ce-3c989240afd8",
+        "fields": {
+            "uuid": "1b5b8e5f-5d58-4542-b5ce-3c989240afd8",
+            "name": "Pet Scarves",
+            "emoji": "",
+            "parent": "d0e3b695-4ddb-49f0-8a9f-11aac1503ff9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "994edb7e-610f-48aa-8eab-d047a093b837",
+        "fields": {
+            "uuid": "994edb7e-610f-48aa-8eab-d047a093b837",
+            "name": "Pet Shirts",
+            "emoji": "",
+            "parent": "d0e3b695-4ddb-49f0-8a9f-11aac1503ff9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "33b27fa4-2b84-4022-ad30-a800ff1628de",
+        "fields": {
+            "uuid": "33b27fa4-2b84-4022-ad30-a800ff1628de",
+            "name": "Pet Shoes",
+            "emoji": "",
+            "parent": "d0e3b695-4ddb-49f0-8a9f-11aac1503ff9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "eb20ec85-bdf3-433c-9869-74fa4c1cd52c",
+        "fields": {
+            "uuid": "eb20ec85-bdf3-433c-9869-74fa4c1cd52c",
+            "name": "Pet Socks",
+            "emoji": "",
+            "parent": "d0e3b695-4ddb-49f0-8a9f-11aac1503ff9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "88493345-0375-482c-9193-390fa40791af",
+        "fields": {
+            "uuid": "88493345-0375-482c-9193-390fa40791af",
+            "name": "Pet Sunglasses",
+            "emoji": "",
+            "parent": "d0e3b695-4ddb-49f0-8a9f-11aac1503ff9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0d1b6c68-797a-4469-9dad-c7ff2a237974",
+        "fields": {
+            "uuid": "0d1b6c68-797a-4469-9dad-c7ff2a237974",
+            "name": "Pet Sweaters",
+            "emoji": "",
+            "parent": "d0e3b695-4ddb-49f0-8a9f-11aac1503ff9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e41baa95-8361-41ef-8ffa-35e1fd486a41",
+        "fields": {
+            "uuid": "e41baa95-8361-41ef-8ffa-35e1fd486a41",
+            "name": "Pet Apparel Hangers",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4828a4ec-cb02-4868-88ef-74b8eed256e3",
+        "fields": {
+            "uuid": "4828a4ec-cb02-4868-88ef-74b8eed256e3",
+            "name": "Pet Bed Accessories",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a1ab5e75-584f-4942-a20b-ba4b4e9f5fbb",
+        "fields": {
+            "uuid": "a1ab5e75-584f-4942-a20b-ba4b4e9f5fbb",
+            "name": "Pet Beds",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "760af565-c21a-45bc-95f5-1e42133c811a",
+        "fields": {
+            "uuid": "760af565-c21a-45bc-95f5-1e42133c811a",
+            "name": "Baskets",
+            "emoji": "",
+            "parent": "a1ab5e75-584f-4942-a20b-ba4b4e9f5fbb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bf017c19-b8dc-44e1-8864-bafa4d0004d3",
+        "fields": {
+            "uuid": "bf017c19-b8dc-44e1-8864-bafa4d0004d3",
+            "name": "Bolster Beds",
+            "emoji": "",
+            "parent": "a1ab5e75-584f-4942-a20b-ba4b4e9f5fbb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d1beda9f-7bd8-46ed-a5ab-a5a8aed47dcd",
+        "fields": {
+            "uuid": "d1beda9f-7bd8-46ed-a5ab-a5a8aed47dcd",
+            "name": "Caves",
+            "emoji": "",
+            "parent": "a1ab5e75-584f-4942-a20b-ba4b4e9f5fbb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1655a34d-ea7a-4569-bb21-6089a2f3e29d",
+        "fields": {
+            "uuid": "1655a34d-ea7a-4569-bb21-6089a2f3e29d",
+            "name": "Cooling Beds",
+            "emoji": "",
+            "parent": "a1ab5e75-584f-4942-a20b-ba4b4e9f5fbb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "013120ac-0ee5-460c-960f-eb9148af8854",
+        "fields": {
+            "uuid": "013120ac-0ee5-460c-960f-eb9148af8854",
+            "name": "Donuts",
+            "emoji": "",
+            "parent": "a1ab5e75-584f-4942-a20b-ba4b4e9f5fbb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b78cfd21-f4fc-4666-a1d0-beca4522ad73",
+        "fields": {
+            "uuid": "b78cfd21-f4fc-4666-a1d0-beca4522ad73",
+            "name": "Hammocks",
+            "emoji": "",
+            "parent": "a1ab5e75-584f-4942-a20b-ba4b4e9f5fbb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e7a22fbd-6ab7-4fb1-a32c-299c8c975a46",
+        "fields": {
+            "uuid": "e7a22fbd-6ab7-4fb1-a32c-299c8c975a46",
+            "name": "Nests",
+            "emoji": "",
+            "parent": "a1ab5e75-584f-4942-a20b-ba4b4e9f5fbb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2c3adc17-412d-4b19-8ae1-aaaa6afd4199",
+        "fields": {
+            "uuid": "2c3adc17-412d-4b19-8ae1-aaaa6afd4199",
+            "name": "Orthopedic Beds",
+            "emoji": "",
+            "parent": "a1ab5e75-584f-4942-a20b-ba4b4e9f5fbb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "45cdf05e-0cf5-4c52-b462-824fca58e63a",
+        "fields": {
+            "uuid": "45cdf05e-0cf5-4c52-b462-824fca58e63a",
+            "name": "Pet Chairs",
+            "emoji": "",
+            "parent": "a1ab5e75-584f-4942-a20b-ba4b4e9f5fbb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1b930131-e2fe-4044-97ce-29b777779387",
+        "fields": {
+            "uuid": "1b930131-e2fe-4044-97ce-29b777779387",
+            "name": "Pet Cots",
+            "emoji": "",
+            "parent": "a1ab5e75-584f-4942-a20b-ba4b4e9f5fbb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3e79b707-e0d2-428b-b560-6b9c6adbe80f",
+        "fields": {
+            "uuid": "3e79b707-e0d2-428b-b560-6b9c6adbe80f",
+            "name": "Pillow Beds",
+            "emoji": "",
+            "parent": "a1ab5e75-584f-4942-a20b-ba4b4e9f5fbb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d1d49116-6c7e-4787-a31b-6c5d6bd5d4d0",
+        "fields": {
+            "uuid": "d1d49116-6c7e-4787-a31b-6c5d6bd5d4d0",
+            "name": "Radiator Beds",
+            "emoji": "",
+            "parent": "a1ab5e75-584f-4942-a20b-ba4b4e9f5fbb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0cd144a6-56b6-4b41-a4ab-f9b03c84aebc",
+        "fields": {
+            "uuid": "0cd144a6-56b6-4b41-a4ab-f9b03c84aebc",
+            "name": "Towers",
+            "emoji": "",
+            "parent": "a1ab5e75-584f-4942-a20b-ba4b4e9f5fbb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "60923b93-21a3-4ca0-af77-d66d50b9d399",
+        "fields": {
+            "uuid": "60923b93-21a3-4ca0-af77-d66d50b9d399",
+            "name": "Pet Bells & Charms",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "40b87ff3-3406-43d9-bfe3-95c147d2d1c0",
+        "fields": {
+            "uuid": "40b87ff3-3406-43d9-bfe3-95c147d2d1c0",
+            "name": "Collar Bells",
+            "emoji": "",
+            "parent": "60923b93-21a3-4ca0-af77-d66d50b9d399"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f748e6d5-b232-4ca9-b5ed-7d13a58f6811",
+        "fields": {
+            "uuid": "f748e6d5-b232-4ca9-b5ed-7d13a58f6811",
+            "name": "Collar Charms",
+            "emoji": "",
+            "parent": "60923b93-21a3-4ca0-af77-d66d50b9d399"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "73a544f9-4883-4493-a75e-f62932f410a3",
+        "fields": {
+            "uuid": "73a544f9-4883-4493-a75e-f62932f410a3",
+            "name": "ID Tag Charms",
+            "emoji": "",
+            "parent": "60923b93-21a3-4ca0-af77-d66d50b9d399"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "998571c8-85f8-42dd-aa69-c2962c6028bd",
+        "fields": {
+            "uuid": "998571c8-85f8-42dd-aa69-c2962c6028bd",
+            "name": "Pet Biometric Monitors",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c27f4389-c8eb-453f-849b-9612ec5fdac9",
+        "fields": {
+            "uuid": "c27f4389-c8eb-453f-849b-9612ec5fdac9",
+            "name": "Pet Glucose Meters",
+            "emoji": "",
+            "parent": "998571c8-85f8-42dd-aa69-c2962c6028bd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9ac4db89-c695-4cf4-847c-d6ab5b61d37a",
+        "fields": {
+            "uuid": "9ac4db89-c695-4cf4-847c-d6ab5b61d37a",
+            "name": "Pet Pedometers",
+            "emoji": "",
+            "parent": "998571c8-85f8-42dd-aa69-c2962c6028bd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2d096427-f888-4e12-b9a7-55cb324538b7",
+        "fields": {
+            "uuid": "2d096427-f888-4e12-b9a7-55cb324538b7",
+            "name": "Pet Thermometers",
+            "emoji": "",
+            "parent": "998571c8-85f8-42dd-aa69-c2962c6028bd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "991e12b7-14e4-4707-a204-fba4ce8f9b7c",
+        "fields": {
+            "uuid": "991e12b7-14e4-4707-a204-fba4ce8f9b7c",
+            "name": "Pet Bowl Mats",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f179937b-9368-4d9e-b03c-af4d3689b338",
+        "fields": {
+            "uuid": "f179937b-9368-4d9e-b03c-af4d3689b338",
+            "name": "Pet Bowl Stands",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "da50f6c1-254c-4c84-965f-332f30c42751",
+        "fields": {
+            "uuid": "da50f6c1-254c-4c84-965f-332f30c42751",
+            "name": "Pet Bowls, Feeders & Waterers",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c7e91c3a-57d7-4924-a5a9-0ba12aacce75",
+        "fields": {
+            "uuid": "c7e91c3a-57d7-4924-a5a9-0ba12aacce75",
+            "name": "Automatic Feeders",
+            "emoji": "",
+            "parent": "da50f6c1-254c-4c84-965f-332f30c42751"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2bfe64c8-811a-4ab0-ace7-bd582843704a",
+        "fields": {
+            "uuid": "2bfe64c8-811a-4ab0-ace7-bd582843704a",
+            "name": "Bowls",
+            "emoji": "",
+            "parent": "da50f6c1-254c-4c84-965f-332f30c42751"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ff67f362-ae23-4d4a-963a-a0efb0f2f623",
+        "fields": {
+            "uuid": "ff67f362-ae23-4d4a-963a-a0efb0f2f623",
+            "name": "Elevated Bowls",
+            "emoji": "",
+            "parent": "da50f6c1-254c-4c84-965f-332f30c42751"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "627ef445-8b90-4688-b925-57168efb328a",
+        "fields": {
+            "uuid": "627ef445-8b90-4688-b925-57168efb328a",
+            "name": "Gravity Feeders",
+            "emoji": "",
+            "parent": "da50f6c1-254c-4c84-965f-332f30c42751"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7fe8b3e9-04ac-486a-9360-aac065fc6426",
+        "fields": {
+            "uuid": "7fe8b3e9-04ac-486a-9360-aac065fc6426",
+            "name": "Slow Feeder Bowls",
+            "emoji": "",
+            "parent": "da50f6c1-254c-4c84-965f-332f30c42751"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5f47f153-7a98-461f-91f5-5bc7f8fec123",
+        "fields": {
+            "uuid": "5f47f153-7a98-461f-91f5-5bc7f8fec123",
+            "name": "Travel Bowls",
+            "emoji": "",
+            "parent": "da50f6c1-254c-4c84-965f-332f30c42751"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a88e7fac-f66f-4619-859c-e6bde13afada",
+        "fields": {
+            "uuid": "a88e7fac-f66f-4619-859c-e6bde13afada",
+            "name": "Water Dispensers",
+            "emoji": "",
+            "parent": "da50f6c1-254c-4c84-965f-332f30c42751"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "77545ef0-bdb0-4d05-8042-a8ae99e36730",
+        "fields": {
+            "uuid": "77545ef0-bdb0-4d05-8042-a8ae99e36730",
+            "name": "Water Fountains",
+            "emoji": "",
+            "parent": "da50f6c1-254c-4c84-965f-332f30c42751"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "086b6216-74ea-4594-b7b6-ff2b8f2baaac",
+        "fields": {
+            "uuid": "086b6216-74ea-4594-b7b6-ff2b8f2baaac",
+            "name": "Pet Carrier & Crate Accessories",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c8f56a5a-43e5-495a-ab61-aff33b232213",
+        "fields": {
+            "uuid": "c8f56a5a-43e5-495a-ab61-aff33b232213",
+            "name": "Pet Carriers & Crates",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "98926c34-ede1-4426-8184-3dca1aa98516",
+        "fields": {
+            "uuid": "98926c34-ede1-4426-8184-3dca1aa98516",
+            "name": "Air Travel Approved Carriers",
+            "emoji": "",
+            "parent": "c8f56a5a-43e5-495a-ab61-aff33b232213"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "59e0fd00-6a00-4031-b568-8c4f97eecd67",
+        "fields": {
+            "uuid": "59e0fd00-6a00-4031-b568-8c4f97eecd67",
+            "name": "Backpack Carriers",
+            "emoji": "",
+            "parent": "c8f56a5a-43e5-495a-ab61-aff33b232213"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f79b3ae4-7109-455a-b141-8f519c331ab5",
+        "fields": {
+            "uuid": "f79b3ae4-7109-455a-b141-8f519c331ab5",
+            "name": "Car Crates",
+            "emoji": "",
+            "parent": "c8f56a5a-43e5-495a-ab61-aff33b232213"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "07e253e7-97de-4ccb-93fc-b9c133cb2496",
+        "fields": {
+            "uuid": "07e253e7-97de-4ccb-93fc-b9c133cb2496",
+            "name": "Furniture-Style Crates",
+            "emoji": "",
+            "parent": "c8f56a5a-43e5-495a-ab61-aff33b232213"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fac0c537-a3ab-4202-93c3-2d43fd8410d1",
+        "fields": {
+            "uuid": "fac0c537-a3ab-4202-93c3-2d43fd8410d1",
+            "name": "Hard-Sided Carriers",
+            "emoji": "",
+            "parent": "c8f56a5a-43e5-495a-ab61-aff33b232213"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ce1c237d-f010-419b-a61e-5d309048a73e",
+        "fields": {
+            "uuid": "ce1c237d-f010-419b-a61e-5d309048a73e",
+            "name": "Rolling Carriers",
+            "emoji": "",
+            "parent": "c8f56a5a-43e5-495a-ab61-aff33b232213"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "de9bf876-bca7-4d6a-beb2-5ea8763b331a",
+        "fields": {
+            "uuid": "de9bf876-bca7-4d6a-beb2-5ea8763b331a",
+            "name": "Slings & Wearable Carriers",
+            "emoji": "",
+            "parent": "c8f56a5a-43e5-495a-ab61-aff33b232213"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4e8cc348-7d76-46fe-bb49-05b92d42ed63",
+        "fields": {
+            "uuid": "4e8cc348-7d76-46fe-bb49-05b92d42ed63",
+            "name": "Soft-Sided Carriers",
+            "emoji": "",
+            "parent": "c8f56a5a-43e5-495a-ab61-aff33b232213"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2f2e0d10-fdd9-46aa-8bff-3d30547edcdf",
+        "fields": {
+            "uuid": "2f2e0d10-fdd9-46aa-8bff-3d30547edcdf",
+            "name": "Soft-Sided Crates",
+            "emoji": "",
+            "parent": "c8f56a5a-43e5-495a-ab61-aff33b232213"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ca955d95-c38c-43b4-a70d-4809f45a8f7a",
+        "fields": {
+            "uuid": "ca955d95-c38c-43b4-a70d-4809f45a8f7a",
+            "name": "Wheeled Carriers",
+            "emoji": "",
+            "parent": "c8f56a5a-43e5-495a-ab61-aff33b232213"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "08c6c703-5fa1-414f-85b2-e007942dfeff",
+        "fields": {
+            "uuid": "08c6c703-5fa1-414f-85b2-e007942dfeff",
+            "name": "Pet Collars & Harnesses",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6162098f-a820-4511-863b-bbc9f54ca7e5",
+        "fields": {
+            "uuid": "6162098f-a820-4511-863b-bbc9f54ca7e5",
+            "name": "Breakaway & Safety Collars",
+            "emoji": "",
+            "parent": "08c6c703-5fa1-414f-85b2-e007942dfeff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6de806aa-31e0-4eeb-a04f-5bd5c68d7e3f",
+        "fields": {
+            "uuid": "6de806aa-31e0-4eeb-a04f-5bd5c68d7e3f",
+            "name": "Flea Collars",
+            "emoji": "",
+            "parent": "08c6c703-5fa1-414f-85b2-e007942dfeff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1515055d-6317-48c7-8078-8dbfe81621b2",
+        "fields": {
+            "uuid": "1515055d-6317-48c7-8078-8dbfe81621b2",
+            "name": "GPS Collars",
+            "emoji": "",
+            "parent": "08c6c703-5fa1-414f-85b2-e007942dfeff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c757e751-069d-4b5e-a540-de01b58e4071",
+        "fields": {
+            "uuid": "c757e751-069d-4b5e-a540-de01b58e4071",
+            "name": "Harnesses",
+            "emoji": "",
+            "parent": "08c6c703-5fa1-414f-85b2-e007942dfeff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3322a561-0ada-4a18-b95f-01ff41b9ef6a",
+        "fields": {
+            "uuid": "3322a561-0ada-4a18-b95f-01ff41b9ef6a",
+            "name": "LED Collars",
+            "emoji": "",
+            "parent": "08c6c703-5fa1-414f-85b2-e007942dfeff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0cf472cc-9369-48b3-93c4-5bbaf2d300e4",
+        "fields": {
+            "uuid": "0cf472cc-9369-48b3-93c4-5bbaf2d300e4",
+            "name": "Martingale Collars",
+            "emoji": "",
+            "parent": "08c6c703-5fa1-414f-85b2-e007942dfeff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6083ddbd-1173-4b9f-bf3c-20d44787bd63",
+        "fields": {
+            "uuid": "6083ddbd-1173-4b9f-bf3c-20d44787bd63",
+            "name": "Personalized ID Collars",
+            "emoji": "",
+            "parent": "08c6c703-5fa1-414f-85b2-e007942dfeff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a17d7ea7-92a2-4f71-bb6f-b08dc53d731d",
+        "fields": {
+            "uuid": "a17d7ea7-92a2-4f71-bb6f-b08dc53d731d",
+            "name": "Standard Collars",
+            "emoji": "",
+            "parent": "08c6c703-5fa1-414f-85b2-e007942dfeff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5cbd9e03-e03a-49ce-9a4e-4739361d6478",
+        "fields": {
+            "uuid": "5cbd9e03-e03a-49ce-9a4e-4739361d6478",
+            "name": "Training, Choke & Pinch Collars",
+            "emoji": "",
+            "parent": "08c6c703-5fa1-414f-85b2-e007942dfeff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bbc6039f-7022-492e-b4ac-65fef0561919",
+        "fields": {
+            "uuid": "bbc6039f-7022-492e-b4ac-65fef0561919",
+            "name": "Vests",
+            "emoji": "",
+            "parent": "08c6c703-5fa1-414f-85b2-e007942dfeff"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5f0285dd-0ffd-4429-9f92-669c23ce2567",
+        "fields": {
+            "uuid": "5f0285dd-0ffd-4429-9f92-669c23ce2567",
+            "name": "Pet Containment Systems",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f97bb7f3-99d9-4d05-ad67-9b53e34c9531",
+        "fields": {
+            "uuid": "f97bb7f3-99d9-4d05-ad67-9b53e34c9531",
+            "name": "Electronic Invisible Fences",
+            "emoji": "",
+            "parent": "5f0285dd-0ffd-4429-9f92-669c23ce2567"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7646e85c-3f87-4597-af7b-ef65f94367d1",
+        "fields": {
+            "uuid": "7646e85c-3f87-4597-af7b-ef65f94367d1",
+            "name": "Enclosures & Cages",
+            "emoji": "",
+            "parent": "5f0285dd-0ffd-4429-9f92-669c23ce2567"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "535aad0f-83c7-4039-a178-b949d6d02477",
+        "fields": {
+            "uuid": "535aad0f-83c7-4039-a178-b949d6d02477",
+            "name": "Exercise Pens",
+            "emoji": "",
+            "parent": "5f0285dd-0ffd-4429-9f92-669c23ce2567"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c97f4fcd-9b9c-459a-8b85-6a227247883c",
+        "fields": {
+            "uuid": "c97f4fcd-9b9c-459a-8b85-6a227247883c",
+            "name": "Fences & Gates",
+            "emoji": "",
+            "parent": "5f0285dd-0ffd-4429-9f92-669c23ce2567"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "92ed0f22-8ac7-47f8-85a3-d17715058fd4",
+        "fields": {
+            "uuid": "92ed0f22-8ac7-47f8-85a3-d17715058fd4",
+            "name": "Kennels",
+            "emoji": "",
+            "parent": "5f0285dd-0ffd-4429-9f92-669c23ce2567"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "403bc04b-de81-4cab-a154-f6d37fff2e8a",
+        "fields": {
+            "uuid": "403bc04b-de81-4cab-a154-f6d37fff2e8a",
+            "name": "Playpens",
+            "emoji": "",
+            "parent": "5f0285dd-0ffd-4429-9f92-669c23ce2567"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "553a090e-dd50-4259-9619-97814390554d",
+        "fields": {
+            "uuid": "553a090e-dd50-4259-9619-97814390554d",
+            "name": "Pet Door Accessories",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "171ed4d5-1833-4d44-a037-8ae5e69583b1",
+        "fields": {
+            "uuid": "171ed4d5-1833-4d44-a037-8ae5e69583b1",
+            "name": "Pet Doors",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6812cf1f-eb08-47d0-b45e-3584be2531ca",
+        "fields": {
+            "uuid": "6812cf1f-eb08-47d0-b45e-3584be2531ca",
+            "name": "Door-Mounted Doors",
+            "emoji": "",
+            "parent": "171ed4d5-1833-4d44-a037-8ae5e69583b1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "88f791c7-c65a-4e5b-a357-158b7d5fb591",
+        "fields": {
+            "uuid": "88f791c7-c65a-4e5b-a357-158b7d5fb591",
+            "name": "Electronic Automatic Doors",
+            "emoji": "",
+            "parent": "171ed4d5-1833-4d44-a037-8ae5e69583b1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cbb8f069-9ca1-4ce0-a932-667e36e429c0",
+        "fields": {
+            "uuid": "cbb8f069-9ca1-4ce0-a932-667e36e429c0",
+            "name": "Sliding Glass Doors",
+            "emoji": "",
+            "parent": "171ed4d5-1833-4d44-a037-8ae5e69583b1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "29d06075-373c-4b5e-b1d4-78277b16cc29",
+        "fields": {
+            "uuid": "29d06075-373c-4b5e-b1d4-78277b16cc29",
+            "name": "Wall-Mounted Doors",
+            "emoji": "",
+            "parent": "171ed4d5-1833-4d44-a037-8ae5e69583b1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f74853e9-9e37-4e33-b311-a1fc5e2724e5",
+        "fields": {
+            "uuid": "f74853e9-9e37-4e33-b311-a1fc5e2724e5",
+            "name": "Window-Mounted Doors",
+            "emoji": "",
+            "parent": "171ed4d5-1833-4d44-a037-8ae5e69583b1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "79b734c3-b35f-4459-93f6-65fe3e522d25",
+        "fields": {
+            "uuid": "79b734c3-b35f-4459-93f6-65fe3e522d25",
+            "name": "Pet Eye Drops & Lubricants",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e8edbcad-b60e-4241-8d5f-ec11eb3990c0",
+        "fields": {
+            "uuid": "e8edbcad-b60e-4241-8d5f-ec11eb3990c0",
+            "name": "Conjunctivitis Treatments",
+            "emoji": "",
+            "parent": "79b734c3-b35f-4459-93f6-65fe3e522d25"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1b6cdbef-3b72-4fad-93d2-d6adf9fe9579",
+        "fields": {
+            "uuid": "1b6cdbef-3b72-4fad-93d2-d6adf9fe9579",
+            "name": "Eye Cleaners",
+            "emoji": "",
+            "parent": "79b734c3-b35f-4459-93f6-65fe3e522d25"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9d2a4c0b-6590-4bde-a83f-8f2415d37da5",
+        "fields": {
+            "uuid": "9d2a4c0b-6590-4bde-a83f-8f2415d37da5",
+            "name": "Eye Irrigation Solutions",
+            "emoji": "",
+            "parent": "79b734c3-b35f-4459-93f6-65fe3e522d25"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "139ff9af-6b6a-417c-9810-c23d34db2c2e",
+        "fields": {
+            "uuid": "139ff9af-6b6a-417c-9810-c23d34db2c2e",
+            "name": "Eye Lubricants",
+            "emoji": "",
+            "parent": "79b734c3-b35f-4459-93f6-65fe3e522d25"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "60dfbdd9-b191-47f2-a817-048e78692702",
+        "fields": {
+            "uuid": "60dfbdd9-b191-47f2-a817-048e78692702",
+            "name": "Eye Washes",
+            "emoji": "",
+            "parent": "79b734c3-b35f-4459-93f6-65fe3e522d25"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3573b65d-c86d-4923-b593-99608d3b0761",
+        "fields": {
+            "uuid": "3573b65d-c86d-4923-b593-99608d3b0761",
+            "name": "Tear Stain Removers",
+            "emoji": "",
+            "parent": "79b734c3-b35f-4459-93f6-65fe3e522d25"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ebeedf04-f7bf-4fb5-9ce9-e19c3990149a",
+        "fields": {
+            "uuid": "ebeedf04-f7bf-4fb5-9ce9-e19c3990149a",
+            "name": "Pet First Aid & Emergency Kits",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fdaa3814-1ebf-4b5a-ad1a-0d03fdb9c060",
+        "fields": {
+            "uuid": "fdaa3814-1ebf-4b5a-ad1a-0d03fdb9c060",
+            "name": "General First Aid Kits",
+            "emoji": "",
+            "parent": "ebeedf04-f7bf-4fb5-9ce9-e19c3990149a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9edf36a2-3c36-4d83-8966-13af187d3ff5",
+        "fields": {
+            "uuid": "9edf36a2-3c36-4d83-8966-13af187d3ff5",
+            "name": "Trauma Kits",
+            "emoji": "",
+            "parent": "ebeedf04-f7bf-4fb5-9ce9-e19c3990149a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "852c58c3-0157-45ad-bd2a-0b353e149a20",
+        "fields": {
+            "uuid": "852c58c3-0157-45ad-bd2a-0b353e149a20",
+            "name": "Travel First Aid Kits",
+            "emoji": "",
+            "parent": "ebeedf04-f7bf-4fb5-9ce9-e19c3990149a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6ab0ba02-73f6-4330-9246-b35f644e9581",
+        "fields": {
+            "uuid": "6ab0ba02-73f6-4330-9246-b35f644e9581",
+            "name": "Pet Flea & Tick Control",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e15f0377-b626-4150-9f79-22c482c19a88",
+        "fields": {
+            "uuid": "e15f0377-b626-4150-9f79-22c482c19a88",
+            "name": "Flea & Tick Collars",
+            "emoji": "",
+            "parent": "6ab0ba02-73f6-4330-9246-b35f644e9581"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "724391f9-2ec3-4891-bfa3-6e2d5c7577a8",
+        "fields": {
+            "uuid": "724391f9-2ec3-4891-bfa3-6e2d5c7577a8",
+            "name": "Flea & Tick Foggers",
+            "emoji": "",
+            "parent": "6ab0ba02-73f6-4330-9246-b35f644e9581"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cbde0eb5-3284-4c55-8542-451f376e53b3",
+        "fields": {
+            "uuid": "cbde0eb5-3284-4c55-8542-451f376e53b3",
+            "name": "Flea & Tick Shampoos",
+            "emoji": "",
+            "parent": "6ab0ba02-73f6-4330-9246-b35f644e9581"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f021abeb-4d64-4c9c-8fb9-59c0a392b4de",
+        "fields": {
+            "uuid": "f021abeb-4d64-4c9c-8fb9-59c0a392b4de",
+            "name": "Flea & Tick Sprays",
+            "emoji": "",
+            "parent": "6ab0ba02-73f6-4330-9246-b35f644e9581"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "184cc6b9-3c79-4062-95dc-139ab5d0905a",
+        "fields": {
+            "uuid": "184cc6b9-3c79-4062-95dc-139ab5d0905a",
+            "name": "Flea Combs",
+            "emoji": "",
+            "parent": "6ab0ba02-73f6-4330-9246-b35f644e9581"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "14816adb-4698-4495-ad9a-a504c371dfb1",
+        "fields": {
+            "uuid": "14816adb-4698-4495-ad9a-a504c371dfb1",
+            "name": "Oral Medication",
+            "emoji": "",
+            "parent": "6ab0ba02-73f6-4330-9246-b35f644e9581"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "73c519d6-6364-4298-ac8a-062ed833e47d",
+        "fields": {
+            "uuid": "73c519d6-6364-4298-ac8a-062ed833e47d",
+            "name": "Spot Treatments",
+            "emoji": "",
+            "parent": "6ab0ba02-73f6-4330-9246-b35f644e9581"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e0364747-8e3f-46fb-acee-53c4ea58f9cf",
+        "fields": {
+            "uuid": "e0364747-8e3f-46fb-acee-53c4ea58f9cf",
+            "name": "Pet Food Containers",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "76634a91-babd-43f2-8769-ec5d7e467e82",
+        "fields": {
+            "uuid": "76634a91-babd-43f2-8769-ec5d7e467e82",
+            "name": "Can Covers",
+            "emoji": "",
+            "parent": "e0364747-8e3f-46fb-acee-53c4ea58f9cf"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "eb243e35-93aa-40e2-8cfe-811aecbae37f",
+        "fields": {
+            "uuid": "eb243e35-93aa-40e2-8cfe-811aecbae37f",
+            "name": "Food Storage Bins",
+            "emoji": "",
+            "parent": "e0364747-8e3f-46fb-acee-53c4ea58f9cf"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "15e888b7-d45d-484e-8578-4d772de73d1a",
+        "fields": {
+            "uuid": "15e888b7-d45d-484e-8578-4d772de73d1a",
+            "name": "Food Storage Containers",
+            "emoji": "",
+            "parent": "e0364747-8e3f-46fb-acee-53c4ea58f9cf"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3f352794-f7bc-4176-b1db-28fba448fe6b",
+        "fields": {
+            "uuid": "3f352794-f7bc-4176-b1db-28fba448fe6b",
+            "name": "Pet Food Scoops",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a3ef7ff3-4183-4b93-bd6e-507378d00c87",
+        "fields": {
+            "uuid": "a3ef7ff3-4183-4b93-bd6e-507378d00c87",
+            "name": "Pet Grooming Supplies",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "58f07448-ef45-4c8d-ba91-64caa4a76685",
+        "fields": {
+            "uuid": "58f07448-ef45-4c8d-ba91-64caa4a76685",
+            "name": "Pet Combs & Brushes",
+            "emoji": "",
+            "parent": "a3ef7ff3-4183-4b93-bd6e-507378d00c87"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a5b0dfd4-5141-4daf-a4e5-1d40c3773f0d",
+        "fields": {
+            "uuid": "a5b0dfd4-5141-4daf-a4e5-1d40c3773f0d",
+            "name": "Brushes",
+            "emoji": "",
+            "parent": "58f07448-ef45-4c8d-ba91-64caa4a76685"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "81a8839c-472a-439c-b916-c1e59c02427c",
+        "fields": {
+            "uuid": "81a8839c-472a-439c-b916-c1e59c02427c",
+            "name": "Combs",
+            "emoji": "",
+            "parent": "58f07448-ef45-4c8d-ba91-64caa4a76685"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cfafe7ba-1b3c-4f41-a945-2055d5738416",
+        "fields": {
+            "uuid": "cfafe7ba-1b3c-4f41-a945-2055d5738416",
+            "name": "Deshedders",
+            "emoji": "",
+            "parent": "58f07448-ef45-4c8d-ba91-64caa4a76685"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "22767ae5-f1e8-4d00-811b-f74c377bb28f",
+        "fields": {
+            "uuid": "22767ae5-f1e8-4d00-811b-f74c377bb28f",
+            "name": "Gloves",
+            "emoji": "",
+            "parent": "58f07448-ef45-4c8d-ba91-64caa4a76685"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f1102990-5161-4c9c-8a01-9585dba0370d",
+        "fields": {
+            "uuid": "f1102990-5161-4c9c-8a01-9585dba0370d",
+            "name": "Groomers",
+            "emoji": "",
+            "parent": "58f07448-ef45-4c8d-ba91-64caa4a76685"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b648a068-c2e0-4b10-a44e-bbc5be24f20d",
+        "fields": {
+            "uuid": "b648a068-c2e0-4b10-a44e-bbc5be24f20d",
+            "name": "Trimming Knives",
+            "emoji": "",
+            "parent": "58f07448-ef45-4c8d-ba91-64caa4a76685"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "67ecf832-0ee2-4ff1-9f9d-a7a9814c5368",
+        "fields": {
+            "uuid": "67ecf832-0ee2-4ff1-9f9d-a7a9814c5368",
+            "name": "Pet Fragrances & Deodorizing Sprays",
+            "emoji": "",
+            "parent": "a3ef7ff3-4183-4b93-bd6e-507378d00c87"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "93339e87-cd95-4fa3-8b61-a5222b200ee6",
+        "fields": {
+            "uuid": "93339e87-cd95-4fa3-8b61-a5222b200ee6",
+            "name": "Colognes",
+            "emoji": "",
+            "parent": "67ecf832-0ee2-4ff1-9f9d-a7a9814c5368"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4b39c250-4e6d-4281-bdbf-deea69b6c1a4",
+        "fields": {
+            "uuid": "4b39c250-4e6d-4281-bdbf-deea69b6c1a4",
+            "name": "Deodorizer Sprays",
+            "emoji": "",
+            "parent": "67ecf832-0ee2-4ff1-9f9d-a7a9814c5368"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f6998c35-c40f-4145-9a3c-d3957102142e",
+        "fields": {
+            "uuid": "f6998c35-c40f-4145-9a3c-d3957102142e",
+            "name": "Odor Neutralizers",
+            "emoji": "",
+            "parent": "67ecf832-0ee2-4ff1-9f9d-a7a9814c5368"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "854645d7-3ece-4546-96a8-0819b13b6497",
+        "fields": {
+            "uuid": "854645d7-3ece-4546-96a8-0819b13b6497",
+            "name": "Perfumes",
+            "emoji": "",
+            "parent": "67ecf832-0ee2-4ff1-9f9d-a7a9814c5368"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5e5cb44f-b0b2-4974-9722-df7dfd1f921d",
+        "fields": {
+            "uuid": "5e5cb44f-b0b2-4974-9722-df7dfd1f921d",
+            "name": "Pet Hair Clippers & Trimmers",
+            "emoji": "",
+            "parent": "a3ef7ff3-4183-4b93-bd6e-507378d00c87"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e936b4e1-28fc-4838-9239-aa7dfddab51a",
+        "fields": {
+            "uuid": "e936b4e1-28fc-4838-9239-aa7dfddab51a",
+            "name": "Blade Sharpeners",
+            "emoji": "",
+            "parent": "5e5cb44f-b0b2-4974-9722-df7dfd1f921d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f3143f0d-39f6-44e2-a707-cd6e8796ac08",
+        "fields": {
+            "uuid": "f3143f0d-39f6-44e2-a707-cd6e8796ac08",
+            "name": "Clipper Blades",
+            "emoji": "",
+            "parent": "5e5cb44f-b0b2-4974-9722-df7dfd1f921d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dcdc6887-e5c5-4233-9e64-9f54814b410f",
+        "fields": {
+            "uuid": "dcdc6887-e5c5-4233-9e64-9f54814b410f",
+            "name": "Clippers",
+            "emoji": "",
+            "parent": "5e5cb44f-b0b2-4974-9722-df7dfd1f921d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "49529c5a-ce79-47af-972d-29c1859c2df6",
+        "fields": {
+            "uuid": "49529c5a-ce79-47af-972d-29c1859c2df6",
+            "name": "Shears & Scissors",
+            "emoji": "",
+            "parent": "5e5cb44f-b0b2-4974-9722-df7dfd1f921d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "97f67138-23cf-4cda-a90c-0f49c3f6cac0",
+        "fields": {
+            "uuid": "97f67138-23cf-4cda-a90c-0f49c3f6cac0",
+            "name": "Trimmers",
+            "emoji": "",
+            "parent": "5e5cb44f-b0b2-4974-9722-df7dfd1f921d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2d77ceef-93bf-4167-a9b3-c03fc7278cb3",
+        "fields": {
+            "uuid": "2d77ceef-93bf-4167-a9b3-c03fc7278cb3",
+            "name": "Pet Hair Dryers",
+            "emoji": "",
+            "parent": "a3ef7ff3-4183-4b93-bd6e-507378d00c87"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5cecae4a-9cf3-424c-898d-7f16e8edc4e6",
+        "fields": {
+            "uuid": "5cecae4a-9cf3-424c-898d-7f16e8edc4e6",
+            "name": "Pet Nail Polish",
+            "emoji": "",
+            "parent": "a3ef7ff3-4183-4b93-bd6e-507378d00c87"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6abe2643-2083-4512-836a-10581c45c137",
+        "fields": {
+            "uuid": "6abe2643-2083-4512-836a-10581c45c137",
+            "name": "Pet Nail Tools",
+            "emoji": "",
+            "parent": "a3ef7ff3-4183-4b93-bd6e-507378d00c87"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0663456d-7e87-4da8-a6cb-925f37ff8dec",
+        "fields": {
+            "uuid": "0663456d-7e87-4da8-a6cb-925f37ff8dec",
+            "name": "Pet Shampoo & Conditioner",
+            "emoji": "",
+            "parent": "a3ef7ff3-4183-4b93-bd6e-507378d00c87"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "89c1ec26-21d5-4bd4-b530-ccb07c015a25",
+        "fields": {
+            "uuid": "89c1ec26-21d5-4bd4-b530-ccb07c015a25",
+            "name": "2-in-1 Shampoo & Conditioners",
+            "emoji": "",
+            "parent": "0663456d-7e87-4da8-a6cb-925f37ff8dec"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a295444e-2a99-47d0-a642-a851d46333ad",
+        "fields": {
+            "uuid": "a295444e-2a99-47d0-a642-a851d46333ad",
+            "name": "Conditioners",
+            "emoji": "",
+            "parent": "0663456d-7e87-4da8-a6cb-925f37ff8dec"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cccba9b2-51d0-454b-96bf-a58ba4bacf17",
+        "fields": {
+            "uuid": "cccba9b2-51d0-454b-96bf-a58ba4bacf17",
+            "name": "Shampoos",
+            "emoji": "",
+            "parent": "0663456d-7e87-4da8-a6cb-925f37ff8dec"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "25d9006f-459e-42b7-82cc-f2afd6693ac1",
+        "fields": {
+            "uuid": "25d9006f-459e-42b7-82cc-f2afd6693ac1",
+            "name": "Pet Wipes",
+            "emoji": "",
+            "parent": "a3ef7ff3-4183-4b93-bd6e-507378d00c87"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ae856378-66b1-4065-a6c1-5bde21e22c09",
+        "fields": {
+            "uuid": "ae856378-66b1-4065-a6c1-5bde21e22c09",
+            "name": "Deodorizing Wipes",
+            "emoji": "",
+            "parent": "25d9006f-459e-42b7-82cc-f2afd6693ac1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fd0f443e-7f58-4609-8c87-526d3197c664",
+        "fields": {
+            "uuid": "fd0f443e-7f58-4609-8c87-526d3197c664",
+            "name": "Ear Cleaning Wipes",
+            "emoji": "",
+            "parent": "25d9006f-459e-42b7-82cc-f2afd6693ac1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6c6488ad-b4a7-45d5-b9e6-04f0a76b403e",
+        "fields": {
+            "uuid": "6c6488ad-b4a7-45d5-b9e6-04f0a76b403e",
+            "name": "Eye Cleaning Wipes",
+            "emoji": "",
+            "parent": "25d9006f-459e-42b7-82cc-f2afd6693ac1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "af228821-ccb5-404d-9ffb-033a2c0500e4",
+        "fields": {
+            "uuid": "af228821-ccb5-404d-9ffb-033a2c0500e4",
+            "name": "General Cleaning Wipes",
+            "emoji": "",
+            "parent": "25d9006f-459e-42b7-82cc-f2afd6693ac1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "237f27c0-9413-4699-8820-e0cd7d520bd8",
+        "fields": {
+            "uuid": "237f27c0-9413-4699-8820-e0cd7d520bd8",
+            "name": "Grooming Wipes",
+            "emoji": "",
+            "parent": "25d9006f-459e-42b7-82cc-f2afd6693ac1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4a0f2b5b-e50c-474d-a92b-dac3f1bbc03a",
+        "fields": {
+            "uuid": "4a0f2b5b-e50c-474d-a92b-dac3f1bbc03a",
+            "name": "Hypoallergenic Wipes",
+            "emoji": "",
+            "parent": "25d9006f-459e-42b7-82cc-f2afd6693ac1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a5fe762d-262a-49a1-89ef-f18bba83918d",
+        "fields": {
+            "uuid": "a5fe762d-262a-49a1-89ef-f18bba83918d",
+            "name": "Paw Cleaning Wipes",
+            "emoji": "",
+            "parent": "25d9006f-459e-42b7-82cc-f2afd6693ac1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a0b384f0-7b2f-4efc-a65a-7f368f5f7dc0",
+        "fields": {
+            "uuid": "a0b384f0-7b2f-4efc-a65a-7f368f5f7dc0",
+            "name": "Tear Stain Wipes",
+            "emoji": "",
+            "parent": "25d9006f-459e-42b7-82cc-f2afd6693ac1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f9034223-0bd7-4621-b022-45ca49895984",
+        "fields": {
+            "uuid": "f9034223-0bd7-4621-b022-45ca49895984",
+            "name": "Pet Heating Pad Accessories",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "779351aa-1cea-4fc1-84fa-640a42aa35c8",
+        "fields": {
+            "uuid": "779351aa-1cea-4fc1-84fa-640a42aa35c8",
+            "name": "Pet Heating Pads",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8847dbc4-a58e-4c28-b8b9-12720a44d3bd",
+        "fields": {
+            "uuid": "8847dbc4-a58e-4c28-b8b9-12720a44d3bd",
+            "name": "Pet ID Tags",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c0f3241d-1384-47db-bd87-6cc81b87470b",
+        "fields": {
+            "uuid": "c0f3241d-1384-47db-bd87-6cc81b87470b",
+            "name": "Digital QR Code Tags",
+            "emoji": "",
+            "parent": "8847dbc4-a58e-4c28-b8b9-12720a44d3bd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "04bda8c1-b6ee-4efa-8e8f-8920ff218759",
+        "fields": {
+            "uuid": "04bda8c1-b6ee-4efa-8e8f-8920ff218759",
+            "name": "Embroidered Tags",
+            "emoji": "",
+            "parent": "8847dbc4-a58e-4c28-b8b9-12720a44d3bd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3f78a2e8-43b7-4d71-aab0-76dcb06427f8",
+        "fields": {
+            "uuid": "3f78a2e8-43b7-4d71-aab0-76dcb06427f8",
+            "name": "Medical Alert Tags",
+            "emoji": "",
+            "parent": "8847dbc4-a58e-4c28-b8b9-12720a44d3bd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "67e9d2d8-28d3-4247-8b79-89794b6c2f08",
+        "fields": {
+            "uuid": "67e9d2d8-28d3-4247-8b79-89794b6c2f08",
+            "name": "Slide-On Collar Tags",
+            "emoji": "",
+            "parent": "8847dbc4-a58e-4c28-b8b9-12720a44d3bd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "47976b20-6a89-41e4-a162-c33326e3b33c",
+        "fields": {
+            "uuid": "47976b20-6a89-41e4-a162-c33326e3b33c",
+            "name": "Pet Leash Extensions",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8982869f-7fb2-4543-bb69-2a109b5b0d69",
+        "fields": {
+            "uuid": "8982869f-7fb2-4543-bb69-2a109b5b0d69",
+            "name": "Pet Leashes",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "31ee9930-e511-4a47-8da4-b4040c3f85a3",
+        "fields": {
+            "uuid": "31ee9930-e511-4a47-8da4-b4040c3f85a3",
+            "name": "Double Pet Leashes",
+            "emoji": "",
+            "parent": "8982869f-7fb2-4543-bb69-2a109b5b0d69"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3fcd334f-0a67-409f-99ce-e6997d75148a",
+        "fields": {
+            "uuid": "3fcd334f-0a67-409f-99ce-e6997d75148a",
+            "name": "Hands-Free Leashes",
+            "emoji": "",
+            "parent": "8982869f-7fb2-4543-bb69-2a109b5b0d69"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cc503d75-5345-4a33-b8a0-1907817e6c12",
+        "fields": {
+            "uuid": "cc503d75-5345-4a33-b8a0-1907817e6c12",
+            "name": "No-Pull Leashes",
+            "emoji": "",
+            "parent": "8982869f-7fb2-4543-bb69-2a109b5b0d69"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3e205c04-9875-404b-9df0-d5cadc2882fd",
+        "fields": {
+            "uuid": "3e205c04-9875-404b-9df0-d5cadc2882fd",
+            "name": "Slip Leads",
+            "emoji": "",
+            "parent": "8982869f-7fb2-4543-bb69-2a109b5b0d69"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "12262361-825f-4d70-ac82-d32eac18c6e8",
+        "fields": {
+            "uuid": "12262361-825f-4d70-ac82-d32eac18c6e8",
+            "name": "Standard Leashes",
+            "emoji": "",
+            "parent": "8982869f-7fb2-4543-bb69-2a109b5b0d69"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "69c72732-6a90-4460-b647-c1e8ebcea4f6",
+        "fields": {
+            "uuid": "69c72732-6a90-4460-b647-c1e8ebcea4f6",
+            "name": "Training Leashes",
+            "emoji": "",
+            "parent": "8982869f-7fb2-4543-bb69-2a109b5b0d69"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dfc39ccf-4700-48dc-af4e-60f336cb9fce",
+        "fields": {
+            "uuid": "dfc39ccf-4700-48dc-af4e-60f336cb9fce",
+            "name": "Pet Medical Collars",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d45449f3-ab88-4c3e-8ddc-fe63895d3ebe",
+        "fields": {
+            "uuid": "d45449f3-ab88-4c3e-8ddc-fe63895d3ebe",
+            "name": "Pet Medical Tape & Bandages",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "284a0ccd-b616-49b2-af62-850fd5fe7157",
+        "fields": {
+            "uuid": "284a0ccd-b616-49b2-af62-850fd5fe7157",
+            "name": "Pet Medicine",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "36b76593-9907-481f-8909-d425e6fb563a",
+        "fields": {
+            "uuid": "36b76593-9907-481f-8909-d425e6fb563a",
+            "name": "Allergy Relief",
+            "emoji": "",
+            "parent": "284a0ccd-b616-49b2-af62-850fd5fe7157"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c47f48ec-3052-4aae-b4b2-a872f5864c5f",
+        "fields": {
+            "uuid": "c47f48ec-3052-4aae-b4b2-a872f5864c5f",
+            "name": "Antibiotics",
+            "emoji": "",
+            "parent": "284a0ccd-b616-49b2-af62-850fd5fe7157"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b5b2c948-ad22-4b75-b9dd-ccd5c876c8ae",
+        "fields": {
+            "uuid": "b5b2c948-ad22-4b75-b9dd-ccd5c876c8ae",
+            "name": "Antiparasitics",
+            "emoji": "",
+            "parent": "284a0ccd-b616-49b2-af62-850fd5fe7157"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cd75f438-e9a4-44d3-a128-e1e0387ddf91",
+        "fields": {
+            "uuid": "cd75f438-e9a4-44d3-a128-e1e0387ddf91",
+            "name": "Anxiety Relief",
+            "emoji": "",
+            "parent": "284a0ccd-b616-49b2-af62-850fd5fe7157"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "20f48585-75a2-4784-9351-33d7334ea715",
+        "fields": {
+            "uuid": "20f48585-75a2-4784-9351-33d7334ea715",
+            "name": "Digestive Aids",
+            "emoji": "",
+            "parent": "284a0ccd-b616-49b2-af62-850fd5fe7157"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "68f46b8b-0507-430d-8581-25737e21528d",
+        "fields": {
+            "uuid": "68f46b8b-0507-430d-8581-25737e21528d",
+            "name": "Ear & Eye Medicine",
+            "emoji": "",
+            "parent": "284a0ccd-b616-49b2-af62-850fd5fe7157"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "69e94b18-c4c3-42f1-871d-88b0e917de8b",
+        "fields": {
+            "uuid": "69e94b18-c4c3-42f1-871d-88b0e917de8b",
+            "name": "Pain Relievers",
+            "emoji": "",
+            "parent": "284a0ccd-b616-49b2-af62-850fd5fe7157"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a0780d9e-7822-47e9-aadf-bc8afa9e76b6",
+        "fields": {
+            "uuid": "a0780d9e-7822-47e9-aadf-bc8afa9e76b6",
+            "name": "Pet Muzzles",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c2a32530-ae0e-461a-a972-ffafab38661b",
+        "fields": {
+            "uuid": "c2a32530-ae0e-461a-a972-ffafab38661b",
+            "name": "Pet Oral Care Supplies",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "409b94c6-5a48-40d4-9001-6c045fb747a5",
+        "fields": {
+            "uuid": "409b94c6-5a48-40d4-9001-6c045fb747a5",
+            "name": "Dental Chews",
+            "emoji": "",
+            "parent": "c2a32530-ae0e-461a-a972-ffafab38661b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "64de0ef8-809b-4d6e-b306-c5060e006154",
+        "fields": {
+            "uuid": "64de0ef8-809b-4d6e-b306-c5060e006154",
+            "name": "Dental Gels",
+            "emoji": "",
+            "parent": "c2a32530-ae0e-461a-a972-ffafab38661b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "77bc0e6e-6f0a-4f04-869a-42116ca7bfc4",
+        "fields": {
+            "uuid": "77bc0e6e-6f0a-4f04-869a-42116ca7bfc4",
+            "name": "Dental Sprays",
+            "emoji": "",
+            "parent": "c2a32530-ae0e-461a-a972-ffafab38661b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4ad4ce38-1f76-4b57-a6b4-b4b15757df9d",
+        "fields": {
+            "uuid": "4ad4ce38-1f76-4b57-a6b4-b4b15757df9d",
+            "name": "Dental Water Additives",
+            "emoji": "",
+            "parent": "c2a32530-ae0e-461a-a972-ffafab38661b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ca6c9447-58ae-49e7-ba09-70910e4b24ea",
+        "fields": {
+            "uuid": "ca6c9447-58ae-49e7-ba09-70910e4b24ea",
+            "name": "Dental Wipes",
+            "emoji": "",
+            "parent": "c2a32530-ae0e-461a-a972-ffafab38661b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "02025cf4-425a-4c49-ab8e-2a19841c75be",
+        "fields": {
+            "uuid": "02025cf4-425a-4c49-ab8e-2a19841c75be",
+            "name": "Oral Rinses",
+            "emoji": "",
+            "parent": "c2a32530-ae0e-461a-a972-ffafab38661b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "166656ba-3681-467c-98ce-209d719eb0bd",
+        "fields": {
+            "uuid": "166656ba-3681-467c-98ce-209d719eb0bd",
+            "name": "Toothbrushes",
+            "emoji": "",
+            "parent": "c2a32530-ae0e-461a-a972-ffafab38661b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c774ebcc-c340-4835-86d4-551e050ccad4",
+        "fields": {
+            "uuid": "c774ebcc-c340-4835-86d4-551e050ccad4",
+            "name": "Toothpaste",
+            "emoji": "",
+            "parent": "c2a32530-ae0e-461a-a972-ffafab38661b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d7d7d36c-afd0-4402-8ccc-1c86424892bb",
+        "fields": {
+            "uuid": "d7d7d36c-afd0-4402-8ccc-1c86424892bb",
+            "name": "Pet Strollers",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dbe5684e-e66e-4e34-8bc9-0e5cb41cf8bb",
+        "fields": {
+            "uuid": "dbe5684e-e66e-4e34-8bc9-0e5cb41cf8bb",
+            "name": "Detachable Carrier Pet Strollers",
+            "emoji": "",
+            "parent": "d7d7d36c-afd0-4402-8ccc-1c86424892bb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "712f985d-2963-46e0-ba8e-856676907d09",
+        "fields": {
+            "uuid": "712f985d-2963-46e0-ba8e-856676907d09",
+            "name": "Double-Decker Strollers",
+            "emoji": "",
+            "parent": "d7d7d36c-afd0-4402-8ccc-1c86424892bb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "601f0a7f-2807-41f3-9d8a-4be70a6e8a1a",
+        "fields": {
+            "uuid": "601f0a7f-2807-41f3-9d8a-4be70a6e8a1a",
+            "name": "Jogging Strollers",
+            "emoji": "",
+            "parent": "d7d7d36c-afd0-4402-8ccc-1c86424892bb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ede66b3b-daae-463c-b28e-63ec89b74834",
+        "fields": {
+            "uuid": "ede66b3b-daae-463c-b28e-63ec89b74834",
+            "name": "Multi-Strollers",
+            "emoji": "",
+            "parent": "d7d7d36c-afd0-4402-8ccc-1c86424892bb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0e0774c4-2f60-466a-9c82-ad27f9c926d0",
+        "fields": {
+            "uuid": "0e0774c4-2f60-466a-9c82-ad27f9c926d0",
+            "name": "Standard Strollers",
+            "emoji": "",
+            "parent": "d7d7d36c-afd0-4402-8ccc-1c86424892bb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c54736ba-f4ac-489c-875f-719369c67b5d",
+        "fields": {
+            "uuid": "c54736ba-f4ac-489c-875f-719369c67b5d",
+            "name": "Pet Sunscreen",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "38d3fd62-c2cc-496d-a382-2f0cfe5d1af5",
+        "fields": {
+            "uuid": "38d3fd62-c2cc-496d-a382-2f0cfe5d1af5",
+            "name": "Pet Training Aids",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "34a1eb26-a83a-4a5b-b57f-ae8a547cbe30",
+        "fields": {
+            "uuid": "34a1eb26-a83a-4a5b-b57f-ae8a547cbe30",
+            "name": "Pet Training Clickers & Treat Dispensers",
+            "emoji": "",
+            "parent": "38d3fd62-c2cc-496d-a382-2f0cfe5d1af5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fa817fa8-51dc-43c5-97e2-9d536b0df6a3",
+        "fields": {
+            "uuid": "fa817fa8-51dc-43c5-97e2-9d536b0df6a3",
+            "name": "Pet Training Pad Holders",
+            "emoji": "",
+            "parent": "38d3fd62-c2cc-496d-a382-2f0cfe5d1af5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ed789300-8d29-4c6e-b8ca-3de7bcf74237",
+        "fields": {
+            "uuid": "ed789300-8d29-4c6e-b8ca-3de7bcf74237",
+            "name": "Grid-Top Pad Holders",
+            "emoji": "",
+            "parent": "fa817fa8-51dc-43c5-97e2-9d536b0df6a3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7f65ed90-0f2b-4f29-8aa4-75c69dffe527",
+        "fields": {
+            "uuid": "7f65ed90-0f2b-4f29-8aa4-75c69dffe527",
+            "name": "Regular Pad Holders",
+            "emoji": "",
+            "parent": "fa817fa8-51dc-43c5-97e2-9d536b0df6a3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "68b2dc5b-f1ad-459e-b61a-7471e788b855",
+        "fields": {
+            "uuid": "68b2dc5b-f1ad-459e-b61a-7471e788b855",
+            "name": "Wall-Mounted Pad Holders",
+            "emoji": "",
+            "parent": "fa817fa8-51dc-43c5-97e2-9d536b0df6a3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1bce9d26-1988-434c-afb7-069eed0ae042",
+        "fields": {
+            "uuid": "1bce9d26-1988-434c-afb7-069eed0ae042",
+            "name": "Pet Training Pads",
+            "emoji": "",
+            "parent": "38d3fd62-c2cc-496d-a382-2f0cfe5d1af5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "787973e2-2912-47d5-9522-a4efffb9b72c",
+        "fields": {
+            "uuid": "787973e2-2912-47d5-9522-a4efffb9b72c",
+            "name": "Pet Training Sprays & Solutions",
+            "emoji": "",
+            "parent": "38d3fd62-c2cc-496d-a382-2f0cfe5d1af5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e4cf0d95-3d60-47d6-a4fd-eeca259a273a",
+        "fields": {
+            "uuid": "e4cf0d95-3d60-47d6-a4fd-eeca259a273a",
+            "name": "Pet Vitamins & Supplements",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a585826f-4552-42ed-bc1f-3044fe674e9d",
+        "fields": {
+            "uuid": "a585826f-4552-42ed-bc1f-3044fe674e9d",
+            "name": "Calcium",
+            "emoji": "",
+            "parent": "e4cf0d95-3d60-47d6-a4fd-eeca259a273a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ef382387-f621-440d-9ac5-b8585e298a71",
+        "fields": {
+            "uuid": "ef382387-f621-440d-9ac5-b8585e298a71",
+            "name": "Dental Health",
+            "emoji": "",
+            "parent": "e4cf0d95-3d60-47d6-a4fd-eeca259a273a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "85c8f9e9-e313-416e-993f-07fa17d776fd",
+        "fields": {
+            "uuid": "85c8f9e9-e313-416e-993f-07fa17d776fd",
+            "name": "Fish Oil",
+            "emoji": "",
+            "parent": "e4cf0d95-3d60-47d6-a4fd-eeca259a273a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "68ac65a1-ff86-492a-895f-6647dca6b1f6",
+        "fields": {
+            "uuid": "68ac65a1-ff86-492a-895f-6647dca6b1f6",
+            "name": "Immune Support",
+            "emoji": "",
+            "parent": "e4cf0d95-3d60-47d6-a4fd-eeca259a273a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1e93b486-44e4-4868-98c7-9bb0ffa18b3b",
+        "fields": {
+            "uuid": "1e93b486-44e4-4868-98c7-9bb0ffa18b3b",
+            "name": "Joint Health",
+            "emoji": "",
+            "parent": "e4cf0d95-3d60-47d6-a4fd-eeca259a273a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "90ca67df-e02b-413a-bde7-ff9914af3132",
+        "fields": {
+            "uuid": "90ca67df-e02b-413a-bde7-ff9914af3132",
+            "name": "Multi-Vitamins",
+            "emoji": "",
+            "parent": "e4cf0d95-3d60-47d6-a4fd-eeca259a273a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f10f0dc2-e7b1-46cf-bd2f-88bf6fda50d3",
+        "fields": {
+            "uuid": "f10f0dc2-e7b1-46cf-bd2f-88bf6fda50d3",
+            "name": "Probiotics",
+            "emoji": "",
+            "parent": "e4cf0d95-3d60-47d6-a4fd-eeca259a273a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "67ba31c9-a82c-416e-9afa-664fc4fcb40b",
+        "fields": {
+            "uuid": "67ba31c9-a82c-416e-9afa-664fc4fcb40b",
+            "name": "Skin & Coat",
+            "emoji": "",
+            "parent": "e4cf0d95-3d60-47d6-a4fd-eeca259a273a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "27bc9f58-a3c9-428e-ac9d-9846d9e6b065",
+        "fields": {
+            "uuid": "27bc9f58-a3c9-428e-ac9d-9846d9e6b065",
+            "name": "Weight Control",
+            "emoji": "",
+            "parent": "e4cf0d95-3d60-47d6-a4fd-eeca259a273a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2a2758c8-81c4-402f-91f9-69bbff5969e8",
+        "fields": {
+            "uuid": "2a2758c8-81c4-402f-91f9-69bbff5969e8",
+            "name": "CBD Supplements",
+            "emoji": "",
+            "parent": "e4cf0d95-3d60-47d6-a4fd-eeca259a273a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0569636d-6f04-43ac-b1b4-ccb970a7b874",
+        "fields": {
+            "uuid": "0569636d-6f04-43ac-b1b4-ccb970a7b874",
+            "name": "Pet Waste Bag Dispensers & Holders",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "921ed8e3-31c3-4f6d-87cb-752f3a21b290",
+        "fields": {
+            "uuid": "921ed8e3-31c3-4f6d-87cb-752f3a21b290",
+            "name": "Flashlight Dispensers",
+            "emoji": "",
+            "parent": "0569636d-6f04-43ac-b1b4-ccb970a7b874"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "85c8eca6-b096-4054-b3ff-fed30d179544",
+        "fields": {
+            "uuid": "85c8eca6-b096-4054-b3ff-fed30d179544",
+            "name": "Standard Dispensers & Holders",
+            "emoji": "",
+            "parent": "0569636d-6f04-43ac-b1b4-ccb970a7b874"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5dd83a53-f7c3-4cde-b38d-a13077dc0ec9",
+        "fields": {
+            "uuid": "5dd83a53-f7c3-4cde-b38d-a13077dc0ec9",
+            "name": "Storage Dispensers",
+            "emoji": "",
+            "parent": "0569636d-6f04-43ac-b1b4-ccb970a7b874"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0e754f82-069b-4fdf-9960-043983615eef",
+        "fields": {
+            "uuid": "0e754f82-069b-4fdf-9960-043983615eef",
+            "name": "Pet Waste Bags",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3672d1c7-8d3f-4ea5-a63d-e02252e275f1",
+        "fields": {
+            "uuid": "3672d1c7-8d3f-4ea5-a63d-e02252e275f1",
+            "name": "Pet Waste Disposal Systems & Tools",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7a2b2e4b-ecb8-4a3f-acf3-b9dcfcbb82a0",
+        "fields": {
+            "uuid": "7a2b2e4b-ecb8-4a3f-acf3-b9dcfcbb82a0",
+            "name": "Doggy Bags",
+            "emoji": "",
+            "parent": "3672d1c7-8d3f-4ea5-a63d-e02252e275f1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c78f5ee5-b465-43b3-bb56-db53696548f3",
+        "fields": {
+            "uuid": "c78f5ee5-b465-43b3-bb56-db53696548f3",
+            "name": "Litter Trays",
+            "emoji": "",
+            "parent": "3672d1c7-8d3f-4ea5-a63d-e02252e275f1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c046210d-6688-4f9b-8ae1-ba8ea6f267ff",
+        "fields": {
+            "uuid": "c046210d-6688-4f9b-8ae1-ba8ea6f267ff",
+            "name": "Pet Waste Disposal Systems",
+            "emoji": "",
+            "parent": "3672d1c7-8d3f-4ea5-a63d-e02252e275f1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "115479aa-b170-484a-9c53-e8cef998932f",
+        "fields": {
+            "uuid": "115479aa-b170-484a-9c53-e8cef998932f",
+            "name": "Waste Scoopers",
+            "emoji": "",
+            "parent": "3672d1c7-8d3f-4ea5-a63d-e02252e275f1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "17897f31-e29f-46cd-93ad-0baf7d6605f4",
+        "fields": {
+            "uuid": "17897f31-e29f-46cd-93ad-0baf7d6605f4",
+            "name": "Reptile & Amphibian Supplies",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7b2a0c0a-5316-4a15-b732-1fb67cf84106",
+        "fields": {
+            "uuid": "7b2a0c0a-5316-4a15-b732-1fb67cf84106",
+            "name": "Reptile & Amphibian Food",
+            "emoji": "",
+            "parent": "17897f31-e29f-46cd-93ad-0baf7d6605f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8e726ca3-2c36-4c71-83f3-421116560269",
+        "fields": {
+            "uuid": "8e726ca3-2c36-4c71-83f3-421116560269",
+            "name": "Reptile & Amphibian Habitat Accessories",
+            "emoji": "",
+            "parent": "17897f31-e29f-46cd-93ad-0baf7d6605f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "226fca32-a301-4b99-bd03-cdce5fe2290e",
+        "fields": {
+            "uuid": "226fca32-a301-4b99-bd03-cdce5fe2290e",
+            "name": "Reptile & Amphibian Habitat Heating & Lighting",
+            "emoji": "",
+            "parent": "17897f31-e29f-46cd-93ad-0baf7d6605f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8e2f83a8-a084-4deb-8bf8-8ea6ffd49154",
+        "fields": {
+            "uuid": "8e2f83a8-a084-4deb-8bf8-8ea6ffd49154",
+            "name": "Reptile & Amphibian Habitats",
+            "emoji": "",
+            "parent": "17897f31-e29f-46cd-93ad-0baf7d6605f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f08b90c3-10ce-4306-84e2-c3504a24f8dc",
+        "fields": {
+            "uuid": "f08b90c3-10ce-4306-84e2-c3504a24f8dc",
+            "name": "Aquariums",
+            "emoji": "",
+            "parent": "8e2f83a8-a084-4deb-8bf8-8ea6ffd49154"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0521c09b-17c1-4693-b3be-fb2897c1e6ec",
+        "fields": {
+            "uuid": "0521c09b-17c1-4693-b3be-fb2897c1e6ec",
+            "name": "Paludariums",
+            "emoji": "",
+            "parent": "8e2f83a8-a084-4deb-8bf8-8ea6ffd49154"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3259bdfc-3031-4b86-8934-3f99745c39f3",
+        "fields": {
+            "uuid": "3259bdfc-3031-4b86-8934-3f99745c39f3",
+            "name": "Terrariums",
+            "emoji": "",
+            "parent": "8e2f83a8-a084-4deb-8bf8-8ea6ffd49154"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f8deebc4-c1fb-4cf1-9484-b135927cf82d",
+        "fields": {
+            "uuid": "f8deebc4-c1fb-4cf1-9484-b135927cf82d",
+            "name": "Vivariums",
+            "emoji": "",
+            "parent": "8e2f83a8-a084-4deb-8bf8-8ea6ffd49154"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "93e92fb8-816b-4645-b122-fd01940295f9",
+        "fields": {
+            "uuid": "93e92fb8-816b-4645-b122-fd01940295f9",
+            "name": "Reptile & Amphibian Substrates",
+            "emoji": "",
+            "parent": "17897f31-e29f-46cd-93ad-0baf7d6605f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4c85d142-553d-4916-aaa2-38515fa705f9",
+        "fields": {
+            "uuid": "4c85d142-553d-4916-aaa2-38515fa705f9",
+            "name": "Small Animal Supplies",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aae9bc16-54d5-4a80-a4bb-b7ae7b8dc32b",
+        "fields": {
+            "uuid": "aae9bc16-54d5-4a80-a4bb-b7ae7b8dc32b",
+            "name": "Small Animal Bedding",
+            "emoji": "",
+            "parent": "4c85d142-553d-4916-aaa2-38515fa705f9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "93a88bb2-b78b-4aa4-a215-04e121d41b2c",
+        "fields": {
+            "uuid": "93a88bb2-b78b-4aa4-a215-04e121d41b2c",
+            "name": "Small Animal Food",
+            "emoji": "",
+            "parent": "4c85d142-553d-4916-aaa2-38515fa705f9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c369b2ff-b496-414d-8002-68a30f011645",
+        "fields": {
+            "uuid": "c369b2ff-b496-414d-8002-68a30f011645",
+            "name": "Small Animal Habitat Accessories",
+            "emoji": "",
+            "parent": "4c85d142-553d-4916-aaa2-38515fa705f9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b1e83e0a-9f7a-459e-857a-be1617b39632",
+        "fields": {
+            "uuid": "b1e83e0a-9f7a-459e-857a-be1617b39632",
+            "name": "Small Animal Habitats & Cages",
+            "emoji": "",
+            "parent": "4c85d142-553d-4916-aaa2-38515fa705f9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "84e80233-1120-4f01-99a5-1f3a8f097126",
+        "fields": {
+            "uuid": "84e80233-1120-4f01-99a5-1f3a8f097126",
+            "name": "Small Animal Treats",
+            "emoji": "",
+            "parent": "4c85d142-553d-4916-aaa2-38515fa705f9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "acfd5dc5-3046-4e78-af27-a13fc9ad7113",
+        "fields": {
+            "uuid": "acfd5dc5-3046-4e78-af27-a13fc9ad7113",
+            "name": "Biscuits & Bakery",
+            "emoji": "",
+            "parent": "84e80233-1120-4f01-99a5-1f3a8f097126"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "74785dd9-2164-428d-8b30-01547815f0b9",
+        "fields": {
+            "uuid": "74785dd9-2164-428d-8b30-01547815f0b9",
+            "name": "Chew Treats",
+            "emoji": "",
+            "parent": "84e80233-1120-4f01-99a5-1f3a8f097126"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6f020ca6-e142-4b37-991c-86d4b56b4778",
+        "fields": {
+            "uuid": "6f020ca6-e142-4b37-991c-86d4b56b4778",
+            "name": "Crunchy Treats",
+            "emoji": "",
+            "parent": "84e80233-1120-4f01-99a5-1f3a8f097126"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "42108097-328a-4feb-b761-eb3ba1f181c1",
+        "fields": {
+            "uuid": "42108097-328a-4feb-b761-eb3ba1f181c1",
+            "name": "Soft Treats",
+            "emoji": "",
+            "parent": "84e80233-1120-4f01-99a5-1f3a8f097126"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c0bffd2e-df0b-4207-80ba-aacda80989d8",
+        "fields": {
+            "uuid": "c0bffd2e-df0b-4207-80ba-aacda80989d8",
+            "name": "Stick Treats",
+            "emoji": "",
+            "parent": "84e80233-1120-4f01-99a5-1f3a8f097126"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2ddb8aad-0a9d-4954-8286-d6f0d36ce6bd",
+        "fields": {
+            "uuid": "2ddb8aad-0a9d-4954-8286-d6f0d36ce6bd",
+            "name": "Training Treats",
+            "emoji": "",
+            "parent": "84e80233-1120-4f01-99a5-1f3a8f097126"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9d24f0a0-72d2-411d-99d7-e8b409a82d20",
+        "fields": {
+            "uuid": "9d24f0a0-72d2-411d-99d7-e8b409a82d20",
+            "name": "Vehicle Pet Barriers",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "06249161-d0b6-49f0-ad08-64d2a2feead7",
+        "fields": {
+            "uuid": "06249161-d0b6-49f0-ad08-64d2a2feead7",
+            "name": "Backseat Barriers",
+            "emoji": "",
+            "parent": "9d24f0a0-72d2-411d-99d7-e8b409a82d20"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "82cdd304-9f64-4b1a-b626-9e179ac8c3b5",
+        "fields": {
+            "uuid": "82cdd304-9f64-4b1a-b626-9e179ac8c3b5",
+            "name": "Cargo Area Barriers",
+            "emoji": "",
+            "parent": "9d24f0a0-72d2-411d-99d7-e8b409a82d20"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "64d57931-1cca-46a6-8956-4e8778ccd2a0",
+        "fields": {
+            "uuid": "64d57931-1cca-46a6-8956-4e8778ccd2a0",
+            "name": "Door Barriers",
+            "emoji": "",
+            "parent": "9d24f0a0-72d2-411d-99d7-e8b409a82d20"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f92fab72-a3c1-470c-8b09-d2c54a75293c",
+        "fields": {
+            "uuid": "f92fab72-a3c1-470c-8b09-d2c54a75293c",
+            "name": "Partitions",
+            "emoji": "",
+            "parent": "9d24f0a0-72d2-411d-99d7-e8b409a82d20"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "632a2535-0263-4da8-a3fd-26bbeac0f209",
+        "fields": {
+            "uuid": "632a2535-0263-4da8-a3fd-26bbeac0f209",
+            "name": "Window Barriers",
+            "emoji": "",
+            "parent": "9d24f0a0-72d2-411d-99d7-e8b409a82d20"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2dc0e833-56ee-460d-95c7-721f595c446b",
+        "fields": {
+            "uuid": "2dc0e833-56ee-460d-95c7-721f595c446b",
+            "name": "Pet Steps & Ramps",
+            "emoji": "",
+            "parent": "bca712bc-883b-4a8d-88ea-cf5c76b61172"
+        }
+    }
+]

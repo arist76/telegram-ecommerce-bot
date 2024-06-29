@@ -1,0 +1,2252 @@
+[
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "8f79dab1-bab6-4c08-a614-88366afc9a77",
+        "fields": {
+            "uuid": "8f79dab1-bab6-4c08-a614-88366afc9a77",
+            "name": "color",
+            "category": "d8afa395-3479-49cf-8baf-316674f84c46"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "60ade92a-3ee9-4148-a037-5821a200cdee",
+        "fields": {
+            "uuid": "60ade92a-3ee9-4148-a037-5821a200cdee",
+            "name": "pattern",
+            "category": "d8afa395-3479-49cf-8baf-316674f84c46"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "e330a5b6-3320-40a7-9637-1a806545256f",
+        "fields": {
+            "uuid": "e330a5b6-3320-40a7-9637-1a806545256f",
+            "name": "bag/case_closure",
+            "category": "52fd0ee0-8c79-47e4-96d3-45ce6f6ae973"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "0a4bb230-2aef-47c7-b916-f76d0770fbe3",
+        "fields": {
+            "uuid": "0a4bb230-2aef-47c7-b916-f76d0770fbe3",
+            "name": "bag/case_features",
+            "category": "52fd0ee0-8c79-47e4-96d3-45ce6f6ae973"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "7fa06380-279a-46e3-9e70-eb6a366a2be2",
+        "fields": {
+            "uuid": "7fa06380-279a-46e3-9e70-eb6a366a2be2",
+            "name": "bag/case_material",
+            "category": "52fd0ee0-8c79-47e4-96d3-45ce6f6ae973"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "0c6ae29d-19d5-40b8-809c-cfcd59f40a61",
+        "fields": {
+            "uuid": "0c6ae29d-19d5-40b8-809c-cfcd59f40a61",
+            "name": "bag/case_storage_features",
+            "category": "52fd0ee0-8c79-47e4-96d3-45ce6f6ae973"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "09a14793-65cd-4e18-a339-0eddf74e768a",
+        "fields": {
+            "uuid": "09a14793-65cd-4e18-a339-0eddf74e768a",
+            "name": "care_instructions",
+            "category": "52fd0ee0-8c79-47e4-96d3-45ce6f6ae973"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "a81fb398-9d03-4943-886e-e25a5765bdeb",
+        "fields": {
+            "uuid": "a81fb398-9d03-4943-886e-e25a5765bdeb",
+            "name": "carry_options",
+            "category": "52fd0ee0-8c79-47e4-96d3-45ce6f6ae973"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "8b4544c5-a365-4da1-9fce-eb4c7f6bc89e",
+        "fields": {
+            "uuid": "8b4544c5-a365-4da1-9fce-eb4c7f6bc89e",
+            "name": "color",
+            "category": "52fd0ee0-8c79-47e4-96d3-45ce6f6ae973"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "535dc023-70b2-448b-a854-1f3dd6c8a47b",
+        "fields": {
+            "uuid": "535dc023-70b2-448b-a854-1f3dd6c8a47b",
+            "name": "luggage/bag_closure",
+            "category": "52fd0ee0-8c79-47e4-96d3-45ce6f6ae973"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "5d90b1e1-0319-48fe-88f4-3408be751408",
+        "fields": {
+            "uuid": "5d90b1e1-0319-48fe-88f4-3408be751408",
+            "name": "pattern",
+            "category": "52fd0ee0-8c79-47e4-96d3-45ce6f6ae973"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "5fe37b82-4733-4f1e-9b70-7cf275774e58",
+        "fields": {
+            "uuid": "5fe37b82-4733-4f1e-9b70-7cf275774e58",
+            "name": "bag/case_closure",
+            "category": "78809370-af0c-4029-8860-43d5b4ee495b"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "15fd102b-9118-4a78-8614-38e5fb77338a",
+        "fields": {
+            "uuid": "15fd102b-9118-4a78-8614-38e5fb77338a",
+            "name": "bag/case_features",
+            "category": "78809370-af0c-4029-8860-43d5b4ee495b"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "5de0d77f-7ffd-475f-918e-9738b27fd33a",
+        "fields": {
+            "uuid": "5de0d77f-7ffd-475f-918e-9738b27fd33a",
+            "name": "bag/case_material",
+            "category": "78809370-af0c-4029-8860-43d5b4ee495b"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "264046d7-3bf7-4f02-9686-4c286ddbf75f",
+        "fields": {
+            "uuid": "264046d7-3bf7-4f02-9686-4c286ddbf75f",
+            "name": "bag/case_storage_features",
+            "category": "78809370-af0c-4029-8860-43d5b4ee495b"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "d31ca087-bc52-4f81-9320-4f893f24fe75",
+        "fields": {
+            "uuid": "d31ca087-bc52-4f81-9320-4f893f24fe75",
+            "name": "care_instructions",
+            "category": "78809370-af0c-4029-8860-43d5b4ee495b"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "f9b18087-bb1d-45c1-ba16-69aaa915816d",
+        "fields": {
+            "uuid": "f9b18087-bb1d-45c1-ba16-69aaa915816d",
+            "name": "carry_options",
+            "category": "78809370-af0c-4029-8860-43d5b4ee495b"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "4852cbdd-5a02-4fbc-bef0-b481e7edf41a",
+        "fields": {
+            "uuid": "4852cbdd-5a02-4fbc-bef0-b481e7edf41a",
+            "name": "color",
+            "category": "78809370-af0c-4029-8860-43d5b4ee495b"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "01db4288-ba24-4c96-86a1-f9cb2c4fabc8",
+        "fields": {
+            "uuid": "01db4288-ba24-4c96-86a1-f9cb2c4fabc8",
+            "name": "luggage/bag_closure",
+            "category": "78809370-af0c-4029-8860-43d5b4ee495b"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "f4a23078-9f35-4af9-8215-6b514524b97a",
+        "fields": {
+            "uuid": "f4a23078-9f35-4af9-8215-6b514524b97a",
+            "name": "pattern",
+            "category": "78809370-af0c-4029-8860-43d5b4ee495b"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "5a899d57-aaeb-424d-93be-4576be816437",
+        "fields": {
+            "uuid": "5a899d57-aaeb-424d-93be-4576be816437",
+            "name": "bag/case_closure",
+            "category": "abd25fa9-088e-48d1-bad1-9c0e77e91e2f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "c05ba237-6ec8-4384-8435-612553af802e",
+        "fields": {
+            "uuid": "c05ba237-6ec8-4384-8435-612553af802e",
+            "name": "bag/case_features",
+            "category": "abd25fa9-088e-48d1-bad1-9c0e77e91e2f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "cc69522f-f108-4bc5-8ccf-7d56ac1becd4",
+        "fields": {
+            "uuid": "cc69522f-f108-4bc5-8ccf-7d56ac1becd4",
+            "name": "bag/case_material",
+            "category": "abd25fa9-088e-48d1-bad1-9c0e77e91e2f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "78922000-3658-4c03-8ed7-37145166d8af",
+        "fields": {
+            "uuid": "78922000-3658-4c03-8ed7-37145166d8af",
+            "name": "bag/case_storage_features",
+            "category": "abd25fa9-088e-48d1-bad1-9c0e77e91e2f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "26ae84e6-9948-4807-9831-ce5074fe90e9",
+        "fields": {
+            "uuid": "26ae84e6-9948-4807-9831-ce5074fe90e9",
+            "name": "care_instructions",
+            "category": "abd25fa9-088e-48d1-bad1-9c0e77e91e2f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "01d28e70-1a41-49cc-a5c0-6a4b28772453",
+        "fields": {
+            "uuid": "01d28e70-1a41-49cc-a5c0-6a4b28772453",
+            "name": "carry_options",
+            "category": "abd25fa9-088e-48d1-bad1-9c0e77e91e2f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "3ed0ee11-40da-46fe-8737-8e4078187cb0",
+        "fields": {
+            "uuid": "3ed0ee11-40da-46fe-8737-8e4078187cb0",
+            "name": "color",
+            "category": "abd25fa9-088e-48d1-bad1-9c0e77e91e2f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "6b8f67dd-e0cf-4d93-aa64-1dc3058c26cc",
+        "fields": {
+            "uuid": "6b8f67dd-e0cf-4d93-aa64-1dc3058c26cc",
+            "name": "luggage/bag_closure",
+            "category": "abd25fa9-088e-48d1-bad1-9c0e77e91e2f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "005a677b-b308-4fbf-92aa-0b20d5c0fe97",
+        "fields": {
+            "uuid": "005a677b-b308-4fbf-92aa-0b20d5c0fe97",
+            "name": "pattern",
+            "category": "abd25fa9-088e-48d1-bad1-9c0e77e91e2f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "42ea8be2-55bb-40c8-8207-202e58825571",
+        "fields": {
+            "uuid": "42ea8be2-55bb-40c8-8207-202e58825571",
+            "name": "bag/case_closure",
+            "category": "4c69d9f8-3983-4750-8c43-3c5bec71d8ea"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "cf54dbd5-ae8b-4c14-8c6b-078eb3119c08",
+        "fields": {
+            "uuid": "cf54dbd5-ae8b-4c14-8c6b-078eb3119c08",
+            "name": "bag/case_features",
+            "category": "4c69d9f8-3983-4750-8c43-3c5bec71d8ea"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "4639138c-3103-480a-b007-4178625f00b6",
+        "fields": {
+            "uuid": "4639138c-3103-480a-b007-4178625f00b6",
+            "name": "bag/case_material",
+            "category": "4c69d9f8-3983-4750-8c43-3c5bec71d8ea"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "baf64e2a-e5a3-4ed6-a7eb-8b9249383be7",
+        "fields": {
+            "uuid": "baf64e2a-e5a3-4ed6-a7eb-8b9249383be7",
+            "name": "bag/case_storage_features",
+            "category": "4c69d9f8-3983-4750-8c43-3c5bec71d8ea"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "9041b9b3-50d0-4311-9e86-bddb393f908a",
+        "fields": {
+            "uuid": "9041b9b3-50d0-4311-9e86-bddb393f908a",
+            "name": "care_instructions",
+            "category": "4c69d9f8-3983-4750-8c43-3c5bec71d8ea"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "c5a8ffd4-9c8c-46bf-9367-3787d34d9007",
+        "fields": {
+            "uuid": "c5a8ffd4-9c8c-46bf-9367-3787d34d9007",
+            "name": "carry_options",
+            "category": "4c69d9f8-3983-4750-8c43-3c5bec71d8ea"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "e7cc7b6b-5411-4557-8a94-7ce1da69fd18",
+        "fields": {
+            "uuid": "e7cc7b6b-5411-4557-8a94-7ce1da69fd18",
+            "name": "color",
+            "category": "4c69d9f8-3983-4750-8c43-3c5bec71d8ea"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "be5730d8-9d84-40c2-bbe3-dc4dc6a3e2ac",
+        "fields": {
+            "uuid": "be5730d8-9d84-40c2-bbe3-dc4dc6a3e2ac",
+            "name": "luggage/bag_closure",
+            "category": "4c69d9f8-3983-4750-8c43-3c5bec71d8ea"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "67e9c7be-e14b-4d94-ae61-202bf971fd16",
+        "fields": {
+            "uuid": "67e9c7be-e14b-4d94-ae61-202bf971fd16",
+            "name": "pattern",
+            "category": "4c69d9f8-3983-4750-8c43-3c5bec71d8ea"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "52e5cab1-a84d-4099-99fd-432157d04ae6",
+        "fields": {
+            "uuid": "52e5cab1-a84d-4099-99fd-432157d04ae6",
+            "name": "bag/case_closure",
+            "category": "8e5a3e60-00c7-45c9-97dd-bdcd108fee16"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "48a876fe-251c-4543-b932-9c041db1be9c",
+        "fields": {
+            "uuid": "48a876fe-251c-4543-b932-9c041db1be9c",
+            "name": "bag/case_features",
+            "category": "8e5a3e60-00c7-45c9-97dd-bdcd108fee16"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "c04a5d44-8e1c-4433-8d05-ff93c5e7fa71",
+        "fields": {
+            "uuid": "c04a5d44-8e1c-4433-8d05-ff93c5e7fa71",
+            "name": "bag/case_material",
+            "category": "8e5a3e60-00c7-45c9-97dd-bdcd108fee16"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "d5e764fc-f13f-4b57-8d35-ba87dee6fb1c",
+        "fields": {
+            "uuid": "d5e764fc-f13f-4b57-8d35-ba87dee6fb1c",
+            "name": "bag/case_storage_features",
+            "category": "8e5a3e60-00c7-45c9-97dd-bdcd108fee16"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "ad07442f-26f3-446e-95e2-e5b85709f0a0",
+        "fields": {
+            "uuid": "ad07442f-26f3-446e-95e2-e5b85709f0a0",
+            "name": "care_instructions",
+            "category": "8e5a3e60-00c7-45c9-97dd-bdcd108fee16"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "7081283a-4a2b-4990-b3dd-37de2dcdc2a6",
+        "fields": {
+            "uuid": "7081283a-4a2b-4990-b3dd-37de2dcdc2a6",
+            "name": "carry_options",
+            "category": "8e5a3e60-00c7-45c9-97dd-bdcd108fee16"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "75f16963-fd3a-4c18-994a-d60825726bc3",
+        "fields": {
+            "uuid": "75f16963-fd3a-4c18-994a-d60825726bc3",
+            "name": "color",
+            "category": "8e5a3e60-00c7-45c9-97dd-bdcd108fee16"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "dd263309-1295-4f4d-bb3b-4325f20a4710",
+        "fields": {
+            "uuid": "dd263309-1295-4f4d-bb3b-4325f20a4710",
+            "name": "luggage/bag_closure",
+            "category": "8e5a3e60-00c7-45c9-97dd-bdcd108fee16"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "382625f6-5631-49ad-a680-6be876cd8ba9",
+        "fields": {
+            "uuid": "382625f6-5631-49ad-a680-6be876cd8ba9",
+            "name": "pattern",
+            "category": "8e5a3e60-00c7-45c9-97dd-bdcd108fee16"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "e8c9b04f-3976-4c06-b6d0-f4c3b5bb51c7",
+        "fields": {
+            "uuid": "e8c9b04f-3976-4c06-b6d0-f4c3b5bb51c7",
+            "name": "bag/case_closure",
+            "category": "a307d0ba-0185-4d60-8922-6e30387356a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "6879c632-f220-49d4-a60f-47e0c5124ad6",
+        "fields": {
+            "uuid": "6879c632-f220-49d4-a60f-47e0c5124ad6",
+            "name": "bag/case_features",
+            "category": "a307d0ba-0185-4d60-8922-6e30387356a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "cbf1c4ab-301d-4013-a775-a614f6a263e4",
+        "fields": {
+            "uuid": "cbf1c4ab-301d-4013-a775-a614f6a263e4",
+            "name": "bag/case_material",
+            "category": "a307d0ba-0185-4d60-8922-6e30387356a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "654e594c-7903-4d13-b5fb-8ea9b785bbfb",
+        "fields": {
+            "uuid": "654e594c-7903-4d13-b5fb-8ea9b785bbfb",
+            "name": "bag/case_storage_features",
+            "category": "a307d0ba-0185-4d60-8922-6e30387356a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "54620823-b1e2-40d7-a7c4-8dc819be7f8b",
+        "fields": {
+            "uuid": "54620823-b1e2-40d7-a7c4-8dc819be7f8b",
+            "name": "care_instructions",
+            "category": "a307d0ba-0185-4d60-8922-6e30387356a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "0b998aed-33ed-44ea-9cb1-a37cc8b09f8f",
+        "fields": {
+            "uuid": "0b998aed-33ed-44ea-9cb1-a37cc8b09f8f",
+            "name": "carry_options",
+            "category": "a307d0ba-0185-4d60-8922-6e30387356a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "25adf812-3e18-4a26-a2f7-9da476b796f0",
+        "fields": {
+            "uuid": "25adf812-3e18-4a26-a2f7-9da476b796f0",
+            "name": "color",
+            "category": "a307d0ba-0185-4d60-8922-6e30387356a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "b7fb4113-2885-4375-802c-31e3d5bb7864",
+        "fields": {
+            "uuid": "b7fb4113-2885-4375-802c-31e3d5bb7864",
+            "name": "luggage/bag_closure",
+            "category": "a307d0ba-0185-4d60-8922-6e30387356a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "1ba60d13-4109-4158-9925-c8dc0b22b80c",
+        "fields": {
+            "uuid": "1ba60d13-4109-4158-9925-c8dc0b22b80c",
+            "name": "pattern",
+            "category": "a307d0ba-0185-4d60-8922-6e30387356a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "7ebea342-577b-40ef-939a-172f5f2bb1d8",
+        "fields": {
+            "uuid": "7ebea342-577b-40ef-939a-172f5f2bb1d8",
+            "name": "bag/case_closure",
+            "category": "f0243846-850d-4ddd-b2c2-54b90ace814b"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "71534a13-e71d-4d38-acef-ef20f5388033",
+        "fields": {
+            "uuid": "71534a13-e71d-4d38-acef-ef20f5388033",
+            "name": "bag/case_features",
+            "category": "f0243846-850d-4ddd-b2c2-54b90ace814b"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "7ab6d118-7adf-4b33-bdd4-1333995f5f9d",
+        "fields": {
+            "uuid": "7ab6d118-7adf-4b33-bdd4-1333995f5f9d",
+            "name": "bag/case_material",
+            "category": "f0243846-850d-4ddd-b2c2-54b90ace814b"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "174d0c3a-f078-47e9-9b9d-354356aa735e",
+        "fields": {
+            "uuid": "174d0c3a-f078-47e9-9b9d-354356aa735e",
+            "name": "bag/case_storage_features",
+            "category": "f0243846-850d-4ddd-b2c2-54b90ace814b"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "b965d884-83da-4695-9aa6-9e83d1533f0b",
+        "fields": {
+            "uuid": "b965d884-83da-4695-9aa6-9e83d1533f0b",
+            "name": "care_instructions",
+            "category": "f0243846-850d-4ddd-b2c2-54b90ace814b"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "b8889199-c4a6-44af-9602-9c266fd69e0b",
+        "fields": {
+            "uuid": "b8889199-c4a6-44af-9602-9c266fd69e0b",
+            "name": "carry_options",
+            "category": "f0243846-850d-4ddd-b2c2-54b90ace814b"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "12c2564f-d9bb-4214-8618-40f30ae9092f",
+        "fields": {
+            "uuid": "12c2564f-d9bb-4214-8618-40f30ae9092f",
+            "name": "color",
+            "category": "f0243846-850d-4ddd-b2c2-54b90ace814b"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "770e501b-fd62-4a33-9112-1f7dd276370e",
+        "fields": {
+            "uuid": "770e501b-fd62-4a33-9112-1f7dd276370e",
+            "name": "luggage/bag_closure",
+            "category": "f0243846-850d-4ddd-b2c2-54b90ace814b"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "9d1ed58f-c6d1-4a2b-a4bd-5fab46d6d47f",
+        "fields": {
+            "uuid": "9d1ed58f-c6d1-4a2b-a4bd-5fab46d6d47f",
+            "name": "pattern",
+            "category": "f0243846-850d-4ddd-b2c2-54b90ace814b"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "e2814336-ea86-47b5-b3a8-c110796c9805",
+        "fields": {
+            "uuid": "e2814336-ea86-47b5-b3a8-c110796c9805",
+            "name": "bag/case_closure",
+            "category": "ab84bb35-9d85-4f00-9a7f-0310ad7d148e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "5165a133-0c72-43ad-8a6d-296cc324e3ae",
+        "fields": {
+            "uuid": "5165a133-0c72-43ad-8a6d-296cc324e3ae",
+            "name": "bag/case_features",
+            "category": "ab84bb35-9d85-4f00-9a7f-0310ad7d148e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "1611e7a2-182d-4e0c-aebd-0e656f16e7e2",
+        "fields": {
+            "uuid": "1611e7a2-182d-4e0c-aebd-0e656f16e7e2",
+            "name": "bag/case_storage_features",
+            "category": "ab84bb35-9d85-4f00-9a7f-0310ad7d148e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "6708c74f-4676-4876-b2a6-3fba0de49f10",
+        "fields": {
+            "uuid": "6708c74f-4676-4876-b2a6-3fba0de49f10",
+            "name": "care_instructions",
+            "category": "ab84bb35-9d85-4f00-9a7f-0310ad7d148e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "eb8a9612-315e-4327-a12b-4a21b8d29e51",
+        "fields": {
+            "uuid": "eb8a9612-315e-4327-a12b-4a21b8d29e51",
+            "name": "carry_options",
+            "category": "ab84bb35-9d85-4f00-9a7f-0310ad7d148e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "0f86c503-0524-423c-bcc5-6a29577f08e8",
+        "fields": {
+            "uuid": "0f86c503-0524-423c-bcc5-6a29577f08e8",
+            "name": "color",
+            "category": "ab84bb35-9d85-4f00-9a7f-0310ad7d148e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "cf159419-08d9-4513-88fa-286750dbbe58",
+        "fields": {
+            "uuid": "cf159419-08d9-4513-88fa-286750dbbe58",
+            "name": "diaper_bag_additional_features",
+            "category": "ab84bb35-9d85-4f00-9a7f-0310ad7d148e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "d7433f95-cc59-4772-8617-f52667fc5e9f",
+        "fields": {
+            "uuid": "d7433f95-cc59-4772-8617-f52667fc5e9f",
+            "name": "diaper_bag_material",
+            "category": "ab84bb35-9d85-4f00-9a7f-0310ad7d148e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "798a985e-9533-4d3d-9d95-21bcbff6fadd",
+        "fields": {
+            "uuid": "798a985e-9533-4d3d-9d95-21bcbff6fadd",
+            "name": "diaper_bag_style",
+            "category": "ab84bb35-9d85-4f00-9a7f-0310ad7d148e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "8d936c51-9a43-4932-a633-a76c9741e345",
+        "fields": {
+            "uuid": "8d936c51-9a43-4932-a633-a76c9741e345",
+            "name": "pattern",
+            "category": "ab84bb35-9d85-4f00-9a7f-0310ad7d148e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "f56335f5-b23d-4c2c-a1f4-80304d327fa7",
+        "fields": {
+            "uuid": "f56335f5-b23d-4c2c-a1f4-80304d327fa7",
+            "name": "accessory_size",
+            "category": "745b867e-244a-42af-b205-97ff34c5bccf"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "10848705-bff4-4f92-a6e0-f2a0a1c6689e",
+        "fields": {
+            "uuid": "10848705-bff4-4f92-a6e0-f2a0a1c6689e",
+            "name": "bag/case_closure",
+            "category": "745b867e-244a-42af-b205-97ff34c5bccf"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "565d017d-cdd0-4231-98ac-7445b6c513ff",
+        "fields": {
+            "uuid": "565d017d-cdd0-4231-98ac-7445b6c513ff",
+            "name": "bag/case_features",
+            "category": "745b867e-244a-42af-b205-97ff34c5bccf"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "d3ffe987-fa85-4f0b-a293-3343b08fd62a",
+        "fields": {
+            "uuid": "d3ffe987-fa85-4f0b-a293-3343b08fd62a",
+            "name": "bag/case_material",
+            "category": "745b867e-244a-42af-b205-97ff34c5bccf"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "39e34941-37d0-446f-b54e-b00f4c046e05",
+        "fields": {
+            "uuid": "39e34941-37d0-446f-b54e-b00f4c046e05",
+            "name": "bag/case_storage_features",
+            "category": "745b867e-244a-42af-b205-97ff34c5bccf"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "3f1477fb-043b-4a00-865a-570a8af957e7",
+        "fields": {
+            "uuid": "3f1477fb-043b-4a00-865a-570a8af957e7",
+            "name": "care_instructions",
+            "category": "745b867e-244a-42af-b205-97ff34c5bccf"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "015513f1-29d7-4e2b-803e-e1264f0a54c4",
+        "fields": {
+            "uuid": "015513f1-29d7-4e2b-803e-e1264f0a54c4",
+            "name": "carry_options",
+            "category": "745b867e-244a-42af-b205-97ff34c5bccf"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "c8c8e9fb-34a9-4806-b63a-fc93044f9d94",
+        "fields": {
+            "uuid": "c8c8e9fb-34a9-4806-b63a-fc93044f9d94",
+            "name": "color",
+            "category": "745b867e-244a-42af-b205-97ff34c5bccf"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "6ec2fee3-bade-4909-a2f7-fa89bc493ac4",
+        "fields": {
+            "uuid": "6ec2fee3-bade-4909-a2f7-fa89bc493ac4",
+            "name": "pattern",
+            "category": "745b867e-244a-42af-b205-97ff34c5bccf"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "d5eb1680-3ff7-482c-8339-0f2844973d59",
+        "fields": {
+            "uuid": "d5eb1680-3ff7-482c-8339-0f2844973d59",
+            "name": "accessory_size",
+            "category": "0e1b8683-aee0-4818-950c-de5c30ec657f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "70601db3-4480-41ea-b259-d4c1a74123f0",
+        "fields": {
+            "uuid": "70601db3-4480-41ea-b259-d4c1a74123f0",
+            "name": "bag/case_closure",
+            "category": "0e1b8683-aee0-4818-950c-de5c30ec657f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "41e80a6d-9906-48ff-99b8-266d63913f52",
+        "fields": {
+            "uuid": "41e80a6d-9906-48ff-99b8-266d63913f52",
+            "name": "bag/case_features",
+            "category": "0e1b8683-aee0-4818-950c-de5c30ec657f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "980a054e-f7ec-4aab-abb5-a1380a68411d",
+        "fields": {
+            "uuid": "980a054e-f7ec-4aab-abb5-a1380a68411d",
+            "name": "bag/case_material",
+            "category": "0e1b8683-aee0-4818-950c-de5c30ec657f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "43263d89-c758-47fb-b5d9-fb7386060e7c",
+        "fields": {
+            "uuid": "43263d89-c758-47fb-b5d9-fb7386060e7c",
+            "name": "bag/case_storage_features",
+            "category": "0e1b8683-aee0-4818-950c-de5c30ec657f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "b40d6938-3c7f-4b11-a88f-52ced85f4654",
+        "fields": {
+            "uuid": "b40d6938-3c7f-4b11-a88f-52ced85f4654",
+            "name": "care_instructions",
+            "category": "0e1b8683-aee0-4818-950c-de5c30ec657f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "d1280709-b386-4643-8f8e-708b71d0c357",
+        "fields": {
+            "uuid": "d1280709-b386-4643-8f8e-708b71d0c357",
+            "name": "carry_options",
+            "category": "0e1b8683-aee0-4818-950c-de5c30ec657f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "d7e89883-58ab-4c39-865a-fe49c6acd309",
+        "fields": {
+            "uuid": "d7e89883-58ab-4c39-865a-fe49c6acd309",
+            "name": "color",
+            "category": "0e1b8683-aee0-4818-950c-de5c30ec657f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "8cad419c-3f28-4713-a20a-4396ef82ee27",
+        "fields": {
+            "uuid": "8cad419c-3f28-4713-a20a-4396ef82ee27",
+            "name": "pattern",
+            "category": "0e1b8683-aee0-4818-950c-de5c30ec657f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "9e44931a-4dc5-407a-a610-63b6b01b50e1",
+        "fields": {
+            "uuid": "9e44931a-4dc5-407a-a610-63b6b01b50e1",
+            "name": "accessory_size",
+            "category": "9b457e3f-b2e9-45f8-b42b-fe94485b2842"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "3c0c60f8-671e-4c52-b517-20f5745d0f8c",
+        "fields": {
+            "uuid": "3c0c60f8-671e-4c52-b517-20f5745d0f8c",
+            "name": "bag/case_closure",
+            "category": "9b457e3f-b2e9-45f8-b42b-fe94485b2842"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "6dad5435-6df8-4e0d-a3f2-adea8ad9a8b5",
+        "fields": {
+            "uuid": "6dad5435-6df8-4e0d-a3f2-adea8ad9a8b5",
+            "name": "bag/case_features",
+            "category": "9b457e3f-b2e9-45f8-b42b-fe94485b2842"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "aeb734c0-97f0-4e49-a9ee-6a98a39719a7",
+        "fields": {
+            "uuid": "aeb734c0-97f0-4e49-a9ee-6a98a39719a7",
+            "name": "bag/case_material",
+            "category": "9b457e3f-b2e9-45f8-b42b-fe94485b2842"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "e98a0af7-0de1-450f-bd43-10c4a857c4bb",
+        "fields": {
+            "uuid": "e98a0af7-0de1-450f-bd43-10c4a857c4bb",
+            "name": "bag/case_storage_features",
+            "category": "9b457e3f-b2e9-45f8-b42b-fe94485b2842"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "d97d2d45-e29b-467c-af7c-b6624aecadb8",
+        "fields": {
+            "uuid": "d97d2d45-e29b-467c-af7c-b6624aecadb8",
+            "name": "care_instructions",
+            "category": "9b457e3f-b2e9-45f8-b42b-fe94485b2842"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "9367be04-7d15-4f58-ac51-bc71c59b4dce",
+        "fields": {
+            "uuid": "9367be04-7d15-4f58-ac51-bc71c59b4dce",
+            "name": "carry_options",
+            "category": "9b457e3f-b2e9-45f8-b42b-fe94485b2842"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "f404d187-be72-4904-9a3e-4c71010f17dc",
+        "fields": {
+            "uuid": "f404d187-be72-4904-9a3e-4c71010f17dc",
+            "name": "color",
+            "category": "9b457e3f-b2e9-45f8-b42b-fe94485b2842"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "606bd7dc-be9d-4c9c-9852-737a0edb1886",
+        "fields": {
+            "uuid": "606bd7dc-be9d-4c9c-9852-737a0edb1886",
+            "name": "pattern",
+            "category": "9b457e3f-b2e9-45f8-b42b-fe94485b2842"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "bbb9a5b8-b522-493c-b050-0ca2c5fd9351",
+        "fields": {
+            "uuid": "bbb9a5b8-b522-493c-b050-0ca2c5fd9351",
+            "name": "accessory_size",
+            "category": "fd234d2a-f8b7-4885-9ac4-4a16da401b51"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "5a1044db-b149-4d51-837f-fb714197ff81",
+        "fields": {
+            "uuid": "5a1044db-b149-4d51-837f-fb714197ff81",
+            "name": "bag/case_closure",
+            "category": "fd234d2a-f8b7-4885-9ac4-4a16da401b51"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "64ab488d-26fa-4b22-8fa6-cd218122ffb0",
+        "fields": {
+            "uuid": "64ab488d-26fa-4b22-8fa6-cd218122ffb0",
+            "name": "bag/case_features",
+            "category": "fd234d2a-f8b7-4885-9ac4-4a16da401b51"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "212115af-0f0b-4602-a14e-a7a301bf6029",
+        "fields": {
+            "uuid": "212115af-0f0b-4602-a14e-a7a301bf6029",
+            "name": "bag/case_material",
+            "category": "fd234d2a-f8b7-4885-9ac4-4a16da401b51"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "70616a1f-28e7-4221-a3c4-d016598bf6be",
+        "fields": {
+            "uuid": "70616a1f-28e7-4221-a3c4-d016598bf6be",
+            "name": "bag/case_storage_features",
+            "category": "fd234d2a-f8b7-4885-9ac4-4a16da401b51"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "61a5036e-97ae-4e4f-aa95-ce9e2ffad67e",
+        "fields": {
+            "uuid": "61a5036e-97ae-4e4f-aa95-ce9e2ffad67e",
+            "name": "care_instructions",
+            "category": "fd234d2a-f8b7-4885-9ac4-4a16da401b51"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "010bc1ac-14c8-4df6-be69-331052bb1122",
+        "fields": {
+            "uuid": "010bc1ac-14c8-4df6-be69-331052bb1122",
+            "name": "carry_options",
+            "category": "fd234d2a-f8b7-4885-9ac4-4a16da401b51"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "33de7dc0-7ce5-4ec4-9a71-5ab0d09a1ae5",
+        "fields": {
+            "uuid": "33de7dc0-7ce5-4ec4-9a71-5ab0d09a1ae5",
+            "name": "color",
+            "category": "fd234d2a-f8b7-4885-9ac4-4a16da401b51"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "ed37ceed-0328-4337-83bb-bfe8f0991ba5",
+        "fields": {
+            "uuid": "ed37ceed-0328-4337-83bb-bfe8f0991ba5",
+            "name": "pattern",
+            "category": "fd234d2a-f8b7-4885-9ac4-4a16da401b51"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "03b98f12-2a3b-48b3-84de-2503f701f2c7",
+        "fields": {
+            "uuid": "03b98f12-2a3b-48b3-84de-2503f701f2c7",
+            "name": "accessory_size",
+            "category": "daaf6a54-6e64-4854-b06d-990a229ff9a9"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "5aac8031-21f6-4151-aaf9-f7b0eb657bf5",
+        "fields": {
+            "uuid": "5aac8031-21f6-4151-aaf9-f7b0eb657bf5",
+            "name": "bag/case_material",
+            "category": "daaf6a54-6e64-4854-b06d-990a229ff9a9"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "70f50739-7bab-4595-b64d-728f11bdc0ab",
+        "fields": {
+            "uuid": "70f50739-7bab-4595-b64d-728f11bdc0ab",
+            "name": "color",
+            "category": "daaf6a54-6e64-4854-b06d-990a229ff9a9"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "50ec9510-6990-4e4d-8581-11e966fe3e80",
+        "fields": {
+            "uuid": "50ec9510-6990-4e4d-8581-11e966fe3e80",
+            "name": "luggage/bag_closure",
+            "category": "daaf6a54-6e64-4854-b06d-990a229ff9a9"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "3aa86aaa-3ac3-4eea-a35b-10e8f7ef7687",
+        "fields": {
+            "uuid": "3aa86aaa-3ac3-4eea-a35b-10e8f7ef7687",
+            "name": "pattern",
+            "category": "daaf6a54-6e64-4854-b06d-990a229ff9a9"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "1fc3afc8-1283-46f7-8500-02d4a3f32344",
+        "fields": {
+            "uuid": "1fc3afc8-1283-46f7-8500-02d4a3f32344",
+            "name": "color",
+            "category": "6c0e420a-b9a3-479d-a888-827b2d4c658d"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "7f474a3a-ad3a-4db4-afac-a58fc17eee7b",
+        "fields": {
+            "uuid": "7f474a3a-ad3a-4db4-afac-a58fc17eee7b",
+            "name": "pattern",
+            "category": "6c0e420a-b9a3-479d-a888-827b2d4c658d"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "d65fe2f4-7b6c-4e69-bc1e-dafb6e96c50f",
+        "fields": {
+            "uuid": "d65fe2f4-7b6c-4e69-bc1e-dafb6e96c50f",
+            "name": "bag/case_closure",
+            "category": "504ce670-945b-4f91-b449-467e1ef00635"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "0c21bf23-cc8e-4acc-802b-9f2e5748d6b7",
+        "fields": {
+            "uuid": "0c21bf23-cc8e-4acc-802b-9f2e5748d6b7",
+            "name": "bag/case_features",
+            "category": "504ce670-945b-4f91-b449-467e1ef00635"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "847ee3b4-836b-4442-8e5c-8d3370831045",
+        "fields": {
+            "uuid": "847ee3b4-836b-4442-8e5c-8d3370831045",
+            "name": "bag/case_storage_features",
+            "category": "504ce670-945b-4f91-b449-467e1ef00635"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "a6f6ef98-1d32-4640-8271-0b724acc5265",
+        "fields": {
+            "uuid": "a6f6ef98-1d32-4640-8271-0b724acc5265",
+            "name": "care_instructions",
+            "category": "504ce670-945b-4f91-b449-467e1ef00635"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "fba5ff2d-5209-4061-bdc9-45d9b9fae7dd",
+        "fields": {
+            "uuid": "fba5ff2d-5209-4061-bdc9-45d9b9fae7dd",
+            "name": "carry_options",
+            "category": "504ce670-945b-4f91-b449-467e1ef00635"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "11cbd424-639c-46b2-82a8-119d45773568",
+        "fields": {
+            "uuid": "11cbd424-639c-46b2-82a8-119d45773568",
+            "name": "color",
+            "category": "504ce670-945b-4f91-b449-467e1ef00635"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "e2c781b9-b6da-4519-b154-b8e63da43e28",
+        "fields": {
+            "uuid": "e2c781b9-b6da-4519-b154-b8e63da43e28",
+            "name": "fabric",
+            "category": "504ce670-945b-4f91-b449-467e1ef00635"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "9ff2c0c8-c0fa-4240-b9e8-c405165126cc",
+        "fields": {
+            "uuid": "9ff2c0c8-c0fa-4240-b9e8-c405165126cc",
+            "name": "pattern",
+            "category": "504ce670-945b-4f91-b449-467e1ef00635"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "d00e7c53-d79c-4c87-bff7-3ebf7bacf4db",
+        "fields": {
+            "uuid": "d00e7c53-d79c-4c87-bff7-3ebf7bacf4db",
+            "name": "thickness_type",
+            "category": "504ce670-945b-4f91-b449-467e1ef00635"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "5627fa33-f979-430c-a74f-f2652dadc2cc",
+        "fields": {
+            "uuid": "5627fa33-f979-430c-a74f-f2652dadc2cc",
+            "name": "accessory_size",
+            "category": "3f42a791-cd05-4c58-874f-268748675015"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "75cf8ba2-66eb-4abb-bd5a-3a8ca4d669f7",
+        "fields": {
+            "uuid": "75cf8ba2-66eb-4abb-bd5a-3a8ca4d669f7",
+            "name": "color",
+            "category": "3f42a791-cd05-4c58-874f-268748675015"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "afb8daf3-90b8-43c6-9519-297e0b9e388c",
+        "fields": {
+            "uuid": "afb8daf3-90b8-43c6-9519-297e0b9e388c",
+            "name": "cover_features",
+            "category": "3f42a791-cd05-4c58-874f-268748675015"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "d1df84f0-bdeb-44d0-bd44-81dc53eb2433",
+        "fields": {
+            "uuid": "d1df84f0-bdeb-44d0-bd44-81dc53eb2433",
+            "name": "cover_material",
+            "category": "3f42a791-cd05-4c58-874f-268748675015"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "57b0c761-ab30-4f48-ad7c-f16b354c8e5e",
+        "fields": {
+            "uuid": "57b0c761-ab30-4f48-ad7c-f16b354c8e5e",
+            "name": "luggage/bag_closure",
+            "category": "3f42a791-cd05-4c58-874f-268748675015"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "542f1759-9045-4a30-8a61-87a2aed929d7",
+        "fields": {
+            "uuid": "542f1759-9045-4a30-8a61-87a2aed929d7",
+            "name": "pattern",
+            "category": "3f42a791-cd05-4c58-874f-268748675015"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "94549460-d11a-4891-b031-6dfaec3d589d",
+        "fields": {
+            "uuid": "94549460-d11a-4891-b031-6dfaec3d589d",
+            "name": "accessory_size",
+            "category": "4e325919-0a9e-4024-aa2c-f6b55d8ddbe1"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "2e81b873-7f4b-4e8f-8d1d-65d82944d76a",
+        "fields": {
+            "uuid": "2e81b873-7f4b-4e8f-8d1d-65d82944d76a",
+            "name": "color",
+            "category": "4e325919-0a9e-4024-aa2c-f6b55d8ddbe1"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "70218729-abf4-4d4e-b9d0-cb1af47590d5",
+        "fields": {
+            "uuid": "70218729-abf4-4d4e-b9d0-cb1af47590d5",
+            "name": "furniture/fixture_material",
+            "category": "4e325919-0a9e-4024-aa2c-f6b55d8ddbe1"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "56ec27ab-d58b-46ff-a566-b629d2bdb03f",
+        "fields": {
+            "uuid": "56ec27ab-d58b-46ff-a566-b629d2bdb03f",
+            "name": "pattern",
+            "category": "4e325919-0a9e-4024-aa2c-f6b55d8ddbe1"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "e439a95e-d7db-485c-912c-1423679b1c87",
+        "fields": {
+            "uuid": "e439a95e-d7db-485c-912c-1423679b1c87",
+            "name": "color",
+            "category": "7fe3991a-b2d5-4640-9a12-f8882512e40a"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "068abd0a-0049-41f7-882a-2d3b03c582ac",
+        "fields": {
+            "uuid": "068abd0a-0049-41f7-882a-2d3b03c582ac",
+            "name": "fabric",
+            "category": "7fe3991a-b2d5-4640-9a12-f8882512e40a"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "6d954905-84c7-4547-82e6-42b7cbd9abe2",
+        "fields": {
+            "uuid": "6d954905-84c7-4547-82e6-42b7cbd9abe2",
+            "name": "luggage/bag_closure",
+            "category": "7fe3991a-b2d5-4640-9a12-f8882512e40a"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "2eb00398-1cad-4630-91f8-5e8538104301",
+        "fields": {
+            "uuid": "2eb00398-1cad-4630-91f8-5e8538104301",
+            "name": "pattern",
+            "category": "7fe3991a-b2d5-4640-9a12-f8882512e40a"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "6d812a0d-4470-46d8-a943-123cad1f1dac",
+        "fields": {
+            "uuid": "6d812a0d-4470-46d8-a943-123cad1f1dac",
+            "name": "color",
+            "category": "c1b0ef09-b48d-4fc0-b83c-51ec4d219314"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "650d43c4-77a0-4033-90fc-edd8a91445b9",
+        "fields": {
+            "uuid": "650d43c4-77a0-4033-90fc-edd8a91445b9",
+            "name": "material",
+            "category": "c1b0ef09-b48d-4fc0-b83c-51ec4d219314"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "b0c029eb-57e1-4766-b0fc-8f6b34110f1a",
+        "fields": {
+            "uuid": "b0c029eb-57e1-4766-b0fc-8f6b34110f1a",
+            "name": "pattern",
+            "category": "c1b0ef09-b48d-4fc0-b83c-51ec4d219314"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "c53e4d2d-f565-40e5-8530-a8bddc95c358",
+        "fields": {
+            "uuid": "c53e4d2d-f565-40e5-8530-a8bddc95c358",
+            "name": "shape",
+            "category": "c1b0ef09-b48d-4fc0-b83c-51ec4d219314"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "c3185b62-65a4-4517-9b49-781b44aad090",
+        "fields": {
+            "uuid": "c3185b62-65a4-4517-9b49-781b44aad090",
+            "name": "tag_fastening",
+            "category": "c1b0ef09-b48d-4fc0-b83c-51ec4d219314"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "636c442f-1188-493e-9e9f-363229ffa08d",
+        "fields": {
+            "uuid": "636c442f-1188-493e-9e9f-363229ffa08d",
+            "name": "color",
+            "category": "ada02c44-9a2a-4e67-83d1-8c352ab1d182"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "b2849554-eccb-4625-bb91-43d81dccc431",
+        "fields": {
+            "uuid": "b2849554-eccb-4625-bb91-43d81dccc431",
+            "name": "fabric",
+            "category": "ada02c44-9a2a-4e67-83d1-8c352ab1d182"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "43151d2f-d469-4ac3-b6ad-3814ed7b8b46",
+        "fields": {
+            "uuid": "43151d2f-d469-4ac3-b6ad-3814ed7b8b46",
+            "name": "luggage/bag_closure",
+            "category": "ada02c44-9a2a-4e67-83d1-8c352ab1d182"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "8c5f841f-64be-416a-aff4-340c2d9f8f88",
+        "fields": {
+            "uuid": "8c5f841f-64be-416a-aff4-340c2d9f8f88",
+            "name": "pattern",
+            "category": "ada02c44-9a2a-4e67-83d1-8c352ab1d182"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "3bdee0f9-bed9-4087-85e8-0146bbdbebb9",
+        "fields": {
+            "uuid": "3bdee0f9-bed9-4087-85e8-0146bbdbebb9",
+            "name": "bottle/container_closure",
+            "category": "2252d226-d623-4529-b3cf-49609f715950"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "0c8db006-3ba8-45ea-ad2c-1c1e20aa1ae3",
+        "fields": {
+            "uuid": "0c8db006-3ba8-45ea-ad2c-1c1e20aa1ae3",
+            "name": "color",
+            "category": "2252d226-d623-4529-b3cf-49609f715950"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "4e125d8d-acfa-4c6d-bc35-5e85d64bd1c9",
+        "fields": {
+            "uuid": "4e125d8d-acfa-4c6d-bc35-5e85d64bd1c9",
+            "name": "material",
+            "category": "2252d226-d623-4529-b3cf-49609f715950"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "e914b564-59f9-42b9-accd-fccfd68aed91",
+        "fields": {
+            "uuid": "e914b564-59f9-42b9-accd-fccfd68aed91",
+            "name": "pattern",
+            "category": "2252d226-d623-4529-b3cf-49609f715950"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "5fd164c5-011b-4dd5-be61-891bd1f4747a",
+        "fields": {
+            "uuid": "5fd164c5-011b-4dd5-be61-891bd1f4747a",
+            "name": "accessory_size",
+            "category": "a895d112-9616-4e19-b4b4-512462744616"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "5677ab3b-2109-41a1-9c31-9856d5c2dd5c",
+        "fields": {
+            "uuid": "5677ab3b-2109-41a1-9c31-9856d5c2dd5c",
+            "name": "bag/case_closure",
+            "category": "a895d112-9616-4e19-b4b4-512462744616"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "61166d48-9a07-4a5d-aaae-485e81c928d7",
+        "fields": {
+            "uuid": "61166d48-9a07-4a5d-aaae-485e81c928d7",
+            "name": "bag/case_features",
+            "category": "a895d112-9616-4e19-b4b4-512462744616"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "b760f059-4d0f-4d60-9519-ed4a0870698a",
+        "fields": {
+            "uuid": "b760f059-4d0f-4d60-9519-ed4a0870698a",
+            "name": "bag/case_material",
+            "category": "a895d112-9616-4e19-b4b4-512462744616"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "e7d6a8a6-1ef7-4866-b6ff-60f149083cc9",
+        "fields": {
+            "uuid": "e7d6a8a6-1ef7-4866-b6ff-60f149083cc9",
+            "name": "bag/case_storage_features",
+            "category": "a895d112-9616-4e19-b4b4-512462744616"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "330e3135-2037-439d-a396-4f10d7eaca8c",
+        "fields": {
+            "uuid": "330e3135-2037-439d-a396-4f10d7eaca8c",
+            "name": "care_instructions",
+            "category": "a895d112-9616-4e19-b4b4-512462744616"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "1d393d96-e772-410e-8d2e-e5230863216d",
+        "fields": {
+            "uuid": "1d393d96-e772-410e-8d2e-e5230863216d",
+            "name": "carry_options",
+            "category": "a895d112-9616-4e19-b4b4-512462744616"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "92f6141c-8be5-4b4e-bcf1-f459f5655e27",
+        "fields": {
+            "uuid": "92f6141c-8be5-4b4e-bcf1-f459f5655e27",
+            "name": "color",
+            "category": "a895d112-9616-4e19-b4b4-512462744616"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "333faf7c-a80d-4958-8890-a51a7611407f",
+        "fields": {
+            "uuid": "333faf7c-a80d-4958-8890-a51a7611407f",
+            "name": "luggage/bag_closure",
+            "category": "a895d112-9616-4e19-b4b4-512462744616"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "a4cd7e44-193a-4375-be7c-e507b4a60566",
+        "fields": {
+            "uuid": "a4cd7e44-193a-4375-be7c-e507b4a60566",
+            "name": "pattern",
+            "category": "a895d112-9616-4e19-b4b4-512462744616"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "30df95c5-4504-4318-8543-661e29c8d04f",
+        "fields": {
+            "uuid": "30df95c5-4504-4318-8543-661e29c8d04f",
+            "name": "accessory_size",
+            "category": "e02c4b6c-9002-431a-bfd1-81320ee79f8e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "3aeb0d19-4741-409b-91c4-d7f5ea7eca48",
+        "fields": {
+            "uuid": "3aeb0d19-4741-409b-91c4-d7f5ea7eca48",
+            "name": "bag/case_closure",
+            "category": "e02c4b6c-9002-431a-bfd1-81320ee79f8e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "5b48c385-8d70-476b-b305-b41dd7b3b0d5",
+        "fields": {
+            "uuid": "5b48c385-8d70-476b-b305-b41dd7b3b0d5",
+            "name": "bag/case_features",
+            "category": "e02c4b6c-9002-431a-bfd1-81320ee79f8e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "56f6add0-0b83-4af4-b454-39c5ba3fe7f8",
+        "fields": {
+            "uuid": "56f6add0-0b83-4af4-b454-39c5ba3fe7f8",
+            "name": "bag/case_material",
+            "category": "e02c4b6c-9002-431a-bfd1-81320ee79f8e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "8913a327-1128-4d7f-87bd-687742753c26",
+        "fields": {
+            "uuid": "8913a327-1128-4d7f-87bd-687742753c26",
+            "name": "bag/case_storage_features",
+            "category": "e02c4b6c-9002-431a-bfd1-81320ee79f8e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "e140c6c9-34ba-4d11-a1e7-67a72fbc0eb3",
+        "fields": {
+            "uuid": "e140c6c9-34ba-4d11-a1e7-67a72fbc0eb3",
+            "name": "bag_strap_type",
+            "category": "e02c4b6c-9002-431a-bfd1-81320ee79f8e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "447cf70e-6e21-4321-8064-817fa0fed381",
+        "fields": {
+            "uuid": "447cf70e-6e21-4321-8064-817fa0fed381",
+            "name": "care_instructions",
+            "category": "e02c4b6c-9002-431a-bfd1-81320ee79f8e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "23b79297-f542-4412-aa11-496238837979",
+        "fields": {
+            "uuid": "23b79297-f542-4412-aa11-496238837979",
+            "name": "carry_options",
+            "category": "e02c4b6c-9002-431a-bfd1-81320ee79f8e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "40eabdd4-1f0d-4b81-8c03-8a4c14c386dc",
+        "fields": {
+            "uuid": "40eabdd4-1f0d-4b81-8c03-8a4c14c386dc",
+            "name": "color",
+            "category": "e02c4b6c-9002-431a-bfd1-81320ee79f8e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "3b59c114-24b9-45e0-84c7-bccc36b4deeb",
+        "fields": {
+            "uuid": "3b59c114-24b9-45e0-84c7-bccc36b4deeb",
+            "name": "luggage/bag_closure",
+            "category": "e02c4b6c-9002-431a-bfd1-81320ee79f8e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "79e6f2c7-beca-4ea2-a3e9-d2cf3dd0abde",
+        "fields": {
+            "uuid": "79e6f2c7-beca-4ea2-a3e9-d2cf3dd0abde",
+            "name": "pattern",
+            "category": "e02c4b6c-9002-431a-bfd1-81320ee79f8e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "4ea8040a-beae-4193-bd67-c7147bab2714",
+        "fields": {
+            "uuid": "4ea8040a-beae-4193-bd67-c7147bab2714",
+            "name": "accessory_size",
+            "category": "2ccf0c81-5cfe-461a-8e16-f15a14f0d38a"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "52303679-f760-49ac-ae2a-7f6b33e0fe7e",
+        "fields": {
+            "uuid": "52303679-f760-49ac-ae2a-7f6b33e0fe7e",
+            "name": "bag/case_material",
+            "category": "2ccf0c81-5cfe-461a-8e16-f15a14f0d38a"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "6e7aa39a-5d64-4a9b-ab08-695383a89b70",
+        "fields": {
+            "uuid": "6e7aa39a-5d64-4a9b-ab08-695383a89b70",
+            "name": "color",
+            "category": "2ccf0c81-5cfe-461a-8e16-f15a14f0d38a"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "b7a588ad-59e5-4657-8aeb-5c25c97a9578",
+        "fields": {
+            "uuid": "b7a588ad-59e5-4657-8aeb-5c25c97a9578",
+            "name": "luggage/bag_closure",
+            "category": "2ccf0c81-5cfe-461a-8e16-f15a14f0d38a"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "60b824aa-de86-4022-a0c5-716325d859bd",
+        "fields": {
+            "uuid": "60b824aa-de86-4022-a0c5-716325d859bd",
+            "name": "pattern",
+            "category": "2ccf0c81-5cfe-461a-8e16-f15a14f0d38a"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "8709a996-6f07-44f4-8160-be9088aa5b90",
+        "fields": {
+            "uuid": "8709a996-6f07-44f4-8160-be9088aa5b90",
+            "name": "tote_handle_type",
+            "category": "2ccf0c81-5cfe-461a-8e16-f15a14f0d38a"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "80882bb6-8306-4c99-b950-07c583fd5caa",
+        "fields": {
+            "uuid": "80882bb6-8306-4c99-b950-07c583fd5caa",
+            "name": "bag/case_closure",
+            "category": "990145ca-044a-4269-bbe5-7b5d6d114bdd"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "6a05772d-a10f-4ec3-8c25-724cba409028",
+        "fields": {
+            "uuid": "6a05772d-a10f-4ec3-8c25-724cba409028",
+            "name": "bag/case_features",
+            "category": "990145ca-044a-4269-bbe5-7b5d6d114bdd"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "d6ec7da9-e7ea-40b4-b8e3-ebfad08aad94",
+        "fields": {
+            "uuid": "d6ec7da9-e7ea-40b4-b8e3-ebfad08aad94",
+            "name": "bag/case_material",
+            "category": "990145ca-044a-4269-bbe5-7b5d6d114bdd"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "6a3b1954-ac74-4ff7-90a0-c51a0d8a9d75",
+        "fields": {
+            "uuid": "6a3b1954-ac74-4ff7-90a0-c51a0d8a9d75",
+            "name": "bag/case_storage_features",
+            "category": "990145ca-044a-4269-bbe5-7b5d6d114bdd"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "ccb2ea00-8b09-4c9b-8dd3-89155cf897d5",
+        "fields": {
+            "uuid": "ccb2ea00-8b09-4c9b-8dd3-89155cf897d5",
+            "name": "care_instructions",
+            "category": "990145ca-044a-4269-bbe5-7b5d6d114bdd"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "04742d0b-184a-43f1-a755-d96ce5997850",
+        "fields": {
+            "uuid": "04742d0b-184a-43f1-a755-d96ce5997850",
+            "name": "carry_options",
+            "category": "990145ca-044a-4269-bbe5-7b5d6d114bdd"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "d558ba42-7443-4413-bb0d-7b02bc687c6e",
+        "fields": {
+            "uuid": "d558ba42-7443-4413-bb0d-7b02bc687c6e",
+            "name": "color",
+            "category": "990145ca-044a-4269-bbe5-7b5d6d114bdd"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "53bb251d-fcd1-44e4-b981-0f69680c110c",
+        "fields": {
+            "uuid": "53bb251d-fcd1-44e4-b981-0f69680c110c",
+            "name": "pattern",
+            "category": "990145ca-044a-4269-bbe5-7b5d6d114bdd"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "0d36f4b8-872e-4641-a6a3-ddab16cc13d8",
+        "fields": {
+            "uuid": "0d36f4b8-872e-4641-a6a3-ddab16cc13d8",
+            "name": "spinner_type",
+            "category": "990145ca-044a-4269-bbe5-7b5d6d114bdd"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "460b73b4-ff67-4e69-9377-cd82f1a7d790",
+        "fields": {
+            "uuid": "460b73b4-ff67-4e69-9377-cd82f1a7d790",
+            "name": "suitcase_handle_type",
+            "category": "990145ca-044a-4269-bbe5-7b5d6d114bdd"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "cbecd9fd-d9f4-4277-91a2-7facb7e8bc0d",
+        "fields": {
+            "uuid": "cbecd9fd-d9f4-4277-91a2-7facb7e8bc0d",
+            "name": "bag/case_closure",
+            "category": "485ca703-6d3b-4496-9009-bed411aefaf2"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "929e7d89-29ec-4ff1-a56d-ce572166ab73",
+        "fields": {
+            "uuid": "929e7d89-29ec-4ff1-a56d-ce572166ab73",
+            "name": "bag/case_features",
+            "category": "485ca703-6d3b-4496-9009-bed411aefaf2"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "c68aae7d-c238-402c-8f28-f9ec27914cd4",
+        "fields": {
+            "uuid": "c68aae7d-c238-402c-8f28-f9ec27914cd4",
+            "name": "bag/case_material",
+            "category": "485ca703-6d3b-4496-9009-bed411aefaf2"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "86a7a7e2-6a07-4495-9938-cd0895416a6e",
+        "fields": {
+            "uuid": "86a7a7e2-6a07-4495-9938-cd0895416a6e",
+            "name": "bag/case_storage_features",
+            "category": "485ca703-6d3b-4496-9009-bed411aefaf2"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "760a5245-50e9-4b35-8de7-8f7d163adea8",
+        "fields": {
+            "uuid": "760a5245-50e9-4b35-8de7-8f7d163adea8",
+            "name": "care_instructions",
+            "category": "485ca703-6d3b-4496-9009-bed411aefaf2"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "10f8ec68-de1a-4a00-a8c3-f4cda338af40",
+        "fields": {
+            "uuid": "10f8ec68-de1a-4a00-a8c3-f4cda338af40",
+            "name": "carry_options",
+            "category": "485ca703-6d3b-4496-9009-bed411aefaf2"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "b7b61e1d-a452-45bb-aca4-c1642806110e",
+        "fields": {
+            "uuid": "b7b61e1d-a452-45bb-aca4-c1642806110e",
+            "name": "color",
+            "category": "485ca703-6d3b-4496-9009-bed411aefaf2"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "a3591a96-cb4c-471d-9867-9fdff9051be8",
+        "fields": {
+            "uuid": "a3591a96-cb4c-471d-9867-9fdff9051be8",
+            "name": "pattern",
+            "category": "485ca703-6d3b-4496-9009-bed411aefaf2"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "d7eb3817-e00e-46ae-bf6d-4ae4ce7a942a",
+        "fields": {
+            "uuid": "d7eb3817-e00e-46ae-bf6d-4ae4ce7a942a",
+            "name": "spinner_type",
+            "category": "485ca703-6d3b-4496-9009-bed411aefaf2"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "783ff90e-c2e9-4688-b5dd-099d7e7cba9d",
+        "fields": {
+            "uuid": "783ff90e-c2e9-4688-b5dd-099d7e7cba9d",
+            "name": "suitcase_handle_type",
+            "category": "485ca703-6d3b-4496-9009-bed411aefaf2"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "7764ab9d-7b3a-4493-99f5-33a6030f31a5",
+        "fields": {
+            "uuid": "7764ab9d-7b3a-4493-99f5-33a6030f31a5",
+            "name": "bag/case_closure",
+            "category": "00670574-5a1e-4dd9-a6df-79c745830e78"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "cf0e0a8b-10b8-4064-bd34-b5bbf81084f1",
+        "fields": {
+            "uuid": "cf0e0a8b-10b8-4064-bd34-b5bbf81084f1",
+            "name": "bag/case_features",
+            "category": "00670574-5a1e-4dd9-a6df-79c745830e78"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "88ea3b4d-cfa0-4d21-8ae9-32865bd440b3",
+        "fields": {
+            "uuid": "88ea3b4d-cfa0-4d21-8ae9-32865bd440b3",
+            "name": "bag/case_material",
+            "category": "00670574-5a1e-4dd9-a6df-79c745830e78"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "bd4f920f-2646-4a9c-b3f4-61ec7dc903ac",
+        "fields": {
+            "uuid": "bd4f920f-2646-4a9c-b3f4-61ec7dc903ac",
+            "name": "bag/case_storage_features",
+            "category": "00670574-5a1e-4dd9-a6df-79c745830e78"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "2e92610d-0315-4b84-a436-8c1f7ac78c96",
+        "fields": {
+            "uuid": "2e92610d-0315-4b84-a436-8c1f7ac78c96",
+            "name": "care_instructions",
+            "category": "00670574-5a1e-4dd9-a6df-79c745830e78"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "9bbf2378-dad9-4b78-8ee0-a764ad61856b",
+        "fields": {
+            "uuid": "9bbf2378-dad9-4b78-8ee0-a764ad61856b",
+            "name": "carry_options",
+            "category": "00670574-5a1e-4dd9-a6df-79c745830e78"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "fa6be305-2f0c-40db-93a6-c4a8d61d6fbc",
+        "fields": {
+            "uuid": "fa6be305-2f0c-40db-93a6-c4a8d61d6fbc",
+            "name": "color",
+            "category": "00670574-5a1e-4dd9-a6df-79c745830e78"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "33b9d28e-068a-4a14-aa89-969590e84dbf",
+        "fields": {
+            "uuid": "33b9d28e-068a-4a14-aa89-969590e84dbf",
+            "name": "pattern",
+            "category": "00670574-5a1e-4dd9-a6df-79c745830e78"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "651934cc-14e6-4f7a-87b8-9b2e51e2fc6d",
+        "fields": {
+            "uuid": "651934cc-14e6-4f7a-87b8-9b2e51e2fc6d",
+            "name": "spinner_type",
+            "category": "00670574-5a1e-4dd9-a6df-79c745830e78"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "4363a009-3e36-4b1c-8d1d-524f430d8e38",
+        "fields": {
+            "uuid": "4363a009-3e36-4b1c-8d1d-524f430d8e38",
+            "name": "suitcase_handle_type",
+            "category": "00670574-5a1e-4dd9-a6df-79c745830e78"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "31fe54a3-2b66-44d0-941a-c948c84ed164",
+        "fields": {
+            "uuid": "31fe54a3-2b66-44d0-941a-c948c84ed164",
+            "name": "bag/case_closure",
+            "category": "9e503eda-987c-463e-8e77-f1cb5cb6b4a1"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "26515af3-d89a-44d0-bef8-6cc341661b45",
+        "fields": {
+            "uuid": "26515af3-d89a-44d0-bef8-6cc341661b45",
+            "name": "bag/case_features",
+            "category": "9e503eda-987c-463e-8e77-f1cb5cb6b4a1"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "1cbaf592-eac9-4afe-b97a-161f3712e74f",
+        "fields": {
+            "uuid": "1cbaf592-eac9-4afe-b97a-161f3712e74f",
+            "name": "bag/case_material",
+            "category": "9e503eda-987c-463e-8e77-f1cb5cb6b4a1"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "03ece081-dc5c-46bf-b710-235572163c5d",
+        "fields": {
+            "uuid": "03ece081-dc5c-46bf-b710-235572163c5d",
+            "name": "bag/case_storage_features",
+            "category": "9e503eda-987c-463e-8e77-f1cb5cb6b4a1"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "f2445d8f-250c-4a01-bb01-038ba63d2dd5",
+        "fields": {
+            "uuid": "f2445d8f-250c-4a01-bb01-038ba63d2dd5",
+            "name": "care_instructions",
+            "category": "9e503eda-987c-463e-8e77-f1cb5cb6b4a1"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "200b8df8-e3e5-4f87-900d-ae534e0b875c",
+        "fields": {
+            "uuid": "200b8df8-e3e5-4f87-900d-ae534e0b875c",
+            "name": "carry_options",
+            "category": "9e503eda-987c-463e-8e77-f1cb5cb6b4a1"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "0352b42b-330c-4a79-a501-89f34771cd25",
+        "fields": {
+            "uuid": "0352b42b-330c-4a79-a501-89f34771cd25",
+            "name": "color",
+            "category": "9e503eda-987c-463e-8e77-f1cb5cb6b4a1"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "85efcfcb-2357-4dea-96c6-2e6b35bebea4",
+        "fields": {
+            "uuid": "85efcfcb-2357-4dea-96c6-2e6b35bebea4",
+            "name": "pattern",
+            "category": "9e503eda-987c-463e-8e77-f1cb5cb6b4a1"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "2ac0e89f-81f0-4f4f-ba13-c2553de4c20c",
+        "fields": {
+            "uuid": "2ac0e89f-81f0-4f4f-ba13-c2553de4c20c",
+            "name": "spinner_type",
+            "category": "9e503eda-987c-463e-8e77-f1cb5cb6b4a1"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "2cb7bbcd-1940-4158-9077-28a0cb92f7a4",
+        "fields": {
+            "uuid": "2cb7bbcd-1940-4158-9077-28a0cb92f7a4",
+            "name": "suitcase_handle_type",
+            "category": "9e503eda-987c-463e-8e77-f1cb5cb6b4a1"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "58222ca5-d121-4176-9085-fc849f675f9e",
+        "fields": {
+            "uuid": "58222ca5-d121-4176-9085-fc849f675f9e",
+            "name": "bag/case_closure",
+            "category": "315208a3-1ff7-4313-9185-6f463b0e099e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "716734fa-ade0-435c-b97a-357e60fb1db8",
+        "fields": {
+            "uuid": "716734fa-ade0-435c-b97a-357e60fb1db8",
+            "name": "bag/case_features",
+            "category": "315208a3-1ff7-4313-9185-6f463b0e099e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "590fdb2a-2997-4b52-a87f-d901568db4a9",
+        "fields": {
+            "uuid": "590fdb2a-2997-4b52-a87f-d901568db4a9",
+            "name": "bag/case_material",
+            "category": "315208a3-1ff7-4313-9185-6f463b0e099e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "124e4854-14c2-465b-a0aa-aae12ecb3489",
+        "fields": {
+            "uuid": "124e4854-14c2-465b-a0aa-aae12ecb3489",
+            "name": "bag/case_storage_features",
+            "category": "315208a3-1ff7-4313-9185-6f463b0e099e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "b9fd79a8-5aa4-4321-9d57-48ba8ecd9785",
+        "fields": {
+            "uuid": "b9fd79a8-5aa4-4321-9d57-48ba8ecd9785",
+            "name": "care_instructions",
+            "category": "315208a3-1ff7-4313-9185-6f463b0e099e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "0ad22071-1169-4380-a2dc-f1b3f80b8d0f",
+        "fields": {
+            "uuid": "0ad22071-1169-4380-a2dc-f1b3f80b8d0f",
+            "name": "carry_options",
+            "category": "315208a3-1ff7-4313-9185-6f463b0e099e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "baaa1c18-8441-4d87-bf58-9d086aaacd29",
+        "fields": {
+            "uuid": "baaa1c18-8441-4d87-bf58-9d086aaacd29",
+            "name": "color",
+            "category": "315208a3-1ff7-4313-9185-6f463b0e099e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "51a94a4e-b191-4ced-a120-a8091fe6dc2e",
+        "fields": {
+            "uuid": "51a94a4e-b191-4ced-a120-a8091fe6dc2e",
+            "name": "pattern",
+            "category": "315208a3-1ff7-4313-9185-6f463b0e099e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "d026d67d-168f-440a-84c3-6fa3989b4e39",
+        "fields": {
+            "uuid": "d026d67d-168f-440a-84c3-6fa3989b4e39",
+            "name": "spinner_type",
+            "category": "315208a3-1ff7-4313-9185-6f463b0e099e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "02ab8526-e2f5-4f87-bb98-3f1a06fae833",
+        "fields": {
+            "uuid": "02ab8526-e2f5-4f87-bb98-3f1a06fae833",
+            "name": "suitcase_handle_type",
+            "category": "315208a3-1ff7-4313-9185-6f463b0e099e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "906b699c-7652-4319-b4ae-77b9735a03a4",
+        "fields": {
+            "uuid": "906b699c-7652-4319-b4ae-77b9735a03a4",
+            "name": "accessory_size",
+            "category": "36a04d47-4c68-4964-b559-1a997b80fa8c"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "d1e7782a-7519-449c-b04e-491288c6b4ee",
+        "fields": {
+            "uuid": "d1e7782a-7519-449c-b04e-491288c6b4ee",
+            "name": "bag/case_closure",
+            "category": "36a04d47-4c68-4964-b559-1a997b80fa8c"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "02e4ebbb-46f8-48e1-be27-486f394d7060",
+        "fields": {
+            "uuid": "02e4ebbb-46f8-48e1-be27-486f394d7060",
+            "name": "bag/case_features",
+            "category": "36a04d47-4c68-4964-b559-1a997b80fa8c"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "6aae51db-595e-47da-bd3f-b1ce5c50158c",
+        "fields": {
+            "uuid": "6aae51db-595e-47da-bd3f-b1ce5c50158c",
+            "name": "bag/case_material",
+            "category": "36a04d47-4c68-4964-b559-1a997b80fa8c"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "e0c843d5-9e50-43cb-9282-62bc566becb5",
+        "fields": {
+            "uuid": "e0c843d5-9e50-43cb-9282-62bc566becb5",
+            "name": "bag/case_storage_features",
+            "category": "36a04d47-4c68-4964-b559-1a997b80fa8c"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "70103b8d-a1ed-407a-bfe1-5b3711949ee1",
+        "fields": {
+            "uuid": "70103b8d-a1ed-407a-bfe1-5b3711949ee1",
+            "name": "care_instructions",
+            "category": "36a04d47-4c68-4964-b559-1a997b80fa8c"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "ed1d4966-a689-445f-b341-3fc97956db20",
+        "fields": {
+            "uuid": "ed1d4966-a689-445f-b341-3fc97956db20",
+            "name": "carry_options",
+            "category": "36a04d47-4c68-4964-b559-1a997b80fa8c"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "2f7f4d27-1b90-475e-8e93-39c805521016",
+        "fields": {
+            "uuid": "2f7f4d27-1b90-475e-8e93-39c805521016",
+            "name": "color",
+            "category": "36a04d47-4c68-4964-b559-1a997b80fa8c"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "08b08415-9516-4a63-80b9-eb677a0163ed",
+        "fields": {
+            "uuid": "08b08415-9516-4a63-80b9-eb677a0163ed",
+            "name": "pattern",
+            "category": "36a04d47-4c68-4964-b559-1a997b80fa8c"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "e7ccbb38-a636-4798-b122-0352aa85f933",
+        "fields": {
+            "uuid": "e7ccbb38-a636-4798-b122-0352aa85f933",
+            "name": "accessory_size",
+            "category": "84632e0c-f310-4bdb-9474-27ebf3646dc0"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "7eb34053-2fb5-4ec0-ad05-c53e3f35fa75",
+        "fields": {
+            "uuid": "7eb34053-2fb5-4ec0-ad05-c53e3f35fa75",
+            "name": "bag/case_closure",
+            "category": "84632e0c-f310-4bdb-9474-27ebf3646dc0"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "761be9d9-dd92-40a9-8520-29de634d72f1",
+        "fields": {
+            "uuid": "761be9d9-dd92-40a9-8520-29de634d72f1",
+            "name": "bag/case_features",
+            "category": "84632e0c-f310-4bdb-9474-27ebf3646dc0"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "92a7b137-0e7d-4c8d-8b9a-45caca626c9b",
+        "fields": {
+            "uuid": "92a7b137-0e7d-4c8d-8b9a-45caca626c9b",
+            "name": "bag/case_material",
+            "category": "84632e0c-f310-4bdb-9474-27ebf3646dc0"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "97bb7919-6bae-446e-a9e3-e3e489aee0b9",
+        "fields": {
+            "uuid": "97bb7919-6bae-446e-a9e3-e3e489aee0b9",
+            "name": "bag/case_storage_features",
+            "category": "84632e0c-f310-4bdb-9474-27ebf3646dc0"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "1cd1cb13-c9c0-4aca-954a-5437f2977c22",
+        "fields": {
+            "uuid": "1cd1cb13-c9c0-4aca-954a-5437f2977c22",
+            "name": "care_instructions",
+            "category": "84632e0c-f310-4bdb-9474-27ebf3646dc0"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "467b61fa-7dd8-462e-bd7b-d6b45d5c1df9",
+        "fields": {
+            "uuid": "467b61fa-7dd8-462e-bd7b-d6b45d5c1df9",
+            "name": "carry_options",
+            "category": "84632e0c-f310-4bdb-9474-27ebf3646dc0"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "280cff24-ec33-4ff4-bc5a-c86c7348a3e9",
+        "fields": {
+            "uuid": "280cff24-ec33-4ff4-bc5a-c86c7348a3e9",
+            "name": "color",
+            "category": "84632e0c-f310-4bdb-9474-27ebf3646dc0"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "1894d026-839e-4270-930a-d4f9b77a7fe5",
+        "fields": {
+            "uuid": "1894d026-839e-4270-930a-d4f9b77a7fe5",
+            "name": "luggage/bag_closure",
+            "category": "84632e0c-f310-4bdb-9474-27ebf3646dc0"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "b87ae003-1e8b-4c40-8bce-7c3e01b1a64c",
+        "fields": {
+            "uuid": "b87ae003-1e8b-4c40-8bce-7c3e01b1a64c",
+            "name": "pattern",
+            "category": "84632e0c-f310-4bdb-9474-27ebf3646dc0"
+        }
+    }
+]

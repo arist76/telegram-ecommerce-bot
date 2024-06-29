@@ -1,7 +1,17 @@
 from django.contrib import admin
 from ecommerce_client.models import Product, Click, Saved, Notification, User, Category
 from django.contrib import admin
-from .models import Category, Product, User, Notification, Saved, Click, ProductImage
+from .models import (
+    Category,
+    Product,
+    User,
+    Notification,
+    Saved,
+    Click,
+    ProductImage,
+    Attribute,
+    ProductAttribute,
+)
 
 
 # Register your models here.
@@ -13,14 +23,15 @@ admin.site.register(Notification)
 admin.site.register(User)
 admin.site.register(Category)
 admin.site.register(ProductImage)
-
+admin.site.register(Attribute)
+admin.site.register(ProductAttribute)
 # yourapp/resources.py
 
 
 # class CategoryResource(resources.ModelResource):
 #     class Meta:
 #         model = Category
-#         fields = ("id", "name", "emoji", "parent")
+#         fields = ("id", "name", "parent")
 
 
 # class ProductResource(resources.ModelResource):

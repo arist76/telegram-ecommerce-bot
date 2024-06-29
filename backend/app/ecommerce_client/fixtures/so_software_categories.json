@@ -1,0 +1,452 @@
+[
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f51897be-3c68-4465-b452-e2cdadcf357c",
+        "fields": {
+            "uuid": "f51897be-3c68-4465-b452-e2cdadcf357c",
+            "name": "Software",
+            "emoji": "",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1dfbbaf0-f5d7-46d4-b236-65d4c219e617",
+        "fields": {
+            "uuid": "1dfbbaf0-f5d7-46d4-b236-65d4c219e617",
+            "name": "Computer Software",
+            "emoji": "",
+            "parent": "f51897be-3c68-4465-b452-e2cdadcf357c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3286e146-7ae7-41d4-8f4d-6a1f64de24e3",
+        "fields": {
+            "uuid": "3286e146-7ae7-41d4-8f4d-6a1f64de24e3",
+            "name": "Antivirus & Security Software",
+            "emoji": "",
+            "parent": "1dfbbaf0-f5d7-46d4-b236-65d4c219e617"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e23fe2b5-6167-4c7e-91c5-290631fd1577",
+        "fields": {
+            "uuid": "e23fe2b5-6167-4c7e-91c5-290631fd1577",
+            "name": "Business & Productivity Software",
+            "emoji": "",
+            "parent": "1dfbbaf0-f5d7-46d4-b236-65d4c219e617"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7ee16c79-7616-4720-bbc7-efbc712c4755",
+        "fields": {
+            "uuid": "7ee16c79-7616-4720-bbc7-efbc712c4755",
+            "name": "Database Management Software",
+            "emoji": "",
+            "parent": "e23fe2b5-6167-4c7e-91c5-290631fd1577"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "558971ac-dd58-40c0-9fdd-291cf0903105",
+        "fields": {
+            "uuid": "558971ac-dd58-40c0-9fdd-291cf0903105",
+            "name": "Project Management Software",
+            "emoji": "",
+            "parent": "e23fe2b5-6167-4c7e-91c5-290631fd1577"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "84712fb5-6031-4efb-84f8-1e83e835a0cc",
+        "fields": {
+            "uuid": "84712fb5-6031-4efb-84f8-1e83e835a0cc",
+            "name": "Communication & Collaboration Software",
+            "emoji": "",
+            "parent": "e23fe2b5-6167-4c7e-91c5-290631fd1577"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d0cc9ba1-e1b8-4de3-a182-0e6290e2605b",
+        "fields": {
+            "uuid": "d0cc9ba1-e1b8-4de3-a182-0e6290e2605b",
+            "name": "Customer Relationship Management (CRM) Software",
+            "emoji": "",
+            "parent": "e23fe2b5-6167-4c7e-91c5-290631fd1577"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "35d5e135-21e1-4edf-a9c2-144b97e3c255",
+        "fields": {
+            "uuid": "35d5e135-21e1-4edf-a9c2-144b97e3c255",
+            "name": "Data Analysis & Visualization Software",
+            "emoji": "",
+            "parent": "e23fe2b5-6167-4c7e-91c5-290631fd1577"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "45756778-f3ff-40b8-b1fd-c52fec738773",
+        "fields": {
+            "uuid": "45756778-f3ff-40b8-b1fd-c52fec738773",
+            "name": "Enterprise Resource Planning (ERP) Software",
+            "emoji": "",
+            "parent": "e23fe2b5-6167-4c7e-91c5-290631fd1577"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3ec28920-c1c7-442a-ada8-2a267d218467",
+        "fields": {
+            "uuid": "3ec28920-c1c7-442a-ada8-2a267d218467",
+            "name": "Compilers & Programming Tools",
+            "emoji": "",
+            "parent": "1dfbbaf0-f5d7-46d4-b236-65d4c219e617"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d0bb21f5-6062-4bc1-b586-4ab44c22b4c7",
+        "fields": {
+            "uuid": "d0bb21f5-6062-4bc1-b586-4ab44c22b4c7",
+            "name": "Software Development Tools",
+            "emoji": "",
+            "parent": "3ec28920-c1c7-442a-ada8-2a267d218467"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "beed0db7-d51c-410a-a5b1-ac078d0acd9c",
+        "fields": {
+            "uuid": "beed0db7-d51c-410a-a5b1-ac078d0acd9c",
+            "name": "Computer Utilities & Maintenance Software",
+            "emoji": "",
+            "parent": "1dfbbaf0-f5d7-46d4-b236-65d4c219e617"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6b0c4997-0758-4b6c-90d2-38528e60adb3",
+        "fields": {
+            "uuid": "6b0c4997-0758-4b6c-90d2-38528e60adb3",
+            "name": "Dictionary & Translation Software",
+            "emoji": "",
+            "parent": "1dfbbaf0-f5d7-46d4-b236-65d4c219e617"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f44dc696-7254-4a46-b339-00a2689f60ee",
+        "fields": {
+            "uuid": "f44dc696-7254-4a46-b339-00a2689f60ee",
+            "name": "Educational Software",
+            "emoji": "",
+            "parent": "1dfbbaf0-f5d7-46d4-b236-65d4c219e617"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8f54e45d-3f1c-41a5-a8bd-6d27943ac99e",
+        "fields": {
+            "uuid": "8f54e45d-3f1c-41a5-a8bd-6d27943ac99e",
+            "name": "Financial, Tax & Accounting Software",
+            "emoji": "",
+            "parent": "1dfbbaf0-f5d7-46d4-b236-65d4c219e617"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "be6fc8e6-21b4-4035-92be-0a7ca3f0c353",
+        "fields": {
+            "uuid": "be6fc8e6-21b4-4035-92be-0a7ca3f0c353",
+            "name": "GPS Map Data & Software",
+            "emoji": "",
+            "parent": "1dfbbaf0-f5d7-46d4-b236-65d4c219e617"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5cec6731-7488-4954-97db-e9ee78f6ff76",
+        "fields": {
+            "uuid": "5cec6731-7488-4954-97db-e9ee78f6ff76",
+            "name": "Handheld & PDA Software",
+            "emoji": "",
+            "parent": "1dfbbaf0-f5d7-46d4-b236-65d4c219e617"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "161298b7-73fd-49c7-8ae8-6a11fcd3c7f5",
+        "fields": {
+            "uuid": "161298b7-73fd-49c7-8ae8-6a11fcd3c7f5",
+            "name": "Multimedia & Design Software",
+            "emoji": "",
+            "parent": "1dfbbaf0-f5d7-46d4-b236-65d4c219e617"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a6ca58ae-6b39-45b8-86c4-41b27736b5f4",
+        "fields": {
+            "uuid": "a6ca58ae-6b39-45b8-86c4-41b27736b5f4",
+            "name": "3D Modeling Software",
+            "emoji": "",
+            "parent": "161298b7-73fd-49c7-8ae8-6a11fcd3c7f5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "472065fb-f8d1-4fe5-88f4-bbe0d0089025",
+        "fields": {
+            "uuid": "472065fb-f8d1-4fe5-88f4-bbe0d0089025",
+            "name": "Animation Editing Software",
+            "emoji": "",
+            "parent": "161298b7-73fd-49c7-8ae8-6a11fcd3c7f5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "41ce50fd-1457-4cde-914d-4ae830cb8ee0",
+        "fields": {
+            "uuid": "41ce50fd-1457-4cde-914d-4ae830cb8ee0",
+            "name": "Graphic Design & Illustration Software",
+            "emoji": "",
+            "parent": "161298b7-73fd-49c7-8ae8-6a11fcd3c7f5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e202ab7d-d975-4524-ac02-a431791ea87f",
+        "fields": {
+            "uuid": "e202ab7d-d975-4524-ac02-a431791ea87f",
+            "name": "Home & Interior Design Software",
+            "emoji": "",
+            "parent": "161298b7-73fd-49c7-8ae8-6a11fcd3c7f5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1987110e-857e-4e17-b60f-8de71dacdd9f",
+        "fields": {
+            "uuid": "1987110e-857e-4e17-b60f-8de71dacdd9f",
+            "name": "Home Publishing Software",
+            "emoji": "",
+            "parent": "161298b7-73fd-49c7-8ae8-6a11fcd3c7f5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b0648e64-f565-48b6-800f-b20d476da386",
+        "fields": {
+            "uuid": "b0648e64-f565-48b6-800f-b20d476da386",
+            "name": "Media Viewing Software",
+            "emoji": "",
+            "parent": "161298b7-73fd-49c7-8ae8-6a11fcd3c7f5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7e8078d9-36f0-4908-984d-2e020707efcf",
+        "fields": {
+            "uuid": "7e8078d9-36f0-4908-984d-2e020707efcf",
+            "name": "Music Composition Software",
+            "emoji": "",
+            "parent": "161298b7-73fd-49c7-8ae8-6a11fcd3c7f5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a1bec439-c96b-4623-b0a0-990720fbb3fc",
+        "fields": {
+            "uuid": "a1bec439-c96b-4623-b0a0-990720fbb3fc",
+            "name": "Sound Editing Software",
+            "emoji": "",
+            "parent": "161298b7-73fd-49c7-8ae8-6a11fcd3c7f5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c41f2849-2683-4481-8557-02e8fc723b0d",
+        "fields": {
+            "uuid": "c41f2849-2683-4481-8557-02e8fc723b0d",
+            "name": "Video Editing Software",
+            "emoji": "",
+            "parent": "161298b7-73fd-49c7-8ae8-6a11fcd3c7f5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9f0f2f26-f606-4079-b477-b7aa83d05c62",
+        "fields": {
+            "uuid": "9f0f2f26-f606-4079-b477-b7aa83d05c62",
+            "name": "Web Design Software",
+            "emoji": "",
+            "parent": "161298b7-73fd-49c7-8ae8-6a11fcd3c7f5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "10bce43a-6af5-4ae4-9de7-d078253da9b0",
+        "fields": {
+            "uuid": "10bce43a-6af5-4ae4-9de7-d078253da9b0",
+            "name": "Network Software",
+            "emoji": "",
+            "parent": "1dfbbaf0-f5d7-46d4-b236-65d4c219e617"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "598ab388-4d84-4aa8-9867-bee987d61d94",
+        "fields": {
+            "uuid": "598ab388-4d84-4aa8-9867-bee987d61d94",
+            "name": "Office Application Software",
+            "emoji": "",
+            "parent": "1dfbbaf0-f5d7-46d4-b236-65d4c219e617"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "552b82d9-e4a5-4da9-be5e-ddd48c8cef7f",
+        "fields": {
+            "uuid": "552b82d9-e4a5-4da9-be5e-ddd48c8cef7f",
+            "name": "Operating Systems",
+            "emoji": "",
+            "parent": "1dfbbaf0-f5d7-46d4-b236-65d4c219e617"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7d1d717c-c396-47b6-8ff2-b8aaca52c850",
+        "fields": {
+            "uuid": "7d1d717c-c396-47b6-8ff2-b8aaca52c850",
+            "name": "Restore Disks",
+            "emoji": "",
+            "parent": "1dfbbaf0-f5d7-46d4-b236-65d4c219e617"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c18fd59e-5bc7-40cb-b18e-35bc32a424e0",
+        "fields": {
+            "uuid": "c18fd59e-5bc7-40cb-b18e-35bc32a424e0",
+            "name": "Artificial Intelligence (AI) Software",
+            "emoji": "",
+            "parent": "1dfbbaf0-f5d7-46d4-b236-65d4c219e617"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "85661368-10bf-4c6b-8535-f28357e55c4f",
+        "fields": {
+            "uuid": "85661368-10bf-4c6b-8535-f28357e55c4f",
+            "name": "Machine Learning Software",
+            "emoji": "",
+            "parent": "c18fd59e-5bc7-40cb-b18e-35bc32a424e0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5260ca32-8788-4ea1-b1c4-a4374cd4e876",
+        "fields": {
+            "uuid": "5260ca32-8788-4ea1-b1c4-a4374cd4e876",
+            "name": "Digital Goods & Currency",
+            "emoji": "",
+            "parent": "f51897be-3c68-4465-b452-e2cdadcf357c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6c43e10d-b0f1-46ba-9d52-10d554e5106b",
+        "fields": {
+            "uuid": "6c43e10d-b0f1-46ba-9d52-10d554e5106b",
+            "name": "Computer Icons",
+            "emoji": "",
+            "parent": "5260ca32-8788-4ea1-b1c4-a4374cd4e876"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f27afbca-704e-472a-9c15-194e5c0e883e",
+        "fields": {
+            "uuid": "f27afbca-704e-472a-9c15-194e5c0e883e",
+            "name": "Desktop Wallpapers",
+            "emoji": "",
+            "parent": "5260ca32-8788-4ea1-b1c4-a4374cd4e876"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2e544429-71c9-49a6-8983-2a330f01773b",
+        "fields": {
+            "uuid": "2e544429-71c9-49a6-8983-2a330f01773b",
+            "name": "Digital Artwork",
+            "emoji": "",
+            "parent": "5260ca32-8788-4ea1-b1c4-a4374cd4e876"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "11fb8b69-d677-44e1-8a1f-a7d2787f458a",
+        "fields": {
+            "uuid": "11fb8b69-d677-44e1-8a1f-a7d2787f458a",
+            "name": "Document Templates",
+            "emoji": "",
+            "parent": "5260ca32-8788-4ea1-b1c4-a4374cd4e876"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "10f69f93-c9be-42bf-897c-fb3ba8f1862d",
+        "fields": {
+            "uuid": "10f69f93-c9be-42bf-897c-fb3ba8f1862d",
+            "name": "Fonts",
+            "emoji": "",
+            "parent": "5260ca32-8788-4ea1-b1c4-a4374cd4e876"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d6c571ac-9895-4b17-9c00-4b0de8ba5430",
+        "fields": {
+            "uuid": "d6c571ac-9895-4b17-9c00-4b0de8ba5430",
+            "name": "Stock Photographs & Video Footage",
+            "emoji": "",
+            "parent": "5260ca32-8788-4ea1-b1c4-a4374cd4e876"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "457fcbcf-24ea-4f2b-89c3-10a89b812058",
+        "fields": {
+            "uuid": "457fcbcf-24ea-4f2b-89c3-10a89b812058",
+            "name": "Virtual Currency",
+            "emoji": "",
+            "parent": "5260ca32-8788-4ea1-b1c4-a4374cd4e876"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8fa47ecf-8974-46f8-baf3-23df45a30d2d",
+        "fields": {
+            "uuid": "8fa47ecf-8974-46f8-baf3-23df45a30d2d",
+            "name": "Video Game Software",
+            "emoji": "",
+            "parent": "f51897be-3c68-4465-b452-e2cdadcf357c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e2abb953-b554-4226-be28-c9c258ba54a1",
+        "fields": {
+            "uuid": "e2abb953-b554-4226-be28-c9c258ba54a1",
+            "name": "Cloud Services",
+            "emoji": "",
+            "parent": "f51897be-3c68-4465-b452-e2cdadcf357c"
+        }
+    }
+]

@@ -1,28 +1,47 @@
 from django.shortcuts import get_object_or_404
+from django.db.models import Count
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework import generics, status, viewsets
 from rest_framework.parsers import MultiPartParser, FormParser
 from rest_framework.pagination import PageNumberPagination
+from drf_yasg.utils import swagger_auto_schema
+from drf_yasg import openapi
 from ecommerce_client import models, serializers, filters
 from ecommerce_client.chroma_client import Chromaclient
 from datetime import datetime
 import sys
 import uuid
 
+
 # chroma_client = Chromaclient()
 
 
-class AllPaginator(PageNumberPagination):
-    page_size = 10000
-    max_page_size = 10000
-
-
 class CategoryList(generics.ListAPIView):
-    queryset = models.Category.objects.all()
     serializer_class = serializers.CategorySerializer
     filterset_class = filters.CategoryFilter
-    pagination_class = AllPaginator
+
+    def get_queryset(self):
+        # annotate the sum of products under each category
+        with_products = self.request.GET.get("with_products", False)
+
+        if with_products:
+            return models.Category.objects.get_only_product_queryset()
+
+        return models.Category.objects.all()
+
+    @swagger_auto_schema(
+        manual_parameters=[
+            openapi.Parameter(
+                "with_products",
+                openapi.IN_QUERY,
+                description="Filter categories with product",
+                type=openapi.TYPE_STRING,
+            ),
+        ]
+    )
+    def get(self, request, *args, **kwargs):
+        return super().get(request, *args, **kwargs)
 
 
 class CategoryDetail(generics.RetrieveAPIView):
@@ -30,11 +49,36 @@ class CategoryDetail(generics.RetrieveAPIView):
     serializer_class = serializers.CategoryWithChildrenSerializer
     lookup_field = "uuid"
 
+    def get_serializer_class(self):
+        serializer_class = super().get_serializer_class()
+        serializer_class.context["with_products"] = self.request.GET.get(
+            "with_products", False
+        )
+
+    @swagger_auto_schema(
+        manual_parameters=[
+            openapi.Parameter(
+                "with_products",
+                openapi.IN_QUERY,
+                description="Filter categories with product",
+                type=openapi.TYPE_STRING,
+            ),
+        ]
+    )
+    def get(self, request, *args, **kwargs):
+        return super().get(request, *args, **kwargs)
+
 
 class ProductListView(generics.ListCreateAPIView):
     queryset = models.Product.objects.all()
     serializer_class = serializers.ProductSerializer
     filterset_class = filters.ProductFilter
+
+
+class AttributeListView(generics.ListAPIView):
+    queryset = models.Attribute.objects.all()
+    serializer_class = serializers.AttributeSerializer
+    filterset_class = filters.AttributeFilter
 
 
 class ProductDetailView(generics.RetrieveUpdateDestroyAPIView):

@@ -1,0 +1,4592 @@
+[
+    {
+        "model": "ecommerce_client.category",
+        "pk": "81bc8845-5cf8-4777-9ccf-a725300f53e0",
+        "fields": {
+            "uuid": "81bc8845-5cf8-4777-9ccf-a725300f53e0",
+            "name": "Apparel & Accessories",
+            "emoji": "",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ca3676d4-3570-4e32-ac00-3b670d913b8f",
+        "fields": {
+            "uuid": "ca3676d4-3570-4e32-ac00-3b670d913b8f",
+            "name": "Clothing",
+            "emoji": "",
+            "parent": "81bc8845-5cf8-4777-9ccf-a725300f53e0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8e7b5220-2b69-43e8-a9dd-c381eb96ea60",
+        "fields": {
+            "uuid": "8e7b5220-2b69-43e8-a9dd-c381eb96ea60",
+            "name": "Activewear",
+            "emoji": "",
+            "parent": "ca3676d4-3570-4e32-ac00-3b670d913b8f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "548e0b6f-fa11-4429-b1ee-ee7019619135",
+        "fields": {
+            "uuid": "548e0b6f-fa11-4429-b1ee-ee7019619135",
+            "name": "Activewear Pants",
+            "emoji": "",
+            "parent": "8e7b5220-2b69-43e8-a9dd-c381eb96ea60"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "25fa8577-89d0-4a3f-9102-523961d58c2d",
+        "fields": {
+            "uuid": "25fa8577-89d0-4a3f-9102-523961d58c2d",
+            "name": "Joggers",
+            "emoji": "",
+            "parent": "548e0b6f-fa11-4429-b1ee-ee7019619135"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9c8330da-4b74-47d0-946c-698964f191cb",
+        "fields": {
+            "uuid": "9c8330da-4b74-47d0-946c-698964f191cb",
+            "name": "Leggings",
+            "emoji": "",
+            "parent": "548e0b6f-fa11-4429-b1ee-ee7019619135"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "346556d2-ec00-4c91-84fd-1720c3fba6dd",
+        "fields": {
+            "uuid": "346556d2-ec00-4c91-84fd-1720c3fba6dd",
+            "name": "Shorts",
+            "emoji": "",
+            "parent": "548e0b6f-fa11-4429-b1ee-ee7019619135"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7dc23d4f-cfda-4ae7-b8d3-264cc4702a0b",
+        "fields": {
+            "uuid": "7dc23d4f-cfda-4ae7-b8d3-264cc4702a0b",
+            "name": "Sweatpants",
+            "emoji": "",
+            "parent": "548e0b6f-fa11-4429-b1ee-ee7019619135"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e59cddaa-3ca5-4747-9c6c-6707929e22e8",
+        "fields": {
+            "uuid": "e59cddaa-3ca5-4747-9c6c-6707929e22e8",
+            "name": "Tights",
+            "emoji": "",
+            "parent": "548e0b6f-fa11-4429-b1ee-ee7019619135"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4ed1d70a-c1d2-466e-95cd-9f351c102adc",
+        "fields": {
+            "uuid": "4ed1d70a-c1d2-466e-95cd-9f351c102adc",
+            "name": "Track Pants",
+            "emoji": "",
+            "parent": "548e0b6f-fa11-4429-b1ee-ee7019619135"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7a3e3290-6fa1-4976-9833-c9f5d6d0c4a2",
+        "fields": {
+            "uuid": "7a3e3290-6fa1-4976-9833-c9f5d6d0c4a2",
+            "name": "Training Pants",
+            "emoji": "",
+            "parent": "548e0b6f-fa11-4429-b1ee-ee7019619135"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d752dfc8-479e-4185-a1a0-319bd5522124",
+        "fields": {
+            "uuid": "d752dfc8-479e-4185-a1a0-319bd5522124",
+            "name": "Wind Pants",
+            "emoji": "",
+            "parent": "548e0b6f-fa11-4429-b1ee-ee7019619135"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "34e18d78-c0df-4c12-895e-a765ea41e1b9",
+        "fields": {
+            "uuid": "34e18d78-c0df-4c12-895e-a765ea41e1b9",
+            "name": "Activewear Tops",
+            "emoji": "",
+            "parent": "8e7b5220-2b69-43e8-a9dd-c381eb96ea60"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "66147da9-4655-4e59-b7c3-14d1d2461ce8",
+        "fields": {
+            "uuid": "66147da9-4655-4e59-b7c3-14d1d2461ce8",
+            "name": "Crop Tops",
+            "emoji": "",
+            "parent": "34e18d78-c0df-4c12-895e-a765ea41e1b9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "77a66e3d-777d-459f-9033-e61baa2e05b9",
+        "fields": {
+            "uuid": "77a66e3d-777d-459f-9033-e61baa2e05b9",
+            "name": "T-Shirts",
+            "emoji": "",
+            "parent": "34e18d78-c0df-4c12-895e-a765ea41e1b9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7b3c5ffc-774a-47cf-9e5c-73dfdcdc9f23",
+        "fields": {
+            "uuid": "7b3c5ffc-774a-47cf-9e5c-73dfdcdc9f23",
+            "name": "Tank Tops",
+            "emoji": "",
+            "parent": "34e18d78-c0df-4c12-895e-a765ea41e1b9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "467badb9-2b03-4d8c-a1b5-de4ac4050663",
+        "fields": {
+            "uuid": "467badb9-2b03-4d8c-a1b5-de4ac4050663",
+            "name": "Boxing Shorts",
+            "emoji": "",
+            "parent": "8e7b5220-2b69-43e8-a9dd-c381eb96ea60"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3b438438-650a-4c1d-ae15-c0e1f14db3ac",
+        "fields": {
+            "uuid": "3b438438-650a-4c1d-ae15-c0e1f14db3ac",
+            "name": "Dance Dresses, Skirts & Costumes",
+            "emoji": "",
+            "parent": "8e7b5220-2b69-43e8-a9dd-c381eb96ea60"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1c561ebb-e972-45fb-b2a4-48a1fe62cf6c",
+        "fields": {
+            "uuid": "1c561ebb-e972-45fb-b2a4-48a1fe62cf6c",
+            "name": "Sports Bras",
+            "emoji": "",
+            "parent": "8e7b5220-2b69-43e8-a9dd-c381eb96ea60"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "89835550-a378-4641-a597-b4a8489b4665",
+        "fields": {
+            "uuid": "89835550-a378-4641-a597-b4a8489b4665",
+            "name": "Activewear Sweatshirts & Hoodies",
+            "emoji": "",
+            "parent": "8e7b5220-2b69-43e8-a9dd-c381eb96ea60"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2756962b-a61d-4f43-adef-be1f0d690166",
+        "fields": {
+            "uuid": "2756962b-a61d-4f43-adef-be1f0d690166",
+            "name": "Hoodies",
+            "emoji": "",
+            "parent": "89835550-a378-4641-a597-b4a8489b4665"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "656a53b2-5076-4817-a381-de34a09500ae",
+        "fields": {
+            "uuid": "656a53b2-5076-4817-a381-de34a09500ae",
+            "name": "Sweatshirts",
+            "emoji": "",
+            "parent": "89835550-a378-4641-a597-b4a8489b4665"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3a51439a-8ec9-4c69-a569-5a4efe645b2b",
+        "fields": {
+            "uuid": "3a51439a-8ec9-4c69-a569-5a4efe645b2b",
+            "name": "Track Jackets",
+            "emoji": "",
+            "parent": "89835550-a378-4641-a597-b4a8489b4665"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ca682de8-5acd-4688-af56-fbe47354f909",
+        "fields": {
+            "uuid": "ca682de8-5acd-4688-af56-fbe47354f909",
+            "name": "Activewear Vests & Jackets",
+            "emoji": "",
+            "parent": "8e7b5220-2b69-43e8-a9dd-c381eb96ea60"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a59196e1-12e7-4cef-b03a-534e09f32608",
+        "fields": {
+            "uuid": "a59196e1-12e7-4cef-b03a-534e09f32608",
+            "name": "Vests",
+            "emoji": "",
+            "parent": "ca682de8-5acd-4688-af56-fbe47354f909"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c379b6ab-2774-45bb-bbd8-67607b937216",
+        "fields": {
+            "uuid": "c379b6ab-2774-45bb-bbd8-67607b937216",
+            "name": "Jackets",
+            "emoji": "",
+            "parent": "ca682de8-5acd-4688-af56-fbe47354f909"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "de2f9c31-509e-4395-b702-f500511144ed",
+        "fields": {
+            "uuid": "de2f9c31-509e-4395-b702-f500511144ed",
+            "name": "Baby & Toddler Clothing",
+            "emoji": "",
+            "parent": "ca3676d4-3570-4e32-ac00-3b670d913b8f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "74b9451b-a697-430b-bf48-70746b5b13fe",
+        "fields": {
+            "uuid": "74b9451b-a697-430b-bf48-70746b5b13fe",
+            "name": "Baby & Toddler Bottoms",
+            "emoji": "",
+            "parent": "de2f9c31-509e-4395-b702-f500511144ed"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "815130b7-25f5-449f-9a26-a96503898b83",
+        "fields": {
+            "uuid": "815130b7-25f5-449f-9a26-a96503898b83",
+            "name": "Cargos",
+            "emoji": "",
+            "parent": "74b9451b-a697-430b-bf48-70746b5b13fe"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2ec2269e-5b37-4d0f-9c24-40088d60d330",
+        "fields": {
+            "uuid": "2ec2269e-5b37-4d0f-9c24-40088d60d330",
+            "name": "Chinos",
+            "emoji": "",
+            "parent": "74b9451b-a697-430b-bf48-70746b5b13fe"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cebd7d00-e6ad-476e-9d52-52983ec363e6",
+        "fields": {
+            "uuid": "cebd7d00-e6ad-476e-9d52-52983ec363e6",
+            "name": "Jeans",
+            "emoji": "",
+            "parent": "74b9451b-a697-430b-bf48-70746b5b13fe"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ed52d1b3-1ed2-4950-8520-4a1ebbff53cc",
+        "fields": {
+            "uuid": "ed52d1b3-1ed2-4950-8520-4a1ebbff53cc",
+            "name": "Jeggings",
+            "emoji": "",
+            "parent": "74b9451b-a697-430b-bf48-70746b5b13fe"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ff521799-5fd8-40f0-8dce-bc1553652217",
+        "fields": {
+            "uuid": "ff521799-5fd8-40f0-8dce-bc1553652217",
+            "name": "Joggers",
+            "emoji": "",
+            "parent": "74b9451b-a697-430b-bf48-70746b5b13fe"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d21a3eb7-ba2a-419e-a142-8f584389db6e",
+        "fields": {
+            "uuid": "d21a3eb7-ba2a-419e-a142-8f584389db6e",
+            "name": "Leggings",
+            "emoji": "",
+            "parent": "74b9451b-a697-430b-bf48-70746b5b13fe"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "68b75a9f-67be-425c-8fd7-cabf5e1543f8",
+        "fields": {
+            "uuid": "68b75a9f-67be-425c-8fd7-cabf5e1543f8",
+            "name": "Skirts",
+            "emoji": "",
+            "parent": "74b9451b-a697-430b-bf48-70746b5b13fe"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5d07080f-f116-4ad9-b3fe-7f76c0caea60",
+        "fields": {
+            "uuid": "5d07080f-f116-4ad9-b3fe-7f76c0caea60",
+            "name": "Skorts",
+            "emoji": "",
+            "parent": "74b9451b-a697-430b-bf48-70746b5b13fe"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4e94dcb0-c485-4189-9310-19e8882e7789",
+        "fields": {
+            "uuid": "4e94dcb0-c485-4189-9310-19e8882e7789",
+            "name": "Sweatpants",
+            "emoji": "",
+            "parent": "74b9451b-a697-430b-bf48-70746b5b13fe"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fccd10a6-0f50-4412-8ec2-03697e294877",
+        "fields": {
+            "uuid": "fccd10a6-0f50-4412-8ec2-03697e294877",
+            "name": "Trousers",
+            "emoji": "",
+            "parent": "74b9451b-a697-430b-bf48-70746b5b13fe"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3c2cb167-511b-42c2-82a8-1a0ded688a84",
+        "fields": {
+            "uuid": "3c2cb167-511b-42c2-82a8-1a0ded688a84",
+            "name": "Baby & Toddler Diaper Covers",
+            "emoji": "",
+            "parent": "de2f9c31-509e-4395-b702-f500511144ed"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "52a93c79-8051-4ad3-bf4a-963e936a5ed2",
+        "fields": {
+            "uuid": "52a93c79-8051-4ad3-bf4a-963e936a5ed2",
+            "name": "Baby & Toddler Dresses",
+            "emoji": "",
+            "parent": "de2f9c31-509e-4395-b702-f500511144ed"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "82505172-ca0e-45d2-8214-e6828e99943b",
+        "fields": {
+            "uuid": "82505172-ca0e-45d2-8214-e6828e99943b",
+            "name": "Baby & Toddler Outerwear",
+            "emoji": "",
+            "parent": "de2f9c31-509e-4395-b702-f500511144ed"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "75ff12fa-13f7-42f2-ab8e-9c9e3077fa9d",
+        "fields": {
+            "uuid": "75ff12fa-13f7-42f2-ab8e-9c9e3077fa9d",
+            "name": "Baby & Toddler Coats & Jackets",
+            "emoji": "",
+            "parent": "82505172-ca0e-45d2-8214-e6828e99943b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cf3c41ae-df93-462f-8c96-1363a01dee7e",
+        "fields": {
+            "uuid": "cf3c41ae-df93-462f-8c96-1363a01dee7e",
+            "name": "Bolero Jackets",
+            "emoji": "",
+            "parent": "75ff12fa-13f7-42f2-ab8e-9c9e3077fa9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "91eea085-4e74-4be8-b6e5-82f419486ce6",
+        "fields": {
+            "uuid": "91eea085-4e74-4be8-b6e5-82f419486ce6",
+            "name": "Bomber Jackets",
+            "emoji": "",
+            "parent": "75ff12fa-13f7-42f2-ab8e-9c9e3077fa9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b5437a77-5efc-451a-9b41-0cd4f0b56f24",
+        "fields": {
+            "uuid": "b5437a77-5efc-451a-9b41-0cd4f0b56f24",
+            "name": "Capes",
+            "emoji": "",
+            "parent": "75ff12fa-13f7-42f2-ab8e-9c9e3077fa9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "079bc269-9d28-40d2-b308-4f5d3a44c059",
+        "fields": {
+            "uuid": "079bc269-9d28-40d2-b308-4f5d3a44c059",
+            "name": "Motorcycle Outerwear",
+            "emoji": "",
+            "parent": "75ff12fa-13f7-42f2-ab8e-9c9e3077fa9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7bb6dd4e-1dfd-41d2-9440-49052e51e46b",
+        "fields": {
+            "uuid": "7bb6dd4e-1dfd-41d2-9440-49052e51e46b",
+            "name": "Overcoats",
+            "emoji": "",
+            "parent": "75ff12fa-13f7-42f2-ab8e-9c9e3077fa9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ca5f8182-38d9-4fd3-b892-f62c14a8ad35",
+        "fields": {
+            "uuid": "ca5f8182-38d9-4fd3-b892-f62c14a8ad35",
+            "name": "Parkas",
+            "emoji": "",
+            "parent": "75ff12fa-13f7-42f2-ab8e-9c9e3077fa9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "689abd60-b099-413a-8f79-1206625f0e8d",
+        "fields": {
+            "uuid": "689abd60-b099-413a-8f79-1206625f0e8d",
+            "name": "Pea Coats",
+            "emoji": "",
+            "parent": "75ff12fa-13f7-42f2-ab8e-9c9e3077fa9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "20de3656-5f41-4a3f-a608-123bb0545fe6",
+        "fields": {
+            "uuid": "20de3656-5f41-4a3f-a608-123bb0545fe6",
+            "name": "Ponchos",
+            "emoji": "",
+            "parent": "75ff12fa-13f7-42f2-ab8e-9c9e3077fa9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ab4b9a59-b2fc-4d02-9d9a-8a4f90ff973b",
+        "fields": {
+            "uuid": "ab4b9a59-b2fc-4d02-9d9a-8a4f90ff973b",
+            "name": "Puffer Jackets",
+            "emoji": "",
+            "parent": "75ff12fa-13f7-42f2-ab8e-9c9e3077fa9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6f2bc16d-8d20-4bf6-b37b-70a390d89889",
+        "fields": {
+            "uuid": "6f2bc16d-8d20-4bf6-b37b-70a390d89889",
+            "name": "Rain Coats",
+            "emoji": "",
+            "parent": "75ff12fa-13f7-42f2-ab8e-9c9e3077fa9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3f6f2547-212c-41da-a566-6caf4a27f133",
+        "fields": {
+            "uuid": "3f6f2547-212c-41da-a566-6caf4a27f133",
+            "name": "Sport Jackets",
+            "emoji": "",
+            "parent": "75ff12fa-13f7-42f2-ab8e-9c9e3077fa9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0248ab0a-a8c3-4eaa-8742-46485c0d73a2",
+        "fields": {
+            "uuid": "0248ab0a-a8c3-4eaa-8742-46485c0d73a2",
+            "name": "Track Jackets",
+            "emoji": "",
+            "parent": "75ff12fa-13f7-42f2-ab8e-9c9e3077fa9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "13e27065-63e9-4349-b3ca-4dfac13f2fb9",
+        "fields": {
+            "uuid": "13e27065-63e9-4349-b3ca-4dfac13f2fb9",
+            "name": "Trench Coats",
+            "emoji": "",
+            "parent": "75ff12fa-13f7-42f2-ab8e-9c9e3077fa9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0526f3b7-9f19-4dd0-8149-20de9e12c7ce",
+        "fields": {
+            "uuid": "0526f3b7-9f19-4dd0-8149-20de9e12c7ce",
+            "name": "Trucker Jackets",
+            "emoji": "",
+            "parent": "75ff12fa-13f7-42f2-ab8e-9c9e3077fa9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1519648a-2909-4dd5-a7b3-b7caab443e93",
+        "fields": {
+            "uuid": "1519648a-2909-4dd5-a7b3-b7caab443e93",
+            "name": "Windbreakers",
+            "emoji": "",
+            "parent": "75ff12fa-13f7-42f2-ab8e-9c9e3077fa9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4ddb38eb-dfda-4c1c-8a57-9faf109e07b2",
+        "fields": {
+            "uuid": "4ddb38eb-dfda-4c1c-8a57-9faf109e07b2",
+            "name": "Wrap Coats",
+            "emoji": "",
+            "parent": "75ff12fa-13f7-42f2-ab8e-9c9e3077fa9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ed9a4033-1f3f-4e18-a321-b7b07ab0304f",
+        "fields": {
+            "uuid": "ed9a4033-1f3f-4e18-a321-b7b07ab0304f",
+            "name": "Snow Pants & Suits",
+            "emoji": "",
+            "parent": "82505172-ca0e-45d2-8214-e6828e99943b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8f1c133e-b3b8-4bdd-b6e4-469f9a5d9167",
+        "fields": {
+            "uuid": "8f1c133e-b3b8-4bdd-b6e4-469f9a5d9167",
+            "name": "Baby & Toddler Outfits",
+            "emoji": "",
+            "parent": "de2f9c31-509e-4395-b702-f500511144ed"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "73398c25-daad-4da2-a7e0-67cd2ef3018c",
+        "fields": {
+            "uuid": "73398c25-daad-4da2-a7e0-67cd2ef3018c",
+            "name": "Baby & Toddler Sleepwear",
+            "emoji": "",
+            "parent": "de2f9c31-509e-4395-b702-f500511144ed"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d5187b29-0fdc-459a-9eb7-a91389412c72",
+        "fields": {
+            "uuid": "d5187b29-0fdc-459a-9eb7-a91389412c72",
+            "name": "Baby & Toddler Socks & Tights",
+            "emoji": "",
+            "parent": "de2f9c31-509e-4395-b702-f500511144ed"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0294e67b-66d7-43e8-8412-daca032dc54c",
+        "fields": {
+            "uuid": "0294e67b-66d7-43e8-8412-daca032dc54c",
+            "name": "Baby & Toddler Swimwear",
+            "emoji": "",
+            "parent": "de2f9c31-509e-4395-b702-f500511144ed"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e21b9a9d-7e4a-403b-b0bf-9a8ec44493d3",
+        "fields": {
+            "uuid": "e21b9a9d-7e4a-403b-b0bf-9a8ec44493d3",
+            "name": "Burkinis",
+            "emoji": "",
+            "parent": "0294e67b-66d7-43e8-8412-daca032dc54c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2e64cc22-92d5-4cb2-a671-033f749edbc7",
+        "fields": {
+            "uuid": "2e64cc22-92d5-4cb2-a671-033f749edbc7",
+            "name": "Classic Bikinis",
+            "emoji": "",
+            "parent": "0294e67b-66d7-43e8-8412-daca032dc54c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2c6566aa-d07c-46fb-9794-7a60799db929",
+        "fields": {
+            "uuid": "2c6566aa-d07c-46fb-9794-7a60799db929",
+            "name": "Cover Ups",
+            "emoji": "",
+            "parent": "0294e67b-66d7-43e8-8412-daca032dc54c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5c16bc2b-39ec-46c8-b198-1b4b77f64d8b",
+        "fields": {
+            "uuid": "5c16bc2b-39ec-46c8-b198-1b4b77f64d8b",
+            "name": "Rash Guards",
+            "emoji": "",
+            "parent": "0294e67b-66d7-43e8-8412-daca032dc54c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1f3aa24d-56aa-4899-81eb-0218f6807a6b",
+        "fields": {
+            "uuid": "1f3aa24d-56aa-4899-81eb-0218f6807a6b",
+            "name": "Skirtinis",
+            "emoji": "",
+            "parent": "0294e67b-66d7-43e8-8412-daca032dc54c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "84428a00-53a9-4107-b298-761893ebff2b",
+        "fields": {
+            "uuid": "84428a00-53a9-4107-b298-761893ebff2b",
+            "name": "Swim Boxers",
+            "emoji": "",
+            "parent": "0294e67b-66d7-43e8-8412-daca032dc54c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4ad997d8-57c2-44eb-92c0-09988082f849",
+        "fields": {
+            "uuid": "4ad997d8-57c2-44eb-92c0-09988082f849",
+            "name": "Swim Briefs",
+            "emoji": "",
+            "parent": "0294e67b-66d7-43e8-8412-daca032dc54c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d4a73f75-4fd3-47ba-bc94-8b15505f39bf",
+        "fields": {
+            "uuid": "d4a73f75-4fd3-47ba-bc94-8b15505f39bf",
+            "name": "Swim Dresses",
+            "emoji": "",
+            "parent": "0294e67b-66d7-43e8-8412-daca032dc54c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fa13fac1-169d-4c45-9ff9-0adf3adf87be",
+        "fields": {
+            "uuid": "fa13fac1-169d-4c45-9ff9-0adf3adf87be",
+            "name": "Swim Jammers",
+            "emoji": "",
+            "parent": "0294e67b-66d7-43e8-8412-daca032dc54c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5aa49560-46cf-41c0-8248-60e226f72c57",
+        "fields": {
+            "uuid": "5aa49560-46cf-41c0-8248-60e226f72c57",
+            "name": "Swim Trunks",
+            "emoji": "",
+            "parent": "0294e67b-66d7-43e8-8412-daca032dc54c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cee59481-cbe7-425d-80a3-e293a2c28dd8",
+        "fields": {
+            "uuid": "cee59481-cbe7-425d-80a3-e293a2c28dd8",
+            "name": "One-Piece Swimsuits",
+            "emoji": "",
+            "parent": "0294e67b-66d7-43e8-8412-daca032dc54c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c1c61a1b-4484-4277-8da6-fbcf693b03b1",
+        "fields": {
+            "uuid": "c1c61a1b-4484-4277-8da6-fbcf693b03b1",
+            "name": "Surf Tops",
+            "emoji": "",
+            "parent": "0294e67b-66d7-43e8-8412-daca032dc54c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b50e7206-224b-44b4-9398-a1954f3f6d5a",
+        "fields": {
+            "uuid": "b50e7206-224b-44b4-9398-a1954f3f6d5a",
+            "name": "Swimwear Tops",
+            "emoji": "",
+            "parent": "0294e67b-66d7-43e8-8412-daca032dc54c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "232515ee-17e7-4b4a-95f6-b3f63878b636",
+        "fields": {
+            "uuid": "232515ee-17e7-4b4a-95f6-b3f63878b636",
+            "name": "Baby & Toddler Tops",
+            "emoji": "",
+            "parent": "de2f9c31-509e-4395-b702-f500511144ed"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f1e46ee1-5da9-419a-a62a-8208f7d68a58",
+        "fields": {
+            "uuid": "f1e46ee1-5da9-419a-a62a-8208f7d68a58",
+            "name": "Bodysuits",
+            "emoji": "",
+            "parent": "232515ee-17e7-4b4a-95f6-b3f63878b636"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d0e80f19-a6e8-42c3-a182-f15d016bff18",
+        "fields": {
+            "uuid": "d0e80f19-a6e8-42c3-a182-f15d016bff18",
+            "name": "Cardigans",
+            "emoji": "",
+            "parent": "232515ee-17e7-4b4a-95f6-b3f63878b636"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8e9ffa31-fc21-4d31-b935-32234fc5f535",
+        "fields": {
+            "uuid": "8e9ffa31-fc21-4d31-b935-32234fc5f535",
+            "name": "Overshirts",
+            "emoji": "",
+            "parent": "232515ee-17e7-4b4a-95f6-b3f63878b636"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8612ebe4-c18c-415c-a59e-e8a926b2059c",
+        "fields": {
+            "uuid": "8612ebe4-c18c-415c-a59e-e8a926b2059c",
+            "name": "Polos",
+            "emoji": "",
+            "parent": "232515ee-17e7-4b4a-95f6-b3f63878b636"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e9fa4a58-e759-4f53-b4fd-e2bb415bf286",
+        "fields": {
+            "uuid": "e9fa4a58-e759-4f53-b4fd-e2bb415bf286",
+            "name": "Shirts",
+            "emoji": "",
+            "parent": "232515ee-17e7-4b4a-95f6-b3f63878b636"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b6725f6a-e9b2-408f-814b-af2a4973423d",
+        "fields": {
+            "uuid": "b6725f6a-e9b2-408f-814b-af2a4973423d",
+            "name": "T-Shirts",
+            "emoji": "",
+            "parent": "232515ee-17e7-4b4a-95f6-b3f63878b636"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1223ff79-3f21-4e9c-834e-32b2123aa196",
+        "fields": {
+            "uuid": "1223ff79-3f21-4e9c-834e-32b2123aa196",
+            "name": "Tunics",
+            "emoji": "",
+            "parent": "232515ee-17e7-4b4a-95f6-b3f63878b636"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c387aa1b-57e6-414b-8c67-31ebb4688cf3",
+        "fields": {
+            "uuid": "c387aa1b-57e6-414b-8c67-31ebb4688cf3",
+            "name": "Hoodies",
+            "emoji": "",
+            "parent": "232515ee-17e7-4b4a-95f6-b3f63878b636"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "af2748a2-9179-43f1-93bd-03f8026f4051",
+        "fields": {
+            "uuid": "af2748a2-9179-43f1-93bd-03f8026f4051",
+            "name": "Sweaters",
+            "emoji": "",
+            "parent": "232515ee-17e7-4b4a-95f6-b3f63878b636"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7799d1b2-d50d-4216-9dc2-a5eff7bc9752",
+        "fields": {
+            "uuid": "7799d1b2-d50d-4216-9dc2-a5eff7bc9752",
+            "name": "Sweatshirts",
+            "emoji": "",
+            "parent": "232515ee-17e7-4b4a-95f6-b3f63878b636"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "62461d5c-4b61-43e8-9f90-1b30599a86e5",
+        "fields": {
+            "uuid": "62461d5c-4b61-43e8-9f90-1b30599a86e5",
+            "name": "Baby One-Pieces",
+            "emoji": "",
+            "parent": "de2f9c31-509e-4395-b702-f500511144ed"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "eb5931eb-63ca-41d7-8f60-b2fa4df45052",
+        "fields": {
+            "uuid": "eb5931eb-63ca-41d7-8f60-b2fa4df45052",
+            "name": "Toddler Underwear",
+            "emoji": "",
+            "parent": "de2f9c31-509e-4395-b702-f500511144ed"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4c117eb6-c97f-4718-ba1a-16d283e902cf",
+        "fields": {
+            "uuid": "4c117eb6-c97f-4718-ba1a-16d283e902cf",
+            "name": "Boxer Briefs",
+            "emoji": "",
+            "parent": "eb5931eb-63ca-41d7-8f60-b2fa4df45052"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "eb6ebfa9-94bc-4c6c-9aa8-5d104c775731",
+        "fields": {
+            "uuid": "eb6ebfa9-94bc-4c6c-9aa8-5d104c775731",
+            "name": "Boxers",
+            "emoji": "",
+            "parent": "eb5931eb-63ca-41d7-8f60-b2fa4df45052"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b61e7ff5-643d-4210-baeb-99353ccb4433",
+        "fields": {
+            "uuid": "b61e7ff5-643d-4210-baeb-99353ccb4433",
+            "name": "Briefs",
+            "emoji": "",
+            "parent": "eb5931eb-63ca-41d7-8f60-b2fa4df45052"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "49a8a07b-75e0-4351-8e9d-29ba78512242",
+        "fields": {
+            "uuid": "49a8a07b-75e0-4351-8e9d-29ba78512242",
+            "name": "Panties",
+            "emoji": "",
+            "parent": "eb5931eb-63ca-41d7-8f60-b2fa4df45052"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5cbab995-2a96-472f-90af-a6b402d7cc08",
+        "fields": {
+            "uuid": "5cbab995-2a96-472f-90af-a6b402d7cc08",
+            "name": "Training Pants",
+            "emoji": "",
+            "parent": "eb5931eb-63ca-41d7-8f60-b2fa4df45052"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b1f0bd65-a5ac-45b2-a2a1-60184027f2fe",
+        "fields": {
+            "uuid": "b1f0bd65-a5ac-45b2-a2a1-60184027f2fe",
+            "name": "Boys' Underwear",
+            "emoji": "",
+            "parent": "ca3676d4-3570-4e32-ac00-3b670d913b8f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b2fa80fc-792d-4cd3-9455-ecf0c05d61e7",
+        "fields": {
+            "uuid": "b2fa80fc-792d-4cd3-9455-ecf0c05d61e7",
+            "name": "Boys' Long Johns",
+            "emoji": "",
+            "parent": "b1f0bd65-a5ac-45b2-a2a1-60184027f2fe"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3c34999f-ca2c-43b3-b275-3874561af31a",
+        "fields": {
+            "uuid": "3c34999f-ca2c-43b3-b275-3874561af31a",
+            "name": "Boys' Underpants",
+            "emoji": "",
+            "parent": "b1f0bd65-a5ac-45b2-a2a1-60184027f2fe"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "89d55612-4a06-4601-b3be-78b6f3d9fb30",
+        "fields": {
+            "uuid": "89d55612-4a06-4601-b3be-78b6f3d9fb30",
+            "name": "Boxer Briefs",
+            "emoji": "",
+            "parent": "3c34999f-ca2c-43b3-b275-3874561af31a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "721a7dc4-8a17-4f48-a16d-2da1da4d40fa",
+        "fields": {
+            "uuid": "721a7dc4-8a17-4f48-a16d-2da1da4d40fa",
+            "name": "Boxer Shorts",
+            "emoji": "",
+            "parent": "3c34999f-ca2c-43b3-b275-3874561af31a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ddb077b0-5b38-4083-8876-f88ee13a9d0f",
+        "fields": {
+            "uuid": "ddb077b0-5b38-4083-8876-f88ee13a9d0f",
+            "name": "Briefs",
+            "emoji": "",
+            "parent": "3c34999f-ca2c-43b3-b275-3874561af31a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3b9bf7a9-7777-4c3b-b185-f9c9c32d8aa5",
+        "fields": {
+            "uuid": "3b9bf7a9-7777-4c3b-b185-f9c9c32d8aa5",
+            "name": "Midway Briefs",
+            "emoji": "",
+            "parent": "3c34999f-ca2c-43b3-b275-3874561af31a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5ddd22a8-28d9-4332-9dc4-6eb22e425253",
+        "fields": {
+            "uuid": "5ddd22a8-28d9-4332-9dc4-6eb22e425253",
+            "name": "Trunks",
+            "emoji": "",
+            "parent": "3c34999f-ca2c-43b3-b275-3874561af31a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e836f684-7624-476e-b7db-b7b2d4148e54",
+        "fields": {
+            "uuid": "e836f684-7624-476e-b7db-b7b2d4148e54",
+            "name": "Boys' Undershirts",
+            "emoji": "",
+            "parent": "b1f0bd65-a5ac-45b2-a2a1-60184027f2fe"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2621c41e-20c8-4a34-a8bd-f5bfc29973b1",
+        "fields": {
+            "uuid": "2621c41e-20c8-4a34-a8bd-f5bfc29973b1",
+            "name": "Dresses",
+            "emoji": "",
+            "parent": "ca3676d4-3570-4e32-ac00-3b670d913b8f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4feb25ca-e298-4704-a84a-cecec125e6a2",
+        "fields": {
+            "uuid": "4feb25ca-e298-4704-a84a-cecec125e6a2",
+            "name": "Girls' Underwear",
+            "emoji": "",
+            "parent": "ca3676d4-3570-4e32-ac00-3b670d913b8f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "70c52214-3cbe-4988-ada2-cf9d0224c447",
+        "fields": {
+            "uuid": "70c52214-3cbe-4988-ada2-cf9d0224c447",
+            "name": "Girls' Long Johns",
+            "emoji": "",
+            "parent": "4feb25ca-e298-4704-a84a-cecec125e6a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1f1d1a8a-7318-4e34-a5cd-790d9c5c7acc",
+        "fields": {
+            "uuid": "1f1d1a8a-7318-4e34-a5cd-790d9c5c7acc",
+            "name": "Girls' Underpants",
+            "emoji": "",
+            "parent": "4feb25ca-e298-4704-a84a-cecec125e6a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9cdb3f3d-5c94-4d14-ba44-8b0b1e40611f",
+        "fields": {
+            "uuid": "9cdb3f3d-5c94-4d14-ba44-8b0b1e40611f",
+            "name": "Bikinis",
+            "emoji": "",
+            "parent": "1f1d1a8a-7318-4e34-a5cd-790d9c5c7acc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "785fe156-04a8-4f74-a768-be609c304207",
+        "fields": {
+            "uuid": "785fe156-04a8-4f74-a768-be609c304207",
+            "name": "Boxer Briefs",
+            "emoji": "",
+            "parent": "1f1d1a8a-7318-4e34-a5cd-790d9c5c7acc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "862f6a07-130e-492f-8bb4-a691e64c8e4a",
+        "fields": {
+            "uuid": "862f6a07-130e-492f-8bb4-a691e64c8e4a",
+            "name": "Boyshorts",
+            "emoji": "",
+            "parent": "1f1d1a8a-7318-4e34-a5cd-790d9c5c7acc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d5d56250-69fa-40e2-a1fe-ac790f27cba7",
+        "fields": {
+            "uuid": "d5d56250-69fa-40e2-a1fe-ac790f27cba7",
+            "name": "Briefs",
+            "emoji": "",
+            "parent": "1f1d1a8a-7318-4e34-a5cd-790d9c5c7acc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cd5beb3d-c315-46a4-bc0a-096ccac993ac",
+        "fields": {
+            "uuid": "cd5beb3d-c315-46a4-bc0a-096ccac993ac",
+            "name": "Hipsters",
+            "emoji": "",
+            "parent": "1f1d1a8a-7318-4e34-a5cd-790d9c5c7acc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d0badced-4b09-4404-a86e-f976eb6ee1dd",
+        "fields": {
+            "uuid": "d0badced-4b09-4404-a86e-f976eb6ee1dd",
+            "name": "Panties",
+            "emoji": "",
+            "parent": "1f1d1a8a-7318-4e34-a5cd-790d9c5c7acc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "70790f66-ceea-4ab1-ae02-850143c77d22",
+        "fields": {
+            "uuid": "70790f66-ceea-4ab1-ae02-850143c77d22",
+            "name": "Period Underwear",
+            "emoji": "",
+            "parent": "1f1d1a8a-7318-4e34-a5cd-790d9c5c7acc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0f97cfb8-08bc-4288-917e-c373db957c45",
+        "fields": {
+            "uuid": "0f97cfb8-08bc-4288-917e-c373db957c45",
+            "name": "Thongs",
+            "emoji": "",
+            "parent": "1f1d1a8a-7318-4e34-a5cd-790d9c5c7acc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8b9bf69f-a346-46cc-86f1-537443f3ad30",
+        "fields": {
+            "uuid": "8b9bf69f-a346-46cc-86f1-537443f3ad30",
+            "name": "Girls' Undershirts",
+            "emoji": "",
+            "parent": "4feb25ca-e298-4704-a84a-cecec125e6a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9fec1d22-918f-460b-ac0f-7e2fba86e6a7",
+        "fields": {
+            "uuid": "9fec1d22-918f-460b-ac0f-7e2fba86e6a7",
+            "name": "First Bras",
+            "emoji": "",
+            "parent": "8b9bf69f-a346-46cc-86f1-537443f3ad30"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "01e25beb-aa4d-49e7-98fb-e40a5f650f52",
+        "fields": {
+            "uuid": "01e25beb-aa4d-49e7-98fb-e40a5f650f52",
+            "name": "Lingerie",
+            "emoji": "",
+            "parent": "ca3676d4-3570-4e32-ac00-3b670d913b8f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a7c3e0b5-8edd-476a-b19f-02ac77c4af67",
+        "fields": {
+            "uuid": "a7c3e0b5-8edd-476a-b19f-02ac77c4af67",
+            "name": "Bodysuits",
+            "emoji": "",
+            "parent": "01e25beb-aa4d-49e7-98fb-e40a5f650f52"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b91e6782-8bc1-46cc-b90b-db0832e0f16f",
+        "fields": {
+            "uuid": "b91e6782-8bc1-46cc-b90b-db0832e0f16f",
+            "name": "Bra Accessories",
+            "emoji": "",
+            "parent": "01e25beb-aa4d-49e7-98fb-e40a5f650f52"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fcd191db-321b-4362-ae85-1fac1c10177d",
+        "fields": {
+            "uuid": "fcd191db-321b-4362-ae85-1fac1c10177d",
+            "name": "Bra Strap Pads",
+            "emoji": "",
+            "parent": "b91e6782-8bc1-46cc-b90b-db0832e0f16f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "93424196-9afb-4dfe-9762-b8b9af38ad61",
+        "fields": {
+            "uuid": "93424196-9afb-4dfe-9762-b8b9af38ad61",
+            "name": "Bra Straps & Extenders",
+            "emoji": "",
+            "parent": "b91e6782-8bc1-46cc-b90b-db0832e0f16f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d5f859ba-3688-436c-96dd-529c98e6206a",
+        "fields": {
+            "uuid": "d5f859ba-3688-436c-96dd-529c98e6206a",
+            "name": "Breast Enhancing Inserts",
+            "emoji": "",
+            "parent": "b91e6782-8bc1-46cc-b90b-db0832e0f16f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b480d591-2b5a-4e0a-bf26-a5d4bca6989a",
+        "fields": {
+            "uuid": "b480d591-2b5a-4e0a-bf26-a5d4bca6989a",
+            "name": "Breast Petals & Concealers",
+            "emoji": "",
+            "parent": "b91e6782-8bc1-46cc-b90b-db0832e0f16f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8b258748-3ada-459a-a267-8c02b8565db9",
+        "fields": {
+            "uuid": "8b258748-3ada-459a-a267-8c02b8565db9",
+            "name": "Bras",
+            "emoji": "",
+            "parent": "01e25beb-aa4d-49e7-98fb-e40a5f650f52"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b7bc3645-298f-4e87-9d83-e922ecab2d8b",
+        "fields": {
+            "uuid": "b7bc3645-298f-4e87-9d83-e922ecab2d8b",
+            "name": "Camisoles",
+            "emoji": "",
+            "parent": "01e25beb-aa4d-49e7-98fb-e40a5f650f52"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5b870b26-d9e7-43cb-a257-6b5dd94536a9",
+        "fields": {
+            "uuid": "5b870b26-d9e7-43cb-a257-6b5dd94536a9",
+            "name": "Hosiery",
+            "emoji": "",
+            "parent": "01e25beb-aa4d-49e7-98fb-e40a5f650f52"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2ff7f42e-6ed7-443c-ac3a-7d7c1213ce63",
+        "fields": {
+            "uuid": "2ff7f42e-6ed7-443c-ac3a-7d7c1213ce63",
+            "name": "Jock Straps",
+            "emoji": "",
+            "parent": "01e25beb-aa4d-49e7-98fb-e40a5f650f52"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e29aaf16-0490-42ed-bdd2-70fb87456fc4",
+        "fields": {
+            "uuid": "e29aaf16-0490-42ed-bdd2-70fb87456fc4",
+            "name": "Lingerie Accessories",
+            "emoji": "",
+            "parent": "01e25beb-aa4d-49e7-98fb-e40a5f650f52"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4e6fcab0-d0a5-4bbb-aeff-64fdf6d11584",
+        "fields": {
+            "uuid": "4e6fcab0-d0a5-4bbb-aeff-64fdf6d11584",
+            "name": "Garter Belts",
+            "emoji": "",
+            "parent": "e29aaf16-0490-42ed-bdd2-70fb87456fc4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7d98e7a5-8b11-4ddb-acb3-bd157f2f136f",
+        "fields": {
+            "uuid": "7d98e7a5-8b11-4ddb-acb3-bd157f2f136f",
+            "name": "Garters",
+            "emoji": "",
+            "parent": "e29aaf16-0490-42ed-bdd2-70fb87456fc4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "83ad702f-598c-4ca5-ae98-eb52033fa62e",
+        "fields": {
+            "uuid": "83ad702f-598c-4ca5-ae98-eb52033fa62e",
+            "name": "Pantyhose",
+            "emoji": "",
+            "parent": "e29aaf16-0490-42ed-bdd2-70fb87456fc4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "72163bf7-86d6-4d9a-bd90-f605fc4fddb6",
+        "fields": {
+            "uuid": "72163bf7-86d6-4d9a-bd90-f605fc4fddb6",
+            "name": "Petticoats & Pettipants",
+            "emoji": "",
+            "parent": "01e25beb-aa4d-49e7-98fb-e40a5f650f52"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0a6f897f-a089-4b39-91b1-c6ccead15b39",
+        "fields": {
+            "uuid": "0a6f897f-a089-4b39-91b1-c6ccead15b39",
+            "name": "Shapewear",
+            "emoji": "",
+            "parent": "01e25beb-aa4d-49e7-98fb-e40a5f650f52"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fec66fe5-11a5-45e4-8ffa-236f2bdd3dfe",
+        "fields": {
+            "uuid": "fec66fe5-11a5-45e4-8ffa-236f2bdd3dfe",
+            "name": "Bodysuits",
+            "emoji": "",
+            "parent": "0a6f897f-a089-4b39-91b1-c6ccead15b39"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ba495020-11c3-453b-bbce-6afbb10fbe02",
+        "fields": {
+            "uuid": "ba495020-11c3-453b-bbce-6afbb10fbe02",
+            "name": "Full Body Shapes",
+            "emoji": "",
+            "parent": "0a6f897f-a089-4b39-91b1-c6ccead15b39"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a01495e0-b4aa-4092-8b46-89c214e0cecf",
+        "fields": {
+            "uuid": "a01495e0-b4aa-4092-8b46-89c214e0cecf",
+            "name": "High Waisted Briefs",
+            "emoji": "",
+            "parent": "0a6f897f-a089-4b39-91b1-c6ccead15b39"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fdf77e14-469d-4c6c-8d11-4bd1682c3d38",
+        "fields": {
+            "uuid": "fdf77e14-469d-4c6c-8d11-4bd1682c3d38",
+            "name": "Thigh Slimmers",
+            "emoji": "",
+            "parent": "0a6f897f-a089-4b39-91b1-c6ccead15b39"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "18fcb0d1-8dd7-435d-916b-9b13f39bf0d2",
+        "fields": {
+            "uuid": "18fcb0d1-8dd7-435d-916b-9b13f39bf0d2",
+            "name": "Waist Cinchers",
+            "emoji": "",
+            "parent": "0a6f897f-a089-4b39-91b1-c6ccead15b39"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1ad1db9a-20bf-45e6-acd6-4c605809c50c",
+        "fields": {
+            "uuid": "1ad1db9a-20bf-45e6-acd6-4c605809c50c",
+            "name": "Women's Underpants",
+            "emoji": "",
+            "parent": "01e25beb-aa4d-49e7-98fb-e40a5f650f52"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2875b927-4330-453c-b96b-5d64abcc27f2",
+        "fields": {
+            "uuid": "2875b927-4330-453c-b96b-5d64abcc27f2",
+            "name": "Bikinis",
+            "emoji": "",
+            "parent": "1ad1db9a-20bf-45e6-acd6-4c605809c50c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "caaba70b-4900-4588-b9b3-d11ca1e4b2dc",
+        "fields": {
+            "uuid": "caaba70b-4900-4588-b9b3-d11ca1e4b2dc",
+            "name": "Boyshorts",
+            "emoji": "",
+            "parent": "1ad1db9a-20bf-45e6-acd6-4c605809c50c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0db9cf71-bd44-4adb-aacc-d8c9aaa034bb",
+        "fields": {
+            "uuid": "0db9cf71-bd44-4adb-aacc-d8c9aaa034bb",
+            "name": "Briefs",
+            "emoji": "",
+            "parent": "1ad1db9a-20bf-45e6-acd6-4c605809c50c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "37021487-326e-42f5-9c1a-ad184709d29f",
+        "fields": {
+            "uuid": "37021487-326e-42f5-9c1a-ad184709d29f",
+            "name": "G-Strings",
+            "emoji": "",
+            "parent": "1ad1db9a-20bf-45e6-acd6-4c605809c50c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4ca07a24-80a0-41e9-8982-84abc862fa03",
+        "fields": {
+            "uuid": "4ca07a24-80a0-41e9-8982-84abc862fa03",
+            "name": "Period Underwear",
+            "emoji": "",
+            "parent": "1ad1db9a-20bf-45e6-acd6-4c605809c50c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3d6b60b2-188b-4f76-ab8b-def481614171",
+        "fields": {
+            "uuid": "3d6b60b2-188b-4f76-ab8b-def481614171",
+            "name": "Thongs",
+            "emoji": "",
+            "parent": "1ad1db9a-20bf-45e6-acd6-4c605809c50c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a4f1f368-2269-4e17-b0c8-8ebcd6d12dc9",
+        "fields": {
+            "uuid": "a4f1f368-2269-4e17-b0c8-8ebcd6d12dc9",
+            "name": "Women's Undershirts",
+            "emoji": "",
+            "parent": "01e25beb-aa4d-49e7-98fb-e40a5f650f52"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "98a3be71-17db-4a95-a213-83106625d581",
+        "fields": {
+            "uuid": "98a3be71-17db-4a95-a213-83106625d581",
+            "name": "Women's Underwear Slips",
+            "emoji": "",
+            "parent": "01e25beb-aa4d-49e7-98fb-e40a5f650f52"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3ad794e3-8d62-46c8-a815-de70bf447118",
+        "fields": {
+            "uuid": "3ad794e3-8d62-46c8-a815-de70bf447118",
+            "name": "Maternity Clothing",
+            "emoji": "",
+            "parent": "ca3676d4-3570-4e32-ac00-3b670d913b8f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f363bbfb-8e89-4c15-af79-19184ecaac97",
+        "fields": {
+            "uuid": "f363bbfb-8e89-4c15-af79-19184ecaac97",
+            "name": "Nursing Bras",
+            "emoji": "",
+            "parent": "3ad794e3-8d62-46c8-a815-de70bf447118"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c3a460c9-ec25-475e-9b76-f9992495a957",
+        "fields": {
+            "uuid": "c3a460c9-ec25-475e-9b76-f9992495a957",
+            "name": "Maternity Dresses",
+            "emoji": "",
+            "parent": "3ad794e3-8d62-46c8-a815-de70bf447118"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "13e0a68c-ad04-4fad-9a7a-a0a27c727102",
+        "fields": {
+            "uuid": "13e0a68c-ad04-4fad-9a7a-a0a27c727102",
+            "name": "Maternity One-Pieces",
+            "emoji": "",
+            "parent": "3ad794e3-8d62-46c8-a815-de70bf447118"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1dcada86-7a23-466e-9476-4618e9113c9d",
+        "fields": {
+            "uuid": "1dcada86-7a23-466e-9476-4618e9113c9d",
+            "name": "Maternity Pants",
+            "emoji": "",
+            "parent": "3ad794e3-8d62-46c8-a815-de70bf447118"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "124cf893-cdba-4302-b39d-316375dc5342",
+        "fields": {
+            "uuid": "124cf893-cdba-4302-b39d-316375dc5342",
+            "name": "Cargos",
+            "emoji": "",
+            "parent": "1dcada86-7a23-466e-9476-4618e9113c9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0f7de0a1-a92b-4ea1-b2d3-4ab936be0576",
+        "fields": {
+            "uuid": "0f7de0a1-a92b-4ea1-b2d3-4ab936be0576",
+            "name": "Chinos",
+            "emoji": "",
+            "parent": "1dcada86-7a23-466e-9476-4618e9113c9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c93aaa49-da6c-4118-bccf-1901b9be0d74",
+        "fields": {
+            "uuid": "c93aaa49-da6c-4118-bccf-1901b9be0d74",
+            "name": "Jeans",
+            "emoji": "",
+            "parent": "1dcada86-7a23-466e-9476-4618e9113c9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "48b03ebf-3f25-433f-a3b5-b10759e7fefd",
+        "fields": {
+            "uuid": "48b03ebf-3f25-433f-a3b5-b10759e7fefd",
+            "name": "Jeggings",
+            "emoji": "",
+            "parent": "1dcada86-7a23-466e-9476-4618e9113c9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "21dd8b48-9f25-4a3b-9927-8b9169f68924",
+        "fields": {
+            "uuid": "21dd8b48-9f25-4a3b-9927-8b9169f68924",
+            "name": "Joggers",
+            "emoji": "",
+            "parent": "1dcada86-7a23-466e-9476-4618e9113c9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "185971d7-f2cc-4dcc-95d9-3db8047781f9",
+        "fields": {
+            "uuid": "185971d7-f2cc-4dcc-95d9-3db8047781f9",
+            "name": "Leggings",
+            "emoji": "",
+            "parent": "1dcada86-7a23-466e-9476-4618e9113c9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d9738e36-6100-4edd-9f0c-2e69625e3b27",
+        "fields": {
+            "uuid": "d9738e36-6100-4edd-9f0c-2e69625e3b27",
+            "name": "Skorts",
+            "emoji": "",
+            "parent": "1dcada86-7a23-466e-9476-4618e9113c9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "37a0ea32-c0df-4cee-96b9-ad2609faf5da",
+        "fields": {
+            "uuid": "37a0ea32-c0df-4cee-96b9-ad2609faf5da",
+            "name": "Trousers",
+            "emoji": "",
+            "parent": "1dcada86-7a23-466e-9476-4618e9113c9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2a90f1e3-e238-4908-9498-002463f9ecd2",
+        "fields": {
+            "uuid": "2a90f1e3-e238-4908-9498-002463f9ecd2",
+            "name": "Maternity Skirts",
+            "emoji": "",
+            "parent": "3ad794e3-8d62-46c8-a815-de70bf447118"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e552b108-4c8d-461f-a662-d30c9af1802c",
+        "fields": {
+            "uuid": "e552b108-4c8d-461f-a662-d30c9af1802c",
+            "name": "Maternity Sleepwear",
+            "emoji": "",
+            "parent": "3ad794e3-8d62-46c8-a815-de70bf447118"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "82340150-461a-40aa-81b2-d44f84ba6b27",
+        "fields": {
+            "uuid": "82340150-461a-40aa-81b2-d44f84ba6b27",
+            "name": "Maternity Swimwear",
+            "emoji": "",
+            "parent": "3ad794e3-8d62-46c8-a815-de70bf447118"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7d0bf2e7-528f-4eb4-9a63-e3795fd937f6",
+        "fields": {
+            "uuid": "7d0bf2e7-528f-4eb4-9a63-e3795fd937f6",
+            "name": "Swim Boxers",
+            "emoji": "",
+            "parent": "82340150-461a-40aa-81b2-d44f84ba6b27"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "78dd37c6-4e73-451d-8884-dab4ebff5d05",
+        "fields": {
+            "uuid": "78dd37c6-4e73-451d-8884-dab4ebff5d05",
+            "name": "Burkinis",
+            "emoji": "",
+            "parent": "82340150-461a-40aa-81b2-d44f84ba6b27"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6ebb6079-513e-4224-9c70-3b23c34aba07",
+        "fields": {
+            "uuid": "6ebb6079-513e-4224-9c70-3b23c34aba07",
+            "name": "Classic Bikinis",
+            "emoji": "",
+            "parent": "82340150-461a-40aa-81b2-d44f84ba6b27"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8453dc11-a372-42fe-bb08-0de5ee17bfcf",
+        "fields": {
+            "uuid": "8453dc11-a372-42fe-bb08-0de5ee17bfcf",
+            "name": "Cover Ups",
+            "emoji": "",
+            "parent": "82340150-461a-40aa-81b2-d44f84ba6b27"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dc4233e0-f2b1-4ace-b5ae-bab9b95c11a4",
+        "fields": {
+            "uuid": "dc4233e0-f2b1-4ace-b5ae-bab9b95c11a4",
+            "name": "Swim Dresses",
+            "emoji": "",
+            "parent": "82340150-461a-40aa-81b2-d44f84ba6b27"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6de46130-7389-48e4-ab8a-4235c3118619",
+        "fields": {
+            "uuid": "6de46130-7389-48e4-ab8a-4235c3118619",
+            "name": "One-Piece Swimsuits",
+            "emoji": "",
+            "parent": "82340150-461a-40aa-81b2-d44f84ba6b27"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "da85fc3d-87f4-4878-a7ca-32eddf78c6c3",
+        "fields": {
+            "uuid": "da85fc3d-87f4-4878-a7ca-32eddf78c6c3",
+            "name": "Swimwear Tops",
+            "emoji": "",
+            "parent": "82340150-461a-40aa-81b2-d44f84ba6b27"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a126c7f4-abfa-4996-9532-933d28da913e",
+        "fields": {
+            "uuid": "a126c7f4-abfa-4996-9532-933d28da913e",
+            "name": "Maternity Tops",
+            "emoji": "",
+            "parent": "3ad794e3-8d62-46c8-a815-de70bf447118"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4cc229a7-43b1-4223-8f87-b32a06d24ffc",
+        "fields": {
+            "uuid": "4cc229a7-43b1-4223-8f87-b32a06d24ffc",
+            "name": "Blouses",
+            "emoji": "",
+            "parent": "a126c7f4-abfa-4996-9532-933d28da913e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cfe13192-5aa6-4054-97c2-5e30182a746d",
+        "fields": {
+            "uuid": "cfe13192-5aa6-4054-97c2-5e30182a746d",
+            "name": "Bodysuits",
+            "emoji": "",
+            "parent": "a126c7f4-abfa-4996-9532-933d28da913e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ef5c8d90-e865-4797-87dc-7b0cc4ac79f6",
+        "fields": {
+            "uuid": "ef5c8d90-e865-4797-87dc-7b0cc4ac79f6",
+            "name": "Cardigans",
+            "emoji": "",
+            "parent": "a126c7f4-abfa-4996-9532-933d28da913e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c1c3a8e6-7fe8-4543-96e9-91b9bf16384d",
+        "fields": {
+            "uuid": "c1c3a8e6-7fe8-4543-96e9-91b9bf16384d",
+            "name": "Nursing Shirts",
+            "emoji": "",
+            "parent": "a126c7f4-abfa-4996-9532-933d28da913e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0e784514-c30c-4d70-8f8a-139bc36136ac",
+        "fields": {
+            "uuid": "0e784514-c30c-4d70-8f8a-139bc36136ac",
+            "name": "Overshirts",
+            "emoji": "",
+            "parent": "a126c7f4-abfa-4996-9532-933d28da913e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b4ebc2a7-6a4f-42f8-abd5-41e23777a015",
+        "fields": {
+            "uuid": "b4ebc2a7-6a4f-42f8-abd5-41e23777a015",
+            "name": "Shirts",
+            "emoji": "",
+            "parent": "a126c7f4-abfa-4996-9532-933d28da913e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a71a2137-ba5c-4d0a-973a-3accdaf50ba0",
+        "fields": {
+            "uuid": "a71a2137-ba5c-4d0a-973a-3accdaf50ba0",
+            "name": "T-Shirts",
+            "emoji": "",
+            "parent": "a126c7f4-abfa-4996-9532-933d28da913e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5c328f8e-c1a1-4e68-8e5b-6463441806fd",
+        "fields": {
+            "uuid": "5c328f8e-c1a1-4e68-8e5b-6463441806fd",
+            "name": "Tunics",
+            "emoji": "",
+            "parent": "a126c7f4-abfa-4996-9532-933d28da913e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "484daf40-aab2-45e4-b054-c8e8bd50b31b",
+        "fields": {
+            "uuid": "484daf40-aab2-45e4-b054-c8e8bd50b31b",
+            "name": "Men's Undergarments",
+            "emoji": "",
+            "parent": "ca3676d4-3570-4e32-ac00-3b670d913b8f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c9d9a80e-ce0e-42c6-8b4b-818ffc7781f0",
+        "fields": {
+            "uuid": "c9d9a80e-ce0e-42c6-8b4b-818ffc7781f0",
+            "name": "Men's Long Johns",
+            "emoji": "",
+            "parent": "484daf40-aab2-45e4-b054-c8e8bd50b31b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ff8e945f-66b4-4e09-bde0-734f957380c3",
+        "fields": {
+            "uuid": "ff8e945f-66b4-4e09-bde0-734f957380c3",
+            "name": "Men's Undershirts",
+            "emoji": "",
+            "parent": "484daf40-aab2-45e4-b054-c8e8bd50b31b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "537a7182-f94f-47bd-8666-015b484e4b17",
+        "fields": {
+            "uuid": "537a7182-f94f-47bd-8666-015b484e4b17",
+            "name": "Men's Underwear",
+            "emoji": "",
+            "parent": "484daf40-aab2-45e4-b054-c8e8bd50b31b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1b84d215-45c3-4a5a-9dc4-3792849efa15",
+        "fields": {
+            "uuid": "1b84d215-45c3-4a5a-9dc4-3792849efa15",
+            "name": "Boxer Briefs",
+            "emoji": "",
+            "parent": "537a7182-f94f-47bd-8666-015b484e4b17"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "38eb16b4-f17c-43bc-b8cd-80af5a80d0d5",
+        "fields": {
+            "uuid": "38eb16b4-f17c-43bc-b8cd-80af5a80d0d5",
+            "name": "Boxer Shorts",
+            "emoji": "",
+            "parent": "537a7182-f94f-47bd-8666-015b484e4b17"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2b91f1c7-c52f-455b-bc14-fce25d685cf3",
+        "fields": {
+            "uuid": "2b91f1c7-c52f-455b-bc14-fce25d685cf3",
+            "name": "Briefs",
+            "emoji": "",
+            "parent": "537a7182-f94f-47bd-8666-015b484e4b17"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ffa33aa0-0800-43e6-b49f-6897bddbe3b4",
+        "fields": {
+            "uuid": "ffa33aa0-0800-43e6-b49f-6897bddbe3b4",
+            "name": "Jockstraps",
+            "emoji": "",
+            "parent": "537a7182-f94f-47bd-8666-015b484e4b17"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8d1887a3-8eb3-4bb6-a29b-a90570aea5ea",
+        "fields": {
+            "uuid": "8d1887a3-8eb3-4bb6-a29b-a90570aea5ea",
+            "name": "Midway Briefs",
+            "emoji": "",
+            "parent": "537a7182-f94f-47bd-8666-015b484e4b17"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1d63a4d0-e865-4b74-ac11-f0fa9b913cc6",
+        "fields": {
+            "uuid": "1d63a4d0-e865-4b74-ac11-f0fa9b913cc6",
+            "name": "Thongs",
+            "emoji": "",
+            "parent": "537a7182-f94f-47bd-8666-015b484e4b17"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8db1d95d-784e-47e5-aca6-69559c28ae02",
+        "fields": {
+            "uuid": "8db1d95d-784e-47e5-aca6-69559c28ae02",
+            "name": "Trunks",
+            "emoji": "",
+            "parent": "537a7182-f94f-47bd-8666-015b484e4b17"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f87ee468-c38c-42f4-a27f-39b9bbd03789",
+        "fields": {
+            "uuid": "f87ee468-c38c-42f4-a27f-39b9bbd03789",
+            "name": "Undershorts",
+            "emoji": "",
+            "parent": "537a7182-f94f-47bd-8666-015b484e4b17"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3475983e-84a5-4733-ac36-237aa46e2aeb",
+        "fields": {
+            "uuid": "3475983e-84a5-4733-ac36-237aa46e2aeb",
+            "name": "One-Pieces",
+            "emoji": "",
+            "parent": "ca3676d4-3570-4e32-ac00-3b670d913b8f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ba5932d4-e692-4a3a-bc65-cf7882d48518",
+        "fields": {
+            "uuid": "ba5932d4-e692-4a3a-bc65-cf7882d48518",
+            "name": "Outerwear",
+            "emoji": "",
+            "parent": "ca3676d4-3570-4e32-ac00-3b670d913b8f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ddd68c3a-92c5-4edf-9889-bf13708cec12",
+        "fields": {
+            "uuid": "ddd68c3a-92c5-4edf-9889-bf13708cec12",
+            "name": "Chaps",
+            "emoji": "",
+            "parent": "ba5932d4-e692-4a3a-bc65-cf7882d48518"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "196f2cf2-b2ab-40bb-8c7d-05f6fea734bc",
+        "fields": {
+            "uuid": "196f2cf2-b2ab-40bb-8c7d-05f6fea734bc",
+            "name": "Coats & Jackets",
+            "emoji": "",
+            "parent": "ba5932d4-e692-4a3a-bc65-cf7882d48518"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "359c3ceb-80cd-43b4-9300-40925c4aec72",
+        "fields": {
+            "uuid": "359c3ceb-80cd-43b4-9300-40925c4aec72",
+            "name": "Bolero Jackets",
+            "emoji": "",
+            "parent": "196f2cf2-b2ab-40bb-8c7d-05f6fea734bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "679c0cc8-591b-4c94-879d-9a6fb838f413",
+        "fields": {
+            "uuid": "679c0cc8-591b-4c94-879d-9a6fb838f413",
+            "name": "Bomber Jackets",
+            "emoji": "",
+            "parent": "196f2cf2-b2ab-40bb-8c7d-05f6fea734bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2c596150-3c04-429e-aa86-7c0cae09283b",
+        "fields": {
+            "uuid": "2c596150-3c04-429e-aa86-7c0cae09283b",
+            "name": "Capes",
+            "emoji": "",
+            "parent": "196f2cf2-b2ab-40bb-8c7d-05f6fea734bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "54fffa27-f378-47bb-8f58-d75d450f47cc",
+        "fields": {
+            "uuid": "54fffa27-f378-47bb-8f58-d75d450f47cc",
+            "name": "Overcoats",
+            "emoji": "",
+            "parent": "196f2cf2-b2ab-40bb-8c7d-05f6fea734bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "61fcae59-bacc-4491-8459-ce7160158d49",
+        "fields": {
+            "uuid": "61fcae59-bacc-4491-8459-ce7160158d49",
+            "name": "Parkas",
+            "emoji": "",
+            "parent": "196f2cf2-b2ab-40bb-8c7d-05f6fea734bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b83b801d-f4d2-41fa-8e36-4649ef83e8b9",
+        "fields": {
+            "uuid": "b83b801d-f4d2-41fa-8e36-4649ef83e8b9",
+            "name": "Pea Coats",
+            "emoji": "",
+            "parent": "196f2cf2-b2ab-40bb-8c7d-05f6fea734bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e821c567-fa6c-45f9-bacd-917f455b20b3",
+        "fields": {
+            "uuid": "e821c567-fa6c-45f9-bacd-917f455b20b3",
+            "name": "Ponchos",
+            "emoji": "",
+            "parent": "196f2cf2-b2ab-40bb-8c7d-05f6fea734bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2cf173b6-f376-4aea-ae95-375b5146caab",
+        "fields": {
+            "uuid": "2cf173b6-f376-4aea-ae95-375b5146caab",
+            "name": "Puffer Jackets",
+            "emoji": "",
+            "parent": "196f2cf2-b2ab-40bb-8c7d-05f6fea734bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "93332e99-e3d3-4f90-97a0-b6f59f605705",
+        "fields": {
+            "uuid": "93332e99-e3d3-4f90-97a0-b6f59f605705",
+            "name": "Rain Coats",
+            "emoji": "",
+            "parent": "196f2cf2-b2ab-40bb-8c7d-05f6fea734bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0914fdbd-1eed-42fd-ae5b-c0c8c1b186b3",
+        "fields": {
+            "uuid": "0914fdbd-1eed-42fd-ae5b-c0c8c1b186b3",
+            "name": "Sport Jackets",
+            "emoji": "",
+            "parent": "196f2cf2-b2ab-40bb-8c7d-05f6fea734bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "23f426db-ed57-4d8b-915e-7bcb9734228c",
+        "fields": {
+            "uuid": "23f426db-ed57-4d8b-915e-7bcb9734228c",
+            "name": "Track Jackets",
+            "emoji": "",
+            "parent": "196f2cf2-b2ab-40bb-8c7d-05f6fea734bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "021ddc1c-9ce4-4484-85e2-1c8b17328ce5",
+        "fields": {
+            "uuid": "021ddc1c-9ce4-4484-85e2-1c8b17328ce5",
+            "name": "Trench Coats",
+            "emoji": "",
+            "parent": "196f2cf2-b2ab-40bb-8c7d-05f6fea734bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "49c430f9-e08a-46ad-b581-5edd2d470e39",
+        "fields": {
+            "uuid": "49c430f9-e08a-46ad-b581-5edd2d470e39",
+            "name": "Trucker Jackets",
+            "emoji": "",
+            "parent": "196f2cf2-b2ab-40bb-8c7d-05f6fea734bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8428bef8-e0c6-4788-910c-23826084f8d8",
+        "fields": {
+            "uuid": "8428bef8-e0c6-4788-910c-23826084f8d8",
+            "name": "Varsity Jackets",
+            "emoji": "",
+            "parent": "196f2cf2-b2ab-40bb-8c7d-05f6fea734bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2d6a7f89-e6fb-4b0c-b887-e7fc53cae5d3",
+        "fields": {
+            "uuid": "2d6a7f89-e6fb-4b0c-b887-e7fc53cae5d3",
+            "name": "Windbreakers",
+            "emoji": "",
+            "parent": "196f2cf2-b2ab-40bb-8c7d-05f6fea734bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3c21e77b-b769-4e52-8a01-136b377a53aa",
+        "fields": {
+            "uuid": "3c21e77b-b769-4e52-8a01-136b377a53aa",
+            "name": "Wrap Coats",
+            "emoji": "",
+            "parent": "196f2cf2-b2ab-40bb-8c7d-05f6fea734bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "190ff410-bbcf-4f26-9b7b-039c0819b7a2",
+        "fields": {
+            "uuid": "190ff410-bbcf-4f26-9b7b-039c0819b7a2",
+            "name": "Rain Pants",
+            "emoji": "",
+            "parent": "ba5932d4-e692-4a3a-bc65-cf7882d48518"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "929c2f52-6c27-49ed-bced-0aceb15eadf7",
+        "fields": {
+            "uuid": "929c2f52-6c27-49ed-bced-0aceb15eadf7",
+            "name": "Rain Suits",
+            "emoji": "",
+            "parent": "ba5932d4-e692-4a3a-bc65-cf7882d48518"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2ff79189-6f3e-46a7-9da7-caf86fccfdef",
+        "fields": {
+            "uuid": "2ff79189-6f3e-46a7-9da7-caf86fccfdef",
+            "name": "Snow Pants & Suits",
+            "emoji": "",
+            "parent": "ba5932d4-e692-4a3a-bc65-cf7882d48518"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "df91e48c-199c-40af-8ceb-5f25bd966e48",
+        "fields": {
+            "uuid": "df91e48c-199c-40af-8ceb-5f25bd966e48",
+            "name": "Vests",
+            "emoji": "",
+            "parent": "ba5932d4-e692-4a3a-bc65-cf7882d48518"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e72259bc-ce87-41cb-b806-372130f82917",
+        "fields": {
+            "uuid": "e72259bc-ce87-41cb-b806-372130f82917",
+            "name": "Motorcycle Outerwear",
+            "emoji": "",
+            "parent": "ba5932d4-e692-4a3a-bc65-cf7882d48518"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "beb384d1-d2e0-471e-8cc0-3bf5e1eea754",
+        "fields": {
+            "uuid": "beb384d1-d2e0-471e-8cc0-3bf5e1eea754",
+            "name": "Outfit Sets",
+            "emoji": "",
+            "parent": "ca3676d4-3570-4e32-ac00-3b670d913b8f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "42f93f4b-2042-4b61-8155-a3a1658b3893",
+        "fields": {
+            "uuid": "42f93f4b-2042-4b61-8155-a3a1658b3893",
+            "name": "Pants",
+            "emoji": "",
+            "parent": "ca3676d4-3570-4e32-ac00-3b670d913b8f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c389c537-7dc7-4b2c-a2f4-9fb14e87f56f",
+        "fields": {
+            "uuid": "c389c537-7dc7-4b2c-a2f4-9fb14e87f56f",
+            "name": "Cargo Pants",
+            "emoji": "",
+            "parent": "42f93f4b-2042-4b61-8155-a3a1658b3893"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9d89fec8-b97c-4e3f-9d8d-6fa75a03ec68",
+        "fields": {
+            "uuid": "9d89fec8-b97c-4e3f-9d8d-6fa75a03ec68",
+            "name": "Chinos",
+            "emoji": "",
+            "parent": "42f93f4b-2042-4b61-8155-a3a1658b3893"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c4f279c9-44b0-4c10-88f6-72a222f2b827",
+        "fields": {
+            "uuid": "c4f279c9-44b0-4c10-88f6-72a222f2b827",
+            "name": "Jeans",
+            "emoji": "",
+            "parent": "42f93f4b-2042-4b61-8155-a3a1658b3893"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "40e0e24f-fe08-4175-bcc0-f6b43c630b05",
+        "fields": {
+            "uuid": "40e0e24f-fe08-4175-bcc0-f6b43c630b05",
+            "name": "Jeggings",
+            "emoji": "",
+            "parent": "42f93f4b-2042-4b61-8155-a3a1658b3893"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a8c2c01a-1972-4c0c-86b7-8615141c5b23",
+        "fields": {
+            "uuid": "a8c2c01a-1972-4c0c-86b7-8615141c5b23",
+            "name": "Joggers",
+            "emoji": "",
+            "parent": "42f93f4b-2042-4b61-8155-a3a1658b3893"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a0ebf7e4-91b1-407a-9481-3a81af74d04d",
+        "fields": {
+            "uuid": "a0ebf7e4-91b1-407a-9481-3a81af74d04d",
+            "name": "Leggings",
+            "emoji": "",
+            "parent": "42f93f4b-2042-4b61-8155-a3a1658b3893"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c3cf14ef-cc7f-46bd-8495-e4c641de36cb",
+        "fields": {
+            "uuid": "c3cf14ef-cc7f-46bd-8495-e4c641de36cb",
+            "name": "Trousers",
+            "emoji": "",
+            "parent": "42f93f4b-2042-4b61-8155-a3a1658b3893"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e9544c02-0cad-4054-a2c8-d3ffb95be65e",
+        "fields": {
+            "uuid": "e9544c02-0cad-4054-a2c8-d3ffb95be65e",
+            "name": "Clothing Tops",
+            "emoji": "",
+            "parent": "ca3676d4-3570-4e32-ac00-3b670d913b8f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4b8c42f3-2b0b-4566-b39d-ed61d92d26d6",
+        "fields": {
+            "uuid": "4b8c42f3-2b0b-4566-b39d-ed61d92d26d6",
+            "name": "Blouses",
+            "emoji": "",
+            "parent": "e9544c02-0cad-4054-a2c8-d3ffb95be65e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "87abe81a-2f05-48d4-89ce-2a0b3bb07b87",
+        "fields": {
+            "uuid": "87abe81a-2f05-48d4-89ce-2a0b3bb07b87",
+            "name": "Bodysuits",
+            "emoji": "",
+            "parent": "e9544c02-0cad-4054-a2c8-d3ffb95be65e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "21749398-4f99-44e1-b03d-9515df9c9197",
+        "fields": {
+            "uuid": "21749398-4f99-44e1-b03d-9515df9c9197",
+            "name": "Cardigans",
+            "emoji": "",
+            "parent": "e9544c02-0cad-4054-a2c8-d3ffb95be65e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d1a6722d-cb62-40e3-889c-6f5719d53e95",
+        "fields": {
+            "uuid": "d1a6722d-cb62-40e3-889c-6f5719d53e95",
+            "name": "Overshirts",
+            "emoji": "",
+            "parent": "e9544c02-0cad-4054-a2c8-d3ffb95be65e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3e8e538e-9303-4a6c-9bc8-26c7233c91f5",
+        "fields": {
+            "uuid": "3e8e538e-9303-4a6c-9bc8-26c7233c91f5",
+            "name": "Polos",
+            "emoji": "",
+            "parent": "e9544c02-0cad-4054-a2c8-d3ffb95be65e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5364732e-0c71-4824-9da3-533fc5527c88",
+        "fields": {
+            "uuid": "5364732e-0c71-4824-9da3-533fc5527c88",
+            "name": "Shirts",
+            "emoji": "",
+            "parent": "e9544c02-0cad-4054-a2c8-d3ffb95be65e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6f21d830-5722-45d2-a49e-4b05f6ece38a",
+        "fields": {
+            "uuid": "6f21d830-5722-45d2-a49e-4b05f6ece38a",
+            "name": "T-Shirts",
+            "emoji": "",
+            "parent": "e9544c02-0cad-4054-a2c8-d3ffb95be65e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a08a8696-9f37-4a99-bad2-8901b5b45897",
+        "fields": {
+            "uuid": "a08a8696-9f37-4a99-bad2-8901b5b45897",
+            "name": "Tank Tops",
+            "emoji": "",
+            "parent": "e9544c02-0cad-4054-a2c8-d3ffb95be65e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "59e5321b-0d43-4353-a8f5-533f1d77fb84",
+        "fields": {
+            "uuid": "59e5321b-0d43-4353-a8f5-533f1d77fb84",
+            "name": "Tunics",
+            "emoji": "",
+            "parent": "e9544c02-0cad-4054-a2c8-d3ffb95be65e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d40fb5ee-e05e-4fde-9fe2-2ba4b86e251e",
+        "fields": {
+            "uuid": "d40fb5ee-e05e-4fde-9fe2-2ba4b86e251e",
+            "name": "Sweaters",
+            "emoji": "",
+            "parent": "e9544c02-0cad-4054-a2c8-d3ffb95be65e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3cd2fcc5-74db-4b69-82af-21a04acd49ae",
+        "fields": {
+            "uuid": "3cd2fcc5-74db-4b69-82af-21a04acd49ae",
+            "name": "Hoodies",
+            "emoji": "",
+            "parent": "e9544c02-0cad-4054-a2c8-d3ffb95be65e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8dc155c3-fb01-4d6c-8a96-1d4d3d1dba6f",
+        "fields": {
+            "uuid": "8dc155c3-fb01-4d6c-8a96-1d4d3d1dba6f",
+            "name": "Sweatshirts",
+            "emoji": "",
+            "parent": "e9544c02-0cad-4054-a2c8-d3ffb95be65e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d4fa746b-4adf-45f9-9e9a-143cce965f8c",
+        "fields": {
+            "uuid": "d4fa746b-4adf-45f9-9e9a-143cce965f8c",
+            "name": "Shorts",
+            "emoji": "",
+            "parent": "ca3676d4-3570-4e32-ac00-3b670d913b8f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a74acd57-9671-433f-9fd1-aaf19431e909",
+        "fields": {
+            "uuid": "a74acd57-9671-433f-9fd1-aaf19431e909",
+            "name": "Bermudas",
+            "emoji": "",
+            "parent": "d4fa746b-4adf-45f9-9e9a-143cce965f8c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "964c71b6-1c68-4f00-861f-e2e003625de9",
+        "fields": {
+            "uuid": "964c71b6-1c68-4f00-861f-e2e003625de9",
+            "name": "Cargo Shorts",
+            "emoji": "",
+            "parent": "d4fa746b-4adf-45f9-9e9a-143cce965f8c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ea6b47f9-6ada-4dad-9c89-fd2c113e1201",
+        "fields": {
+            "uuid": "ea6b47f9-6ada-4dad-9c89-fd2c113e1201",
+            "name": "Chino Shorts",
+            "emoji": "",
+            "parent": "d4fa746b-4adf-45f9-9e9a-143cce965f8c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "25b2925d-30d3-48a0-95cb-e67842323297",
+        "fields": {
+            "uuid": "25b2925d-30d3-48a0-95cb-e67842323297",
+            "name": "Short Trousers",
+            "emoji": "",
+            "parent": "d4fa746b-4adf-45f9-9e9a-143cce965f8c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c357fa0b-d6d2-482f-8421-7f64e8f135ab",
+        "fields": {
+            "uuid": "c357fa0b-d6d2-482f-8421-7f64e8f135ab",
+            "name": "Denim Shorts",
+            "emoji": "",
+            "parent": "d4fa746b-4adf-45f9-9e9a-143cce965f8c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "463581e7-6583-4532-8c8c-ec6bfc7a258e",
+        "fields": {
+            "uuid": "463581e7-6583-4532-8c8c-ec6bfc7a258e",
+            "name": "Jegging Shorts",
+            "emoji": "",
+            "parent": "d4fa746b-4adf-45f9-9e9a-143cce965f8c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8b80bf82-309c-43b8-af29-5c57265dd075",
+        "fields": {
+            "uuid": "8b80bf82-309c-43b8-af29-5c57265dd075",
+            "name": "Jogger Shorts",
+            "emoji": "",
+            "parent": "d4fa746b-4adf-45f9-9e9a-143cce965f8c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "223526e6-5212-4bad-b95e-3482f995484a",
+        "fields": {
+            "uuid": "223526e6-5212-4bad-b95e-3482f995484a",
+            "name": "Legging Shorts",
+            "emoji": "",
+            "parent": "d4fa746b-4adf-45f9-9e9a-143cce965f8c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "896986f5-4c97-4e21-a511-977eacc24ee1",
+        "fields": {
+            "uuid": "896986f5-4c97-4e21-a511-977eacc24ee1",
+            "name": "Skirts",
+            "emoji": "",
+            "parent": "ca3676d4-3570-4e32-ac00-3b670d913b8f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2af2f732-5d51-4838-a6a6-c72004acd550",
+        "fields": {
+            "uuid": "2af2f732-5d51-4838-a6a6-c72004acd550",
+            "name": "Skorts",
+            "emoji": "",
+            "parent": "ca3676d4-3570-4e32-ac00-3b670d913b8f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9f5731cf-39b7-4dc4-9de3-08887a2966f9",
+        "fields": {
+            "uuid": "9f5731cf-39b7-4dc4-9de3-08887a2966f9",
+            "name": "Sleepwear & Loungewear",
+            "emoji": "",
+            "parent": "ca3676d4-3570-4e32-ac00-3b670d913b8f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d7ce5049-cdc5-48ce-813d-2aa5cad8d350",
+        "fields": {
+            "uuid": "d7ce5049-cdc5-48ce-813d-2aa5cad8d350",
+            "name": "Long Johns",
+            "emoji": "",
+            "parent": "9f5731cf-39b7-4dc4-9de3-08887a2966f9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f290e12c-74ae-4f08-b328-5c08004f1c3f",
+        "fields": {
+            "uuid": "f290e12c-74ae-4f08-b328-5c08004f1c3f",
+            "name": "Loungewear",
+            "emoji": "",
+            "parent": "9f5731cf-39b7-4dc4-9de3-08887a2966f9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2ddf41cf-82a7-4183-afcf-92535e2db1f4",
+        "fields": {
+            "uuid": "2ddf41cf-82a7-4183-afcf-92535e2db1f4",
+            "name": "Loungewear Bottoms",
+            "emoji": "",
+            "parent": "f290e12c-74ae-4f08-b328-5c08004f1c3f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "649e1842-5111-4b70-92b8-4f2f5ca70b77",
+        "fields": {
+            "uuid": "649e1842-5111-4b70-92b8-4f2f5ca70b77",
+            "name": "Boxers",
+            "emoji": "",
+            "parent": "2ddf41cf-82a7-4183-afcf-92535e2db1f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "77ea657f-30a1-48aa-9df0-7ec1f852420d",
+        "fields": {
+            "uuid": "77ea657f-30a1-48aa-9df0-7ec1f852420d",
+            "name": "Joggers",
+            "emoji": "",
+            "parent": "2ddf41cf-82a7-4183-afcf-92535e2db1f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "680bb89c-d070-4a12-8643-ef1de775c6cd",
+        "fields": {
+            "uuid": "680bb89c-d070-4a12-8643-ef1de775c6cd",
+            "name": "Leggings",
+            "emoji": "",
+            "parent": "2ddf41cf-82a7-4183-afcf-92535e2db1f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b8a93755-9a1a-4d6a-bf64-45790eff6f2d",
+        "fields": {
+            "uuid": "b8a93755-9a1a-4d6a-bf64-45790eff6f2d",
+            "name": "Shorts",
+            "emoji": "",
+            "parent": "2ddf41cf-82a7-4183-afcf-92535e2db1f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d55e0e2a-a753-4e7f-b5cf-3fdec5fdbf24",
+        "fields": {
+            "uuid": "d55e0e2a-a753-4e7f-b5cf-3fdec5fdbf24",
+            "name": "Skirts",
+            "emoji": "",
+            "parent": "2ddf41cf-82a7-4183-afcf-92535e2db1f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5041fd80-b8ac-43f1-9e3b-44835bc1f80d",
+        "fields": {
+            "uuid": "5041fd80-b8ac-43f1-9e3b-44835bc1f80d",
+            "name": "Loungewear Tops",
+            "emoji": "",
+            "parent": "f290e12c-74ae-4f08-b328-5c08004f1c3f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "08004f88-d9e3-4eb6-8083-e41bf8be2c66",
+        "fields": {
+            "uuid": "08004f88-d9e3-4eb6-8083-e41bf8be2c66",
+            "name": "Nightgowns",
+            "emoji": "",
+            "parent": "9f5731cf-39b7-4dc4-9de3-08887a2966f9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "65b6964f-f290-4328-baa1-2b9b839d4103",
+        "fields": {
+            "uuid": "65b6964f-f290-4328-baa1-2b9b839d4103",
+            "name": "Pajamas",
+            "emoji": "",
+            "parent": "9f5731cf-39b7-4dc4-9de3-08887a2966f9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e08995ba-cf19-4c69-816e-81817591ef04",
+        "fields": {
+            "uuid": "e08995ba-cf19-4c69-816e-81817591ef04",
+            "name": "Robes",
+            "emoji": "",
+            "parent": "9f5731cf-39b7-4dc4-9de3-08887a2966f9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6cb14eb0-ab25-4862-98b3-0789269f4afb",
+        "fields": {
+            "uuid": "6cb14eb0-ab25-4862-98b3-0789269f4afb",
+            "name": "Onesies",
+            "emoji": "",
+            "parent": "9f5731cf-39b7-4dc4-9de3-08887a2966f9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4620e7e1-58fe-4934-928f-037681f78428",
+        "fields": {
+            "uuid": "4620e7e1-58fe-4934-928f-037681f78428",
+            "name": "Socks",
+            "emoji": "",
+            "parent": "ca3676d4-3570-4e32-ac00-3b670d913b8f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fab48039-988b-41d9-9ecb-8a864f2db97a",
+        "fields": {
+            "uuid": "fab48039-988b-41d9-9ecb-8a864f2db97a",
+            "name": "Ankle Socks",
+            "emoji": "",
+            "parent": "4620e7e1-58fe-4934-928f-037681f78428"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3e10cc32-024a-40b5-905f-15716195f6ea",
+        "fields": {
+            "uuid": "3e10cc32-024a-40b5-905f-15716195f6ea",
+            "name": "Athletic Socks",
+            "emoji": "",
+            "parent": "4620e7e1-58fe-4934-928f-037681f78428"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "98dadd5b-14e2-4c02-8736-8588e61f464a",
+        "fields": {
+            "uuid": "98dadd5b-14e2-4c02-8736-8588e61f464a",
+            "name": "Crew Socks",
+            "emoji": "",
+            "parent": "4620e7e1-58fe-4934-928f-037681f78428"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5c305d3f-39cc-4ab4-beee-b8169b59d3d2",
+        "fields": {
+            "uuid": "5c305d3f-39cc-4ab4-beee-b8169b59d3d2",
+            "name": "Dance Socks",
+            "emoji": "",
+            "parent": "4620e7e1-58fe-4934-928f-037681f78428"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "71f804f0-9323-4a81-9e05-27f2f8b4c4fa",
+        "fields": {
+            "uuid": "71f804f0-9323-4a81-9e05-27f2f8b4c4fa",
+            "name": "Footie Socks",
+            "emoji": "",
+            "parent": "4620e7e1-58fe-4934-928f-037681f78428"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "724be681-e1e2-45ed-b49e-f3db7ddf3d74",
+        "fields": {
+            "uuid": "724be681-e1e2-45ed-b49e-f3db7ddf3d74",
+            "name": "Heel Socks",
+            "emoji": "",
+            "parent": "4620e7e1-58fe-4934-928f-037681f78428"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "937ff25c-aaec-46aa-a532-94fa9243e75d",
+        "fields": {
+            "uuid": "937ff25c-aaec-46aa-a532-94fa9243e75d",
+            "name": "Hold Up Socks",
+            "emoji": "",
+            "parent": "4620e7e1-58fe-4934-928f-037681f78428"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "32958e61-50b2-4a1d-9ee4-05cc3f9709a9",
+        "fields": {
+            "uuid": "32958e61-50b2-4a1d-9ee4-05cc3f9709a9",
+            "name": "Knee Socks",
+            "emoji": "",
+            "parent": "4620e7e1-58fe-4934-928f-037681f78428"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "af2a8fbf-be2f-4c1f-9097-b42fe6810486",
+        "fields": {
+            "uuid": "af2a8fbf-be2f-4c1f-9097-b42fe6810486",
+            "name": "Panty Socks",
+            "emoji": "",
+            "parent": "4620e7e1-58fe-4934-928f-037681f78428"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3dad2daf-5bfa-4dc1-8773-96558b1d7753",
+        "fields": {
+            "uuid": "3dad2daf-5bfa-4dc1-8773-96558b1d7753",
+            "name": "Sneaker Socks",
+            "emoji": "",
+            "parent": "4620e7e1-58fe-4934-928f-037681f78428"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "69770c5c-5646-42c7-a4ab-4ee80be0f4e9",
+        "fields": {
+            "uuid": "69770c5c-5646-42c7-a4ab-4ee80be0f4e9",
+            "name": "Suits",
+            "emoji": "",
+            "parent": "ca3676d4-3570-4e32-ac00-3b670d913b8f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ab11ecf5-f23c-47b7-b1a0-11768c107663",
+        "fields": {
+            "uuid": "ab11ecf5-f23c-47b7-b1a0-11768c107663",
+            "name": "Pant Suits",
+            "emoji": "",
+            "parent": "69770c5c-5646-42c7-a4ab-4ee80be0f4e9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cdbdb367-1eb9-45b9-a37a-3968fa21ddac",
+        "fields": {
+            "uuid": "cdbdb367-1eb9-45b9-a37a-3968fa21ddac",
+            "name": "Skirt Suits",
+            "emoji": "",
+            "parent": "69770c5c-5646-42c7-a4ab-4ee80be0f4e9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b31548f9-bd96-40e0-a349-5e496d2826b9",
+        "fields": {
+            "uuid": "b31548f9-bd96-40e0-a349-5e496d2826b9",
+            "name": "Tuxedos",
+            "emoji": "",
+            "parent": "69770c5c-5646-42c7-a4ab-4ee80be0f4e9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8f9fc4d6-250f-4a3f-8989-1c43d6c5cc5e",
+        "fields": {
+            "uuid": "8f9fc4d6-250f-4a3f-8989-1c43d6c5cc5e",
+            "name": "Swimwear",
+            "emoji": "",
+            "parent": "ca3676d4-3570-4e32-ac00-3b670d913b8f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "77b93064-5cb0-4ab4-9489-b9b267cbfc97",
+        "fields": {
+            "uuid": "77b93064-5cb0-4ab4-9489-b9b267cbfc97",
+            "name": "Boardshorts",
+            "emoji": "",
+            "parent": "8f9fc4d6-250f-4a3f-8989-1c43d6c5cc5e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fe55fc38-fc3f-495e-9371-3b0397e43914",
+        "fields": {
+            "uuid": "fe55fc38-fc3f-495e-9371-3b0397e43914",
+            "name": "Swim Boxers",
+            "emoji": "",
+            "parent": "8f9fc4d6-250f-4a3f-8989-1c43d6c5cc5e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e0b7e239-b016-4220-b58b-e4441ebad89f",
+        "fields": {
+            "uuid": "e0b7e239-b016-4220-b58b-e4441ebad89f",
+            "name": "Swim Briefs",
+            "emoji": "",
+            "parent": "8f9fc4d6-250f-4a3f-8989-1c43d6c5cc5e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8ecbfa93-b097-494c-8103-76a4331acf89",
+        "fields": {
+            "uuid": "8ecbfa93-b097-494c-8103-76a4331acf89",
+            "name": "Burkinis",
+            "emoji": "",
+            "parent": "8f9fc4d6-250f-4a3f-8989-1c43d6c5cc5e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e0793f05-221a-4bce-95dd-50ecb5826805",
+        "fields": {
+            "uuid": "e0793f05-221a-4bce-95dd-50ecb5826805",
+            "name": "Classic Bikinis",
+            "emoji": "",
+            "parent": "8f9fc4d6-250f-4a3f-8989-1c43d6c5cc5e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "37741361-48e2-4038-9baa-49a5b340934e",
+        "fields": {
+            "uuid": "37741361-48e2-4038-9baa-49a5b340934e",
+            "name": "Cover Ups",
+            "emoji": "",
+            "parent": "8f9fc4d6-250f-4a3f-8989-1c43d6c5cc5e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "453adce1-8093-485a-8707-d325a6d0dede",
+        "fields": {
+            "uuid": "453adce1-8093-485a-8707-d325a6d0dede",
+            "name": "Rash Guards",
+            "emoji": "",
+            "parent": "8f9fc4d6-250f-4a3f-8989-1c43d6c5cc5e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "88b86f2e-1b93-485c-82d1-23ff26b67a3a",
+        "fields": {
+            "uuid": "88b86f2e-1b93-485c-82d1-23ff26b67a3a",
+            "name": "Swim Dresses",
+            "emoji": "",
+            "parent": "8f9fc4d6-250f-4a3f-8989-1c43d6c5cc5e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d5340554-8dd8-436e-98b1-7e771d8dfe37",
+        "fields": {
+            "uuid": "d5340554-8dd8-436e-98b1-7e771d8dfe37",
+            "name": "One-Piece Swimsuits",
+            "emoji": "",
+            "parent": "8f9fc4d6-250f-4a3f-8989-1c43d6c5cc5e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f429b208-9112-4cae-b385-b7f8406a759c",
+        "fields": {
+            "uuid": "f429b208-9112-4cae-b385-b7f8406a759c",
+            "name": "Surf Tops",
+            "emoji": "",
+            "parent": "8f9fc4d6-250f-4a3f-8989-1c43d6c5cc5e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "62664b6c-e1b4-468a-8727-a8412469c3e3",
+        "fields": {
+            "uuid": "62664b6c-e1b4-468a-8727-a8412469c3e3",
+            "name": "Swimwear Tops",
+            "emoji": "",
+            "parent": "8f9fc4d6-250f-4a3f-8989-1c43d6c5cc5e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "29e43b6e-5c90-49e0-b003-0d3e387cdb05",
+        "fields": {
+            "uuid": "29e43b6e-5c90-49e0-b003-0d3e387cdb05",
+            "name": "Uniforms",
+            "emoji": "",
+            "parent": "ca3676d4-3570-4e32-ac00-3b670d913b8f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cc7c323f-40a8-4fb3-905a-0c984cf091cb",
+        "fields": {
+            "uuid": "cc7c323f-40a8-4fb3-905a-0c984cf091cb",
+            "name": "Contractor Pants & Coveralls",
+            "emoji": "",
+            "parent": "29e43b6e-5c90-49e0-b003-0d3e387cdb05"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f05229e4-adb0-4a01-b036-2379658f5a71",
+        "fields": {
+            "uuid": "f05229e4-adb0-4a01-b036-2379658f5a71",
+            "name": "Flight Suits",
+            "emoji": "",
+            "parent": "29e43b6e-5c90-49e0-b003-0d3e387cdb05"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a1e9b6ab-4006-45b6-8226-7d494297c4d7",
+        "fields": {
+            "uuid": "a1e9b6ab-4006-45b6-8226-7d494297c4d7",
+            "name": "Food Service Uniforms",
+            "emoji": "",
+            "parent": "29e43b6e-5c90-49e0-b003-0d3e387cdb05"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1dc68b92-cc12-42ad-83be-012427dca568",
+        "fields": {
+            "uuid": "1dc68b92-cc12-42ad-83be-012427dca568",
+            "name": "Military Uniforms",
+            "emoji": "",
+            "parent": "29e43b6e-5c90-49e0-b003-0d3e387cdb05"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dbc82913-abb2-4857-a159-eb4495b83e1a",
+        "fields": {
+            "uuid": "dbc82913-abb2-4857-a159-eb4495b83e1a",
+            "name": "School Uniforms",
+            "emoji": "",
+            "parent": "29e43b6e-5c90-49e0-b003-0d3e387cdb05"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d97cee73-bfe7-458f-89e0-578ef20c644c",
+        "fields": {
+            "uuid": "d97cee73-bfe7-458f-89e0-578ef20c644c",
+            "name": "Security Uniforms",
+            "emoji": "",
+            "parent": "29e43b6e-5c90-49e0-b003-0d3e387cdb05"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "16bb980b-f473-4e2b-86a7-34abf2b6d5bd",
+        "fields": {
+            "uuid": "16bb980b-f473-4e2b-86a7-34abf2b6d5bd",
+            "name": "Sports Uniforms",
+            "emoji": "",
+            "parent": "29e43b6e-5c90-49e0-b003-0d3e387cdb05"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2ef02871-dc53-47c5-9d05-665c325c5c78",
+        "fields": {
+            "uuid": "2ef02871-dc53-47c5-9d05-665c325c5c78",
+            "name": "White Coats",
+            "emoji": "",
+            "parent": "29e43b6e-5c90-49e0-b003-0d3e387cdb05"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a82a7fa5-cb5e-4230-a888-5967ab1d4cc4",
+        "fields": {
+            "uuid": "a82a7fa5-cb5e-4230-a888-5967ab1d4cc4",
+            "name": "Wedding & Bridal Party Dresses",
+            "emoji": "",
+            "parent": "ca3676d4-3570-4e32-ac00-3b670d913b8f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c4c0227c-75b6-4974-ad89-1e182b3a5345",
+        "fields": {
+            "uuid": "c4c0227c-75b6-4974-ad89-1e182b3a5345",
+            "name": "Bridal Party Dresses",
+            "emoji": "",
+            "parent": "a82a7fa5-cb5e-4230-a888-5967ab1d4cc4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "71f3a45b-1681-43ed-876c-7e9ce80a5978",
+        "fields": {
+            "uuid": "71f3a45b-1681-43ed-876c-7e9ce80a5978",
+            "name": "Wedding Dresses",
+            "emoji": "",
+            "parent": "a82a7fa5-cb5e-4230-a888-5967ab1d4cc4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "32c6093a-6cf2-46f4-bc97-f017fc224789",
+        "fields": {
+            "uuid": "32c6093a-6cf2-46f4-bc97-f017fc224789",
+            "name": "Traditional & Ceremonial Clothing",
+            "emoji": "",
+            "parent": "ca3676d4-3570-4e32-ac00-3b670d913b8f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e40ec39e-f750-4ae4-958a-1a435ab5af0c",
+        "fields": {
+            "uuid": "e40ec39e-f750-4ae4-958a-1a435ab5af0c",
+            "name": "Kimonos",
+            "emoji": "",
+            "parent": "32c6093a-6cf2-46f4-bc97-f017fc224789"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "54e7ffef-d062-4629-966c-df74e7d556a4",
+        "fields": {
+            "uuid": "54e7ffef-d062-4629-966c-df74e7d556a4",
+            "name": "Saris & Lehengas",
+            "emoji": "",
+            "parent": "32c6093a-6cf2-46f4-bc97-f017fc224789"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6",
+        "fields": {
+            "uuid": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6",
+            "name": "Clothing Accessories",
+            "emoji": "",
+            "parent": "81bc8845-5cf8-4777-9ccf-a725300f53e0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "191a35da-8f30-442d-b484-f3b08b5eed64",
+        "fields": {
+            "uuid": "191a35da-8f30-442d-b484-f3b08b5eed64",
+            "name": "Arm Warmers & Sleeves",
+            "emoji": "",
+            "parent": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ce6768a4-fe9a-4cfd-a4fe-578e38ad8a10",
+        "fields": {
+            "uuid": "ce6768a4-fe9a-4cfd-a4fe-578e38ad8a10",
+            "name": "Baby & Toddler Clothing Accessories",
+            "emoji": "",
+            "parent": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5e5f3bc0-bed5-4fbb-ba48-24f012a3115b",
+        "fields": {
+            "uuid": "5e5f3bc0-bed5-4fbb-ba48-24f012a3115b",
+            "name": "Baby & Toddler Belts",
+            "emoji": "",
+            "parent": "ce6768a4-fe9a-4cfd-a4fe-578e38ad8a10"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3e2240e0-f43a-4138-88e4-278e47c56414",
+        "fields": {
+            "uuid": "3e2240e0-f43a-4138-88e4-278e47c56414",
+            "name": "Baby & Toddler Gloves & Mittens",
+            "emoji": "",
+            "parent": "ce6768a4-fe9a-4cfd-a4fe-578e38ad8a10"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e698002e-5e0a-4617-9db3-3636b27b931e",
+        "fields": {
+            "uuid": "e698002e-5e0a-4617-9db3-3636b27b931e",
+            "name": "Baby & Toddler Hats",
+            "emoji": "",
+            "parent": "ce6768a4-fe9a-4cfd-a4fe-578e38ad8a10"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0bbebd85-d441-4ed7-bc6d-3a46b45b1c68",
+        "fields": {
+            "uuid": "0bbebd85-d441-4ed7-bc6d-3a46b45b1c68",
+            "name": "Baby Protective Wear",
+            "emoji": "",
+            "parent": "ce6768a4-fe9a-4cfd-a4fe-578e38ad8a10"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "811d711d-d880-4410-98ac-d2f9f690bd16",
+        "fields": {
+            "uuid": "811d711d-d880-4410-98ac-d2f9f690bd16",
+            "name": "Balaclavas",
+            "emoji": "",
+            "parent": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a8e365a2-dc78-4325-a58c-84aa1e8c0a0e",
+        "fields": {
+            "uuid": "a8e365a2-dc78-4325-a58c-84aa1e8c0a0e",
+            "name": "Bandanas & Headties",
+            "emoji": "",
+            "parent": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8f737565-73f6-49df-92bf-702d33902996",
+        "fields": {
+            "uuid": "8f737565-73f6-49df-92bf-702d33902996",
+            "name": "Belt Buckles",
+            "emoji": "",
+            "parent": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "59ee8a68-0ee1-4307-9434-f716777bc478",
+        "fields": {
+            "uuid": "59ee8a68-0ee1-4307-9434-f716777bc478",
+            "name": "Belts",
+            "emoji": "",
+            "parent": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4b79288d-0cd9-41cc-a89a-172608199fbb",
+        "fields": {
+            "uuid": "4b79288d-0cd9-41cc-a89a-172608199fbb",
+            "name": "Bridal Accessories",
+            "emoji": "",
+            "parent": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "51977f43-6af4-4489-afa9-9c717520b589",
+        "fields": {
+            "uuid": "51977f43-6af4-4489-afa9-9c717520b589",
+            "name": "Button Studs",
+            "emoji": "",
+            "parent": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "470ac973-1ce7-4533-a6e8-d46c3cd9a011",
+        "fields": {
+            "uuid": "470ac973-1ce7-4533-a6e8-d46c3cd9a011",
+            "name": "Collar Stays",
+            "emoji": "",
+            "parent": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3d487b33-5996-4694-adf1-10b083073470",
+        "fields": {
+            "uuid": "3d487b33-5996-4694-adf1-10b083073470",
+            "name": "Cufflinks",
+            "emoji": "",
+            "parent": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "581b2708-8a7b-4687-bf2e-2e2815e45395",
+        "fields": {
+            "uuid": "581b2708-8a7b-4687-bf2e-2e2815e45395",
+            "name": "Decorative Fans",
+            "emoji": "",
+            "parent": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e41d56f1-010d-4a1a-833e-33bdfa37a523",
+        "fields": {
+            "uuid": "e41d56f1-010d-4a1a-833e-33bdfa37a523",
+            "name": "Earmuffs",
+            "emoji": "",
+            "parent": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d3984fe1-cac3-4d51-a69a-332dd38d6de1",
+        "fields": {
+            "uuid": "d3984fe1-cac3-4d51-a69a-332dd38d6de1",
+            "name": "Gloves & Mittens",
+            "emoji": "",
+            "parent": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5956b07a-390b-4629-8845-7c526951ee5c",
+        "fields": {
+            "uuid": "5956b07a-390b-4629-8845-7c526951ee5c",
+            "name": "Hair Accessories",
+            "emoji": "",
+            "parent": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "12c71192-ec60-4a79-8fbd-7996cb2bd337",
+        "fields": {
+            "uuid": "12c71192-ec60-4a79-8fbd-7996cb2bd337",
+            "name": "Hair Bun & Volume Shapers",
+            "emoji": "",
+            "parent": "5956b07a-390b-4629-8845-7c526951ee5c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "77d590ce-c41a-49e5-8337-cafc8722f8a5",
+        "fields": {
+            "uuid": "77d590ce-c41a-49e5-8337-cafc8722f8a5",
+            "name": "Hair Combs",
+            "emoji": "",
+            "parent": "5956b07a-390b-4629-8845-7c526951ee5c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aa4a7844-4001-4b7c-a116-070e6b9259f1",
+        "fields": {
+            "uuid": "aa4a7844-4001-4b7c-a116-070e6b9259f1",
+            "name": "Hair Extensions",
+            "emoji": "",
+            "parent": "5956b07a-390b-4629-8845-7c526951ee5c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "34ed8a93-7188-44e6-a244-8a7f5f6fb900",
+        "fields": {
+            "uuid": "34ed8a93-7188-44e6-a244-8a7f5f6fb900",
+            "name": "Hair Forks & Sticks",
+            "emoji": "",
+            "parent": "5956b07a-390b-4629-8845-7c526951ee5c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6e0ccf35-ce0e-43f0-a701-bb7863217b68",
+        "fields": {
+            "uuid": "6e0ccf35-ce0e-43f0-a701-bb7863217b68",
+            "name": "Hair Nets",
+            "emoji": "",
+            "parent": "5956b07a-390b-4629-8845-7c526951ee5c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5a520c31-6555-40f6-a1ef-dc9a509ab7aa",
+        "fields": {
+            "uuid": "5a520c31-6555-40f6-a1ef-dc9a509ab7aa",
+            "name": "Hair Pins, Claws & Clips",
+            "emoji": "",
+            "parent": "5956b07a-390b-4629-8845-7c526951ee5c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "247544b6-a19a-4471-b566-58f359382fdb",
+        "fields": {
+            "uuid": "247544b6-a19a-4471-b566-58f359382fdb",
+            "name": "Hair Wreaths",
+            "emoji": "",
+            "parent": "5956b07a-390b-4629-8845-7c526951ee5c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "57fe7ce0-641f-418d-b786-7cf7943c5ba1",
+        "fields": {
+            "uuid": "57fe7ce0-641f-418d-b786-7cf7943c5ba1",
+            "name": "Headbands",
+            "emoji": "",
+            "parent": "5956b07a-390b-4629-8845-7c526951ee5c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e766dbb6-053c-454d-acf6-4428a3ee3f2b",
+        "fields": {
+            "uuid": "e766dbb6-053c-454d-acf6-4428a3ee3f2b",
+            "name": "Ponytail Holders",
+            "emoji": "",
+            "parent": "5956b07a-390b-4629-8845-7c526951ee5c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "30381f2b-04a0-4f28-9c9d-6e106b634273",
+        "fields": {
+            "uuid": "30381f2b-04a0-4f28-9c9d-6e106b634273",
+            "name": "Tiaras",
+            "emoji": "",
+            "parent": "5956b07a-390b-4629-8845-7c526951ee5c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "21f3bf75-dfe6-41c5-9064-6afa3c059bab",
+        "fields": {
+            "uuid": "21f3bf75-dfe6-41c5-9064-6afa3c059bab",
+            "name": "Wig Accessories",
+            "emoji": "",
+            "parent": "5956b07a-390b-4629-8845-7c526951ee5c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0db0345b-dcd9-4403-97ea-0e11ed433352",
+        "fields": {
+            "uuid": "0db0345b-dcd9-4403-97ea-0e11ed433352",
+            "name": "Wigs",
+            "emoji": "",
+            "parent": "5956b07a-390b-4629-8845-7c526951ee5c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7cef5245-1612-455d-8da7-1ef74d24f477",
+        "fields": {
+            "uuid": "7cef5245-1612-455d-8da7-1ef74d24f477",
+            "name": "Hand Muffs",
+            "emoji": "",
+            "parent": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4d3d396b-99f8-4419-a29a-0b172a1746b6",
+        "fields": {
+            "uuid": "4d3d396b-99f8-4419-a29a-0b172a1746b6",
+            "name": "Handkerchiefs",
+            "emoji": "",
+            "parent": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e6a8f324-9a3c-452f-b21d-fa1dc8b34d64",
+        "fields": {
+            "uuid": "e6a8f324-9a3c-452f-b21d-fa1dc8b34d64",
+            "name": "Hats",
+            "emoji": "",
+            "parent": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b69a8b3e-d46a-4401-bef5-cb9d093b925a",
+        "fields": {
+            "uuid": "b69a8b3e-d46a-4401-bef5-cb9d093b925a",
+            "name": "Baseball Caps",
+            "emoji": "",
+            "parent": "e6a8f324-9a3c-452f-b21d-fa1dc8b34d64"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "63ca4989-0fbb-4b77-8a91-7e8459d43b03",
+        "fields": {
+            "uuid": "63ca4989-0fbb-4b77-8a91-7e8459d43b03",
+            "name": "Beanies",
+            "emoji": "",
+            "parent": "e6a8f324-9a3c-452f-b21d-fa1dc8b34d64"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ac525828-08e2-402d-8d64-8f4e3a0e2f19",
+        "fields": {
+            "uuid": "ac525828-08e2-402d-8d64-8f4e3a0e2f19",
+            "name": "Berets",
+            "emoji": "",
+            "parent": "e6a8f324-9a3c-452f-b21d-fa1dc8b34d64"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9bcb965f-182c-4ada-b656-8238271c27a2",
+        "fields": {
+            "uuid": "9bcb965f-182c-4ada-b656-8238271c27a2",
+            "name": "Bowler Hats",
+            "emoji": "",
+            "parent": "e6a8f324-9a3c-452f-b21d-fa1dc8b34d64"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e7729e1b-c33d-4968-bd40-4f157264b645",
+        "fields": {
+            "uuid": "e7729e1b-c33d-4968-bd40-4f157264b645",
+            "name": "Bucket Hats",
+            "emoji": "",
+            "parent": "e6a8f324-9a3c-452f-b21d-fa1dc8b34d64"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4dcaca4d-1e82-4be2-9042-aeb32fd6fdaf",
+        "fields": {
+            "uuid": "4dcaca4d-1e82-4be2-9042-aeb32fd6fdaf",
+            "name": "Cowboy Hats",
+            "emoji": "",
+            "parent": "e6a8f324-9a3c-452f-b21d-fa1dc8b34d64"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "acc82a25-1eb6-405e-b8b1-f2708ad91d10",
+        "fields": {
+            "uuid": "acc82a25-1eb6-405e-b8b1-f2708ad91d10",
+            "name": "Fedoras",
+            "emoji": "",
+            "parent": "e6a8f324-9a3c-452f-b21d-fa1dc8b34d64"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1b88e5e5-24dd-4b5c-b7fa-955421a89bf3",
+        "fields": {
+            "uuid": "1b88e5e5-24dd-4b5c-b7fa-955421a89bf3",
+            "name": "Flat Caps",
+            "emoji": "",
+            "parent": "e6a8f324-9a3c-452f-b21d-fa1dc8b34d64"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ee7078f9-058c-4642-b849-8394ba1b6312",
+        "fields": {
+            "uuid": "ee7078f9-058c-4642-b849-8394ba1b6312",
+            "name": "Panama Hats",
+            "emoji": "",
+            "parent": "e6a8f324-9a3c-452f-b21d-fa1dc8b34d64"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c15a692b-d96d-48b5-bc3e-2146ec33942f",
+        "fields": {
+            "uuid": "c15a692b-d96d-48b5-bc3e-2146ec33942f",
+            "name": "Snapback Caps",
+            "emoji": "",
+            "parent": "e6a8f324-9a3c-452f-b21d-fa1dc8b34d64"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "510208fe-0245-4ca6-8e52-49b042f58abb",
+        "fields": {
+            "uuid": "510208fe-0245-4ca6-8e52-49b042f58abb",
+            "name": "Sun Hats",
+            "emoji": "",
+            "parent": "e6a8f324-9a3c-452f-b21d-fa1dc8b34d64"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "888d417c-3ac0-4e0b-8082-667832e58828",
+        "fields": {
+            "uuid": "888d417c-3ac0-4e0b-8082-667832e58828",
+            "name": "Top Hats",
+            "emoji": "",
+            "parent": "e6a8f324-9a3c-452f-b21d-fa1dc8b34d64"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2dd5494e-97bf-4182-acaa-4f4773da7d50",
+        "fields": {
+            "uuid": "2dd5494e-97bf-4182-acaa-4f4773da7d50",
+            "name": "Trilbies",
+            "emoji": "",
+            "parent": "e6a8f324-9a3c-452f-b21d-fa1dc8b34d64"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "280d9a67-6c35-4874-b68c-69c62ed9866b",
+        "fields": {
+            "uuid": "280d9a67-6c35-4874-b68c-69c62ed9866b",
+            "name": "Trucker Hats",
+            "emoji": "",
+            "parent": "e6a8f324-9a3c-452f-b21d-fa1dc8b34d64"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7299264c-4fde-4999-a159-f8076022222c",
+        "fields": {
+            "uuid": "7299264c-4fde-4999-a159-f8076022222c",
+            "name": "Visors",
+            "emoji": "",
+            "parent": "e6a8f324-9a3c-452f-b21d-fa1dc8b34d64"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3e8ed0f3-0b39-414f-a62f-779a97671361",
+        "fields": {
+            "uuid": "3e8ed0f3-0b39-414f-a62f-779a97671361",
+            "name": "Winter Hats",
+            "emoji": "",
+            "parent": "e6a8f324-9a3c-452f-b21d-fa1dc8b34d64"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a2416e69-5e57-45b3-9273-45a2e878bdb9",
+        "fields": {
+            "uuid": "a2416e69-5e57-45b3-9273-45a2e878bdb9",
+            "name": "Headwear",
+            "emoji": "",
+            "parent": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "17548bf9-415d-4200-bdb1-856224075352",
+        "fields": {
+            "uuid": "17548bf9-415d-4200-bdb1-856224075352",
+            "name": "Fascinators",
+            "emoji": "",
+            "parent": "a2416e69-5e57-45b3-9273-45a2e878bdb9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4127878e-3ba0-4d04-85f0-5c21766482c7",
+        "fields": {
+            "uuid": "4127878e-3ba0-4d04-85f0-5c21766482c7",
+            "name": "Headdresses",
+            "emoji": "",
+            "parent": "a2416e69-5e57-45b3-9273-45a2e878bdb9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "86dbf6ee-d8c1-4669-8e48-a5e542978862",
+        "fields": {
+            "uuid": "86dbf6ee-d8c1-4669-8e48-a5e542978862",
+            "name": "Turbans",
+            "emoji": "",
+            "parent": "a2416e69-5e57-45b3-9273-45a2e878bdb9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "15d8646e-1d7a-459b-89a1-4d45fe5bfd2f",
+        "fields": {
+            "uuid": "15d8646e-1d7a-459b-89a1-4d45fe5bfd2f",
+            "name": "Leg Warmers",
+            "emoji": "",
+            "parent": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "51275686-153d-473d-a92d-bdd47ab05d36",
+        "fields": {
+            "uuid": "51275686-153d-473d-a92d-bdd47ab05d36",
+            "name": "Leis",
+            "emoji": "",
+            "parent": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "26ab92b2-569a-4928-8937-2a6538935701",
+        "fields": {
+            "uuid": "26ab92b2-569a-4928-8937-2a6538935701",
+            "name": "Maternity Belts & Support Bands",
+            "emoji": "",
+            "parent": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d871a40f-0768-47da-9b11-f311231dac00",
+        "fields": {
+            "uuid": "d871a40f-0768-47da-9b11-f311231dac00",
+            "name": "Neck Gaiters",
+            "emoji": "",
+            "parent": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f0a851c1-3576-48c5-9767-1ea442fea3f6",
+        "fields": {
+            "uuid": "f0a851c1-3576-48c5-9767-1ea442fea3f6",
+            "name": "Neckties",
+            "emoji": "",
+            "parent": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "993ba3fa-38e5-4da9-a37f-1a6c7e6ba864",
+        "fields": {
+            "uuid": "993ba3fa-38e5-4da9-a37f-1a6c7e6ba864",
+            "name": "Pinback Buttons",
+            "emoji": "",
+            "parent": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "33fd2760-d5a0-4fb7-af8a-5bbef0487c12",
+        "fields": {
+            "uuid": "33fd2760-d5a0-4fb7-af8a-5bbef0487c12",
+            "name": "Sashes",
+            "emoji": "",
+            "parent": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ed99a8af-f34e-4e7f-a12e-b05628417f11",
+        "fields": {
+            "uuid": "ed99a8af-f34e-4e7f-a12e-b05628417f11",
+            "name": "Scarves & Shawls",
+            "emoji": "",
+            "parent": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5582f9bb-9dba-498e-a24e-e71349e5d928",
+        "fields": {
+            "uuid": "5582f9bb-9dba-498e-a24e-e71349e5d928",
+            "name": "Sunglasses",
+            "emoji": "",
+            "parent": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "eca7d14f-4d3c-4fbd-a524-bce5b1ae644a",
+        "fields": {
+            "uuid": "eca7d14f-4d3c-4fbd-a524-bce5b1ae644a",
+            "name": "Suspenders",
+            "emoji": "",
+            "parent": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dfa4ebef-4781-4922-b24d-521de0001e1b",
+        "fields": {
+            "uuid": "dfa4ebef-4781-4922-b24d-521de0001e1b",
+            "name": "Tie Clips",
+            "emoji": "",
+            "parent": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6aad73d9-24e7-4434-97cc-d892d2ebbb3e",
+        "fields": {
+            "uuid": "6aad73d9-24e7-4434-97cc-d892d2ebbb3e",
+            "name": "Wristbands",
+            "emoji": "",
+            "parent": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d1af1150-881a-4826-862c-a67dc8639fdf",
+        "fields": {
+            "uuid": "d1af1150-881a-4826-862c-a67dc8639fdf",
+            "name": "Traditional Clothing Accessories",
+            "emoji": "",
+            "parent": "8e58ffcc-4fcc-474c-8e1a-43cac56ef2d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a6834e7f-9245-47d5-b538-f926660c1721",
+        "fields": {
+            "uuid": "a6834e7f-9245-47d5-b538-f926660c1721",
+            "name": "Costumes & Accessories",
+            "emoji": "",
+            "parent": "81bc8845-5cf8-4777-9ccf-a725300f53e0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "792b9837-da70-4629-b052-00be9ef9a8d2",
+        "fields": {
+            "uuid": "792b9837-da70-4629-b052-00be9ef9a8d2",
+            "name": "Costume Accessories",
+            "emoji": "",
+            "parent": "a6834e7f-9245-47d5-b538-f926660c1721"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "42b209bd-9ddb-44d3-939b-dd176a648439",
+        "fields": {
+            "uuid": "42b209bd-9ddb-44d3-939b-dd176a648439",
+            "name": "Costume Shoes",
+            "emoji": "",
+            "parent": "a6834e7f-9245-47d5-b538-f926660c1721"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d8aec9f1-4287-45c4-a69b-13b682437d75",
+        "fields": {
+            "uuid": "d8aec9f1-4287-45c4-a69b-13b682437d75",
+            "name": "Costumes",
+            "emoji": "",
+            "parent": "a6834e7f-9245-47d5-b538-f926660c1721"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "19057ef0-8991-436c-ac66-7df017251058",
+        "fields": {
+            "uuid": "19057ef0-8991-436c-ac66-7df017251058",
+            "name": "Costume Dresses",
+            "emoji": "",
+            "parent": "d8aec9f1-4287-45c4-a69b-13b682437d75"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c6f0b239-b9a1-4790-b935-4334389ae6a6",
+        "fields": {
+            "uuid": "c6f0b239-b9a1-4790-b935-4334389ae6a6",
+            "name": "Costume Sets",
+            "emoji": "",
+            "parent": "d8aec9f1-4287-45c4-a69b-13b682437d75"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e72e56b5-ee7d-4ad7-b864-4b1ee8f44e5b",
+        "fields": {
+            "uuid": "e72e56b5-ee7d-4ad7-b864-4b1ee8f44e5b",
+            "name": "Masks",
+            "emoji": "",
+            "parent": "a6834e7f-9245-47d5-b538-f926660c1721"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "113ab430-4fdf-45ae-b3c0-7c406291fbc8",
+        "fields": {
+            "uuid": "113ab430-4fdf-45ae-b3c0-7c406291fbc8",
+            "name": "Handbag & Wallet Accessories",
+            "emoji": "",
+            "parent": "81bc8845-5cf8-4777-9ccf-a725300f53e0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9ee10591-9774-4fa5-9d77-b5afed04c2ca",
+        "fields": {
+            "uuid": "9ee10591-9774-4fa5-9d77-b5afed04c2ca",
+            "name": "Keychains",
+            "emoji": "",
+            "parent": "113ab430-4fdf-45ae-b3c0-7c406291fbc8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5bdeffe3-d13e-4b31-9912-5f36512d05a5",
+        "fields": {
+            "uuid": "5bdeffe3-d13e-4b31-9912-5f36512d05a5",
+            "name": "Lanyards",
+            "emoji": "",
+            "parent": "113ab430-4fdf-45ae-b3c0-7c406291fbc8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0a3c4ae3-b719-476f-8fe1-c80129aa553b",
+        "fields": {
+            "uuid": "0a3c4ae3-b719-476f-8fe1-c80129aa553b",
+            "name": "Wallet Chains",
+            "emoji": "",
+            "parent": "113ab430-4fdf-45ae-b3c0-7c406291fbc8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e39ddfae-062e-4928-9c96-53f6b4da9acd",
+        "fields": {
+            "uuid": "e39ddfae-062e-4928-9c96-53f6b4da9acd",
+            "name": "Handbags, Wallets & Cases",
+            "emoji": "",
+            "parent": "81bc8845-5cf8-4777-9ccf-a725300f53e0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dcfee8d0-8f9e-4fba-983a-554313a33644",
+        "fields": {
+            "uuid": "dcfee8d0-8f9e-4fba-983a-554313a33644",
+            "name": "Badge & Pass Holders",
+            "emoji": "",
+            "parent": "e39ddfae-062e-4928-9c96-53f6b4da9acd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "30c4d340-06d6-4f56-8272-8b3686bb9550",
+        "fields": {
+            "uuid": "30c4d340-06d6-4f56-8272-8b3686bb9550",
+            "name": "Business Card Cases",
+            "emoji": "",
+            "parent": "e39ddfae-062e-4928-9c96-53f6b4da9acd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "774bba83-2d00-49e8-8cb6-683d699ff6c6",
+        "fields": {
+            "uuid": "774bba83-2d00-49e8-8cb6-683d699ff6c6",
+            "name": "Checkbook Covers",
+            "emoji": "",
+            "parent": "e39ddfae-062e-4928-9c96-53f6b4da9acd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cb33d3d2-b7de-44bf-9ecc-3b39acc96930",
+        "fields": {
+            "uuid": "cb33d3d2-b7de-44bf-9ecc-3b39acc96930",
+            "name": "Handbags",
+            "emoji": "",
+            "parent": "e39ddfae-062e-4928-9c96-53f6b4da9acd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f1b986db-8625-4925-baa1-4141ee51b7ae",
+        "fields": {
+            "uuid": "f1b986db-8625-4925-baa1-4141ee51b7ae",
+            "name": "Baguette Handbags",
+            "emoji": "",
+            "parent": "cb33d3d2-b7de-44bf-9ecc-3b39acc96930"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3fb53e9c-10e5-4700-b006-f7bddde79ac2",
+        "fields": {
+            "uuid": "3fb53e9c-10e5-4700-b006-f7bddde79ac2",
+            "name": "Barrel Bags",
+            "emoji": "",
+            "parent": "cb33d3d2-b7de-44bf-9ecc-3b39acc96930"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "13dc68a1-60d2-4fe9-9ddf-f4f283e68c1a",
+        "fields": {
+            "uuid": "13dc68a1-60d2-4fe9-9ddf-f4f283e68c1a",
+            "name": "Beach Bags",
+            "emoji": "",
+            "parent": "cb33d3d2-b7de-44bf-9ecc-3b39acc96930"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5feb5282-622f-4d94-ab59-aa7ec14dfde3",
+        "fields": {
+            "uuid": "5feb5282-622f-4d94-ab59-aa7ec14dfde3",
+            "name": "Bucket Bags",
+            "emoji": "",
+            "parent": "cb33d3d2-b7de-44bf-9ecc-3b39acc96930"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "31fb3bc1-163d-4e0a-a5e4-f7831cbb15fd",
+        "fields": {
+            "uuid": "31fb3bc1-163d-4e0a-a5e4-f7831cbb15fd",
+            "name": "Clutch Bags",
+            "emoji": "",
+            "parent": "cb33d3d2-b7de-44bf-9ecc-3b39acc96930"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9b2491b9-3cec-4679-9273-d56f96bb990d",
+        "fields": {
+            "uuid": "9b2491b9-3cec-4679-9273-d56f96bb990d",
+            "name": "Convertible Bags",
+            "emoji": "",
+            "parent": "cb33d3d2-b7de-44bf-9ecc-3b39acc96930"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b8251f0d-1eea-4bcd-b46b-aa4c3366260f",
+        "fields": {
+            "uuid": "b8251f0d-1eea-4bcd-b46b-aa4c3366260f",
+            "name": "Cross Body Bags",
+            "emoji": "",
+            "parent": "cb33d3d2-b7de-44bf-9ecc-3b39acc96930"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "966b151d-38fb-468d-923e-4146d0cb4cc0",
+        "fields": {
+            "uuid": "966b151d-38fb-468d-923e-4146d0cb4cc0",
+            "name": "Doctor Bags",
+            "emoji": "",
+            "parent": "cb33d3d2-b7de-44bf-9ecc-3b39acc96930"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0bc7bcd2-0a60-4f7d-8520-0800263072bd",
+        "fields": {
+            "uuid": "0bc7bcd2-0a60-4f7d-8520-0800263072bd",
+            "name": "Envelope Clutches",
+            "emoji": "",
+            "parent": "cb33d3d2-b7de-44bf-9ecc-3b39acc96930"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2156b4aa-869f-49f2-99e2-e95cfbf3e38e",
+        "fields": {
+            "uuid": "2156b4aa-869f-49f2-99e2-e95cfbf3e38e",
+            "name": "Fold Over Clutches",
+            "emoji": "",
+            "parent": "cb33d3d2-b7de-44bf-9ecc-3b39acc96930"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "75975620-c91d-4922-924c-4f2bfc71c0a4",
+        "fields": {
+            "uuid": "75975620-c91d-4922-924c-4f2bfc71c0a4",
+            "name": "Half-Moon Bags",
+            "emoji": "",
+            "parent": "cb33d3d2-b7de-44bf-9ecc-3b39acc96930"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "14b3a18e-72f5-4794-b890-c01e945fd34d",
+        "fields": {
+            "uuid": "14b3a18e-72f5-4794-b890-c01e945fd34d",
+            "name": "Hobo Bags",
+            "emoji": "",
+            "parent": "cb33d3d2-b7de-44bf-9ecc-3b39acc96930"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "595ffc44-ba2d-4785-8fa5-36017a9f2840",
+        "fields": {
+            "uuid": "595ffc44-ba2d-4785-8fa5-36017a9f2840",
+            "name": "Minaudieres",
+            "emoji": "",
+            "parent": "cb33d3d2-b7de-44bf-9ecc-3b39acc96930"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7e21b1cf-cf9f-40a4-b7a7-81419476e9ba",
+        "fields": {
+            "uuid": "7e21b1cf-cf9f-40a4-b7a7-81419476e9ba",
+            "name": "Muff Clutches & Bags",
+            "emoji": "",
+            "parent": "cb33d3d2-b7de-44bf-9ecc-3b39acc96930"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f6b6f1fd-7df9-42ca-be59-94c0a98f2a2f",
+        "fields": {
+            "uuid": "f6b6f1fd-7df9-42ca-be59-94c0a98f2a2f",
+            "name": "Saddle Bags",
+            "emoji": "",
+            "parent": "cb33d3d2-b7de-44bf-9ecc-3b39acc96930"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "63d77517-b5f4-4f63-9784-49779b1149ad",
+        "fields": {
+            "uuid": "63d77517-b5f4-4f63-9784-49779b1149ad",
+            "name": "Satchel Bags",
+            "emoji": "",
+            "parent": "cb33d3d2-b7de-44bf-9ecc-3b39acc96930"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1d6436ca-f8b7-471d-94a0-8a8ee6299f83",
+        "fields": {
+            "uuid": "1d6436ca-f8b7-471d-94a0-8a8ee6299f83",
+            "name": "School Bags",
+            "emoji": "",
+            "parent": "cb33d3d2-b7de-44bf-9ecc-3b39acc96930"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "901f152e-dcf2-4cac-b09f-e203cbae485d",
+        "fields": {
+            "uuid": "901f152e-dcf2-4cac-b09f-e203cbae485d",
+            "name": "Shopper Bags",
+            "emoji": "",
+            "parent": "cb33d3d2-b7de-44bf-9ecc-3b39acc96930"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b5986e69-388f-432d-92a7-b6e00e90b00c",
+        "fields": {
+            "uuid": "b5986e69-388f-432d-92a7-b6e00e90b00c",
+            "name": "Shoulder Bags",
+            "emoji": "",
+            "parent": "cb33d3d2-b7de-44bf-9ecc-3b39acc96930"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "56872510-6a39-4c5a-abdb-6839fc0f9ca4",
+        "fields": {
+            "uuid": "56872510-6a39-4c5a-abdb-6839fc0f9ca4",
+            "name": "Trapezoid Bags",
+            "emoji": "",
+            "parent": "cb33d3d2-b7de-44bf-9ecc-3b39acc96930"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5ac2e8fb-c307-4ee0-9d1f-ff81c6abbccf",
+        "fields": {
+            "uuid": "5ac2e8fb-c307-4ee0-9d1f-ff81c6abbccf",
+            "name": "Wallets & Money Clips",
+            "emoji": "",
+            "parent": "e39ddfae-062e-4928-9c96-53f6b4da9acd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "703b1cd1-29d1-4fbe-bc65-5c41824aa82a",
+        "fields": {
+            "uuid": "703b1cd1-29d1-4fbe-bc65-5c41824aa82a",
+            "name": "Card Cases",
+            "emoji": "",
+            "parent": "5ac2e8fb-c307-4ee0-9d1f-ff81c6abbccf"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e4872fad-8466-4539-a773-a666c7fe7063",
+        "fields": {
+            "uuid": "e4872fad-8466-4539-a773-a666c7fe7063",
+            "name": "Coin Purses",
+            "emoji": "",
+            "parent": "5ac2e8fb-c307-4ee0-9d1f-ff81c6abbccf"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d26491d4-80d5-4c15-850f-23327f717e8f",
+        "fields": {
+            "uuid": "d26491d4-80d5-4c15-850f-23327f717e8f",
+            "name": "Key Cases",
+            "emoji": "",
+            "parent": "5ac2e8fb-c307-4ee0-9d1f-ff81c6abbccf"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0a0ea92b-4cc9-49a7-a1a8-13d902490c72",
+        "fields": {
+            "uuid": "0a0ea92b-4cc9-49a7-a1a8-13d902490c72",
+            "name": "Neck Pouches",
+            "emoji": "",
+            "parent": "5ac2e8fb-c307-4ee0-9d1f-ff81c6abbccf"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7bfe4210-a105-485d-9ad5-91c7f82d2540",
+        "fields": {
+            "uuid": "7bfe4210-a105-485d-9ad5-91c7f82d2540",
+            "name": "Travel Wallets",
+            "emoji": "",
+            "parent": "5ac2e8fb-c307-4ee0-9d1f-ff81c6abbccf"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b250d9d0-f87c-4171-be14-a35d4c653ef4",
+        "fields": {
+            "uuid": "b250d9d0-f87c-4171-be14-a35d4c653ef4",
+            "name": "Wallets",
+            "emoji": "",
+            "parent": "5ac2e8fb-c307-4ee0-9d1f-ff81c6abbccf"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ed961248-15f7-473f-89ed-c9826f7718d7",
+        "fields": {
+            "uuid": "ed961248-15f7-473f-89ed-c9826f7718d7",
+            "name": "Wrist Bags",
+            "emoji": "",
+            "parent": "5ac2e8fb-c307-4ee0-9d1f-ff81c6abbccf"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e761d53d-67bd-4cf6-a81f-8c7a846eb213",
+        "fields": {
+            "uuid": "e761d53d-67bd-4cf6-a81f-8c7a846eb213",
+            "name": "Jewelry",
+            "emoji": "",
+            "parent": "81bc8845-5cf8-4777-9ccf-a725300f53e0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3539ce40-44b6-4c00-90a9-932279ede45b",
+        "fields": {
+            "uuid": "3539ce40-44b6-4c00-90a9-932279ede45b",
+            "name": "Anklets",
+            "emoji": "",
+            "parent": "e761d53d-67bd-4cf6-a81f-8c7a846eb213"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "214ae2b5-dfb1-4619-b24b-8f0504e89df5",
+        "fields": {
+            "uuid": "214ae2b5-dfb1-4619-b24b-8f0504e89df5",
+            "name": "Body Jewelry",
+            "emoji": "",
+            "parent": "e761d53d-67bd-4cf6-a81f-8c7a846eb213"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c6c6dc73-5890-456e-96a6-4c99c636d213",
+        "fields": {
+            "uuid": "c6c6dc73-5890-456e-96a6-4c99c636d213",
+            "name": "Bracelets",
+            "emoji": "",
+            "parent": "e761d53d-67bd-4cf6-a81f-8c7a846eb213"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c60ada27-509e-41e6-ae2d-6a2e94351a36",
+        "fields": {
+            "uuid": "c60ada27-509e-41e6-ae2d-6a2e94351a36",
+            "name": "Brooches & Lapel Pins",
+            "emoji": "",
+            "parent": "e761d53d-67bd-4cf6-a81f-8c7a846eb213"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "41c43181-1b7e-41a6-9302-438af87ef837",
+        "fields": {
+            "uuid": "41c43181-1b7e-41a6-9302-438af87ef837",
+            "name": "Charms & Pendants",
+            "emoji": "",
+            "parent": "e761d53d-67bd-4cf6-a81f-8c7a846eb213"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "782227a7-3e07-42c2-9999-d77e3195dc19",
+        "fields": {
+            "uuid": "782227a7-3e07-42c2-9999-d77e3195dc19",
+            "name": "Earrings",
+            "emoji": "",
+            "parent": "e761d53d-67bd-4cf6-a81f-8c7a846eb213"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fe7a6b08-5806-4d9d-a725-368954f08501",
+        "fields": {
+            "uuid": "fe7a6b08-5806-4d9d-a725-368954f08501",
+            "name": "Jewelry Sets",
+            "emoji": "",
+            "parent": "e761d53d-67bd-4cf6-a81f-8c7a846eb213"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f81fda10-6c75-43c1-9af1-ce49443fb773",
+        "fields": {
+            "uuid": "f81fda10-6c75-43c1-9af1-ce49443fb773",
+            "name": "Necklaces",
+            "emoji": "",
+            "parent": "e761d53d-67bd-4cf6-a81f-8c7a846eb213"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ef728779-9f0f-4f8d-b4e3-0d9b550cf8bc",
+        "fields": {
+            "uuid": "ef728779-9f0f-4f8d-b4e3-0d9b550cf8bc",
+            "name": "Rings",
+            "emoji": "",
+            "parent": "e761d53d-67bd-4cf6-a81f-8c7a846eb213"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f06e9696-3b21-4db2-bcb3-0e05a6fdbbc5",
+        "fields": {
+            "uuid": "f06e9696-3b21-4db2-bcb3-0e05a6fdbbc5",
+            "name": "Watch Accessories",
+            "emoji": "",
+            "parent": "e761d53d-67bd-4cf6-a81f-8c7a846eb213"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b0b2cbc2-6079-495c-bef3-2727a0a8f7c3",
+        "fields": {
+            "uuid": "b0b2cbc2-6079-495c-bef3-2727a0a8f7c3",
+            "name": "Watch Bands",
+            "emoji": "",
+            "parent": "f06e9696-3b21-4db2-bcb3-0e05a6fdbbc5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "850000fe-6689-4fb2-aa27-e5f55246a84b",
+        "fields": {
+            "uuid": "850000fe-6689-4fb2-aa27-e5f55246a84b",
+            "name": "Watch Stickers & Decals",
+            "emoji": "",
+            "parent": "f06e9696-3b21-4db2-bcb3-0e05a6fdbbc5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "beaa077d-5ceb-4a51-8ad3-d5b19b90f06a",
+        "fields": {
+            "uuid": "beaa077d-5ceb-4a51-8ad3-d5b19b90f06a",
+            "name": "Watch Winders",
+            "emoji": "",
+            "parent": "f06e9696-3b21-4db2-bcb3-0e05a6fdbbc5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "473abbd1-f325-4538-83d9-3ca5fa7b3666",
+        "fields": {
+            "uuid": "473abbd1-f325-4538-83d9-3ca5fa7b3666",
+            "name": "Watches",
+            "emoji": "",
+            "parent": "e761d53d-67bd-4cf6-a81f-8c7a846eb213"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "daffc639-9fe1-4868-8612-cb4de23e1c84",
+        "fields": {
+            "uuid": "daffc639-9fe1-4868-8612-cb4de23e1c84",
+            "name": "Smart Watches",
+            "emoji": "",
+            "parent": "e761d53d-67bd-4cf6-a81f-8c7a846eb213"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ea0cdb96-cd52-41cf-94f5-65d282b6de3b",
+        "fields": {
+            "uuid": "ea0cdb96-cd52-41cf-94f5-65d282b6de3b",
+            "name": "Shoe Accessories",
+            "emoji": "",
+            "parent": "81bc8845-5cf8-4777-9ccf-a725300f53e0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "433520bf-16ea-42da-86c5-9b67c484020b",
+        "fields": {
+            "uuid": "433520bf-16ea-42da-86c5-9b67c484020b",
+            "name": "Boot Liners",
+            "emoji": "",
+            "parent": "ea0cdb96-cd52-41cf-94f5-65d282b6de3b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "adf18c21-071a-4df5-9aac-788b26378fa8",
+        "fields": {
+            "uuid": "adf18c21-071a-4df5-9aac-788b26378fa8",
+            "name": "Gaiters",
+            "emoji": "",
+            "parent": "ea0cdb96-cd52-41cf-94f5-65d282b6de3b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "223f8926-fde1-4ffa-b398-b2b2780abfe3",
+        "fields": {
+            "uuid": "223f8926-fde1-4ffa-b398-b2b2780abfe3",
+            "name": "Shoe Covers",
+            "emoji": "",
+            "parent": "ea0cdb96-cd52-41cf-94f5-65d282b6de3b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "87d3148d-f833-4646-a13b-b25bbf4ba073",
+        "fields": {
+            "uuid": "87d3148d-f833-4646-a13b-b25bbf4ba073",
+            "name": "Shoe Grips",
+            "emoji": "",
+            "parent": "ea0cdb96-cd52-41cf-94f5-65d282b6de3b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "26186521-4805-4f4b-ae93-7d9a0bccf1c4",
+        "fields": {
+            "uuid": "26186521-4805-4f4b-ae93-7d9a0bccf1c4",
+            "name": "Shoe Inserts",
+            "emoji": "",
+            "parent": "ea0cdb96-cd52-41cf-94f5-65d282b6de3b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "14927a29-39d4-4385-871a-8bf5b200907d",
+        "fields": {
+            "uuid": "14927a29-39d4-4385-871a-8bf5b200907d",
+            "name": "Anti Slip Steps",
+            "emoji": "",
+            "parent": "26186521-4805-4f4b-ae93-7d9a0bccf1c4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f4d6bea2-69f4-49e0-b346-f7e87e88bb66",
+        "fields": {
+            "uuid": "f4d6bea2-69f4-49e0-b346-f7e87e88bb66",
+            "name": "Arch Supports",
+            "emoji": "",
+            "parent": "26186521-4805-4f4b-ae93-7d9a0bccf1c4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9905ae27-1a90-46ff-99e2-af5e60b79c7f",
+        "fields": {
+            "uuid": "9905ae27-1a90-46ff-99e2-af5e60b79c7f",
+            "name": "Gel Pads",
+            "emoji": "",
+            "parent": "26186521-4805-4f4b-ae93-7d9a0bccf1c4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c2e74bed-552e-4fa8-9aa5-baa25fae0f8c",
+        "fields": {
+            "uuid": "c2e74bed-552e-4fa8-9aa5-baa25fae0f8c",
+            "name": "Heel Cushions",
+            "emoji": "",
+            "parent": "26186521-4805-4f4b-ae93-7d9a0bccf1c4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "51369cb1-1727-4eae-af78-b591cd481ab5",
+        "fields": {
+            "uuid": "51369cb1-1727-4eae-af78-b591cd481ab5",
+            "name": "Shoelaces",
+            "emoji": "",
+            "parent": "ea0cdb96-cd52-41cf-94f5-65d282b6de3b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1e38356e-612f-45af-84b0-dfb22090078e",
+        "fields": {
+            "uuid": "1e38356e-612f-45af-84b0-dfb22090078e",
+            "name": "Spurs",
+            "emoji": "",
+            "parent": "ea0cdb96-cd52-41cf-94f5-65d282b6de3b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bcbd20db-cee1-423f-ab82-a756ec6ec3e3",
+        "fields": {
+            "uuid": "bcbd20db-cee1-423f-ab82-a756ec6ec3e3",
+            "name": "Shoes",
+            "emoji": "",
+            "parent": "81bc8845-5cf8-4777-9ccf-a725300f53e0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "07afc95c-3eea-4433-b3a5-d8d1596ddb07",
+        "fields": {
+            "uuid": "07afc95c-3eea-4433-b3a5-d8d1596ddb07",
+            "name": "Athletic Shoes",
+            "emoji": "",
+            "parent": "bcbd20db-cee1-423f-ab82-a756ec6ec3e3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0dd054dc-7196-4a1b-a9af-bf99ed7f6fba",
+        "fields": {
+            "uuid": "0dd054dc-7196-4a1b-a9af-bf99ed7f6fba",
+            "name": "Baby & Toddler Shoes",
+            "emoji": "",
+            "parent": "bcbd20db-cee1-423f-ab82-a756ec6ec3e3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d61fb9e6-40a4-41f8-9e20-b31afc53c273",
+        "fields": {
+            "uuid": "d61fb9e6-40a4-41f8-9e20-b31afc53c273",
+            "name": "Baby & Toddler Boots",
+            "emoji": "",
+            "parent": "0dd054dc-7196-4a1b-a9af-bf99ed7f6fba"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fadc69b3-d646-42ec-90e0-961cb307118c",
+        "fields": {
+            "uuid": "fadc69b3-d646-42ec-90e0-961cb307118c",
+            "name": "Baby & Toddler Sandals",
+            "emoji": "",
+            "parent": "0dd054dc-7196-4a1b-a9af-bf99ed7f6fba"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9004c851-bcac-418a-92d4-378f588db40f",
+        "fields": {
+            "uuid": "9004c851-bcac-418a-92d4-378f588db40f",
+            "name": "Baby & Toddler Athletic Shoes",
+            "emoji": "",
+            "parent": "0dd054dc-7196-4a1b-a9af-bf99ed7f6fba"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c694b611-a7f7-4c0c-a098-528e569bf717",
+        "fields": {
+            "uuid": "c694b611-a7f7-4c0c-a098-528e569bf717",
+            "name": "Baby & Toddler Sneakers",
+            "emoji": "",
+            "parent": "0dd054dc-7196-4a1b-a9af-bf99ed7f6fba"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d902ce8a-da46-4db2-9d78-dce2d4aa261c",
+        "fields": {
+            "uuid": "d902ce8a-da46-4db2-9d78-dce2d4aa261c",
+            "name": "First Steps & Crawlers",
+            "emoji": "",
+            "parent": "0dd054dc-7196-4a1b-a9af-bf99ed7f6fba"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c7fc9403-be1a-437d-bf35-11ced47117c9",
+        "fields": {
+            "uuid": "c7fc9403-be1a-437d-bf35-11ced47117c9",
+            "name": "Boots",
+            "emoji": "",
+            "parent": "bcbd20db-cee1-423f-ab82-a756ec6ec3e3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8ccb6313-fe55-441b-abd8-bdc28531ba90",
+        "fields": {
+            "uuid": "8ccb6313-fe55-441b-abd8-bdc28531ba90",
+            "name": "Sandals",
+            "emoji": "",
+            "parent": "bcbd20db-cee1-423f-ab82-a756ec6ec3e3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3a234f97-acf8-4a56-8620-07d24dc2ed9d",
+        "fields": {
+            "uuid": "3a234f97-acf8-4a56-8620-07d24dc2ed9d",
+            "name": "Slippers",
+            "emoji": "",
+            "parent": "bcbd20db-cee1-423f-ab82-a756ec6ec3e3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dc6003b9-2cf0-46f1-8087-b9fc67bacc9e",
+        "fields": {
+            "uuid": "dc6003b9-2cf0-46f1-8087-b9fc67bacc9e",
+            "name": "Sneakers",
+            "emoji": "",
+            "parent": "bcbd20db-cee1-423f-ab82-a756ec6ec3e3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "68f7cc3f-3ef6-4dfb-b012-f21bd654d298",
+        "fields": {
+            "uuid": "68f7cc3f-3ef6-4dfb-b012-f21bd654d298",
+            "name": "Flats",
+            "emoji": "",
+            "parent": "bcbd20db-cee1-423f-ab82-a756ec6ec3e3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "253ef5aa-146e-4a69-9df0-39a1a6991df1",
+        "fields": {
+            "uuid": "253ef5aa-146e-4a69-9df0-39a1a6991df1",
+            "name": "Heels",
+            "emoji": "",
+            "parent": "bcbd20db-cee1-423f-ab82-a756ec6ec3e3"
+        }
+    }
+]

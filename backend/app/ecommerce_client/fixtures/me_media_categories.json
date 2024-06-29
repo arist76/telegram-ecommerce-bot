@@ -1,0 +1,332 @@
+[
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7ff483ca-c84a-483c-b479-a53fdd1bd38e",
+        "fields": {
+            "uuid": "7ff483ca-c84a-483c-b479-a53fdd1bd38e",
+            "name": "Media",
+            "emoji": "",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cdecc63f-76d1-448e-b89f-05d05b160cd5",
+        "fields": {
+            "uuid": "cdecc63f-76d1-448e-b89f-05d05b160cd5",
+            "name": "Books",
+            "emoji": "",
+            "parent": "7ff483ca-c84a-483c-b479-a53fdd1bd38e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3b591417-8a64-4303-9674-e52da4c13670",
+        "fields": {
+            "uuid": "3b591417-8a64-4303-9674-e52da4c13670",
+            "name": "Audiobooks",
+            "emoji": "",
+            "parent": "cdecc63f-76d1-448e-b89f-05d05b160cd5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b2b9935a-b790-487a-89af-40b70bb54077",
+        "fields": {
+            "uuid": "b2b9935a-b790-487a-89af-40b70bb54077",
+            "name": "E-Books",
+            "emoji": "",
+            "parent": "cdecc63f-76d1-448e-b89f-05d05b160cd5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fb208c0b-d111-4175-a77b-f0b89f71289f",
+        "fields": {
+            "uuid": "fb208c0b-d111-4175-a77b-f0b89f71289f",
+            "name": "Print Books",
+            "emoji": "",
+            "parent": "cdecc63f-76d1-448e-b89f-05d05b160cd5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d82f5c21-731d-430c-97db-a33f1bd69ce6",
+        "fields": {
+            "uuid": "d82f5c21-731d-430c-97db-a33f1bd69ce6",
+            "name": "Magazines & Newspapers",
+            "emoji": "",
+            "parent": "7ff483ca-c84a-483c-b479-a53fdd1bd38e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3957a005-43cb-4480-b63b-410be53c38a2",
+        "fields": {
+            "uuid": "3957a005-43cb-4480-b63b-410be53c38a2",
+            "name": "Magazines",
+            "emoji": "",
+            "parent": "d82f5c21-731d-430c-97db-a33f1bd69ce6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "873ced13-79e7-453c-b020-1877ad8900b6",
+        "fields": {
+            "uuid": "873ced13-79e7-453c-b020-1877ad8900b6",
+            "name": "Consumer Magazines",
+            "emoji": "",
+            "parent": "3957a005-43cb-4480-b63b-410be53c38a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "beffb457-8cba-412c-9ea9-418dcf35552a",
+        "fields": {
+            "uuid": "beffb457-8cba-412c-9ea9-418dcf35552a",
+            "name": "In-House Magazines",
+            "emoji": "",
+            "parent": "3957a005-43cb-4480-b63b-410be53c38a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "04dbf2ce-fe6b-4c29-9abe-4faccabc7eaf",
+        "fields": {
+            "uuid": "04dbf2ce-fe6b-4c29-9abe-4faccabc7eaf",
+            "name": "Professional Magazines",
+            "emoji": "",
+            "parent": "3957a005-43cb-4480-b63b-410be53c38a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "45d04d1d-7af5-42f7-af6f-c2d9243dd4e6",
+        "fields": {
+            "uuid": "45d04d1d-7af5-42f7-af6f-c2d9243dd4e6",
+            "name": "Newspapers",
+            "emoji": "",
+            "parent": "d82f5c21-731d-430c-97db-a33f1bd69ce6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "17e6ed72-8de4-47b1-8558-89a5b8b545fc",
+        "fields": {
+            "uuid": "17e6ed72-8de4-47b1-8558-89a5b8b545fc",
+            "name": "International Newspapers",
+            "emoji": "",
+            "parent": "45d04d1d-7af5-42f7-af6f-c2d9243dd4e6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8eddb564-fdf9-47ef-8214-058aaa1b801c",
+        "fields": {
+            "uuid": "8eddb564-fdf9-47ef-8214-058aaa1b801c",
+            "name": "Local Newspapers",
+            "emoji": "",
+            "parent": "45d04d1d-7af5-42f7-af6f-c2d9243dd4e6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3983ca77-1abf-421f-ab5f-1b22de9224a9",
+        "fields": {
+            "uuid": "3983ca77-1abf-421f-ab5f-1b22de9224a9",
+            "name": "National Newspapers",
+            "emoji": "",
+            "parent": "45d04d1d-7af5-42f7-af6f-c2d9243dd4e6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "757681f9-0961-4337-a9ba-2ac7758e6498",
+        "fields": {
+            "uuid": "757681f9-0961-4337-a9ba-2ac7758e6498",
+            "name": "Music & Sound Recordings",
+            "emoji": "",
+            "parent": "7ff483ca-c84a-483c-b479-a53fdd1bd38e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1d9cd53f-3eba-4595-8790-8f41ff99f4a9",
+        "fields": {
+            "uuid": "1d9cd53f-3eba-4595-8790-8f41ff99f4a9",
+            "name": "Digital Music Downloads",
+            "emoji": "",
+            "parent": "757681f9-0961-4337-a9ba-2ac7758e6498"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4cdc5146-e39d-4e85-a091-d854c4a0d76c",
+        "fields": {
+            "uuid": "4cdc5146-e39d-4e85-a091-d854c4a0d76c",
+            "name": "Music Cassette Tapes",
+            "emoji": "",
+            "parent": "757681f9-0961-4337-a9ba-2ac7758e6498"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "07d59e8d-f318-4c38-8095-aaa582a57cf7",
+        "fields": {
+            "uuid": "07d59e8d-f318-4c38-8095-aaa582a57cf7",
+            "name": "Music CDs",
+            "emoji": "",
+            "parent": "757681f9-0961-4337-a9ba-2ac7758e6498"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8515dcc0-9a0c-4f05-bc84-9096c3a44241",
+        "fields": {
+            "uuid": "8515dcc0-9a0c-4f05-bc84-9096c3a44241",
+            "name": "Records & LPs",
+            "emoji": "",
+            "parent": "757681f9-0961-4337-a9ba-2ac7758e6498"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "289e236a-ef13-4505-9ba8-c056e37658f8",
+        "fields": {
+            "uuid": "289e236a-ef13-4505-9ba8-c056e37658f8",
+            "name": "Spoken Word & Field Recordings",
+            "emoji": "",
+            "parent": "757681f9-0961-4337-a9ba-2ac7758e6498"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "43cad7b1-3b6c-40b0-bcde-62f8fe049176",
+        "fields": {
+            "uuid": "43cad7b1-3b6c-40b0-bcde-62f8fe049176",
+            "name": "Vinyl",
+            "emoji": "",
+            "parent": "757681f9-0961-4337-a9ba-2ac7758e6498"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "23f5c25d-ec76-4ab0-9599-cc6689e68629",
+        "fields": {
+            "uuid": "23f5c25d-ec76-4ab0-9599-cc6689e68629",
+            "name": "Podcasts & Live Streams",
+            "emoji": "",
+            "parent": "7ff483ca-c84a-483c-b479-a53fdd1bd38e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6dcca4b1-2361-4ba6-adfd-575350027bed",
+        "fields": {
+            "uuid": "6dcca4b1-2361-4ba6-adfd-575350027bed",
+            "name": "Live Streams",
+            "emoji": "",
+            "parent": "23f5c25d-ec76-4ab0-9599-cc6689e68629"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "349903d7-25dc-4729-b72d-936a11efdb68",
+        "fields": {
+            "uuid": "349903d7-25dc-4729-b72d-936a11efdb68",
+            "name": "Podcasts",
+            "emoji": "",
+            "parent": "23f5c25d-ec76-4ab0-9599-cc6689e68629"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5e249292-45d0-4256-8914-1f61dee10706",
+        "fields": {
+            "uuid": "5e249292-45d0-4256-8914-1f61dee10706",
+            "name": "Radio Shows",
+            "emoji": "",
+            "parent": "23f5c25d-ec76-4ab0-9599-cc6689e68629"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b608ee6a-a640-4228-bdde-b947b2f3ba4d",
+        "fields": {
+            "uuid": "b608ee6a-a640-4228-bdde-b947b2f3ba4d",
+            "name": "Product Manuals",
+            "emoji": "",
+            "parent": "7ff483ca-c84a-483c-b479-a53fdd1bd38e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "23ffe96e-7234-431d-a3bf-91bf87cb3007",
+        "fields": {
+            "uuid": "23ffe96e-7234-431d-a3bf-91bf87cb3007",
+            "name": "Sheet Music",
+            "emoji": "",
+            "parent": "7ff483ca-c84a-483c-b479-a53fdd1bd38e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "41a7dd69-225e-4235-b30f-3c172d52ad78",
+        "fields": {
+            "uuid": "41a7dd69-225e-4235-b30f-3c172d52ad78",
+            "name": "Videos",
+            "emoji": "",
+            "parent": "7ff483ca-c84a-483c-b479-a53fdd1bd38e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4ce6c869-6586-42ba-8716-599a5e6f6b9d",
+        "fields": {
+            "uuid": "4ce6c869-6586-42ba-8716-599a5e6f6b9d",
+            "name": "Blu-ray",
+            "emoji": "",
+            "parent": "41a7dd69-225e-4235-b30f-3c172d52ad78"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "34013d82-d87e-4202-8e47-2ef890b5884e",
+        "fields": {
+            "uuid": "34013d82-d87e-4202-8e47-2ef890b5884e",
+            "name": "Digital Downloads",
+            "emoji": "",
+            "parent": "41a7dd69-225e-4235-b30f-3c172d52ad78"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5900ae15-dd5e-4c13-8240-5c75149a4150",
+        "fields": {
+            "uuid": "5900ae15-dd5e-4c13-8240-5c75149a4150",
+            "name": "DVDs",
+            "emoji": "",
+            "parent": "41a7dd69-225e-4235-b30f-3c172d52ad78"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bb2da07a-e9e6-4717-a7f8-0b799a7abf24",
+        "fields": {
+            "uuid": "bb2da07a-e9e6-4717-a7f8-0b799a7abf24",
+            "name": "VHS Tapes",
+            "emoji": "",
+            "parent": "41a7dd69-225e-4235-b30f-3c172d52ad78"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b61a7547-334e-4f4c-a70f-cb69f64a0ce9",
+        "fields": {
+            "uuid": "b61a7547-334e-4f4c-a70f-cb69f64a0ce9",
+            "name": "Academic Papers & Studies",
+            "emoji": "",
+            "parent": "7ff483ca-c84a-483c-b479-a53fdd1bd38e"
+        }
+    }
+]

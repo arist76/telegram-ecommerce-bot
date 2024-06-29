@@ -15,6 +15,9 @@ urlpatterns = [
         views.ProductImageListCreateView.as_view(),
         name="product-image",
     ),
+    path(
+        "category-attribute/", views.AttributeListView.as_view(), name="attribute-list"
+    ),
     path("user/", views.UserListView.as_view(), name="user-list"),
     path("user/<uuid:id>/", views.UserDetailView.as_view(), name="user-detail"),
     path("user/<int:id>/", views.UserDetailView.as_view(), name="user-detail-by-id"),

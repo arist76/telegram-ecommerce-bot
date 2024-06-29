@@ -1,0 +1,82 @@
+[
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3a5701f8-6741-4fd4-989a-7e98ada0e904",
+        "fields": {
+            "uuid": "3a5701f8-6741-4fd4-989a-7e98ada0e904",
+            "name": "Product Add-Ons",
+            "emoji": "",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1fbb1ae3-4880-4ef9-ab87-ab16987169d0",
+        "fields": {
+            "uuid": "1fbb1ae3-4880-4ef9-ab87-ab16987169d0",
+            "name": "Extended Warranties",
+            "emoji": "",
+            "parent": "3a5701f8-6741-4fd4-989a-7e98ada0e904"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c66011f7-8909-4cce-ab04-3e7ad80d8358",
+        "fields": {
+            "uuid": "c66011f7-8909-4cce-ab04-3e7ad80d8358",
+            "name": "Installation Services",
+            "emoji": "",
+            "parent": "3a5701f8-6741-4fd4-989a-7e98ada0e904"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0703dfa5-d315-4f12-8c6b-1ab315f2f150",
+        "fields": {
+            "uuid": "0703dfa5-d315-4f12-8c6b-1ab315f2f150",
+            "name": "Maintenance Plans",
+            "emoji": "",
+            "parent": "3a5701f8-6741-4fd4-989a-7e98ada0e904"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "64693daa-7be5-4135-be73-236dc48fd714",
+        "fields": {
+            "uuid": "64693daa-7be5-4135-be73-236dc48fd714",
+            "name": "Product Customization",
+            "emoji": "",
+            "parent": "3a5701f8-6741-4fd4-989a-7e98ada0e904"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cba95f56-4c97-47bc-86e5-35789ddc6b32",
+        "fields": {
+            "uuid": "cba95f56-4c97-47bc-86e5-35789ddc6b32",
+            "name": "Product Upgrades",
+            "emoji": "",
+            "parent": "3a5701f8-6741-4fd4-989a-7e98ada0e904"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "36c01b24-5a1a-40c0-9525-70edbdea95d6",
+        "fields": {
+            "uuid": "36c01b24-5a1a-40c0-9525-70edbdea95d6",
+            "name": "Shipping Insurance",
+            "emoji": "",
+            "parent": "3a5701f8-6741-4fd4-989a-7e98ada0e904"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0ad00107-6c05-4a35-86cc-cdfaa5862463",
+        "fields": {
+            "uuid": "0ad00107-6c05-4a35-86cc-cdfaa5862463",
+            "name": "Subscription Services",
+            "emoji": "",
+            "parent": "3a5701f8-6741-4fd4-989a-7e98ada0e904"
+        }
+    }
+]

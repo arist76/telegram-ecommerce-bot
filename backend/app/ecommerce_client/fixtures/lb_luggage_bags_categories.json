@@ -1,0 +1,322 @@
+[
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d8afa395-3479-49cf-8baf-316674f84c46",
+        "fields": {
+            "uuid": "d8afa395-3479-49cf-8baf-316674f84c46",
+            "name": "Luggage & Bags",
+            "emoji": "",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "52fd0ee0-8c79-47e4-96d3-45ce6f6ae973",
+        "fields": {
+            "uuid": "52fd0ee0-8c79-47e4-96d3-45ce6f6ae973",
+            "name": "Backpacks",
+            "emoji": "",
+            "parent": "d8afa395-3479-49cf-8baf-316674f84c46"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "78809370-af0c-4029-8860-43d5b4ee495b",
+        "fields": {
+            "uuid": "78809370-af0c-4029-8860-43d5b4ee495b",
+            "name": "School Backpacks",
+            "emoji": "",
+            "parent": "52fd0ee0-8c79-47e4-96d3-45ce6f6ae973"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "abd25fa9-088e-48d1-bad1-9c0e77e91e2f",
+        "fields": {
+            "uuid": "abd25fa9-088e-48d1-bad1-9c0e77e91e2f",
+            "name": "Briefcases",
+            "emoji": "",
+            "parent": "d8afa395-3479-49cf-8baf-316674f84c46"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4c69d9f8-3983-4750-8c43-3c5bec71d8ea",
+        "fields": {
+            "uuid": "4c69d9f8-3983-4750-8c43-3c5bec71d8ea",
+            "name": "Cosmetic & Toiletry Bags",
+            "emoji": "",
+            "parent": "d8afa395-3479-49cf-8baf-316674f84c46"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8e5a3e60-00c7-45c9-97dd-bdcd108fee16",
+        "fields": {
+            "uuid": "8e5a3e60-00c7-45c9-97dd-bdcd108fee16",
+            "name": "Makeup Bags",
+            "emoji": "",
+            "parent": "4c69d9f8-3983-4750-8c43-3c5bec71d8ea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a307d0ba-0185-4d60-8922-6e30387356a2",
+        "fields": {
+            "uuid": "a307d0ba-0185-4d60-8922-6e30387356a2",
+            "name": "Toiletry Bags",
+            "emoji": "",
+            "parent": "4c69d9f8-3983-4750-8c43-3c5bec71d8ea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f0243846-850d-4ddd-b2c2-54b90ace814b",
+        "fields": {
+            "uuid": "f0243846-850d-4ddd-b2c2-54b90ace814b",
+            "name": "Travel Organizer Bags",
+            "emoji": "",
+            "parent": "4c69d9f8-3983-4750-8c43-3c5bec71d8ea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ab84bb35-9d85-4f00-9a7f-0310ad7d148e",
+        "fields": {
+            "uuid": "ab84bb35-9d85-4f00-9a7f-0310ad7d148e",
+            "name": "Diaper Bags",
+            "emoji": "",
+            "parent": "d8afa395-3479-49cf-8baf-316674f84c46"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "745b867e-244a-42af-b205-97ff34c5bccf",
+        "fields": {
+            "uuid": "745b867e-244a-42af-b205-97ff34c5bccf",
+            "name": "Dry Boxes",
+            "emoji": "",
+            "parent": "d8afa395-3479-49cf-8baf-316674f84c46"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0e1b8683-aee0-4818-950c-de5c30ec657f",
+        "fields": {
+            "uuid": "0e1b8683-aee0-4818-950c-de5c30ec657f",
+            "name": "Duffel Bags",
+            "emoji": "",
+            "parent": "d8afa395-3479-49cf-8baf-316674f84c46"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9b457e3f-b2e9-45f8-b42b-fe94485b2842",
+        "fields": {
+            "uuid": "9b457e3f-b2e9-45f8-b42b-fe94485b2842",
+            "name": "Gym Duffel Bags",
+            "emoji": "",
+            "parent": "0e1b8683-aee0-4818-950c-de5c30ec657f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fd234d2a-f8b7-4885-9ac4-4a16da401b51",
+        "fields": {
+            "uuid": "fd234d2a-f8b7-4885-9ac4-4a16da401b51",
+            "name": "Fanny Packs",
+            "emoji": "",
+            "parent": "d8afa395-3479-49cf-8baf-316674f84c46"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "daaf6a54-6e64-4854-b06d-990a229ff9a9",
+        "fields": {
+            "uuid": "daaf6a54-6e64-4854-b06d-990a229ff9a9",
+            "name": "Garment Bags",
+            "emoji": "",
+            "parent": "d8afa395-3479-49cf-8baf-316674f84c46"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6c0e420a-b9a3-479d-a888-827b2d4c658d",
+        "fields": {
+            "uuid": "6c0e420a-b9a3-479d-a888-827b2d4c658d",
+            "name": "Luggage Accessories",
+            "emoji": "",
+            "parent": "d8afa395-3479-49cf-8baf-316674f84c46"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "504ce670-945b-4f91-b449-467e1ef00635",
+        "fields": {
+            "uuid": "504ce670-945b-4f91-b449-467e1ef00635",
+            "name": "Dry Box Liners & Inserts",
+            "emoji": "",
+            "parent": "6c0e420a-b9a3-479d-a888-827b2d4c658d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3f42a791-cd05-4c58-874f-268748675015",
+        "fields": {
+            "uuid": "3f42a791-cd05-4c58-874f-268748675015",
+            "name": "Luggage Covers",
+            "emoji": "",
+            "parent": "6c0e420a-b9a3-479d-a888-827b2d4c658d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4e325919-0a9e-4024-aa2c-f6b55d8ddbe1",
+        "fields": {
+            "uuid": "4e325919-0a9e-4024-aa2c-f6b55d8ddbe1",
+            "name": "Luggage Racks & Stands",
+            "emoji": "",
+            "parent": "6c0e420a-b9a3-479d-a888-827b2d4c658d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7fe3991a-b2d5-4640-9a12-f8882512e40a",
+        "fields": {
+            "uuid": "7fe3991a-b2d5-4640-9a12-f8882512e40a",
+            "name": "Luggage Straps",
+            "emoji": "",
+            "parent": "6c0e420a-b9a3-479d-a888-827b2d4c658d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c1b0ef09-b48d-4fc0-b83c-51ec4d219314",
+        "fields": {
+            "uuid": "c1b0ef09-b48d-4fc0-b83c-51ec4d219314",
+            "name": "Luggage Tags",
+            "emoji": "",
+            "parent": "6c0e420a-b9a3-479d-a888-827b2d4c658d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ada02c44-9a2a-4e67-83d1-8c352ab1d182",
+        "fields": {
+            "uuid": "ada02c44-9a2a-4e67-83d1-8c352ab1d182",
+            "name": "Packing Organizers",
+            "emoji": "",
+            "parent": "6c0e420a-b9a3-479d-a888-827b2d4c658d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2252d226-d623-4529-b3cf-49609f715950",
+        "fields": {
+            "uuid": "2252d226-d623-4529-b3cf-49609f715950",
+            "name": "Travel Bottles & Containers",
+            "emoji": "",
+            "parent": "6c0e420a-b9a3-479d-a888-827b2d4c658d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a895d112-9616-4e19-b4b4-512462744616",
+        "fields": {
+            "uuid": "a895d112-9616-4e19-b4b4-512462744616",
+            "name": "Travel Pouches",
+            "emoji": "",
+            "parent": "6c0e420a-b9a3-479d-a888-827b2d4c658d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e02c4b6c-9002-431a-bfd1-81320ee79f8e",
+        "fields": {
+            "uuid": "e02c4b6c-9002-431a-bfd1-81320ee79f8e",
+            "name": "Messenger Bags",
+            "emoji": "",
+            "parent": "d8afa395-3479-49cf-8baf-316674f84c46"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2ccf0c81-5cfe-461a-8e16-f15a14f0d38a",
+        "fields": {
+            "uuid": "2ccf0c81-5cfe-461a-8e16-f15a14f0d38a",
+            "name": "Shopping Totes",
+            "emoji": "",
+            "parent": "d8afa395-3479-49cf-8baf-316674f84c46"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "990145ca-044a-4269-bbe5-7b5d6d114bdd",
+        "fields": {
+            "uuid": "990145ca-044a-4269-bbe5-7b5d6d114bdd",
+            "name": "Suitcases",
+            "emoji": "",
+            "parent": "d8afa395-3479-49cf-8baf-316674f84c46"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "485ca703-6d3b-4496-9009-bed411aefaf2",
+        "fields": {
+            "uuid": "485ca703-6d3b-4496-9009-bed411aefaf2",
+            "name": "Carry-On Suitcases",
+            "emoji": "",
+            "parent": "990145ca-044a-4269-bbe5-7b5d6d114bdd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "00670574-5a1e-4dd9-a6df-79c745830e78",
+        "fields": {
+            "uuid": "00670574-5a1e-4dd9-a6df-79c745830e78",
+            "name": "Checked Suitcases",
+            "emoji": "",
+            "parent": "990145ca-044a-4269-bbe5-7b5d6d114bdd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9e503eda-987c-463e-8e77-f1cb5cb6b4a1",
+        "fields": {
+            "uuid": "9e503eda-987c-463e-8e77-f1cb5cb6b4a1",
+            "name": "Kids' Suitcases",
+            "emoji": "",
+            "parent": "990145ca-044a-4269-bbe5-7b5d6d114bdd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "315208a3-1ff7-4313-9185-6f463b0e099e",
+        "fields": {
+            "uuid": "315208a3-1ff7-4313-9185-6f463b0e099e",
+            "name": "Suitcase Travel Sets",
+            "emoji": "",
+            "parent": "990145ca-044a-4269-bbe5-7b5d6d114bdd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "36a04d47-4c68-4964-b559-1a997b80fa8c",
+        "fields": {
+            "uuid": "36a04d47-4c68-4964-b559-1a997b80fa8c",
+            "name": "Tote Bags",
+            "emoji": "",
+            "parent": "d8afa395-3479-49cf-8baf-316674f84c46"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "84632e0c-f310-4bdb-9474-27ebf3646dc0",
+        "fields": {
+            "uuid": "84632e0c-f310-4bdb-9474-27ebf3646dc0",
+            "name": "Train Cases",
+            "emoji": "",
+            "parent": "d8afa395-3479-49cf-8baf-316674f84c46"
+        }
+    }
+]

@@ -1,0 +1,929 @@
+[
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "315e2e10-b5bc-43ce-b089-c56be6a364a7",
+        "fields": {
+            "uuid": "315e2e10-b5bc-43ce-b089-c56be6a364a7",
+            "name": "genre",
+            "category": "cdecc63f-76d1-448e-b89f-05d05b160cd5"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "45e343b4-37ea-4a88-a87f-01ee3f4ed44c",
+        "fields": {
+            "uuid": "45e343b4-37ea-4a88-a87f-01ee3f4ed44c",
+            "name": "language_version",
+            "category": "cdecc63f-76d1-448e-b89f-05d05b160cd5"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "2464e3e8-1a6d-4ea8-b10e-efb0b2ec5aae",
+        "fields": {
+            "uuid": "2464e3e8-1a6d-4ea8-b10e-efb0b2ec5aae",
+            "name": "target_audience",
+            "category": "cdecc63f-76d1-448e-b89f-05d05b160cd5"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "4dcd8386-7536-4bbd-a5c8-cf5384f2c6ce",
+        "fields": {
+            "uuid": "4dcd8386-7536-4bbd-a5c8-cf5384f2c6ce",
+            "name": "genre",
+            "category": "3b591417-8a64-4303-9674-e52da4c13670"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "4a76afdb-fcb1-43e4-b918-1e5ab7669be6",
+        "fields": {
+            "uuid": "4a76afdb-fcb1-43e4-b918-1e5ab7669be6",
+            "name": "language_version",
+            "category": "3b591417-8a64-4303-9674-e52da4c13670"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "ace9fd7d-e71e-476e-b98f-9526cac65859",
+        "fields": {
+            "uuid": "ace9fd7d-e71e-476e-b98f-9526cac65859",
+            "name": "target_audience",
+            "category": "3b591417-8a64-4303-9674-e52da4c13670"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "3662ee01-14d6-49df-902d-b9f415eec0c5",
+        "fields": {
+            "uuid": "3662ee01-14d6-49df-902d-b9f415eec0c5",
+            "name": "genre",
+            "category": "b2b9935a-b790-487a-89af-40b70bb54077"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "21ccd634-7a43-43c5-9583-cbb7367c5d18",
+        "fields": {
+            "uuid": "21ccd634-7a43-43c5-9583-cbb7367c5d18",
+            "name": "language_version",
+            "category": "b2b9935a-b790-487a-89af-40b70bb54077"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "93b06ef4-ac46-4551-87c0-38f8cd9af8e2",
+        "fields": {
+            "uuid": "93b06ef4-ac46-4551-87c0-38f8cd9af8e2",
+            "name": "target_audience",
+            "category": "b2b9935a-b790-487a-89af-40b70bb54077"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "f8568dc9-8558-47ad-b987-f3cd3c523c9f",
+        "fields": {
+            "uuid": "f8568dc9-8558-47ad-b987-f3cd3c523c9f",
+            "name": "book_cover_type",
+            "category": "fb208c0b-d111-4175-a77b-f0b89f71289f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "c5bc78cc-601c-4b11-8fa0-1992d6fe9240",
+        "fields": {
+            "uuid": "c5bc78cc-601c-4b11-8fa0-1992d6fe9240",
+            "name": "genre",
+            "category": "fb208c0b-d111-4175-a77b-f0b89f71289f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "3ff09022-aa71-4db0-9a53-f3cedd967eab",
+        "fields": {
+            "uuid": "3ff09022-aa71-4db0-9a53-f3cedd967eab",
+            "name": "language_version",
+            "category": "fb208c0b-d111-4175-a77b-f0b89f71289f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "6de6b0f0-2d9c-498e-85a1-f94cb957cfd8",
+        "fields": {
+            "uuid": "6de6b0f0-2d9c-498e-85a1-f94cb957cfd8",
+            "name": "target_audience",
+            "category": "fb208c0b-d111-4175-a77b-f0b89f71289f"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "46a26217-148c-460e-8cae-0e55dea5bb58",
+        "fields": {
+            "uuid": "46a26217-148c-460e-8cae-0e55dea5bb58",
+            "name": "language_version",
+            "category": "d82f5c21-731d-430c-97db-a33f1bd69ce6"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "abc73789-ecb7-4c17-880a-a6827967461b",
+        "fields": {
+            "uuid": "abc73789-ecb7-4c17-880a-a6827967461b",
+            "name": "media_access",
+            "category": "d82f5c21-731d-430c-97db-a33f1bd69ce6"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "d3eed8d8-e71b-4b34-8af1-14de9c03fc1b",
+        "fields": {
+            "uuid": "d3eed8d8-e71b-4b34-8af1-14de9c03fc1b",
+            "name": "language_version",
+            "category": "3957a005-43cb-4480-b63b-410be53c38a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "5142db01-e2aa-4e85-868d-fc6511df7d0e",
+        "fields": {
+            "uuid": "5142db01-e2aa-4e85-868d-fc6511df7d0e",
+            "name": "media_access",
+            "category": "3957a005-43cb-4480-b63b-410be53c38a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "1073f46f-6cfe-4df6-9d0a-2aae27cbf815",
+        "fields": {
+            "uuid": "1073f46f-6cfe-4df6-9d0a-2aae27cbf815",
+            "name": "media_theme",
+            "category": "3957a005-43cb-4480-b63b-410be53c38a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "219ceec6-fc88-412e-a9fd-8f0b55fb3012",
+        "fields": {
+            "uuid": "219ceec6-fc88-412e-a9fd-8f0b55fb3012",
+            "name": "publication_frequency",
+            "category": "3957a005-43cb-4480-b63b-410be53c38a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "161bc2a5-406c-4da2-94aa-c28c85c68791",
+        "fields": {
+            "uuid": "161bc2a5-406c-4da2-94aa-c28c85c68791",
+            "name": "language_version",
+            "category": "873ced13-79e7-453c-b020-1877ad8900b6"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "c9cdedf4-3eb0-480f-9654-2b387497c457",
+        "fields": {
+            "uuid": "c9cdedf4-3eb0-480f-9654-2b387497c457",
+            "name": "media_access",
+            "category": "873ced13-79e7-453c-b020-1877ad8900b6"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "ebf35e43-3431-4766-b714-933822d22b95",
+        "fields": {
+            "uuid": "ebf35e43-3431-4766-b714-933822d22b95",
+            "name": "media_theme",
+            "category": "873ced13-79e7-453c-b020-1877ad8900b6"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "59c6e35a-04de-4439-8d87-dafa7545ea42",
+        "fields": {
+            "uuid": "59c6e35a-04de-4439-8d87-dafa7545ea42",
+            "name": "publication_frequency",
+            "category": "873ced13-79e7-453c-b020-1877ad8900b6"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "176b07f4-dbc8-497d-95ab-0864d7c0513f",
+        "fields": {
+            "uuid": "176b07f4-dbc8-497d-95ab-0864d7c0513f",
+            "name": "language_version",
+            "category": "beffb457-8cba-412c-9ea9-418dcf35552a"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "941e4f33-9a37-4aff-80ed-637fde187381",
+        "fields": {
+            "uuid": "941e4f33-9a37-4aff-80ed-637fde187381",
+            "name": "media_access",
+            "category": "beffb457-8cba-412c-9ea9-418dcf35552a"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "10849da1-8dbf-47f9-8209-92a424cca4ae",
+        "fields": {
+            "uuid": "10849da1-8dbf-47f9-8209-92a424cca4ae",
+            "name": "media_theme",
+            "category": "beffb457-8cba-412c-9ea9-418dcf35552a"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "c3e4812d-9d6d-496e-b825-8f0f8d0e924a",
+        "fields": {
+            "uuid": "c3e4812d-9d6d-496e-b825-8f0f8d0e924a",
+            "name": "publication_frequency",
+            "category": "beffb457-8cba-412c-9ea9-418dcf35552a"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "be37371f-3d72-49b2-b3ea-7b276016ab00",
+        "fields": {
+            "uuid": "be37371f-3d72-49b2-b3ea-7b276016ab00",
+            "name": "language_version",
+            "category": "04dbf2ce-fe6b-4c29-9abe-4faccabc7eaf"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "52d19303-d3e6-4852-a430-063cbcc2e79d",
+        "fields": {
+            "uuid": "52d19303-d3e6-4852-a430-063cbcc2e79d",
+            "name": "media_access",
+            "category": "04dbf2ce-fe6b-4c29-9abe-4faccabc7eaf"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "36b73e47-8414-492f-a024-b97396eae757",
+        "fields": {
+            "uuid": "36b73e47-8414-492f-a024-b97396eae757",
+            "name": "media_theme",
+            "category": "04dbf2ce-fe6b-4c29-9abe-4faccabc7eaf"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "148f2f54-551e-42d4-850a-a9c940893a87",
+        "fields": {
+            "uuid": "148f2f54-551e-42d4-850a-a9c940893a87",
+            "name": "publication_frequency",
+            "category": "04dbf2ce-fe6b-4c29-9abe-4faccabc7eaf"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "f0fa34b6-4cee-4257-bf65-882a2b2c3ec3",
+        "fields": {
+            "uuid": "f0fa34b6-4cee-4257-bf65-882a2b2c3ec3",
+            "name": "language_version",
+            "category": "45d04d1d-7af5-42f7-af6f-c2d9243dd4e6"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "3942c05f-2238-4347-b605-b90302989fc7",
+        "fields": {
+            "uuid": "3942c05f-2238-4347-b605-b90302989fc7",
+            "name": "media_access",
+            "category": "45d04d1d-7af5-42f7-af6f-c2d9243dd4e6"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "992c49f5-de8a-416b-9f2a-cfd97a76adea",
+        "fields": {
+            "uuid": "992c49f5-de8a-416b-9f2a-cfd97a76adea",
+            "name": "media_section",
+            "category": "45d04d1d-7af5-42f7-af6f-c2d9243dd4e6"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "c42681c3-e93d-4097-8ec8-dfa6f6072187",
+        "fields": {
+            "uuid": "c42681c3-e93d-4097-8ec8-dfa6f6072187",
+            "name": "publication_frequency",
+            "category": "45d04d1d-7af5-42f7-af6f-c2d9243dd4e6"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "0c8dcb73-3fb5-4d45-895e-29cfe7153813",
+        "fields": {
+            "uuid": "0c8dcb73-3fb5-4d45-895e-29cfe7153813",
+            "name": "language_version",
+            "category": "17e6ed72-8de4-47b1-8558-89a5b8b545fc"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "1ad7be6d-a88b-4f8f-876b-d54bfa248cf1",
+        "fields": {
+            "uuid": "1ad7be6d-a88b-4f8f-876b-d54bfa248cf1",
+            "name": "media_access",
+            "category": "17e6ed72-8de4-47b1-8558-89a5b8b545fc"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "fb3b7bea-cd7b-4e79-b55a-9beeb4d32574",
+        "fields": {
+            "uuid": "fb3b7bea-cd7b-4e79-b55a-9beeb4d32574",
+            "name": "media_section",
+            "category": "17e6ed72-8de4-47b1-8558-89a5b8b545fc"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "0bb7cd46-ca19-47f6-b07e-2a83d2256bb5",
+        "fields": {
+            "uuid": "0bb7cd46-ca19-47f6-b07e-2a83d2256bb5",
+            "name": "publication_frequency",
+            "category": "17e6ed72-8de4-47b1-8558-89a5b8b545fc"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "73b80bb2-6c1f-4f58-b05e-fcd0db848666",
+        "fields": {
+            "uuid": "73b80bb2-6c1f-4f58-b05e-fcd0db848666",
+            "name": "language_version",
+            "category": "8eddb564-fdf9-47ef-8214-058aaa1b801c"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "1ef8fcf7-c3a6-4cea-8edb-c408d68fe97e",
+        "fields": {
+            "uuid": "1ef8fcf7-c3a6-4cea-8edb-c408d68fe97e",
+            "name": "media_access",
+            "category": "8eddb564-fdf9-47ef-8214-058aaa1b801c"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "13fdba67-3b39-4aed-9b83-b06487676b2f",
+        "fields": {
+            "uuid": "13fdba67-3b39-4aed-9b83-b06487676b2f",
+            "name": "media_section",
+            "category": "8eddb564-fdf9-47ef-8214-058aaa1b801c"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "196695de-2bf4-406b-9589-4d2a689324db",
+        "fields": {
+            "uuid": "196695de-2bf4-406b-9589-4d2a689324db",
+            "name": "publication_frequency",
+            "category": "8eddb564-fdf9-47ef-8214-058aaa1b801c"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "005c8cdc-ad1f-4be9-9d24-e70ca5b3e4c4",
+        "fields": {
+            "uuid": "005c8cdc-ad1f-4be9-9d24-e70ca5b3e4c4",
+            "name": "language_version",
+            "category": "3983ca77-1abf-421f-ab5f-1b22de9224a9"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "4668af5c-112b-4cbf-b535-d27ba8a98178",
+        "fields": {
+            "uuid": "4668af5c-112b-4cbf-b535-d27ba8a98178",
+            "name": "media_access",
+            "category": "3983ca77-1abf-421f-ab5f-1b22de9224a9"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "45c9e801-ac03-4eb9-a3e0-750a2b06221b",
+        "fields": {
+            "uuid": "45c9e801-ac03-4eb9-a3e0-750a2b06221b",
+            "name": "media_section",
+            "category": "3983ca77-1abf-421f-ab5f-1b22de9224a9"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "43210c23-90ab-4079-94ac-a8e5d95a904a",
+        "fields": {
+            "uuid": "43210c23-90ab-4079-94ac-a8e5d95a904a",
+            "name": "publication_frequency",
+            "category": "3983ca77-1abf-421f-ab5f-1b22de9224a9"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "db7458a6-bb40-4da4-8616-7aa42402cc6e",
+        "fields": {
+            "uuid": "db7458a6-bb40-4da4-8616-7aa42402cc6e",
+            "name": "music_genre",
+            "category": "757681f9-0961-4337-a9ba-2ac7758e6498"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "9ae74135-ce6b-4931-8888-b72b814c5241",
+        "fields": {
+            "uuid": "9ae74135-ce6b-4931-8888-b72b814c5241",
+            "name": "download_format",
+            "category": "1d9cd53f-3eba-4595-8790-8f41ff99f4a9"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "a6f96363-001e-41f7-88b4-5bcbc148a453",
+        "fields": {
+            "uuid": "a6f96363-001e-41f7-88b4-5bcbc148a453",
+            "name": "music_genre",
+            "category": "1d9cd53f-3eba-4595-8790-8f41ff99f4a9"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "88ddff73-9623-42f4-8130-4b449431f92c",
+        "fields": {
+            "uuid": "88ddff73-9623-42f4-8130-4b449431f92c",
+            "name": "music_genre",
+            "category": "4cdc5146-e39d-4e85-a091-d854c4a0d76c"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "a312691a-928b-47e4-ab33-e2096e1ade8e",
+        "fields": {
+            "uuid": "a312691a-928b-47e4-ab33-e2096e1ade8e",
+            "name": "music_genre",
+            "category": "07d59e8d-f318-4c38-8095-aaa582a57cf7"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "9cc6a71c-5d43-4920-9b28-5c3a942cde91",
+        "fields": {
+            "uuid": "9cc6a71c-5d43-4920-9b28-5c3a942cde91",
+            "name": "music_genre",
+            "category": "8515dcc0-9a0c-4f05-bc84-9096c3a44241"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "fa33a05b-a6d6-4a86-9415-b68978c18b1f",
+        "fields": {
+            "uuid": "fa33a05b-a6d6-4a86-9415-b68978c18b1f",
+            "name": "music_genre",
+            "category": "289e236a-ef13-4505-9ba8-c056e37658f8"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "0e06b601-6ad2-4856-b32b-772466eb162b",
+        "fields": {
+            "uuid": "0e06b601-6ad2-4856-b32b-772466eb162b",
+            "name": "music_genre",
+            "category": "43cad7b1-3b6c-40b0-bcde-62f8fe049176"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "1e0f7b48-880e-4289-b59d-2e2b538fcb25",
+        "fields": {
+            "uuid": "1e0f7b48-880e-4289-b59d-2e2b538fcb25",
+            "name": "genre",
+            "category": "23f5c25d-ec76-4ab0-9599-cc6689e68629"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "eac97cfb-461f-4196-940f-e98c65ecf503",
+        "fields": {
+            "uuid": "eac97cfb-461f-4196-940f-e98c65ecf503",
+            "name": "language",
+            "category": "23f5c25d-ec76-4ab0-9599-cc6689e68629"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "1915fb13-a26e-41e0-ae3d-92aae09f01ad",
+        "fields": {
+            "uuid": "1915fb13-a26e-41e0-ae3d-92aae09f01ad",
+            "name": "release_schedule",
+            "category": "23f5c25d-ec76-4ab0-9599-cc6689e68629"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "02e15a4c-742b-4cfe-abc6-45082d1f713f",
+        "fields": {
+            "uuid": "02e15a4c-742b-4cfe-abc6-45082d1f713f",
+            "name": "genre",
+            "category": "6dcca4b1-2361-4ba6-adfd-575350027bed"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "bca4037e-6095-49fe-991f-49ebacb60403",
+        "fields": {
+            "uuid": "bca4037e-6095-49fe-991f-49ebacb60403",
+            "name": "language",
+            "category": "6dcca4b1-2361-4ba6-adfd-575350027bed"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "0b1d2102-b0fd-41d4-99a4-8361b8b6a6f9",
+        "fields": {
+            "uuid": "0b1d2102-b0fd-41d4-99a4-8361b8b6a6f9",
+            "name": "release_schedule",
+            "category": "6dcca4b1-2361-4ba6-adfd-575350027bed"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "bb6b81a7-0992-4d79-9adf-140884c758ea",
+        "fields": {
+            "uuid": "bb6b81a7-0992-4d79-9adf-140884c758ea",
+            "name": "genre",
+            "category": "349903d7-25dc-4729-b72d-936a11efdb68"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "f1aa3b9a-5f20-4cba-b159-2616cda8f8b8",
+        "fields": {
+            "uuid": "f1aa3b9a-5f20-4cba-b159-2616cda8f8b8",
+            "name": "language",
+            "category": "349903d7-25dc-4729-b72d-936a11efdb68"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "9ab5cf2e-76b3-4292-9b76-d034d7f89f8c",
+        "fields": {
+            "uuid": "9ab5cf2e-76b3-4292-9b76-d034d7f89f8c",
+            "name": "release_schedule",
+            "category": "349903d7-25dc-4729-b72d-936a11efdb68"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "dcbd13b7-2d84-43b5-b5d1-3b86fc58a842",
+        "fields": {
+            "uuid": "dcbd13b7-2d84-43b5-b5d1-3b86fc58a842",
+            "name": "genre",
+            "category": "5e249292-45d0-4256-8914-1f61dee10706"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "d18f735a-fcab-4ada-bed8-b804bc2bc99e",
+        "fields": {
+            "uuid": "d18f735a-fcab-4ada-bed8-b804bc2bc99e",
+            "name": "language",
+            "category": "5e249292-45d0-4256-8914-1f61dee10706"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "60e4f191-7ca7-4710-bb89-6416a03debea",
+        "fields": {
+            "uuid": "60e4f191-7ca7-4710-bb89-6416a03debea",
+            "name": "release_schedule",
+            "category": "5e249292-45d0-4256-8914-1f61dee10706"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "e744d7cf-9628-4dd8-8217-0df327c4abe8",
+        "fields": {
+            "uuid": "e744d7cf-9628-4dd8-8217-0df327c4abe8",
+            "name": "language_version",
+            "category": "b608ee6a-a640-4228-bdde-b947b2f3ba4d"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "5525e592-f319-4026-a046-93b8717fddbf",
+        "fields": {
+            "uuid": "5525e592-f319-4026-a046-93b8717fddbf",
+            "name": "product_manual_area",
+            "category": "b608ee6a-a640-4228-bdde-b947b2f3ba4d"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "06a2772d-7334-4751-ab31-87488f901843",
+        "fields": {
+            "uuid": "06a2772d-7334-4751-ab31-87488f901843",
+            "name": "book_cover_type",
+            "category": "23ffe96e-7234-431d-a3bf-91bf87cb3007"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "7fd4bf04-eead-4b84-a999-355e4f88b32d",
+        "fields": {
+            "uuid": "7fd4bf04-eead-4b84-a999-355e4f88b32d",
+            "name": "compatible_instrument",
+            "category": "23ffe96e-7234-431d-a3bf-91bf87cb3007"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "34cafc65-dbac-431e-8535-55aa6d178e06",
+        "fields": {
+            "uuid": "34cafc65-dbac-431e-8535-55aa6d178e06",
+            "name": "music_genre",
+            "category": "23ffe96e-7234-431d-a3bf-91bf87cb3007"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "2ae6df74-1b9f-4bb8-acf6-2bfeea38d689",
+        "fields": {
+            "uuid": "2ae6df74-1b9f-4bb8-acf6-2bfeea38d689",
+            "name": "genre",
+            "category": "41a7dd69-225e-4235-b30f-3c172d52ad78"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "a91a2b2d-a280-41a4-914d-673454829976",
+        "fields": {
+            "uuid": "a91a2b2d-a280-41a4-914d-673454829976",
+            "name": "language_version",
+            "category": "41a7dd69-225e-4235-b30f-3c172d52ad78"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "e62477b9-06d7-402d-a1d0-a6d5f58c2fb2",
+        "fields": {
+            "uuid": "e62477b9-06d7-402d-a1d0-a6d5f58c2fb2",
+            "name": "media_content_type",
+            "category": "41a7dd69-225e-4235-b30f-3c172d52ad78"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "1da16e68-9b95-4639-8061-89abd9ad3353",
+        "fields": {
+            "uuid": "1da16e68-9b95-4639-8061-89abd9ad3353",
+            "name": "mpaa_rating",
+            "category": "41a7dd69-225e-4235-b30f-3c172d52ad78"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "eb6321cb-3ec1-493d-9e3e-732b5c956d99",
+        "fields": {
+            "uuid": "eb6321cb-3ec1-493d-9e3e-732b5c956d99",
+            "name": "target_audience",
+            "category": "41a7dd69-225e-4235-b30f-3c172d52ad78"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "d3632736-d700-4ba9-8ede-80cdf4755882",
+        "fields": {
+            "uuid": "d3632736-d700-4ba9-8ede-80cdf4755882",
+            "name": "genre",
+            "category": "4ce6c869-6586-42ba-8716-599a5e6f6b9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "6b9f274c-357c-45df-9cc9-1f4fecc1361a",
+        "fields": {
+            "uuid": "6b9f274c-357c-45df-9cc9-1f4fecc1361a",
+            "name": "language_version",
+            "category": "4ce6c869-6586-42ba-8716-599a5e6f6b9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "ae64580b-096c-4442-b61c-f3df72337f82",
+        "fields": {
+            "uuid": "ae64580b-096c-4442-b61c-f3df72337f82",
+            "name": "media_content_type",
+            "category": "4ce6c869-6586-42ba-8716-599a5e6f6b9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "465d123b-6f4f-40d0-b73f-b8db66d1381b",
+        "fields": {
+            "uuid": "465d123b-6f4f-40d0-b73f-b8db66d1381b",
+            "name": "mpaa_rating",
+            "category": "4ce6c869-6586-42ba-8716-599a5e6f6b9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "d30707c3-8b57-4566-afad-f4bb5ee4b170",
+        "fields": {
+            "uuid": "d30707c3-8b57-4566-afad-f4bb5ee4b170",
+            "name": "target_audience",
+            "category": "4ce6c869-6586-42ba-8716-599a5e6f6b9d"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "0925169c-84bb-4685-98e2-798e8cb0dac7",
+        "fields": {
+            "uuid": "0925169c-84bb-4685-98e2-798e8cb0dac7",
+            "name": "genre",
+            "category": "34013d82-d87e-4202-8e47-2ef890b5884e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "75927d2a-408e-4601-8186-4198644de22f",
+        "fields": {
+            "uuid": "75927d2a-408e-4601-8186-4198644de22f",
+            "name": "language_version",
+            "category": "34013d82-d87e-4202-8e47-2ef890b5884e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "948767b9-1280-4e95-bd68-7dfa739a432b",
+        "fields": {
+            "uuid": "948767b9-1280-4e95-bd68-7dfa739a432b",
+            "name": "media_content_type",
+            "category": "34013d82-d87e-4202-8e47-2ef890b5884e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "a1319ee8-3ea4-4878-997a-4acfce56fd21",
+        "fields": {
+            "uuid": "a1319ee8-3ea4-4878-997a-4acfce56fd21",
+            "name": "mpaa_rating",
+            "category": "34013d82-d87e-4202-8e47-2ef890b5884e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "6345f68a-3a42-47a5-b5ef-055fc81a2b6b",
+        "fields": {
+            "uuid": "6345f68a-3a42-47a5-b5ef-055fc81a2b6b",
+            "name": "target_audience",
+            "category": "34013d82-d87e-4202-8e47-2ef890b5884e"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "17b27269-69de-426f-9e3b-4c06c29ed9ad",
+        "fields": {
+            "uuid": "17b27269-69de-426f-9e3b-4c06c29ed9ad",
+            "name": "genre",
+            "category": "5900ae15-dd5e-4c13-8240-5c75149a4150"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "53203e1b-38e3-4a97-852f-55e876fbf09f",
+        "fields": {
+            "uuid": "53203e1b-38e3-4a97-852f-55e876fbf09f",
+            "name": "language_version",
+            "category": "5900ae15-dd5e-4c13-8240-5c75149a4150"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "76a651e0-b37a-454e-865e-b9b7b2c12fae",
+        "fields": {
+            "uuid": "76a651e0-b37a-454e-865e-b9b7b2c12fae",
+            "name": "media_content_type",
+            "category": "5900ae15-dd5e-4c13-8240-5c75149a4150"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "cd4c2474-ad18-4923-81f6-1055315fdf46",
+        "fields": {
+            "uuid": "cd4c2474-ad18-4923-81f6-1055315fdf46",
+            "name": "mpaa_rating",
+            "category": "5900ae15-dd5e-4c13-8240-5c75149a4150"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "04568532-d88c-4503-b208-93c5b1415d81",
+        "fields": {
+            "uuid": "04568532-d88c-4503-b208-93c5b1415d81",
+            "name": "target_audience",
+            "category": "5900ae15-dd5e-4c13-8240-5c75149a4150"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "cb333ea2-d576-49dc-a78b-b48fa672a869",
+        "fields": {
+            "uuid": "cb333ea2-d576-49dc-a78b-b48fa672a869",
+            "name": "genre",
+            "category": "bb2da07a-e9e6-4717-a7f8-0b799a7abf24"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "ad819bc9-b9b1-4618-822f-81ec9928bf5c",
+        "fields": {
+            "uuid": "ad819bc9-b9b1-4618-822f-81ec9928bf5c",
+            "name": "language_version",
+            "category": "bb2da07a-e9e6-4717-a7f8-0b799a7abf24"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "2029bdc1-2b41-4e05-900e-b501a0d4d99d",
+        "fields": {
+            "uuid": "2029bdc1-2b41-4e05-900e-b501a0d4d99d",
+            "name": "media_content_type",
+            "category": "bb2da07a-e9e6-4717-a7f8-0b799a7abf24"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "b18efe50-7823-430b-bc0d-5a06ae0afd15",
+        "fields": {
+            "uuid": "b18efe50-7823-430b-bc0d-5a06ae0afd15",
+            "name": "mpaa_rating",
+            "category": "bb2da07a-e9e6-4717-a7f8-0b799a7abf24"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "c6d6839c-7b98-487a-8599-baf91db70a2b",
+        "fields": {
+            "uuid": "c6d6839c-7b98-487a-8599-baf91db70a2b",
+            "name": "target_audience",
+            "category": "bb2da07a-e9e6-4717-a7f8-0b799a7abf24"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "38ab260b-6e66-41d8-a330-251ce3237ab1",
+        "fields": {
+            "uuid": "38ab260b-6e66-41d8-a330-251ce3237ab1",
+            "name": "academic_level",
+            "category": "b61a7547-334e-4f4c-a70f-cb69f64a0ce9"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "52b3f539-9300-4f5f-bd84-5a9c86c7193a",
+        "fields": {
+            "uuid": "52b3f539-9300-4f5f-bd84-5a9c86c7193a",
+            "name": "publication_type",
+            "category": "b61a7547-334e-4f4c-a70f-cb69f64a0ce9"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "77f35cba-d5fc-435e-810b-34615e60b7c4",
+        "fields": {
+            "uuid": "77f35cba-d5fc-435e-810b-34615e60b7c4",
+            "name": "research_focus",
+            "category": "b61a7547-334e-4f4c-a70f-cb69f64a0ce9"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "fb84917e-5e81-40c8-8000-9334795b26a8",
+        "fields": {
+            "uuid": "fb84917e-5e81-40c8-8000-9334795b26a8",
+            "name": "research_methodology",
+            "category": "b61a7547-334e-4f4c-a70f-cb69f64a0ce9"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "47ec3499-fc2b-4a53-914d-7c891136fe85",
+        "fields": {
+            "uuid": "47ec3499-fc2b-4a53-914d-7c891136fe85",
+            "name": "subject_area",
+            "category": "b61a7547-334e-4f4c-a70f-cb69f64a0ce9"
+        }
+    },
+    {
+        "model": "ecommerce_client.attribute",
+        "pk": "ab90326f-e188-44b7-bfa1-b7b5ae7c36d8",
+        "fields": {
+            "uuid": "ab90326f-e188-44b7-bfa1-b7b5ae7c36d8",
+            "name": "time_period",
+            "category": "b61a7547-334e-4f4c-a70f-cb69f64a0ce9"
+        }
+    }
+]

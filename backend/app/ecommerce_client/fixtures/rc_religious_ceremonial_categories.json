@@ -1,0 +1,132 @@
+[
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2185d0bb-5329-4d40-a988-88356a268266",
+        "fields": {
+            "uuid": "2185d0bb-5329-4d40-a988-88356a268266",
+            "name": "Religious & Ceremonial",
+            "emoji": "",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d1dd7386-a316-4807-937a-13403a1b10ad",
+        "fields": {
+            "uuid": "d1dd7386-a316-4807-937a-13403a1b10ad",
+            "name": "Memorial Ceremony Supplies",
+            "emoji": "",
+            "parent": "2185d0bb-5329-4d40-a988-88356a268266"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2b1e486e-e8ec-4b2a-a092-e4e8c4e1ce53",
+        "fields": {
+            "uuid": "2b1e486e-e8ec-4b2a-a092-e4e8c4e1ce53",
+            "name": "Memorial Urns",
+            "emoji": "",
+            "parent": "d1dd7386-a316-4807-937a-13403a1b10ad"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8f14ce4b-41c9-4dfb-bb5b-1fc32ef12002",
+        "fields": {
+            "uuid": "8f14ce4b-41c9-4dfb-bb5b-1fc32ef12002",
+            "name": "Religious Items",
+            "emoji": "",
+            "parent": "2185d0bb-5329-4d40-a988-88356a268266"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c293c584-ed34-40b2-b37b-089e96eaadca",
+        "fields": {
+            "uuid": "c293c584-ed34-40b2-b37b-089e96eaadca",
+            "name": "Prayer Beads",
+            "emoji": "",
+            "parent": "8f14ce4b-41c9-4dfb-bb5b-1fc32ef12002"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "33a58f6e-bc61-4c5c-9c60-c4845d900b6e",
+        "fields": {
+            "uuid": "33a58f6e-bc61-4c5c-9c60-c4845d900b6e",
+            "name": "Prayer Cards",
+            "emoji": "",
+            "parent": "8f14ce4b-41c9-4dfb-bb5b-1fc32ef12002"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a74da726-5246-4092-957d-3563db2bfd6d",
+        "fields": {
+            "uuid": "a74da726-5246-4092-957d-3563db2bfd6d",
+            "name": "Religious Altars",
+            "emoji": "",
+            "parent": "8f14ce4b-41c9-4dfb-bb5b-1fc32ef12002"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "15e31805-700c-4fef-8a8a-eb3c3ca4f5f8",
+        "fields": {
+            "uuid": "15e31805-700c-4fef-8a8a-eb3c3ca4f5f8",
+            "name": "Religious Veils",
+            "emoji": "",
+            "parent": "8f14ce4b-41c9-4dfb-bb5b-1fc32ef12002"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c0756eac-5b8e-4125-aeb5-bc79cdee1c8f",
+        "fields": {
+            "uuid": "c0756eac-5b8e-4125-aeb5-bc79cdee1c8f",
+            "name": "Tarot Cards",
+            "emoji": "",
+            "parent": "8f14ce4b-41c9-4dfb-bb5b-1fc32ef12002"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2dfbffc4-ad42-46ca-b44b-8fc1c3612d3a",
+        "fields": {
+            "uuid": "2dfbffc4-ad42-46ca-b44b-8fc1c3612d3a",
+            "name": "Wedding Ceremony Supplies",
+            "emoji": "",
+            "parent": "2185d0bb-5329-4d40-a988-88356a268266"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e8a9b789-1f5f-421f-aab3-5219b10ac8fa",
+        "fields": {
+            "uuid": "e8a9b789-1f5f-421f-aab3-5219b10ac8fa",
+            "name": "Aisle Runners",
+            "emoji": "",
+            "parent": "2dfbffc4-ad42-46ca-b44b-8fc1c3612d3a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b98f5331-d825-45cb-9d46-2457f057d9ec",
+        "fields": {
+            "uuid": "b98f5331-d825-45cb-9d46-2457f057d9ec",
+            "name": "Flower Girl Baskets",
+            "emoji": "",
+            "parent": "2dfbffc4-ad42-46ca-b44b-8fc1c3612d3a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "24b11c78-4c3e-4257-b07d-aa182fec092e",
+        "fields": {
+            "uuid": "24b11c78-4c3e-4257-b07d-aa182fec092e",
+            "name": "Ring Pillows & Holders",
+            "emoji": "",
+            "parent": "2dfbffc4-ad42-46ca-b44b-8fc1c3612d3a"
+        }
+    }
+]

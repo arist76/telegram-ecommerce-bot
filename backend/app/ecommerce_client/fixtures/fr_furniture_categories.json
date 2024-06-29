@@ -1,0 +1,3532 @@
+[
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5c90c6f6-4382-4837-8ed6-53b35b4f87c7",
+        "fields": {
+            "uuid": "5c90c6f6-4382-4837-8ed6-53b35b4f87c7",
+            "name": "Furniture",
+            "emoji": "",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "912a6f35-5e05-48b0-ac16-4726ded99dd8",
+        "fields": {
+            "uuid": "912a6f35-5e05-48b0-ac16-4726ded99dd8",
+            "name": "Baby & Toddler Furniture",
+            "emoji": "",
+            "parent": "5c90c6f6-4382-4837-8ed6-53b35b4f87c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e7a9b597-c72c-44bb-9c48-9f3c26be0c9d",
+        "fields": {
+            "uuid": "e7a9b597-c72c-44bb-9c48-9f3c26be0c9d",
+            "name": "Baby & Toddler Furniture Sets",
+            "emoji": "",
+            "parent": "912a6f35-5e05-48b0-ac16-4726ded99dd8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "599fd889-8ec5-42f3-8523-46b5c88b8028",
+        "fields": {
+            "uuid": "599fd889-8ec5-42f3-8523-46b5c88b8028",
+            "name": "Bassinet & Cradle Accessories",
+            "emoji": "",
+            "parent": "912a6f35-5e05-48b0-ac16-4726ded99dd8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "13133135-ae38-441d-b22a-7f170266eeac",
+        "fields": {
+            "uuid": "13133135-ae38-441d-b22a-7f170266eeac",
+            "name": "Bassinets & Cradles",
+            "emoji": "",
+            "parent": "912a6f35-5e05-48b0-ac16-4726ded99dd8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "17d67be6-54f9-40fa-8417-c1c407dcdd9d",
+        "fields": {
+            "uuid": "17d67be6-54f9-40fa-8417-c1c407dcdd9d",
+            "name": "Bassinet Playards",
+            "emoji": "",
+            "parent": "13133135-ae38-441d-b22a-7f170266eeac"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9bbd8cb7-dc49-48d3-924b-5f7adf1e363a",
+        "fields": {
+            "uuid": "9bbd8cb7-dc49-48d3-924b-5f7adf1e363a",
+            "name": "Bassinets",
+            "emoji": "",
+            "parent": "13133135-ae38-441d-b22a-7f170266eeac"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "234d4ca5-af67-4235-984d-c7929588272f",
+        "fields": {
+            "uuid": "234d4ca5-af67-4235-984d-c7929588272f",
+            "name": "Bedside Bassinets",
+            "emoji": "",
+            "parent": "13133135-ae38-441d-b22a-7f170266eeac"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "568725b9-8f3b-4529-9e0e-d6a588f25d68",
+        "fields": {
+            "uuid": "568725b9-8f3b-4529-9e0e-d6a588f25d68",
+            "name": "Convertible Bassinets",
+            "emoji": "",
+            "parent": "13133135-ae38-441d-b22a-7f170266eeac"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f2da1913-db84-4f89-b1fc-20195bbd6b32",
+        "fields": {
+            "uuid": "f2da1913-db84-4f89-b1fc-20195bbd6b32",
+            "name": "Cradles",
+            "emoji": "",
+            "parent": "13133135-ae38-441d-b22a-7f170266eeac"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f3e353b7-6ca0-4cf9-a306-89a1eecff18e",
+        "fields": {
+            "uuid": "f3e353b7-6ca0-4cf9-a306-89a1eecff18e",
+            "name": "Folding Bassinets",
+            "emoji": "",
+            "parent": "13133135-ae38-441d-b22a-7f170266eeac"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "26510b7b-b8c2-4913-a15e-1ef2332c4b46",
+        "fields": {
+            "uuid": "26510b7b-b8c2-4913-a15e-1ef2332c4b46",
+            "name": "Hanging Bassinets",
+            "emoji": "",
+            "parent": "13133135-ae38-441d-b22a-7f170266eeac"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "17f17f71-a404-4e80-adec-9655a25cbedb",
+        "fields": {
+            "uuid": "17f17f71-a404-4e80-adec-9655a25cbedb",
+            "name": "Rocking Bassinets",
+            "emoji": "",
+            "parent": "13133135-ae38-441d-b22a-7f170266eeac"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cba98fd4-cfe1-4291-a1bb-17f80e2ba6ce",
+        "fields": {
+            "uuid": "cba98fd4-cfe1-4291-a1bb-17f80e2ba6ce",
+            "name": "Travel Bassinets",
+            "emoji": "",
+            "parent": "13133135-ae38-441d-b22a-7f170266eeac"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "68fc1560-968e-44ec-929b-9776b52380f4",
+        "fields": {
+            "uuid": "68fc1560-968e-44ec-929b-9776b52380f4",
+            "name": "Changing Tables",
+            "emoji": "",
+            "parent": "912a6f35-5e05-48b0-ac16-4726ded99dd8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c2931c74-0f83-478f-a27e-46f7e21cb847",
+        "fields": {
+            "uuid": "c2931c74-0f83-478f-a27e-46f7e21cb847",
+            "name": "Crib & Toddler Bed Accessories",
+            "emoji": "",
+            "parent": "912a6f35-5e05-48b0-ac16-4726ded99dd8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a1a23e64-7a8e-4674-b8e8-fc75488a684b",
+        "fields": {
+            "uuid": "a1a23e64-7a8e-4674-b8e8-fc75488a684b",
+            "name": "Crib Bumpers & Liners",
+            "emoji": "",
+            "parent": "c2931c74-0f83-478f-a27e-46f7e21cb847"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cf68963b-10b9-416e-80b5-617a3a153d7f",
+        "fields": {
+            "uuid": "cf68963b-10b9-416e-80b5-617a3a153d7f",
+            "name": "Crib Liners",
+            "emoji": "",
+            "parent": "a1a23e64-7a8e-4674-b8e8-fc75488a684b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5e3c00e7-6606-49ef-9129-4840a1e9a23d",
+        "fields": {
+            "uuid": "5e3c00e7-6606-49ef-9129-4840a1e9a23d",
+            "name": "Crib Rail Covers",
+            "emoji": "",
+            "parent": "a1a23e64-7a8e-4674-b8e8-fc75488a684b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "12c362aa-6d24-4950-9fc3-450a8da483b9",
+        "fields": {
+            "uuid": "12c362aa-6d24-4950-9fc3-450a8da483b9",
+            "name": "Crib Skirts",
+            "emoji": "",
+            "parent": "a1a23e64-7a8e-4674-b8e8-fc75488a684b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8af67d1a-dadd-4878-86fe-892e75062b07",
+        "fields": {
+            "uuid": "8af67d1a-dadd-4878-86fe-892e75062b07",
+            "name": "Mesh Crib Bumpers",
+            "emoji": "",
+            "parent": "a1a23e64-7a8e-4674-b8e8-fc75488a684b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "be50d497-e627-43fc-a338-7efe00da6c09",
+        "fields": {
+            "uuid": "be50d497-e627-43fc-a338-7efe00da6c09",
+            "name": "Padded Crib Bumpers",
+            "emoji": "",
+            "parent": "a1a23e64-7a8e-4674-b8e8-fc75488a684b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "83c39007-ffa4-42d4-8b82-12ef47767e50",
+        "fields": {
+            "uuid": "83c39007-ffa4-42d4-8b82-12ef47767e50",
+            "name": "Teething Rail Covers",
+            "emoji": "",
+            "parent": "a1a23e64-7a8e-4674-b8e8-fc75488a684b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3fbcb8fa-4b1e-4ed6-bfb0-8ee7e4a34f64",
+        "fields": {
+            "uuid": "3fbcb8fa-4b1e-4ed6-bfb0-8ee7e4a34f64",
+            "name": "Crib Conversion Kits",
+            "emoji": "",
+            "parent": "c2931c74-0f83-478f-a27e-46f7e21cb847"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2d6157d7-388e-44f2-9524-e63bac0c8620",
+        "fields": {
+            "uuid": "2d6157d7-388e-44f2-9524-e63bac0c8620",
+            "name": "Cribs & Toddler Beds",
+            "emoji": "",
+            "parent": "912a6f35-5e05-48b0-ac16-4726ded99dd8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "574057d7-7a84-4735-881c-7734e088f78e",
+        "fields": {
+            "uuid": "574057d7-7a84-4735-881c-7734e088f78e",
+            "name": "Bunk Toddler Beds",
+            "emoji": "",
+            "parent": "2d6157d7-388e-44f2-9524-e63bac0c8620"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d50d7f2c-67c1-4b75-9cae-7775c4662b6c",
+        "fields": {
+            "uuid": "d50d7f2c-67c1-4b75-9cae-7775c4662b6c",
+            "name": "Canopy Toddler Beds",
+            "emoji": "",
+            "parent": "2d6157d7-388e-44f2-9524-e63bac0c8620"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "276e20ab-9476-4575-b8f9-7320b44cf47d",
+        "fields": {
+            "uuid": "276e20ab-9476-4575-b8f9-7320b44cf47d",
+            "name": "Loft Toddler Beds",
+            "emoji": "",
+            "parent": "2d6157d7-388e-44f2-9524-e63bac0c8620"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "eeed016d-4e40-440f-9526-6f8b601d5b08",
+        "fields": {
+            "uuid": "eeed016d-4e40-440f-9526-6f8b601d5b08",
+            "name": "Mini Cribs",
+            "emoji": "",
+            "parent": "2d6157d7-388e-44f2-9524-e63bac0c8620"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a5e10dcf-49e0-4e80-8a01-730ad12bb7f0",
+        "fields": {
+            "uuid": "a5e10dcf-49e0-4e80-8a01-730ad12bb7f0",
+            "name": "Sleigh Toddler Beds",
+            "emoji": "",
+            "parent": "2d6157d7-388e-44f2-9524-e63bac0c8620"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a29c72c8-0623-4c8f-829c-8240287df341",
+        "fields": {
+            "uuid": "a29c72c8-0623-4c8f-829c-8240287df341",
+            "name": "Standard Cribs",
+            "emoji": "",
+            "parent": "2d6157d7-388e-44f2-9524-e63bac0c8620"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ba4d9058-bdbf-47a3-be56-03c279d9989c",
+        "fields": {
+            "uuid": "ba4d9058-bdbf-47a3-be56-03c279d9989c",
+            "name": "Toddler Beds",
+            "emoji": "",
+            "parent": "2d6157d7-388e-44f2-9524-e63bac0c8620"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "450561e5-3350-41c9-b0a7-150974dcb248",
+        "fields": {
+            "uuid": "450561e5-3350-41c9-b0a7-150974dcb248",
+            "name": "Travel Cribs",
+            "emoji": "",
+            "parent": "2d6157d7-388e-44f2-9524-e63bac0c8620"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b5dd2157-1d09-4d37-8de9-9c4fed0cb875",
+        "fields": {
+            "uuid": "b5dd2157-1d09-4d37-8de9-9c4fed0cb875",
+            "name": "High Chair & Booster Seat Accessories",
+            "emoji": "",
+            "parent": "912a6f35-5e05-48b0-ac16-4726ded99dd8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "846a3da4-7b25-4045-9115-e9cc58510ceb",
+        "fields": {
+            "uuid": "846a3da4-7b25-4045-9115-e9cc58510ceb",
+            "name": "High Chairs & Booster Seats",
+            "emoji": "",
+            "parent": "912a6f35-5e05-48b0-ac16-4726ded99dd8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2ad6a63a-311f-4983-872a-7e340b35143e",
+        "fields": {
+            "uuid": "2ad6a63a-311f-4983-872a-7e340b35143e",
+            "name": "Booster Feeding Seats",
+            "emoji": "",
+            "parent": "846a3da4-7b25-4045-9115-e9cc58510ceb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "78bb37d2-5614-4fe6-991d-5be427a76dfa",
+        "fields": {
+            "uuid": "78bb37d2-5614-4fe6-991d-5be427a76dfa",
+            "name": "Convertible High Chairs",
+            "emoji": "",
+            "parent": "846a3da4-7b25-4045-9115-e9cc58510ceb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f8e3a279-59c7-4ccc-9257-6c90b0c7e0d2",
+        "fields": {
+            "uuid": "f8e3a279-59c7-4ccc-9257-6c90b0c7e0d2",
+            "name": "High Chairs",
+            "emoji": "",
+            "parent": "846a3da4-7b25-4045-9115-e9cc58510ceb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1e45df34-eedc-4ce4-a9ed-75635dea9d79",
+        "fields": {
+            "uuid": "1e45df34-eedc-4ce4-a9ed-75635dea9d79",
+            "name": "Hook-On Seats",
+            "emoji": "",
+            "parent": "846a3da4-7b25-4045-9115-e9cc58510ceb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c33be18a-8bc3-4651-a41d-063bd7b93a09",
+        "fields": {
+            "uuid": "c33be18a-8bc3-4651-a41d-063bd7b93a09",
+            "name": "Play Sofas",
+            "emoji": "",
+            "parent": "912a6f35-5e05-48b0-ac16-4726ded99dd8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4d934d60-9ec7-41d5-b2ff-a1a8ecbf5fc9",
+        "fields": {
+            "uuid": "4d934d60-9ec7-41d5-b2ff-a1a8ecbf5fc9",
+            "name": "Beds & Accessories",
+            "emoji": "",
+            "parent": "5c90c6f6-4382-4837-8ed6-53b35b4f87c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "79c43fd4-f24b-4e16-8162-374ae1a11e2e",
+        "fields": {
+            "uuid": "79c43fd4-f24b-4e16-8162-374ae1a11e2e",
+            "name": "Bed & Bed Frame Accessories",
+            "emoji": "",
+            "parent": "4d934d60-9ec7-41d5-b2ff-a1a8ecbf5fc9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5795845b-9cdc-4835-a176-f3a104de1f2e",
+        "fields": {
+            "uuid": "5795845b-9cdc-4835-a176-f3a104de1f2e",
+            "name": "Beds & Bed Frames",
+            "emoji": "",
+            "parent": "4d934d60-9ec7-41d5-b2ff-a1a8ecbf5fc9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "26a96e5d-22bd-47f6-95ec-6240a3562aa5",
+        "fields": {
+            "uuid": "26a96e5d-22bd-47f6-95ec-6240a3562aa5",
+            "name": "Air Beds",
+            "emoji": "",
+            "parent": "5795845b-9cdc-4835-a176-f3a104de1f2e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "390502cd-0aa0-460c-9d7c-8569c382fcf8",
+        "fields": {
+            "uuid": "390502cd-0aa0-460c-9d7c-8569c382fcf8",
+            "name": "Bunk Beds & Bed Frames",
+            "emoji": "",
+            "parent": "5795845b-9cdc-4835-a176-f3a104de1f2e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a57361af-f163-43df-9661-f792a3e02821",
+        "fields": {
+            "uuid": "a57361af-f163-43df-9661-f792a3e02821",
+            "name": "Cabin Beds & Bed Frames",
+            "emoji": "",
+            "parent": "5795845b-9cdc-4835-a176-f3a104de1f2e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d3208f8a-8244-44fb-b86d-26d3ceed9e43",
+        "fields": {
+            "uuid": "d3208f8a-8244-44fb-b86d-26d3ceed9e43",
+            "name": "Canopy Beds & Bed Frames",
+            "emoji": "",
+            "parent": "5795845b-9cdc-4835-a176-f3a104de1f2e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e2684c03-bc85-463d-98ef-807528b666f3",
+        "fields": {
+            "uuid": "e2684c03-bc85-463d-98ef-807528b666f3",
+            "name": "Cot Beds & Bed Frames",
+            "emoji": "",
+            "parent": "5795845b-9cdc-4835-a176-f3a104de1f2e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0e4f0026-404f-4f86-a11c-c5505bc55db6",
+        "fields": {
+            "uuid": "0e4f0026-404f-4f86-a11c-c5505bc55db6",
+            "name": "Divan Beds & Bed Frames",
+            "emoji": "",
+            "parent": "5795845b-9cdc-4835-a176-f3a104de1f2e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a6c66b31-4548-4dd5-bb8a-558b96ea98cd",
+        "fields": {
+            "uuid": "a6c66b31-4548-4dd5-bb8a-558b96ea98cd",
+            "name": "Four Posters",
+            "emoji": "",
+            "parent": "5795845b-9cdc-4835-a176-f3a104de1f2e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "285bb2d0-13f9-4cb7-8e59-5608cf4fa001",
+        "fields": {
+            "uuid": "285bb2d0-13f9-4cb7-8e59-5608cf4fa001",
+            "name": "Loft Beds & Bed Frames",
+            "emoji": "",
+            "parent": "5795845b-9cdc-4835-a176-f3a104de1f2e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "53a86822-d1b7-4871-8876-873031b8d2bf",
+        "fields": {
+            "uuid": "53a86822-d1b7-4871-8876-873031b8d2bf",
+            "name": "Mid-Century Beds & Bed Frames",
+            "emoji": "",
+            "parent": "5795845b-9cdc-4835-a176-f3a104de1f2e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a3aacdc2-5640-4b1d-aac4-ba52e0ed517d",
+        "fields": {
+            "uuid": "a3aacdc2-5640-4b1d-aac4-ba52e0ed517d",
+            "name": "Panel Beds & Bed Frames",
+            "emoji": "",
+            "parent": "5795845b-9cdc-4835-a176-f3a104de1f2e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "78689eb1-ecce-454f-b8fa-c80c71153f3e",
+        "fields": {
+            "uuid": "78689eb1-ecce-454f-b8fa-c80c71153f3e",
+            "name": "Platform Beds & Bed Frames",
+            "emoji": "",
+            "parent": "5795845b-9cdc-4835-a176-f3a104de1f2e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "74fa95ff-9faf-427c-96b4-72972a3e1dd2",
+        "fields": {
+            "uuid": "74fa95ff-9faf-427c-96b4-72972a3e1dd2",
+            "name": "Slat Beds & Bed Frames",
+            "emoji": "",
+            "parent": "5795845b-9cdc-4835-a176-f3a104de1f2e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e67bfa45-01b5-4e7e-b93f-dd8dcb399570",
+        "fields": {
+            "uuid": "e67bfa45-01b5-4e7e-b93f-dd8dcb399570",
+            "name": "Sleigh Beds & Bed Frames",
+            "emoji": "",
+            "parent": "5795845b-9cdc-4835-a176-f3a104de1f2e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a1abef03-fd83-4dfa-b5b6-843f4c13c3f0",
+        "fields": {
+            "uuid": "a1abef03-fd83-4dfa-b5b6-843f4c13c3f0",
+            "name": "Trundle Beds & Bed Frames",
+            "emoji": "",
+            "parent": "5795845b-9cdc-4835-a176-f3a104de1f2e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "62ddb124-b072-4169-b328-a47e38159fb1",
+        "fields": {
+            "uuid": "62ddb124-b072-4169-b328-a47e38159fb1",
+            "name": "Wall Beds & Bed Frames",
+            "emoji": "",
+            "parent": "5795845b-9cdc-4835-a176-f3a104de1f2e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fe3911ff-0dbc-4d2f-b5e9-b14658f362ba",
+        "fields": {
+            "uuid": "fe3911ff-0dbc-4d2f-b5e9-b14658f362ba",
+            "name": "Water Beds",
+            "emoji": "",
+            "parent": "5795845b-9cdc-4835-a176-f3a104de1f2e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a9811835-52aa-4a48-9a07-3f10fa82c48a",
+        "fields": {
+            "uuid": "a9811835-52aa-4a48-9a07-3f10fa82c48a",
+            "name": "Footboards",
+            "emoji": "",
+            "parent": "4d934d60-9ec7-41d5-b2ff-a1a8ecbf5fc9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e9811b68-383c-481c-b64c-2b9967de665a",
+        "fields": {
+            "uuid": "e9811b68-383c-481c-b64c-2b9967de665a",
+            "name": "Headboards",
+            "emoji": "",
+            "parent": "4d934d60-9ec7-41d5-b2ff-a1a8ecbf5fc9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bda44635-779b-4762-8bb1-e55a1f2498cd",
+        "fields": {
+            "uuid": "bda44635-779b-4762-8bb1-e55a1f2498cd",
+            "name": "Mattress Foundations",
+            "emoji": "",
+            "parent": "4d934d60-9ec7-41d5-b2ff-a1a8ecbf5fc9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "780197e9-a500-40cc-a20d-eb1373478066",
+        "fields": {
+            "uuid": "780197e9-a500-40cc-a20d-eb1373478066",
+            "name": "Adjustable Bases",
+            "emoji": "",
+            "parent": "bda44635-779b-4762-8bb1-e55a1f2498cd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d39e20da-ac38-47d0-ad00-63580b2cbc09",
+        "fields": {
+            "uuid": "d39e20da-ac38-47d0-ad00-63580b2cbc09",
+            "name": "Box Springs",
+            "emoji": "",
+            "parent": "bda44635-779b-4762-8bb1-e55a1f2498cd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7c68eff2-b872-4f4a-ac7f-559377a080fe",
+        "fields": {
+            "uuid": "7c68eff2-b872-4f4a-ac7f-559377a080fe",
+            "name": "Bunkie Boards",
+            "emoji": "",
+            "parent": "bda44635-779b-4762-8bb1-e55a1f2498cd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c6a8f487-9da8-45db-b15d-c99b46fe4bcb",
+        "fields": {
+            "uuid": "c6a8f487-9da8-45db-b15d-c99b46fe4bcb",
+            "name": "Foldable Metal Foundations",
+            "emoji": "",
+            "parent": "bda44635-779b-4762-8bb1-e55a1f2498cd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1b3a5bea-15b3-4a60-8113-f86025ed7d61",
+        "fields": {
+            "uuid": "1b3a5bea-15b3-4a60-8113-f86025ed7d61",
+            "name": "Foundations & Frames-in-One",
+            "emoji": "",
+            "parent": "bda44635-779b-4762-8bb1-e55a1f2498cd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "abbc1726-a530-4964-a361-89f10a9a033b",
+        "fields": {
+            "uuid": "abbc1726-a530-4964-a361-89f10a9a033b",
+            "name": "Panel Bases",
+            "emoji": "",
+            "parent": "bda44635-779b-4762-8bb1-e55a1f2498cd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "eb7dca57-929d-4c43-9802-ec96dfb5a6d8",
+        "fields": {
+            "uuid": "eb7dca57-929d-4c43-9802-ec96dfb5a6d8",
+            "name": "Platform Bases",
+            "emoji": "",
+            "parent": "bda44635-779b-4762-8bb1-e55a1f2498cd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ec557552-e029-4713-ac1b-4b8c98f4e428",
+        "fields": {
+            "uuid": "ec557552-e029-4713-ac1b-4b8c98f4e428",
+            "name": "Mattresses",
+            "emoji": "",
+            "parent": "4d934d60-9ec7-41d5-b2ff-a1a8ecbf5fc9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2dcf2b88-d824-4a2e-835f-92b794c5426d",
+        "fields": {
+            "uuid": "2dcf2b88-d824-4a2e-835f-92b794c5426d",
+            "name": "Gel Foam Mattresses",
+            "emoji": "",
+            "parent": "ec557552-e029-4713-ac1b-4b8c98f4e428"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3bbbbd32-f795-4541-86a1-25b966d45ae4",
+        "fields": {
+            "uuid": "3bbbbd32-f795-4541-86a1-25b966d45ae4",
+            "name": "High Resilience Foam Mattresses",
+            "emoji": "",
+            "parent": "ec557552-e029-4713-ac1b-4b8c98f4e428"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8955a186-8b09-4041-8875-3b3bb3b42b21",
+        "fields": {
+            "uuid": "8955a186-8b09-4041-8875-3b3bb3b42b21",
+            "name": "Innerspring Mattresses",
+            "emoji": "",
+            "parent": "ec557552-e029-4713-ac1b-4b8c98f4e428"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5c83ad5f-d4d5-4bcc-ac09-e6d330b40538",
+        "fields": {
+            "uuid": "5c83ad5f-d4d5-4bcc-ac09-e6d330b40538",
+            "name": "Latex Mattresses",
+            "emoji": "",
+            "parent": "ec557552-e029-4713-ac1b-4b8c98f4e428"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0d4f314d-46cd-4b31-9485-f85676795bc2",
+        "fields": {
+            "uuid": "0d4f314d-46cd-4b31-9485-f85676795bc2",
+            "name": "Memory Foam Mattresses",
+            "emoji": "",
+            "parent": "ec557552-e029-4713-ac1b-4b8c98f4e428"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "39f3d0cd-d8cd-435d-836c-b6cc5a9f4d05",
+        "fields": {
+            "uuid": "39f3d0cd-d8cd-435d-836c-b6cc5a9f4d05",
+            "name": "Rolled Mattresses",
+            "emoji": "",
+            "parent": "ec557552-e029-4713-ac1b-4b8c98f4e428"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8c49be7d-4e95-427d-9cb9-9441414a8eae",
+        "fields": {
+            "uuid": "8c49be7d-4e95-427d-9cb9-9441414a8eae",
+            "name": "Water Mattresses",
+            "emoji": "",
+            "parent": "ec557552-e029-4713-ac1b-4b8c98f4e428"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4acb69d3-12a1-4d6a-8595-786c5804c485",
+        "fields": {
+            "uuid": "4acb69d3-12a1-4d6a-8595-786c5804c485",
+            "name": "Benches",
+            "emoji": "",
+            "parent": "5c90c6f6-4382-4837-8ed6-53b35b4f87c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c2dac6a8-4f68-424d-83a4-c596306a6485",
+        "fields": {
+            "uuid": "c2dac6a8-4f68-424d-83a4-c596306a6485",
+            "name": "Kitchen & Dining Benches",
+            "emoji": "",
+            "parent": "4acb69d3-12a1-4d6a-8595-786c5804c485"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3054389d-1362-4ed3-ad55-0bca8cb53924",
+        "fields": {
+            "uuid": "3054389d-1362-4ed3-ad55-0bca8cb53924",
+            "name": "Backed Benches",
+            "emoji": "",
+            "parent": "c2dac6a8-4f68-424d-83a4-c596306a6485"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b838a49d-1dde-4c55-8a55-ae124af5f4fa",
+        "fields": {
+            "uuid": "b838a49d-1dde-4c55-8a55-ae124af5f4fa",
+            "name": "Backless Benches",
+            "emoji": "",
+            "parent": "c2dac6a8-4f68-424d-83a4-c596306a6485"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5cd7cc6e-88e8-4566-af84-c3f2c64494e7",
+        "fields": {
+            "uuid": "5cd7cc6e-88e8-4566-af84-c3f2c64494e7",
+            "name": "Banquettes",
+            "emoji": "",
+            "parent": "c2dac6a8-4f68-424d-83a4-c596306a6485"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "476f471c-5c2a-4136-8bf1-c843220a8e26",
+        "fields": {
+            "uuid": "476f471c-5c2a-4136-8bf1-c843220a8e26",
+            "name": "Booths",
+            "emoji": "",
+            "parent": "c2dac6a8-4f68-424d-83a4-c596306a6485"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "787535a1-a93c-4850-9ca1-3f2a35572cc4",
+        "fields": {
+            "uuid": "787535a1-a93c-4850-9ca1-3f2a35572cc4",
+            "name": "Corner Benches",
+            "emoji": "",
+            "parent": "c2dac6a8-4f68-424d-83a4-c596306a6485"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c77d037a-97ba-4106-8e46-1f40d9938df6",
+        "fields": {
+            "uuid": "c77d037a-97ba-4106-8e46-1f40d9938df6",
+            "name": "Counter Height Benches",
+            "emoji": "",
+            "parent": "c2dac6a8-4f68-424d-83a4-c596306a6485"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3c1b1da8-eadf-49af-a1e0-1dbd66e64c9c",
+        "fields": {
+            "uuid": "3c1b1da8-eadf-49af-a1e0-1dbd66e64c9c",
+            "name": "Dining Benches",
+            "emoji": "",
+            "parent": "c2dac6a8-4f68-424d-83a4-c596306a6485"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4dd87d51-5074-4464-bbd0-149a0f7be3b9",
+        "fields": {
+            "uuid": "4dd87d51-5074-4464-bbd0-149a0f7be3b9",
+            "name": "Farmhouse Benches",
+            "emoji": "",
+            "parent": "c2dac6a8-4f68-424d-83a4-c596306a6485"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d9a8fcb3-bab1-4a3f-b0da-1507a8456a20",
+        "fields": {
+            "uuid": "d9a8fcb3-bab1-4a3f-b0da-1507a8456a20",
+            "name": "Kitchen Nook Benches",
+            "emoji": "",
+            "parent": "c2dac6a8-4f68-424d-83a4-c596306a6485"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "de74a620-9e48-42df-930f-a1bd5595a677",
+        "fields": {
+            "uuid": "de74a620-9e48-42df-930f-a1bd5595a677",
+            "name": "L-Shaped Benches",
+            "emoji": "",
+            "parent": "c2dac6a8-4f68-424d-83a4-c596306a6485"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3b137b6f-e321-4f44-b306-703b356cb26a",
+        "fields": {
+            "uuid": "3b137b6f-e321-4f44-b306-703b356cb26a",
+            "name": "Saddle Benches",
+            "emoji": "",
+            "parent": "c2dac6a8-4f68-424d-83a4-c596306a6485"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "29597f8f-9b23-4f40-b400-2bf8634f38fc",
+        "fields": {
+            "uuid": "29597f8f-9b23-4f40-b400-2bf8634f38fc",
+            "name": "Storage Benches",
+            "emoji": "",
+            "parent": "c2dac6a8-4f68-424d-83a4-c596306a6485"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aef90985-c23e-4de1-a49a-694e65e337c5",
+        "fields": {
+            "uuid": "aef90985-c23e-4de1-a49a-694e65e337c5",
+            "name": "Trestles",
+            "emoji": "",
+            "parent": "c2dac6a8-4f68-424d-83a4-c596306a6485"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "91625be7-27f7-4361-9a48-ef84a890c4b2",
+        "fields": {
+            "uuid": "91625be7-27f7-4361-9a48-ef84a890c4b2",
+            "name": "Upholstered Benches",
+            "emoji": "",
+            "parent": "c2dac6a8-4f68-424d-83a4-c596306a6485"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "001bc361-dd07-47e0-a81f-84aa68fcb3f9",
+        "fields": {
+            "uuid": "001bc361-dd07-47e0-a81f-84aa68fcb3f9",
+            "name": "Storage & Entryway Benches",
+            "emoji": "",
+            "parent": "4acb69d3-12a1-4d6a-8595-786c5804c485"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3c4d9a1a-0792-4dfc-8b91-02ff40a6da7c",
+        "fields": {
+            "uuid": "3c4d9a1a-0792-4dfc-8b91-02ff40a6da7c",
+            "name": "Basket Benches",
+            "emoji": "",
+            "parent": "001bc361-dd07-47e0-a81f-84aa68fcb3f9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6a805ea0-c36f-42fa-b9a4-d4f979084aa6",
+        "fields": {
+            "uuid": "6a805ea0-c36f-42fa-b9a4-d4f979084aa6",
+            "name": "Coat Racks",
+            "emoji": "",
+            "parent": "001bc361-dd07-47e0-a81f-84aa68fcb3f9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8bb7826d-5889-4c52-a3eb-d6bd4588fe94",
+        "fields": {
+            "uuid": "8bb7826d-5889-4c52-a3eb-d6bd4588fe94",
+            "name": "Cubby Benches",
+            "emoji": "",
+            "parent": "001bc361-dd07-47e0-a81f-84aa68fcb3f9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5ab5a04f-6d79-4d0b-8821-e1607e821cf9",
+        "fields": {
+            "uuid": "5ab5a04f-6d79-4d0b-8821-e1607e821cf9",
+            "name": "Drawer Storage Benches",
+            "emoji": "",
+            "parent": "001bc361-dd07-47e0-a81f-84aa68fcb3f9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "49d890f7-e113-4574-aae9-742c159efb13",
+        "fields": {
+            "uuid": "49d890f7-e113-4574-aae9-742c159efb13",
+            "name": "Entryway Benches",
+            "emoji": "",
+            "parent": "001bc361-dd07-47e0-a81f-84aa68fcb3f9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "69d12fe7-ee54-4bad-81be-acb7712231f9",
+        "fields": {
+            "uuid": "69d12fe7-ee54-4bad-81be-acb7712231f9",
+            "name": "Hall Trees",
+            "emoji": "",
+            "parent": "001bc361-dd07-47e0-a81f-84aa68fcb3f9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "35e0a635-ac3d-42cb-a630-5291e95c8a65",
+        "fields": {
+            "uuid": "35e0a635-ac3d-42cb-a630-5291e95c8a65",
+            "name": "Hook Benches",
+            "emoji": "",
+            "parent": "001bc361-dd07-47e0-a81f-84aa68fcb3f9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ae9896c2-5e24-461e-b35d-2cca05883629",
+        "fields": {
+            "uuid": "ae9896c2-5e24-461e-b35d-2cca05883629",
+            "name": "Lidded Storage Benches",
+            "emoji": "",
+            "parent": "001bc361-dd07-47e0-a81f-84aa68fcb3f9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "06019762-86cf-4bea-94c1-5936dccec395",
+        "fields": {
+            "uuid": "06019762-86cf-4bea-94c1-5936dccec395",
+            "name": "Lift-Top Storage Benches",
+            "emoji": "",
+            "parent": "001bc361-dd07-47e0-a81f-84aa68fcb3f9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "99c7bf5e-a958-47e2-8f24-cfe41a565182",
+        "fields": {
+            "uuid": "99c7bf5e-a958-47e2-8f24-cfe41a565182",
+            "name": "Locker Benches",
+            "emoji": "",
+            "parent": "001bc361-dd07-47e0-a81f-84aa68fcb3f9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cd9fb6b8-f869-4324-b79f-7dcd48a72eb2",
+        "fields": {
+            "uuid": "cd9fb6b8-f869-4324-b79f-7dcd48a72eb2",
+            "name": "Shoe Storage Benches",
+            "emoji": "",
+            "parent": "001bc361-dd07-47e0-a81f-84aa68fcb3f9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "419fce59-d5a6-4486-945c-73e7e53f8b3f",
+        "fields": {
+            "uuid": "419fce59-d5a6-4486-945c-73e7e53f8b3f",
+            "name": "Upholstered Storage Benches",
+            "emoji": "",
+            "parent": "001bc361-dd07-47e0-a81f-84aa68fcb3f9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bb28191f-2303-4afe-b9f2-6b3a984f06c6",
+        "fields": {
+            "uuid": "bb28191f-2303-4afe-b9f2-6b3a984f06c6",
+            "name": "Window Seats",
+            "emoji": "",
+            "parent": "001bc361-dd07-47e0-a81f-84aa68fcb3f9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8ab6b494-6669-4b47-aaa9-ad8f2dc71a20",
+        "fields": {
+            "uuid": "8ab6b494-6669-4b47-aaa9-ad8f2dc71a20",
+            "name": "Vanity Benches",
+            "emoji": "",
+            "parent": "4acb69d3-12a1-4d6a-8595-786c5804c485"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dfe532f0-8c34-4360-9c39-009e89ee6d50",
+        "fields": {
+            "uuid": "dfe532f0-8c34-4360-9c39-009e89ee6d50",
+            "name": "Cabinets & Storage",
+            "emoji": "",
+            "parent": "5c90c6f6-4382-4837-8ed6-53b35b4f87c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2dfb5a63-7abd-49b6-8d12-19744a3be51e",
+        "fields": {
+            "uuid": "2dfb5a63-7abd-49b6-8d12-19744a3be51e",
+            "name": "Armoires & Wardrobes",
+            "emoji": "",
+            "parent": "dfe532f0-8c34-4360-9c39-009e89ee6d50"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "72035a49-8910-4f90-83d5-a0f1bd852040",
+        "fields": {
+            "uuid": "72035a49-8910-4f90-83d5-a0f1bd852040",
+            "name": "Computer Armoires",
+            "emoji": "",
+            "parent": "2dfb5a63-7abd-49b6-8d12-19744a3be51e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bde61e24-99e2-41c5-88cd-f07e40ed1b05",
+        "fields": {
+            "uuid": "bde61e24-99e2-41c5-88cd-f07e40ed1b05",
+            "name": "Corner Armoires",
+            "emoji": "",
+            "parent": "2dfb5a63-7abd-49b6-8d12-19744a3be51e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f177b8e0-5e7c-4df0-bb5c-344fef1fc1d5",
+        "fields": {
+            "uuid": "f177b8e0-5e7c-4df0-bb5c-344fef1fc1d5",
+            "name": "Corner Wardrobes",
+            "emoji": "",
+            "parent": "2dfb5a63-7abd-49b6-8d12-19744a3be51e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3c96d7c6-c81b-4324-ac62-d7fcfa75dbca",
+        "fields": {
+            "uuid": "3c96d7c6-c81b-4324-ac62-d7fcfa75dbca",
+            "name": "Double Wardrobes",
+            "emoji": "",
+            "parent": "2dfb5a63-7abd-49b6-8d12-19744a3be51e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "162bfdf9-a486-4700-8b73-d2f7267bf782",
+        "fields": {
+            "uuid": "162bfdf9-a486-4700-8b73-d2f7267bf782",
+            "name": "Hanging Rail Wardrobes",
+            "emoji": "",
+            "parent": "2dfb5a63-7abd-49b6-8d12-19744a3be51e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a3a80ff3-21f7-44ed-9402-4ad4636fb49f",
+        "fields": {
+            "uuid": "a3a80ff3-21f7-44ed-9402-4ad4636fb49f",
+            "name": "Hinged Door Wardrobes",
+            "emoji": "",
+            "parent": "2dfb5a63-7abd-49b6-8d12-19744a3be51e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "29510f72-4327-46f3-a937-4898e9f01098",
+        "fields": {
+            "uuid": "29510f72-4327-46f3-a937-4898e9f01098",
+            "name": "Jewelry Armoires",
+            "emoji": "",
+            "parent": "2dfb5a63-7abd-49b6-8d12-19744a3be51e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "67c76267-2c11-4742-8e6a-5884ff480c43",
+        "fields": {
+            "uuid": "67c76267-2c11-4742-8e6a-5884ff480c43",
+            "name": "Kids' Armoires",
+            "emoji": "",
+            "parent": "2dfb5a63-7abd-49b6-8d12-19744a3be51e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3eb074a9-afb5-4347-9b91-ef140084cd78",
+        "fields": {
+            "uuid": "3eb074a9-afb5-4347-9b91-ef140084cd78",
+            "name": "Kids' Wardrobes",
+            "emoji": "",
+            "parent": "2dfb5a63-7abd-49b6-8d12-19744a3be51e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4b57bbce-2981-41ef-8bd1-6b5e7362d49f",
+        "fields": {
+            "uuid": "4b57bbce-2981-41ef-8bd1-6b5e7362d49f",
+            "name": "Mirrored Armoires",
+            "emoji": "",
+            "parent": "2dfb5a63-7abd-49b6-8d12-19744a3be51e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "13f7500e-5cfd-43c1-8e9e-5016f94684c2",
+        "fields": {
+            "uuid": "13f7500e-5cfd-43c1-8e9e-5016f94684c2",
+            "name": "Mirrored Wardrobes",
+            "emoji": "",
+            "parent": "2dfb5a63-7abd-49b6-8d12-19744a3be51e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "66965603-2d17-45db-8327-922db4e5e6f9",
+        "fields": {
+            "uuid": "66965603-2d17-45db-8327-922db4e5e6f9",
+            "name": "Office Armoires",
+            "emoji": "",
+            "parent": "2dfb5a63-7abd-49b6-8d12-19744a3be51e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "00893774-27b1-467a-99f0-0b4a902babe7",
+        "fields": {
+            "uuid": "00893774-27b1-467a-99f0-0b4a902babe7",
+            "name": "Portable Wardrobes",
+            "emoji": "",
+            "parent": "2dfb5a63-7abd-49b6-8d12-19744a3be51e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "029a0e6c-2f54-4cc4-a871-6e010e6e8dad",
+        "fields": {
+            "uuid": "029a0e6c-2f54-4cc4-a871-6e010e6e8dad",
+            "name": "Shelved Armoires",
+            "emoji": "",
+            "parent": "2dfb5a63-7abd-49b6-8d12-19744a3be51e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8720bea6-0a84-46fd-83c1-681c30a1ee47",
+        "fields": {
+            "uuid": "8720bea6-0a84-46fd-83c1-681c30a1ee47",
+            "name": "Sliding Door Wardrobes",
+            "emoji": "",
+            "parent": "2dfb5a63-7abd-49b6-8d12-19744a3be51e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f7421ef5-6ad3-41c8-b240-b2168ce38654",
+        "fields": {
+            "uuid": "f7421ef5-6ad3-41c8-b240-b2168ce38654",
+            "name": "Triple Wardrobes",
+            "emoji": "",
+            "parent": "2dfb5a63-7abd-49b6-8d12-19744a3be51e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7cab84b4-d2f7-492b-8163-d9dc49ac5dfc",
+        "fields": {
+            "uuid": "7cab84b4-d2f7-492b-8163-d9dc49ac5dfc",
+            "name": "TV Armoires",
+            "emoji": "",
+            "parent": "2dfb5a63-7abd-49b6-8d12-19744a3be51e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "eaccdcf9-b42e-4502-ba6c-fb0a6911be9a",
+        "fields": {
+            "uuid": "eaccdcf9-b42e-4502-ba6c-fb0a6911be9a",
+            "name": "Buffets",
+            "emoji": "",
+            "parent": "dfe532f0-8c34-4360-9c39-009e89ee6d50"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fbbd4a78-4968-4028-bfc4-87d719048677",
+        "fields": {
+            "uuid": "fbbd4a78-4968-4028-bfc4-87d719048677",
+            "name": "China Cabinets & Hutches",
+            "emoji": "",
+            "parent": "dfe532f0-8c34-4360-9c39-009e89ee6d50"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "71d9214f-2bc1-4007-9e21-703feb730ecf",
+        "fields": {
+            "uuid": "71d9214f-2bc1-4007-9e21-703feb730ecf",
+            "name": "Buffets with Hutch",
+            "emoji": "",
+            "parent": "fbbd4a78-4968-4028-bfc4-87d719048677"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "43ad7223-d6a3-4097-9180-16f7646a6bf3",
+        "fields": {
+            "uuid": "43ad7223-d6a3-4097-9180-16f7646a6bf3",
+            "name": "Cabinet Hutches",
+            "emoji": "",
+            "parent": "fbbd4a78-4968-4028-bfc4-87d719048677"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f551817c-aba1-42fa-b91f-2bce7d1e60f9",
+        "fields": {
+            "uuid": "f551817c-aba1-42fa-b91f-2bce7d1e60f9",
+            "name": "China Cabinets",
+            "emoji": "",
+            "parent": "fbbd4a78-4968-4028-bfc4-87d719048677"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d10fafbe-072b-4390-9467-1eb3166dda13",
+        "fields": {
+            "uuid": "d10fafbe-072b-4390-9467-1eb3166dda13",
+            "name": "Corner Display Cabinets",
+            "emoji": "",
+            "parent": "fbbd4a78-4968-4028-bfc4-87d719048677"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7ca68974-8e1a-41aa-b6ef-e4e92e7f5618",
+        "fields": {
+            "uuid": "7ca68974-8e1a-41aa-b6ef-e4e92e7f5618",
+            "name": "Corner Hutches",
+            "emoji": "",
+            "parent": "fbbd4a78-4968-4028-bfc4-87d719048677"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cc5d11ac-53c9-4bef-929d-243dfb4a100f",
+        "fields": {
+            "uuid": "cc5d11ac-53c9-4bef-929d-243dfb4a100f",
+            "name": "Credenza Hutches",
+            "emoji": "",
+            "parent": "fbbd4a78-4968-4028-bfc4-87d719048677"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c293b7bb-9583-45e5-b172-d0b1985b1c57",
+        "fields": {
+            "uuid": "c293b7bb-9583-45e5-b172-d0b1985b1c57",
+            "name": "Dining Room Hutches",
+            "emoji": "",
+            "parent": "fbbd4a78-4968-4028-bfc4-87d719048677"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "365263a1-6ae5-4041-8a5e-cca18b300704",
+        "fields": {
+            "uuid": "365263a1-6ae5-4041-8a5e-cca18b300704",
+            "name": "Display Hutches",
+            "emoji": "",
+            "parent": "fbbd4a78-4968-4028-bfc4-87d719048677"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7503fd13-4522-4d83-a575-c33eeefd559c",
+        "fields": {
+            "uuid": "7503fd13-4522-4d83-a575-c33eeefd559c",
+            "name": "Kitchen Hutches",
+            "emoji": "",
+            "parent": "fbbd4a78-4968-4028-bfc4-87d719048677"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9db3303d-8b39-48bd-81fb-046b590df748",
+        "fields": {
+            "uuid": "9db3303d-8b39-48bd-81fb-046b590df748",
+            "name": "Secretary Desks with Hutch",
+            "emoji": "",
+            "parent": "fbbd4a78-4968-4028-bfc4-87d719048677"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fb38c482-ba19-4139-9029-acd6f7c01feb",
+        "fields": {
+            "uuid": "fb38c482-ba19-4139-9029-acd6f7c01feb",
+            "name": "Server Hutches",
+            "emoji": "",
+            "parent": "fbbd4a78-4968-4028-bfc4-87d719048677"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5b428fcb-c096-4788-ba2e-29546da16aa9",
+        "fields": {
+            "uuid": "5b428fcb-c096-4788-ba2e-29546da16aa9",
+            "name": "Sideboards with Hutch",
+            "emoji": "",
+            "parent": "fbbd4a78-4968-4028-bfc4-87d719048677"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ddd3d877-9a40-42bb-887c-5ed3516b5e17",
+        "fields": {
+            "uuid": "ddd3d877-9a40-42bb-887c-5ed3516b5e17",
+            "name": "Tall Display Cabinets",
+            "emoji": "",
+            "parent": "fbbd4a78-4968-4028-bfc4-87d719048677"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bc50c9fd-e6e0-4d85-8841-19155d820896",
+        "fields": {
+            "uuid": "bc50c9fd-e6e0-4d85-8841-19155d820896",
+            "name": "Wall-Mounted Hutches",
+            "emoji": "",
+            "parent": "fbbd4a78-4968-4028-bfc4-87d719048677"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1784e647-bf63-426d-81cb-f3effad0e797",
+        "fields": {
+            "uuid": "1784e647-bf63-426d-81cb-f3effad0e797",
+            "name": "Closets",
+            "emoji": "",
+            "parent": "dfe532f0-8c34-4360-9c39-009e89ee6d50"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b5048f3d-7859-4532-8fa7-2867a16814c1",
+        "fields": {
+            "uuid": "b5048f3d-7859-4532-8fa7-2867a16814c1",
+            "name": "Closet Baskets",
+            "emoji": "",
+            "parent": "1784e647-bf63-426d-81cb-f3effad0e797"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4b5c81db-ba90-49e9-b4c5-771c763dc300",
+        "fields": {
+            "uuid": "4b5c81db-ba90-49e9-b4c5-771c763dc300",
+            "name": "Closet Bins",
+            "emoji": "",
+            "parent": "1784e647-bf63-426d-81cb-f3effad0e797"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "00970375-166c-437a-9d98-7b7307d69819",
+        "fields": {
+            "uuid": "00970375-166c-437a-9d98-7b7307d69819",
+            "name": "Closet Doors",
+            "emoji": "",
+            "parent": "1784e647-bf63-426d-81cb-f3effad0e797"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e7cf6e40-7a1a-40e6-9090-05a29750169e",
+        "fields": {
+            "uuid": "e7cf6e40-7a1a-40e6-9090-05a29750169e",
+            "name": "Closet Drawers",
+            "emoji": "",
+            "parent": "1784e647-bf63-426d-81cb-f3effad0e797"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "78258ad6-8913-49b1-b82f-780ae815375c",
+        "fields": {
+            "uuid": "78258ad6-8913-49b1-b82f-780ae815375c",
+            "name": "Closet Rods",
+            "emoji": "",
+            "parent": "1784e647-bf63-426d-81cb-f3effad0e797"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0c725309-c7f7-47e3-b75b-7365bc20226e",
+        "fields": {
+            "uuid": "0c725309-c7f7-47e3-b75b-7365bc20226e",
+            "name": "Closet Shelves",
+            "emoji": "",
+            "parent": "1784e647-bf63-426d-81cb-f3effad0e797"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e6a72298-ab5b-43c1-8596-947ef35859e0",
+        "fields": {
+            "uuid": "e6a72298-ab5b-43c1-8596-947ef35859e0",
+            "name": "Kids' Closets",
+            "emoji": "",
+            "parent": "1784e647-bf63-426d-81cb-f3effad0e797"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6c6e6d79-7a48-4be2-90ff-1f26731cdf3f",
+        "fields": {
+            "uuid": "6c6e6d79-7a48-4be2-90ff-1f26731cdf3f",
+            "name": "Reach-In Closets",
+            "emoji": "",
+            "parent": "1784e647-bf63-426d-81cb-f3effad0e797"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ef2d690b-39f9-434f-94b9-eef9ee07f868",
+        "fields": {
+            "uuid": "ef2d690b-39f9-434f-94b9-eef9ee07f868",
+            "name": "Walk-In Closets",
+            "emoji": "",
+            "parent": "1784e647-bf63-426d-81cb-f3effad0e797"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "857b22d5-b9db-49a3-b487-5c937afe680c",
+        "fields": {
+            "uuid": "857b22d5-b9db-49a3-b487-5c937afe680c",
+            "name": "Dressers",
+            "emoji": "",
+            "parent": "dfe532f0-8c34-4360-9c39-009e89ee6d50"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cb3ec54c-c30d-4d30-8d81-7825931d1f96",
+        "fields": {
+            "uuid": "cb3ec54c-c30d-4d30-8d81-7825931d1f96",
+            "name": "File Cabinets",
+            "emoji": "",
+            "parent": "dfe532f0-8c34-4360-9c39-009e89ee6d50"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "811dc166-6e80-424a-aed0-e7dd70787640",
+        "fields": {
+            "uuid": "811dc166-6e80-424a-aed0-e7dd70787640",
+            "name": "Ironing Centers",
+            "emoji": "",
+            "parent": "dfe532f0-8c34-4360-9c39-009e89ee6d50"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "94b59966-76af-42a5-af4e-7522125a0438",
+        "fields": {
+            "uuid": "94b59966-76af-42a5-af4e-7522125a0438",
+            "name": "Kitchen Cabinets",
+            "emoji": "",
+            "parent": "dfe532f0-8c34-4360-9c39-009e89ee6d50"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d31c39b6-db53-4b07-8489-733c55cba115",
+        "fields": {
+            "uuid": "d31c39b6-db53-4b07-8489-733c55cba115",
+            "name": "Base Kitchen Cabinets",
+            "emoji": "",
+            "parent": "94b59966-76af-42a5-af4e-7522125a0438"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "092b96d3-261f-40f1-81dd-934c340bd218",
+        "fields": {
+            "uuid": "092b96d3-261f-40f1-81dd-934c340bd218",
+            "name": "Corner Kitchen Cabinets",
+            "emoji": "",
+            "parent": "94b59966-76af-42a5-af4e-7522125a0438"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8bde858f-b7ef-466f-b973-1542304cc03c",
+        "fields": {
+            "uuid": "8bde858f-b7ef-466f-b973-1542304cc03c",
+            "name": "Double Doors",
+            "emoji": "",
+            "parent": "94b59966-76af-42a5-af4e-7522125a0438"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4fb77209-97fb-40c8-bb97-3d748e13ca8d",
+        "fields": {
+            "uuid": "4fb77209-97fb-40c8-bb97-3d748e13ca8d",
+            "name": "Drawer Base Kitchen Cabinets",
+            "emoji": "",
+            "parent": "94b59966-76af-42a5-af4e-7522125a0438"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dbffc63e-a2d9-4f9a-b9f6-50cb8c2321dd",
+        "fields": {
+            "uuid": "dbffc63e-a2d9-4f9a-b9f6-50cb8c2321dd",
+            "name": "Farmhouse Kitchen Cabinets",
+            "emoji": "",
+            "parent": "94b59966-76af-42a5-af4e-7522125a0438"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c541fadd-4630-4048-b015-728dc6b7ec57",
+        "fields": {
+            "uuid": "c541fadd-4630-4048-b015-728dc6b7ec57",
+            "name": "Glass-Front Kitchen Cabinets",
+            "emoji": "",
+            "parent": "94b59966-76af-42a5-af4e-7522125a0438"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2db3c890-efd3-46d6-8170-dcdb06557de6",
+        "fields": {
+            "uuid": "2db3c890-efd3-46d6-8170-dcdb06557de6",
+            "name": "Hutch-Style Kitchen Cabinets",
+            "emoji": "",
+            "parent": "94b59966-76af-42a5-af4e-7522125a0438"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1ce31171-2572-4c2e-9f24-5b0ccfe3bf34",
+        "fields": {
+            "uuid": "1ce31171-2572-4c2e-9f24-5b0ccfe3bf34",
+            "name": "Microwave Cabinets",
+            "emoji": "",
+            "parent": "94b59966-76af-42a5-af4e-7522125a0438"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b886d431-b7ff-4a6d-b2ff-d58c8a36382d",
+        "fields": {
+            "uuid": "b886d431-b7ff-4a6d-b2ff-d58c8a36382d",
+            "name": "Open Shelves",
+            "emoji": "",
+            "parent": "94b59966-76af-42a5-af4e-7522125a0438"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "350fd7b9-fbb6-4722-bcae-d57c5352174e",
+        "fields": {
+            "uuid": "350fd7b9-fbb6-4722-bcae-d57c5352174e",
+            "name": "Oven Cabinets",
+            "emoji": "",
+            "parent": "94b59966-76af-42a5-af4e-7522125a0438"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "18c66138-841e-4009-b21a-60798b8af167",
+        "fields": {
+            "uuid": "18c66138-841e-4009-b21a-60798b8af167",
+            "name": "Pantries",
+            "emoji": "",
+            "parent": "94b59966-76af-42a5-af4e-7522125a0438"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c2d52ad3-870e-4060-85ad-19dad172b45f",
+        "fields": {
+            "uuid": "c2d52ad3-870e-4060-85ad-19dad172b45f",
+            "name": "Pull-Out Trash Cans",
+            "emoji": "",
+            "parent": "94b59966-76af-42a5-af4e-7522125a0438"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "17c2334e-40f8-412c-99e3-80bc943a4766",
+        "fields": {
+            "uuid": "17c2334e-40f8-412c-99e3-80bc943a4766",
+            "name": "Single Door Kitchen Cabinets",
+            "emoji": "",
+            "parent": "94b59966-76af-42a5-af4e-7522125a0438"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "645d4610-3e62-439e-8faa-5858a55587ca",
+        "fields": {
+            "uuid": "645d4610-3e62-439e-8faa-5858a55587ca",
+            "name": "Sink Base Cabinets",
+            "emoji": "",
+            "parent": "94b59966-76af-42a5-af4e-7522125a0438"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "563e1a2f-0527-4684-a2a8-dfde5f0ee68f",
+        "fields": {
+            "uuid": "563e1a2f-0527-4684-a2a8-dfde5f0ee68f",
+            "name": "Tall Kitchen Cabinets",
+            "emoji": "",
+            "parent": "94b59966-76af-42a5-af4e-7522125a0438"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f34b1147-7db0-4500-9c54-0772c823dbc0",
+        "fields": {
+            "uuid": "f34b1147-7db0-4500-9c54-0772c823dbc0",
+            "name": "Wall Kitchen Cabinets",
+            "emoji": "",
+            "parent": "94b59966-76af-42a5-af4e-7522125a0438"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d52ad037-f852-46c3-b3dd-3b625f31a1a3",
+        "fields": {
+            "uuid": "d52ad037-f852-46c3-b3dd-3b625f31a1a3",
+            "name": "Magazine Racks",
+            "emoji": "",
+            "parent": "dfe532f0-8c34-4360-9c39-009e89ee6d50"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "56014665-9f4d-4439-86c6-940937118aa8",
+        "fields": {
+            "uuid": "56014665-9f4d-4439-86c6-940937118aa8",
+            "name": "Media Storage Cabinets & Racks",
+            "emoji": "",
+            "parent": "dfe532f0-8c34-4360-9c39-009e89ee6d50"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e305337b-99e0-44bf-91ba-08bc2c4fc3ab",
+        "fields": {
+            "uuid": "e305337b-99e0-44bf-91ba-08bc2c4fc3ab",
+            "name": "Sideboards",
+            "emoji": "",
+            "parent": "dfe532f0-8c34-4360-9c39-009e89ee6d50"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "734b7653-eec2-4f5e-940b-2e351e06606e",
+        "fields": {
+            "uuid": "734b7653-eec2-4f5e-940b-2e351e06606e",
+            "name": "Storage Cabinets & Lockers",
+            "emoji": "",
+            "parent": "dfe532f0-8c34-4360-9c39-009e89ee6d50"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e1caa858-ab4f-41f5-a0bc-679805c459cf",
+        "fields": {
+            "uuid": "e1caa858-ab4f-41f5-a0bc-679805c459cf",
+            "name": "Storage Chests",
+            "emoji": "",
+            "parent": "dfe532f0-8c34-4360-9c39-009e89ee6d50"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "716d5901-46fe-472e-89e9-d6ef4d98d9a4",
+        "fields": {
+            "uuid": "716d5901-46fe-472e-89e9-d6ef4d98d9a4",
+            "name": "Hope Chests",
+            "emoji": "",
+            "parent": "e1caa858-ab4f-41f5-a0bc-679805c459cf"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "559617cd-4cba-4b14-9b76-cb8519d06260",
+        "fields": {
+            "uuid": "559617cd-4cba-4b14-9b76-cb8519d06260",
+            "name": "Toy Chests",
+            "emoji": "",
+            "parent": "e1caa858-ab4f-41f5-a0bc-679805c459cf"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "662bbe40-3da6-4383-9f19-9360e26ba591",
+        "fields": {
+            "uuid": "662bbe40-3da6-4383-9f19-9360e26ba591",
+            "name": "Vanities",
+            "emoji": "",
+            "parent": "dfe532f0-8c34-4360-9c39-009e89ee6d50"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ef1d837f-4721-43f5-b71c-78a53b8b63d9",
+        "fields": {
+            "uuid": "ef1d837f-4721-43f5-b71c-78a53b8b63d9",
+            "name": "Bathroom Vanities",
+            "emoji": "",
+            "parent": "662bbe40-3da6-4383-9f19-9360e26ba591"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e82ebe33-34ca-44b8-8730-44ca99d67820",
+        "fields": {
+            "uuid": "e82ebe33-34ca-44b8-8730-44ca99d67820",
+            "name": "Bathroom Cabinets",
+            "emoji": "",
+            "parent": "ef1d837f-4721-43f5-b71c-78a53b8b63d9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b095162c-0737-4ca0-9517-1316e71807ed",
+        "fields": {
+            "uuid": "b095162c-0737-4ca0-9517-1316e71807ed",
+            "name": "Bathroom Vanity Sets",
+            "emoji": "",
+            "parent": "ef1d837f-4721-43f5-b71c-78a53b8b63d9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "140e70a4-1c18-4039-bfd7-cc9281a7568a",
+        "fields": {
+            "uuid": "140e70a4-1c18-4039-bfd7-cc9281a7568a",
+            "name": "Corner Vanities",
+            "emoji": "",
+            "parent": "ef1d837f-4721-43f5-b71c-78a53b8b63d9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "01aa2dbf-cabb-4e32-b399-4e79e6bef8d8",
+        "fields": {
+            "uuid": "01aa2dbf-cabb-4e32-b399-4e79e6bef8d8",
+            "name": "Double Sinks",
+            "emoji": "",
+            "parent": "ef1d837f-4721-43f5-b71c-78a53b8b63d9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "34594b6e-8d0b-4c06-9906-64ac85ae27a7",
+        "fields": {
+            "uuid": "34594b6e-8d0b-4c06-9906-64ac85ae27a7",
+            "name": "Floating Vanities",
+            "emoji": "",
+            "parent": "ef1d837f-4721-43f5-b71c-78a53b8b63d9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fec6b1c5-d967-49b0-9699-b00702624cde",
+        "fields": {
+            "uuid": "fec6b1c5-d967-49b0-9699-b00702624cde",
+            "name": "Free-Standing Vanities",
+            "emoji": "",
+            "parent": "ef1d837f-4721-43f5-b71c-78a53b8b63d9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "164c78ab-6931-4eb5-8458-bc41953df6e8",
+        "fields": {
+            "uuid": "164c78ab-6931-4eb5-8458-bc41953df6e8",
+            "name": "Pedestal Vanities",
+            "emoji": "",
+            "parent": "ef1d837f-4721-43f5-b71c-78a53b8b63d9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8bbdc174-4735-4361-b1e4-ce0c68b948cc",
+        "fields": {
+            "uuid": "8bbdc174-4735-4361-b1e4-ce0c68b948cc",
+            "name": "Single Sink Vanities",
+            "emoji": "",
+            "parent": "ef1d837f-4721-43f5-b71c-78a53b8b63d9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e4d44ea9-7a4e-403f-9716-448c4e954b89",
+        "fields": {
+            "uuid": "e4d44ea9-7a4e-403f-9716-448c4e954b89",
+            "name": "Topless Vanities",
+            "emoji": "",
+            "parent": "ef1d837f-4721-43f5-b71c-78a53b8b63d9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "52c0d3ca-a7c1-48a4-8b57-974fbea606fc",
+        "fields": {
+            "uuid": "52c0d3ca-a7c1-48a4-8b57-974fbea606fc",
+            "name": "Topped Vanities",
+            "emoji": "",
+            "parent": "ef1d837f-4721-43f5-b71c-78a53b8b63d9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "48e3c74f-6303-4354-afa8-f6b319bd150f",
+        "fields": {
+            "uuid": "48e3c74f-6303-4354-afa8-f6b319bd150f",
+            "name": "Vanity Bases",
+            "emoji": "",
+            "parent": "ef1d837f-4721-43f5-b71c-78a53b8b63d9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "67f9ec0f-a20e-422f-9a04-14cef4912f74",
+        "fields": {
+            "uuid": "67f9ec0f-a20e-422f-9a04-14cef4912f74",
+            "name": "Bedroom Vanities",
+            "emoji": "",
+            "parent": "662bbe40-3da6-4383-9f19-9360e26ba591"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f81b3ffc-3b55-43dd-9e37-b107bdf42215",
+        "fields": {
+            "uuid": "f81b3ffc-3b55-43dd-9e37-b107bdf42215",
+            "name": "Bedroom Vanity Sets",
+            "emoji": "",
+            "parent": "67f9ec0f-a20e-422f-9a04-14cef4912f74"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "42c7b096-59c1-4691-934b-615c4aa5f8c4",
+        "fields": {
+            "uuid": "42c7b096-59c1-4691-934b-615c4aa5f8c4",
+            "name": "Desk Vanities",
+            "emoji": "",
+            "parent": "67f9ec0f-a20e-422f-9a04-14cef4912f74"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "592c904e-f976-4628-8b1b-cfa130ca8667",
+        "fields": {
+            "uuid": "592c904e-f976-4628-8b1b-cfa130ca8667",
+            "name": "Dressing Tables",
+            "emoji": "",
+            "parent": "67f9ec0f-a20e-422f-9a04-14cef4912f74"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6ab1b230-f51e-4847-8c0b-c39c32725450",
+        "fields": {
+            "uuid": "6ab1b230-f51e-4847-8c0b-c39c32725450",
+            "name": "Lighted Vanities",
+            "emoji": "",
+            "parent": "67f9ec0f-a20e-422f-9a04-14cef4912f74"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9b874f4a-360b-44cf-bb5c-85a0d5c8eea5",
+        "fields": {
+            "uuid": "9b874f4a-360b-44cf-bb5c-85a0d5c8eea5",
+            "name": "Makeup Vanities",
+            "emoji": "",
+            "parent": "67f9ec0f-a20e-422f-9a04-14cef4912f74"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "23c929d2-52a4-41df-a3b6-867c7878d559",
+        "fields": {
+            "uuid": "23c929d2-52a4-41df-a3b6-867c7878d559",
+            "name": "Mirrored Vanities",
+            "emoji": "",
+            "parent": "67f9ec0f-a20e-422f-9a04-14cef4912f74"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "64e1e34b-3330-4911-a485-8ef174356bde",
+        "fields": {
+            "uuid": "64e1e34b-3330-4911-a485-8ef174356bde",
+            "name": "Table Vanities",
+            "emoji": "",
+            "parent": "67f9ec0f-a20e-422f-9a04-14cef4912f74"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9a676e09-298c-45d8-8b71-5639e1c28256",
+        "fields": {
+            "uuid": "9a676e09-298c-45d8-8b71-5639e1c28256",
+            "name": "Wine & Liquor Cabinets",
+            "emoji": "",
+            "parent": "dfe532f0-8c34-4360-9c39-009e89ee6d50"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ebfe453f-b3d2-4a56-ae5f-17405ea6b1a4",
+        "fields": {
+            "uuid": "ebfe453f-b3d2-4a56-ae5f-17405ea6b1a4",
+            "name": "Wine Racks",
+            "emoji": "",
+            "parent": "dfe532f0-8c34-4360-9c39-009e89ee6d50"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "59251009-2f27-4a80-aa5d-a32965ca2b0f",
+        "fields": {
+            "uuid": "59251009-2f27-4a80-aa5d-a32965ca2b0f",
+            "name": "Carts & Islands",
+            "emoji": "",
+            "parent": "5c90c6f6-4382-4837-8ed6-53b35b4f87c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "718252d9-ee17-448a-8b22-58e442511386",
+        "fields": {
+            "uuid": "718252d9-ee17-448a-8b22-58e442511386",
+            "name": "Carts",
+            "emoji": "",
+            "parent": "59251009-2f27-4a80-aa5d-a32965ca2b0f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1d95942c-5b9f-40d3-ba7d-6269860c2120",
+        "fields": {
+            "uuid": "1d95942c-5b9f-40d3-ba7d-6269860c2120",
+            "name": "Islands",
+            "emoji": "",
+            "parent": "59251009-2f27-4a80-aa5d-a32965ca2b0f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "acad72d7-f701-46ff-8945-ec2fa7e41726",
+        "fields": {
+            "uuid": "acad72d7-f701-46ff-8945-ec2fa7e41726",
+            "name": "Chair Accessories",
+            "emoji": "",
+            "parent": "5c90c6f6-4382-4837-8ed6-53b35b4f87c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cf60b5cd-effb-45fd-bd14-b3a5807eae41",
+        "fields": {
+            "uuid": "cf60b5cd-effb-45fd-bd14-b3a5807eae41",
+            "name": "Hanging Chair Replacement Parts",
+            "emoji": "",
+            "parent": "acad72d7-f701-46ff-8945-ec2fa7e41726"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5c3aab54-0c0b-4492-9ccb-3acd403f0594",
+        "fields": {
+            "uuid": "5c3aab54-0c0b-4492-9ccb-3acd403f0594",
+            "name": "Chairs",
+            "emoji": "",
+            "parent": "5c90c6f6-4382-4837-8ed6-53b35b4f87c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "73b048c7-ed0e-4626-ae59-7316ddc98743",
+        "fields": {
+            "uuid": "73b048c7-ed0e-4626-ae59-7316ddc98743",
+            "name": "Armchairs, Recliners & Sleeper Chairs",
+            "emoji": "",
+            "parent": "5c3aab54-0c0b-4492-9ccb-3acd403f0594"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0cd4d733-26f0-4390-b95b-5bdf2398933b",
+        "fields": {
+            "uuid": "0cd4d733-26f0-4390-b95b-5bdf2398933b",
+            "name": "Armchairs",
+            "emoji": "",
+            "parent": "73b048c7-ed0e-4626-ae59-7316ddc98743"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bcbe94f6-8eb9-460a-9ce4-c1af598311cb",
+        "fields": {
+            "uuid": "bcbe94f6-8eb9-460a-9ce4-c1af598311cb",
+            "name": "Recliners",
+            "emoji": "",
+            "parent": "73b048c7-ed0e-4626-ae59-7316ddc98743"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a7dfbf70-6d3a-472d-bf81-d578c9688da8",
+        "fields": {
+            "uuid": "a7dfbf70-6d3a-472d-bf81-d578c9688da8",
+            "name": "Sleeper Chairs",
+            "emoji": "",
+            "parent": "73b048c7-ed0e-4626-ae59-7316ddc98743"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "41a29c13-ad46-41f1-95ac-03889019ba1a",
+        "fields": {
+            "uuid": "41a29c13-ad46-41f1-95ac-03889019ba1a",
+            "name": "Bean Bag Chairs",
+            "emoji": "",
+            "parent": "5c3aab54-0c0b-4492-9ccb-3acd403f0594"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aa360210-e842-4e78-9697-66788056ddae",
+        "fields": {
+            "uuid": "aa360210-e842-4e78-9697-66788056ddae",
+            "name": "Chaises",
+            "emoji": "",
+            "parent": "5c3aab54-0c0b-4492-9ccb-3acd403f0594"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7e46e81b-3a70-4cec-8d87-f80df286d4ad",
+        "fields": {
+            "uuid": "7e46e81b-3a70-4cec-8d87-f80df286d4ad",
+            "name": "Armless Chaises",
+            "emoji": "",
+            "parent": "aa360210-e842-4e78-9697-66788056ddae"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9bd63eb1-48ad-4638-83dd-ccec30d89536",
+        "fields": {
+            "uuid": "9bd63eb1-48ad-4638-83dd-ccec30d89536",
+            "name": "Chaise Longues",
+            "emoji": "",
+            "parent": "aa360210-e842-4e78-9697-66788056ddae"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b1d63bde-f408-41ce-9084-a3a27d61dd6d",
+        "fields": {
+            "uuid": "b1d63bde-f408-41ce-9084-a3a27d61dd6d",
+            "name": "Double Chaises Longues",
+            "emoji": "",
+            "parent": "aa360210-e842-4e78-9697-66788056ddae"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c92960f5-d78c-4ed6-b4f7-5b3fec4d3dbb",
+        "fields": {
+            "uuid": "c92960f5-d78c-4ed6-b4f7-5b3fec4d3dbb",
+            "name": "Reclining Chaises Longues",
+            "emoji": "",
+            "parent": "aa360210-e842-4e78-9697-66788056ddae"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dabb598d-73ec-42c0-a0c4-fe83f08e518a",
+        "fields": {
+            "uuid": "dabb598d-73ec-42c0-a0c4-fe83f08e518a",
+            "name": "Electric Massaging Chairs",
+            "emoji": "",
+            "parent": "5c3aab54-0c0b-4492-9ccb-3acd403f0594"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "41cd0bf6-ffd1-4a0f-8065-fbd6c8c356e5",
+        "fields": {
+            "uuid": "41cd0bf6-ffd1-4a0f-8065-fbd6c8c356e5",
+            "name": "Floor Chairs",
+            "emoji": "",
+            "parent": "5c3aab54-0c0b-4492-9ccb-3acd403f0594"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "405cb305-6268-4eab-ad24-80eafe5dd1e1",
+        "fields": {
+            "uuid": "405cb305-6268-4eab-ad24-80eafe5dd1e1",
+            "name": "Folding Chairs & Stools",
+            "emoji": "",
+            "parent": "5c3aab54-0c0b-4492-9ccb-3acd403f0594"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "89888e82-96d4-4db0-afd4-7da157387fe1",
+        "fields": {
+            "uuid": "89888e82-96d4-4db0-afd4-7da157387fe1",
+            "name": "Folding Chairs",
+            "emoji": "",
+            "parent": "405cb305-6268-4eab-ad24-80eafe5dd1e1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7623ed2b-44bc-47d9-b0b6-b91b455cd3cc",
+        "fields": {
+            "uuid": "7623ed2b-44bc-47d9-b0b6-b91b455cd3cc",
+            "name": "Folding Stools",
+            "emoji": "",
+            "parent": "405cb305-6268-4eab-ad24-80eafe5dd1e1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "57d84f33-1d7c-4c89-9f6d-a9ac155f8bbf",
+        "fields": {
+            "uuid": "57d84f33-1d7c-4c89-9f6d-a9ac155f8bbf",
+            "name": "Gaming Chairs",
+            "emoji": "",
+            "parent": "5c3aab54-0c0b-4492-9ccb-3acd403f0594"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "706ddc9e-f694-4a5b-bd2c-debb1740472c",
+        "fields": {
+            "uuid": "706ddc9e-f694-4a5b-bd2c-debb1740472c",
+            "name": "Hanging Chairs",
+            "emoji": "",
+            "parent": "5c3aab54-0c0b-4492-9ccb-3acd403f0594"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5c144d22-6aa9-485f-a45a-1456befa685d",
+        "fields": {
+            "uuid": "5c144d22-6aa9-485f-a45a-1456befa685d",
+            "name": "Kitchen & Dining Room Chairs",
+            "emoji": "",
+            "parent": "5c3aab54-0c0b-4492-9ccb-3acd403f0594"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "670d48ba-015d-4aca-9211-87cf495738ea",
+        "fields": {
+            "uuid": "670d48ba-015d-4aca-9211-87cf495738ea",
+            "name": "Rocking Chairs",
+            "emoji": "",
+            "parent": "5c3aab54-0c0b-4492-9ccb-3acd403f0594"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "93a14c05-9038-4d37-94f6-31f2bd142398",
+        "fields": {
+            "uuid": "93a14c05-9038-4d37-94f6-31f2bd142398",
+            "name": "Classic Rocking Chairs",
+            "emoji": "",
+            "parent": "670d48ba-015d-4aca-9211-87cf495738ea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0194bc8a-845f-4d06-ba1e-87fd0fcde883",
+        "fields": {
+            "uuid": "0194bc8a-845f-4d06-ba1e-87fd0fcde883",
+            "name": "Kids' Rocking Chairs",
+            "emoji": "",
+            "parent": "670d48ba-015d-4aca-9211-87cf495738ea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5e242ee7-b349-4faa-bdbb-f64313ccef25",
+        "fields": {
+            "uuid": "5e242ee7-b349-4faa-bdbb-f64313ccef25",
+            "name": "Nursery Rocking Chairs",
+            "emoji": "",
+            "parent": "670d48ba-015d-4aca-9211-87cf495738ea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "eb57be71-319a-4b54-a3d0-ca93bfcc8b29",
+        "fields": {
+            "uuid": "eb57be71-319a-4b54-a3d0-ca93bfcc8b29",
+            "name": "Slipper Chairs",
+            "emoji": "",
+            "parent": "5c3aab54-0c0b-4492-9ccb-3acd403f0594"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d45a3581-a70d-43e7-ad04-054067071d63",
+        "fields": {
+            "uuid": "d45a3581-a70d-43e7-ad04-054067071d63",
+            "name": "Table & Bar Stools",
+            "emoji": "",
+            "parent": "5c3aab54-0c0b-4492-9ccb-3acd403f0594"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "97fd1412-d710-4aa3-873f-155da9f74b5e",
+        "fields": {
+            "uuid": "97fd1412-d710-4aa3-873f-155da9f74b5e",
+            "name": "Adjustable Bar Stools",
+            "emoji": "",
+            "parent": "d45a3581-a70d-43e7-ad04-054067071d63"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "41ca0fb1-3b78-4f45-8343-5da598d6327d",
+        "fields": {
+            "uuid": "41ca0fb1-3b78-4f45-8343-5da598d6327d",
+            "name": "Bar Stools",
+            "emoji": "",
+            "parent": "d45a3581-a70d-43e7-ad04-054067071d63"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1d44391a-0f47-487b-ad0b-c742b2e69f13",
+        "fields": {
+            "uuid": "1d44391a-0f47-487b-ad0b-c742b2e69f13",
+            "name": "Daybeds",
+            "emoji": "",
+            "parent": "5c90c6f6-4382-4837-8ed6-53b35b4f87c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8416e64c-05c4-4fe8-8015-a94787f78380",
+        "fields": {
+            "uuid": "8416e64c-05c4-4fe8-8015-a94787f78380",
+            "name": "Entertainment Centers & TV Stands",
+            "emoji": "",
+            "parent": "5c90c6f6-4382-4837-8ed6-53b35b4f87c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b854527d-24b8-4373-afc1-e5d66beefb58",
+        "fields": {
+            "uuid": "b854527d-24b8-4373-afc1-e5d66beefb58",
+            "name": "Furniture Sets",
+            "emoji": "",
+            "parent": "5c90c6f6-4382-4837-8ed6-53b35b4f87c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "50a2d73c-5230-4921-9e18-d40f16015c6b",
+        "fields": {
+            "uuid": "50a2d73c-5230-4921-9e18-d40f16015c6b",
+            "name": "Bathroom Furniture Sets",
+            "emoji": "",
+            "parent": "b854527d-24b8-4373-afc1-e5d66beefb58"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "af1778d9-0016-4c8e-8635-763adfe850e0",
+        "fields": {
+            "uuid": "af1778d9-0016-4c8e-8635-763adfe850e0",
+            "name": "Bedroom Furniture Sets",
+            "emoji": "",
+            "parent": "b854527d-24b8-4373-afc1-e5d66beefb58"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7babbcdc-2492-44ab-88bd-638e37f8a1c9",
+        "fields": {
+            "uuid": "7babbcdc-2492-44ab-88bd-638e37f8a1c9",
+            "name": "Kitchen & Dining Furniture Sets",
+            "emoji": "",
+            "parent": "b854527d-24b8-4373-afc1-e5d66beefb58"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "87c867dc-9c98-4955-999f-1e86ab5f836a",
+        "fields": {
+            "uuid": "87c867dc-9c98-4955-999f-1e86ab5f836a",
+            "name": "Living Room Furniture Sets",
+            "emoji": "",
+            "parent": "b854527d-24b8-4373-afc1-e5d66beefb58"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7e6dbd67-b689-400f-87d7-adc0e6255c54",
+        "fields": {
+            "uuid": "7e6dbd67-b689-400f-87d7-adc0e6255c54",
+            "name": "Futons",
+            "emoji": "",
+            "parent": "5c90c6f6-4382-4837-8ed6-53b35b4f87c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "64fa9c17-e577-4d8d-a4a3-cf005cf03f27",
+        "fields": {
+            "uuid": "64fa9c17-e577-4d8d-a4a3-cf005cf03f27",
+            "name": "Futon Frames",
+            "emoji": "",
+            "parent": "7e6dbd67-b689-400f-87d7-adc0e6255c54"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d9c8b475-9841-4c60-a276-14459de0b417",
+        "fields": {
+            "uuid": "d9c8b475-9841-4c60-a276-14459de0b417",
+            "name": "Futon Pads",
+            "emoji": "",
+            "parent": "7e6dbd67-b689-400f-87d7-adc0e6255c54"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bc6a494f-d22d-49fc-9d61-61bdcb04d332",
+        "fields": {
+            "uuid": "bc6a494f-d22d-49fc-9d61-61bdcb04d332",
+            "name": "Office Furniture",
+            "emoji": "",
+            "parent": "5c90c6f6-4382-4837-8ed6-53b35b4f87c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "473e1d6a-4b2c-4897-96d3-18e907e54e1d",
+        "fields": {
+            "uuid": "473e1d6a-4b2c-4897-96d3-18e907e54e1d",
+            "name": "Desks",
+            "emoji": "",
+            "parent": "bc6a494f-d22d-49fc-9d61-61bdcb04d332"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6244b61d-e59b-4fde-93ef-0dbba95b19ca",
+        "fields": {
+            "uuid": "6244b61d-e59b-4fde-93ef-0dbba95b19ca",
+            "name": "Office Chairs",
+            "emoji": "",
+            "parent": "bc6a494f-d22d-49fc-9d61-61bdcb04d332"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c60f9c3e-6655-4e03-9142-393bfb947a4a",
+        "fields": {
+            "uuid": "c60f9c3e-6655-4e03-9142-393bfb947a4a",
+            "name": "Office Furniture Sets",
+            "emoji": "",
+            "parent": "bc6a494f-d22d-49fc-9d61-61bdcb04d332"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c12c6088-f8c0-499f-bc02-de81ae108d81",
+        "fields": {
+            "uuid": "c12c6088-f8c0-499f-bc02-de81ae108d81",
+            "name": "Workspace Tables",
+            "emoji": "",
+            "parent": "bc6a494f-d22d-49fc-9d61-61bdcb04d332"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6ba42f11-c184-433d-9841-cfaad06eacab",
+        "fields": {
+            "uuid": "6ba42f11-c184-433d-9841-cfaad06eacab",
+            "name": "Art & Drafting Tables",
+            "emoji": "",
+            "parent": "c12c6088-f8c0-499f-bc02-de81ae108d81"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fa7ba826-786c-4700-96a4-e2356413a26e",
+        "fields": {
+            "uuid": "fa7ba826-786c-4700-96a4-e2356413a26e",
+            "name": "Conference Room Tables",
+            "emoji": "",
+            "parent": "c12c6088-f8c0-499f-bc02-de81ae108d81"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d914bae0-217b-4ce1-9bd6-189323283570",
+        "fields": {
+            "uuid": "d914bae0-217b-4ce1-9bd6-189323283570",
+            "name": "Workstations & Cubicles",
+            "emoji": "",
+            "parent": "bc6a494f-d22d-49fc-9d61-61bdcb04d332"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b057cd3b-032f-4de0-9922-d944ce9a251d",
+        "fields": {
+            "uuid": "b057cd3b-032f-4de0-9922-d944ce9a251d",
+            "name": "Office Furniture Accessories",
+            "emoji": "",
+            "parent": "5c90c6f6-4382-4837-8ed6-53b35b4f87c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "017e2a87-b517-4ac7-b708-0368c9d3c1df",
+        "fields": {
+            "uuid": "017e2a87-b517-4ac7-b708-0368c9d3c1df",
+            "name": "Desk Parts & Accessories",
+            "emoji": "",
+            "parent": "b057cd3b-032f-4de0-9922-d944ce9a251d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9d095afb-ac14-48a8-8660-94bf83e14eb9",
+        "fields": {
+            "uuid": "9d095afb-ac14-48a8-8660-94bf83e14eb9",
+            "name": "Office Chair Accessories",
+            "emoji": "",
+            "parent": "b057cd3b-032f-4de0-9922-d944ce9a251d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "42532fda-387e-44b7-bb7c-2c7d6047bef2",
+        "fields": {
+            "uuid": "42532fda-387e-44b7-bb7c-2c7d6047bef2",
+            "name": "Workstation & Cubicle Accessories",
+            "emoji": "",
+            "parent": "b057cd3b-032f-4de0-9922-d944ce9a251d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c4d5b3e5-f3ca-4889-909b-f9c825c9a395",
+        "fields": {
+            "uuid": "c4d5b3e5-f3ca-4889-909b-f9c825c9a395",
+            "name": "Ottomans",
+            "emoji": "",
+            "parent": "5c90c6f6-4382-4837-8ed6-53b35b4f87c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "10ca2cd0-7f8e-4301-aa43-ccd0cbeca8c9",
+        "fields": {
+            "uuid": "10ca2cd0-7f8e-4301-aa43-ccd0cbeca8c9",
+            "name": "Outdoor Furniture",
+            "emoji": "",
+            "parent": "5c90c6f6-4382-4837-8ed6-53b35b4f87c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7f1739cb-0395-458a-8e05-b99ba969f530",
+        "fields": {
+            "uuid": "7f1739cb-0395-458a-8e05-b99ba969f530",
+            "name": "Outdoor Beds",
+            "emoji": "",
+            "parent": "10ca2cd0-7f8e-4301-aa43-ccd0cbeca8c9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "49f949f6-c97b-461f-a5dc-d59352ffb01e",
+        "fields": {
+            "uuid": "49f949f6-c97b-461f-a5dc-d59352ffb01e",
+            "name": "Bunk Beds",
+            "emoji": "",
+            "parent": "7f1739cb-0395-458a-8e05-b99ba969f530"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cd0758a9-76fa-4d00-8e7a-08e4387f078f",
+        "fields": {
+            "uuid": "cd0758a9-76fa-4d00-8e7a-08e4387f078f",
+            "name": "Cabana Beds",
+            "emoji": "",
+            "parent": "7f1739cb-0395-458a-8e05-b99ba969f530"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "70b7b682-cf36-44a8-a3a1-4e6dd7c1c6ff",
+        "fields": {
+            "uuid": "70b7b682-cf36-44a8-a3a1-4e6dd7c1c6ff",
+            "name": "Canopy Beds",
+            "emoji": "",
+            "parent": "7f1739cb-0395-458a-8e05-b99ba969f530"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9a7c9883-4738-43fe-b9f2-eff6fd1fe20a",
+        "fields": {
+            "uuid": "9a7c9883-4738-43fe-b9f2-eff6fd1fe20a",
+            "name": "Daybeds",
+            "emoji": "",
+            "parent": "7f1739cb-0395-458a-8e05-b99ba969f530"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6cc4dfb6-3ef3-43f0-a09f-0a40f9118880",
+        "fields": {
+            "uuid": "6cc4dfb6-3ef3-43f0-a09f-0a40f9118880",
+            "name": "Futons",
+            "emoji": "",
+            "parent": "7f1739cb-0395-458a-8e05-b99ba969f530"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f414d8c0-9884-4556-9bfa-fbca10c7d4f5",
+        "fields": {
+            "uuid": "f414d8c0-9884-4556-9bfa-fbca10c7d4f5",
+            "name": "Poolside Beds",
+            "emoji": "",
+            "parent": "7f1739cb-0395-458a-8e05-b99ba969f530"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c74fbd6a-3630-4e2f-839b-5f56a81d2371",
+        "fields": {
+            "uuid": "c74fbd6a-3630-4e2f-839b-5f56a81d2371",
+            "name": "Sunbeds",
+            "emoji": "",
+            "parent": "7f1739cb-0395-458a-8e05-b99ba969f530"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3a53e2ad-bc57-449f-8a22-d526ad1b43de",
+        "fields": {
+            "uuid": "3a53e2ad-bc57-449f-8a22-d526ad1b43de",
+            "name": "Swings",
+            "emoji": "",
+            "parent": "7f1739cb-0395-458a-8e05-b99ba969f530"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1a2e716a-8c3c-4eea-bb77-a99d4d4b1040",
+        "fields": {
+            "uuid": "1a2e716a-8c3c-4eea-bb77-a99d4d4b1040",
+            "name": "Outdoor Furniture Sets",
+            "emoji": "",
+            "parent": "10ca2cd0-7f8e-4301-aa43-ccd0cbeca8c9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "14580166-0914-4a07-b5bf-16a3931b6b5a",
+        "fields": {
+            "uuid": "14580166-0914-4a07-b5bf-16a3931b6b5a",
+            "name": "Outdoor Ottomans",
+            "emoji": "",
+            "parent": "10ca2cd0-7f8e-4301-aa43-ccd0cbeca8c9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "659f94ad-d62c-4860-9c9c-09af6088cc3c",
+        "fields": {
+            "uuid": "659f94ad-d62c-4860-9c9c-09af6088cc3c",
+            "name": "Cocktail Ottomans",
+            "emoji": "",
+            "parent": "14580166-0914-4a07-b5bf-16a3931b6b5a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "47c5305e-6503-402b-9992-0427953e334e",
+        "fields": {
+            "uuid": "47c5305e-6503-402b-9992-0427953e334e",
+            "name": "Foldable Ottomans",
+            "emoji": "",
+            "parent": "14580166-0914-4a07-b5bf-16a3931b6b5a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e41d58e1-7630-43c8-aeab-4f0104235cd1",
+        "fields": {
+            "uuid": "e41d58e1-7630-43c8-aeab-4f0104235cd1",
+            "name": "Footstools",
+            "emoji": "",
+            "parent": "14580166-0914-4a07-b5bf-16a3931b6b5a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "21626bf0-e220-4e8e-8ec5-863ba3bbe64a",
+        "fields": {
+            "uuid": "21626bf0-e220-4e8e-8ec5-863ba3bbe64a",
+            "name": "Glider Ottomans",
+            "emoji": "",
+            "parent": "14580166-0914-4a07-b5bf-16a3931b6b5a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "30441cb0-26c2-4b09-a1bd-67f72c28d7ef",
+        "fields": {
+            "uuid": "30441cb0-26c2-4b09-a1bd-67f72c28d7ef",
+            "name": "Hassocks",
+            "emoji": "",
+            "parent": "14580166-0914-4a07-b5bf-16a3931b6b5a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "896cb16f-c34e-4ea4-887c-748a3575379b",
+        "fields": {
+            "uuid": "896cb16f-c34e-4ea4-887c-748a3575379b",
+            "name": "Ottoman Benches",
+            "emoji": "",
+            "parent": "14580166-0914-4a07-b5bf-16a3931b6b5a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d56be8ca-ff25-4aff-b692-88977108c044",
+        "fields": {
+            "uuid": "d56be8ca-ff25-4aff-b692-88977108c044",
+            "name": "Ottoman Cubes",
+            "emoji": "",
+            "parent": "14580166-0914-4a07-b5bf-16a3931b6b5a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d904977a-65bd-46b6-9deb-ef3f5ca697b9",
+        "fields": {
+            "uuid": "d904977a-65bd-46b6-9deb-ef3f5ca697b9",
+            "name": "Poufs",
+            "emoji": "",
+            "parent": "14580166-0914-4a07-b5bf-16a3931b6b5a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "75cf0625-c0b9-4a3f-8bb3-3b1c917fe429",
+        "fields": {
+            "uuid": "75cf0625-c0b9-4a3f-8bb3-3b1c917fe429",
+            "name": "Rectangle Ottomans",
+            "emoji": "",
+            "parent": "14580166-0914-4a07-b5bf-16a3931b6b5a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9275604c-ceea-4142-8300-40d0da3626f0",
+        "fields": {
+            "uuid": "9275604c-ceea-4142-8300-40d0da3626f0",
+            "name": "Round Ottomans",
+            "emoji": "",
+            "parent": "14580166-0914-4a07-b5bf-16a3931b6b5a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "73ac90b2-2b3d-44b8-8a4f-c8a8cf3df3ae",
+        "fields": {
+            "uuid": "73ac90b2-2b3d-44b8-8a4f-c8a8cf3df3ae",
+            "name": "Shoe Storage Ottomans",
+            "emoji": "",
+            "parent": "14580166-0914-4a07-b5bf-16a3931b6b5a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9625ab05-eeaf-43c1-9026-92c35b5d9db7",
+        "fields": {
+            "uuid": "9625ab05-eeaf-43c1-9026-92c35b5d9db7",
+            "name": "Sleeper Ottomans",
+            "emoji": "",
+            "parent": "14580166-0914-4a07-b5bf-16a3931b6b5a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2c4a5cc0-7330-4f2a-a9a5-041c428abf20",
+        "fields": {
+            "uuid": "2c4a5cc0-7330-4f2a-a9a5-041c428abf20",
+            "name": "Square Ottomans",
+            "emoji": "",
+            "parent": "14580166-0914-4a07-b5bf-16a3931b6b5a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "62a07338-6657-4999-881c-04b367f00f7f",
+        "fields": {
+            "uuid": "62a07338-6657-4999-881c-04b367f00f7f",
+            "name": "Storage Ottomans",
+            "emoji": "",
+            "parent": "14580166-0914-4a07-b5bf-16a3931b6b5a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "be2cf9b1-f28f-431f-9c11-d1085ed92224",
+        "fields": {
+            "uuid": "be2cf9b1-f28f-431f-9c11-d1085ed92224",
+            "name": "Tray Top Ottomans",
+            "emoji": "",
+            "parent": "14580166-0914-4a07-b5bf-16a3931b6b5a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2207759b-d621-4c3a-9060-27f0dd70ff69",
+        "fields": {
+            "uuid": "2207759b-d621-4c3a-9060-27f0dd70ff69",
+            "name": "Tufted Ottomans",
+            "emoji": "",
+            "parent": "14580166-0914-4a07-b5bf-16a3931b6b5a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b9d676f9-cf82-45d0-9dad-9e7f99de3b86",
+        "fields": {
+            "uuid": "b9d676f9-cf82-45d0-9dad-9e7f99de3b86",
+            "name": "Outdoor Seating",
+            "emoji": "",
+            "parent": "10ca2cd0-7f8e-4301-aa43-ccd0cbeca8c9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b8eeafc9-55f5-497d-9308-32d1c1570797",
+        "fields": {
+            "uuid": "b8eeafc9-55f5-497d-9308-32d1c1570797",
+            "name": "Outdoor Benches",
+            "emoji": "",
+            "parent": "b9d676f9-cf82-45d0-9dad-9e7f99de3b86"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e6253afa-1ce0-422b-ba87-a75861971d32",
+        "fields": {
+            "uuid": "e6253afa-1ce0-422b-ba87-a75861971d32",
+            "name": "Picnic Benches",
+            "emoji": "",
+            "parent": "b8eeafc9-55f5-497d-9308-32d1c1570797"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c93c1ee9-e861-4160-bd7c-8475ac2195d3",
+        "fields": {
+            "uuid": "c93c1ee9-e861-4160-bd7c-8475ac2195d3",
+            "name": "Storage Benches",
+            "emoji": "",
+            "parent": "b8eeafc9-55f5-497d-9308-32d1c1570797"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fd1deeb7-1aea-48ab-8ad6-9566f13c4e71",
+        "fields": {
+            "uuid": "fd1deeb7-1aea-48ab-8ad6-9566f13c4e71",
+            "name": "Swing Benches",
+            "emoji": "",
+            "parent": "b8eeafc9-55f5-497d-9308-32d1c1570797"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6238cc9f-e0f5-41d9-8faf-9cb854a9a2c9",
+        "fields": {
+            "uuid": "6238cc9f-e0f5-41d9-8faf-9cb854a9a2c9",
+            "name": "Outdoor Chairs",
+            "emoji": "",
+            "parent": "b9d676f9-cf82-45d0-9dad-9e7f99de3b86"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0aa7b141-7a86-4d0e-8a4a-5b47cfea9f15",
+        "fields": {
+            "uuid": "0aa7b141-7a86-4d0e-8a4a-5b47cfea9f15",
+            "name": "Club Chairs",
+            "emoji": "",
+            "parent": "6238cc9f-e0f5-41d9-8faf-9cb854a9a2c9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "379c60aa-39a0-4537-a30c-de469e3f4d7f",
+        "fields": {
+            "uuid": "379c60aa-39a0-4537-a30c-de469e3f4d7f",
+            "name": "Folding Chairs",
+            "emoji": "",
+            "parent": "6238cc9f-e0f5-41d9-8faf-9cb854a9a2c9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1280d567-884b-4063-a372-9824fe9bd5dd",
+        "fields": {
+            "uuid": "1280d567-884b-4063-a372-9824fe9bd5dd",
+            "name": "Rocking Chairs",
+            "emoji": "",
+            "parent": "6238cc9f-e0f5-41d9-8faf-9cb854a9a2c9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "302e1329-25f4-40ae-9356-b6850dcfcb48",
+        "fields": {
+            "uuid": "302e1329-25f4-40ae-9356-b6850dcfcb48",
+            "name": "Sling Chairs",
+            "emoji": "",
+            "parent": "6238cc9f-e0f5-41d9-8faf-9cb854a9a2c9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e2198afa-8185-4ba0-b0b5-5073a45d694c",
+        "fields": {
+            "uuid": "e2198afa-8185-4ba0-b0b5-5073a45d694c",
+            "name": "Swing Chairs",
+            "emoji": "",
+            "parent": "6238cc9f-e0f5-41d9-8faf-9cb854a9a2c9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f11d7e71-4a38-47f7-92f7-4ef3c0a78cb8",
+        "fields": {
+            "uuid": "f11d7e71-4a38-47f7-92f7-4ef3c0a78cb8",
+            "name": "Outdoor Sectional Sofa Units",
+            "emoji": "",
+            "parent": "b9d676f9-cf82-45d0-9dad-9e7f99de3b86"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "90400245-f75a-4fa1-be90-1cd38c770e66",
+        "fields": {
+            "uuid": "90400245-f75a-4fa1-be90-1cd38c770e66",
+            "name": "Outdoor Sofas",
+            "emoji": "",
+            "parent": "b9d676f9-cf82-45d0-9dad-9e7f99de3b86"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1764f958-d1e2-4fe2-b819-d1853edcb44b",
+        "fields": {
+            "uuid": "1764f958-d1e2-4fe2-b819-d1853edcb44b",
+            "name": "Loveseat Sofas",
+            "emoji": "",
+            "parent": "90400245-f75a-4fa1-be90-1cd38c770e66"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a28728e0-84c6-4bc0-85b7-cb0cf0149a1a",
+        "fields": {
+            "uuid": "a28728e0-84c6-4bc0-85b7-cb0cf0149a1a",
+            "name": "Sectional Sofas",
+            "emoji": "",
+            "parent": "90400245-f75a-4fa1-be90-1cd38c770e66"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2f8b8ae1-c950-4ae9-bc32-e5d430d1c597",
+        "fields": {
+            "uuid": "2f8b8ae1-c950-4ae9-bc32-e5d430d1c597",
+            "name": "Sunloungers",
+            "emoji": "",
+            "parent": "b9d676f9-cf82-45d0-9dad-9e7f99de3b86"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2663257b-a11e-4854-8a5b-570cbd956823",
+        "fields": {
+            "uuid": "2663257b-a11e-4854-8a5b-570cbd956823",
+            "name": "Outdoor Storage Boxes",
+            "emoji": "",
+            "parent": "10ca2cd0-7f8e-4301-aa43-ccd0cbeca8c9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "16c6b195-ec7e-475c-858b-022c5ff281ab",
+        "fields": {
+            "uuid": "16c6b195-ec7e-475c-858b-022c5ff281ab",
+            "name": "Outdoor Tables",
+            "emoji": "",
+            "parent": "10ca2cd0-7f8e-4301-aa43-ccd0cbeca8c9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2d148e1e-d6ef-4450-a523-92ec760d39a1",
+        "fields": {
+            "uuid": "2d148e1e-d6ef-4450-a523-92ec760d39a1",
+            "name": "Bar Tables",
+            "emoji": "",
+            "parent": "16c6b195-ec7e-475c-858b-022c5ff281ab"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ebf91b1d-2822-4cfe-86af-e989b3051f9c",
+        "fields": {
+            "uuid": "ebf91b1d-2822-4cfe-86af-e989b3051f9c",
+            "name": "Bistro Tables",
+            "emoji": "",
+            "parent": "16c6b195-ec7e-475c-858b-022c5ff281ab"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "853df21f-9768-4939-8f3d-aa75af19dfb0",
+        "fields": {
+            "uuid": "853df21f-9768-4939-8f3d-aa75af19dfb0",
+            "name": "Coffee Tables",
+            "emoji": "",
+            "parent": "16c6b195-ec7e-475c-858b-022c5ff281ab"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6780d3c5-096c-42ac-af5f-2b3cc7c71004",
+        "fields": {
+            "uuid": "6780d3c5-096c-42ac-af5f-2b3cc7c71004",
+            "name": "Console Tables",
+            "emoji": "",
+            "parent": "16c6b195-ec7e-475c-858b-022c5ff281ab"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5174b61e-211a-44fa-bf0a-5029b9db298c",
+        "fields": {
+            "uuid": "5174b61e-211a-44fa-bf0a-5029b9db298c",
+            "name": "Dining Tables",
+            "emoji": "",
+            "parent": "16c6b195-ec7e-475c-858b-022c5ff281ab"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6514cbb0-7d44-4c3a-a568-5653edbe0ca2",
+        "fields": {
+            "uuid": "6514cbb0-7d44-4c3a-a568-5653edbe0ca2",
+            "name": "Fire Pits",
+            "emoji": "",
+            "parent": "16c6b195-ec7e-475c-858b-022c5ff281ab"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "88bcd4a6-1c86-4206-bd6a-bd47781e52ec",
+        "fields": {
+            "uuid": "88bcd4a6-1c86-4206-bd6a-bd47781e52ec",
+            "name": "Game Tables",
+            "emoji": "",
+            "parent": "16c6b195-ec7e-475c-858b-022c5ff281ab"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5b780407-4485-45bd-83a0-99a0857c4fe4",
+        "fields": {
+            "uuid": "5b780407-4485-45bd-83a0-99a0857c4fe4",
+            "name": "Poolside Tables",
+            "emoji": "",
+            "parent": "16c6b195-ec7e-475c-858b-022c5ff281ab"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "92111857-9df1-47a4-a079-8d0a439c7d93",
+        "fields": {
+            "uuid": "92111857-9df1-47a4-a079-8d0a439c7d93",
+            "name": "Outdoor Furniture Accessories",
+            "emoji": "",
+            "parent": "5c90c6f6-4382-4837-8ed6-53b35b4f87c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e5651a53-ee12-4ed6-b684-8816a985f1d8",
+        "fields": {
+            "uuid": "e5651a53-ee12-4ed6-b684-8816a985f1d8",
+            "name": "Outdoor Furniture Covers",
+            "emoji": "",
+            "parent": "92111857-9df1-47a4-a079-8d0a439c7d93"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9a9b3c2d-d437-4c95-9308-ff56627615ef",
+        "fields": {
+            "uuid": "9a9b3c2d-d437-4c95-9308-ff56627615ef",
+            "name": "Room Divider Accessories",
+            "emoji": "",
+            "parent": "5c90c6f6-4382-4837-8ed6-53b35b4f87c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e4b27b5e-39c3-4818-bd82-9812eb53622e",
+        "fields": {
+            "uuid": "e4b27b5e-39c3-4818-bd82-9812eb53622e",
+            "name": "Room Dividers",
+            "emoji": "",
+            "parent": "5c90c6f6-4382-4837-8ed6-53b35b4f87c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a7ccf7ff-1d92-4c06-99af-cb6214005c0c",
+        "fields": {
+            "uuid": "a7ccf7ff-1d92-4c06-99af-cb6214005c0c",
+            "name": "Shelving",
+            "emoji": "",
+            "parent": "5c90c6f6-4382-4837-8ed6-53b35b4f87c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1d733b2e-1782-42ed-a5ef-da688153c93c",
+        "fields": {
+            "uuid": "1d733b2e-1782-42ed-a5ef-da688153c93c",
+            "name": "Bookcases & Standing Shelves",
+            "emoji": "",
+            "parent": "a7ccf7ff-1d92-4c06-99af-cb6214005c0c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "020f71d3-03d8-47d7-8af5-74680fa7b3b3",
+        "fields": {
+            "uuid": "020f71d3-03d8-47d7-8af5-74680fa7b3b3",
+            "name": "Corner Bookcases & Shelves",
+            "emoji": "",
+            "parent": "1d733b2e-1782-42ed-a5ef-da688153c93c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b2734e5a-34c7-4848-bd76-46458ab57be1",
+        "fields": {
+            "uuid": "b2734e5a-34c7-4848-bd76-46458ab57be1",
+            "name": "Floating Bookcases & Shelves",
+            "emoji": "",
+            "parent": "1d733b2e-1782-42ed-a5ef-da688153c93c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e6154be7-9f87-4a7f-afeb-d91a1de0f04a",
+        "fields": {
+            "uuid": "e6154be7-9f87-4a7f-afeb-d91a1de0f04a",
+            "name": "Ladder Bookcases & Shelves",
+            "emoji": "",
+            "parent": "1d733b2e-1782-42ed-a5ef-da688153c93c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "eb8e00d0-4c97-4328-9718-d96b59de0b69",
+        "fields": {
+            "uuid": "eb8e00d0-4c97-4328-9718-d96b59de0b69",
+            "name": "Modular Bookcases & Shelves",
+            "emoji": "",
+            "parent": "1d733b2e-1782-42ed-a5ef-da688153c93c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "64eb1f88-e636-459d-8d92-680afedcafd1",
+        "fields": {
+            "uuid": "64eb1f88-e636-459d-8d92-680afedcafd1",
+            "name": "Rack Bookcases & Shelves",
+            "emoji": "",
+            "parent": "1d733b2e-1782-42ed-a5ef-da688153c93c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "83a65b7c-07fe-45b0-a84d-416f9909490a",
+        "fields": {
+            "uuid": "83a65b7c-07fe-45b0-a84d-416f9909490a",
+            "name": "Wall Shelves & Ledges",
+            "emoji": "",
+            "parent": "a7ccf7ff-1d92-4c06-99af-cb6214005c0c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fe6664a2-e698-40c4-9798-0cecd81e4d77",
+        "fields": {
+            "uuid": "fe6664a2-e698-40c4-9798-0cecd81e4d77",
+            "name": "Corner Wall Shelves & Ledges",
+            "emoji": "",
+            "parent": "83a65b7c-07fe-45b0-a84d-416f9909490a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fb37a8f6-0128-4ad7-8b8a-0f089c249e8a",
+        "fields": {
+            "uuid": "fb37a8f6-0128-4ad7-8b8a-0f089c249e8a",
+            "name": "Floating Wall Shelves & Ledges",
+            "emoji": "",
+            "parent": "83a65b7c-07fe-45b0-a84d-416f9909490a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e45060ec-4226-40f6-8480-61d8e6b737db",
+        "fields": {
+            "uuid": "e45060ec-4226-40f6-8480-61d8e6b737db",
+            "name": "Ladder Wall Shelves & Ledges",
+            "emoji": "",
+            "parent": "83a65b7c-07fe-45b0-a84d-416f9909490a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "88b9e8e6-2757-43d8-9c19-f6e9683a4cab",
+        "fields": {
+            "uuid": "88b9e8e6-2757-43d8-9c19-f6e9683a4cab",
+            "name": "Modular Wall Shelves & Ledges",
+            "emoji": "",
+            "parent": "83a65b7c-07fe-45b0-a84d-416f9909490a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "770e09f4-49a0-41c4-be95-f07c8021b456",
+        "fields": {
+            "uuid": "770e09f4-49a0-41c4-be95-f07c8021b456",
+            "name": "Rack Wall Shelves & Ledges",
+            "emoji": "",
+            "parent": "83a65b7c-07fe-45b0-a84d-416f9909490a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "907b6cd4-2009-4fca-ada0-185a724897a0",
+        "fields": {
+            "uuid": "907b6cd4-2009-4fca-ada0-185a724897a0",
+            "name": "Shelving Accessories",
+            "emoji": "",
+            "parent": "5c90c6f6-4382-4837-8ed6-53b35b4f87c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6787663d-d6cf-4db3-9bfe-c40767f2312f",
+        "fields": {
+            "uuid": "6787663d-d6cf-4db3-9bfe-c40767f2312f",
+            "name": "Replacement Shelves",
+            "emoji": "",
+            "parent": "907b6cd4-2009-4fca-ada0-185a724897a0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3d5e52b6-d8e1-4185-854c-b55109a6563f",
+        "fields": {
+            "uuid": "3d5e52b6-d8e1-4185-854c-b55109a6563f",
+            "name": "Sofa Accessories",
+            "emoji": "",
+            "parent": "5c90c6f6-4382-4837-8ed6-53b35b4f87c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7c810932-197f-4b1c-874b-47215f422185",
+        "fields": {
+            "uuid": "7c810932-197f-4b1c-874b-47215f422185",
+            "name": "Chair & Sofa Supports",
+            "emoji": "",
+            "parent": "3d5e52b6-d8e1-4185-854c-b55109a6563f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "18062d2c-106e-4593-845b-94b711536b09",
+        "fields": {
+            "uuid": "18062d2c-106e-4593-845b-94b711536b09",
+            "name": "Sectional Sofa Units",
+            "emoji": "",
+            "parent": "3d5e52b6-d8e1-4185-854c-b55109a6563f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5fcf7049-5b4f-495f-af17-fd01285533f7",
+        "fields": {
+            "uuid": "5fcf7049-5b4f-495f-af17-fd01285533f7",
+            "name": "Sofas",
+            "emoji": "",
+            "parent": "5c90c6f6-4382-4837-8ed6-53b35b4f87c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c2218981-24d0-4cb8-ae25-0b9f7ecbb8f6",
+        "fields": {
+            "uuid": "c2218981-24d0-4cb8-ae25-0b9f7ecbb8f6",
+            "name": "Chaise Longue Sofas",
+            "emoji": "",
+            "parent": "5fcf7049-5b4f-495f-af17-fd01285533f7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5ba154cd-e58b-4c6d-9d26-a6e4ace0a1a0",
+        "fields": {
+            "uuid": "5ba154cd-e58b-4c6d-9d26-a6e4ace0a1a0",
+            "name": "Corner Sofas",
+            "emoji": "",
+            "parent": "5fcf7049-5b4f-495f-af17-fd01285533f7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "69b52372-83f6-4bc0-8afa-1ab527577f78",
+        "fields": {
+            "uuid": "69b52372-83f6-4bc0-8afa-1ab527577f78",
+            "name": "Loveseat Sofas",
+            "emoji": "",
+            "parent": "5fcf7049-5b4f-495f-af17-fd01285533f7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fb2426b2-77ed-46ba-b5c4-c99bdc91f9eb",
+        "fields": {
+            "uuid": "fb2426b2-77ed-46ba-b5c4-c99bdc91f9eb",
+            "name": "Sectional Sofas",
+            "emoji": "",
+            "parent": "5fcf7049-5b4f-495f-af17-fd01285533f7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7d679e59-19ff-482a-a032-310f33d1bda2",
+        "fields": {
+            "uuid": "7d679e59-19ff-482a-a032-310f33d1bda2",
+            "name": "Table Accessories",
+            "emoji": "",
+            "parent": "5c90c6f6-4382-4837-8ed6-53b35b4f87c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "312ff62c-0325-404e-ba9a-995ad076ffdc",
+        "fields": {
+            "uuid": "312ff62c-0325-404e-ba9a-995ad076ffdc",
+            "name": "Table Legs",
+            "emoji": "",
+            "parent": "7d679e59-19ff-482a-a032-310f33d1bda2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "33c725ce-4efb-4350-ba39-7887558ec8dc",
+        "fields": {
+            "uuid": "33c725ce-4efb-4350-ba39-7887558ec8dc",
+            "name": "Table Tops",
+            "emoji": "",
+            "parent": "7d679e59-19ff-482a-a032-310f33d1bda2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fd096e3b-0b1e-4184-9f00-34d99df9b2d8",
+        "fields": {
+            "uuid": "fd096e3b-0b1e-4184-9f00-34d99df9b2d8",
+            "name": "Tables",
+            "emoji": "",
+            "parent": "5c90c6f6-4382-4837-8ed6-53b35b4f87c7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fe97e94c-f479-4295-a155-b08f2c825cfd",
+        "fields": {
+            "uuid": "fe97e94c-f479-4295-a155-b08f2c825cfd",
+            "name": "Accent Tables",
+            "emoji": "",
+            "parent": "fd096e3b-0b1e-4184-9f00-34d99df9b2d8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "facf7d36-7fd5-4902-9daf-a4ab497d7378",
+        "fields": {
+            "uuid": "facf7d36-7fd5-4902-9daf-a4ab497d7378",
+            "name": "Coffee Tables",
+            "emoji": "",
+            "parent": "fe97e94c-f479-4295-a155-b08f2c825cfd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3ec55b81-8437-4e11-a1c8-be6de6d9d7d0",
+        "fields": {
+            "uuid": "3ec55b81-8437-4e11-a1c8-be6de6d9d7d0",
+            "name": "End Tables",
+            "emoji": "",
+            "parent": "fe97e94c-f479-4295-a155-b08f2c825cfd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ca22ad72-d9bf-42c6-bbc8-1025a832d875",
+        "fields": {
+            "uuid": "ca22ad72-d9bf-42c6-bbc8-1025a832d875",
+            "name": "Sofa Tables",
+            "emoji": "",
+            "parent": "fe97e94c-f479-4295-a155-b08f2c825cfd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "60fc7270-b167-4266-9239-f97d8feabb0b",
+        "fields": {
+            "uuid": "60fc7270-b167-4266-9239-f97d8feabb0b",
+            "name": "Activity Tables",
+            "emoji": "",
+            "parent": "fd096e3b-0b1e-4184-9f00-34d99df9b2d8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2845389a-eeb0-4b89-b39b-20dc82230d5d",
+        "fields": {
+            "uuid": "2845389a-eeb0-4b89-b39b-20dc82230d5d",
+            "name": "Folding Tables",
+            "emoji": "",
+            "parent": "fd096e3b-0b1e-4184-9f00-34d99df9b2d8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cbfd8861-a160-4417-b7c6-97a8de14f98b",
+        "fields": {
+            "uuid": "cbfd8861-a160-4417-b7c6-97a8de14f98b",
+            "name": "Kitchen & Dining Room Tables",
+            "emoji": "",
+            "parent": "fd096e3b-0b1e-4184-9f00-34d99df9b2d8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "81c4c57c-728b-47fe-884a-a25b12631574",
+        "fields": {
+            "uuid": "81c4c57c-728b-47fe-884a-a25b12631574",
+            "name": "Console Tables",
+            "emoji": "",
+            "parent": "cbfd8861-a160-4417-b7c6-97a8de14f98b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6c63af77-19d2-41f6-a166-c893607a89de",
+        "fields": {
+            "uuid": "6c63af77-19d2-41f6-a166-c893607a89de",
+            "name": "Kotatsu",
+            "emoji": "",
+            "parent": "fd096e3b-0b1e-4184-9f00-34d99df9b2d8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "197b2608-9360-4794-8b6e-e308f9dc695d",
+        "fields": {
+            "uuid": "197b2608-9360-4794-8b6e-e308f9dc695d",
+            "name": "Nightstands",
+            "emoji": "",
+            "parent": "fd096e3b-0b1e-4184-9f00-34d99df9b2d8"
+        }
+    }
+]

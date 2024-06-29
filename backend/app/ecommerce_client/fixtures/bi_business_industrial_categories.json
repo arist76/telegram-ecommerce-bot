@@ -1,0 +1,5402 @@
+[
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8163b097-c8b5-4bd3-8127-f1c10aa8ff8a",
+        "fields": {
+            "uuid": "8163b097-c8b5-4bd3-8127-f1c10aa8ff8a",
+            "name": "Business & Industrial",
+            "emoji": "",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c21adf17-4616-44de-9240-af22af909cda",
+        "fields": {
+            "uuid": "c21adf17-4616-44de-9240-af22af909cda",
+            "name": "Advertising & Marketing",
+            "emoji": "",
+            "parent": "8163b097-c8b5-4bd3-8127-f1c10aa8ff8a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b707e966-0624-4f2a-b419-16fa8c766568",
+        "fields": {
+            "uuid": "b707e966-0624-4f2a-b419-16fa8c766568",
+            "name": "Brochures",
+            "emoji": "",
+            "parent": "c21adf17-4616-44de-9240-af22af909cda"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cd5c831a-500c-481f-bed5-edeb72511bc8",
+        "fields": {
+            "uuid": "cd5c831a-500c-481f-bed5-edeb72511bc8",
+            "name": "Trade Show Counters",
+            "emoji": "",
+            "parent": "c21adf17-4616-44de-9240-af22af909cda"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1f4b416d-f233-4d36-908f-d8328e68d33d",
+        "fields": {
+            "uuid": "1f4b416d-f233-4d36-908f-d8328e68d33d",
+            "name": "Lockable Counters",
+            "emoji": "",
+            "parent": "cd5c831a-500c-481f-bed5-edeb72511bc8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fedb959d-a6b3-4123-ac25-634bd5fac925",
+        "fields": {
+            "uuid": "fedb959d-a6b3-4123-ac25-634bd5fac925",
+            "name": "Modular Counters",
+            "emoji": "",
+            "parent": "cd5c831a-500c-481f-bed5-edeb72511bc8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "46f9320d-d24c-4682-b298-e5e6029d9ff8",
+        "fields": {
+            "uuid": "46f9320d-d24c-4682-b298-e5e6029d9ff8",
+            "name": "Pop-Up Counters",
+            "emoji": "",
+            "parent": "cd5c831a-500c-481f-bed5-edeb72511bc8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7d83c4b5-447b-4a04-ae90-b1f0cf424ac3",
+        "fields": {
+            "uuid": "7d83c4b5-447b-4a04-ae90-b1f0cf424ac3",
+            "name": "Portable Counters",
+            "emoji": "",
+            "parent": "cd5c831a-500c-481f-bed5-edeb72511bc8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "825539d2-db53-4049-833c-367d752bd8ac",
+        "fields": {
+            "uuid": "825539d2-db53-4049-833c-367d752bd8ac",
+            "name": "Trade Show Displays",
+            "emoji": "",
+            "parent": "c21adf17-4616-44de-9240-af22af909cda"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cf0fe5e7-b419-4874-b99a-ebc5f830d7ae",
+        "fields": {
+            "uuid": "cf0fe5e7-b419-4874-b99a-ebc5f830d7ae",
+            "name": "Backlit Displays",
+            "emoji": "",
+            "parent": "825539d2-db53-4049-833c-367d752bd8ac"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "22e28b63-43d6-4705-8bf4-b78f1b3d2cb8",
+        "fields": {
+            "uuid": "22e28b63-43d6-4705-8bf4-b78f1b3d2cb8",
+            "name": "Banner Stands",
+            "emoji": "",
+            "parent": "825539d2-db53-4049-833c-367d752bd8ac"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f14a62af-299d-4dab-b09f-567e421bd62e",
+        "fields": {
+            "uuid": "f14a62af-299d-4dab-b09f-567e421bd62e",
+            "name": "Digital A-Boards",
+            "emoji": "",
+            "parent": "825539d2-db53-4049-833c-367d752bd8ac"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "564d0cb7-5a95-4169-8911-caad96ea3f31",
+        "fields": {
+            "uuid": "564d0cb7-5a95-4169-8911-caad96ea3f31",
+            "name": "Digital Signage Flat Panels",
+            "emoji": "",
+            "parent": "825539d2-db53-4049-833c-367d752bd8ac"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7cb3c8c9-d15f-45af-80ce-d391954e8e86",
+        "fields": {
+            "uuid": "7cb3c8c9-d15f-45af-80ce-d391954e8e86",
+            "name": "Interactive Flat Panels",
+            "emoji": "",
+            "parent": "825539d2-db53-4049-833c-367d752bd8ac"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3a3e9efd-6e7e-4bfb-8e5a-6a3532f476a4",
+        "fields": {
+            "uuid": "3a3e9efd-6e7e-4bfb-8e5a-6a3532f476a4",
+            "name": "Interactive Kids' Tables",
+            "emoji": "",
+            "parent": "825539d2-db53-4049-833c-367d752bd8ac"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "af74fe69-5593-4680-bb0f-3b6e5066fb6d",
+        "fields": {
+            "uuid": "af74fe69-5593-4680-bb0f-3b6e5066fb6d",
+            "name": "Kiosks",
+            "emoji": "",
+            "parent": "825539d2-db53-4049-833c-367d752bd8ac"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0df9622f-529e-4be5-9b09-46ae0f50e6bc",
+        "fields": {
+            "uuid": "0df9622f-529e-4be5-9b09-46ae0f50e6bc",
+            "name": "Modular Displays",
+            "emoji": "",
+            "parent": "825539d2-db53-4049-833c-367d752bd8ac"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "02a5c984-79c0-437a-848d-46a48111d8a9",
+        "fields": {
+            "uuid": "02a5c984-79c0-437a-848d-46a48111d8a9",
+            "name": "Panoramas",
+            "emoji": "",
+            "parent": "825539d2-db53-4049-833c-367d752bd8ac"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6bf8b8ef-3108-49d9-908f-b3023c9f12a6",
+        "fields": {
+            "uuid": "6bf8b8ef-3108-49d9-908f-b3023c9f12a6",
+            "name": "Pop-Up Displays",
+            "emoji": "",
+            "parent": "825539d2-db53-4049-833c-367d752bd8ac"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bb0dd8b7-6644-4456-8468-d0363e92edf3",
+        "fields": {
+            "uuid": "bb0dd8b7-6644-4456-8468-d0363e92edf3",
+            "name": "Tabletop Displays",
+            "emoji": "",
+            "parent": "825539d2-db53-4049-833c-367d752bd8ac"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6da255f4-a667-4c4e-9844-e60b7a4a270a",
+        "fields": {
+            "uuid": "6da255f4-a667-4c4e-9844-e60b7a4a270a",
+            "name": "Totems",
+            "emoji": "",
+            "parent": "825539d2-db53-4049-833c-367d752bd8ac"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ac7fe3a1-9986-47ae-9e27-6d50b572ad3a",
+        "fields": {
+            "uuid": "ac7fe3a1-9986-47ae-9e27-6d50b572ad3a",
+            "name": "Transparent Box Displays",
+            "emoji": "",
+            "parent": "825539d2-db53-4049-833c-367d752bd8ac"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "87faf8ae-bb11-4022-82c8-7d0a80caa6c9",
+        "fields": {
+            "uuid": "87faf8ae-bb11-4022-82c8-7d0a80caa6c9",
+            "name": "Agriculture",
+            "emoji": "",
+            "parent": "8163b097-c8b5-4bd3-8127-f1c10aa8ff8a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3219c752-6716-45fd-bc8d-2eb75ae8048d",
+        "fields": {
+            "uuid": "3219c752-6716-45fd-bc8d-2eb75ae8048d",
+            "name": "Animal Husbandry",
+            "emoji": "",
+            "parent": "87faf8ae-bb11-4022-82c8-7d0a80caa6c9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1073ed89-75a2-47b8-b42d-e5b97be9b98e",
+        "fields": {
+            "uuid": "1073ed89-75a2-47b8-b42d-e5b97be9b98e",
+            "name": "Egg Incubators",
+            "emoji": "",
+            "parent": "3219c752-6716-45fd-bc8d-2eb75ae8048d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9fcd24a7-5137-4189-afdc-d817c23e649c",
+        "fields": {
+            "uuid": "9fcd24a7-5137-4189-afdc-d817c23e649c",
+            "name": "Livestock Feed",
+            "emoji": "",
+            "parent": "3219c752-6716-45fd-bc8d-2eb75ae8048d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "90cdcf99-3903-47b7-9d01-ba184f94d962",
+        "fields": {
+            "uuid": "90cdcf99-3903-47b7-9d01-ba184f94d962",
+            "name": "Cattle Feed",
+            "emoji": "",
+            "parent": "9fcd24a7-5137-4189-afdc-d817c23e649c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bb964799-e9b6-4844-813a-ab786f1e508d",
+        "fields": {
+            "uuid": "bb964799-e9b6-4844-813a-ab786f1e508d",
+            "name": "Chicken Feed",
+            "emoji": "",
+            "parent": "9fcd24a7-5137-4189-afdc-d817c23e649c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "85fbef61-c8d2-4b63-a90b-1559789ee342",
+        "fields": {
+            "uuid": "85fbef61-c8d2-4b63-a90b-1559789ee342",
+            "name": "Goat & Sheep Feed",
+            "emoji": "",
+            "parent": "9fcd24a7-5137-4189-afdc-d817c23e649c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "22235871-771b-4540-a9cd-ed2e0fc74889",
+        "fields": {
+            "uuid": "22235871-771b-4540-a9cd-ed2e0fc74889",
+            "name": "Mixed Herd Feed",
+            "emoji": "",
+            "parent": "9fcd24a7-5137-4189-afdc-d817c23e649c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a9695abe-5ed6-49ec-8736-444ade7933f5",
+        "fields": {
+            "uuid": "a9695abe-5ed6-49ec-8736-444ade7933f5",
+            "name": "Pig Feed",
+            "emoji": "",
+            "parent": "9fcd24a7-5137-4189-afdc-d817c23e649c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "49b78641-b0fc-4ee9-bfd2-4e2c741d9595",
+        "fields": {
+            "uuid": "49b78641-b0fc-4ee9-bfd2-4e2c741d9595",
+            "name": "Livestock Feeders & Waterers",
+            "emoji": "",
+            "parent": "3219c752-6716-45fd-bc8d-2eb75ae8048d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9a3bfe8a-cd17-4aae-9ced-d79c5768b8e3",
+        "fields": {
+            "uuid": "9a3bfe8a-cd17-4aae-9ced-d79c5768b8e3",
+            "name": "Livestock Feeders",
+            "emoji": "",
+            "parent": "49b78641-b0fc-4ee9-bfd2-4e2c741d9595"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7d86d2a9-3e19-451d-8bb5-8a95875ee639",
+        "fields": {
+            "uuid": "7d86d2a9-3e19-451d-8bb5-8a95875ee639",
+            "name": "Livestock Waterers",
+            "emoji": "",
+            "parent": "49b78641-b0fc-4ee9-bfd2-4e2c741d9595"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fac7f02d-264d-4a9b-88b2-ec56c382de54",
+        "fields": {
+            "uuid": "fac7f02d-264d-4a9b-88b2-ec56c382de54",
+            "name": "Livestock Halters",
+            "emoji": "",
+            "parent": "3219c752-6716-45fd-bc8d-2eb75ae8048d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "38117943-04d2-46bd-9f4a-b829e79d416d",
+        "fields": {
+            "uuid": "38117943-04d2-46bd-9f4a-b829e79d416d",
+            "name": "Automation Control Components",
+            "emoji": "",
+            "parent": "8163b097-c8b5-4bd3-8127-f1c10aa8ff8a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2556f0fd-d19e-4cde-9304-770ff023a8d3",
+        "fields": {
+            "uuid": "2556f0fd-d19e-4cde-9304-770ff023a8d3",
+            "name": "Programmable Logic Controllers",
+            "emoji": "",
+            "parent": "38117943-04d2-46bd-9f4a-b829e79d416d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c6317867-bb1c-4ff5-9239-bb9164a0ccd5",
+        "fields": {
+            "uuid": "c6317867-bb1c-4ff5-9239-bb9164a0ccd5",
+            "name": "Automation Control Modules",
+            "emoji": "",
+            "parent": "2556f0fd-d19e-4cde-9304-770ff023a8d3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fca46225-e246-4deb-b880-1cf47742f76c",
+        "fields": {
+            "uuid": "fca46225-e246-4deb-b880-1cf47742f76c",
+            "name": "Building Management System (BMS) Controllers",
+            "emoji": "",
+            "parent": "2556f0fd-d19e-4cde-9304-770ff023a8d3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "932347ce-49c7-478b-84e7-00c134ed5ba1",
+        "fields": {
+            "uuid": "932347ce-49c7-478b-84e7-00c134ed5ba1",
+            "name": "Digital Addressable Lighting Interface (DALI) Controllers",
+            "emoji": "",
+            "parent": "2556f0fd-d19e-4cde-9304-770ff023a8d3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "35b034c9-eb64-4263-a017-0f2da57cb0b3",
+        "fields": {
+            "uuid": "35b034c9-eb64-4263-a017-0f2da57cb0b3",
+            "name": "Motor Starters",
+            "emoji": "",
+            "parent": "2556f0fd-d19e-4cde-9304-770ff023a8d3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f0a90684-fd7d-4311-bc30-042b5ec98804",
+        "fields": {
+            "uuid": "f0a90684-fd7d-4311-bc30-042b5ec98804",
+            "name": "Motor Controllers",
+            "emoji": "",
+            "parent": "2556f0fd-d19e-4cde-9304-770ff023a8d3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c85ddefa-843d-421b-9bc7-4c6a1a3f5365",
+        "fields": {
+            "uuid": "c85ddefa-843d-421b-9bc7-4c6a1a3f5365",
+            "name": "Variable Frequency & Adjustable Speed Drives",
+            "emoji": "",
+            "parent": "38117943-04d2-46bd-9f4a-b829e79d416d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "36b5848f-8c3a-4c80-a277-d7c0ef50679a",
+        "fields": {
+            "uuid": "36b5848f-8c3a-4c80-a277-d7c0ef50679a",
+            "name": "Construction",
+            "emoji": "",
+            "parent": "8163b097-c8b5-4bd3-8127-f1c10aa8ff8a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9d1cb256-f520-4f46-be3e-befc5288c55f",
+        "fields": {
+            "uuid": "9d1cb256-f520-4f46-be3e-befc5288c55f",
+            "name": "Surveying",
+            "emoji": "",
+            "parent": "36b5848f-8c3a-4c80-a277-d7c0ef50679a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "35b54371-b19d-47a7-87c3-71c73238ee7d",
+        "fields": {
+            "uuid": "35b54371-b19d-47a7-87c3-71c73238ee7d",
+            "name": "Automatic Levels",
+            "emoji": "",
+            "parent": "9d1cb256-f520-4f46-be3e-befc5288c55f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ecee03b5-51e7-48f5-897c-9a0e9a483a68",
+        "fields": {
+            "uuid": "ecee03b5-51e7-48f5-897c-9a0e9a483a68",
+            "name": "GPS & GNSS Systems",
+            "emoji": "",
+            "parent": "9d1cb256-f520-4f46-be3e-befc5288c55f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dde7899e-8b5e-40fa-8bbe-c6771f161661",
+        "fields": {
+            "uuid": "dde7899e-8b5e-40fa-8bbe-c6771f161661",
+            "name": "Total Stations",
+            "emoji": "",
+            "parent": "9d1cb256-f520-4f46-be3e-befc5288c55f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2cb893bf-a22f-4b19-8d9d-a1dc0a973a95",
+        "fields": {
+            "uuid": "2cb893bf-a22f-4b19-8d9d-a1dc0a973a95",
+            "name": "Traffic Cones & Barrels",
+            "emoji": "",
+            "parent": "36b5848f-8c3a-4c80-a277-d7c0ef50679a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bdc97bb9-d766-4123-9ebe-213e51e0c4bf",
+        "fields": {
+            "uuid": "bdc97bb9-d766-4123-9ebe-213e51e0c4bf",
+            "name": "Traffic Barrels",
+            "emoji": "",
+            "parent": "2cb893bf-a22f-4b19-8d9d-a1dc0a973a95"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "42caa7e5-b5fe-4ac7-b0da-5da30dba28ca",
+        "fields": {
+            "uuid": "42caa7e5-b5fe-4ac7-b0da-5da30dba28ca",
+            "name": "Traffic Cones",
+            "emoji": "",
+            "parent": "2cb893bf-a22f-4b19-8d9d-a1dc0a973a95"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "14318283-559c-4c40-b416-832663e92c21",
+        "fields": {
+            "uuid": "14318283-559c-4c40-b416-832663e92c21",
+            "name": "Dentistry",
+            "emoji": "",
+            "parent": "8163b097-c8b5-4bd3-8127-f1c10aa8ff8a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6645f20a-b1b1-4dfc-8d98-971eb4f615b9",
+        "fields": {
+            "uuid": "6645f20a-b1b1-4dfc-8d98-971eb4f615b9",
+            "name": "Dental Cement",
+            "emoji": "",
+            "parent": "14318283-559c-4c40-b416-832663e92c21"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b1e31fbd-8184-40ca-a9eb-bb745e142ae2",
+        "fields": {
+            "uuid": "b1e31fbd-8184-40ca-a9eb-bb745e142ae2",
+            "name": "Filling Dental Cement",
+            "emoji": "",
+            "parent": "6645f20a-b1b1-4dfc-8d98-971eb4f615b9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "816caf3d-b831-493d-9c16-f682b38c0a44",
+        "fields": {
+            "uuid": "816caf3d-b831-493d-9c16-f682b38c0a44",
+            "name": "Lining Dental Cement",
+            "emoji": "",
+            "parent": "6645f20a-b1b1-4dfc-8d98-971eb4f615b9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "653354cf-692c-450e-9c02-d99b1ca37bc2",
+        "fields": {
+            "uuid": "653354cf-692c-450e-9c02-d99b1ca37bc2",
+            "name": "Luting Dental Cement",
+            "emoji": "",
+            "parent": "6645f20a-b1b1-4dfc-8d98-971eb4f615b9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "df935333-c295-40ba-84e3-31847c2fdfb1",
+        "fields": {
+            "uuid": "df935333-c295-40ba-84e3-31847c2fdfb1",
+            "name": "Temporary Dental Cement",
+            "emoji": "",
+            "parent": "6645f20a-b1b1-4dfc-8d98-971eb4f615b9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "05a5b683-f297-4914-b6d5-5f2e26300e84",
+        "fields": {
+            "uuid": "05a5b683-f297-4914-b6d5-5f2e26300e84",
+            "name": "Dental Tools",
+            "emoji": "",
+            "parent": "14318283-559c-4c40-b416-832663e92c21"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b11196e7-c3b1-4ac3-9371-86c72bb7311e",
+        "fields": {
+            "uuid": "b11196e7-c3b1-4ac3-9371-86c72bb7311e",
+            "name": "Dappen Dishes",
+            "emoji": "",
+            "parent": "05a5b683-f297-4914-b6d5-5f2e26300e84"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e03e6f13-54ef-4b3d-8803-2754ad1972fb",
+        "fields": {
+            "uuid": "e03e6f13-54ef-4b3d-8803-2754ad1972fb",
+            "name": "Dental Mirrors",
+            "emoji": "",
+            "parent": "05a5b683-f297-4914-b6d5-5f2e26300e84"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "20b4cc06-b793-46c3-b7da-930ee38ed47b",
+        "fields": {
+            "uuid": "20b4cc06-b793-46c3-b7da-930ee38ed47b",
+            "name": "Dental Tool Sets",
+            "emoji": "",
+            "parent": "05a5b683-f297-4914-b6d5-5f2e26300e84"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "23518a67-6b73-4a2a-acae-47a3ed9d7462",
+        "fields": {
+            "uuid": "23518a67-6b73-4a2a-acae-47a3ed9d7462",
+            "name": "Prophy Cups",
+            "emoji": "",
+            "parent": "05a5b683-f297-4914-b6d5-5f2e26300e84"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a52408d7-6ed6-47e0-9d00-0cb116d5ea47",
+        "fields": {
+            "uuid": "a52408d7-6ed6-47e0-9d00-0cb116d5ea47",
+            "name": "Prophy Heads",
+            "emoji": "",
+            "parent": "05a5b683-f297-4914-b6d5-5f2e26300e84"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "32c8775a-a379-4e37-87a3-ef4444be8606",
+        "fields": {
+            "uuid": "32c8775a-a379-4e37-87a3-ef4444be8606",
+            "name": "Prophy Paste",
+            "emoji": "",
+            "parent": "14318283-559c-4c40-b416-832663e92c21"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "50b59440-321c-40e8-a2a2-8742b98d441d",
+        "fields": {
+            "uuid": "50b59440-321c-40e8-a2a2-8742b98d441d",
+            "name": "Film & Television",
+            "emoji": "",
+            "parent": "8163b097-c8b5-4bd3-8127-f1c10aa8ff8a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0ef768aa-fb0a-435d-a68a-7cadc7bfab2e",
+        "fields": {
+            "uuid": "0ef768aa-fb0a-435d-a68a-7cadc7bfab2e",
+            "name": "Film & Television Costumes",
+            "emoji": "",
+            "parent": "50b59440-321c-40e8-a2a2-8742b98d441d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "75513041-31a1-41da-8a95-2094c001add4",
+        "fields": {
+            "uuid": "75513041-31a1-41da-8a95-2094c001add4",
+            "name": "Film & Television Props",
+            "emoji": "",
+            "parent": "50b59440-321c-40e8-a2a2-8742b98d441d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f0a20965-1de2-4327-8382-f07fab8ecfa4",
+        "fields": {
+            "uuid": "f0a20965-1de2-4327-8382-f07fab8ecfa4",
+            "name": "Film & Television Set Pieces",
+            "emoji": "",
+            "parent": "50b59440-321c-40e8-a2a2-8742b98d441d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "adfdc981-7153-416e-8ad7-b3a18cc6d921",
+        "fields": {
+            "uuid": "adfdc981-7153-416e-8ad7-b3a18cc6d921",
+            "name": "Backdrop Set Pieces",
+            "emoji": "",
+            "parent": "f0a20965-1de2-4327-8382-f07fab8ecfa4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "874e1093-4210-494f-9e94-27173b785bc1",
+        "fields": {
+            "uuid": "874e1093-4210-494f-9e94-27173b785bc1",
+            "name": "Furniture Set Pieces",
+            "emoji": "",
+            "parent": "f0a20965-1de2-4327-8382-f07fab8ecfa4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ea24cf44-fbde-4e17-b2e4-a216b317a5ac",
+        "fields": {
+            "uuid": "ea24cf44-fbde-4e17-b2e4-a216b317a5ac",
+            "name": "Set Decoration",
+            "emoji": "",
+            "parent": "f0a20965-1de2-4327-8382-f07fab8ecfa4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a141a05b-eabb-4950-a0dc-0132fc3312c5",
+        "fields": {
+            "uuid": "a141a05b-eabb-4950-a0dc-0132fc3312c5",
+            "name": "Finance & Insurance",
+            "emoji": "",
+            "parent": "8163b097-c8b5-4bd3-8127-f1c10aa8ff8a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "48c9da57-758e-41a5-ae1e-37482efced6f",
+        "fields": {
+            "uuid": "48c9da57-758e-41a5-ae1e-37482efced6f",
+            "name": "Bullion",
+            "emoji": "",
+            "parent": "a141a05b-eabb-4950-a0dc-0132fc3312c5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1fb7e6d3-710e-45c9-be5d-269cd8f77a32",
+        "fields": {
+            "uuid": "1fb7e6d3-710e-45c9-be5d-269cd8f77a32",
+            "name": "Food Service",
+            "emoji": "",
+            "parent": "8163b097-c8b5-4bd3-8127-f1c10aa8ff8a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "344c580e-aac6-428f-8847-af1c32892423",
+        "fields": {
+            "uuid": "344c580e-aac6-428f-8847-af1c32892423",
+            "name": "Bakery Boxes",
+            "emoji": "",
+            "parent": "1fb7e6d3-710e-45c9-be5d-269cd8f77a32"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "573812ed-cf1f-4920-b03e-9e3018e43c79",
+        "fields": {
+            "uuid": "573812ed-cf1f-4920-b03e-9e3018e43c79",
+            "name": "Bus Tubs",
+            "emoji": "",
+            "parent": "1fb7e6d3-710e-45c9-be5d-269cd8f77a32"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "30389a35-6059-4394-93ef-76e4c7672863",
+        "fields": {
+            "uuid": "30389a35-6059-4394-93ef-76e4c7672863",
+            "name": "Check Presenters",
+            "emoji": "",
+            "parent": "1fb7e6d3-710e-45c9-be5d-269cd8f77a32"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6f2c8c97-45ef-455f-884e-346f59f29ded",
+        "fields": {
+            "uuid": "6f2c8c97-45ef-455f-884e-346f59f29ded",
+            "name": "Concession Food Containers",
+            "emoji": "",
+            "parent": "1fb7e6d3-710e-45c9-be5d-269cd8f77a32"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "82c1c375-fd6f-464c-bcfc-8f3e8ee0dd64",
+        "fields": {
+            "uuid": "82c1c375-fd6f-464c-bcfc-8f3e8ee0dd64",
+            "name": "Disposable Lids",
+            "emoji": "",
+            "parent": "1fb7e6d3-710e-45c9-be5d-269cd8f77a32"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0f122bc2-35ad-4c9d-b99b-2295c4bf8561",
+        "fields": {
+            "uuid": "0f122bc2-35ad-4c9d-b99b-2295c4bf8561",
+            "name": "Disposable Serveware",
+            "emoji": "",
+            "parent": "1fb7e6d3-710e-45c9-be5d-269cd8f77a32"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "94361b27-2ed3-41c4-9b99-4d40efd20993",
+        "fields": {
+            "uuid": "94361b27-2ed3-41c4-9b99-4d40efd20993",
+            "name": "Disposable Serving Trays",
+            "emoji": "",
+            "parent": "0f122bc2-35ad-4c9d-b99b-2295c4bf8561"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "23ec0483-432e-4505-9718-9d3140792053",
+        "fields": {
+            "uuid": "23ec0483-432e-4505-9718-9d3140792053",
+            "name": "Disposable Tableware",
+            "emoji": "",
+            "parent": "1fb7e6d3-710e-45c9-be5d-269cd8f77a32"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5e8e8d48-772c-4f93-834f-a66c8a8c71d1",
+        "fields": {
+            "uuid": "5e8e8d48-772c-4f93-834f-a66c8a8c71d1",
+            "name": "Disposable Bowls",
+            "emoji": "",
+            "parent": "23ec0483-432e-4505-9718-9d3140792053"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b37ff9b5-7961-491b-be2e-3770d076eca0",
+        "fields": {
+            "uuid": "b37ff9b5-7961-491b-be2e-3770d076eca0",
+            "name": "Disposable Cups",
+            "emoji": "",
+            "parent": "23ec0483-432e-4505-9718-9d3140792053"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "621a8c4d-4034-4aa6-9ea6-6bffdca25c4e",
+        "fields": {
+            "uuid": "621a8c4d-4034-4aa6-9ea6-6bffdca25c4e",
+            "name": "Disposable Cutlery",
+            "emoji": "",
+            "parent": "23ec0483-432e-4505-9718-9d3140792053"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "018b4e0a-ac7f-455d-be09-873325ff3cdb",
+        "fields": {
+            "uuid": "018b4e0a-ac7f-455d-be09-873325ff3cdb",
+            "name": "Disposable Forks",
+            "emoji": "",
+            "parent": "621a8c4d-4034-4aa6-9ea6-6bffdca25c4e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f25fe8e7-7561-4f6b-b162-381151219325",
+        "fields": {
+            "uuid": "f25fe8e7-7561-4f6b-b162-381151219325",
+            "name": "Disposable Knives",
+            "emoji": "",
+            "parent": "621a8c4d-4034-4aa6-9ea6-6bffdca25c4e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2297aa24-7b5a-4f3b-a28f-c82ebbcaf7fd",
+        "fields": {
+            "uuid": "2297aa24-7b5a-4f3b-a28f-c82ebbcaf7fd",
+            "name": "Disposable Spoons",
+            "emoji": "",
+            "parent": "621a8c4d-4034-4aa6-9ea6-6bffdca25c4e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "28c4793d-f9e1-463d-aba3-2ab5e49eeffd",
+        "fields": {
+            "uuid": "28c4793d-f9e1-463d-aba3-2ab5e49eeffd",
+            "name": "Disposable Plates",
+            "emoji": "",
+            "parent": "23ec0483-432e-4505-9718-9d3140792053"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ff2d4732-49e0-4cbc-b688-386c08224869",
+        "fields": {
+            "uuid": "ff2d4732-49e0-4cbc-b688-386c08224869",
+            "name": "Food Service Baskets",
+            "emoji": "",
+            "parent": "1fb7e6d3-710e-45c9-be5d-269cd8f77a32"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5573d0c3-da13-4b9e-90d1-087368a4eefa",
+        "fields": {
+            "uuid": "5573d0c3-da13-4b9e-90d1-087368a4eefa",
+            "name": "Food Service Carts",
+            "emoji": "",
+            "parent": "1fb7e6d3-710e-45c9-be5d-269cd8f77a32"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bd3a7b10-de29-4afa-8c42-96981b240230",
+        "fields": {
+            "uuid": "bd3a7b10-de29-4afa-8c42-96981b240230",
+            "name": "Food Washers & Dryers",
+            "emoji": "",
+            "parent": "1fb7e6d3-710e-45c9-be5d-269cd8f77a32"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "38ffcd8c-104d-4a01-97c9-bc38601fb510",
+        "fields": {
+            "uuid": "38ffcd8c-104d-4a01-97c9-bc38601fb510",
+            "name": "Hot Dog Rollers",
+            "emoji": "",
+            "parent": "1fb7e6d3-710e-45c9-be5d-269cd8f77a32"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "57f1c192-e79f-45c2-bd28-dda1ae11abb4",
+        "fields": {
+            "uuid": "57f1c192-e79f-45c2-bd28-dda1ae11abb4",
+            "name": "Ice Bins",
+            "emoji": "",
+            "parent": "1fb7e6d3-710e-45c9-be5d-269cd8f77a32"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b47444f1-7506-479d-98cd-16c048333e32",
+        "fields": {
+            "uuid": "b47444f1-7506-479d-98cd-16c048333e32",
+            "name": "Plate & Dish Warmers",
+            "emoji": "",
+            "parent": "1fb7e6d3-710e-45c9-be5d-269cd8f77a32"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "af36f173-8d34-4ea9-bb41-f08b6cc25363",
+        "fields": {
+            "uuid": "af36f173-8d34-4ea9-bb41-f08b6cc25363",
+            "name": "Sneeze Guards",
+            "emoji": "",
+            "parent": "1fb7e6d3-710e-45c9-be5d-269cd8f77a32"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1d9bb685-a4d6-4dd7-896b-756b28eb388d",
+        "fields": {
+            "uuid": "1d9bb685-a4d6-4dd7-896b-756b28eb388d",
+            "name": "Take-Out Containers",
+            "emoji": "",
+            "parent": "1fb7e6d3-710e-45c9-be5d-269cd8f77a32"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a96c1626-356a-4b6f-bb10-8085dfc89dcf",
+        "fields": {
+            "uuid": "a96c1626-356a-4b6f-bb10-8085dfc89dcf",
+            "name": "Tilt Skillets",
+            "emoji": "",
+            "parent": "1fb7e6d3-710e-45c9-be5d-269cd8f77a32"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3ffcd4d1-1214-46d4-89bf-c9680216de4b",
+        "fields": {
+            "uuid": "3ffcd4d1-1214-46d4-89bf-c9680216de4b",
+            "name": "Vending Machines",
+            "emoji": "",
+            "parent": "1fb7e6d3-710e-45c9-be5d-269cd8f77a32"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "17dea21f-69cc-496a-8b4c-9d9be3de3f93",
+        "fields": {
+            "uuid": "17dea21f-69cc-496a-8b4c-9d9be3de3f93",
+            "name": "Combo Vending Machines",
+            "emoji": "",
+            "parent": "3ffcd4d1-1214-46d4-89bf-c9680216de4b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6205992a-1c7d-42ca-a17a-1f37d9786c85",
+        "fields": {
+            "uuid": "6205992a-1c7d-42ca-a17a-1f37d9786c85",
+            "name": "Drink Vending Machines",
+            "emoji": "",
+            "parent": "3ffcd4d1-1214-46d4-89bf-c9680216de4b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "92100932-b3a0-4ab4-abd4-650146327955",
+        "fields": {
+            "uuid": "92100932-b3a0-4ab4-abd4-650146327955",
+            "name": "Snack Vending Machines",
+            "emoji": "",
+            "parent": "3ffcd4d1-1214-46d4-89bf-c9680216de4b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e484ff18-5392-4329-b6f1-92555ea2d8a6",
+        "fields": {
+            "uuid": "e484ff18-5392-4329-b6f1-92555ea2d8a6",
+            "name": "Forestry & Logging",
+            "emoji": "",
+            "parent": "8163b097-c8b5-4bd3-8127-f1c10aa8ff8a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1f21471c-e46c-4309-99f9-d7e0382c99d5",
+        "fields": {
+            "uuid": "1f21471c-e46c-4309-99f9-d7e0382c99d5",
+            "name": "Arborist Accessories",
+            "emoji": "",
+            "parent": "e484ff18-5392-4329-b6f1-92555ea2d8a6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "37006d17-8ead-412e-9d1b-35082a0a24c8",
+        "fields": {
+            "uuid": "37006d17-8ead-412e-9d1b-35082a0a24c8",
+            "name": "Throw Weights",
+            "emoji": "",
+            "parent": "1f21471c-e46c-4309-99f9-d7e0382c99d5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "42fcc54d-716a-45e8-af39-971dea71c63d",
+        "fields": {
+            "uuid": "42fcc54d-716a-45e8-af39-971dea71c63d",
+            "name": "Forestry & Logging Protective Gear",
+            "emoji": "",
+            "parent": "e484ff18-5392-4329-b6f1-92555ea2d8a6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2e0ca479-31cd-4a50-b938-734a2c8563a0",
+        "fields": {
+            "uuid": "2e0ca479-31cd-4a50-b938-734a2c8563a0",
+            "name": "Forestry & Logging Boots",
+            "emoji": "",
+            "parent": "42fcc54d-716a-45e8-af39-971dea71c63d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e436eb2b-d578-40fc-8574-ca63594c712b",
+        "fields": {
+            "uuid": "e436eb2b-d578-40fc-8574-ca63594c712b",
+            "name": "Forestry & Logging Chaps",
+            "emoji": "",
+            "parent": "42fcc54d-716a-45e8-af39-971dea71c63d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c9b7afdc-4191-4fd3-b1bd-b395006f1ba0",
+        "fields": {
+            "uuid": "c9b7afdc-4191-4fd3-b1bd-b395006f1ba0",
+            "name": "Forestry & Logging Eyewear",
+            "emoji": "",
+            "parent": "42fcc54d-716a-45e8-af39-971dea71c63d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e0ad9ccf-2876-454d-a2b6-e475b35cb5e7",
+        "fields": {
+            "uuid": "e0ad9ccf-2876-454d-a2b6-e475b35cb5e7",
+            "name": "Forestry & Logging Gloves",
+            "emoji": "",
+            "parent": "42fcc54d-716a-45e8-af39-971dea71c63d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1e5fc41c-e2f4-493c-bd14-e0f72f6f68ee",
+        "fields": {
+            "uuid": "1e5fc41c-e2f4-493c-bd14-e0f72f6f68ee",
+            "name": "Forestry & Logging Helmets",
+            "emoji": "",
+            "parent": "42fcc54d-716a-45e8-af39-971dea71c63d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5fbf9167-9a46-4f1c-b8f2-aff7b82346e9",
+        "fields": {
+            "uuid": "5fbf9167-9a46-4f1c-b8f2-aff7b82346e9",
+            "name": "Forestry & Logging Tools",
+            "emoji": "",
+            "parent": "e484ff18-5392-4329-b6f1-92555ea2d8a6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "566b702f-41e7-46e3-a2fc-f9c9063fc8f5",
+        "fields": {
+            "uuid": "566b702f-41e7-46e3-a2fc-f9c9063fc8f5",
+            "name": "Log Hooks",
+            "emoji": "",
+            "parent": "5fbf9167-9a46-4f1c-b8f2-aff7b82346e9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1529465f-8b32-4056-bcd5-c5158740fda5",
+        "fields": {
+            "uuid": "1529465f-8b32-4056-bcd5-c5158740fda5",
+            "name": "Log Tongs",
+            "emoji": "",
+            "parent": "5fbf9167-9a46-4f1c-b8f2-aff7b82346e9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3166e15a-3025-4afb-a4fd-4be6c0095693",
+        "fields": {
+            "uuid": "3166e15a-3025-4afb-a4fd-4be6c0095693",
+            "name": "Tree Calipers",
+            "emoji": "",
+            "parent": "5fbf9167-9a46-4f1c-b8f2-aff7b82346e9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "32d957a7-49ad-4fe7-8766-1860fa904c00",
+        "fields": {
+            "uuid": "32d957a7-49ad-4fe7-8766-1860fa904c00",
+            "name": "Hairdressing & Cosmetology",
+            "emoji": "",
+            "parent": "8163b097-c8b5-4bd3-8127-f1c10aa8ff8a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7766dd60-6170-45f3-a832-d491ddc2bf83",
+        "fields": {
+            "uuid": "7766dd60-6170-45f3-a832-d491ddc2bf83",
+            "name": "Hairdressing Capes & Neck Covers",
+            "emoji": "",
+            "parent": "32d957a7-49ad-4fe7-8766-1860fa904c00"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "34091414-e8a3-46ce-b0c4-4372ef574a2f",
+        "fields": {
+            "uuid": "34091414-e8a3-46ce-b0c4-4372ef574a2f",
+            "name": "Pedicure Chairs",
+            "emoji": "",
+            "parent": "32d957a7-49ad-4fe7-8766-1860fa904c00"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2dfe45c2-3013-47c1-8e9d-04981f40f116",
+        "fields": {
+            "uuid": "2dfe45c2-3013-47c1-8e9d-04981f40f116",
+            "name": "Salon Chairs",
+            "emoji": "",
+            "parent": "32d957a7-49ad-4fe7-8766-1860fa904c00"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "79c53b03-4b15-4def-9241-f408f0479bc7",
+        "fields": {
+            "uuid": "79c53b03-4b15-4def-9241-f408f0479bc7",
+            "name": "All-Purpose Chairs",
+            "emoji": "",
+            "parent": "2dfe45c2-3013-47c1-8e9d-04981f40f116"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "60ce4b7b-3eff-4d12-b597-f89762480d09",
+        "fields": {
+            "uuid": "60ce4b7b-3eff-4d12-b597-f89762480d09",
+            "name": "Barber Chairs",
+            "emoji": "",
+            "parent": "2dfe45c2-3013-47c1-8e9d-04981f40f116"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6d9ab484-7221-4163-98e1-ab66e3aee5bd",
+        "fields": {
+            "uuid": "6d9ab484-7221-4163-98e1-ab66e3aee5bd",
+            "name": "Shampoo Chairs",
+            "emoji": "",
+            "parent": "2dfe45c2-3013-47c1-8e9d-04981f40f116"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "689e9c8c-abd9-478e-b381-9086332c9b24",
+        "fields": {
+            "uuid": "689e9c8c-abd9-478e-b381-9086332c9b24",
+            "name": "Styling Chairs",
+            "emoji": "",
+            "parent": "2dfe45c2-3013-47c1-8e9d-04981f40f116"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3b106218-dad3-4795-a90c-7a070837d168",
+        "fields": {
+            "uuid": "3b106218-dad3-4795-a90c-7a070837d168",
+            "name": "Heavy Machinery",
+            "emoji": "",
+            "parent": "8163b097-c8b5-4bd3-8127-f1c10aa8ff8a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5facaf65-18eb-4177-a429-3ec2c566b0d4",
+        "fields": {
+            "uuid": "5facaf65-18eb-4177-a429-3ec2c566b0d4",
+            "name": "Backhoes",
+            "emoji": "",
+            "parent": "3b106218-dad3-4795-a90c-7a070837d168"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a4ae77a7-499e-4e72-b729-17d9ec307e35",
+        "fields": {
+            "uuid": "a4ae77a7-499e-4e72-b729-17d9ec307e35",
+            "name": "Bulldozers",
+            "emoji": "",
+            "parent": "3b106218-dad3-4795-a90c-7a070837d168"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1620d730-21a1-4246-b5d6-c37df5da684a",
+        "fields": {
+            "uuid": "1620d730-21a1-4246-b5d6-c37df5da684a",
+            "name": "Chippers",
+            "emoji": "",
+            "parent": "3b106218-dad3-4795-a90c-7a070837d168"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8e5fa1b5-5602-441d-85a6-dc15738e5cab",
+        "fields": {
+            "uuid": "8e5fa1b5-5602-441d-85a6-dc15738e5cab",
+            "name": "Crawler Loaders",
+            "emoji": "",
+            "parent": "3b106218-dad3-4795-a90c-7a070837d168"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "34f57771-ce9c-4f08-9c2f-064f4358c6a5",
+        "fields": {
+            "uuid": "34f57771-ce9c-4f08-9c2f-064f4358c6a5",
+            "name": "Dump Trucks",
+            "emoji": "",
+            "parent": "3b106218-dad3-4795-a90c-7a070837d168"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "81315c98-47e0-46a3-96c6-cf93d670feb7",
+        "fields": {
+            "uuid": "81315c98-47e0-46a3-96c6-cf93d670feb7",
+            "name": "Excavators",
+            "emoji": "",
+            "parent": "3b106218-dad3-4795-a90c-7a070837d168"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "983579d3-38bc-4c7e-97cc-75d05d686830",
+        "fields": {
+            "uuid": "983579d3-38bc-4c7e-97cc-75d05d686830",
+            "name": "Compact Excavators",
+            "emoji": "",
+            "parent": "81315c98-47e0-46a3-96c6-cf93d670feb7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "de1b7115-4ecc-4f28-91ba-9abc17a57be7",
+        "fields": {
+            "uuid": "de1b7115-4ecc-4f28-91ba-9abc17a57be7",
+            "name": "Dragline Excavators",
+            "emoji": "",
+            "parent": "81315c98-47e0-46a3-96c6-cf93d670feb7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "657319e6-a383-4787-9034-2e74ad5776df",
+        "fields": {
+            "uuid": "657319e6-a383-4787-9034-2e74ad5776df",
+            "name": "Long Reach Excavators",
+            "emoji": "",
+            "parent": "81315c98-47e0-46a3-96c6-cf93d670feb7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ca2db8df-2aa5-4d9c-ab00-12655575c78d",
+        "fields": {
+            "uuid": "ca2db8df-2aa5-4d9c-ab00-12655575c78d",
+            "name": "Wheeled Excavators",
+            "emoji": "",
+            "parent": "81315c98-47e0-46a3-96c6-cf93d670feb7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bf833fd5-654b-480c-b7be-da0e0a53e666",
+        "fields": {
+            "uuid": "bf833fd5-654b-480c-b7be-da0e0a53e666",
+            "name": "Harvesters",
+            "emoji": "",
+            "parent": "3b106218-dad3-4795-a90c-7a070837d168"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5cb0ffde-d201-453c-99cb-0a8f031e85cf",
+        "fields": {
+            "uuid": "5cb0ffde-d201-453c-99cb-0a8f031e85cf",
+            "name": "Combine Harvesters",
+            "emoji": "",
+            "parent": "bf833fd5-654b-480c-b7be-da0e0a53e666"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3410cd7c-bcc7-4d95-af1e-ea0da2a137f3",
+        "fields": {
+            "uuid": "3410cd7c-bcc7-4d95-af1e-ea0da2a137f3",
+            "name": "Cotton Harvesters",
+            "emoji": "",
+            "parent": "bf833fd5-654b-480c-b7be-da0e0a53e666"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6ed42faa-03f6-4eb1-9706-2eeae85bfef4",
+        "fields": {
+            "uuid": "6ed42faa-03f6-4eb1-9706-2eeae85bfef4",
+            "name": "Forage Harvesters",
+            "emoji": "",
+            "parent": "bf833fd5-654b-480c-b7be-da0e0a53e666"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7600d667-8e64-4bfa-bf12-565bc724421b",
+        "fields": {
+            "uuid": "7600d667-8e64-4bfa-bf12-565bc724421b",
+            "name": "Potato Harvesters",
+            "emoji": "",
+            "parent": "bf833fd5-654b-480c-b7be-da0e0a53e666"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "20996424-6ef0-448c-a60f-aefe3ee95040",
+        "fields": {
+            "uuid": "20996424-6ef0-448c-a60f-aefe3ee95040",
+            "name": "Sugar Beet Harvesters",
+            "emoji": "",
+            "parent": "bf833fd5-654b-480c-b7be-da0e0a53e666"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8e72a84e-3678-4097-8782-d291556ddc23",
+        "fields": {
+            "uuid": "8e72a84e-3678-4097-8782-d291556ddc23",
+            "name": "Motor Graders",
+            "emoji": "",
+            "parent": "3b106218-dad3-4795-a90c-7a070837d168"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "96eb2a61-bcbb-49c1-982e-f06c314ab392",
+        "fields": {
+            "uuid": "96eb2a61-bcbb-49c1-982e-f06c314ab392",
+            "name": "Pavers",
+            "emoji": "",
+            "parent": "3b106218-dad3-4795-a90c-7a070837d168"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d654e3c6-a80c-446f-84ce-933d3ba379a6",
+        "fields": {
+            "uuid": "d654e3c6-a80c-446f-84ce-933d3ba379a6",
+            "name": "Asphalt Pavers",
+            "emoji": "",
+            "parent": "96eb2a61-bcbb-49c1-982e-f06c314ab392"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "81fcebd0-1952-4c43-935c-5b8cb4f43811",
+        "fields": {
+            "uuid": "81fcebd0-1952-4c43-935c-5b8cb4f43811",
+            "name": "Concrete Pavers",
+            "emoji": "",
+            "parent": "96eb2a61-bcbb-49c1-982e-f06c314ab392"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "69540a08-582b-4331-b10c-ab8cd337c857",
+        "fields": {
+            "uuid": "69540a08-582b-4331-b10c-ab8cd337c857",
+            "name": "Scrapers",
+            "emoji": "",
+            "parent": "3b106218-dad3-4795-a90c-7a070837d168"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "64f6b45a-26cd-4a69-9a79-77fc5226b298",
+        "fields": {
+            "uuid": "64f6b45a-26cd-4a69-9a79-77fc5226b298",
+            "name": "Elevating Scrapers",
+            "emoji": "",
+            "parent": "69540a08-582b-4331-b10c-ab8cd337c857"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "53b43473-3611-45e5-b394-733c084ac7cc",
+        "fields": {
+            "uuid": "53b43473-3611-45e5-b394-733c084ac7cc",
+            "name": "Open Bowl Scrapers",
+            "emoji": "",
+            "parent": "69540a08-582b-4331-b10c-ab8cd337c857"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "428c89dc-8285-4b03-8952-0f469a8dd864",
+        "fields": {
+            "uuid": "428c89dc-8285-4b03-8952-0f469a8dd864",
+            "name": "Pull Scrapers",
+            "emoji": "",
+            "parent": "69540a08-582b-4331-b10c-ab8cd337c857"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e3809d46-cfc1-4672-b3d7-6375005808b2",
+        "fields": {
+            "uuid": "e3809d46-cfc1-4672-b3d7-6375005808b2",
+            "name": "Skid-Steer Loaders",
+            "emoji": "",
+            "parent": "3b106218-dad3-4795-a90c-7a070837d168"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d34dca8f-cf13-4745-8fb1-7f33ebfe5f4d",
+        "fields": {
+            "uuid": "d34dca8f-cf13-4745-8fb1-7f33ebfe5f4d",
+            "name": "Tractors",
+            "emoji": "",
+            "parent": "3b106218-dad3-4795-a90c-7a070837d168"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "08aa407d-efab-4061-81ff-972dea2e72c7",
+        "fields": {
+            "uuid": "08aa407d-efab-4061-81ff-972dea2e72c7",
+            "name": "Articulated 4WD Tractors",
+            "emoji": "",
+            "parent": "d34dca8f-cf13-4745-8fb1-7f33ebfe5f4d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "92c7950a-c87f-4d33-8b3c-8b7497067f18",
+        "fields": {
+            "uuid": "92c7950a-c87f-4d33-8b3c-8b7497067f18",
+            "name": "Compact Tractors",
+            "emoji": "",
+            "parent": "d34dca8f-cf13-4745-8fb1-7f33ebfe5f4d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "61d9cf60-c306-4ae1-bb21-b21ebb7fa0df",
+        "fields": {
+            "uuid": "61d9cf60-c306-4ae1-bb21-b21ebb7fa0df",
+            "name": "Row Crop Tractors",
+            "emoji": "",
+            "parent": "d34dca8f-cf13-4745-8fb1-7f33ebfe5f4d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a3e5e60e-e230-4530-b039-b7eba5dcd3fd",
+        "fields": {
+            "uuid": "a3e5e60e-e230-4530-b039-b7eba5dcd3fd",
+            "name": "Utility Tractors",
+            "emoji": "",
+            "parent": "d34dca8f-cf13-4745-8fb1-7f33ebfe5f4d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fec45332-b989-459a-8972-c6b81d38297d",
+        "fields": {
+            "uuid": "fec45332-b989-459a-8972-c6b81d38297d",
+            "name": "Trenchers",
+            "emoji": "",
+            "parent": "3b106218-dad3-4795-a90c-7a070837d168"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ac179713-0773-4e47-bc0c-f1d6f07e7b70",
+        "fields": {
+            "uuid": "ac179713-0773-4e47-bc0c-f1d6f07e7b70",
+            "name": "Ride-On Trenchers",
+            "emoji": "",
+            "parent": "fec45332-b989-459a-8972-c6b81d38297d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d667f409-108a-46fd-bf82-1330cc1ee2d2",
+        "fields": {
+            "uuid": "d667f409-108a-46fd-bf82-1330cc1ee2d2",
+            "name": "Walk-Behind Trenchers",
+            "emoji": "",
+            "parent": "fec45332-b989-459a-8972-c6b81d38297d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "38cc33ce-1677-4d9c-897e-15ca81bb8550",
+        "fields": {
+            "uuid": "38cc33ce-1677-4d9c-897e-15ca81bb8550",
+            "name": "Wheel Loaders",
+            "emoji": "",
+            "parent": "3b106218-dad3-4795-a90c-7a070837d168"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d592ce28-9a02-456d-bb12-3f4456b07e98",
+        "fields": {
+            "uuid": "d592ce28-9a02-456d-bb12-3f4456b07e98",
+            "name": "Wheel Tractor Scrapers",
+            "emoji": "",
+            "parent": "3b106218-dad3-4795-a90c-7a070837d168"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "01c0aaa5-0ff2-4a7d-8d6f-0100f54c0e19",
+        "fields": {
+            "uuid": "01c0aaa5-0ff2-4a7d-8d6f-0100f54c0e19",
+            "name": "Elevating Wheel Tractor Scrapers",
+            "emoji": "",
+            "parent": "d592ce28-9a02-456d-bb12-3f4456b07e98"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "90b6a6aa-9e61-42de-a866-10beb831e2da",
+        "fields": {
+            "uuid": "90b6a6aa-9e61-42de-a866-10beb831e2da",
+            "name": "Open Bowl Wheel Tractor Scrapers",
+            "emoji": "",
+            "parent": "d592ce28-9a02-456d-bb12-3f4456b07e98"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "eae62ef0-1779-4178-8cb3-eccce98f6a8e",
+        "fields": {
+            "uuid": "eae62ef0-1779-4178-8cb3-eccce98f6a8e",
+            "name": "Pull Wheel Tractor Scrapers",
+            "emoji": "",
+            "parent": "d592ce28-9a02-456d-bb12-3f4456b07e98"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0f110d86-041f-49cd-be69-d49f1de02e45",
+        "fields": {
+            "uuid": "0f110d86-041f-49cd-be69-d49f1de02e45",
+            "name": "Yard Scrapers",
+            "emoji": "",
+            "parent": "3b106218-dad3-4795-a90c-7a070837d168"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "966ed916-96e3-4f8f-9c7d-ea57075a7636",
+        "fields": {
+            "uuid": "966ed916-96e3-4f8f-9c7d-ea57075a7636",
+            "name": "Hotel & Hospitality",
+            "emoji": "",
+            "parent": "8163b097-c8b5-4bd3-8127-f1c10aa8ff8a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ac9a406b-d716-4a91-b29f-716f867bb35e",
+        "fields": {
+            "uuid": "ac9a406b-d716-4a91-b29f-716f867bb35e",
+            "name": "Hospitality Supplies",
+            "emoji": "",
+            "parent": "966ed916-96e3-4f8f-9c7d-ea57075a7636"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ac85b0d6-ec24-4364-ac45-0fda74954705",
+        "fields": {
+            "uuid": "ac85b0d6-ec24-4364-ac45-0fda74954705",
+            "name": "Bar Counters",
+            "emoji": "",
+            "parent": "ac9a406b-d716-4a91-b29f-716f867bb35e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7726ae45-f424-412d-bb40-e52102743bbd",
+        "fields": {
+            "uuid": "7726ae45-f424-412d-bb40-e52102743bbd",
+            "name": "Underbar Equipment",
+            "emoji": "",
+            "parent": "ac9a406b-d716-4a91-b29f-716f867bb35e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0c9bb5e2-8a7c-4a2a-b000-85f1725d5abf",
+        "fields": {
+            "uuid": "0c9bb5e2-8a7c-4a2a-b000-85f1725d5abf",
+            "name": "Bar & Cocktail Stations",
+            "emoji": "",
+            "parent": "7726ae45-f424-412d-bb40-e52102743bbd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0396cb1b-c5e9-4bc8-8c2f-894d53c1596a",
+        "fields": {
+            "uuid": "0396cb1b-c5e9-4bc8-8c2f-894d53c1596a",
+            "name": "Glass Racks",
+            "emoji": "",
+            "parent": "7726ae45-f424-412d-bb40-e52102743bbd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "721c0a89-ac0c-477c-bb3d-726967af2d5a",
+        "fields": {
+            "uuid": "721c0a89-ac0c-477c-bb3d-726967af2d5a",
+            "name": "Menu Covers & Check Presenters",
+            "emoji": "",
+            "parent": "7726ae45-f424-412d-bb40-e52102743bbd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "64e742da-6f8d-4433-a878-42f4e9aa8705",
+        "fields": {
+            "uuid": "64e742da-6f8d-4433-a878-42f4e9aa8705",
+            "name": "Menu Displays & Boards",
+            "emoji": "",
+            "parent": "7726ae45-f424-412d-bb40-e52102743bbd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cc937008-14fe-45cc-b0f2-c8b19d4e57a5",
+        "fields": {
+            "uuid": "cc937008-14fe-45cc-b0f2-c8b19d4e57a5",
+            "name": "Speed Rails",
+            "emoji": "",
+            "parent": "7726ae45-f424-412d-bb40-e52102743bbd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0b0d02c6-e2a0-4b5f-8369-614d024c3ccb",
+        "fields": {
+            "uuid": "0b0d02c6-e2a0-4b5f-8369-614d024c3ccb",
+            "name": "Hotel & Hospitality Accessories",
+            "emoji": "",
+            "parent": "966ed916-96e3-4f8f-9c7d-ea57075a7636"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a9d8e66f-3bb4-4257-9084-1247df50989a",
+        "fields": {
+            "uuid": "a9d8e66f-3bb4-4257-9084-1247df50989a",
+            "name": "Desk Bells",
+            "emoji": "",
+            "parent": "0b0d02c6-e2a0-4b5f-8369-614d024c3ccb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d6560cd4-10a1-4764-9fed-59debcf44581",
+        "fields": {
+            "uuid": "d6560cd4-10a1-4764-9fed-59debcf44581",
+            "name": "Hotel Supplies",
+            "emoji": "",
+            "parent": "966ed916-96e3-4f8f-9c7d-ea57075a7636"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "14fac1a0-3f9f-412f-99fa-5ecc2f9f6c50",
+        "fields": {
+            "uuid": "14fac1a0-3f9f-412f-99fa-5ecc2f9f6c50",
+            "name": "Reception Desks & Counters",
+            "emoji": "",
+            "parent": "d6560cd4-10a1-4764-9fed-59debcf44581"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e2bc1ee6-9120-42af-8ad0-beabb98c876a",
+        "fields": {
+            "uuid": "e2bc1ee6-9120-42af-8ad0-beabb98c876a",
+            "name": "Industrial Storage",
+            "emoji": "",
+            "parent": "8163b097-c8b5-4bd3-8127-f1c10aa8ff8a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8dea44b3-8fc7-45b2-9f7c-f4ee3a45f662",
+        "fields": {
+            "uuid": "8dea44b3-8fc7-45b2-9f7c-f4ee3a45f662",
+            "name": "Industrial Cabinets",
+            "emoji": "",
+            "parent": "e2bc1ee6-9120-42af-8ad0-beabb98c876a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "79e936cd-13e6-4bb2-b468-047cc77c76ce",
+        "fields": {
+            "uuid": "79e936cd-13e6-4bb2-b468-047cc77c76ce",
+            "name": "Industrial Shelving",
+            "emoji": "",
+            "parent": "e2bc1ee6-9120-42af-8ad0-beabb98c876a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e1c813e4-a60a-49bf-9ca8-500e1ab3a3c9",
+        "fields": {
+            "uuid": "e1c813e4-a60a-49bf-9ca8-500e1ab3a3c9",
+            "name": "Shipping Containers",
+            "emoji": "",
+            "parent": "e2bc1ee6-9120-42af-8ad0-beabb98c876a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1736eb4e-921e-4d32-8a2c-e0f545bd74ea",
+        "fields": {
+            "uuid": "1736eb4e-921e-4d32-8a2c-e0f545bd74ea",
+            "name": "Wire Partitions, Enclosures & Doors",
+            "emoji": "",
+            "parent": "e2bc1ee6-9120-42af-8ad0-beabb98c876a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c1afef2a-fe9c-4498-b8eb-cbab1c6931f0",
+        "fields": {
+            "uuid": "c1afef2a-fe9c-4498-b8eb-cbab1c6931f0",
+            "name": "Industrial Storage Accessories",
+            "emoji": "",
+            "parent": "8163b097-c8b5-4bd3-8127-f1c10aa8ff8a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fcfee33f-3630-4fdf-ba27-9359b00ea078",
+        "fields": {
+            "uuid": "fcfee33f-3630-4fdf-ba27-9359b00ea078",
+            "name": "Individual Industrial Shelves",
+            "emoji": "",
+            "parent": "c1afef2a-fe9c-4498-b8eb-cbab1c6931f0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "eb98795f-46b7-45e5-9029-38d7ce0bde50",
+        "fields": {
+            "uuid": "eb98795f-46b7-45e5-9029-38d7ce0bde50",
+            "name": "Industrial Shelf Dividers",
+            "emoji": "",
+            "parent": "c1afef2a-fe9c-4498-b8eb-cbab1c6931f0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c0f5005e-cac4-466e-b608-49c15e64fe41",
+        "fields": {
+            "uuid": "c0f5005e-cac4-466e-b608-49c15e64fe41",
+            "name": "Locking Clips & Pins",
+            "emoji": "",
+            "parent": "c1afef2a-fe9c-4498-b8eb-cbab1c6931f0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d90c398a-319b-4585-bec6-8c8ff691b0e8",
+        "fields": {
+            "uuid": "d90c398a-319b-4585-bec6-8c8ff691b0e8",
+            "name": "Janitorial Carts & Caddies",
+            "emoji": "",
+            "parent": "8163b097-c8b5-4bd3-8127-f1c10aa8ff8a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f995bfc1-a5e5-4e12-a28a-dace4255ade8",
+        "fields": {
+            "uuid": "f995bfc1-a5e5-4e12-a28a-dace4255ade8",
+            "name": "Cleaning Carts",
+            "emoji": "",
+            "parent": "d90c398a-319b-4585-bec6-8c8ff691b0e8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "de05aa7d-5e95-4597-8c90-eaf11ef2af14",
+        "fields": {
+            "uuid": "de05aa7d-5e95-4597-8c90-eaf11ef2af14",
+            "name": "Laundry Carts",
+            "emoji": "",
+            "parent": "d90c398a-319b-4585-bec6-8c8ff691b0e8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1b93af75-aff4-4616-a8b7-c9924785235a",
+        "fields": {
+            "uuid": "1b93af75-aff4-4616-a8b7-c9924785235a",
+            "name": "Waste Collection Carts",
+            "emoji": "",
+            "parent": "d90c398a-319b-4585-bec6-8c8ff691b0e8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "39bfca9b-bd2a-40e6-8a7a-52012e69d877",
+        "fields": {
+            "uuid": "39bfca9b-bd2a-40e6-8a7a-52012e69d877",
+            "name": "Law Enforcement",
+            "emoji": "",
+            "parent": "8163b097-c8b5-4bd3-8127-f1c10aa8ff8a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b31310b8-5975-4731-9b0e-db17c5c26394",
+        "fields": {
+            "uuid": "b31310b8-5975-4731-9b0e-db17c5c26394",
+            "name": "Cuffs",
+            "emoji": "",
+            "parent": "39bfca9b-bd2a-40e6-8a7a-52012e69d877"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d6132529-e389-440a-a8aa-d8902ac7faa0",
+        "fields": {
+            "uuid": "d6132529-e389-440a-a8aa-d8902ac7faa0",
+            "name": "Chain Link Cuffs",
+            "emoji": "",
+            "parent": "b31310b8-5975-4731-9b0e-db17c5c26394"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ff2f3ff0-556c-4f7c-b031-dd982791f7fd",
+        "fields": {
+            "uuid": "ff2f3ff0-556c-4f7c-b031-dd982791f7fd",
+            "name": "Disposable Cuffs",
+            "emoji": "",
+            "parent": "b31310b8-5975-4731-9b0e-db17c5c26394"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7ca4b9a3-c902-4ba5-894f-96fa5169097f",
+        "fields": {
+            "uuid": "7ca4b9a3-c902-4ba5-894f-96fa5169097f",
+            "name": "Hinged Cuffs",
+            "emoji": "",
+            "parent": "b31310b8-5975-4731-9b0e-db17c5c26394"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2a3de175-8024-4518-ba9a-7dd5f08ce4ea",
+        "fields": {
+            "uuid": "2a3de175-8024-4518-ba9a-7dd5f08ce4ea",
+            "name": "Leg Irons Cuffs",
+            "emoji": "",
+            "parent": "b31310b8-5975-4731-9b0e-db17c5c26394"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "af0391c6-ed6e-44ff-8d14-bd682f5fd7a0",
+        "fields": {
+            "uuid": "af0391c6-ed6e-44ff-8d14-bd682f5fd7a0",
+            "name": "Rigid Cuffs",
+            "emoji": "",
+            "parent": "b31310b8-5975-4731-9b0e-db17c5c26394"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f1d3f19e-3436-47e8-8369-9289ed75fa08",
+        "fields": {
+            "uuid": "f1d3f19e-3436-47e8-8369-9289ed75fa08",
+            "name": "Metal Detectors",
+            "emoji": "",
+            "parent": "39bfca9b-bd2a-40e6-8a7a-52012e69d877"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c05bb1ac-47bf-4104-840d-9ace4432a9de",
+        "fields": {
+            "uuid": "c05bb1ac-47bf-4104-840d-9ace4432a9de",
+            "name": "Ground Search Metal Detectors",
+            "emoji": "",
+            "parent": "f1d3f19e-3436-47e8-8369-9289ed75fa08"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "615db3ec-2f71-40a8-a0ae-a08a69cd8621",
+        "fields": {
+            "uuid": "615db3ec-2f71-40a8-a0ae-a08a69cd8621",
+            "name": "Handheld Metal Detectors",
+            "emoji": "",
+            "parent": "f1d3f19e-3436-47e8-8369-9289ed75fa08"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "45c14f7a-fa3c-4686-b17f-1347c6e6fb21",
+        "fields": {
+            "uuid": "45c14f7a-fa3c-4686-b17f-1347c6e6fb21",
+            "name": "Walk-Through Metal Detectors",
+            "emoji": "",
+            "parent": "f1d3f19e-3436-47e8-8369-9289ed75fa08"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "20dfeafa-096a-465e-a8f9-cbf500d7e50a",
+        "fields": {
+            "uuid": "20dfeafa-096a-465e-a8f9-cbf500d7e50a",
+            "name": "Manufacturing",
+            "emoji": "",
+            "parent": "8163b097-c8b5-4bd3-8127-f1c10aa8ff8a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "13ce0cc2-4f4b-401d-8a38-d5a6b59329b3",
+        "fields": {
+            "uuid": "13ce0cc2-4f4b-401d-8a38-d5a6b59329b3",
+            "name": "Packaging Machines",
+            "emoji": "",
+            "parent": "20dfeafa-096a-465e-a8f9-cbf500d7e50a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2594c77a-491f-429f-99bf-0f33103f3d36",
+        "fields": {
+            "uuid": "2594c77a-491f-429f-99bf-0f33103f3d36",
+            "name": "Filling Machines",
+            "emoji": "",
+            "parent": "13ce0cc2-4f4b-401d-8a38-d5a6b59329b3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3778e939-8d68-437d-b1cc-c8d63d06e52f",
+        "fields": {
+            "uuid": "3778e939-8d68-437d-b1cc-c8d63d06e52f",
+            "name": "Labeling Machines",
+            "emoji": "",
+            "parent": "13ce0cc2-4f4b-401d-8a38-d5a6b59329b3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "30e7c7a8-53f5-4b8b-83cf-b8de7d5e22d5",
+        "fields": {
+            "uuid": "30e7c7a8-53f5-4b8b-83cf-b8de7d5e22d5",
+            "name": "Sealing Machines",
+            "emoji": "",
+            "parent": "13ce0cc2-4f4b-401d-8a38-d5a6b59329b3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "98db911e-dee5-4fd3-b356-17378ec02864",
+        "fields": {
+            "uuid": "98db911e-dee5-4fd3-b356-17378ec02864",
+            "name": "Strapping Machines",
+            "emoji": "",
+            "parent": "13ce0cc2-4f4b-401d-8a38-d5a6b59329b3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d544831c-0223-4f21-840e-b355646a8804",
+        "fields": {
+            "uuid": "d544831c-0223-4f21-840e-b355646a8804",
+            "name": "Wrapping Machines",
+            "emoji": "",
+            "parent": "13ce0cc2-4f4b-401d-8a38-d5a6b59329b3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5c6c38f0-683b-4aa9-874a-1caeb06904a8",
+        "fields": {
+            "uuid": "5c6c38f0-683b-4aa9-874a-1caeb06904a8",
+            "name": "Material Handling",
+            "emoji": "",
+            "parent": "8163b097-c8b5-4bd3-8127-f1c10aa8ff8a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5da1c4d7-5a47-4bc6-b742-c14cc2bed5b6",
+        "fields": {
+            "uuid": "5da1c4d7-5a47-4bc6-b742-c14cc2bed5b6",
+            "name": "Conveyors",
+            "emoji": "",
+            "parent": "5c6c38f0-683b-4aa9-874a-1caeb06904a8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4ea6cd1b-dd27-41df-a884-75e7b0e1a9e3",
+        "fields": {
+            "uuid": "4ea6cd1b-dd27-41df-a884-75e7b0e1a9e3",
+            "name": "Belt Conveyors",
+            "emoji": "",
+            "parent": "5da1c4d7-5a47-4bc6-b742-c14cc2bed5b6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "70138311-d61c-4a57-8e37-d804ab717602",
+        "fields": {
+            "uuid": "70138311-d61c-4a57-8e37-d804ab717602",
+            "name": "Flexible Conveyors",
+            "emoji": "",
+            "parent": "5da1c4d7-5a47-4bc6-b742-c14cc2bed5b6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a32937b1-4ad2-4a2b-9e85-4b4fe775869a",
+        "fields": {
+            "uuid": "a32937b1-4ad2-4a2b-9e85-4b4fe775869a",
+            "name": "Vertical & Overhead Conveyors",
+            "emoji": "",
+            "parent": "5da1c4d7-5a47-4bc6-b742-c14cc2bed5b6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "65578c97-8ada-43ed-8edd-ce5ec31ffa03",
+        "fields": {
+            "uuid": "65578c97-8ada-43ed-8edd-ce5ec31ffa03",
+            "name": "Pneumatic Conveyors",
+            "emoji": "",
+            "parent": "5da1c4d7-5a47-4bc6-b742-c14cc2bed5b6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "88e5c503-cde5-475d-a888-0dc8e6ab67e7",
+        "fields": {
+            "uuid": "88e5c503-cde5-475d-a888-0dc8e6ab67e7",
+            "name": "Roller Conveyors",
+            "emoji": "",
+            "parent": "5da1c4d7-5a47-4bc6-b742-c14cc2bed5b6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b629cb3b-de9c-46d9-96eb-17c6a31e08d6",
+        "fields": {
+            "uuid": "b629cb3b-de9c-46d9-96eb-17c6a31e08d6",
+            "name": "Lifts & Hoists",
+            "emoji": "",
+            "parent": "5c6c38f0-683b-4aa9-874a-1caeb06904a8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "81dbeadb-c687-4fdc-9636-2dc58aae7a5f",
+        "fields": {
+            "uuid": "81dbeadb-c687-4fdc-9636-2dc58aae7a5f",
+            "name": "Hoists, Cranes & Trolleys",
+            "emoji": "",
+            "parent": "b629cb3b-de9c-46d9-96eb-17c6a31e08d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "69526a5a-298d-447a-aa8d-0fdc966369ad",
+        "fields": {
+            "uuid": "69526a5a-298d-447a-aa8d-0fdc966369ad",
+            "name": "Chain Hoists",
+            "emoji": "",
+            "parent": "81dbeadb-c687-4fdc-9636-2dc58aae7a5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b1b3e271-adcd-4a13-a9b2-7d2d8f70bbde",
+        "fields": {
+            "uuid": "b1b3e271-adcd-4a13-a9b2-7d2d8f70bbde",
+            "name": "Gantry Cranes",
+            "emoji": "",
+            "parent": "81dbeadb-c687-4fdc-9636-2dc58aae7a5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bcc71528-f620-45ed-a6f4-881a7795cff7",
+        "fields": {
+            "uuid": "bcc71528-f620-45ed-a6f4-881a7795cff7",
+            "name": "Jib Cranes",
+            "emoji": "",
+            "parent": "81dbeadb-c687-4fdc-9636-2dc58aae7a5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dcff6224-f2d9-457b-a10c-05854d03422e",
+        "fields": {
+            "uuid": "dcff6224-f2d9-457b-a10c-05854d03422e",
+            "name": "Trolleys",
+            "emoji": "",
+            "parent": "81dbeadb-c687-4fdc-9636-2dc58aae7a5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0dfde96d-fa26-4bcc-aa38-a4c67e8c2dd8",
+        "fields": {
+            "uuid": "0dfde96d-fa26-4bcc-aa38-a4c67e8c2dd8",
+            "name": "Wire Rope Hoists",
+            "emoji": "",
+            "parent": "81dbeadb-c687-4fdc-9636-2dc58aae7a5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "252eb317-4eb7-4793-8af0-3b6f272adbb6",
+        "fields": {
+            "uuid": "252eb317-4eb7-4793-8af0-3b6f272adbb6",
+            "name": "Jacks & Lift Trucks",
+            "emoji": "",
+            "parent": "b629cb3b-de9c-46d9-96eb-17c6a31e08d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "86e72133-9411-4bde-bb2f-621c18a0029c",
+        "fields": {
+            "uuid": "86e72133-9411-4bde-bb2f-621c18a0029c",
+            "name": "Bottle Jacks",
+            "emoji": "",
+            "parent": "252eb317-4eb7-4793-8af0-3b6f272adbb6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ea5c3f82-0486-4856-bdbe-ae8a67b28a4b",
+        "fields": {
+            "uuid": "ea5c3f82-0486-4856-bdbe-ae8a67b28a4b",
+            "name": "Floor Jacks",
+            "emoji": "",
+            "parent": "252eb317-4eb7-4793-8af0-3b6f272adbb6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1d771f7e-3b65-4b0c-b56d-672151b1e6ac",
+        "fields": {
+            "uuid": "1d771f7e-3b65-4b0c-b56d-672151b1e6ac",
+            "name": "Pallet Jacks",
+            "emoji": "",
+            "parent": "252eb317-4eb7-4793-8af0-3b6f272adbb6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5fcafbea-d60e-4424-8e9f-b9743983f351",
+        "fields": {
+            "uuid": "5fcafbea-d60e-4424-8e9f-b9743983f351",
+            "name": "Scissor Jacks",
+            "emoji": "",
+            "parent": "252eb317-4eb7-4793-8af0-3b6f272adbb6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ffdd450e-9370-481b-a6ff-cb59e8387e33",
+        "fields": {
+            "uuid": "ffdd450e-9370-481b-a6ff-cb59e8387e33",
+            "name": "Personnel Lifts",
+            "emoji": "",
+            "parent": "b629cb3b-de9c-46d9-96eb-17c6a31e08d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1609ab7a-258d-49b9-8d24-655f936dfb70",
+        "fields": {
+            "uuid": "1609ab7a-258d-49b9-8d24-655f936dfb70",
+            "name": "Boom Lifts",
+            "emoji": "",
+            "parent": "ffdd450e-9370-481b-a6ff-cb59e8387e33"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fc5af099-8755-4ac8-ab08-df1cc1bf7a32",
+        "fields": {
+            "uuid": "fc5af099-8755-4ac8-ab08-df1cc1bf7a32",
+            "name": "Drive-On Parallelograms",
+            "emoji": "",
+            "parent": "ffdd450e-9370-481b-a6ff-cb59e8387e33"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "092299ef-81e0-40f9-8a90-064394ab1fd9",
+        "fields": {
+            "uuid": "092299ef-81e0-40f9-8a90-064394ab1fd9",
+            "name": "Multi-Post Runways",
+            "emoji": "",
+            "parent": "ffdd450e-9370-481b-a6ff-cb59e8387e33"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "31e2dba0-3101-4d56-ad78-405c8bd1000c",
+        "fields": {
+            "uuid": "31e2dba0-3101-4d56-ad78-405c8bd1000c",
+            "name": "Scissor Lifts",
+            "emoji": "",
+            "parent": "ffdd450e-9370-481b-a6ff-cb59e8387e33"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "02409703-30df-44a1-9ca6-d4ef508c09d3",
+        "fields": {
+            "uuid": "02409703-30df-44a1-9ca6-d4ef508c09d3",
+            "name": "Two-Post Surface Mounted Lifts",
+            "emoji": "",
+            "parent": "ffdd450e-9370-481b-a6ff-cb59e8387e33"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6476d80d-79f3-4df3-b08d-d7f72873beeb",
+        "fields": {
+            "uuid": "6476d80d-79f3-4df3-b08d-d7f72873beeb",
+            "name": "Vertical Mast Lifts",
+            "emoji": "",
+            "parent": "ffdd450e-9370-481b-a6ff-cb59e8387e33"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a4143d59-3387-4bcd-a59e-db2962610778",
+        "fields": {
+            "uuid": "a4143d59-3387-4bcd-a59e-db2962610778",
+            "name": "Pulleys, Blocks & Sheaves",
+            "emoji": "",
+            "parent": "b629cb3b-de9c-46d9-96eb-17c6a31e08d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1ae1316b-e835-49cf-8423-2e6cd3c34666",
+        "fields": {
+            "uuid": "1ae1316b-e835-49cf-8423-2e6cd3c34666",
+            "name": "Double Pulleys",
+            "emoji": "",
+            "parent": "a4143d59-3387-4bcd-a59e-db2962610778"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "10dbc614-8cf0-4a34-812e-3ec63777a002",
+        "fields": {
+            "uuid": "10dbc614-8cf0-4a34-812e-3ec63777a002",
+            "name": "Sheaves",
+            "emoji": "",
+            "parent": "a4143d59-3387-4bcd-a59e-db2962610778"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fe9348ad-983f-4585-8c65-13afe308b16e",
+        "fields": {
+            "uuid": "fe9348ad-983f-4585-8c65-13afe308b16e",
+            "name": "Single Pulleys",
+            "emoji": "",
+            "parent": "a4143d59-3387-4bcd-a59e-db2962610778"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c853ae86-d815-40db-8791-39763c4936f0",
+        "fields": {
+            "uuid": "c853ae86-d815-40db-8791-39763c4936f0",
+            "name": "Triple Pulleys",
+            "emoji": "",
+            "parent": "a4143d59-3387-4bcd-a59e-db2962610778"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ba59be43-6dbb-4643-839c-bb7a3fab5be9",
+        "fields": {
+            "uuid": "ba59be43-6dbb-4643-839c-bb7a3fab5be9",
+            "name": "Winches",
+            "emoji": "",
+            "parent": "b629cb3b-de9c-46d9-96eb-17c6a31e08d6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "69ed83a1-f2ef-4107-83bf-2eecf224b708",
+        "fields": {
+            "uuid": "69ed83a1-f2ef-4107-83bf-2eecf224b708",
+            "name": "Pallets & Loading Platforms",
+            "emoji": "",
+            "parent": "5c6c38f0-683b-4aa9-874a-1caeb06904a8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c23b8ad0-d182-4617-87f8-9d737d6e9b53",
+        "fields": {
+            "uuid": "c23b8ad0-d182-4617-87f8-9d737d6e9b53",
+            "name": "Block Pallets",
+            "emoji": "",
+            "parent": "69ed83a1-f2ef-4107-83bf-2eecf224b708"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6726664a-2fac-4b30-b038-cea8bb9556ef",
+        "fields": {
+            "uuid": "6726664a-2fac-4b30-b038-cea8bb9556ef",
+            "name": "Double-Face Pallets",
+            "emoji": "",
+            "parent": "69ed83a1-f2ef-4107-83bf-2eecf224b708"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c3725738-e5a2-4d53-a872-0b383ea88884",
+        "fields": {
+            "uuid": "c3725738-e5a2-4d53-a872-0b383ea88884",
+            "name": "Solid Deck Pallets",
+            "emoji": "",
+            "parent": "69ed83a1-f2ef-4107-83bf-2eecf224b708"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ca60b2a4-cd0d-4d2d-b557-d519b32fc203",
+        "fields": {
+            "uuid": "ca60b2a4-cd0d-4d2d-b557-d519b32fc203",
+            "name": "Stringer Pallets",
+            "emoji": "",
+            "parent": "69ed83a1-f2ef-4107-83bf-2eecf224b708"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "912f5d8c-0730-42ef-a02f-cf39bae13910",
+        "fields": {
+            "uuid": "912f5d8c-0730-42ef-a02f-cf39bae13910",
+            "name": "Medical",
+            "emoji": "",
+            "parent": "8163b097-c8b5-4bd3-8127-f1c10aa8ff8a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b8ab891e-3bb0-4738-96f0-858e9341b731",
+        "fields": {
+            "uuid": "b8ab891e-3bb0-4738-96f0-858e9341b731",
+            "name": "Hospital Curtains",
+            "emoji": "",
+            "parent": "912f5d8c-0730-42ef-a02f-cf39bae13910"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ad70d35d-b0bf-48f3-819f-8ac73129b640",
+        "fields": {
+            "uuid": "ad70d35d-b0bf-48f3-819f-8ac73129b640",
+            "name": "Hospital Gowns",
+            "emoji": "",
+            "parent": "912f5d8c-0730-42ef-a02f-cf39bae13910"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "63be78b3-defe-4110-8d1b-aa53116a3f7b",
+        "fields": {
+            "uuid": "63be78b3-defe-4110-8d1b-aa53116a3f7b",
+            "name": "Isolation Gowns",
+            "emoji": "",
+            "parent": "ad70d35d-b0bf-48f3-819f-8ac73129b640"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ff99daaf-7df4-4e1f-a3c3-1618dec00f8c",
+        "fields": {
+            "uuid": "ff99daaf-7df4-4e1f-a3c3-1618dec00f8c",
+            "name": "Patient Gowns",
+            "emoji": "",
+            "parent": "ad70d35d-b0bf-48f3-819f-8ac73129b640"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ea746dcd-5a6b-4239-bd7d-238340dfcab3",
+        "fields": {
+            "uuid": "ea746dcd-5a6b-4239-bd7d-238340dfcab3",
+            "name": "Medical Bedding",
+            "emoji": "",
+            "parent": "912f5d8c-0730-42ef-a02f-cf39bae13910"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a0450787-d395-4c74-85e1-dace240741d8",
+        "fields": {
+            "uuid": "a0450787-d395-4c74-85e1-dace240741d8",
+            "name": "Medical Equipment",
+            "emoji": "",
+            "parent": "912f5d8c-0730-42ef-a02f-cf39bae13910"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "83a91703-ad27-43e8-9ee2-2bc848279506",
+        "fields": {
+            "uuid": "83a91703-ad27-43e8-9ee2-2bc848279506",
+            "name": "Automated External Defibrillators",
+            "emoji": "",
+            "parent": "a0450787-d395-4c74-85e1-dace240741d8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fa0c62d7-6944-4d59-9e97-15e313f4fc7e",
+        "fields": {
+            "uuid": "fa0c62d7-6944-4d59-9e97-15e313f4fc7e",
+            "name": "Gait Belts",
+            "emoji": "",
+            "parent": "a0450787-d395-4c74-85e1-dace240741d8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e431f0ff-beb6-4c73-a647-6f8c236f5af7",
+        "fields": {
+            "uuid": "e431f0ff-beb6-4c73-a647-6f8c236f5af7",
+            "name": "Medical Reflex Hammers & Tuning Forks",
+            "emoji": "",
+            "parent": "a0450787-d395-4c74-85e1-dace240741d8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7ebffcff-9823-4515-927f-51e4de845d51",
+        "fields": {
+            "uuid": "7ebffcff-9823-4515-927f-51e4de845d51",
+            "name": "Babinski Hammers",
+            "emoji": "",
+            "parent": "e431f0ff-beb6-4c73-a647-6f8c236f5af7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "31876792-ae8f-421e-874d-d96131dc7a19",
+        "fields": {
+            "uuid": "31876792-ae8f-421e-874d-d96131dc7a19",
+            "name": "Buck Hammers",
+            "emoji": "",
+            "parent": "e431f0ff-beb6-4c73-a647-6f8c236f5af7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6c2a4a12-f66b-4e2a-80ae-8bde59dab35f",
+        "fields": {
+            "uuid": "6c2a4a12-f66b-4e2a-80ae-8bde59dab35f",
+            "name": "Tuning Forks",
+            "emoji": "",
+            "parent": "e431f0ff-beb6-4c73-a647-6f8c236f5af7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "365034a0-d23c-4f00-b05b-45fc314ed9aa",
+        "fields": {
+            "uuid": "365034a0-d23c-4f00-b05b-45fc314ed9aa",
+            "name": "Taylor Hammers",
+            "emoji": "",
+            "parent": "e431f0ff-beb6-4c73-a647-6f8c236f5af7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4da93148-1f4e-46c3-82ce-44c0949b23e0",
+        "fields": {
+            "uuid": "4da93148-1f4e-46c3-82ce-44c0949b23e0",
+            "name": "Medical Stretchers & Gurneys",
+            "emoji": "",
+            "parent": "a0450787-d395-4c74-85e1-dace240741d8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "41c91610-46cc-4886-86d5-cb451ba1f305",
+        "fields": {
+            "uuid": "41c91610-46cc-4886-86d5-cb451ba1f305",
+            "name": "Manual Stretchers & Gurneys",
+            "emoji": "",
+            "parent": "4da93148-1f4e-46c3-82ce-44c0949b23e0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "de11c1cd-4b6a-4a71-813c-51e67f9dd5bb",
+        "fields": {
+            "uuid": "de11c1cd-4b6a-4a71-813c-51e67f9dd5bb",
+            "name": "Powered Stretchers & Gurneys",
+            "emoji": "",
+            "parent": "4da93148-1f4e-46c3-82ce-44c0949b23e0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "246c0e35-6892-40da-baf6-2960b91aa019",
+        "fields": {
+            "uuid": "246c0e35-6892-40da-baf6-2960b91aa019",
+            "name": "Otoscopes & Ophthalmoscopes",
+            "emoji": "",
+            "parent": "a0450787-d395-4c74-85e1-dace240741d8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a4874c74-f9e0-4895-a9cc-a97ff87d120a",
+        "fields": {
+            "uuid": "a4874c74-f9e0-4895-a9cc-a97ff87d120a",
+            "name": "Patient Lifts",
+            "emoji": "",
+            "parent": "a0450787-d395-4c74-85e1-dace240741d8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "95b16a88-3866-45b9-9e1a-a22b82a476c2",
+        "fields": {
+            "uuid": "95b16a88-3866-45b9-9e1a-a22b82a476c2",
+            "name": "Bath Lifts",
+            "emoji": "",
+            "parent": "a4874c74-f9e0-4895-a9cc-a97ff87d120a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c5d58c31-6acf-492c-8608-081f5324ff31",
+        "fields": {
+            "uuid": "c5d58c31-6acf-492c-8608-081f5324ff31",
+            "name": "Mobile Lifts",
+            "emoji": "",
+            "parent": "a4874c74-f9e0-4895-a9cc-a97ff87d120a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fd9d9828-a6b2-4cc8-adc0-b6619ac4f5f6",
+        "fields": {
+            "uuid": "fd9d9828-a6b2-4cc8-adc0-b6619ac4f5f6",
+            "name": "Stand-Up Patient Lifts",
+            "emoji": "",
+            "parent": "a4874c74-f9e0-4895-a9cc-a97ff87d120a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "92305c86-9654-430a-b259-dd3822f3e376",
+        "fields": {
+            "uuid": "92305c86-9654-430a-b259-dd3822f3e376",
+            "name": "Stethoscopes",
+            "emoji": "",
+            "parent": "a0450787-d395-4c74-85e1-dace240741d8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7e1e95bd-efa1-4d67-bad8-cff4cffb2d28",
+        "fields": {
+            "uuid": "7e1e95bd-efa1-4d67-bad8-cff4cffb2d28",
+            "name": "Training Stethoscopes",
+            "emoji": "",
+            "parent": "92305c86-9654-430a-b259-dd3822f3e376"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "27171aab-1cae-4bc0-b90c-318682575297",
+        "fields": {
+            "uuid": "27171aab-1cae-4bc0-b90c-318682575297",
+            "name": "Vital Signs Monitor Accessories",
+            "emoji": "",
+            "parent": "a0450787-d395-4c74-85e1-dace240741d8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4b5e346f-375b-44c8-9c02-da95c77b91ae",
+        "fields": {
+            "uuid": "4b5e346f-375b-44c8-9c02-da95c77b91ae",
+            "name": "Vital Signs Monitor Cuffs",
+            "emoji": "",
+            "parent": "27171aab-1cae-4bc0-b90c-318682575297"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bc3a848f-3911-45fe-b68d-689fa2835f1a",
+        "fields": {
+            "uuid": "bc3a848f-3911-45fe-b68d-689fa2835f1a",
+            "name": "Vital Signs Monitor Mounts",
+            "emoji": "",
+            "parent": "27171aab-1cae-4bc0-b90c-318682575297"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ea83b8d3-1f84-4731-be4c-281634495f2e",
+        "fields": {
+            "uuid": "ea83b8d3-1f84-4731-be4c-281634495f2e",
+            "name": "Vital Signs Monitor Power Cords",
+            "emoji": "",
+            "parent": "27171aab-1cae-4bc0-b90c-318682575297"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "62a658aa-c8f9-4e41-be20-c71b651a2f36",
+        "fields": {
+            "uuid": "62a658aa-c8f9-4e41-be20-c71b651a2f36",
+            "name": "Vital Signs Monitor Sensors",
+            "emoji": "",
+            "parent": "27171aab-1cae-4bc0-b90c-318682575297"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "54a1da37-0e9b-4728-8fa3-3bece2907577",
+        "fields": {
+            "uuid": "54a1da37-0e9b-4728-8fa3-3bece2907577",
+            "name": "Vital Signs Monitors",
+            "emoji": "",
+            "parent": "a0450787-d395-4c74-85e1-dace240741d8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b08618ba-0df0-43e4-8f8d-2ef53999f291",
+        "fields": {
+            "uuid": "b08618ba-0df0-43e4-8f8d-2ef53999f291",
+            "name": "ECG Monitors",
+            "emoji": "",
+            "parent": "54a1da37-0e9b-4728-8fa3-3bece2907577"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8b15c1d1-2fc4-4299-9ef3-7c1c792560d8",
+        "fields": {
+            "uuid": "8b15c1d1-2fc4-4299-9ef3-7c1c792560d8",
+            "name": "Multi-Parameter Monitors",
+            "emoji": "",
+            "parent": "54a1da37-0e9b-4728-8fa3-3bece2907577"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dc32ba80-102d-4278-9fdc-60da64e5ae25",
+        "fields": {
+            "uuid": "dc32ba80-102d-4278-9fdc-60da64e5ae25",
+            "name": "Pulse Oximeter Monitors",
+            "emoji": "",
+            "parent": "54a1da37-0e9b-4728-8fa3-3bece2907577"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "87ed931c-94ad-44a3-a5fe-f602b8bb25da",
+        "fields": {
+            "uuid": "87ed931c-94ad-44a3-a5fe-f602b8bb25da",
+            "name": "Medical Furniture",
+            "emoji": "",
+            "parent": "912f5d8c-0730-42ef-a02f-cf39bae13910"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "98403aa0-0ae8-4ca8-b263-15ccf9501fbb",
+        "fields": {
+            "uuid": "98403aa0-0ae8-4ca8-b263-15ccf9501fbb",
+            "name": "Chiropractic Tables",
+            "emoji": "",
+            "parent": "87ed931c-94ad-44a3-a5fe-f602b8bb25da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "06aab1e2-dc55-459e-aa9e-f4a1c167501c",
+        "fields": {
+            "uuid": "06aab1e2-dc55-459e-aa9e-f4a1c167501c",
+            "name": "Portable Chiropractic Tables",
+            "emoji": "",
+            "parent": "98403aa0-0ae8-4ca8-b263-15ccf9501fbb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6f42a314-f213-45ff-8b74-30cf4d6c1baf",
+        "fields": {
+            "uuid": "6f42a314-f213-45ff-8b74-30cf4d6c1baf",
+            "name": "Stationary Chiropractic Tables",
+            "emoji": "",
+            "parent": "98403aa0-0ae8-4ca8-b263-15ccf9501fbb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e7e0cf07-10e4-487c-b2cd-7fb2afb153f6",
+        "fields": {
+            "uuid": "e7e0cf07-10e4-487c-b2cd-7fb2afb153f6",
+            "name": "Examination Chairs & Tables",
+            "emoji": "",
+            "parent": "87ed931c-94ad-44a3-a5fe-f602b8bb25da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "982eed8c-e1c8-41a0-acc8-4b5f45104a52",
+        "fields": {
+            "uuid": "982eed8c-e1c8-41a0-acc8-4b5f45104a52",
+            "name": "Examination Chairs",
+            "emoji": "",
+            "parent": "e7e0cf07-10e4-487c-b2cd-7fb2afb153f6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8fd05aff-cf42-4da2-9c37-dfb318588ac1",
+        "fields": {
+            "uuid": "8fd05aff-cf42-4da2-9c37-dfb318588ac1",
+            "name": "Manual Examination Chairs",
+            "emoji": "",
+            "parent": "982eed8c-e1c8-41a0-acc8-4b5f45104a52"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "433d02f8-3073-4f4a-aa27-9afb8dd7f88a",
+        "fields": {
+            "uuid": "433d02f8-3073-4f4a-aa27-9afb8dd7f88a",
+            "name": "Powered Examination Chairs",
+            "emoji": "",
+            "parent": "982eed8c-e1c8-41a0-acc8-4b5f45104a52"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fb53081f-56c3-4265-a1a3-65306559523d",
+        "fields": {
+            "uuid": "fb53081f-56c3-4265-a1a3-65306559523d",
+            "name": "Examination Tables",
+            "emoji": "",
+            "parent": "e7e0cf07-10e4-487c-b2cd-7fb2afb153f6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b0add273-2d35-4b7b-a843-5344be40ad27",
+        "fields": {
+            "uuid": "b0add273-2d35-4b7b-a843-5344be40ad27",
+            "name": "Manual Examination Tables",
+            "emoji": "",
+            "parent": "fb53081f-56c3-4265-a1a3-65306559523d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "952d8e94-a385-4f0b-99e7-d371248fdb1c",
+        "fields": {
+            "uuid": "952d8e94-a385-4f0b-99e7-d371248fdb1c",
+            "name": "Powered Examination Tables",
+            "emoji": "",
+            "parent": "fb53081f-56c3-4265-a1a3-65306559523d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "37af91ad-da0c-4493-a974-ba1439f5847f",
+        "fields": {
+            "uuid": "37af91ad-da0c-4493-a974-ba1439f5847f",
+            "name": "Homecare & Hospital Beds",
+            "emoji": "",
+            "parent": "87ed931c-94ad-44a3-a5fe-f602b8bb25da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e03facd5-28aa-4358-892f-a2d83cf9b662",
+        "fields": {
+            "uuid": "e03facd5-28aa-4358-892f-a2d83cf9b662",
+            "name": "Full-Electric Beds",
+            "emoji": "",
+            "parent": "37af91ad-da0c-4493-a974-ba1439f5847f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "13a430e3-ed1b-442b-b567-59615dc88218",
+        "fields": {
+            "uuid": "13a430e3-ed1b-442b-b567-59615dc88218",
+            "name": "Manual Beds",
+            "emoji": "",
+            "parent": "37af91ad-da0c-4493-a974-ba1439f5847f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ef5bb809-ea52-449a-9330-a4eba93a795a",
+        "fields": {
+            "uuid": "ef5bb809-ea52-449a-9330-a4eba93a795a",
+            "name": "Semi-Electric Beds",
+            "emoji": "",
+            "parent": "37af91ad-da0c-4493-a974-ba1439f5847f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "51db8231-b0c0-4b96-a176-90dd50bacddb",
+        "fields": {
+            "uuid": "51db8231-b0c0-4b96-a176-90dd50bacddb",
+            "name": "Medical Cabinets",
+            "emoji": "",
+            "parent": "87ed931c-94ad-44a3-a5fe-f602b8bb25da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2bf322b0-1ea1-4585-bbb9-84f59dceb6c6",
+        "fields": {
+            "uuid": "2bf322b0-1ea1-4585-bbb9-84f59dceb6c6",
+            "name": "Bedside Cabinets",
+            "emoji": "",
+            "parent": "51db8231-b0c0-4b96-a176-90dd50bacddb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1efc3dc0-4f99-4487-9bed-ea470bf4d29f",
+        "fields": {
+            "uuid": "1efc3dc0-4f99-4487-9bed-ea470bf4d29f",
+            "name": "Exam Room Cabinets",
+            "emoji": "",
+            "parent": "51db8231-b0c0-4b96-a176-90dd50bacddb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "193093ea-92c5-4751-a390-5613314020cd",
+        "fields": {
+            "uuid": "193093ea-92c5-4751-a390-5613314020cd",
+            "name": "Medical Carts",
+            "emoji": "",
+            "parent": "87ed931c-94ad-44a3-a5fe-f602b8bb25da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d96a3f49-9510-4f8b-98f5-30e7c614be9c",
+        "fields": {
+            "uuid": "d96a3f49-9510-4f8b-98f5-30e7c614be9c",
+            "name": "Crash Carts",
+            "emoji": "",
+            "parent": "193093ea-92c5-4751-a390-5613314020cd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0cb22db4-ec21-47e7-a4b4-ce918b8677be",
+        "fields": {
+            "uuid": "0cb22db4-ec21-47e7-a4b4-ce918b8677be",
+            "name": "Anesthesia Crash Carts",
+            "emoji": "",
+            "parent": "d96a3f49-9510-4f8b-98f5-30e7c614be9c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b58b9728-cbdc-447d-b25b-aefde4319bb0",
+        "fields": {
+            "uuid": "b58b9728-cbdc-447d-b25b-aefde4319bb0",
+            "name": "Emergency Crash Carts",
+            "emoji": "",
+            "parent": "d96a3f49-9510-4f8b-98f5-30e7c614be9c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "628af554-d54d-49a9-b8e6-99f94492ac87",
+        "fields": {
+            "uuid": "628af554-d54d-49a9-b8e6-99f94492ac87",
+            "name": "Isolation Crash Carts",
+            "emoji": "",
+            "parent": "d96a3f49-9510-4f8b-98f5-30e7c614be9c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9eb60f3c-fa3d-4431-a042-2495c44d5853",
+        "fields": {
+            "uuid": "9eb60f3c-fa3d-4431-a042-2495c44d5853",
+            "name": "Pediatric Crash Carts",
+            "emoji": "",
+            "parent": "d96a3f49-9510-4f8b-98f5-30e7c614be9c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d07f870d-6f19-43b4-9ef8-17e8798fc883",
+        "fields": {
+            "uuid": "d07f870d-6f19-43b4-9ef8-17e8798fc883",
+            "name": "IV Poles & Carts",
+            "emoji": "",
+            "parent": "193093ea-92c5-4751-a390-5613314020cd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c7fb89ac-eef2-4fdc-9774-41ed144dac66",
+        "fields": {
+            "uuid": "c7fb89ac-eef2-4fdc-9774-41ed144dac66",
+            "name": "Surgical Tables",
+            "emoji": "",
+            "parent": "87ed931c-94ad-44a3-a5fe-f602b8bb25da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ab5f4d3d-bbf4-41dd-be10-5d841870d93f",
+        "fields": {
+            "uuid": "ab5f4d3d-bbf4-41dd-be10-5d841870d93f",
+            "name": "General Surgery Surgical Tables",
+            "emoji": "",
+            "parent": "c7fb89ac-eef2-4fdc-9774-41ed144dac66"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "073a319d-4e11-4c9d-88b6-b34fdb6be865",
+        "fields": {
+            "uuid": "073a319d-4e11-4c9d-88b6-b34fdb6be865",
+            "name": "Orthopedic Surgical Tables",
+            "emoji": "",
+            "parent": "c7fb89ac-eef2-4fdc-9774-41ed144dac66"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f71121d8-5ba7-40cf-88cc-bf1628a19ee3",
+        "fields": {
+            "uuid": "f71121d8-5ba7-40cf-88cc-bf1628a19ee3",
+            "name": "Medical Instruments",
+            "emoji": "",
+            "parent": "912f5d8c-0730-42ef-a02f-cf39bae13910"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "37e770d9-6923-44db-b021-6dc4f50ae4bc",
+        "fields": {
+            "uuid": "37e770d9-6923-44db-b021-6dc4f50ae4bc",
+            "name": "Medical Forceps",
+            "emoji": "",
+            "parent": "f71121d8-5ba7-40cf-88cc-bf1628a19ee3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e33c4fc9-bda2-41b5-8413-1647c52cde74",
+        "fields": {
+            "uuid": "e33c4fc9-bda2-41b5-8413-1647c52cde74",
+            "name": "Dressing Forceps",
+            "emoji": "",
+            "parent": "37e770d9-6923-44db-b021-6dc4f50ae4bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1d0cb8c3-07e7-4551-a4bf-a9e117861ec6",
+        "fields": {
+            "uuid": "1d0cb8c3-07e7-4551-a4bf-a9e117861ec6",
+            "name": "Hemostatic Forceps",
+            "emoji": "",
+            "parent": "37e770d9-6923-44db-b021-6dc4f50ae4bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f1800723-1106-4ffc-811a-4bbf8bc008b9",
+        "fields": {
+            "uuid": "f1800723-1106-4ffc-811a-4bbf8bc008b9",
+            "name": "Splinter Forceps",
+            "emoji": "",
+            "parent": "37e770d9-6923-44db-b021-6dc4f50ae4bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fa97fe26-7a80-4042-9307-de8ac0df60f2",
+        "fields": {
+            "uuid": "fa97fe26-7a80-4042-9307-de8ac0df60f2",
+            "name": "Tissue Forceps",
+            "emoji": "",
+            "parent": "37e770d9-6923-44db-b021-6dc4f50ae4bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6c14f7c5-7fb9-468a-963e-c0d155c4de99",
+        "fields": {
+            "uuid": "6c14f7c5-7fb9-468a-963e-c0d155c4de99",
+            "name": "Scalpel Blades",
+            "emoji": "",
+            "parent": "f71121d8-5ba7-40cf-88cc-bf1628a19ee3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5e30485b-900a-4773-9249-7be95714ff71",
+        "fields": {
+            "uuid": "5e30485b-900a-4773-9249-7be95714ff71",
+            "name": "Scalpels",
+            "emoji": "",
+            "parent": "f71121d8-5ba7-40cf-88cc-bf1628a19ee3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "da05c5b1-84d0-4a45-917e-49a8499f7eab",
+        "fields": {
+            "uuid": "da05c5b1-84d0-4a45-917e-49a8499f7eab",
+            "name": "Surgical Needles & Sutures",
+            "emoji": "",
+            "parent": "f71121d8-5ba7-40cf-88cc-bf1628a19ee3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "caeca1eb-26b7-4c6f-ba99-9eb6b99964f4",
+        "fields": {
+            "uuid": "caeca1eb-26b7-4c6f-ba99-9eb6b99964f4",
+            "name": "Surgical Needles",
+            "emoji": "",
+            "parent": "da05c5b1-84d0-4a45-917e-49a8499f7eab"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c693fc3f-a32e-45e5-93ab-9057fd0b0710",
+        "fields": {
+            "uuid": "c693fc3f-a32e-45e5-93ab-9057fd0b0710",
+            "name": "Cutting Surgical Needles",
+            "emoji": "",
+            "parent": "caeca1eb-26b7-4c6f-ba99-9eb6b99964f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a6302198-e06a-4aa1-be85-288290bc6021",
+        "fields": {
+            "uuid": "a6302198-e06a-4aa1-be85-288290bc6021",
+            "name": "Reverse Cutting Surgical Needles",
+            "emoji": "",
+            "parent": "caeca1eb-26b7-4c6f-ba99-9eb6b99964f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "92d6a65d-cacc-42e6-ac1c-1bd20b913037",
+        "fields": {
+            "uuid": "92d6a65d-cacc-42e6-ac1c-1bd20b913037",
+            "name": "Taper Surgical Needles",
+            "emoji": "",
+            "parent": "caeca1eb-26b7-4c6f-ba99-9eb6b99964f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d85e033f-e7a0-464e-a55b-43faf04ec27f",
+        "fields": {
+            "uuid": "d85e033f-e7a0-464e-a55b-43faf04ec27f",
+            "name": "Surgical Sutures",
+            "emoji": "",
+            "parent": "da05c5b1-84d0-4a45-917e-49a8499f7eab"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "92926ea7-7eab-4fbc-a016-0b6dcf531f77",
+        "fields": {
+            "uuid": "92926ea7-7eab-4fbc-a016-0b6dcf531f77",
+            "name": "Absorbable Surgical Sutures",
+            "emoji": "",
+            "parent": "d85e033f-e7a0-464e-a55b-43faf04ec27f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "89a0d028-ec24-4198-89af-ff58a7d0f38c",
+        "fields": {
+            "uuid": "89a0d028-ec24-4198-89af-ff58a7d0f38c",
+            "name": "Non-Absorbable Surgical Sutures",
+            "emoji": "",
+            "parent": "d85e033f-e7a0-464e-a55b-43faf04ec27f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7bf06517-365c-482f-b4ee-e25c27383627",
+        "fields": {
+            "uuid": "7bf06517-365c-482f-b4ee-e25c27383627",
+            "name": "Medical Supplies",
+            "emoji": "",
+            "parent": "912f5d8c-0730-42ef-a02f-cf39bae13910"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8ce35eba-6fe0-4547-a3e0-4133c87a72af",
+        "fields": {
+            "uuid": "8ce35eba-6fe0-4547-a3e0-4133c87a72af",
+            "name": "Disposable Gloves",
+            "emoji": "",
+            "parent": "7bf06517-365c-482f-b4ee-e25c27383627"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0f989b6b-bb95-4c9c-889e-67b02bbce825",
+        "fields": {
+            "uuid": "0f989b6b-bb95-4c9c-889e-67b02bbce825",
+            "name": "Finger Cots",
+            "emoji": "",
+            "parent": "7bf06517-365c-482f-b4ee-e25c27383627"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e46fabb9-75fa-461b-817b-89c561780dce",
+        "fields": {
+            "uuid": "e46fabb9-75fa-461b-817b-89c561780dce",
+            "name": "Medical Needles & Syringes",
+            "emoji": "",
+            "parent": "7bf06517-365c-482f-b4ee-e25c27383627"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dc7fd2d7-acb6-4039-838d-9472033cda7f",
+        "fields": {
+            "uuid": "dc7fd2d7-acb6-4039-838d-9472033cda7f",
+            "name": "Medical Needle & Syringe Sets",
+            "emoji": "",
+            "parent": "e46fabb9-75fa-461b-817b-89c561780dce"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5adf4eeb-7a5c-4138-a275-f1e9991c6732",
+        "fields": {
+            "uuid": "5adf4eeb-7a5c-4138-a275-f1e9991c6732",
+            "name": "Medical Needles",
+            "emoji": "",
+            "parent": "e46fabb9-75fa-461b-817b-89c561780dce"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "365fa86f-4138-43e9-bab6-ce1138726830",
+        "fields": {
+            "uuid": "365fa86f-4138-43e9-bab6-ce1138726830",
+            "name": "Medical Syringes",
+            "emoji": "",
+            "parent": "e46fabb9-75fa-461b-817b-89c561780dce"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b2b71b38-29d7-4856-9bdf-2ca384674e76",
+        "fields": {
+            "uuid": "b2b71b38-29d7-4856-9bdf-2ca384674e76",
+            "name": "Ostomy Supplies",
+            "emoji": "",
+            "parent": "7bf06517-365c-482f-b4ee-e25c27383627"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3ca4ab45-9d93-4473-b345-f62d5e49d2b7",
+        "fields": {
+            "uuid": "3ca4ab45-9d93-4473-b345-f62d5e49d2b7",
+            "name": "Adhesive Removers",
+            "emoji": "",
+            "parent": "b2b71b38-29d7-4856-9bdf-2ca384674e76"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0f471d38-08dd-46e3-8e1d-ac5e6f570148",
+        "fields": {
+            "uuid": "0f471d38-08dd-46e3-8e1d-ac5e6f570148",
+            "name": "Ostomy Bags",
+            "emoji": "",
+            "parent": "b2b71b38-29d7-4856-9bdf-2ca384674e76"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7a9d869d-741e-40b1-a85f-fa5707e95db2",
+        "fields": {
+            "uuid": "7a9d869d-741e-40b1-a85f-fa5707e95db2",
+            "name": "Ostomy Belts",
+            "emoji": "",
+            "parent": "b2b71b38-29d7-4856-9bdf-2ca384674e76"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "44ec945a-b0ca-4fd1-ad31-a6fe3a669e2c",
+        "fields": {
+            "uuid": "44ec945a-b0ca-4fd1-ad31-a6fe3a669e2c",
+            "name": "Skin Barriers",
+            "emoji": "",
+            "parent": "b2b71b38-29d7-4856-9bdf-2ca384674e76"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "72b550b0-88b3-4c28-ba80-68ddc1a8705c",
+        "fields": {
+            "uuid": "72b550b0-88b3-4c28-ba80-68ddc1a8705c",
+            "name": "Tongue Depressors",
+            "emoji": "",
+            "parent": "7bf06517-365c-482f-b4ee-e25c27383627"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d6cba221-9e58-456e-a79e-ac807dd23848",
+        "fields": {
+            "uuid": "d6cba221-9e58-456e-a79e-ac807dd23848",
+            "name": "Medical Teaching Equipment",
+            "emoji": "",
+            "parent": "912f5d8c-0730-42ef-a02f-cf39bae13910"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "357c8e7e-fd7e-4d25-ad7d-a25fb45a02bc",
+        "fields": {
+            "uuid": "357c8e7e-fd7e-4d25-ad7d-a25fb45a02bc",
+            "name": "Medical & Emergency Response Training Mannequins",
+            "emoji": "",
+            "parent": "d6cba221-9e58-456e-a79e-ac807dd23848"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "38267577-75c4-4b4a-ba8f-927557ba47f3",
+        "fields": {
+            "uuid": "38267577-75c4-4b4a-ba8f-927557ba47f3",
+            "name": "Childbirth Training Mannequins",
+            "emoji": "",
+            "parent": "357c8e7e-fd7e-4d25-ad7d-a25fb45a02bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "10a98c55-accd-4633-a971-77324072091c",
+        "fields": {
+            "uuid": "10a98c55-accd-4633-a971-77324072091c",
+            "name": "Choking Training Mannequins",
+            "emoji": "",
+            "parent": "357c8e7e-fd7e-4d25-ad7d-a25fb45a02bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5fb9622e-b9c5-4d90-be7b-39a43adf188f",
+        "fields": {
+            "uuid": "5fb9622e-b9c5-4d90-be7b-39a43adf188f",
+            "name": "CPR Training Mannequins",
+            "emoji": "",
+            "parent": "357c8e7e-fd7e-4d25-ad7d-a25fb45a02bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "030b717d-92f0-4eea-bdce-5b76ac51e82c",
+        "fields": {
+            "uuid": "030b717d-92f0-4eea-bdce-5b76ac51e82c",
+            "name": "Trauma Training Mannequins",
+            "emoji": "",
+            "parent": "357c8e7e-fd7e-4d25-ad7d-a25fb45a02bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6d42983a-1c75-46a1-9a7d-a3ca6b1e96dd",
+        "fields": {
+            "uuid": "6d42983a-1c75-46a1-9a7d-a3ca6b1e96dd",
+            "name": "Scrub Caps",
+            "emoji": "",
+            "parent": "912f5d8c-0730-42ef-a02f-cf39bae13910"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3d25c903-5ab1-4052-8ccf-7739b6e7bc66",
+        "fields": {
+            "uuid": "3d25c903-5ab1-4052-8ccf-7739b6e7bc66",
+            "name": "Scrubs",
+            "emoji": "",
+            "parent": "912f5d8c-0730-42ef-a02f-cf39bae13910"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4c676979-e4c4-482a-87a1-b2a26d9b1621",
+        "fields": {
+            "uuid": "4c676979-e4c4-482a-87a1-b2a26d9b1621",
+            "name": "Surgical Gowns",
+            "emoji": "",
+            "parent": "912f5d8c-0730-42ef-a02f-cf39bae13910"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cde4ff5f-a30a-4a24-af2d-9cf82f68ed8e",
+        "fields": {
+            "uuid": "cde4ff5f-a30a-4a24-af2d-9cf82f68ed8e",
+            "name": "Mining & Quarrying",
+            "emoji": "",
+            "parent": "8163b097-c8b5-4bd3-8127-f1c10aa8ff8a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b3bfb061-283d-4b71-b921-e434e1de52ec",
+        "fields": {
+            "uuid": "b3bfb061-283d-4b71-b921-e434e1de52ec",
+            "name": "Mining & Quarrying Machinery",
+            "emoji": "",
+            "parent": "cde4ff5f-a30a-4a24-af2d-9cf82f68ed8e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2d22d995-d68a-44a0-8b5e-8dc7ed2b23bf",
+        "fields": {
+            "uuid": "2d22d995-d68a-44a0-8b5e-8dc7ed2b23bf",
+            "name": "Crushers",
+            "emoji": "",
+            "parent": "b3bfb061-283d-4b71-b921-e434e1de52ec"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "17857efe-c62b-4bd6-8713-955a7a4b24ce",
+        "fields": {
+            "uuid": "17857efe-c62b-4bd6-8713-955a7a4b24ce",
+            "name": "Cone Crushers",
+            "emoji": "",
+            "parent": "2d22d995-d68a-44a0-8b5e-8dc7ed2b23bf"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6258b2c6-d75b-48ee-9201-ea265bf9b418",
+        "fields": {
+            "uuid": "6258b2c6-d75b-48ee-9201-ea265bf9b418",
+            "name": "Gyratory Crushers",
+            "emoji": "",
+            "parent": "2d22d995-d68a-44a0-8b5e-8dc7ed2b23bf"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0ce9b16a-484c-4c32-9238-e96480caecac",
+        "fields": {
+            "uuid": "0ce9b16a-484c-4c32-9238-e96480caecac",
+            "name": "Impact Crushers",
+            "emoji": "",
+            "parent": "2d22d995-d68a-44a0-8b5e-8dc7ed2b23bf"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ebb17a0c-d6ab-4c49-a424-d0c5d5fdda27",
+        "fields": {
+            "uuid": "ebb17a0c-d6ab-4c49-a424-d0c5d5fdda27",
+            "name": "Jaw Crushers",
+            "emoji": "",
+            "parent": "2d22d995-d68a-44a0-8b5e-8dc7ed2b23bf"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c3d8426a-6bc8-41da-a8c8-0a7c5a1ab89f",
+        "fields": {
+            "uuid": "c3d8426a-6bc8-41da-a8c8-0a7c5a1ab89f",
+            "name": "Drilling Rigs",
+            "emoji": "",
+            "parent": "b3bfb061-283d-4b71-b921-e434e1de52ec"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0ac50eec-3860-4657-8cc8-507531e0a35d",
+        "fields": {
+            "uuid": "0ac50eec-3860-4657-8cc8-507531e0a35d",
+            "name": "Mining & Quarrying Supplies",
+            "emoji": "",
+            "parent": "cde4ff5f-a30a-4a24-af2d-9cf82f68ed8e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a210d58e-5217-47f4-b89b-845aaa1bbbe0",
+        "fields": {
+            "uuid": "a210d58e-5217-47f4-b89b-845aaa1bbbe0",
+            "name": "Piercing & Tattooing",
+            "emoji": "",
+            "parent": "8163b097-c8b5-4bd3-8127-f1c10aa8ff8a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3182f479-456f-4b82-b37e-21a1c2f372f9",
+        "fields": {
+            "uuid": "3182f479-456f-4b82-b37e-21a1c2f372f9",
+            "name": "Piercing Supplies",
+            "emoji": "",
+            "parent": "a210d58e-5217-47f4-b89b-845aaa1bbbe0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "36ab98a6-3371-47c3-840b-87a92dd6d2e9",
+        "fields": {
+            "uuid": "36ab98a6-3371-47c3-840b-87a92dd6d2e9",
+            "name": "Piercing Needles",
+            "emoji": "",
+            "parent": "3182f479-456f-4b82-b37e-21a1c2f372f9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ef302d62-dea8-4729-b28d-d47b85fae9c0",
+        "fields": {
+            "uuid": "ef302d62-dea8-4729-b28d-d47b85fae9c0",
+            "name": "Cannula Needles",
+            "emoji": "",
+            "parent": "36ab98a6-3371-47c3-840b-87a92dd6d2e9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7c8265e8-6822-43a8-a4ae-373f05523f04",
+        "fields": {
+            "uuid": "7c8265e8-6822-43a8-a4ae-373f05523f04",
+            "name": "Dermal Punches",
+            "emoji": "",
+            "parent": "36ab98a6-3371-47c3-840b-87a92dd6d2e9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "186def8e-4e7f-4294-a6b8-33929fe6d8f0",
+        "fields": {
+            "uuid": "186def8e-4e7f-4294-a6b8-33929fe6d8f0",
+            "name": "Tattooing Supplies",
+            "emoji": "",
+            "parent": "a210d58e-5217-47f4-b89b-845aaa1bbbe0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e5c6eaa2-32fa-4602-9d4c-56705c1cd314",
+        "fields": {
+            "uuid": "e5c6eaa2-32fa-4602-9d4c-56705c1cd314",
+            "name": "Tattoo Cover-Ups",
+            "emoji": "",
+            "parent": "186def8e-4e7f-4294-a6b8-33929fe6d8f0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b5f1fc9f-cc25-456a-bf9b-7d8979177e03",
+        "fields": {
+            "uuid": "b5f1fc9f-cc25-456a-bf9b-7d8979177e03",
+            "name": "Tattooing Inks",
+            "emoji": "",
+            "parent": "186def8e-4e7f-4294-a6b8-33929fe6d8f0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f4b7d217-777b-4716-88bd-4961f5dc8004",
+        "fields": {
+            "uuid": "f4b7d217-777b-4716-88bd-4961f5dc8004",
+            "name": "Tattooing Machines",
+            "emoji": "",
+            "parent": "186def8e-4e7f-4294-a6b8-33929fe6d8f0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a53117ca-7805-4255-a15d-2be3c035edbf",
+        "fields": {
+            "uuid": "a53117ca-7805-4255-a15d-2be3c035edbf",
+            "name": "Coil Tattooing Machines",
+            "emoji": "",
+            "parent": "f4b7d217-777b-4716-88bd-4961f5dc8004"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dd201213-095d-434f-a796-a10a9acdfe93",
+        "fields": {
+            "uuid": "dd201213-095d-434f-a796-a10a9acdfe93",
+            "name": "Pen Tattooing Machines",
+            "emoji": "",
+            "parent": "f4b7d217-777b-4716-88bd-4961f5dc8004"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9eccd3a4-77e4-4886-b938-d966f4362316",
+        "fields": {
+            "uuid": "9eccd3a4-77e4-4886-b938-d966f4362316",
+            "name": "Rotary Tattooing Machines",
+            "emoji": "",
+            "parent": "f4b7d217-777b-4716-88bd-4961f5dc8004"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e94acef7-c63c-4802-ae8d-d0695e25e1f8",
+        "fields": {
+            "uuid": "e94acef7-c63c-4802-ae8d-d0695e25e1f8",
+            "name": "Tattooing Needles",
+            "emoji": "",
+            "parent": "186def8e-4e7f-4294-a6b8-33929fe6d8f0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "55b901f6-aee3-44af-815d-c5630877d573",
+        "fields": {
+            "uuid": "55b901f6-aee3-44af-815d-c5630877d573",
+            "name": "Curved Magnum Tattooing Needles",
+            "emoji": "",
+            "parent": "e94acef7-c63c-4802-ae8d-d0695e25e1f8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "caf85b0e-9303-4ff4-811b-d03955fb345d",
+        "fields": {
+            "uuid": "caf85b0e-9303-4ff4-811b-d03955fb345d",
+            "name": "Magnum Tattooing Needles",
+            "emoji": "",
+            "parent": "e94acef7-c63c-4802-ae8d-d0695e25e1f8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b2f1bdde-1e40-4d88-9556-354dc0c13199",
+        "fields": {
+            "uuid": "b2f1bdde-1e40-4d88-9556-354dc0c13199",
+            "name": "Round Liner Tattooing Needles",
+            "emoji": "",
+            "parent": "e94acef7-c63c-4802-ae8d-d0695e25e1f8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "598f09b2-9104-4053-86ca-4bb7508a7933",
+        "fields": {
+            "uuid": "598f09b2-9104-4053-86ca-4bb7508a7933",
+            "name": "Round Shader Tattooing Needles",
+            "emoji": "",
+            "parent": "e94acef7-c63c-4802-ae8d-d0695e25e1f8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4d6022ff-372a-4a8f-af96-52284deeeeca",
+        "fields": {
+            "uuid": "4d6022ff-372a-4a8f-af96-52284deeeeca",
+            "name": "Retail",
+            "emoji": "",
+            "parent": "8163b097-c8b5-4bd3-8127-f1c10aa8ff8a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f17854cc-34cc-4052-8bc3-d6c628ba9ca6",
+        "fields": {
+            "uuid": "f17854cc-34cc-4052-8bc3-d6c628ba9ca6",
+            "name": "Clothing Display Racks",
+            "emoji": "",
+            "parent": "4d6022ff-372a-4a8f-af96-52284deeeeca"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c0daa5fd-daf6-4c3d-8990-ab5eb96222a3",
+        "fields": {
+            "uuid": "c0daa5fd-daf6-4c3d-8990-ab5eb96222a3",
+            "name": "Four-Way Clothing Display Racks",
+            "emoji": "",
+            "parent": "f17854cc-34cc-4052-8bc3-d6c628ba9ca6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5cc14004-4625-4739-8286-cf816c60046f",
+        "fields": {
+            "uuid": "5cc14004-4625-4739-8286-cf816c60046f",
+            "name": "Round Clothing Display Racks",
+            "emoji": "",
+            "parent": "f17854cc-34cc-4052-8bc3-d6c628ba9ca6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "abad9e2a-1919-4e66-b3f2-69cd2576e44f",
+        "fields": {
+            "uuid": "abad9e2a-1919-4e66-b3f2-69cd2576e44f",
+            "name": "Straight Clothing Display Racks",
+            "emoji": "",
+            "parent": "f17854cc-34cc-4052-8bc3-d6c628ba9ca6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4edb9c4a-1216-4818-a110-9dede33f59ac",
+        "fields": {
+            "uuid": "4edb9c4a-1216-4818-a110-9dede33f59ac",
+            "name": "Two-Way Clothing Display Racks",
+            "emoji": "",
+            "parent": "f17854cc-34cc-4052-8bc3-d6c628ba9ca6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ab627ba7-25d3-481a-a614-c4ae81886813",
+        "fields": {
+            "uuid": "ab627ba7-25d3-481a-a614-c4ae81886813",
+            "name": "Display Mannequins",
+            "emoji": "",
+            "parent": "4d6022ff-372a-4a8f-af96-52284deeeeca"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8bb2ce78-c56b-49e7-8021-8446a8ccb1d1",
+        "fields": {
+            "uuid": "8bb2ce78-c56b-49e7-8021-8446a8ccb1d1",
+            "name": "Full Body Display Mannequins",
+            "emoji": "",
+            "parent": "ab627ba7-25d3-481a-a614-c4ae81886813"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "898f8c38-b24d-4b70-8839-95c286534ad0",
+        "fields": {
+            "uuid": "898f8c38-b24d-4b70-8839-95c286534ad0",
+            "name": "Head Display Mannequins",
+            "emoji": "",
+            "parent": "ab627ba7-25d3-481a-a614-c4ae81886813"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5736e032-f07d-42e7-86f4-31eb02a40d99",
+        "fields": {
+            "uuid": "5736e032-f07d-42e7-86f4-31eb02a40d99",
+            "name": "Leg Display Mannequins",
+            "emoji": "",
+            "parent": "ab627ba7-25d3-481a-a614-c4ae81886813"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1e3afa98-4a1e-4c86-97bf-8ae9f02f934d",
+        "fields": {
+            "uuid": "1e3afa98-4a1e-4c86-97bf-8ae9f02f934d",
+            "name": "Torso Display Mannequins",
+            "emoji": "",
+            "parent": "ab627ba7-25d3-481a-a614-c4ae81886813"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "24bf6a69-0b53-415a-a55b-cf552a3ed24f",
+        "fields": {
+            "uuid": "24bf6a69-0b53-415a-a55b-cf552a3ed24f",
+            "name": "Mannequin Parts",
+            "emoji": "",
+            "parent": "4d6022ff-372a-4a8f-af96-52284deeeeca"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "68a7cce0-308c-4417-90b1-484906b7e710",
+        "fields": {
+            "uuid": "68a7cce0-308c-4417-90b1-484906b7e710",
+            "name": "Mannequin Arms",
+            "emoji": "",
+            "parent": "24bf6a69-0b53-415a-a55b-cf552a3ed24f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bf67114d-cafc-4e37-b38b-24e2fc36644a",
+        "fields": {
+            "uuid": "bf67114d-cafc-4e37-b38b-24e2fc36644a",
+            "name": "Mannequin Heads",
+            "emoji": "",
+            "parent": "24bf6a69-0b53-415a-a55b-cf552a3ed24f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ebfcfc29-7793-470e-af84-687efd16d07a",
+        "fields": {
+            "uuid": "ebfcfc29-7793-470e-af84-687efd16d07a",
+            "name": "Mannequin Legs",
+            "emoji": "",
+            "parent": "24bf6a69-0b53-415a-a55b-cf552a3ed24f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "11da1eb0-168a-4f35-bf60-219f7c32d5b1",
+        "fields": {
+            "uuid": "11da1eb0-168a-4f35-bf60-219f7c32d5b1",
+            "name": "Mannequin Torsos",
+            "emoji": "",
+            "parent": "24bf6a69-0b53-415a-a55b-cf552a3ed24f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d192ef52-cf3c-4c4a-9fcc-a9cfb8f40c5e",
+        "fields": {
+            "uuid": "d192ef52-cf3c-4c4a-9fcc-a9cfb8f40c5e",
+            "name": "Money Handling",
+            "emoji": "",
+            "parent": "4d6022ff-372a-4a8f-af96-52284deeeeca"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "188885fd-6a36-41c5-8cd3-e697e75d3940",
+        "fields": {
+            "uuid": "188885fd-6a36-41c5-8cd3-e697e75d3940",
+            "name": "Banknote Verifiers",
+            "emoji": "",
+            "parent": "d192ef52-cf3c-4c4a-9fcc-a9cfb8f40c5e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "49e326bf-6ee2-4984-8f88-c570d272b257",
+        "fields": {
+            "uuid": "49e326bf-6ee2-4984-8f88-c570d272b257",
+            "name": "Cash Register & POS Terminal Accessories",
+            "emoji": "",
+            "parent": "d192ef52-cf3c-4c4a-9fcc-a9cfb8f40c5e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e70ef0ea-4112-4c79-bc5e-52ed1fa2aa8e",
+        "fields": {
+            "uuid": "e70ef0ea-4112-4c79-bc5e-52ed1fa2aa8e",
+            "name": "Cash Drawers & Trays",
+            "emoji": "",
+            "parent": "49e326bf-6ee2-4984-8f88-c570d272b257"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d146b4d9-e541-4c2b-9df8-3f554cc5cf08",
+        "fields": {
+            "uuid": "d146b4d9-e541-4c2b-9df8-3f554cc5cf08",
+            "name": "Electronic Cash Drawers",
+            "emoji": "",
+            "parent": "e70ef0ea-4112-4c79-bc5e-52ed1fa2aa8e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "91493550-3dc4-4f7b-8e51-d065fa8e9694",
+        "fields": {
+            "uuid": "91493550-3dc4-4f7b-8e51-d065fa8e9694",
+            "name": "Manual Cash Drawers",
+            "emoji": "",
+            "parent": "e70ef0ea-4112-4c79-bc5e-52ed1fa2aa8e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ab8fb3e6-13f7-4785-b8d7-7b6bb6d934bb",
+        "fields": {
+            "uuid": "ab8fb3e6-13f7-4785-b8d7-7b6bb6d934bb",
+            "name": "Credit Card Terminals",
+            "emoji": "",
+            "parent": "49e326bf-6ee2-4984-8f88-c570d272b257"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "068804d8-23cb-41e1-98c3-dd6eefda5aa3",
+        "fields": {
+            "uuid": "068804d8-23cb-41e1-98c3-dd6eefda5aa3",
+            "name": "Signature Capture Pads",
+            "emoji": "",
+            "parent": "49e326bf-6ee2-4984-8f88-c570d272b257"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8d85ad80-fafa-43a6-86b3-dd20fdb7b70f",
+        "fields": {
+            "uuid": "8d85ad80-fafa-43a6-86b3-dd20fdb7b70f",
+            "name": "Cash Registers & POS Terminals",
+            "emoji": "",
+            "parent": "d192ef52-cf3c-4c4a-9fcc-a9cfb8f40c5e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bb43cd54-e24e-436d-a97e-ab65475fb5d6",
+        "fields": {
+            "uuid": "bb43cd54-e24e-436d-a97e-ab65475fb5d6",
+            "name": "Cash Registers",
+            "emoji": "",
+            "parent": "8d85ad80-fafa-43a6-86b3-dd20fdb7b70f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ff28c28e-9a5a-4e95-9a1b-fdf93c58037a",
+        "fields": {
+            "uuid": "ff28c28e-9a5a-4e95-9a1b-fdf93c58037a",
+            "name": "POS Terminals",
+            "emoji": "",
+            "parent": "8d85ad80-fafa-43a6-86b3-dd20fdb7b70f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c1dbe701-35cd-4c7b-8117-0ea9f56eff10",
+        "fields": {
+            "uuid": "c1dbe701-35cd-4c7b-8117-0ea9f56eff10",
+            "name": "Coin & Bill Counters",
+            "emoji": "",
+            "parent": "d192ef52-cf3c-4c4a-9fcc-a9cfb8f40c5e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2c34d6ff-05d5-4353-accb-39316adec1ce",
+        "fields": {
+            "uuid": "2c34d6ff-05d5-4353-accb-39316adec1ce",
+            "name": "Money Changers",
+            "emoji": "",
+            "parent": "d192ef52-cf3c-4c4a-9fcc-a9cfb8f40c5e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cb9b1dc4-d735-4ed0-b3b4-9c5376059af5",
+        "fields": {
+            "uuid": "cb9b1dc4-d735-4ed0-b3b4-9c5376059af5",
+            "name": "Money Deposit Bags",
+            "emoji": "",
+            "parent": "d192ef52-cf3c-4c4a-9fcc-a9cfb8f40c5e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cd646ca3-39ac-4946-af13-e23ac8911413",
+        "fields": {
+            "uuid": "cd646ca3-39ac-4946-af13-e23ac8911413",
+            "name": "Paper Coin Wrappers & Bill Straps",
+            "emoji": "",
+            "parent": "d192ef52-cf3c-4c4a-9fcc-a9cfb8f40c5e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "24f9c06f-fd91-4493-a5b7-890fd5af08da",
+        "fields": {
+            "uuid": "24f9c06f-fd91-4493-a5b7-890fd5af08da",
+            "name": "Paper & Plastic Shopping Bags",
+            "emoji": "",
+            "parent": "4d6022ff-372a-4a8f-af96-52284deeeeca"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4a1de694-60f2-4ea4-b5ed-1a608afbc27a",
+        "fields": {
+            "uuid": "4a1de694-60f2-4ea4-b5ed-1a608afbc27a",
+            "name": "Die Cut Shopping Bags",
+            "emoji": "",
+            "parent": "24f9c06f-fd91-4493-a5b7-890fd5af08da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5a4dac67-4576-4a5d-b6d6-50a4fded74cc",
+        "fields": {
+            "uuid": "5a4dac67-4576-4a5d-b6d6-50a4fded74cc",
+            "name": "Rigid Handle Shopping Bags",
+            "emoji": "",
+            "parent": "24f9c06f-fd91-4493-a5b7-890fd5af08da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7f78ee7e-57d5-496e-ac28-6e8eb2b49036",
+        "fields": {
+            "uuid": "7f78ee7e-57d5-496e-ac28-6e8eb2b49036",
+            "name": "Soft Loop Shopping Bags",
+            "emoji": "",
+            "parent": "24f9c06f-fd91-4493-a5b7-890fd5af08da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a135b3a8-b32d-4029-9dcb-8431cc0dcbef",
+        "fields": {
+            "uuid": "a135b3a8-b32d-4029-9dcb-8431cc0dcbef",
+            "name": "T-Shirt Shopping Bags",
+            "emoji": "",
+            "parent": "24f9c06f-fd91-4493-a5b7-890fd5af08da"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "23d2ccc5-4dd3-4862-9017-67e23bf947d7",
+        "fields": {
+            "uuid": "23d2ccc5-4dd3-4862-9017-67e23bf947d7",
+            "name": "Pricing Guns",
+            "emoji": "",
+            "parent": "4d6022ff-372a-4a8f-af96-52284deeeeca"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1ddb6153-5dbc-498c-9410-7b2ddbfe7f71",
+        "fields": {
+            "uuid": "1ddb6153-5dbc-498c-9410-7b2ddbfe7f71",
+            "name": "Retail Display Cases",
+            "emoji": "",
+            "parent": "4d6022ff-372a-4a8f-af96-52284deeeeca"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3624faf3-911a-4ad5-9429-6116d6f103f1",
+        "fields": {
+            "uuid": "3624faf3-911a-4ad5-9429-6116d6f103f1",
+            "name": "Retail Display Props & Models",
+            "emoji": "",
+            "parent": "4d6022ff-372a-4a8f-af96-52284deeeeca"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "693e32f0-50d2-470c-b4ed-4183f6273082",
+        "fields": {
+            "uuid": "693e32f0-50d2-470c-b4ed-4183f6273082",
+            "name": "Science & Laboratory",
+            "emoji": "",
+            "parent": "8163b097-c8b5-4bd3-8127-f1c10aa8ff8a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4a23ccba-d100-4b52-bafe-03de65df7af0",
+        "fields": {
+            "uuid": "4a23ccba-d100-4b52-bafe-03de65df7af0",
+            "name": "Biochemicals",
+            "emoji": "",
+            "parent": "693e32f0-50d2-470c-b4ed-4183f6273082"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d7c58a21-69a6-4d20-9097-3969a020b751",
+        "fields": {
+            "uuid": "d7c58a21-69a6-4d20-9097-3969a020b751",
+            "name": "Buffers",
+            "emoji": "",
+            "parent": "4a23ccba-d100-4b52-bafe-03de65df7af0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7f83803a-f24f-4d5a-a18c-1054e3da56ce",
+        "fields": {
+            "uuid": "7f83803a-f24f-4d5a-a18c-1054e3da56ce",
+            "name": "Detergents",
+            "emoji": "",
+            "parent": "4a23ccba-d100-4b52-bafe-03de65df7af0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "84efd34e-568a-4bf1-9bf4-37b08d266652",
+        "fields": {
+            "uuid": "84efd34e-568a-4bf1-9bf4-37b08d266652",
+            "name": "Enzymes",
+            "emoji": "",
+            "parent": "4a23ccba-d100-4b52-bafe-03de65df7af0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a6d68d93-bb18-492b-8db0-7a7eb7f18f7c",
+        "fields": {
+            "uuid": "a6d68d93-bb18-492b-8db0-7a7eb7f18f7c",
+            "name": "Dissection Kits",
+            "emoji": "",
+            "parent": "693e32f0-50d2-470c-b4ed-4183f6273082"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "79116501-ab2c-4399-8432-c9e98cd3e18c",
+        "fields": {
+            "uuid": "79116501-ab2c-4399-8432-c9e98cd3e18c",
+            "name": "Professional Dissection Kits",
+            "emoji": "",
+            "parent": "a6d68d93-bb18-492b-8db0-7a7eb7f18f7c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ae904f03-9e6d-4003-bd47-33da0c57c0ad",
+        "fields": {
+            "uuid": "ae904f03-9e6d-4003-bd47-33da0c57c0ad",
+            "name": "Training Dissection Kits",
+            "emoji": "",
+            "parent": "a6d68d93-bb18-492b-8db0-7a7eb7f18f7c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1d5675f1-94ac-4ac2-b5e7-1964331681f7",
+        "fields": {
+            "uuid": "1d5675f1-94ac-4ac2-b5e7-1964331681f7",
+            "name": "Laboratory Chemicals",
+            "emoji": "",
+            "parent": "693e32f0-50d2-470c-b4ed-4183f6273082"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9313d131-99d2-4406-bed8-9451f5321623",
+        "fields": {
+            "uuid": "9313d131-99d2-4406-bed8-9451f5321623",
+            "name": "Acids",
+            "emoji": "",
+            "parent": "1d5675f1-94ac-4ac2-b5e7-1964331681f7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5966b9d6-4598-46a1-8672-c49dcb348ed2",
+        "fields": {
+            "uuid": "5966b9d6-4598-46a1-8672-c49dcb348ed2",
+            "name": "Bases",
+            "emoji": "",
+            "parent": "1d5675f1-94ac-4ac2-b5e7-1964331681f7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b6bd8d8b-23c9-4cb8-96e6-ca808baa3847",
+        "fields": {
+            "uuid": "b6bd8d8b-23c9-4cb8-96e6-ca808baa3847",
+            "name": "Salts",
+            "emoji": "",
+            "parent": "1d5675f1-94ac-4ac2-b5e7-1964331681f7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3a0aaead-4e2d-4773-a04d-e6352220e0d2",
+        "fields": {
+            "uuid": "3a0aaead-4e2d-4773-a04d-e6352220e0d2",
+            "name": "Solvents",
+            "emoji": "",
+            "parent": "1d5675f1-94ac-4ac2-b5e7-1964331681f7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d60a521f-6e68-4ce0-9c36-1ebd01526812",
+        "fields": {
+            "uuid": "d60a521f-6e68-4ce0-9c36-1ebd01526812",
+            "name": "Laboratory Equipment",
+            "emoji": "",
+            "parent": "693e32f0-50d2-470c-b4ed-4183f6273082"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ca49e0b2-c8de-440f-b73d-3ac22986c0cc",
+        "fields": {
+            "uuid": "ca49e0b2-c8de-440f-b73d-3ac22986c0cc",
+            "name": "Autoclaves",
+            "emoji": "",
+            "parent": "d60a521f-6e68-4ce0-9c36-1ebd01526812"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7df46a15-fb36-4852-98cc-0232cd29a4a6",
+        "fields": {
+            "uuid": "7df46a15-fb36-4852-98cc-0232cd29a4a6",
+            "name": "Centrifuges",
+            "emoji": "",
+            "parent": "d60a521f-6e68-4ce0-9c36-1ebd01526812"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "57c00e4b-c090-4325-83f8-00136129dded",
+        "fields": {
+            "uuid": "57c00e4b-c090-4325-83f8-00136129dded",
+            "name": "Dry Ice Makers",
+            "emoji": "",
+            "parent": "d60a521f-6e68-4ce0-9c36-1ebd01526812"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "93c464fd-df60-4271-b50e-e1a30a82d16f",
+        "fields": {
+            "uuid": "93c464fd-df60-4271-b50e-e1a30a82d16f",
+            "name": "Freeze-Drying Machines",
+            "emoji": "",
+            "parent": "d60a521f-6e68-4ce0-9c36-1ebd01526812"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ae7ec31a-bcd2-4646-b7e1-66cf28ea608b",
+        "fields": {
+            "uuid": "ae7ec31a-bcd2-4646-b7e1-66cf28ea608b",
+            "name": "Laboratory Blenders",
+            "emoji": "",
+            "parent": "d60a521f-6e68-4ce0-9c36-1ebd01526812"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4da73482-3da2-461e-b12b-af48419bcf2c",
+        "fields": {
+            "uuid": "4da73482-3da2-461e-b12b-af48419bcf2c",
+            "name": "Laboratory Freezers",
+            "emoji": "",
+            "parent": "d60a521f-6e68-4ce0-9c36-1ebd01526812"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8266f62c-c97a-41e0-850a-c3c357f47335",
+        "fields": {
+            "uuid": "8266f62c-c97a-41e0-850a-c3c357f47335",
+            "name": "Laboratory Funnels",
+            "emoji": "",
+            "parent": "d60a521f-6e68-4ce0-9c36-1ebd01526812"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "983e6bc0-42bd-4d1b-bb58-61be98f83357",
+        "fields": {
+            "uuid": "983e6bc0-42bd-4d1b-bb58-61be98f83357",
+            "name": "Dropping Laboratory Funnels",
+            "emoji": "",
+            "parent": "8266f62c-c97a-41e0-850a-c3c357f47335"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "be8275e8-5d83-49eb-b480-b6918d5ad342",
+        "fields": {
+            "uuid": "be8275e8-5d83-49eb-b480-b6918d5ad342",
+            "name": "Filter Laboratory Funnels",
+            "emoji": "",
+            "parent": "8266f62c-c97a-41e0-850a-c3c357f47335"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bbfa812a-b53a-4657-8f08-d3a76219b80e",
+        "fields": {
+            "uuid": "bbfa812a-b53a-4657-8f08-d3a76219b80e",
+            "name": "Powder Laboratory Funnels",
+            "emoji": "",
+            "parent": "8266f62c-c97a-41e0-850a-c3c357f47335"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6e0e5ec1-9980-42e1-96a3-6935d7e4d8f3",
+        "fields": {
+            "uuid": "6e0e5ec1-9980-42e1-96a3-6935d7e4d8f3",
+            "name": "Separatory Laboratory Funnels",
+            "emoji": "",
+            "parent": "8266f62c-c97a-41e0-850a-c3c357f47335"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3073aee2-0cbe-47e6-8a46-3fb33f5569d1",
+        "fields": {
+            "uuid": "3073aee2-0cbe-47e6-8a46-3fb33f5569d1",
+            "name": "Laboratory Hot Plates",
+            "emoji": "",
+            "parent": "d60a521f-6e68-4ce0-9c36-1ebd01526812"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "10792a79-13a6-4846-8e19-5905f8a057c6",
+        "fields": {
+            "uuid": "10792a79-13a6-4846-8e19-5905f8a057c6",
+            "name": "Laboratory Ovens",
+            "emoji": "",
+            "parent": "d60a521f-6e68-4ce0-9c36-1ebd01526812"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7dc69f98-a6fe-4448-995c-7062fd0e81b5",
+        "fields": {
+            "uuid": "7dc69f98-a6fe-4448-995c-7062fd0e81b5",
+            "name": "Gravity Convection Laboratory Ovens",
+            "emoji": "",
+            "parent": "10792a79-13a6-4846-8e19-5905f8a057c6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4c8f797a-30df-48a0-9698-49253bd504fc",
+        "fields": {
+            "uuid": "4c8f797a-30df-48a0-9698-49253bd504fc",
+            "name": "Mechanical Convection Laboratory Ovens",
+            "emoji": "",
+            "parent": "10792a79-13a6-4846-8e19-5905f8a057c6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "44d2fcf6-97d5-467b-a5a0-cfab88be06ad",
+        "fields": {
+            "uuid": "44d2fcf6-97d5-467b-a5a0-cfab88be06ad",
+            "name": "Vacuum Laboratory Ovens",
+            "emoji": "",
+            "parent": "10792a79-13a6-4846-8e19-5905f8a057c6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a0803d7e-9499-4b8a-b564-d08f2a19a912",
+        "fields": {
+            "uuid": "a0803d7e-9499-4b8a-b564-d08f2a19a912",
+            "name": "Microscope Accessories",
+            "emoji": "",
+            "parent": "d60a521f-6e68-4ce0-9c36-1ebd01526812"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f2a8f20f-037d-4910-b123-13e534b59b9a",
+        "fields": {
+            "uuid": "f2a8f20f-037d-4910-b123-13e534b59b9a",
+            "name": "Microscope Cameras",
+            "emoji": "",
+            "parent": "a0803d7e-9499-4b8a-b564-d08f2a19a912"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3085db0c-2717-4953-9f7f-8943a79fa719",
+        "fields": {
+            "uuid": "3085db0c-2717-4953-9f7f-8943a79fa719",
+            "name": "Microscope Eyepieces & Adapters",
+            "emoji": "",
+            "parent": "a0803d7e-9499-4b8a-b564-d08f2a19a912"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8b891f0c-aa89-406a-83c8-6efbcfa408d3",
+        "fields": {
+            "uuid": "8b891f0c-aa89-406a-83c8-6efbcfa408d3",
+            "name": "Huygenian Eyepieces & Adapters",
+            "emoji": "",
+            "parent": "3085db0c-2717-4953-9f7f-8943a79fa719"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d0e24f54-e1c5-49b6-9f26-f8f368909832",
+        "fields": {
+            "uuid": "d0e24f54-e1c5-49b6-9f26-f8f368909832",
+            "name": "Kellner Eyepieces & Adapters",
+            "emoji": "",
+            "parent": "3085db0c-2717-4953-9f7f-8943a79fa719"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "828479c3-b441-460b-859f-358444600e9e",
+        "fields": {
+            "uuid": "828479c3-b441-460b-859f-358444600e9e",
+            "name": "Orthoscopic Eyepieces & Adapters",
+            "emoji": "",
+            "parent": "3085db0c-2717-4953-9f7f-8943a79fa719"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9bf2977e-d88f-46cf-807f-2b846e002ac0",
+        "fields": {
+            "uuid": "9bf2977e-d88f-46cf-807f-2b846e002ac0",
+            "name": "Pl\u00f6ssl Eyepieces & Adapters",
+            "emoji": "",
+            "parent": "3085db0c-2717-4953-9f7f-8943a79fa719"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7743d462-0fac-4f67-9980-81f5883a9e61",
+        "fields": {
+            "uuid": "7743d462-0fac-4f67-9980-81f5883a9e61",
+            "name": "Microscope Objective Lenses",
+            "emoji": "",
+            "parent": "a0803d7e-9499-4b8a-b564-d08f2a19a912"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "619e0af7-f9f3-46d6-b248-8ee9231e9180",
+        "fields": {
+            "uuid": "619e0af7-f9f3-46d6-b248-8ee9231e9180",
+            "name": "Achromatic Microscope Lenses",
+            "emoji": "",
+            "parent": "7743d462-0fac-4f67-9980-81f5883a9e61"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "25d9260d-479b-43c4-b1c9-29e7f9a47a99",
+        "fields": {
+            "uuid": "25d9260d-479b-43c4-b1c9-29e7f9a47a99",
+            "name": "Apochromatic Microscope Lenses",
+            "emoji": "",
+            "parent": "7743d462-0fac-4f67-9980-81f5883a9e61"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f67ac13b-adac-4c1a-b3dc-150177da34e4",
+        "fields": {
+            "uuid": "f67ac13b-adac-4c1a-b3dc-150177da34e4",
+            "name": "Fluorite Microscope Lenses",
+            "emoji": "",
+            "parent": "7743d462-0fac-4f67-9980-81f5883a9e61"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3822cb2f-1944-43ba-8619-9817b66d43d6",
+        "fields": {
+            "uuid": "3822cb2f-1944-43ba-8619-9817b66d43d6",
+            "name": "Microscope Replacement Bulbs",
+            "emoji": "",
+            "parent": "a0803d7e-9499-4b8a-b564-d08f2a19a912"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0b9af040-6a13-451e-a300-6db969162302",
+        "fields": {
+            "uuid": "0b9af040-6a13-451e-a300-6db969162302",
+            "name": "Microscope Slides",
+            "emoji": "",
+            "parent": "a0803d7e-9499-4b8a-b564-d08f2a19a912"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "728fa051-0e8e-4f54-832a-8bc5f8214ad4",
+        "fields": {
+            "uuid": "728fa051-0e8e-4f54-832a-8bc5f8214ad4",
+            "name": "Adhesive Microscope Slides",
+            "emoji": "",
+            "parent": "0b9af040-6a13-451e-a300-6db969162302"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cec3a73c-f71a-4a74-86cc-e0c3febd1a7c",
+        "fields": {
+            "uuid": "cec3a73c-f71a-4a74-86cc-e0c3febd1a7c",
+            "name": "Charged Microscope Slides",
+            "emoji": "",
+            "parent": "0b9af040-6a13-451e-a300-6db969162302"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "893f16be-4020-4fd6-b45f-29aa6f6a6c7b",
+        "fields": {
+            "uuid": "893f16be-4020-4fd6-b45f-29aa6f6a6c7b",
+            "name": "Frosted Microscope Slides",
+            "emoji": "",
+            "parent": "0b9af040-6a13-451e-a300-6db969162302"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7333efa3-817c-4981-b797-274a2fef34f0",
+        "fields": {
+            "uuid": "7333efa3-817c-4981-b797-274a2fef34f0",
+            "name": "Plain Microscope Slides",
+            "emoji": "",
+            "parent": "0b9af040-6a13-451e-a300-6db969162302"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f1f7f56c-283f-4ac0-895a-39963f17aa5f",
+        "fields": {
+            "uuid": "f1f7f56c-283f-4ac0-895a-39963f17aa5f",
+            "name": "Microscopes",
+            "emoji": "",
+            "parent": "d60a521f-6e68-4ce0-9c36-1ebd01526812"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0c8358ec-6a6c-4d7c-a908-be708d868198",
+        "fields": {
+            "uuid": "0c8358ec-6a6c-4d7c-a908-be708d868198",
+            "name": "Optical Microscopes",
+            "emoji": "",
+            "parent": "f1f7f56c-283f-4ac0-895a-39963f17aa5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bc1f91a6-3e7b-43e6-a086-04b24b3b906b",
+        "fields": {
+            "uuid": "bc1f91a6-3e7b-43e6-a086-04b24b3b906b",
+            "name": "Projection Microscopes",
+            "emoji": "",
+            "parent": "f1f7f56c-283f-4ac0-895a-39963f17aa5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f20842b7-4c12-40cf-a8ce-4edf8d928e12",
+        "fields": {
+            "uuid": "f20842b7-4c12-40cf-a8ce-4edf8d928e12",
+            "name": "USB Microscopes",
+            "emoji": "",
+            "parent": "f1f7f56c-283f-4ac0-895a-39963f17aa5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "423fbc5f-a108-41c0-8aa5-7ea1ec0c2918",
+        "fields": {
+            "uuid": "423fbc5f-a108-41c0-8aa5-7ea1ec0c2918",
+            "name": "Microtomes",
+            "emoji": "",
+            "parent": "d60a521f-6e68-4ce0-9c36-1ebd01526812"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7360a141-2c87-4ed2-8bc2-916a440478eb",
+        "fields": {
+            "uuid": "7360a141-2c87-4ed2-8bc2-916a440478eb",
+            "name": "Cryostat Microtomes",
+            "emoji": "",
+            "parent": "423fbc5f-a108-41c0-8aa5-7ea1ec0c2918"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "63e3e5cf-1d58-41a7-be71-29f69618666c",
+        "fields": {
+            "uuid": "63e3e5cf-1d58-41a7-be71-29f69618666c",
+            "name": "Rotary Microtomes",
+            "emoji": "",
+            "parent": "423fbc5f-a108-41c0-8aa5-7ea1ec0c2918"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b6b19249-6c98-4d7d-8185-4bc3ea3565f3",
+        "fields": {
+            "uuid": "b6b19249-6c98-4d7d-8185-4bc3ea3565f3",
+            "name": "Sliding Microtomes",
+            "emoji": "",
+            "parent": "423fbc5f-a108-41c0-8aa5-7ea1ec0c2918"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1ac6a0b3-ed7a-4580-85d4-90d05a67b08e",
+        "fields": {
+            "uuid": "1ac6a0b3-ed7a-4580-85d4-90d05a67b08e",
+            "name": "Spectrometer Accessories",
+            "emoji": "",
+            "parent": "d60a521f-6e68-4ce0-9c36-1ebd01526812"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6c854a87-09b2-4b52-97d9-fe2ca9680c6e",
+        "fields": {
+            "uuid": "6c854a87-09b2-4b52-97d9-fe2ca9680c6e",
+            "name": "Cuvettes",
+            "emoji": "",
+            "parent": "1ac6a0b3-ed7a-4580-85d4-90d05a67b08e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d81e49f3-b3f3-40f7-9fb9-26aa93201f41",
+        "fields": {
+            "uuid": "d81e49f3-b3f3-40f7-9fb9-26aa93201f41",
+            "name": "Fiber Optic Probes",
+            "emoji": "",
+            "parent": "1ac6a0b3-ed7a-4580-85d4-90d05a67b08e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b7076afa-ffbd-4e8f-b243-5a1ec3d47f1c",
+        "fields": {
+            "uuid": "b7076afa-ffbd-4e8f-b243-5a1ec3d47f1c",
+            "name": "Spectrometers",
+            "emoji": "",
+            "parent": "d60a521f-6e68-4ce0-9c36-1ebd01526812"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ec9c3eb9-5191-4fd6-8196-4398c3a7776c",
+        "fields": {
+            "uuid": "ec9c3eb9-5191-4fd6-8196-4398c3a7776c",
+            "name": "Fluorescence Spectrometers",
+            "emoji": "",
+            "parent": "b7076afa-ffbd-4e8f-b243-5a1ec3d47f1c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5299a069-09c3-4d60-8aad-a3a950f58516",
+        "fields": {
+            "uuid": "5299a069-09c3-4d60-8aad-a3a950f58516",
+            "name": "Fourier Transform Infrared (FT-IR) Spectrometers",
+            "emoji": "",
+            "parent": "b7076afa-ffbd-4e8f-b243-5a1ec3d47f1c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d78bf50c-50b4-4a1a-bdaa-f95455225e9e",
+        "fields": {
+            "uuid": "d78bf50c-50b4-4a1a-bdaa-f95455225e9e",
+            "name": "Raman Spectrometers",
+            "emoji": "",
+            "parent": "b7076afa-ffbd-4e8f-b243-5a1ec3d47f1c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "28ae200d-ae50-4f89-8087-c531577a3efd",
+        "fields": {
+            "uuid": "28ae200d-ae50-4f89-8087-c531577a3efd",
+            "name": "UV-Vis Spectrometers",
+            "emoji": "",
+            "parent": "b7076afa-ffbd-4e8f-b243-5a1ec3d47f1c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "679318bc-4000-456f-af10-f8732df3916f",
+        "fields": {
+            "uuid": "679318bc-4000-456f-af10-f8732df3916f",
+            "name": "Laboratory Specimens",
+            "emoji": "",
+            "parent": "693e32f0-50d2-470c-b4ed-4183f6273082"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "50737649-72a2-4fe2-bb45-dab324c9be3f",
+        "fields": {
+            "uuid": "50737649-72a2-4fe2-bb45-dab324c9be3f",
+            "name": "Laboratory Supplies",
+            "emoji": "",
+            "parent": "693e32f0-50d2-470c-b4ed-4183f6273082"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a2c9931c-e3ee-4639-80d4-7eced405011e",
+        "fields": {
+            "uuid": "a2c9931c-e3ee-4639-80d4-7eced405011e",
+            "name": "Beakers",
+            "emoji": "",
+            "parent": "50737649-72a2-4fe2-bb45-dab324c9be3f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "657c6278-f0da-45ed-ae0f-0d19707250f5",
+        "fields": {
+            "uuid": "657c6278-f0da-45ed-ae0f-0d19707250f5",
+            "name": "Graduated Cylinders",
+            "emoji": "",
+            "parent": "50737649-72a2-4fe2-bb45-dab324c9be3f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "534b9114-7bc6-46e1-a401-0dc172becea2",
+        "fields": {
+            "uuid": "534b9114-7bc6-46e1-a401-0dc172becea2",
+            "name": "Laboratory Flasks",
+            "emoji": "",
+            "parent": "50737649-72a2-4fe2-bb45-dab324c9be3f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "11eb506a-4793-4dfe-94cd-cbd62ee53ad8",
+        "fields": {
+            "uuid": "11eb506a-4793-4dfe-94cd-cbd62ee53ad8",
+            "name": "Boiling Laboratory Flasks",
+            "emoji": "",
+            "parent": "534b9114-7bc6-46e1-a401-0dc172becea2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8a206c23-dfcf-40cc-ab39-826382ae8adc",
+        "fields": {
+            "uuid": "8a206c23-dfcf-40cc-ab39-826382ae8adc",
+            "name": "Buchner Laboratory Flasks",
+            "emoji": "",
+            "parent": "534b9114-7bc6-46e1-a401-0dc172becea2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "87b1787a-89ad-491f-96dd-de25b103ccf2",
+        "fields": {
+            "uuid": "87b1787a-89ad-491f-96dd-de25b103ccf2",
+            "name": "Erlenmeyer Laboratory Flasks",
+            "emoji": "",
+            "parent": "534b9114-7bc6-46e1-a401-0dc172becea2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e90a1e61-45d8-41d6-b3cf-4a0272e2ce78",
+        "fields": {
+            "uuid": "e90a1e61-45d8-41d6-b3cf-4a0272e2ce78",
+            "name": "Volumetric Laboratory Flasks",
+            "emoji": "",
+            "parent": "534b9114-7bc6-46e1-a401-0dc172becea2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "93d05637-20a9-40a4-bb5d-2811ddaf4094",
+        "fields": {
+            "uuid": "93d05637-20a9-40a4-bb5d-2811ddaf4094",
+            "name": "Petri Dishes",
+            "emoji": "",
+            "parent": "50737649-72a2-4fe2-bb45-dab324c9be3f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7c0b3bc1-eabc-4868-9e11-fed0ddcd2f24",
+        "fields": {
+            "uuid": "7c0b3bc1-eabc-4868-9e11-fed0ddcd2f24",
+            "name": "Pipettes",
+            "emoji": "",
+            "parent": "50737649-72a2-4fe2-bb45-dab324c9be3f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d319621e-053c-4456-a6e7-0f8244bd38e0",
+        "fields": {
+            "uuid": "d319621e-053c-4456-a6e7-0f8244bd38e0",
+            "name": "Graduated Pipettes",
+            "emoji": "",
+            "parent": "7c0b3bc1-eabc-4868-9e11-fed0ddcd2f24"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f6f37c1e-2394-464a-b824-fd8d66b901a1",
+        "fields": {
+            "uuid": "f6f37c1e-2394-464a-b824-fd8d66b901a1",
+            "name": "Micropipettes",
+            "emoji": "",
+            "parent": "7c0b3bc1-eabc-4868-9e11-fed0ddcd2f24"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "910d47a8-92a7-4bbe-9f7d-8f7f97d2bd51",
+        "fields": {
+            "uuid": "910d47a8-92a7-4bbe-9f7d-8f7f97d2bd51",
+            "name": "Volumetric Pipettes",
+            "emoji": "",
+            "parent": "7c0b3bc1-eabc-4868-9e11-fed0ddcd2f24"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a2795bd6-0d21-42b2-8419-0b409fa429be",
+        "fields": {
+            "uuid": "a2795bd6-0d21-42b2-8419-0b409fa429be",
+            "name": "Test Tube Racks",
+            "emoji": "",
+            "parent": "50737649-72a2-4fe2-bb45-dab324c9be3f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0ee0ba84-b7e9-48a6-a059-865fc8801fb5",
+        "fields": {
+            "uuid": "0ee0ba84-b7e9-48a6-a059-865fc8801fb5",
+            "name": "Test Tubes",
+            "emoji": "",
+            "parent": "50737649-72a2-4fe2-bb45-dab324c9be3f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6af35e77-3644-4e36-bdfa-08becac76dc4",
+        "fields": {
+            "uuid": "6af35e77-3644-4e36-bdfa-08becac76dc4",
+            "name": "Wash Bottles",
+            "emoji": "",
+            "parent": "50737649-72a2-4fe2-bb45-dab324c9be3f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "02b19737-9621-4044-b0d7-94f24f6a6d27",
+        "fields": {
+            "uuid": "02b19737-9621-4044-b0d7-94f24f6a6d27",
+            "name": "Signage",
+            "emoji": "",
+            "parent": "8163b097-c8b5-4bd3-8127-f1c10aa8ff8a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b0a70f76-0671-4504-bce2-8d6dc6014dbc",
+        "fields": {
+            "uuid": "b0a70f76-0671-4504-bce2-8d6dc6014dbc",
+            "name": "Business Hour Signs",
+            "emoji": "",
+            "parent": "02b19737-9621-4044-b0d7-94f24f6a6d27"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4095130e-8389-4f98-8c8a-e165fbf21b74",
+        "fields": {
+            "uuid": "4095130e-8389-4f98-8c8a-e165fbf21b74",
+            "name": "Digital Signs",
+            "emoji": "",
+            "parent": "02b19737-9621-4044-b0d7-94f24f6a6d27"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "73381b4a-d170-4a59-a4b0-80fc927d17db",
+        "fields": {
+            "uuid": "73381b4a-d170-4a59-a4b0-80fc927d17db",
+            "name": "Electric Signs",
+            "emoji": "",
+            "parent": "02b19737-9621-4044-b0d7-94f24f6a6d27"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b96f7cb1-39b2-4045-9ab4-c3d0a275f977",
+        "fields": {
+            "uuid": "b96f7cb1-39b2-4045-9ab4-c3d0a275f977",
+            "name": "LED Signs",
+            "emoji": "",
+            "parent": "73381b4a-d170-4a59-a4b0-80fc927d17db"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8810731f-c3b6-41c5-82ca-c6961376eb17",
+        "fields": {
+            "uuid": "8810731f-c3b6-41c5-82ca-c6961376eb17",
+            "name": "Neon Signs",
+            "emoji": "",
+            "parent": "73381b4a-d170-4a59-a4b0-80fc927d17db"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "07c0db5c-961a-46c0-8e97-60b6684e27a9",
+        "fields": {
+            "uuid": "07c0db5c-961a-46c0-8e97-60b6684e27a9",
+            "name": "Emergency & Exit Signs",
+            "emoji": "",
+            "parent": "02b19737-9621-4044-b0d7-94f24f6a6d27"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "27f48834-fe32-4122-ba0c-6b03b4541bba",
+        "fields": {
+            "uuid": "27f48834-fe32-4122-ba0c-6b03b4541bba",
+            "name": "Facility Identification Signs",
+            "emoji": "",
+            "parent": "02b19737-9621-4044-b0d7-94f24f6a6d27"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3eaa69e5-888c-4752-9037-9c3901b096bf",
+        "fields": {
+            "uuid": "3eaa69e5-888c-4752-9037-9c3901b096bf",
+            "name": "Open & Closed Signs",
+            "emoji": "",
+            "parent": "02b19737-9621-4044-b0d7-94f24f6a6d27"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "309c0456-aa21-4581-8410-a70e5cbb30cd",
+        "fields": {
+            "uuid": "309c0456-aa21-4581-8410-a70e5cbb30cd",
+            "name": "Parking Signs & Permits",
+            "emoji": "",
+            "parent": "02b19737-9621-4044-b0d7-94f24f6a6d27"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "55db189d-c8cc-4da6-b406-6e14ae5f3477",
+        "fields": {
+            "uuid": "55db189d-c8cc-4da6-b406-6e14ae5f3477",
+            "name": "Policy Signs",
+            "emoji": "",
+            "parent": "02b19737-9621-4044-b0d7-94f24f6a6d27"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e0f5e3a7-8090-4abf-8ae9-6d7f025052f0",
+        "fields": {
+            "uuid": "e0f5e3a7-8090-4abf-8ae9-6d7f025052f0",
+            "name": "Retail & Sale Signs",
+            "emoji": "",
+            "parent": "02b19737-9621-4044-b0d7-94f24f6a6d27"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d635c921-988b-4862-af17-d730ea2c71a7",
+        "fields": {
+            "uuid": "d635c921-988b-4862-af17-d730ea2c71a7",
+            "name": "Road & Traffic Signs",
+            "emoji": "",
+            "parent": "02b19737-9621-4044-b0d7-94f24f6a6d27"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "75593b11-459e-454b-be5a-02529e031f55",
+        "fields": {
+            "uuid": "75593b11-459e-454b-be5a-02529e031f55",
+            "name": "Safety & Warning Signs",
+            "emoji": "",
+            "parent": "02b19737-9621-4044-b0d7-94f24f6a6d27"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b5de132e-104d-4c98-97ca-dfd6c0542173",
+        "fields": {
+            "uuid": "b5de132e-104d-4c98-97ca-dfd6c0542173",
+            "name": "Security Signs",
+            "emoji": "",
+            "parent": "02b19737-9621-4044-b0d7-94f24f6a6d27"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "546a0996-0226-4f25-b687-1c1512db5b80",
+        "fields": {
+            "uuid": "546a0996-0226-4f25-b687-1c1512db5b80",
+            "name": "Sidewalk & Yard Signs",
+            "emoji": "",
+            "parent": "02b19737-9621-4044-b0d7-94f24f6a6d27"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fd9a469c-d30c-4eb7-b163-9774755288db",
+        "fields": {
+            "uuid": "fd9a469c-d30c-4eb7-b163-9774755288db",
+            "name": "Work Safety Protective Gear",
+            "emoji": "",
+            "parent": "8163b097-c8b5-4bd3-8127-f1c10aa8ff8a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d9ea2d4a-67d1-4502-971c-80698279c3a8",
+        "fields": {
+            "uuid": "d9ea2d4a-67d1-4502-971c-80698279c3a8",
+            "name": "Bullet Proof Vests",
+            "emoji": "",
+            "parent": "fd9a469c-d30c-4eb7-b163-9774755288db"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e44961ff-cce7-49e0-be7d-93cba8804387",
+        "fields": {
+            "uuid": "e44961ff-cce7-49e0-be7d-93cba8804387",
+            "name": "Gas Mask & Respirator Accessories",
+            "emoji": "",
+            "parent": "fd9a469c-d30c-4eb7-b163-9774755288db"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e862c853-394e-4d1c-9ba4-f3a37210c707",
+        "fields": {
+            "uuid": "e862c853-394e-4d1c-9ba4-f3a37210c707",
+            "name": "Combination Cartridges",
+            "emoji": "",
+            "parent": "e44961ff-cce7-49e0-be7d-93cba8804387"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2cabd7ab-0eef-4037-aba8-cc90e6d48106",
+        "fields": {
+            "uuid": "2cabd7ab-0eef-4037-aba8-cc90e6d48106",
+            "name": "Particulate Filters",
+            "emoji": "",
+            "parent": "e44961ff-cce7-49e0-be7d-93cba8804387"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c381e6b0-a23e-48f9-9527-46b3c4573de1",
+        "fields": {
+            "uuid": "c381e6b0-a23e-48f9-9527-46b3c4573de1",
+            "name": "Vapor Cartridges",
+            "emoji": "",
+            "parent": "e44961ff-cce7-49e0-be7d-93cba8804387"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ef4a235e-1bfa-455f-b246-76ee09b33976",
+        "fields": {
+            "uuid": "ef4a235e-1bfa-455f-b246-76ee09b33976",
+            "name": "Hardhats",
+            "emoji": "",
+            "parent": "fd9a469c-d30c-4eb7-b163-9774755288db"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f4281f6a-f235-4fd4-82eb-6b5c6bc5c14e",
+        "fields": {
+            "uuid": "f4281f6a-f235-4fd4-82eb-6b5c6bc5c14e",
+            "name": "Hazardous Material Suits",
+            "emoji": "",
+            "parent": "fd9a469c-d30c-4eb7-b163-9774755288db"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f37c8e18-21ba-4586-9fdd-c4b879d81e37",
+        "fields": {
+            "uuid": "f37c8e18-21ba-4586-9fdd-c4b879d81e37",
+            "name": "Protective Aprons",
+            "emoji": "",
+            "parent": "fd9a469c-d30c-4eb7-b163-9774755288db"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d86e0339-e7e9-4dab-a02d-fa284b92cf7e",
+        "fields": {
+            "uuid": "d86e0339-e7e9-4dab-a02d-fa284b92cf7e",
+            "name": "Bib Protective Aprons",
+            "emoji": "",
+            "parent": "f37c8e18-21ba-4586-9fdd-c4b879d81e37"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3d85364e-000d-42ce-a4f6-b541106a3015",
+        "fields": {
+            "uuid": "3d85364e-000d-42ce-a4f6-b541106a3015",
+            "name": "Cobbler Protective Aprons",
+            "emoji": "",
+            "parent": "f37c8e18-21ba-4586-9fdd-c4b879d81e37"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0bcb1989-0a44-467b-b4e2-45cab635d395",
+        "fields": {
+            "uuid": "0bcb1989-0a44-467b-b4e2-45cab635d395",
+            "name": "Waist Protective Aprons",
+            "emoji": "",
+            "parent": "f37c8e18-21ba-4586-9fdd-c4b879d81e37"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "59a923eb-67dd-4d9f-8101-0af4079762ad",
+        "fields": {
+            "uuid": "59a923eb-67dd-4d9f-8101-0af4079762ad",
+            "name": "Protective Eyewear",
+            "emoji": "",
+            "parent": "fd9a469c-d30c-4eb7-b163-9774755288db"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4eabd709-4129-4a63-85c1-21e66e17065b",
+        "fields": {
+            "uuid": "4eabd709-4129-4a63-85c1-21e66e17065b",
+            "name": "Face Shields",
+            "emoji": "",
+            "parent": "59a923eb-67dd-4d9f-8101-0af4079762ad"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7da71269-7fe9-4408-a9bb-8510bd17a469",
+        "fields": {
+            "uuid": "7da71269-7fe9-4408-a9bb-8510bd17a469",
+            "name": "Goggles",
+            "emoji": "",
+            "parent": "59a923eb-67dd-4d9f-8101-0af4079762ad"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3b779bef-3eb5-40b3-a100-fcf99855becd",
+        "fields": {
+            "uuid": "3b779bef-3eb5-40b3-a100-fcf99855becd",
+            "name": "Safety Glasses",
+            "emoji": "",
+            "parent": "59a923eb-67dd-4d9f-8101-0af4079762ad"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4c2cf9c9-22eb-422d-94bc-96f82e4af444",
+        "fields": {
+            "uuid": "4c2cf9c9-22eb-422d-94bc-96f82e4af444",
+            "name": "Protective Masks",
+            "emoji": "",
+            "parent": "fd9a469c-d30c-4eb7-b163-9774755288db"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "20e308e9-22f5-4dd3-b442-4f55c67de21d",
+        "fields": {
+            "uuid": "20e308e9-22f5-4dd3-b442-4f55c67de21d",
+            "name": "Dust Masks",
+            "emoji": "",
+            "parent": "4c2cf9c9-22eb-422d-94bc-96f82e4af444"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c7ce4519-6b55-4244-9c47-70d0edac42ef",
+        "fields": {
+            "uuid": "c7ce4519-6b55-4244-9c47-70d0edac42ef",
+            "name": "Fireman's Masks",
+            "emoji": "",
+            "parent": "4c2cf9c9-22eb-422d-94bc-96f82e4af444"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1e8c970c-654c-4aaf-a202-dbacc02401bf",
+        "fields": {
+            "uuid": "1e8c970c-654c-4aaf-a202-dbacc02401bf",
+            "name": "Gas Masks & Respirators",
+            "emoji": "",
+            "parent": "4c2cf9c9-22eb-422d-94bc-96f82e4af444"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d3e1e0f3-e2f3-41f3-b4d5-325e1c82a787",
+        "fields": {
+            "uuid": "d3e1e0f3-e2f3-41f3-b4d5-325e1c82a787",
+            "name": "Medical Masks",
+            "emoji": "",
+            "parent": "4c2cf9c9-22eb-422d-94bc-96f82e4af444"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2f8e6cd0-7f6e-4ad1-adfa-27f4f5d29560",
+        "fields": {
+            "uuid": "2f8e6cd0-7f6e-4ad1-adfa-27f4f5d29560",
+            "name": "Safety Gloves",
+            "emoji": "",
+            "parent": "fd9a469c-d30c-4eb7-b163-9774755288db"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d51c9855-b5cf-467f-a9e0-145250a52975",
+        "fields": {
+            "uuid": "d51c9855-b5cf-467f-a9e0-145250a52975",
+            "name": "Chemical-Resistant Safety Gloves",
+            "emoji": "",
+            "parent": "2f8e6cd0-7f6e-4ad1-adfa-27f4f5d29560"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c65f4849-46b1-404a-ba6b-2777e487336c",
+        "fields": {
+            "uuid": "c65f4849-46b1-404a-ba6b-2777e487336c",
+            "name": "Cut-Resistant Safety Gloves",
+            "emoji": "",
+            "parent": "2f8e6cd0-7f6e-4ad1-adfa-27f4f5d29560"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fe62c9b1-4fca-402a-8efd-62c3c67c1fd9",
+        "fields": {
+            "uuid": "fe62c9b1-4fca-402a-8efd-62c3c67c1fd9",
+            "name": "Electrical-Resistant Safety Gloves",
+            "emoji": "",
+            "parent": "2f8e6cd0-7f6e-4ad1-adfa-27f4f5d29560"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a4edb3dd-e3e4-451a-836f-6c483b6edb7a",
+        "fields": {
+            "uuid": "a4edb3dd-e3e4-451a-836f-6c483b6edb7a",
+            "name": "Heat-Resistant Safety Gloves",
+            "emoji": "",
+            "parent": "2f8e6cd0-7f6e-4ad1-adfa-27f4f5d29560"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "96fb1434-355c-4663-9c96-dd84386cd072",
+        "fields": {
+            "uuid": "96fb1434-355c-4663-9c96-dd84386cd072",
+            "name": "Safety Knee Pads",
+            "emoji": "",
+            "parent": "fd9a469c-d30c-4eb7-b163-9774755288db"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dfabecab-9a49-4d86-b4b8-48f058674658",
+        "fields": {
+            "uuid": "dfabecab-9a49-4d86-b4b8-48f058674658",
+            "name": "Welding Helmets",
+            "emoji": "",
+            "parent": "fd9a469c-d30c-4eb7-b163-9774755288db"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5217b843-d868-4fff-bf12-10180908a334",
+        "fields": {
+            "uuid": "5217b843-d868-4fff-bf12-10180908a334",
+            "name": "Work Safety Harnesses",
+            "emoji": "",
+            "parent": "fd9a469c-d30c-4eb7-b163-9774755288db"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "572e8ccf-2508-4ce8-8c0a-6a5bca85de0a",
+        "fields": {
+            "uuid": "572e8ccf-2508-4ce8-8c0a-6a5bca85de0a",
+            "name": "Cross-Chest Work Safety Harnesses",
+            "emoji": "",
+            "parent": "5217b843-d868-4fff-bf12-10180908a334"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "20cf9af4-5dad-438c-a8ce-c43e937ccfa9",
+        "fields": {
+            "uuid": "20cf9af4-5dad-438c-a8ce-c43e937ccfa9",
+            "name": "Full-Body Work Safety Harnesses",
+            "emoji": "",
+            "parent": "5217b843-d868-4fff-bf12-10180908a334"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0be76539-b82b-461d-b658-de3d08ccf820",
+        "fields": {
+            "uuid": "0be76539-b82b-461d-b658-de3d08ccf820",
+            "name": "Vest-Style Work Safety Harnesses",
+            "emoji": "",
+            "parent": "5217b843-d868-4fff-bf12-10180908a334"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b0476494-6879-4f75-9162-ad3792d09a60",
+        "fields": {
+            "uuid": "b0476494-6879-4f75-9162-ad3792d09a60",
+            "name": "Work Safety Tethers",
+            "emoji": "",
+            "parent": "fd9a469c-d30c-4eb7-b163-9774755288db"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "553c866a-4a89-4d86-8870-d5fe6eb8a003",
+        "fields": {
+            "uuid": "553c866a-4a89-4d86-8870-d5fe6eb8a003",
+            "name": "Anchorage Work Safety Tethers",
+            "emoji": "",
+            "parent": "b0476494-6879-4f75-9162-ad3792d09a60"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f8130a39-e199-4a24-b0b8-515d5082b45c",
+        "fields": {
+            "uuid": "f8130a39-e199-4a24-b0b8-515d5082b45c",
+            "name": "Tool Belt Work Safety Tethers",
+            "emoji": "",
+            "parent": "b0476494-6879-4f75-9162-ad3792d09a60"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4a69983b-9c81-48c6-a11b-ca342452dd77",
+        "fields": {
+            "uuid": "4a69983b-9c81-48c6-a11b-ca342452dd77",
+            "name": "Wrist Work Safety Tethers",
+            "emoji": "",
+            "parent": "b0476494-6879-4f75-9162-ad3792d09a60"
+        }
+    }
+]

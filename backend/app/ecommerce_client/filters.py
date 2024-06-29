@@ -14,7 +14,6 @@ class CategoryFilter(django_filters.FilterSet):
                 "exact",
                 "icontains",
             ],  # Allows filtering by exact match or case-insensitive contains
-            "emoji": ["exact", "icontains"],
             "parent": ["exact"],  # Allows filtering by exact match on parent
             "uuid": ["exact"],  # Allows filtering by exact match on UUID
         }
@@ -66,3 +65,9 @@ class ProductFilter(django_filters.FilterSet):
             return models.Product.objects.none()
 
         return queryset.filter(saved_product__user=user)
+
+
+class AttributeFilter(django_filters.FilterSet):
+    class Meta:
+        model = models.Attribute
+        fields = ["uuid", "name"]

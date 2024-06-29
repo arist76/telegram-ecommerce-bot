@@ -1,0 +1,4532 @@
+[
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a3a34043-6986-4b33-8451-ae89eadb6dfa",
+        "fields": {
+            "uuid": "a3a34043-6986-4b33-8451-ae89eadb6dfa",
+            "name": "Vehicles & Parts",
+            "emoji": "",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7caab4d7-e7aa-4d52-aa2b-1f21ec7d3146",
+        "fields": {
+            "uuid": "7caab4d7-e7aa-4d52-aa2b-1f21ec7d3146",
+            "name": "Vehicle Parts & Accessories",
+            "emoji": "",
+            "parent": "a3a34043-6986-4b33-8451-ae89eadb6dfa"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d112c4aa-4a6a-4b48-b012-879fc9933233",
+        "fields": {
+            "uuid": "d112c4aa-4a6a-4b48-b012-879fc9933233",
+            "name": "Aircraft Parts & Accessories",
+            "emoji": "",
+            "parent": "7caab4d7-e7aa-4d52-aa2b-1f21ec7d3146"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c68e1584-a976-42af-aab6-773bcd75235a",
+        "fields": {
+            "uuid": "c68e1584-a976-42af-aab6-773bcd75235a",
+            "name": "Electric Vehicle (EV) Parts & Accessories",
+            "emoji": "",
+            "parent": "7caab4d7-e7aa-4d52-aa2b-1f21ec7d3146"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "92c438d2-5e84-4f5b-ae45-6cea04ed9a60",
+        "fields": {
+            "uuid": "92c438d2-5e84-4f5b-ae45-6cea04ed9a60",
+            "name": "Battery Management Systems",
+            "emoji": "",
+            "parent": "c68e1584-a976-42af-aab6-773bcd75235a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "87be4d3e-5c3d-41ba-8e0c-f95d3443895e",
+        "fields": {
+            "uuid": "87be4d3e-5c3d-41ba-8e0c-f95d3443895e",
+            "name": "Charging Cables",
+            "emoji": "",
+            "parent": "c68e1584-a976-42af-aab6-773bcd75235a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "370ad3a6-6e49-4a4d-9bba-721d734ab2eb",
+        "fields": {
+            "uuid": "370ad3a6-6e49-4a4d-9bba-721d734ab2eb",
+            "name": "Charging Stations",
+            "emoji": "",
+            "parent": "c68e1584-a976-42af-aab6-773bcd75235a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "da0dc50a-f01e-4773-93de-63f7de50dae1",
+        "fields": {
+            "uuid": "da0dc50a-f01e-4773-93de-63f7de50dae1",
+            "name": "Connectors & Adapters",
+            "emoji": "",
+            "parent": "c68e1584-a976-42af-aab6-773bcd75235a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ad361c7e-5e9c-42a5-b17f-aced47604226",
+        "fields": {
+            "uuid": "ad361c7e-5e9c-42a5-b17f-aced47604226",
+            "name": "Conversion Kits",
+            "emoji": "",
+            "parent": "c68e1584-a976-42af-aab6-773bcd75235a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f7af77eb-cb2a-4891-8d94-b8cf246d6a4d",
+        "fields": {
+            "uuid": "f7af77eb-cb2a-4891-8d94-b8cf246d6a4d",
+            "name": "Car EV Conversion Kits",
+            "emoji": "",
+            "parent": "ad361c7e-5e9c-42a5-b17f-aced47604226"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f0b03e3b-31ae-4b83-b1b8-6e674a9c2571",
+        "fields": {
+            "uuid": "f0b03e3b-31ae-4b83-b1b8-6e674a9c2571",
+            "name": "Motorcycle EV Conversion Kits",
+            "emoji": "",
+            "parent": "ad361c7e-5e9c-42a5-b17f-aced47604226"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2e7170a2-82d8-4bfe-8f56-9363d084754b",
+        "fields": {
+            "uuid": "2e7170a2-82d8-4bfe-8f56-9363d084754b",
+            "name": "Scooter EV Conversion Kits",
+            "emoji": "",
+            "parent": "ad361c7e-5e9c-42a5-b17f-aced47604226"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0386f2cb-6437-4695-b205-4f438c058a27",
+        "fields": {
+            "uuid": "0386f2cb-6437-4695-b205-4f438c058a27",
+            "name": "Truck EV Conversion Kits",
+            "emoji": "",
+            "parent": "ad361c7e-5e9c-42a5-b17f-aced47604226"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a8adb02c-afd5-43f0-b61f-54082459a5a2",
+        "fields": {
+            "uuid": "a8adb02c-afd5-43f0-b61f-54082459a5a2",
+            "name": "Van EV Conversion Kits",
+            "emoji": "",
+            "parent": "ad361c7e-5e9c-42a5-b17f-aced47604226"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2528e069-015a-4357-967a-c71f5dd0d13f",
+        "fields": {
+            "uuid": "2528e069-015a-4357-967a-c71f5dd0d13f",
+            "name": "Electric Vehicle Batteries",
+            "emoji": "",
+            "parent": "c68e1584-a976-42af-aab6-773bcd75235a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6fecade2-e5a8-4348-9b8e-081caabfe32a",
+        "fields": {
+            "uuid": "6fecade2-e5a8-4348-9b8e-081caabfe32a",
+            "name": "Power Inverters",
+            "emoji": "",
+            "parent": "c68e1584-a976-42af-aab6-773bcd75235a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b986fbfa-f38b-4488-a871-345e5ac269e5",
+        "fields": {
+            "uuid": "b986fbfa-f38b-4488-a871-345e5ac269e5",
+            "name": "Protective Cases",
+            "emoji": "",
+            "parent": "c68e1584-a976-42af-aab6-773bcd75235a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cc8a985d-a52e-46ba-9ff8-1ee40dc1b69b",
+        "fields": {
+            "uuid": "cc8a985d-a52e-46ba-9ff8-1ee40dc1b69b",
+            "name": "Adapter Cases",
+            "emoji": "",
+            "parent": "b986fbfa-f38b-4488-a871-345e5ac269e5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8781a6cd-0804-4f66-a4dd-e74190dea061",
+        "fields": {
+            "uuid": "8781a6cd-0804-4f66-a4dd-e74190dea061",
+            "name": "Battery Cases",
+            "emoji": "",
+            "parent": "b986fbfa-f38b-4488-a871-345e5ac269e5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "82bb2b65-f712-4458-8af7-bd74e5f907b7",
+        "fields": {
+            "uuid": "82bb2b65-f712-4458-8af7-bd74e5f907b7",
+            "name": "Charging Cable Cases",
+            "emoji": "",
+            "parent": "b986fbfa-f38b-4488-a871-345e5ac269e5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d8c8fab6-bbfb-4c80-9b0f-7844f2ae3442",
+        "fields": {
+            "uuid": "d8c8fab6-bbfb-4c80-9b0f-7844f2ae3442",
+            "name": "Connector Cases",
+            "emoji": "",
+            "parent": "b986fbfa-f38b-4488-a871-345e5ac269e5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "373b14dc-6bf0-46d6-8e1a-e23a5c3c7c54",
+        "fields": {
+            "uuid": "373b14dc-6bf0-46d6-8e1a-e23a5c3c7c54",
+            "name": "Conversion Kit Cases",
+            "emoji": "",
+            "parent": "b986fbfa-f38b-4488-a871-345e5ac269e5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5634b2ba-3dc5-4b12-bb7e-590454ca3867",
+        "fields": {
+            "uuid": "5634b2ba-3dc5-4b12-bb7e-590454ca3867",
+            "name": "Tool Cases",
+            "emoji": "",
+            "parent": "b986fbfa-f38b-4488-a871-345e5ac269e5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "876043bf-4187-408a-876c-893d9ccf5ec9",
+        "fields": {
+            "uuid": "876043bf-4187-408a-876c-893d9ccf5ec9",
+            "name": "Regenerative Braking Modules",
+            "emoji": "",
+            "parent": "c68e1584-a976-42af-aab6-773bcd75235a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7f8d2b8b-1670-4d10-950f-f23357972828",
+        "fields": {
+            "uuid": "7f8d2b8b-1670-4d10-950f-f23357972828",
+            "name": "Motor Vehicle Electronics",
+            "emoji": "",
+            "parent": "7caab4d7-e7aa-4d52-aa2b-1f21ec7d3146"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "339832a1-9b6d-4485-b4b5-1c5da4f39be9",
+        "fields": {
+            "uuid": "339832a1-9b6d-4485-b4b5-1c5da4f39be9",
+            "name": "Motor Vehicle A/V Players & In-Dash Systems",
+            "emoji": "",
+            "parent": "7f8d2b8b-1670-4d10-950f-f23357972828"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ecc18cdc-d592-41cd-8164-09fbe4048000",
+        "fields": {
+            "uuid": "ecc18cdc-d592-41cd-8164-09fbe4048000",
+            "name": "Motor Vehicle Amplifiers",
+            "emoji": "",
+            "parent": "7f8d2b8b-1670-4d10-950f-f23357972828"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "64db14b6-7b07-48ec-8375-2d1f9ea3a099",
+        "fields": {
+            "uuid": "64db14b6-7b07-48ec-8375-2d1f9ea3a099",
+            "name": "Motor Vehicle Cassette Adapters",
+            "emoji": "",
+            "parent": "7f8d2b8b-1670-4d10-950f-f23357972828"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "451a7161-d26c-4181-90cb-a31fda8549ba",
+        "fields": {
+            "uuid": "451a7161-d26c-4181-90cb-a31fda8549ba",
+            "name": "Motor Vehicle Cassette Players",
+            "emoji": "",
+            "parent": "7f8d2b8b-1670-4d10-950f-f23357972828"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4a3f328b-8bf7-47c3-b7b7-cc5bc92f399c",
+        "fields": {
+            "uuid": "4a3f328b-8bf7-47c3-b7b7-cc5bc92f399c",
+            "name": "Double DIN Cassette Players",
+            "emoji": "",
+            "parent": "451a7161-d26c-4181-90cb-a31fda8549ba"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "72b51c56-9b97-44bd-b346-aabe46e5b65a",
+        "fields": {
+            "uuid": "72b51c56-9b97-44bd-b346-aabe46e5b65a",
+            "name": "Single DIN Cassette Players",
+            "emoji": "",
+            "parent": "451a7161-d26c-4181-90cb-a31fda8549ba"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2bed90d1-18ce-4c40-b84c-de4c3c0259b1",
+        "fields": {
+            "uuid": "2bed90d1-18ce-4c40-b84c-de4c3c0259b1",
+            "name": "Under-Dash Players",
+            "emoji": "",
+            "parent": "451a7161-d26c-4181-90cb-a31fda8549ba"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "80144e6c-9a3f-4dcd-ade2-045acc156ea5",
+        "fields": {
+            "uuid": "80144e6c-9a3f-4dcd-ade2-045acc156ea5",
+            "name": "Motor Vehicle Equalizers & Crossovers",
+            "emoji": "",
+            "parent": "7f8d2b8b-1670-4d10-950f-f23357972828"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2c241cee-e4f5-4f44-b19b-d8e6161a9129",
+        "fields": {
+            "uuid": "2c241cee-e4f5-4f44-b19b-d8e6161a9129",
+            "name": "Active Crossovers",
+            "emoji": "",
+            "parent": "80144e6c-9a3f-4dcd-ade2-045acc156ea5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "29a7115f-5364-4b00-b7d1-86eeb6f3abcd",
+        "fields": {
+            "uuid": "29a7115f-5364-4b00-b7d1-86eeb6f3abcd",
+            "name": "Digital Sound Processors",
+            "emoji": "",
+            "parent": "80144e6c-9a3f-4dcd-ade2-045acc156ea5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ee32636a-c7dd-4416-9181-0225a4665273",
+        "fields": {
+            "uuid": "ee32636a-c7dd-4416-9181-0225a4665273",
+            "name": "Graphic Equalizers",
+            "emoji": "",
+            "parent": "80144e6c-9a3f-4dcd-ade2-045acc156ea5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e80e1a4b-7203-498a-9464-b01867f31c1e",
+        "fields": {
+            "uuid": "e80e1a4b-7203-498a-9464-b01867f31c1e",
+            "name": "Parametric Equalizers",
+            "emoji": "",
+            "parent": "80144e6c-9a3f-4dcd-ade2-045acc156ea5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8e1987be-b865-4ace-9022-4b97ac43a37b",
+        "fields": {
+            "uuid": "8e1987be-b865-4ace-9022-4b97ac43a37b",
+            "name": "Passive Crossovers",
+            "emoji": "",
+            "parent": "80144e6c-9a3f-4dcd-ade2-045acc156ea5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "885ed976-3882-4ef9-91fe-c1ac538f4ed7",
+        "fields": {
+            "uuid": "885ed976-3882-4ef9-91fe-c1ac538f4ed7",
+            "name": "Motor Vehicle Parking Cameras",
+            "emoji": "",
+            "parent": "7f8d2b8b-1670-4d10-950f-f23357972828"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b47c50ef-fbdc-4e91-ab4e-fe29d7f94acd",
+        "fields": {
+            "uuid": "b47c50ef-fbdc-4e91-ab4e-fe29d7f94acd",
+            "name": "360-Degree Cameras",
+            "emoji": "",
+            "parent": "885ed976-3882-4ef9-91fe-c1ac538f4ed7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a65212a7-408f-401c-a806-68de2b5bfe07",
+        "fields": {
+            "uuid": "a65212a7-408f-401c-a806-68de2b5bfe07",
+            "name": "Backup Cameras",
+            "emoji": "",
+            "parent": "885ed976-3882-4ef9-91fe-c1ac538f4ed7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bb07a712-89e7-49d9-83c1-7d6296d29059",
+        "fields": {
+            "uuid": "bb07a712-89e7-49d9-83c1-7d6296d29059",
+            "name": "Motor Vehicle Speakerphones",
+            "emoji": "",
+            "parent": "7f8d2b8b-1670-4d10-950f-f23357972828"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2f9a28c3-fa13-41fb-9a72-b8c24b9881f6",
+        "fields": {
+            "uuid": "2f9a28c3-fa13-41fb-9a72-b8c24b9881f6",
+            "name": "Motor Vehicle Speakers",
+            "emoji": "",
+            "parent": "7f8d2b8b-1670-4d10-950f-f23357972828"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "473887bd-3ea8-4a9a-86aa-0a4d2fbacdec",
+        "fields": {
+            "uuid": "473887bd-3ea8-4a9a-86aa-0a4d2fbacdec",
+            "name": "Coaxial Speakers",
+            "emoji": "",
+            "parent": "2f9a28c3-fa13-41fb-9a72-b8c24b9881f6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ef68c6e3-aebd-4c80-a510-7fa5f4113dc0",
+        "fields": {
+            "uuid": "ef68c6e3-aebd-4c80-a510-7fa5f4113dc0",
+            "name": "Component Speakers",
+            "emoji": "",
+            "parent": "2f9a28c3-fa13-41fb-9a72-b8c24b9881f6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "438d6bdf-a113-4451-a409-c251f12a6699",
+        "fields": {
+            "uuid": "438d6bdf-a113-4451-a409-c251f12a6699",
+            "name": "Full-Range Speakers",
+            "emoji": "",
+            "parent": "2f9a28c3-fa13-41fb-9a72-b8c24b9881f6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7f3803c4-e5a0-4a61-976d-6cf210093419",
+        "fields": {
+            "uuid": "7f3803c4-e5a0-4a61-976d-6cf210093419",
+            "name": "Mid-Range Speakers",
+            "emoji": "",
+            "parent": "2f9a28c3-fa13-41fb-9a72-b8c24b9881f6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4e8f9928-397c-4ba6-8fe0-7fba82f6b610",
+        "fields": {
+            "uuid": "4e8f9928-397c-4ba6-8fe0-7fba82f6b610",
+            "name": "Tweeters",
+            "emoji": "",
+            "parent": "2f9a28c3-fa13-41fb-9a72-b8c24b9881f6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e51ea892-a3d1-4afd-ab16-4e56a7de82fc",
+        "fields": {
+            "uuid": "e51ea892-a3d1-4afd-ab16-4e56a7de82fc",
+            "name": "Woofers",
+            "emoji": "",
+            "parent": "2f9a28c3-fa13-41fb-9a72-b8c24b9881f6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9616a5eb-1827-462f-a2f8-466c4621d8f4",
+        "fields": {
+            "uuid": "9616a5eb-1827-462f-a2f8-466c4621d8f4",
+            "name": "Motor Vehicle Subwoofers",
+            "emoji": "",
+            "parent": "7f8d2b8b-1670-4d10-950f-f23357972828"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f8ada98f-8009-4d18-98f5-b6a594397766",
+        "fields": {
+            "uuid": "f8ada98f-8009-4d18-98f5-b6a594397766",
+            "name": "Motor Vehicle Video Monitor Mounts",
+            "emoji": "",
+            "parent": "7f8d2b8b-1670-4d10-950f-f23357972828"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2fa33acd-7897-450b-a3a9-7c07c3c53a23",
+        "fields": {
+            "uuid": "2fa33acd-7897-450b-a3a9-7c07c3c53a23",
+            "name": "Dashboard Mounts",
+            "emoji": "",
+            "parent": "f8ada98f-8009-4d18-98f5-b6a594397766"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7f143fc8-e148-4f52-8236-1e7683fb9b6d",
+        "fields": {
+            "uuid": "7f143fc8-e148-4f52-8236-1e7683fb9b6d",
+            "name": "Headrest Mounts",
+            "emoji": "",
+            "parent": "f8ada98f-8009-4d18-98f5-b6a594397766"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c3894320-4f9b-4dcd-85ee-227c61d1ec06",
+        "fields": {
+            "uuid": "c3894320-4f9b-4dcd-85ee-227c61d1ec06",
+            "name": "Overhead Mounts",
+            "emoji": "",
+            "parent": "f8ada98f-8009-4d18-98f5-b6a594397766"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4b14d353-d2e5-416a-8408-59e97e2bbf07",
+        "fields": {
+            "uuid": "4b14d353-d2e5-416a-8408-59e97e2bbf07",
+            "name": "Rearview Mirror Mounts",
+            "emoji": "",
+            "parent": "f8ada98f-8009-4d18-98f5-b6a594397766"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1025725a-d288-4cbd-9ea3-c4f702c9fc27",
+        "fields": {
+            "uuid": "1025725a-d288-4cbd-9ea3-c4f702c9fc27",
+            "name": "Seat Mounts",
+            "emoji": "",
+            "parent": "f8ada98f-8009-4d18-98f5-b6a594397766"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6b21d3c4-f9f7-4691-b865-5043028be723",
+        "fields": {
+            "uuid": "6b21d3c4-f9f7-4691-b865-5043028be723",
+            "name": "Sun Visor Mounts",
+            "emoji": "",
+            "parent": "f8ada98f-8009-4d18-98f5-b6a594397766"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "19eb40d6-7437-408e-bfc3-869f9c8b459b",
+        "fields": {
+            "uuid": "19eb40d6-7437-408e-bfc3-869f9c8b459b",
+            "name": "Windshield Mounts",
+            "emoji": "",
+            "parent": "f8ada98f-8009-4d18-98f5-b6a594397766"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c67afce8-8a10-4700-b520-5a932ffbd620",
+        "fields": {
+            "uuid": "c67afce8-8a10-4700-b520-5a932ffbd620",
+            "name": "Motor Vehicle Parts",
+            "emoji": "",
+            "parent": "7caab4d7-e7aa-4d52-aa2b-1f21ec7d3146"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "64da01b8-eb83-4074-9f88-760fb7bcebc2",
+        "fields": {
+            "uuid": "64da01b8-eb83-4074-9f88-760fb7bcebc2",
+            "name": "Motor Vehicle Braking",
+            "emoji": "",
+            "parent": "c67afce8-8a10-4700-b520-5a932ffbd620"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "93fc6ff9-7581-433c-aa5e-7b038af2e06f",
+        "fields": {
+            "uuid": "93fc6ff9-7581-433c-aa5e-7b038af2e06f",
+            "name": "Anti-Lock Braking System (ABS) Parts",
+            "emoji": "",
+            "parent": "64da01b8-eb83-4074-9f88-760fb7bcebc2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d499a7ff-e620-4160-9a78-421a36383b9d",
+        "fields": {
+            "uuid": "d499a7ff-e620-4160-9a78-421a36383b9d",
+            "name": "Brake Boosters",
+            "emoji": "",
+            "parent": "64da01b8-eb83-4074-9f88-760fb7bcebc2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a7eb0aa5-9eed-4a1f-afb3-e3a5f7c9af74",
+        "fields": {
+            "uuid": "a7eb0aa5-9eed-4a1f-afb3-e3a5f7c9af74",
+            "name": "Brake Calipers",
+            "emoji": "",
+            "parent": "64da01b8-eb83-4074-9f88-760fb7bcebc2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "105d712c-9e3b-491a-97e3-eeca42a82d72",
+        "fields": {
+            "uuid": "105d712c-9e3b-491a-97e3-eeca42a82d72",
+            "name": "Brake Fluid",
+            "emoji": "",
+            "parent": "64da01b8-eb83-4074-9f88-760fb7bcebc2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "810749bb-a5c1-45de-b4c5-baedd241437a",
+        "fields": {
+            "uuid": "810749bb-a5c1-45de-b4c5-baedd241437a",
+            "name": "Brake Lines",
+            "emoji": "",
+            "parent": "64da01b8-eb83-4074-9f88-760fb7bcebc2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "01231a10-5b91-41be-897c-1627e4e1cf37",
+        "fields": {
+            "uuid": "01231a10-5b91-41be-897c-1627e4e1cf37",
+            "name": "Brake Master Cylinders",
+            "emoji": "",
+            "parent": "64da01b8-eb83-4074-9f88-760fb7bcebc2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ed63107d-4b5c-4e3d-8d0b-eeec25012e34",
+        "fields": {
+            "uuid": "ed63107d-4b5c-4e3d-8d0b-eeec25012e34",
+            "name": "Brake Pads",
+            "emoji": "",
+            "parent": "64da01b8-eb83-4074-9f88-760fb7bcebc2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ffa26863-a6de-4fd2-aee2-d017c52e377c",
+        "fields": {
+            "uuid": "ffa26863-a6de-4fd2-aee2-d017c52e377c",
+            "name": "Brake Rotors",
+            "emoji": "",
+            "parent": "64da01b8-eb83-4074-9f88-760fb7bcebc2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "35141736-488e-4a58-ad72-b298ee8e2af0",
+        "fields": {
+            "uuid": "35141736-488e-4a58-ad72-b298ee8e2af0",
+            "name": "Motor Vehicle Carpet & Upholstery",
+            "emoji": "",
+            "parent": "c67afce8-8a10-4700-b520-5a932ffbd620"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6cd7d3f9-062c-46b0-b4e8-bc2ce3d62b91",
+        "fields": {
+            "uuid": "6cd7d3f9-062c-46b0-b4e8-bc2ce3d62b91",
+            "name": "Cargo Liners",
+            "emoji": "",
+            "parent": "35141736-488e-4a58-ad72-b298ee8e2af0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "36d0d260-9d51-433b-8b5a-26dd7f71a123",
+        "fields": {
+            "uuid": "36d0d260-9d51-433b-8b5a-26dd7f71a123",
+            "name": "Carpet Kits",
+            "emoji": "",
+            "parent": "35141736-488e-4a58-ad72-b298ee8e2af0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "41d4f06f-6ce5-44cb-ab8a-a8a7de2d8eb5",
+        "fields": {
+            "uuid": "41d4f06f-6ce5-44cb-ab8a-a8a7de2d8eb5",
+            "name": "Console Covers",
+            "emoji": "",
+            "parent": "35141736-488e-4a58-ad72-b298ee8e2af0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cbfbd6a6-973c-4c2e-b2da-65fe74ca93e7",
+        "fields": {
+            "uuid": "cbfbd6a6-973c-4c2e-b2da-65fe74ca93e7",
+            "name": "Dash Covers",
+            "emoji": "",
+            "parent": "35141736-488e-4a58-ad72-b298ee8e2af0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b1c4278e-b282-4b83-8a06-7cc7c10a3690",
+        "fields": {
+            "uuid": "b1c4278e-b282-4b83-8a06-7cc7c10a3690",
+            "name": "Door Panels",
+            "emoji": "",
+            "parent": "35141736-488e-4a58-ad72-b298ee8e2af0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "796e10fa-bfd7-4cb1-b4b4-b3844892ebfa",
+        "fields": {
+            "uuid": "796e10fa-bfd7-4cb1-b4b4-b3844892ebfa",
+            "name": "Headliners",
+            "emoji": "",
+            "parent": "35141736-488e-4a58-ad72-b298ee8e2af0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0e69daa8-3718-4239-9c86-f7bb81085bb8",
+        "fields": {
+            "uuid": "0e69daa8-3718-4239-9c86-f7bb81085bb8",
+            "name": "Trunk Mats",
+            "emoji": "",
+            "parent": "35141736-488e-4a58-ad72-b298ee8e2af0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "90c99d0a-5982-4052-9f42-eda404839850",
+        "fields": {
+            "uuid": "90c99d0a-5982-4052-9f42-eda404839850",
+            "name": "Upholstery Fabric",
+            "emoji": "",
+            "parent": "35141736-488e-4a58-ad72-b298ee8e2af0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0620dc7f-5b52-4731-921f-f2a479d49e8c",
+        "fields": {
+            "uuid": "0620dc7f-5b52-4731-921f-f2a479d49e8c",
+            "name": "Motor Vehicle Climate Control",
+            "emoji": "",
+            "parent": "c67afce8-8a10-4700-b520-5a932ffbd620"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aa2c2b34-26c9-4a59-a1c6-edf58625ca5c",
+        "fields": {
+            "uuid": "aa2c2b34-26c9-4a59-a1c6-edf58625ca5c",
+            "name": "AC Compressors",
+            "emoji": "",
+            "parent": "0620dc7f-5b52-4731-921f-f2a479d49e8c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "87873fbe-1d27-4195-bb4f-ad04c6361526",
+        "fields": {
+            "uuid": "87873fbe-1d27-4195-bb4f-ad04c6361526",
+            "name": "AC Condensers",
+            "emoji": "",
+            "parent": "0620dc7f-5b52-4731-921f-f2a479d49e8c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1ff3c52e-d5a6-46e9-8bd0-59f65a848363",
+        "fields": {
+            "uuid": "1ff3c52e-d5a6-46e9-8bd0-59f65a848363",
+            "name": "AC Evaporators",
+            "emoji": "",
+            "parent": "0620dc7f-5b52-4731-921f-f2a479d49e8c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c53d3439-7453-4f31-a90d-a67affba4bf0",
+        "fields": {
+            "uuid": "c53d3439-7453-4f31-a90d-a67affba4bf0",
+            "name": "AC Hoses",
+            "emoji": "",
+            "parent": "0620dc7f-5b52-4731-921f-f2a479d49e8c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "09c40e99-23c7-4b63-9047-a7d581becd7b",
+        "fields": {
+            "uuid": "09c40e99-23c7-4b63-9047-a7d581becd7b",
+            "name": "Blower Motors",
+            "emoji": "",
+            "parent": "0620dc7f-5b52-4731-921f-f2a479d49e8c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4c6ef518-65e8-4777-bd8e-6ea335bb1acb",
+        "fields": {
+            "uuid": "4c6ef518-65e8-4777-bd8e-6ea335bb1acb",
+            "name": "Climate Control Modules",
+            "emoji": "",
+            "parent": "0620dc7f-5b52-4731-921f-f2a479d49e8c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6528676d-a678-4d5e-9473-b61df37fe19a",
+        "fields": {
+            "uuid": "6528676d-a678-4d5e-9473-b61df37fe19a",
+            "name": "Heater Controls",
+            "emoji": "",
+            "parent": "0620dc7f-5b52-4731-921f-f2a479d49e8c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "843f9d18-2717-42f9-936d-cfb8778f965c",
+        "fields": {
+            "uuid": "843f9d18-2717-42f9-936d-cfb8778f965c",
+            "name": "Heater Cores",
+            "emoji": "",
+            "parent": "0620dc7f-5b52-4731-921f-f2a479d49e8c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3511d4ec-16ef-4723-b4cc-40e6748e8331",
+        "fields": {
+            "uuid": "3511d4ec-16ef-4723-b4cc-40e6748e8331",
+            "name": "Motor Vehicle Controls",
+            "emoji": "",
+            "parent": "c67afce8-8a10-4700-b520-5a932ffbd620"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f048d5cf-a907-4bd7-9313-357aac006c5d",
+        "fields": {
+            "uuid": "f048d5cf-a907-4bd7-9313-357aac006c5d",
+            "name": "Handbrakes",
+            "emoji": "",
+            "parent": "3511d4ec-16ef-4723-b4cc-40e6748e8331"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cb4b7996-4a86-4d83-8d6f-0e2e07682d4c",
+        "fields": {
+            "uuid": "cb4b7996-4a86-4d83-8d6f-0e2e07682d4c",
+            "name": "Pedals",
+            "emoji": "",
+            "parent": "3511d4ec-16ef-4723-b4cc-40e6748e8331"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "da667150-550d-4f0a-8b7e-43119555bc4a",
+        "fields": {
+            "uuid": "da667150-550d-4f0a-8b7e-43119555bc4a",
+            "name": "Steering Columns",
+            "emoji": "",
+            "parent": "3511d4ec-16ef-4723-b4cc-40e6748e8331"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4bfe40a4-b882-4cfd-aa98-c59edba307b2",
+        "fields": {
+            "uuid": "4bfe40a4-b882-4cfd-aa98-c59edba307b2",
+            "name": "Steering Pumps",
+            "emoji": "",
+            "parent": "3511d4ec-16ef-4723-b4cc-40e6748e8331"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "15179f02-67e4-4079-8bf4-41f866fe709c",
+        "fields": {
+            "uuid": "15179f02-67e4-4079-8bf4-41f866fe709c",
+            "name": "Steering Racks",
+            "emoji": "",
+            "parent": "3511d4ec-16ef-4723-b4cc-40e6748e8331"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "abc2e403-755f-4fb0-bf57-5638c742149c",
+        "fields": {
+            "uuid": "abc2e403-755f-4fb0-bf57-5638c742149c",
+            "name": "Steering Wheels",
+            "emoji": "",
+            "parent": "3511d4ec-16ef-4723-b4cc-40e6748e8331"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ad594fe4-6ece-4b77-b109-b76ff3fc1534",
+        "fields": {
+            "uuid": "ad594fe4-6ece-4b77-b109-b76ff3fc1534",
+            "name": "Motor Vehicle Engine Oil Circulation",
+            "emoji": "",
+            "parent": "c67afce8-8a10-4700-b520-5a932ffbd620"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0ba22d13-1337-46f1-a72d-3b98eb2b234b",
+        "fields": {
+            "uuid": "0ba22d13-1337-46f1-a72d-3b98eb2b234b",
+            "name": "Oil Coolers",
+            "emoji": "",
+            "parent": "ad594fe4-6ece-4b77-b109-b76ff3fc1534"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8422441c-d9b7-4fb1-9979-4ddccdcc55d9",
+        "fields": {
+            "uuid": "8422441c-d9b7-4fb1-9979-4ddccdcc55d9",
+            "name": "Oil Dipsticks",
+            "emoji": "",
+            "parent": "ad594fe4-6ece-4b77-b109-b76ff3fc1534"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3e35c79d-daf8-4c37-9745-dc421cddca9b",
+        "fields": {
+            "uuid": "3e35c79d-daf8-4c37-9745-dc421cddca9b",
+            "name": "Oil Drain Plugs",
+            "emoji": "",
+            "parent": "ad594fe4-6ece-4b77-b109-b76ff3fc1534"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "040c11f2-f25f-4ccf-a33b-7fc6481918e5",
+        "fields": {
+            "uuid": "040c11f2-f25f-4ccf-a33b-7fc6481918e5",
+            "name": "Oil Filler Caps",
+            "emoji": "",
+            "parent": "ad594fe4-6ece-4b77-b109-b76ff3fc1534"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a4846448-6400-46d8-a38e-e779ee02f99a",
+        "fields": {
+            "uuid": "a4846448-6400-46d8-a38e-e779ee02f99a",
+            "name": "Oil Filters",
+            "emoji": "",
+            "parent": "ad594fe4-6ece-4b77-b109-b76ff3fc1534"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "497d1968-a29b-48a2-85db-07a0dfdcc9ed",
+        "fields": {
+            "uuid": "497d1968-a29b-48a2-85db-07a0dfdcc9ed",
+            "name": "Oil Pans",
+            "emoji": "",
+            "parent": "ad594fe4-6ece-4b77-b109-b76ff3fc1534"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "abd3be07-f62d-472b-a790-978ea85205c9",
+        "fields": {
+            "uuid": "abd3be07-f62d-472b-a790-978ea85205c9",
+            "name": "Oil Pressure Sensors",
+            "emoji": "",
+            "parent": "ad594fe4-6ece-4b77-b109-b76ff3fc1534"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2887f9e2-d348-456c-8c4a-c0946f44ebfe",
+        "fields": {
+            "uuid": "2887f9e2-d348-456c-8c4a-c0946f44ebfe",
+            "name": "Oil Pumps",
+            "emoji": "",
+            "parent": "ad594fe4-6ece-4b77-b109-b76ff3fc1534"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "be43bdbe-6ff2-4a76-97ac-e9e6efab471b",
+        "fields": {
+            "uuid": "be43bdbe-6ff2-4a76-97ac-e9e6efab471b",
+            "name": "Motor Vehicle Engine Parts",
+            "emoji": "",
+            "parent": "c67afce8-8a10-4700-b520-5a932ffbd620"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "70b291fe-c8b4-49ae-acc2-74d838df3e2c",
+        "fields": {
+            "uuid": "70b291fe-c8b4-49ae-acc2-74d838df3e2c",
+            "name": "Camshafts",
+            "emoji": "",
+            "parent": "be43bdbe-6ff2-4a76-97ac-e9e6efab471b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "816e4995-97dd-40f6-a8d7-455a833d94de",
+        "fields": {
+            "uuid": "816e4995-97dd-40f6-a8d7-455a833d94de",
+            "name": "Crankshafts",
+            "emoji": "",
+            "parent": "be43bdbe-6ff2-4a76-97ac-e9e6efab471b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "646a3a6a-d5ac-4c79-a890-6f989d57f329",
+        "fields": {
+            "uuid": "646a3a6a-d5ac-4c79-a890-6f989d57f329",
+            "name": "Cylinder Heads",
+            "emoji": "",
+            "parent": "be43bdbe-6ff2-4a76-97ac-e9e6efab471b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a5b89e1a-3a51-4dea-81d7-1369bf606293",
+        "fields": {
+            "uuid": "a5b89e1a-3a51-4dea-81d7-1369bf606293",
+            "name": "Engine Bearings",
+            "emoji": "",
+            "parent": "be43bdbe-6ff2-4a76-97ac-e9e6efab471b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "89d06d2b-0fad-40ba-b426-9fb6b28b200e",
+        "fields": {
+            "uuid": "89d06d2b-0fad-40ba-b426-9fb6b28b200e",
+            "name": "Ignition Components",
+            "emoji": "",
+            "parent": "be43bdbe-6ff2-4a76-97ac-e9e6efab471b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d371bc15-ed3b-4813-91ef-abdfbbbadbd4",
+        "fields": {
+            "uuid": "d371bc15-ed3b-4813-91ef-abdfbbbadbd4",
+            "name": "Pistons",
+            "emoji": "",
+            "parent": "be43bdbe-6ff2-4a76-97ac-e9e6efab471b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c6362344-d0ad-4638-a654-e4a1231abb6a",
+        "fields": {
+            "uuid": "c6362344-d0ad-4638-a654-e4a1231abb6a",
+            "name": "Timing Belts",
+            "emoji": "",
+            "parent": "be43bdbe-6ff2-4a76-97ac-e9e6efab471b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "68be0769-ac4e-4688-a3d7-999085dff9a2",
+        "fields": {
+            "uuid": "68be0769-ac4e-4688-a3d7-999085dff9a2",
+            "name": "Timing Chains",
+            "emoji": "",
+            "parent": "be43bdbe-6ff2-4a76-97ac-e9e6efab471b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7af16cff-729e-4de0-a0b4-3a0898343a45",
+        "fields": {
+            "uuid": "7af16cff-729e-4de0-a0b4-3a0898343a45",
+            "name": "Valves",
+            "emoji": "",
+            "parent": "be43bdbe-6ff2-4a76-97ac-e9e6efab471b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7946b262-e964-44e5-991d-a098f87a244c",
+        "fields": {
+            "uuid": "7946b262-e964-44e5-991d-a098f87a244c",
+            "name": "Motor Vehicle Engines",
+            "emoji": "",
+            "parent": "c67afce8-8a10-4700-b520-5a932ffbd620"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "87ef11c9-e021-42c5-8dc6-e897af3910f9",
+        "fields": {
+            "uuid": "87ef11c9-e021-42c5-8dc6-e897af3910f9",
+            "name": "Complete Engines",
+            "emoji": "",
+            "parent": "7946b262-e964-44e5-991d-a098f87a244c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "16789065-3201-4c2f-ba3d-49d3fcd832f4",
+        "fields": {
+            "uuid": "16789065-3201-4c2f-ba3d-49d3fcd832f4",
+            "name": "Crate Engines",
+            "emoji": "",
+            "parent": "7946b262-e964-44e5-991d-a098f87a244c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4321e7fc-c84d-42e5-bb0f-6dca017141ed",
+        "fields": {
+            "uuid": "4321e7fc-c84d-42e5-bb0f-6dca017141ed",
+            "name": "Engine Mounts",
+            "emoji": "",
+            "parent": "7946b262-e964-44e5-991d-a098f87a244c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a47de787-fad1-4013-9ced-3434e8b14ae7",
+        "fields": {
+            "uuid": "a47de787-fad1-4013-9ced-3434e8b14ae7",
+            "name": "Engine Rebuild Kits",
+            "emoji": "",
+            "parent": "7946b262-e964-44e5-991d-a098f87a244c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "16a72711-288a-4bf7-b109-fdb05f2fefc3",
+        "fields": {
+            "uuid": "16a72711-288a-4bf7-b109-fdb05f2fefc3",
+            "name": "Engine Timing Components",
+            "emoji": "",
+            "parent": "7946b262-e964-44e5-991d-a098f87a244c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9c6fc52b-e2b5-401e-a19d-8453678a9112",
+        "fields": {
+            "uuid": "9c6fc52b-e2b5-401e-a19d-8453678a9112",
+            "name": "Engine Valve Covers",
+            "emoji": "",
+            "parent": "7946b262-e964-44e5-991d-a098f87a244c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0a53ab1d-5f68-41da-a26e-549eeac17240",
+        "fields": {
+            "uuid": "0a53ab1d-5f68-41da-a26e-549eeac17240",
+            "name": "Long Blocks",
+            "emoji": "",
+            "parent": "7946b262-e964-44e5-991d-a098f87a244c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1c45ee44-8d09-4d79-9a8a-81d8aad1b100",
+        "fields": {
+            "uuid": "1c45ee44-8d09-4d79-9a8a-81d8aad1b100",
+            "name": "Short Blocks",
+            "emoji": "",
+            "parent": "7946b262-e964-44e5-991d-a098f87a244c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a893687d-af2a-43b5-96b3-e4a9ca4a3a58",
+        "fields": {
+            "uuid": "a893687d-af2a-43b5-96b3-e4a9ca4a3a58",
+            "name": "Motor Vehicle Exhaust",
+            "emoji": "",
+            "parent": "c67afce8-8a10-4700-b520-5a932ffbd620"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0616e3cf-293f-412a-a43f-fd8c78ca389d",
+        "fields": {
+            "uuid": "0616e3cf-293f-412a-a43f-fd8c78ca389d",
+            "name": "Motor Vehicle Frame & Body Parts",
+            "emoji": "",
+            "parent": "c67afce8-8a10-4700-b520-5a932ffbd620"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3aa25460-6e4a-41b8-8297-ab412317f28a",
+        "fields": {
+            "uuid": "3aa25460-6e4a-41b8-8297-ab412317f28a",
+            "name": "Bumpers",
+            "emoji": "",
+            "parent": "0616e3cf-293f-412a-a43f-fd8c78ca389d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "66f1cabf-023e-4e50-affe-9f4ac7dd214b",
+        "fields": {
+            "uuid": "66f1cabf-023e-4e50-affe-9f4ac7dd214b",
+            "name": "Doors",
+            "emoji": "",
+            "parent": "0616e3cf-293f-412a-a43f-fd8c78ca389d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "327fec57-88f0-40c0-90ae-ecd2b64236f2",
+        "fields": {
+            "uuid": "327fec57-88f0-40c0-90ae-ecd2b64236f2",
+            "name": "Fenders",
+            "emoji": "",
+            "parent": "0616e3cf-293f-412a-a43f-fd8c78ca389d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3efe8462-70f7-4cb1-91b2-5ff4d066de0a",
+        "fields": {
+            "uuid": "3efe8462-70f7-4cb1-91b2-5ff4d066de0a",
+            "name": "Grilles",
+            "emoji": "",
+            "parent": "0616e3cf-293f-412a-a43f-fd8c78ca389d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ce2ad7ea-2c17-498b-b79e-c1068f70f3be",
+        "fields": {
+            "uuid": "ce2ad7ea-2c17-498b-b79e-c1068f70f3be",
+            "name": "Hoods",
+            "emoji": "",
+            "parent": "0616e3cf-293f-412a-a43f-fd8c78ca389d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0dae0a84-3852-4799-9291-9465d3ced2b5",
+        "fields": {
+            "uuid": "0dae0a84-3852-4799-9291-9465d3ced2b5",
+            "name": "Quarter Panels",
+            "emoji": "",
+            "parent": "0616e3cf-293f-412a-a43f-fd8c78ca389d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d8be2049-e49e-4a86-b856-f67685608a5a",
+        "fields": {
+            "uuid": "d8be2049-e49e-4a86-b856-f67685608a5a",
+            "name": "Spoilers",
+            "emoji": "",
+            "parent": "0616e3cf-293f-412a-a43f-fd8c78ca389d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d59d7fa3-e4d0-4eae-ab1c-4b0436af98ab",
+        "fields": {
+            "uuid": "d59d7fa3-e4d0-4eae-ab1c-4b0436af98ab",
+            "name": "Trunks",
+            "emoji": "",
+            "parent": "0616e3cf-293f-412a-a43f-fd8c78ca389d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "52db2b9a-14d0-4dc4-a4f4-ac9d85666652",
+        "fields": {
+            "uuid": "52db2b9a-14d0-4dc4-a4f4-ac9d85666652",
+            "name": "Motor Vehicle Fuel Systems",
+            "emoji": "",
+            "parent": "c67afce8-8a10-4700-b520-5a932ffbd620"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "982ca81b-28e9-480d-a90a-f82a4bdec664",
+        "fields": {
+            "uuid": "982ca81b-28e9-480d-a90a-f82a4bdec664",
+            "name": "Carburetors",
+            "emoji": "",
+            "parent": "52db2b9a-14d0-4dc4-a4f4-ac9d85666652"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d85c1cff-0f9c-43a9-9917-1bc1f9bfa747",
+        "fields": {
+            "uuid": "d85c1cff-0f9c-43a9-9917-1bc1f9bfa747",
+            "name": "Fuel Caps",
+            "emoji": "",
+            "parent": "52db2b9a-14d0-4dc4-a4f4-ac9d85666652"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9eef9da0-87bf-4bbb-891e-e5f31260bb39",
+        "fields": {
+            "uuid": "9eef9da0-87bf-4bbb-891e-e5f31260bb39",
+            "name": "Fuel Filters",
+            "emoji": "",
+            "parent": "52db2b9a-14d0-4dc4-a4f4-ac9d85666652"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "36953630-3e64-401d-8c66-84d5464e8a8f",
+        "fields": {
+            "uuid": "36953630-3e64-401d-8c66-84d5464e8a8f",
+            "name": "Fuel Injectors",
+            "emoji": "",
+            "parent": "52db2b9a-14d0-4dc4-a4f4-ac9d85666652"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2294f194-a525-48d2-8061-4212fda5418e",
+        "fields": {
+            "uuid": "2294f194-a525-48d2-8061-4212fda5418e",
+            "name": "Fuel Lines",
+            "emoji": "",
+            "parent": "52db2b9a-14d0-4dc4-a4f4-ac9d85666652"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7f81508f-858e-4f68-b1b6-db66039f23c6",
+        "fields": {
+            "uuid": "7f81508f-858e-4f68-b1b6-db66039f23c6",
+            "name": "Fuel Pressure Regulators",
+            "emoji": "",
+            "parent": "52db2b9a-14d0-4dc4-a4f4-ac9d85666652"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "07a3eb5c-a98c-4710-91be-907cd7524945",
+        "fields": {
+            "uuid": "07a3eb5c-a98c-4710-91be-907cd7524945",
+            "name": "Fuel Pumps",
+            "emoji": "",
+            "parent": "52db2b9a-14d0-4dc4-a4f4-ac9d85666652"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2ce69ffd-bce6-463a-b563-ff89236a2095",
+        "fields": {
+            "uuid": "2ce69ffd-bce6-463a-b563-ff89236a2095",
+            "name": "Fuel Tanks",
+            "emoji": "",
+            "parent": "52db2b9a-14d0-4dc4-a4f4-ac9d85666652"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e995ec8a-a624-46a1-a49c-0b090c970126",
+        "fields": {
+            "uuid": "e995ec8a-a624-46a1-a49c-0b090c970126",
+            "name": "Motor Vehicle Interior Fittings",
+            "emoji": "",
+            "parent": "c67afce8-8a10-4700-b520-5a932ffbd620"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d0a5210e-f168-4f75-a4a0-c01919386b17",
+        "fields": {
+            "uuid": "d0a5210e-f168-4f75-a4a0-c01919386b17",
+            "name": "Car Mirrors",
+            "emoji": "",
+            "parent": "e995ec8a-a624-46a1-a49c-0b090c970126"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ce37419f-9d6e-400c-9d52-3319b64b7187",
+        "fields": {
+            "uuid": "ce37419f-9d6e-400c-9d52-3319b64b7187",
+            "name": "Car Organizers",
+            "emoji": "",
+            "parent": "e995ec8a-a624-46a1-a49c-0b090c970126"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "643deb92-4ad1-465f-b706-0dae0a0ec87d",
+        "fields": {
+            "uuid": "643deb92-4ad1-465f-b706-0dae0a0ec87d",
+            "name": "Floor Mats",
+            "emoji": "",
+            "parent": "e995ec8a-a624-46a1-a49c-0b090c970126"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "37a31b68-a414-4687-ab79-8b6f08025ec7",
+        "fields": {
+            "uuid": "37a31b68-a414-4687-ab79-8b6f08025ec7",
+            "name": "Pedal Sets",
+            "emoji": "",
+            "parent": "e995ec8a-a624-46a1-a49c-0b090c970126"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "86d352dc-e949-48f2-bb0f-7444233a02b4",
+        "fields": {
+            "uuid": "86d352dc-e949-48f2-bb0f-7444233a02b4",
+            "name": "Seat Covers",
+            "emoji": "",
+            "parent": "e995ec8a-a624-46a1-a49c-0b090c970126"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4d03f2fa-136f-4d85-b0f7-4242fbd9d2b8",
+        "fields": {
+            "uuid": "4d03f2fa-136f-4d85-b0f7-4242fbd9d2b8",
+            "name": "Steering Wheel Covers",
+            "emoji": "",
+            "parent": "e995ec8a-a624-46a1-a49c-0b090c970126"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f8bbc1dd-7208-4111-b18d-89c9cd7c7f96",
+        "fields": {
+            "uuid": "f8bbc1dd-7208-4111-b18d-89c9cd7c7f96",
+            "name": "Sun Shades",
+            "emoji": "",
+            "parent": "e995ec8a-a624-46a1-a49c-0b090c970126"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "45621e29-990d-4d37-9ffa-13c896313db3",
+        "fields": {
+            "uuid": "45621e29-990d-4d37-9ffa-13c896313db3",
+            "name": "Motor Vehicle Lighting",
+            "emoji": "",
+            "parent": "c67afce8-8a10-4700-b520-5a932ffbd620"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c903968e-9581-410d-a068-6e443e49efb8",
+        "fields": {
+            "uuid": "c903968e-9581-410d-a068-6e443e49efb8",
+            "name": "Fog Lights",
+            "emoji": "",
+            "parent": "45621e29-990d-4d37-9ffa-13c896313db3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0a69593a-b103-4a1e-ad42-acb5fa3eb65f",
+        "fields": {
+            "uuid": "0a69593a-b103-4a1e-ad42-acb5fa3eb65f",
+            "name": "Headlights",
+            "emoji": "",
+            "parent": "45621e29-990d-4d37-9ffa-13c896313db3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "420b6584-4d38-45b8-8893-fe89bfd9b903",
+        "fields": {
+            "uuid": "420b6584-4d38-45b8-8893-fe89bfd9b903",
+            "name": "Light Bars",
+            "emoji": "",
+            "parent": "45621e29-990d-4d37-9ffa-13c896313db3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e380c8c4-9f56-49f1-a9c5-0f843270d659",
+        "fields": {
+            "uuid": "e380c8c4-9f56-49f1-a9c5-0f843270d659",
+            "name": "Light Bulbs",
+            "emoji": "",
+            "parent": "45621e29-990d-4d37-9ffa-13c896313db3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e07f8f5e-6f52-42ea-bc22-e223f5f9b88a",
+        "fields": {
+            "uuid": "e07f8f5e-6f52-42ea-bc22-e223f5f9b88a",
+            "name": "Light Covers",
+            "emoji": "",
+            "parent": "45621e29-990d-4d37-9ffa-13c896313db3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "844b144b-5a91-4a40-bf30-46120109241d",
+        "fields": {
+            "uuid": "844b144b-5a91-4a40-bf30-46120109241d",
+            "name": "Light Switches",
+            "emoji": "",
+            "parent": "45621e29-990d-4d37-9ffa-13c896313db3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "939df065-f0b3-4df0-84c2-eaf15dcad2e4",
+        "fields": {
+            "uuid": "939df065-f0b3-4df0-84c2-eaf15dcad2e4",
+            "name": "Tail Lights",
+            "emoji": "",
+            "parent": "45621e29-990d-4d37-9ffa-13c896313db3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f2f554b2-dd7b-4c68-aa0d-1bb999ebb6c9",
+        "fields": {
+            "uuid": "f2f554b2-dd7b-4c68-aa0d-1bb999ebb6c9",
+            "name": "Turn Signals",
+            "emoji": "",
+            "parent": "45621e29-990d-4d37-9ffa-13c896313db3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "17bda75e-f771-4780-a02c-83650558e03f",
+        "fields": {
+            "uuid": "17bda75e-f771-4780-a02c-83650558e03f",
+            "name": "Motor Vehicle Mirrors",
+            "emoji": "",
+            "parent": "c67afce8-8a10-4700-b520-5a932ffbd620"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6d400127-4923-4918-af53-7c27d1518e3b",
+        "fields": {
+            "uuid": "6d400127-4923-4918-af53-7c27d1518e3b",
+            "name": "Motor Vehicle Power & Electrical Systems",
+            "emoji": "",
+            "parent": "c67afce8-8a10-4700-b520-5a932ffbd620"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ef26221d-1896-4c92-af8d-f761d15400f0",
+        "fields": {
+            "uuid": "ef26221d-1896-4c92-af8d-f761d15400f0",
+            "name": "Alternators",
+            "emoji": "",
+            "parent": "6d400127-4923-4918-af53-7c27d1518e3b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3c685746-7df8-4592-8248-67c4d99830f0",
+        "fields": {
+            "uuid": "3c685746-7df8-4592-8248-67c4d99830f0",
+            "name": "Batteries",
+            "emoji": "",
+            "parent": "6d400127-4923-4918-af53-7c27d1518e3b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aed24e64-d684-48fa-b738-91389dc4ed14",
+        "fields": {
+            "uuid": "aed24e64-d684-48fa-b738-91389dc4ed14",
+            "name": "Fuses",
+            "emoji": "",
+            "parent": "6d400127-4923-4918-af53-7c27d1518e3b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3d845e3d-191e-432d-8672-da14f2d10d9d",
+        "fields": {
+            "uuid": "3d845e3d-191e-432d-8672-da14f2d10d9d",
+            "name": "Relays",
+            "emoji": "",
+            "parent": "6d400127-4923-4918-af53-7c27d1518e3b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f663f2d4-405a-4ba7-a1d4-898601b5fb49",
+        "fields": {
+            "uuid": "f663f2d4-405a-4ba7-a1d4-898601b5fb49",
+            "name": "Spark Plugs",
+            "emoji": "",
+            "parent": "6d400127-4923-4918-af53-7c27d1518e3b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3de3896e-bc43-4b23-bf88-78732f96896d",
+        "fields": {
+            "uuid": "3de3896e-bc43-4b23-bf88-78732f96896d",
+            "name": "Starters",
+            "emoji": "",
+            "parent": "6d400127-4923-4918-af53-7c27d1518e3b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4067271b-a382-46fb-8169-79467e45d491",
+        "fields": {
+            "uuid": "4067271b-a382-46fb-8169-79467e45d491",
+            "name": "Voltage Regulators",
+            "emoji": "",
+            "parent": "6d400127-4923-4918-af53-7c27d1518e3b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "90ba79d9-6cfc-4bba-a2ed-8a68920ff626",
+        "fields": {
+            "uuid": "90ba79d9-6cfc-4bba-a2ed-8a68920ff626",
+            "name": "Wiring Harnesses",
+            "emoji": "",
+            "parent": "6d400127-4923-4918-af53-7c27d1518e3b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d68e9c5f-bea8-4c55-9967-00788d61ed2c",
+        "fields": {
+            "uuid": "d68e9c5f-bea8-4c55-9967-00788d61ed2c",
+            "name": "Motor Vehicle Seating",
+            "emoji": "",
+            "parent": "c67afce8-8a10-4700-b520-5a932ffbd620"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "53b362aa-c1d4-4f6a-9759-da31fca9359d",
+        "fields": {
+            "uuid": "53b362aa-c1d4-4f6a-9759-da31fca9359d",
+            "name": "Front Seats",
+            "emoji": "",
+            "parent": "d68e9c5f-bea8-4c55-9967-00788d61ed2c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "71142688-e2c7-4367-ad05-fef5fc1b5f09",
+        "fields": {
+            "uuid": "71142688-e2c7-4367-ad05-fef5fc1b5f09",
+            "name": "Rear Seats",
+            "emoji": "",
+            "parent": "d68e9c5f-bea8-4c55-9967-00788d61ed2c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e3396b3f-7678-4944-b0e3-5c39c3e6a945",
+        "fields": {
+            "uuid": "e3396b3f-7678-4944-b0e3-5c39c3e6a945",
+            "name": "Motor Vehicle Sensors & Gauges",
+            "emoji": "",
+            "parent": "c67afce8-8a10-4700-b520-5a932ffbd620"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a06bfe19-b46d-4179-8302-f8b78e4db8fa",
+        "fields": {
+            "uuid": "a06bfe19-b46d-4179-8302-f8b78e4db8fa",
+            "name": "Fuel Level Sensors",
+            "emoji": "",
+            "parent": "e3396b3f-7678-4944-b0e3-5c39c3e6a945"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ca2910ae-047f-400f-8e10-fe38b630cf98",
+        "fields": {
+            "uuid": "ca2910ae-047f-400f-8e10-fe38b630cf98",
+            "name": "Odometers",
+            "emoji": "",
+            "parent": "e3396b3f-7678-4944-b0e3-5c39c3e6a945"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "93b7ad4d-7704-49e4-93b1-fb5d0987efd9",
+        "fields": {
+            "uuid": "93b7ad4d-7704-49e4-93b1-fb5d0987efd9",
+            "name": "Oxygen Sensors",
+            "emoji": "",
+            "parent": "e3396b3f-7678-4944-b0e3-5c39c3e6a945"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5859e764-269f-450d-9aa6-4747fd09f590",
+        "fields": {
+            "uuid": "5859e764-269f-450d-9aa6-4747fd09f590",
+            "name": "Pressure Sensors",
+            "emoji": "",
+            "parent": "e3396b3f-7678-4944-b0e3-5c39c3e6a945"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b8653b13-371f-44a5-9298-703f8a77c374",
+        "fields": {
+            "uuid": "b8653b13-371f-44a5-9298-703f8a77c374",
+            "name": "Speed Sensors",
+            "emoji": "",
+            "parent": "e3396b3f-7678-4944-b0e3-5c39c3e6a945"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7cd15cc8-5590-43ad-a25e-7f38f847a265",
+        "fields": {
+            "uuid": "7cd15cc8-5590-43ad-a25e-7f38f847a265",
+            "name": "Speedometers",
+            "emoji": "",
+            "parent": "e3396b3f-7678-4944-b0e3-5c39c3e6a945"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "741f0893-f3de-4e4a-a7da-182c6a8013ba",
+        "fields": {
+            "uuid": "741f0893-f3de-4e4a-a7da-182c6a8013ba",
+            "name": "Tachometers",
+            "emoji": "",
+            "parent": "e3396b3f-7678-4944-b0e3-5c39c3e6a945"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ac8a4da2-427f-4f80-bd7d-82814f059679",
+        "fields": {
+            "uuid": "ac8a4da2-427f-4f80-bd7d-82814f059679",
+            "name": "Temperature Sensors",
+            "emoji": "",
+            "parent": "e3396b3f-7678-4944-b0e3-5c39c3e6a945"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fa76f3b7-1381-4314-9c18-7183c92f5088",
+        "fields": {
+            "uuid": "fa76f3b7-1381-4314-9c18-7183c92f5088",
+            "name": "Motor Vehicle Suspension Parts",
+            "emoji": "",
+            "parent": "c67afce8-8a10-4700-b520-5a932ffbd620"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e60bc338-b55b-4159-9bd8-f84375c46625",
+        "fields": {
+            "uuid": "e60bc338-b55b-4159-9bd8-f84375c46625",
+            "name": "Ball Joints",
+            "emoji": "",
+            "parent": "fa76f3b7-1381-4314-9c18-7183c92f5088"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "94080d17-61f3-45cd-9ada-c79221a31225",
+        "fields": {
+            "uuid": "94080d17-61f3-45cd-9ada-c79221a31225",
+            "name": "Coil Springs",
+            "emoji": "",
+            "parent": "fa76f3b7-1381-4314-9c18-7183c92f5088"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "420ca1dc-4870-4496-b58a-9b2930d40535",
+        "fields": {
+            "uuid": "420ca1dc-4870-4496-b58a-9b2930d40535",
+            "name": "Control Arms",
+            "emoji": "",
+            "parent": "fa76f3b7-1381-4314-9c18-7183c92f5088"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e8f40e4e-c959-4484-b2f3-c0d640c687df",
+        "fields": {
+            "uuid": "e8f40e4e-c959-4484-b2f3-c0d640c687df",
+            "name": "Leaf Springs",
+            "emoji": "",
+            "parent": "fa76f3b7-1381-4314-9c18-7183c92f5088"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "64aaa807-1ad8-43ef-9d4d-61c2bf94d24b",
+        "fields": {
+            "uuid": "64aaa807-1ad8-43ef-9d4d-61c2bf94d24b",
+            "name": "Shock Absorbers",
+            "emoji": "",
+            "parent": "fa76f3b7-1381-4314-9c18-7183c92f5088"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "33db4b81-17c9-48bc-93d0-ff67a7796705",
+        "fields": {
+            "uuid": "33db4b81-17c9-48bc-93d0-ff67a7796705",
+            "name": "Struts",
+            "emoji": "",
+            "parent": "fa76f3b7-1381-4314-9c18-7183c92f5088"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5e97750b-2820-4671-a724-912ee7d275fa",
+        "fields": {
+            "uuid": "5e97750b-2820-4671-a724-912ee7d275fa",
+            "name": "Suspension Bushings",
+            "emoji": "",
+            "parent": "fa76f3b7-1381-4314-9c18-7183c92f5088"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4d8f4568-9dc8-4645-9415-1fe01129d327",
+        "fields": {
+            "uuid": "4d8f4568-9dc8-4645-9415-1fe01129d327",
+            "name": "Sway Bars",
+            "emoji": "",
+            "parent": "fa76f3b7-1381-4314-9c18-7183c92f5088"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6f95c8fe-a7dd-44aa-9842-610dc96963f4",
+        "fields": {
+            "uuid": "6f95c8fe-a7dd-44aa-9842-610dc96963f4",
+            "name": "Motor Vehicle Towing",
+            "emoji": "",
+            "parent": "c67afce8-8a10-4700-b520-5a932ffbd620"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3f8a9157-d628-4c0a-b67b-021878007a12",
+        "fields": {
+            "uuid": "3f8a9157-d628-4c0a-b67b-021878007a12",
+            "name": "Hitch Balls",
+            "emoji": "",
+            "parent": "6f95c8fe-a7dd-44aa-9842-610dc96963f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6c0f6e04-eff2-4bdb-b9d5-1701d693d58f",
+        "fields": {
+            "uuid": "6c0f6e04-eff2-4bdb-b9d5-1701d693d58f",
+            "name": "Hitch Mounts",
+            "emoji": "",
+            "parent": "6f95c8fe-a7dd-44aa-9842-610dc96963f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "08d6b0c9-9d02-4b48-905f-106fba3a4cbf",
+        "fields": {
+            "uuid": "08d6b0c9-9d02-4b48-905f-106fba3a4cbf",
+            "name": "Tow Bars",
+            "emoji": "",
+            "parent": "6f95c8fe-a7dd-44aa-9842-610dc96963f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c323469d-3514-4f1c-b4a1-c5201010f636",
+        "fields": {
+            "uuid": "c323469d-3514-4f1c-b4a1-c5201010f636",
+            "name": "Tow Straps",
+            "emoji": "",
+            "parent": "6f95c8fe-a7dd-44aa-9842-610dc96963f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "32efbff1-085f-49d2-a31c-2c726a9f43c5",
+        "fields": {
+            "uuid": "32efbff1-085f-49d2-a31c-2c726a9f43c5",
+            "name": "Trailer Brakes",
+            "emoji": "",
+            "parent": "6f95c8fe-a7dd-44aa-9842-610dc96963f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1da7aad2-680d-4758-8191-a8619d796e3c",
+        "fields": {
+            "uuid": "1da7aad2-680d-4758-8191-a8619d796e3c",
+            "name": "Trailer Hitches",
+            "emoji": "",
+            "parent": "6f95c8fe-a7dd-44aa-9842-610dc96963f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "246bc1c7-1a3c-4191-90b1-ded390a8239b",
+        "fields": {
+            "uuid": "246bc1c7-1a3c-4191-90b1-ded390a8239b",
+            "name": "Trailer Lights",
+            "emoji": "",
+            "parent": "6f95c8fe-a7dd-44aa-9842-610dc96963f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d383a417-3fdc-43fb-bfa5-864f20db2f6d",
+        "fields": {
+            "uuid": "d383a417-3fdc-43fb-bfa5-864f20db2f6d",
+            "name": "Trailer Wiring",
+            "emoji": "",
+            "parent": "6f95c8fe-a7dd-44aa-9842-610dc96963f4"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6a9dc5cc-06a7-4778-aa0b-0fc576e6643a",
+        "fields": {
+            "uuid": "6a9dc5cc-06a7-4778-aa0b-0fc576e6643a",
+            "name": "Motor Vehicle Transmission & Drivetrain Parts",
+            "emoji": "",
+            "parent": "c67afce8-8a10-4700-b520-5a932ffbd620"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4dd48258-7ea3-4928-b248-21f1659af643",
+        "fields": {
+            "uuid": "4dd48258-7ea3-4928-b248-21f1659af643",
+            "name": "Axles",
+            "emoji": "",
+            "parent": "6a9dc5cc-06a7-4778-aa0b-0fc576e6643a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "02438874-6429-4fcd-bfa2-221507e272a0",
+        "fields": {
+            "uuid": "02438874-6429-4fcd-bfa2-221507e272a0",
+            "name": "Clutches",
+            "emoji": "",
+            "parent": "6a9dc5cc-06a7-4778-aa0b-0fc576e6643a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7eaf717a-4539-41bf-b88c-9f291724f3af",
+        "fields": {
+            "uuid": "7eaf717a-4539-41bf-b88c-9f291724f3af",
+            "name": "Differentials",
+            "emoji": "",
+            "parent": "6a9dc5cc-06a7-4778-aa0b-0fc576e6643a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "169dad2c-fa14-4c49-9c89-89a387129cf3",
+        "fields": {
+            "uuid": "169dad2c-fa14-4c49-9c89-89a387129cf3",
+            "name": "Drive Shafts",
+            "emoji": "",
+            "parent": "6a9dc5cc-06a7-4778-aa0b-0fc576e6643a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4adf7420-79fb-4b60-96e7-cc0ad0a9a8f0",
+        "fields": {
+            "uuid": "4adf7420-79fb-4b60-96e7-cc0ad0a9a8f0",
+            "name": "Transmission Coolers",
+            "emoji": "",
+            "parent": "6a9dc5cc-06a7-4778-aa0b-0fc576e6643a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9d90bcdc-4572-43f9-b618-7cf0a5132e0d",
+        "fields": {
+            "uuid": "9d90bcdc-4572-43f9-b618-7cf0a5132e0d",
+            "name": "Transmission Fluid",
+            "emoji": "",
+            "parent": "6a9dc5cc-06a7-4778-aa0b-0fc576e6643a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d23caa44-bd5e-494c-abf0-35ecbaa8cc49",
+        "fields": {
+            "uuid": "d23caa44-bd5e-494c-abf0-35ecbaa8cc49",
+            "name": "Transmission Mounts",
+            "emoji": "",
+            "parent": "6a9dc5cc-06a7-4778-aa0b-0fc576e6643a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5a89f7d0-7467-46b4-98fd-2090141f3be1",
+        "fields": {
+            "uuid": "5a89f7d0-7467-46b4-98fd-2090141f3be1",
+            "name": "Transmissions",
+            "emoji": "",
+            "parent": "6a9dc5cc-06a7-4778-aa0b-0fc576e6643a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1f02e286-19e7-4f57-ae24-211d3d893b5e",
+        "fields": {
+            "uuid": "1f02e286-19e7-4f57-ae24-211d3d893b5e",
+            "name": "Motor Vehicle Wheel Systems",
+            "emoji": "",
+            "parent": "c67afce8-8a10-4700-b520-5a932ffbd620"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1aab6e0c-7792-4490-8ceb-1ed7553846db",
+        "fields": {
+            "uuid": "1aab6e0c-7792-4490-8ceb-1ed7553846db",
+            "name": "Motor Vehicle Rims & Wheels",
+            "emoji": "",
+            "parent": "1f02e286-19e7-4f57-ae24-211d3d893b5e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4c2d72bc-78a2-41b9-b24a-03d0d2f9e57a",
+        "fields": {
+            "uuid": "4c2d72bc-78a2-41b9-b24a-03d0d2f9e57a",
+            "name": "Automotive Rims & Wheels",
+            "emoji": "",
+            "parent": "1aab6e0c-7792-4490-8ceb-1ed7553846db"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d1ad8990-993b-490b-81cb-7bbe7b53867c",
+        "fields": {
+            "uuid": "d1ad8990-993b-490b-81cb-7bbe7b53867c",
+            "name": "Motorcycle Rims & Wheels",
+            "emoji": "",
+            "parent": "1aab6e0c-7792-4490-8ceb-1ed7553846db"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4cf7e855-a980-465e-a029-b1440c120567",
+        "fields": {
+            "uuid": "4cf7e855-a980-465e-a029-b1440c120567",
+            "name": "Off-Road and All-Terrain Vehicle Rims & Wheels",
+            "emoji": "",
+            "parent": "1aab6e0c-7792-4490-8ceb-1ed7553846db"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3e17f3e0-0f66-4669-9623-5043e2f649a3",
+        "fields": {
+            "uuid": "3e17f3e0-0f66-4669-9623-5043e2f649a3",
+            "name": "Motor Vehicle Tire Accessories",
+            "emoji": "",
+            "parent": "1f02e286-19e7-4f57-ae24-211d3d893b5e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3cd64766-341d-4d8f-aa7d-a635a4d367f9",
+        "fields": {
+            "uuid": "3cd64766-341d-4d8f-aa7d-a635a4d367f9",
+            "name": "Motor Vehicle Tires",
+            "emoji": "",
+            "parent": "1f02e286-19e7-4f57-ae24-211d3d893b5e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "10d2d4a7-1100-47bc-a43c-e0596e1ca056",
+        "fields": {
+            "uuid": "10d2d4a7-1100-47bc-a43c-e0596e1ca056",
+            "name": "Automotive Tires",
+            "emoji": "",
+            "parent": "3cd64766-341d-4d8f-aa7d-a635a4d367f9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9f6286de-9b3c-48a4-9608-3b8c7e1ee01a",
+        "fields": {
+            "uuid": "9f6286de-9b3c-48a4-9608-3b8c7e1ee01a",
+            "name": "Motorcycle Tires",
+            "emoji": "",
+            "parent": "3cd64766-341d-4d8f-aa7d-a635a4d367f9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7f2ae308-d4c7-481a-a26a-40b5a7925bdb",
+        "fields": {
+            "uuid": "7f2ae308-d4c7-481a-a26a-40b5a7925bdb",
+            "name": "Off-Road and All-Terrain Vehicle Tires",
+            "emoji": "",
+            "parent": "3cd64766-341d-4d8f-aa7d-a635a4d367f9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "84d9a53f-141a-481d-8d0e-31041b4197b9",
+        "fields": {
+            "uuid": "84d9a53f-141a-481d-8d0e-31041b4197b9",
+            "name": "Motor Vehicle Wheel Parts",
+            "emoji": "",
+            "parent": "1f02e286-19e7-4f57-ae24-211d3d893b5e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d7124c76-19f3-445a-a346-e9bdbb1bd6a5",
+        "fields": {
+            "uuid": "d7124c76-19f3-445a-a346-e9bdbb1bd6a5",
+            "name": "Motor Vehicle Window Parts & Accessories",
+            "emoji": "",
+            "parent": "c67afce8-8a10-4700-b520-5a932ffbd620"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a6f5cf0a-fa0b-4061-a394-d859b0e6ad4f",
+        "fields": {
+            "uuid": "a6f5cf0a-fa0b-4061-a394-d859b0e6ad4f",
+            "name": "Vehicle Maintenance, Care & Decor",
+            "emoji": "",
+            "parent": "7caab4d7-e7aa-4d52-aa2b-1f21ec7d3146"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0bc4abc5-9098-42b5-ae0d-bf4cf5768688",
+        "fields": {
+            "uuid": "0bc4abc5-9098-42b5-ae0d-bf4cf5768688",
+            "name": "Portable Fuel Cans",
+            "emoji": "",
+            "parent": "a6f5cf0a-fa0b-4061-a394-d859b0e6ad4f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1102d66a-676b-4749-9283-5e7b43d7a295",
+        "fields": {
+            "uuid": "1102d66a-676b-4749-9283-5e7b43d7a295",
+            "name": "Vehicle Cleaning",
+            "emoji": "",
+            "parent": "a6f5cf0a-fa0b-4061-a394-d859b0e6ad4f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0e027458-4a00-4f1e-9863-1cee9fd1a75d",
+        "fields": {
+            "uuid": "0e027458-4a00-4f1e-9863-1cee9fd1a75d",
+            "name": "Car Wash Brushes",
+            "emoji": "",
+            "parent": "1102d66a-676b-4749-9283-5e7b43d7a295"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6b1aa34b-b28c-4a8f-b0b6-361631cc6afa",
+        "fields": {
+            "uuid": "6b1aa34b-b28c-4a8f-b0b6-361631cc6afa",
+            "name": "Car Wash Solutions",
+            "emoji": "",
+            "parent": "1102d66a-676b-4749-9283-5e7b43d7a295"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "53da78b3-d3c1-4d15-8ee7-8a5d5b15c005",
+        "fields": {
+            "uuid": "53da78b3-d3c1-4d15-8ee7-8a5d5b15c005",
+            "name": "Car Shampoo",
+            "emoji": "",
+            "parent": "6b1aa34b-b28c-4a8f-b0b6-361631cc6afa"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cf4dca3e-4552-4874-a7d2-2d440cd5a478",
+        "fields": {
+            "uuid": "cf4dca3e-4552-4874-a7d2-2d440cd5a478",
+            "name": "Waterless Washes",
+            "emoji": "",
+            "parent": "6b1aa34b-b28c-4a8f-b0b6-361631cc6afa"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ea1ecc1d-6e98-4a7c-981d-996aa2500778",
+        "fields": {
+            "uuid": "ea1ecc1d-6e98-4a7c-981d-996aa2500778",
+            "name": "Wax Washes",
+            "emoji": "",
+            "parent": "6b1aa34b-b28c-4a8f-b0b6-361631cc6afa"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9a56c6d0-db50-439c-9157-524f67c29751",
+        "fields": {
+            "uuid": "9a56c6d0-db50-439c-9157-524f67c29751",
+            "name": "Wheel Cleaners",
+            "emoji": "",
+            "parent": "6b1aa34b-b28c-4a8f-b0b6-361631cc6afa"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f76ab7b6-b570-4949-ade4-ba289c4feb0e",
+        "fields": {
+            "uuid": "f76ab7b6-b570-4949-ade4-ba289c4feb0e",
+            "name": "Vehicle Carpet & Upholstery Cleaners",
+            "emoji": "",
+            "parent": "1102d66a-676b-4749-9283-5e7b43d7a295"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "10563505-690c-4268-b6e6-1aee05a0f94c",
+        "fields": {
+            "uuid": "10563505-690c-4268-b6e6-1aee05a0f94c",
+            "name": "Carpet Cleaners",
+            "emoji": "",
+            "parent": "f76ab7b6-b570-4949-ade4-ba289c4feb0e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "42575aab-18c5-42ef-a210-d1bf3c09a730",
+        "fields": {
+            "uuid": "42575aab-18c5-42ef-a210-d1bf3c09a730",
+            "name": "Stain Removers",
+            "emoji": "",
+            "parent": "f76ab7b6-b570-4949-ade4-ba289c4feb0e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "56c79331-3dec-49ab-ae35-4774b663595c",
+        "fields": {
+            "uuid": "56c79331-3dec-49ab-ae35-4774b663595c",
+            "name": "Upholstery Cleaners",
+            "emoji": "",
+            "parent": "f76ab7b6-b570-4949-ade4-ba289c4feb0e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e04b444a-c956-43c8-ab19-8b95cd2d965e",
+        "fields": {
+            "uuid": "e04b444a-c956-43c8-ab19-8b95cd2d965e",
+            "name": "Vehicle Fuel Injection Cleaning Kits",
+            "emoji": "",
+            "parent": "1102d66a-676b-4749-9283-5e7b43d7a295"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8ef9dfa5-028c-49ee-bab8-fac48d28739d",
+        "fields": {
+            "uuid": "8ef9dfa5-028c-49ee-bab8-fac48d28739d",
+            "name": "Vehicle Glass Cleaners",
+            "emoji": "",
+            "parent": "1102d66a-676b-4749-9283-5e7b43d7a295"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8a980643-9ef9-4eaf-bb11-a2ba29f91faa",
+        "fields": {
+            "uuid": "8a980643-9ef9-4eaf-bb11-a2ba29f91faa",
+            "name": "Vehicle Waxes, Polishes & Protectants",
+            "emoji": "",
+            "parent": "1102d66a-676b-4749-9283-5e7b43d7a295"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "125953b0-2e1d-47c1-aeb6-e1cfdb2ad4dc",
+        "fields": {
+            "uuid": "125953b0-2e1d-47c1-aeb6-e1cfdb2ad4dc",
+            "name": "Car Wax",
+            "emoji": "",
+            "parent": "8a980643-9ef9-4eaf-bb11-a2ba29f91faa"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "49c9d7d2-bd29-4054-90b6-52f7a0488ae8",
+        "fields": {
+            "uuid": "49c9d7d2-bd29-4054-90b6-52f7a0488ae8",
+            "name": "Polishes",
+            "emoji": "",
+            "parent": "8a980643-9ef9-4eaf-bb11-a2ba29f91faa"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6bbcf9b2-fce6-466d-8be5-874f5d7ff0cd",
+        "fields": {
+            "uuid": "6bbcf9b2-fce6-466d-8be5-874f5d7ff0cd",
+            "name": "Protectants",
+            "emoji": "",
+            "parent": "8a980643-9ef9-4eaf-bb11-a2ba29f91faa"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5554af84-06fc-464f-9ed6-ef17e6dde7b2",
+        "fields": {
+            "uuid": "5554af84-06fc-464f-9ed6-ef17e6dde7b2",
+            "name": "Sealants",
+            "emoji": "",
+            "parent": "8a980643-9ef9-4eaf-bb11-a2ba29f91faa"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a00737a6-b097-4ef0-be3c-b2f42161cedb",
+        "fields": {
+            "uuid": "a00737a6-b097-4ef0-be3c-b2f42161cedb",
+            "name": "Vehicle Covers",
+            "emoji": "",
+            "parent": "a6f5cf0a-fa0b-4061-a394-d859b0e6ad4f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aeae8660-15cd-4918-9a34-236d6167546e",
+        "fields": {
+            "uuid": "aeae8660-15cd-4918-9a34-236d6167546e",
+            "name": "Golf Cart Enclosures",
+            "emoji": "",
+            "parent": "a00737a6-b097-4ef0-be3c-b2f42161cedb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "726852aa-63fd-4747-a40f-5c5911396be7",
+        "fields": {
+            "uuid": "726852aa-63fd-4747-a40f-5c5911396be7",
+            "name": "Motor Vehicle Windshield Covers",
+            "emoji": "",
+            "parent": "a00737a6-b097-4ef0-be3c-b2f42161cedb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c812571b-c08a-495e-8cb4-36e121cf27a1",
+        "fields": {
+            "uuid": "c812571b-c08a-495e-8cb4-36e121cf27a1",
+            "name": "Tonneau Covers",
+            "emoji": "",
+            "parent": "a00737a6-b097-4ef0-be3c-b2f42161cedb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6a3101a8-c299-4625-bda5-ac9909094622",
+        "fields": {
+            "uuid": "6a3101a8-c299-4625-bda5-ac9909094622",
+            "name": "Vehicle Hardtops",
+            "emoji": "",
+            "parent": "a00737a6-b097-4ef0-be3c-b2f42161cedb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8f1e6bd9-4612-4641-a6c9-517cc3eccba6",
+        "fields": {
+            "uuid": "8f1e6bd9-4612-4641-a6c9-517cc3eccba6",
+            "name": "Vehicle Soft Tops",
+            "emoji": "",
+            "parent": "a00737a6-b097-4ef0-be3c-b2f42161cedb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1ad383cc-b069-4e7e-b3c4-27bf249e3149",
+        "fields": {
+            "uuid": "1ad383cc-b069-4e7e-b3c4-27bf249e3149",
+            "name": "Vehicle Storage Covers",
+            "emoji": "",
+            "parent": "a00737a6-b097-4ef0-be3c-b2f42161cedb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1c554e3d-93d4-44d1-9b21-f536a126b1ce",
+        "fields": {
+            "uuid": "1c554e3d-93d4-44d1-9b21-f536a126b1ce",
+            "name": "Automotive Storage Covers",
+            "emoji": "",
+            "parent": "1ad383cc-b069-4e7e-b3c4-27bf249e3149"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5bbbfac5-add0-49c4-b27d-25a9f3b2a411",
+        "fields": {
+            "uuid": "5bbbfac5-add0-49c4-b27d-25a9f3b2a411",
+            "name": "Golf Cart Storage Covers",
+            "emoji": "",
+            "parent": "1ad383cc-b069-4e7e-b3c4-27bf249e3149"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "875dbc2f-84c1-4643-b992-703a4b640c7a",
+        "fields": {
+            "uuid": "875dbc2f-84c1-4643-b992-703a4b640c7a",
+            "name": "Motorcycle Storage Covers",
+            "emoji": "",
+            "parent": "1ad383cc-b069-4e7e-b3c4-27bf249e3149"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "23a2a0ab-dd02-4777-bd53-5c1c8b947265",
+        "fields": {
+            "uuid": "23a2a0ab-dd02-4777-bd53-5c1c8b947265",
+            "name": "Recreational Vehicle Storage Covers",
+            "emoji": "",
+            "parent": "1ad383cc-b069-4e7e-b3c4-27bf249e3149"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "70a0a510-d8c9-410c-872f-cd02e30fbe08",
+        "fields": {
+            "uuid": "70a0a510-d8c9-410c-872f-cd02e30fbe08",
+            "name": "Watercraft Storage Covers",
+            "emoji": "",
+            "parent": "1ad383cc-b069-4e7e-b3c4-27bf249e3149"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ead6861b-159c-4bad-9c93-9cbb0c0f0598",
+        "fields": {
+            "uuid": "ead6861b-159c-4bad-9c93-9cbb0c0f0598",
+            "name": "Vehicle Decor",
+            "emoji": "",
+            "parent": "a6f5cf0a-fa0b-4061-a394-d859b0e6ad4f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5e7bf6c1-5798-4cf4-8382-9fc784d4eca1",
+        "fields": {
+            "uuid": "5e7bf6c1-5798-4cf4-8382-9fc784d4eca1",
+            "name": "Bumper Stickers",
+            "emoji": "",
+            "parent": "ead6861b-159c-4bad-9c93-9cbb0c0f0598"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "87461005-fa37-4e70-a7bf-ab8451fa822d",
+        "fields": {
+            "uuid": "87461005-fa37-4e70-a7bf-ab8451fa822d",
+            "name": "Vehicle Air Fresheners",
+            "emoji": "",
+            "parent": "ead6861b-159c-4bad-9c93-9cbb0c0f0598"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "55936faa-b8cd-4b20-87ff-02bc22fe43f9",
+        "fields": {
+            "uuid": "55936faa-b8cd-4b20-87ff-02bc22fe43f9",
+            "name": "Vehicle Antenna Balls",
+            "emoji": "",
+            "parent": "ead6861b-159c-4bad-9c93-9cbb0c0f0598"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "569c39dd-413d-4163-bddc-1781a94e8f4d",
+        "fields": {
+            "uuid": "569c39dd-413d-4163-bddc-1781a94e8f4d",
+            "name": "Vehicle Dashboard Accessories",
+            "emoji": "",
+            "parent": "ead6861b-159c-4bad-9c93-9cbb0c0f0598"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ab0ddbd7-d8e7-4f81-80c1-8cf8e3ac19af",
+        "fields": {
+            "uuid": "ab0ddbd7-d8e7-4f81-80c1-8cf8e3ac19af",
+            "name": "Vehicle Decals",
+            "emoji": "",
+            "parent": "ead6861b-159c-4bad-9c93-9cbb0c0f0598"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "de5d3cd2-2b3b-42b1-9169-16ddab90d74c",
+        "fields": {
+            "uuid": "de5d3cd2-2b3b-42b1-9169-16ddab90d74c",
+            "name": "Vehicle Decor Accessory Sets",
+            "emoji": "",
+            "parent": "ead6861b-159c-4bad-9c93-9cbb0c0f0598"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6d3cb5e9-e470-4505-9b6b-f9b7198ceb6c",
+        "fields": {
+            "uuid": "6d3cb5e9-e470-4505-9b6b-f9b7198ceb6c",
+            "name": "Vehicle Display Flags",
+            "emoji": "",
+            "parent": "ead6861b-159c-4bad-9c93-9cbb0c0f0598"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d5fb7adc-3536-4b1a-9c0b-3be5f35830b6",
+        "fields": {
+            "uuid": "d5fb7adc-3536-4b1a-9c0b-3be5f35830b6",
+            "name": "Vehicle Emblems & Hood Ornaments",
+            "emoji": "",
+            "parent": "ead6861b-159c-4bad-9c93-9cbb0c0f0598"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b85af087-8beb-49c5-9b57-8e6aa54fcd0e",
+        "fields": {
+            "uuid": "b85af087-8beb-49c5-9b57-8e6aa54fcd0e",
+            "name": "Vehicle Hitch Covers",
+            "emoji": "",
+            "parent": "ead6861b-159c-4bad-9c93-9cbb0c0f0598"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d8b7857f-c313-402e-aa80-b248df8cd6a8",
+        "fields": {
+            "uuid": "d8b7857f-c313-402e-aa80-b248df8cd6a8",
+            "name": "Vehicle License Plate Covers",
+            "emoji": "",
+            "parent": "ead6861b-159c-4bad-9c93-9cbb0c0f0598"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "967f1490-3100-4292-8828-a2f6b61ae6fd",
+        "fields": {
+            "uuid": "967f1490-3100-4292-8828-a2f6b61ae6fd",
+            "name": "Vehicle License Plate Frames",
+            "emoji": "",
+            "parent": "ead6861b-159c-4bad-9c93-9cbb0c0f0598"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "84359159-9c23-4e28-b42f-1b8216a9d021",
+        "fields": {
+            "uuid": "84359159-9c23-4e28-b42f-1b8216a9d021",
+            "name": "Vehicle License Plate Mounts & Holders",
+            "emoji": "",
+            "parent": "ead6861b-159c-4bad-9c93-9cbb0c0f0598"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c42fe276-cd5d-4e17-be57-64e0579aa918",
+        "fields": {
+            "uuid": "c42fe276-cd5d-4e17-be57-64e0579aa918",
+            "name": "Vehicle License Plates",
+            "emoji": "",
+            "parent": "ead6861b-159c-4bad-9c93-9cbb0c0f0598"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "beff666a-1454-4128-b0e3-633f7484f776",
+        "fields": {
+            "uuid": "beff666a-1454-4128-b0e3-633f7484f776",
+            "name": "Vehicle Magnets",
+            "emoji": "",
+            "parent": "ead6861b-159c-4bad-9c93-9cbb0c0f0598"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1244021e-0941-4495-b165-d5dba76a741f",
+        "fields": {
+            "uuid": "1244021e-0941-4495-b165-d5dba76a741f",
+            "name": "Vehicle Rear View Mirror Ornaments",
+            "emoji": "",
+            "parent": "ead6861b-159c-4bad-9c93-9cbb0c0f0598"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ea2ebece-d45e-4b9c-a933-c1abb20acba9",
+        "fields": {
+            "uuid": "ea2ebece-d45e-4b9c-a933-c1abb20acba9",
+            "name": "Vehicle Shift Boots",
+            "emoji": "",
+            "parent": "ead6861b-159c-4bad-9c93-9cbb0c0f0598"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9dbcf2e3-1a82-442c-a9f0-d42ef22d5071",
+        "fields": {
+            "uuid": "9dbcf2e3-1a82-442c-a9f0-d42ef22d5071",
+            "name": "Vehicle Shift Knobs",
+            "emoji": "",
+            "parent": "ead6861b-159c-4bad-9c93-9cbb0c0f0598"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3c03de09-7d41-4520-8692-3a9b304c3f14",
+        "fields": {
+            "uuid": "3c03de09-7d41-4520-8692-3a9b304c3f14",
+            "name": "Vehicle Steering Wheel Covers",
+            "emoji": "",
+            "parent": "ead6861b-159c-4bad-9c93-9cbb0c0f0598"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "47294950-91fb-4af3-9b11-98f27f418210",
+        "fields": {
+            "uuid": "47294950-91fb-4af3-9b11-98f27f418210",
+            "name": "Vehicle Wraps",
+            "emoji": "",
+            "parent": "ead6861b-159c-4bad-9c93-9cbb0c0f0598"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "007fb1d6-e0a0-4466-a3a7-2bbe14a99acd",
+        "fields": {
+            "uuid": "007fb1d6-e0a0-4466-a3a7-2bbe14a99acd",
+            "name": "Vehicle Fluids",
+            "emoji": "",
+            "parent": "a6f5cf0a-fa0b-4061-a394-d859b0e6ad4f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "368ffe23-b537-4b98-8b38-05122ddb7f16",
+        "fields": {
+            "uuid": "368ffe23-b537-4b98-8b38-05122ddb7f16",
+            "name": "Vehicle Antifreeze",
+            "emoji": "",
+            "parent": "007fb1d6-e0a0-4466-a3a7-2bbe14a99acd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2bc2dc59-38ae-4edd-bd2e-ae7b5d7dd9b8",
+        "fields": {
+            "uuid": "2bc2dc59-38ae-4edd-bd2e-ae7b5d7dd9b8",
+            "name": "Vehicle Brake Fluid",
+            "emoji": "",
+            "parent": "007fb1d6-e0a0-4466-a3a7-2bbe14a99acd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "37f5deae-d706-46c6-a7d0-204508006f7e",
+        "fields": {
+            "uuid": "37f5deae-d706-46c6-a7d0-204508006f7e",
+            "name": "Vehicle Cooling System Additives",
+            "emoji": "",
+            "parent": "007fb1d6-e0a0-4466-a3a7-2bbe14a99acd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e02f0714-0c75-4f4c-9a78-24ba02b400bd",
+        "fields": {
+            "uuid": "e02f0714-0c75-4f4c-9a78-24ba02b400bd",
+            "name": "Coolant Additives",
+            "emoji": "",
+            "parent": "37f5deae-d706-46c6-a7d0-204508006f7e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "94614109-f257-48cc-a1e6-8e5b4627a4fe",
+        "fields": {
+            "uuid": "94614109-f257-48cc-a1e6-8e5b4627a4fe",
+            "name": "Radiator Flushes",
+            "emoji": "",
+            "parent": "37f5deae-d706-46c6-a7d0-204508006f7e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "42b95f84-1a00-401a-a639-e5023d344850",
+        "fields": {
+            "uuid": "42b95f84-1a00-401a-a639-e5023d344850",
+            "name": "Radiator Sealers",
+            "emoji": "",
+            "parent": "37f5deae-d706-46c6-a7d0-204508006f7e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4121e55d-ed61-46e1-90dd-803df0481c66",
+        "fields": {
+            "uuid": "4121e55d-ed61-46e1-90dd-803df0481c66",
+            "name": "Vehicle Engine Degreasers",
+            "emoji": "",
+            "parent": "007fb1d6-e0a0-4466-a3a7-2bbe14a99acd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "036b6089-6d66-4ad4-b304-4ec2f17fdd79",
+        "fields": {
+            "uuid": "036b6089-6d66-4ad4-b304-4ec2f17fdd79",
+            "name": "Vehicle Fuel System Cleaners",
+            "emoji": "",
+            "parent": "007fb1d6-e0a0-4466-a3a7-2bbe14a99acd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "21e5a5d6-5b88-4a5e-8f4e-3edc37759102",
+        "fields": {
+            "uuid": "21e5a5d6-5b88-4a5e-8f4e-3edc37759102",
+            "name": "Carburetor Cleaners",
+            "emoji": "",
+            "parent": "036b6089-6d66-4ad4-b304-4ec2f17fdd79"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "20cc2af4-c958-4966-85c4-5378d1731932",
+        "fields": {
+            "uuid": "20cc2af4-c958-4966-85c4-5378d1731932",
+            "name": "Complete Fuel System Cleaners",
+            "emoji": "",
+            "parent": "036b6089-6d66-4ad4-b304-4ec2f17fdd79"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "96a4b28c-32c9-45d8-ac45-8280d24caad5",
+        "fields": {
+            "uuid": "96a4b28c-32c9-45d8-ac45-8280d24caad5",
+            "name": "Fuel Injector Cleaners",
+            "emoji": "",
+            "parent": "036b6089-6d66-4ad4-b304-4ec2f17fdd79"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9c24af0a-77f9-4389-89a1-61112e538e67",
+        "fields": {
+            "uuid": "9c24af0a-77f9-4389-89a1-61112e538e67",
+            "name": "Vehicle Greases",
+            "emoji": "",
+            "parent": "007fb1d6-e0a0-4466-a3a7-2bbe14a99acd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d3c08fcc-97e7-4451-bc0d-ea50fc39f0e1",
+        "fields": {
+            "uuid": "d3c08fcc-97e7-4451-bc0d-ea50fc39f0e1",
+            "name": "Vehicle Hydraulic Clutch Fluid",
+            "emoji": "",
+            "parent": "007fb1d6-e0a0-4466-a3a7-2bbe14a99acd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "323428fb-cccf-4405-9bef-3ceeac6ffc52",
+        "fields": {
+            "uuid": "323428fb-cccf-4405-9bef-3ceeac6ffc52",
+            "name": "Vehicle Motor Oil",
+            "emoji": "",
+            "parent": "007fb1d6-e0a0-4466-a3a7-2bbe14a99acd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "374d037e-c9b5-4076-a70f-136d32d5a462",
+        "fields": {
+            "uuid": "374d037e-c9b5-4076-a70f-136d32d5a462",
+            "name": "Conventional Motor Oil",
+            "emoji": "",
+            "parent": "323428fb-cccf-4405-9bef-3ceeac6ffc52"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f9259bfa-df12-4fb5-bb6d-03d1a6a8ec31",
+        "fields": {
+            "uuid": "f9259bfa-df12-4fb5-bb6d-03d1a6a8ec31",
+            "name": "Semi-Synthetic Motor Oil",
+            "emoji": "",
+            "parent": "323428fb-cccf-4405-9bef-3ceeac6ffc52"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4cfd558c-b63e-4a18-85ca-f076f4c0d7d5",
+        "fields": {
+            "uuid": "4cfd558c-b63e-4a18-85ca-f076f4c0d7d5",
+            "name": "High Mileage Motor Oil",
+            "emoji": "",
+            "parent": "323428fb-cccf-4405-9bef-3ceeac6ffc52"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "eac83281-f652-4c0d-8a0a-a6268429b00a",
+        "fields": {
+            "uuid": "eac83281-f652-4c0d-8a0a-a6268429b00a",
+            "name": "Synthetic Motor Oil",
+            "emoji": "",
+            "parent": "323428fb-cccf-4405-9bef-3ceeac6ffc52"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8890fec9-f65d-4eda-aec6-80db93c9cdc9",
+        "fields": {
+            "uuid": "8890fec9-f65d-4eda-aec6-80db93c9cdc9",
+            "name": "Vehicle Performance Additives",
+            "emoji": "",
+            "parent": "007fb1d6-e0a0-4466-a3a7-2bbe14a99acd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "10c1efc7-2027-4bdc-8911-c9da8360482e",
+        "fields": {
+            "uuid": "10c1efc7-2027-4bdc-8911-c9da8360482e",
+            "name": "Vehicle Power Steering Fluid",
+            "emoji": "",
+            "parent": "007fb1d6-e0a0-4466-a3a7-2bbe14a99acd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cfd74c4d-e750-4ade-b010-d55a39c96231",
+        "fields": {
+            "uuid": "cfd74c4d-e750-4ade-b010-d55a39c96231",
+            "name": "Vehicle Transmission Fluid",
+            "emoji": "",
+            "parent": "007fb1d6-e0a0-4466-a3a7-2bbe14a99acd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ce730a86-a41d-439a-bf17-e1993ce0a110",
+        "fields": {
+            "uuid": "ce730a86-a41d-439a-bf17-e1993ce0a110",
+            "name": "Vehicle Windshield Fluid",
+            "emoji": "",
+            "parent": "007fb1d6-e0a0-4466-a3a7-2bbe14a99acd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8487765f-63fc-45be-b459-a84abb5fdc27",
+        "fields": {
+            "uuid": "8487765f-63fc-45be-b459-a84abb5fdc27",
+            "name": "Vehicle Paint",
+            "emoji": "",
+            "parent": "a6f5cf0a-fa0b-4061-a394-d859b0e6ad4f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "76156f1e-915d-43d8-9531-e6f720d13a5c",
+        "fields": {
+            "uuid": "76156f1e-915d-43d8-9531-e6f720d13a5c",
+            "name": "Motor Vehicle Body Paint",
+            "emoji": "",
+            "parent": "8487765f-63fc-45be-b459-a84abb5fdc27"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "742bf37b-3b36-4a6f-a5ba-ba7854910b1d",
+        "fields": {
+            "uuid": "742bf37b-3b36-4a6f-a5ba-ba7854910b1d",
+            "name": "Motor Vehicle Brake Caliper Paint",
+            "emoji": "",
+            "parent": "8487765f-63fc-45be-b459-a84abb5fdc27"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "822ab3cf-db10-472a-b99d-ba0091dd5eca",
+        "fields": {
+            "uuid": "822ab3cf-db10-472a-b99d-ba0091dd5eca",
+            "name": "Vehicle Repair & Specialty Tools",
+            "emoji": "",
+            "parent": "a6f5cf0a-fa0b-4061-a394-d859b0e6ad4f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6d4789a9-ef95-4d45-b23e-82e073a3fb7c",
+        "fields": {
+            "uuid": "6d4789a9-ef95-4d45-b23e-82e073a3fb7c",
+            "name": "Motor Vehicle Brake Service Kits",
+            "emoji": "",
+            "parent": "822ab3cf-db10-472a-b99d-ba0091dd5eca"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ae3169a6-bfab-4d8a-bf80-b79d8a19d77a",
+        "fields": {
+            "uuid": "ae3169a6-bfab-4d8a-bf80-b79d8a19d77a",
+            "name": "Motor Vehicle Clutch Alignment & Removal Tools",
+            "emoji": "",
+            "parent": "822ab3cf-db10-472a-b99d-ba0091dd5eca"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "096ca0e6-56c5-48db-b977-eb17f4063fd7",
+        "fields": {
+            "uuid": "096ca0e6-56c5-48db-b977-eb17f4063fd7",
+            "name": "Vehicle Battery Chargers",
+            "emoji": "",
+            "parent": "822ab3cf-db10-472a-b99d-ba0091dd5eca"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b27b9dee-ba8a-470b-8239-d5e1237d5328",
+        "fields": {
+            "uuid": "b27b9dee-ba8a-470b-8239-d5e1237d5328",
+            "name": "Vehicle Battery Testers",
+            "emoji": "",
+            "parent": "822ab3cf-db10-472a-b99d-ba0091dd5eca"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e46995eb-7445-460f-824c-76cb7155c600",
+        "fields": {
+            "uuid": "e46995eb-7445-460f-824c-76cb7155c600",
+            "name": "Vehicle Body Filler",
+            "emoji": "",
+            "parent": "822ab3cf-db10-472a-b99d-ba0091dd5eca"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7dfc2d9d-ece3-4a21-b256-1ab5cc665a6f",
+        "fields": {
+            "uuid": "7dfc2d9d-ece3-4a21-b256-1ab5cc665a6f",
+            "name": "Vehicle Diagnostic Scanners",
+            "emoji": "",
+            "parent": "822ab3cf-db10-472a-b99d-ba0091dd5eca"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "15490627-cf3a-425e-89c5-c734411322c3",
+        "fields": {
+            "uuid": "15490627-cf3a-425e-89c5-c734411322c3",
+            "name": "Vehicle Jump Starters",
+            "emoji": "",
+            "parent": "822ab3cf-db10-472a-b99d-ba0091dd5eca"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2fef3f36-a22f-419f-ac6a-907983e621c1",
+        "fields": {
+            "uuid": "2fef3f36-a22f-419f-ac6a-907983e621c1",
+            "name": "Vehicle Jumper Cables",
+            "emoji": "",
+            "parent": "822ab3cf-db10-472a-b99d-ba0091dd5eca"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "62832795-2483-4d2f-b156-11180657b71f",
+        "fields": {
+            "uuid": "62832795-2483-4d2f-b156-11180657b71f",
+            "name": "Vehicle Tire Repair & Tire Changing Tools",
+            "emoji": "",
+            "parent": "822ab3cf-db10-472a-b99d-ba0091dd5eca"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b0aaeb4b-712b-43b8-994c-8266a9580f45",
+        "fields": {
+            "uuid": "b0aaeb4b-712b-43b8-994c-8266a9580f45",
+            "name": "Tire Changing Tools",
+            "emoji": "",
+            "parent": "62832795-2483-4d2f-b156-11180657b71f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ef37052b-f744-4690-bb0c-e6b3dd75564d",
+        "fields": {
+            "uuid": "ef37052b-f744-4690-bb0c-e6b3dd75564d",
+            "name": "Bead Breakers",
+            "emoji": "",
+            "parent": "b0aaeb4b-712b-43b8-994c-8266a9580f45"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f95be679-76c2-4a22-9387-8ad90cb5fabc",
+        "fields": {
+            "uuid": "f95be679-76c2-4a22-9387-8ad90cb5fabc",
+            "name": "Tire Changer Machines",
+            "emoji": "",
+            "parent": "b0aaeb4b-712b-43b8-994c-8266a9580f45"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5438fc50-64d0-4ca9-b8f1-3a51fb992471",
+        "fields": {
+            "uuid": "5438fc50-64d0-4ca9-b8f1-3a51fb992471",
+            "name": "Tire Irons",
+            "emoji": "",
+            "parent": "b0aaeb4b-712b-43b8-994c-8266a9580f45"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d955ae5c-3013-4048-8e5a-dc3f50801a2c",
+        "fields": {
+            "uuid": "d955ae5c-3013-4048-8e5a-dc3f50801a2c",
+            "name": "Tire Levers",
+            "emoji": "",
+            "parent": "b0aaeb4b-712b-43b8-994c-8266a9580f45"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2f58558f-26a1-412d-8fbc-5fb9ddf5f810",
+        "fields": {
+            "uuid": "2f58558f-26a1-412d-8fbc-5fb9ddf5f810",
+            "name": "Tire Spoons",
+            "emoji": "",
+            "parent": "b0aaeb4b-712b-43b8-994c-8266a9580f45"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "320a8de0-aa32-4f31-b3e2-55893f3d9f8a",
+        "fields": {
+            "uuid": "320a8de0-aa32-4f31-b3e2-55893f3d9f8a",
+            "name": "Tire Repair Kits",
+            "emoji": "",
+            "parent": "62832795-2483-4d2f-b156-11180657b71f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4755935f-f3c4-40cc-983e-fbaded177f59",
+        "fields": {
+            "uuid": "4755935f-f3c4-40cc-983e-fbaded177f59",
+            "name": "Windshield Repair Kits",
+            "emoji": "",
+            "parent": "822ab3cf-db10-472a-b99d-ba0091dd5eca"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "553a56e6-ff7b-4389-b3f6-232d99f6494f",
+        "fields": {
+            "uuid": "553a56e6-ff7b-4389-b3f6-232d99f6494f",
+            "name": "Vehicle Safety & Security",
+            "emoji": "",
+            "parent": "7caab4d7-e7aa-4d52-aa2b-1f21ec7d3146"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0e9a7796-9476-4d07-b4e9-5e41cbd65d33",
+        "fields": {
+            "uuid": "0e9a7796-9476-4d07-b4e9-5e41cbd65d33",
+            "name": "Motorcycle Protective Gear",
+            "emoji": "",
+            "parent": "553a56e6-ff7b-4389-b3f6-232d99f6494f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1aad91cf-738c-4bf7-962c-9132e989bb12",
+        "fields": {
+            "uuid": "1aad91cf-738c-4bf7-962c-9132e989bb12",
+            "name": "Motorcycle Chest & Back Protectors",
+            "emoji": "",
+            "parent": "0e9a7796-9476-4d07-b4e9-5e41cbd65d33"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cd6fabb1-b1b6-4886-8697-55ff530ace88",
+        "fields": {
+            "uuid": "cd6fabb1-b1b6-4886-8697-55ff530ace88",
+            "name": "Motorcycle Elbow & Wrist Guards",
+            "emoji": "",
+            "parent": "0e9a7796-9476-4d07-b4e9-5e41cbd65d33"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f4ca14bd-df07-4677-8a21-875e6b105903",
+        "fields": {
+            "uuid": "f4ca14bd-df07-4677-8a21-875e6b105903",
+            "name": "Motorcycle Gloves",
+            "emoji": "",
+            "parent": "0e9a7796-9476-4d07-b4e9-5e41cbd65d33"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bce9158d-b1be-4dfa-82b4-daec8ee02530",
+        "fields": {
+            "uuid": "bce9158d-b1be-4dfa-82b4-daec8ee02530",
+            "name": "Motorcycle Goggles",
+            "emoji": "",
+            "parent": "0e9a7796-9476-4d07-b4e9-5e41cbd65d33"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2eb440f4-1c3f-48b8-90ad-f680fd2e0b24",
+        "fields": {
+            "uuid": "2eb440f4-1c3f-48b8-90ad-f680fd2e0b24",
+            "name": "Motorcycle Hand Guards",
+            "emoji": "",
+            "parent": "0e9a7796-9476-4d07-b4e9-5e41cbd65d33"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fde72522-f046-4f1f-83da-298050c68f49",
+        "fields": {
+            "uuid": "fde72522-f046-4f1f-83da-298050c68f49",
+            "name": "Motorcycle Helmet Parts & Accessories",
+            "emoji": "",
+            "parent": "0e9a7796-9476-4d07-b4e9-5e41cbd65d33"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a86050a9-d802-41fc-afb1-7d448aa6391b",
+        "fields": {
+            "uuid": "a86050a9-d802-41fc-afb1-7d448aa6391b",
+            "name": "Motorcycle Helmets",
+            "emoji": "",
+            "parent": "0e9a7796-9476-4d07-b4e9-5e41cbd65d33"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7f37f698-49c5-457e-aca3-2a0f1f4c77f9",
+        "fields": {
+            "uuid": "7f37f698-49c5-457e-aca3-2a0f1f4c77f9",
+            "name": "Full Face Helmets",
+            "emoji": "",
+            "parent": "a86050a9-d802-41fc-afb1-7d448aa6391b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dd9a3fd8-59d3-47b2-bd29-096f4a73c044",
+        "fields": {
+            "uuid": "dd9a3fd8-59d3-47b2-bd29-096f4a73c044",
+            "name": "Half Helmets",
+            "emoji": "",
+            "parent": "a86050a9-d802-41fc-afb1-7d448aa6391b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f1e10236-5c8f-4027-a159-9d68858e95c1",
+        "fields": {
+            "uuid": "f1e10236-5c8f-4027-a159-9d68858e95c1",
+            "name": "Modular Helmets",
+            "emoji": "",
+            "parent": "a86050a9-d802-41fc-afb1-7d448aa6391b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "70c6cacd-7e6f-4d91-a3db-e9182138cfeb",
+        "fields": {
+            "uuid": "70c6cacd-7e6f-4d91-a3db-e9182138cfeb",
+            "name": "Off-Road Helmets",
+            "emoji": "",
+            "parent": "a86050a9-d802-41fc-afb1-7d448aa6391b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "58e7609d-0175-4cb9-98a7-cad001f98181",
+        "fields": {
+            "uuid": "58e7609d-0175-4cb9-98a7-cad001f98181",
+            "name": "Open Face Helmets",
+            "emoji": "",
+            "parent": "a86050a9-d802-41fc-afb1-7d448aa6391b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "193074b3-edbc-4377-93cc-8cb19118ce6c",
+        "fields": {
+            "uuid": "193074b3-edbc-4377-93cc-8cb19118ce6c",
+            "name": "Motorcycle Kidney Belts",
+            "emoji": "",
+            "parent": "0e9a7796-9476-4d07-b4e9-5e41cbd65d33"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a5850989-72a1-47b9-9889-7a298f9c694a",
+        "fields": {
+            "uuid": "a5850989-72a1-47b9-9889-7a298f9c694a",
+            "name": "Motorcycle Knee & Shin Guards",
+            "emoji": "",
+            "parent": "0e9a7796-9476-4d07-b4e9-5e41cbd65d33"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d5f60862-d5b7-4355-a746-fa50e0cba085",
+        "fields": {
+            "uuid": "d5f60862-d5b7-4355-a746-fa50e0cba085",
+            "name": "Motorcycle Neck Braces",
+            "emoji": "",
+            "parent": "0e9a7796-9476-4d07-b4e9-5e41cbd65d33"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fd56fdca-3d27-4f54-b921-d792bcb363aa",
+        "fields": {
+            "uuid": "fd56fdca-3d27-4f54-b921-d792bcb363aa",
+            "name": "Off-Road & All-Terrain Vehicle Protective Gear",
+            "emoji": "",
+            "parent": "553a56e6-ff7b-4389-b3f6-232d99f6494f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2c10a789-d093-43fb-8315-e562816a177b",
+        "fields": {
+            "uuid": "2c10a789-d093-43fb-8315-e562816a177b",
+            "name": "ATV & UTV Bar Pads",
+            "emoji": "",
+            "parent": "fd56fdca-3d27-4f54-b921-d792bcb363aa"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7db9e770-1203-4c15-9de3-c259116a707d",
+        "fields": {
+            "uuid": "7db9e770-1203-4c15-9de3-c259116a707d",
+            "name": "Vehicle Alarms & Locks",
+            "emoji": "",
+            "parent": "553a56e6-ff7b-4389-b3f6-232d99f6494f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4e9cb303-8783-49f0-af2a-128ffd47cd44",
+        "fields": {
+            "uuid": "4e9cb303-8783-49f0-af2a-128ffd47cd44",
+            "name": "Automotive Alarm Accessories",
+            "emoji": "",
+            "parent": "7db9e770-1203-4c15-9de3-c259116a707d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "284f777e-9bdc-4ca7-b6c3-425cdd50b067",
+        "fields": {
+            "uuid": "284f777e-9bdc-4ca7-b6c3-425cdd50b067",
+            "name": "Automotive Alarm Systems",
+            "emoji": "",
+            "parent": "7db9e770-1203-4c15-9de3-c259116a707d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1888878e-4d52-4957-b94a-6754c1f42d2b",
+        "fields": {
+            "uuid": "1888878e-4d52-4957-b94a-6754c1f42d2b",
+            "name": "Motorcycle Alarms & Locks",
+            "emoji": "",
+            "parent": "7db9e770-1203-4c15-9de3-c259116a707d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2245f20e-c8a8-4f3d-8745-41e04232eaac",
+        "fields": {
+            "uuid": "2245f20e-c8a8-4f3d-8745-41e04232eaac",
+            "name": "Vehicle Door Locks & Parts",
+            "emoji": "",
+            "parent": "7db9e770-1203-4c15-9de3-c259116a707d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "24764bec-8b5e-47cb-9a01-ad4ce10e5327",
+        "fields": {
+            "uuid": "24764bec-8b5e-47cb-9a01-ad4ce10e5327",
+            "name": "Vehicle Door Lock Actuators",
+            "emoji": "",
+            "parent": "2245f20e-c8a8-4f3d-8745-41e04232eaac"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "23576ba6-9714-43ac-a2dc-fac1f61939b8",
+        "fields": {
+            "uuid": "23576ba6-9714-43ac-a2dc-fac1f61939b8",
+            "name": "Vehicle Door Lock Knobs",
+            "emoji": "",
+            "parent": "2245f20e-c8a8-4f3d-8745-41e04232eaac"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c41053a8-de2a-4ab1-8624-303ffc2649dd",
+        "fields": {
+            "uuid": "c41053a8-de2a-4ab1-8624-303ffc2649dd",
+            "name": "Vehicle Door Locks & Locking Systems",
+            "emoji": "",
+            "parent": "2245f20e-c8a8-4f3d-8745-41e04232eaac"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f7586095-aa0d-463b-b595-d2d47d0af5f3",
+        "fields": {
+            "uuid": "f7586095-aa0d-463b-b595-d2d47d0af5f3",
+            "name": "Vehicle Hitch Locks",
+            "emoji": "",
+            "parent": "7db9e770-1203-4c15-9de3-c259116a707d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2b787f4d-4e33-474c-8ce9-cc03f81d6c54",
+        "fields": {
+            "uuid": "2b787f4d-4e33-474c-8ce9-cc03f81d6c54",
+            "name": "Vehicle Immobilizers",
+            "emoji": "",
+            "parent": "7db9e770-1203-4c15-9de3-c259116a707d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ece0d586-ddf1-484e-b1b9-db4ff8e4a496",
+        "fields": {
+            "uuid": "ece0d586-ddf1-484e-b1b9-db4ff8e4a496",
+            "name": "Vehicle Remote Keyless Systems",
+            "emoji": "",
+            "parent": "7db9e770-1203-4c15-9de3-c259116a707d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4740e1ce-77e4-461a-9c63-048aea77963a",
+        "fields": {
+            "uuid": "4740e1ce-77e4-461a-9c63-048aea77963a",
+            "name": "Vehicle Steering Wheel Locks",
+            "emoji": "",
+            "parent": "7db9e770-1203-4c15-9de3-c259116a707d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3cb66d02-c0c9-442e-973a-34d938ae44f1",
+        "fields": {
+            "uuid": "3cb66d02-c0c9-442e-973a-34d938ae44f1",
+            "name": "Vehicle Wheel Clamps",
+            "emoji": "",
+            "parent": "7db9e770-1203-4c15-9de3-c259116a707d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "88c2ffba-7e5e-4684-a9cd-b7a42c9df975",
+        "fields": {
+            "uuid": "88c2ffba-7e5e-4684-a9cd-b7a42c9df975",
+            "name": "Vehicle Safety Equipment",
+            "emoji": "",
+            "parent": "553a56e6-ff7b-4389-b3f6-232d99f6494f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "be033c67-a42a-4a7c-aa81-2ed67de92892",
+        "fields": {
+            "uuid": "be033c67-a42a-4a7c-aa81-2ed67de92892",
+            "name": "Car Window Nets",
+            "emoji": "",
+            "parent": "88c2ffba-7e5e-4684-a9cd-b7a42c9df975"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b362cdf5-ba60-4218-8643-7e725951d8c4",
+        "fields": {
+            "uuid": "b362cdf5-ba60-4218-8643-7e725951d8c4",
+            "name": "Emergency Road Flares",
+            "emoji": "",
+            "parent": "88c2ffba-7e5e-4684-a9cd-b7a42c9df975"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "686256b9-c578-4739-a8a8-dad36ff65146",
+        "fields": {
+            "uuid": "686256b9-c578-4739-a8a8-dad36ff65146",
+            "name": "Motor Vehicle Airbag Parts",
+            "emoji": "",
+            "parent": "88c2ffba-7e5e-4684-a9cd-b7a42c9df975"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "da820c3d-397e-44a4-b164-b2ab58b8d05c",
+        "fields": {
+            "uuid": "da820c3d-397e-44a4-b164-b2ab58b8d05c",
+            "name": "Motor Vehicle Roll Cages & Bars",
+            "emoji": "",
+            "parent": "88c2ffba-7e5e-4684-a9cd-b7a42c9df975"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2be7c99f-274e-4fdc-94c1-28b99d7ffb69",
+        "fields": {
+            "uuid": "2be7c99f-274e-4fdc-94c1-28b99d7ffb69",
+            "name": "Vehicle Seat Belt Buckles",
+            "emoji": "",
+            "parent": "88c2ffba-7e5e-4684-a9cd-b7a42c9df975"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7b2bd1cb-f836-4807-9827-c6be711e9b6e",
+        "fields": {
+            "uuid": "7b2bd1cb-f836-4807-9827-c6be711e9b6e",
+            "name": "Vehicle Seat Belt Covers",
+            "emoji": "",
+            "parent": "88c2ffba-7e5e-4684-a9cd-b7a42c9df975"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ba9de86b-3a23-4202-89e4-3f76d15cd090",
+        "fields": {
+            "uuid": "ba9de86b-3a23-4202-89e4-3f76d15cd090",
+            "name": "Vehicle Seat Belt Straps",
+            "emoji": "",
+            "parent": "88c2ffba-7e5e-4684-a9cd-b7a42c9df975"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "83565da5-eb79-4a29-89eb-37dd9f1e56ec",
+        "fields": {
+            "uuid": "83565da5-eb79-4a29-89eb-37dd9f1e56ec",
+            "name": "Vehicle Seat Belts",
+            "emoji": "",
+            "parent": "88c2ffba-7e5e-4684-a9cd-b7a42c9df975"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d2c6ae77-d246-463c-928c-9ed296a061ca",
+        "fields": {
+            "uuid": "d2c6ae77-d246-463c-928c-9ed296a061ca",
+            "name": "Vehicle Warning Whips",
+            "emoji": "",
+            "parent": "88c2ffba-7e5e-4684-a9cd-b7a42c9df975"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8491f946-928a-44f9-bb81-e72531bb7507",
+        "fields": {
+            "uuid": "8491f946-928a-44f9-bb81-e72531bb7507",
+            "name": "Vehicle Wheel Chocks",
+            "emoji": "",
+            "parent": "88c2ffba-7e5e-4684-a9cd-b7a42c9df975"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f93dc981-50e0-4873-8408-277208563369",
+        "fields": {
+            "uuid": "f93dc981-50e0-4873-8408-277208563369",
+            "name": "Vehicle Storage & Cargo",
+            "emoji": "",
+            "parent": "7caab4d7-e7aa-4d52-aa2b-1f21ec7d3146"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ec1570a9-e6e5-4e4e-9494-29a30fa5a976",
+        "fields": {
+            "uuid": "ec1570a9-e6e5-4e4e-9494-29a30fa5a976",
+            "name": "Motor Vehicle Cargo Nets",
+            "emoji": "",
+            "parent": "f93dc981-50e0-4873-8408-277208563369"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "124e6e19-2250-4653-82f5-faeba487b3df",
+        "fields": {
+            "uuid": "124e6e19-2250-4653-82f5-faeba487b3df",
+            "name": "Roof Cargo Nets",
+            "emoji": "",
+            "parent": "ec1570a9-e6e5-4e4e-9494-29a30fa5a976"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "817ebc38-42f9-43bf-9bab-5fa8d9d368e9",
+        "fields": {
+            "uuid": "817ebc38-42f9-43bf-9bab-5fa8d9d368e9",
+            "name": "Truck Bed Cargo Nets",
+            "emoji": "",
+            "parent": "ec1570a9-e6e5-4e4e-9494-29a30fa5a976"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "32da722e-d9c5-4044-ae3f-5cb744d1694e",
+        "fields": {
+            "uuid": "32da722e-d9c5-4044-ae3f-5cb744d1694e",
+            "name": "Trunk Cargo Nets",
+            "emoji": "",
+            "parent": "ec1570a9-e6e5-4e4e-9494-29a30fa5a976"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "15335d5b-a928-4672-b46d-68c7d17b2c37",
+        "fields": {
+            "uuid": "15335d5b-a928-4672-b46d-68c7d17b2c37",
+            "name": "Motor Vehicle Carrying Rack Accessories",
+            "emoji": "",
+            "parent": "f93dc981-50e0-4873-8408-277208563369"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a3314a2a-e001-45ef-af08-6842a0ed96f3",
+        "fields": {
+            "uuid": "a3314a2a-e001-45ef-af08-6842a0ed96f3",
+            "name": "Vehicle Bicycle Rack Accessories",
+            "emoji": "",
+            "parent": "15335d5b-a928-4672-b46d-68c7d17b2c37"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1dd55c90-e2de-49a2-8a8f-e8ddd8c72d15",
+        "fields": {
+            "uuid": "1dd55c90-e2de-49a2-8a8f-e8ddd8c72d15",
+            "name": "Vehicle Ski & Snowboard Rack Accessories",
+            "emoji": "",
+            "parent": "15335d5b-a928-4672-b46d-68c7d17b2c37"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f01f19ed-de4e-485a-8a86-5707de78ecdb",
+        "fields": {
+            "uuid": "f01f19ed-de4e-485a-8a86-5707de78ecdb",
+            "name": "Motor Vehicle Carrying Racks",
+            "emoji": "",
+            "parent": "f93dc981-50e0-4873-8408-277208563369"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5b95ecec-e6a7-442c-b12c-8c0c1efb9b8f",
+        "fields": {
+            "uuid": "5b95ecec-e6a7-442c-b12c-8c0c1efb9b8f",
+            "name": "Vehicle Base Rack Systems",
+            "emoji": "",
+            "parent": "f01f19ed-de4e-485a-8a86-5707de78ecdb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2f3b8402-280f-4280-825a-054266f915fd",
+        "fields": {
+            "uuid": "2f3b8402-280f-4280-825a-054266f915fd",
+            "name": "Vehicle Bicycle Racks",
+            "emoji": "",
+            "parent": "f01f19ed-de4e-485a-8a86-5707de78ecdb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "133b4737-b988-4a65-a5bc-418addbd25ab",
+        "fields": {
+            "uuid": "133b4737-b988-4a65-a5bc-418addbd25ab",
+            "name": "Vehicle Boat Racks",
+            "emoji": "",
+            "parent": "f01f19ed-de4e-485a-8a86-5707de78ecdb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "da54be6e-2b53-43c6-a06a-8f98e56b64e0",
+        "fields": {
+            "uuid": "da54be6e-2b53-43c6-a06a-8f98e56b64e0",
+            "name": "Vehicle Cargo Racks",
+            "emoji": "",
+            "parent": "f01f19ed-de4e-485a-8a86-5707de78ecdb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d28cb531-5607-4917-a8e7-e4c851e8d06f",
+        "fields": {
+            "uuid": "d28cb531-5607-4917-a8e7-e4c851e8d06f",
+            "name": "Vehicle Fishing Rod Racks",
+            "emoji": "",
+            "parent": "f01f19ed-de4e-485a-8a86-5707de78ecdb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4847d06e-8bfa-423d-b28a-f6473d2489ba",
+        "fields": {
+            "uuid": "4847d06e-8bfa-423d-b28a-f6473d2489ba",
+            "name": "Vehicle Gun Racks",
+            "emoji": "",
+            "parent": "f01f19ed-de4e-485a-8a86-5707de78ecdb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b7048d34-e919-4076-a043-70e244a2c685",
+        "fields": {
+            "uuid": "b7048d34-e919-4076-a043-70e244a2c685",
+            "name": "Vehicle Motorcycle & Scooter Racks",
+            "emoji": "",
+            "parent": "f01f19ed-de4e-485a-8a86-5707de78ecdb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3b6a620a-6f56-4b8c-a609-b5a8019662fc",
+        "fields": {
+            "uuid": "3b6a620a-6f56-4b8c-a609-b5a8019662fc",
+            "name": "Vehicle Ski & Snowboard Racks",
+            "emoji": "",
+            "parent": "f01f19ed-de4e-485a-8a86-5707de78ecdb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ef1f74ff-9990-426c-b923-3e6b304c4ead",
+        "fields": {
+            "uuid": "ef1f74ff-9990-426c-b923-3e6b304c4ead",
+            "name": "Vehicle Water Sport Board Racks",
+            "emoji": "",
+            "parent": "f01f19ed-de4e-485a-8a86-5707de78ecdb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a9c691e4-5566-4838-b317-7d58d8249329",
+        "fields": {
+            "uuid": "a9c691e4-5566-4838-b317-7d58d8249329",
+            "name": "Motor Vehicle Loading Ramps",
+            "emoji": "",
+            "parent": "f93dc981-50e0-4873-8408-277208563369"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a9576748-4c2b-423c-aefd-d1889a7cef09",
+        "fields": {
+            "uuid": "a9576748-4c2b-423c-aefd-d1889a7cef09",
+            "name": "Motor Vehicle Trailers",
+            "emoji": "",
+            "parent": "f93dc981-50e0-4873-8408-277208563369"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "991faf82-95ff-42df-bbc6-a890616a3af9",
+        "fields": {
+            "uuid": "991faf82-95ff-42df-bbc6-a890616a3af9",
+            "name": "Boat Trailers",
+            "emoji": "",
+            "parent": "a9576748-4c2b-423c-aefd-d1889a7cef09"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "21023abd-1f9a-4b07-9957-80abb59b00fd",
+        "fields": {
+            "uuid": "21023abd-1f9a-4b07-9957-80abb59b00fd",
+            "name": "Horse & Livestock Trailers",
+            "emoji": "",
+            "parent": "a9576748-4c2b-423c-aefd-d1889a7cef09"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "514cd9c6-dab1-4570-a8d8-d37b5bb2c4b3",
+        "fields": {
+            "uuid": "514cd9c6-dab1-4570-a8d8-d37b5bb2c4b3",
+            "name": "Travel Trailers",
+            "emoji": "",
+            "parent": "a9576748-4c2b-423c-aefd-d1889a7cef09"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1519d229-bcec-421a-8b85-96a101c03b7f",
+        "fields": {
+            "uuid": "1519d229-bcec-421a-8b85-96a101c03b7f",
+            "name": "Utility & Cargo Trailers",
+            "emoji": "",
+            "parent": "a9576748-4c2b-423c-aefd-d1889a7cef09"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c12f9d0c-15cf-4495-a967-a73017ad86e1",
+        "fields": {
+            "uuid": "c12f9d0c-15cf-4495-a967-a73017ad86e1",
+            "name": "Motorcycle Bags & Panniers",
+            "emoji": "",
+            "parent": "f93dc981-50e0-4873-8408-277208563369"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "22a064e0-de66-45b8-b703-a033c4b37dc4",
+        "fields": {
+            "uuid": "22a064e0-de66-45b8-b703-a033c4b37dc4",
+            "name": "Truck Bed Storage Boxes & Organizers",
+            "emoji": "",
+            "parent": "f93dc981-50e0-4873-8408-277208563369"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8595d996-cd55-4e23-87a3-faa294ebd6b9",
+        "fields": {
+            "uuid": "8595d996-cd55-4e23-87a3-faa294ebd6b9",
+            "name": "Vehicle Headrest Hangers & Hooks",
+            "emoji": "",
+            "parent": "f93dc981-50e0-4873-8408-277208563369"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1117fa51-e80f-4e29-809d-878a984ddf9a",
+        "fields": {
+            "uuid": "1117fa51-e80f-4e29-809d-878a984ddf9a",
+            "name": "Vehicle Organizers",
+            "emoji": "",
+            "parent": "f93dc981-50e0-4873-8408-277208563369"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7e3e81f5-7f50-45e2-8c67-8999fd8aa84d",
+        "fields": {
+            "uuid": "7e3e81f5-7f50-45e2-8c67-8999fd8aa84d",
+            "name": "Watercraft Parts & Accessories",
+            "emoji": "",
+            "parent": "7caab4d7-e7aa-4d52-aa2b-1f21ec7d3146"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4142f0bc-0909-498c-8a2d-219812265ab3",
+        "fields": {
+            "uuid": "4142f0bc-0909-498c-8a2d-219812265ab3",
+            "name": "Docking & Anchoring",
+            "emoji": "",
+            "parent": "7e3e81f5-7f50-45e2-8c67-8999fd8aa84d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "14f500de-b84f-46d2-ade4-602503f1d142",
+        "fields": {
+            "uuid": "14f500de-b84f-46d2-ade4-602503f1d142",
+            "name": "Anchor Chains",
+            "emoji": "",
+            "parent": "4142f0bc-0909-498c-8a2d-219812265ab3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "600036a4-9844-4c6d-874e-14b9ca8d443f",
+        "fields": {
+            "uuid": "600036a4-9844-4c6d-874e-14b9ca8d443f",
+            "name": "Anchor Lines & Ropes",
+            "emoji": "",
+            "parent": "4142f0bc-0909-498c-8a2d-219812265ab3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6cda1a72-0f46-4504-a3ba-24ded1e19bbd",
+        "fields": {
+            "uuid": "6cda1a72-0f46-4504-a3ba-24ded1e19bbd",
+            "name": "Anchor Windlasses",
+            "emoji": "",
+            "parent": "4142f0bc-0909-498c-8a2d-219812265ab3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "02451da4-7e2d-437e-926c-022b3e6ca598",
+        "fields": {
+            "uuid": "02451da4-7e2d-437e-926c-022b3e6ca598",
+            "name": "Anchors",
+            "emoji": "",
+            "parent": "4142f0bc-0909-498c-8a2d-219812265ab3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f1a1dea9-1f65-4dd7-af2b-192c68e207b2",
+        "fields": {
+            "uuid": "f1a1dea9-1f65-4dd7-af2b-192c68e207b2",
+            "name": "Boat Hooks",
+            "emoji": "",
+            "parent": "4142f0bc-0909-498c-8a2d-219812265ab3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8bdee2ca-ac5e-40e8-9b82-b00dcbb9e447",
+        "fields": {
+            "uuid": "8bdee2ca-ac5e-40e8-9b82-b00dcbb9e447",
+            "name": "Boat Ladders",
+            "emoji": "",
+            "parent": "4142f0bc-0909-498c-8a2d-219812265ab3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0a332a42-7b86-4cf3-9138-23f9b70870ef",
+        "fields": {
+            "uuid": "0a332a42-7b86-4cf3-9138-23f9b70870ef",
+            "name": "Dock Cleats",
+            "emoji": "",
+            "parent": "4142f0bc-0909-498c-8a2d-219812265ab3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0e6578ee-5f3b-446a-be57-8fec5433014d",
+        "fields": {
+            "uuid": "0e6578ee-5f3b-446a-be57-8fec5433014d",
+            "name": "Dock Steps",
+            "emoji": "",
+            "parent": "4142f0bc-0909-498c-8a2d-219812265ab3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "25c5d95b-5f45-40f0-8e14-8028139802ed",
+        "fields": {
+            "uuid": "25c5d95b-5f45-40f0-8e14-8028139802ed",
+            "name": "Sailboat Parts",
+            "emoji": "",
+            "parent": "7e3e81f5-7f50-45e2-8c67-8999fd8aa84d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2e2aba3b-9487-42ed-91a8-ad9e31dd75b1",
+        "fields": {
+            "uuid": "2e2aba3b-9487-42ed-91a8-ad9e31dd75b1",
+            "name": "Watercraft Care",
+            "emoji": "",
+            "parent": "7e3e81f5-7f50-45e2-8c67-8999fd8aa84d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7370f5b4-d972-4964-bda7-30a43a340cda",
+        "fields": {
+            "uuid": "7370f5b4-d972-4964-bda7-30a43a340cda",
+            "name": "Watercraft Cleaners",
+            "emoji": "",
+            "parent": "2e2aba3b-9487-42ed-91a8-ad9e31dd75b1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fb8634ee-a525-4550-af42-53b92eb0cb85",
+        "fields": {
+            "uuid": "fb8634ee-a525-4550-af42-53b92eb0cb85",
+            "name": "Watercraft Polishes",
+            "emoji": "",
+            "parent": "2e2aba3b-9487-42ed-91a8-ad9e31dd75b1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c187980d-d4e1-4bf8-a114-5b2addd6e42b",
+        "fields": {
+            "uuid": "c187980d-d4e1-4bf8-a114-5b2addd6e42b",
+            "name": "Watercraft Engine Parts",
+            "emoji": "",
+            "parent": "7e3e81f5-7f50-45e2-8c67-8999fd8aa84d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cba3ab74-ff28-457b-b416-65640edce554",
+        "fields": {
+            "uuid": "cba3ab74-ff28-457b-b416-65640edce554",
+            "name": "Watercraft Alternators",
+            "emoji": "",
+            "parent": "c187980d-d4e1-4bf8-a114-5b2addd6e42b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "36f059c7-a353-42f0-b2f2-0e6474d5b93e",
+        "fields": {
+            "uuid": "36f059c7-a353-42f0-b2f2-0e6474d5b93e",
+            "name": "Watercraft Carburetors & Parts",
+            "emoji": "",
+            "parent": "c187980d-d4e1-4bf8-a114-5b2addd6e42b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a3192838-736d-4688-9d92-79f121163738",
+        "fields": {
+            "uuid": "a3192838-736d-4688-9d92-79f121163738",
+            "name": "Watercraft Engine Controls",
+            "emoji": "",
+            "parent": "c187980d-d4e1-4bf8-a114-5b2addd6e42b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8ee6eea0-2f08-4f7b-8707-a4dc3c7a61d6",
+        "fields": {
+            "uuid": "8ee6eea0-2f08-4f7b-8707-a4dc3c7a61d6",
+            "name": "Watercraft Ignition Parts",
+            "emoji": "",
+            "parent": "c187980d-d4e1-4bf8-a114-5b2addd6e42b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "64a3da8a-2751-4595-bc44-d70740a91900",
+        "fields": {
+            "uuid": "64a3da8a-2751-4595-bc44-d70740a91900",
+            "name": "Watercraft Impellers",
+            "emoji": "",
+            "parent": "c187980d-d4e1-4bf8-a114-5b2addd6e42b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7b3f3e29-24d1-4846-bae4-c44f1258836f",
+        "fields": {
+            "uuid": "7b3f3e29-24d1-4846-bae4-c44f1258836f",
+            "name": "Watercraft Motor Locks",
+            "emoji": "",
+            "parent": "c187980d-d4e1-4bf8-a114-5b2addd6e42b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e750ce04-010a-48c2-9caa-3f3b6013eadf",
+        "fields": {
+            "uuid": "e750ce04-010a-48c2-9caa-3f3b6013eadf",
+            "name": "Watercraft Motor Mounts",
+            "emoji": "",
+            "parent": "c187980d-d4e1-4bf8-a114-5b2addd6e42b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "af5be340-9b58-4633-806d-0c63a4318ec2",
+        "fields": {
+            "uuid": "af5be340-9b58-4633-806d-0c63a4318ec2",
+            "name": "Watercraft Pistons & Parts",
+            "emoji": "",
+            "parent": "c187980d-d4e1-4bf8-a114-5b2addd6e42b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1030a4d4-4d15-4ff7-9cfe-55fffda4d95d",
+        "fields": {
+            "uuid": "1030a4d4-4d15-4ff7-9cfe-55fffda4d95d",
+            "name": "Watercraft Propellers",
+            "emoji": "",
+            "parent": "c187980d-d4e1-4bf8-a114-5b2addd6e42b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f5a5894e-63b5-4fdf-94f2-1f965722a6a6",
+        "fields": {
+            "uuid": "f5a5894e-63b5-4fdf-94f2-1f965722a6a6",
+            "name": "Watercraft Engines & Motors",
+            "emoji": "",
+            "parent": "7e3e81f5-7f50-45e2-8c67-8999fd8aa84d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2c28fde5-ce29-4ff5-8537-e57f9669c16b",
+        "fields": {
+            "uuid": "2c28fde5-ce29-4ff5-8537-e57f9669c16b",
+            "name": "Inboard Motors",
+            "emoji": "",
+            "parent": "f5a5894e-63b5-4fdf-94f2-1f965722a6a6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d171d0d7-a743-446e-a141-dc317defadea",
+        "fields": {
+            "uuid": "d171d0d7-a743-446e-a141-dc317defadea",
+            "name": "Outboard Motors",
+            "emoji": "",
+            "parent": "f5a5894e-63b5-4fdf-94f2-1f965722a6a6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3440089b-5ff3-4272-acff-99c43a352baa",
+        "fields": {
+            "uuid": "3440089b-5ff3-4272-acff-99c43a352baa",
+            "name": "Trolling Motors",
+            "emoji": "",
+            "parent": "f5a5894e-63b5-4fdf-94f2-1f965722a6a6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b92e00a3-4f36-43b9-b2cc-3414658bf1e7",
+        "fields": {
+            "uuid": "b92e00a3-4f36-43b9-b2cc-3414658bf1e7",
+            "name": "Watercraft Exhaust Parts",
+            "emoji": "",
+            "parent": "7e3e81f5-7f50-45e2-8c67-8999fd8aa84d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "54a80a9a-55d4-4fb1-8f29-7fa62ed19608",
+        "fields": {
+            "uuid": "54a80a9a-55d4-4fb1-8f29-7fa62ed19608",
+            "name": "Watercraft Manifolds",
+            "emoji": "",
+            "parent": "b92e00a3-4f36-43b9-b2cc-3414658bf1e7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ab19402a-a9e9-4bb9-bdb6-c07a0bb9599c",
+        "fields": {
+            "uuid": "ab19402a-a9e9-4bb9-bdb6-c07a0bb9599c",
+            "name": "Watercraft Mufflers & Parts",
+            "emoji": "",
+            "parent": "b92e00a3-4f36-43b9-b2cc-3414658bf1e7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d52d83a1-4739-448d-8ab3-6993e49706d7",
+        "fields": {
+            "uuid": "d52d83a1-4739-448d-8ab3-6993e49706d7",
+            "name": "Watercraft Fuel Systems",
+            "emoji": "",
+            "parent": "7e3e81f5-7f50-45e2-8c67-8999fd8aa84d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3eda77eb-796f-474c-ac68-a69e86e0a316",
+        "fields": {
+            "uuid": "3eda77eb-796f-474c-ac68-a69e86e0a316",
+            "name": "Watercraft Fuel Lines & Parts",
+            "emoji": "",
+            "parent": "d52d83a1-4739-448d-8ab3-6993e49706d7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5180620b-d260-4ad5-bd97-ff03f399a35c",
+        "fields": {
+            "uuid": "5180620b-d260-4ad5-bd97-ff03f399a35c",
+            "name": "Watercraft Fuel Meters",
+            "emoji": "",
+            "parent": "d52d83a1-4739-448d-8ab3-6993e49706d7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2f3b56e2-721c-403c-a5be-2deedf1b9674",
+        "fields": {
+            "uuid": "2f3b56e2-721c-403c-a5be-2deedf1b9674",
+            "name": "Watercraft Fuel Pumps & Parts",
+            "emoji": "",
+            "parent": "d52d83a1-4739-448d-8ab3-6993e49706d7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "47c53223-5bfc-4a55-9af4-c7eb5d3de308",
+        "fields": {
+            "uuid": "47c53223-5bfc-4a55-9af4-c7eb5d3de308",
+            "name": "Watercraft Fuel Tanks & Parts",
+            "emoji": "",
+            "parent": "d52d83a1-4739-448d-8ab3-6993e49706d7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aed11e58-734f-480c-94e3-de76f5fdcfe0",
+        "fields": {
+            "uuid": "aed11e58-734f-480c-94e3-de76f5fdcfe0",
+            "name": "Watercraft Lighting",
+            "emoji": "",
+            "parent": "7e3e81f5-7f50-45e2-8c67-8999fd8aa84d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8eb24f40-74c2-4949-8ab6-9ba2ccc94c87",
+        "fields": {
+            "uuid": "8eb24f40-74c2-4949-8ab6-9ba2ccc94c87",
+            "name": "Watercraft Steering Parts",
+            "emoji": "",
+            "parent": "7e3e81f5-7f50-45e2-8c67-8999fd8aa84d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "24316617-5575-4027-8be1-dbe5e07fc549",
+        "fields": {
+            "uuid": "24316617-5575-4027-8be1-dbe5e07fc549",
+            "name": "Watercraft Steering Cables",
+            "emoji": "",
+            "parent": "8eb24f40-74c2-4949-8ab6-9ba2ccc94c87"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "78b2d977-32f2-4eab-9570-edebd9f567ba",
+        "fields": {
+            "uuid": "78b2d977-32f2-4eab-9570-edebd9f567ba",
+            "name": "Watercraft Steering Wheels",
+            "emoji": "",
+            "parent": "8eb24f40-74c2-4949-8ab6-9ba2ccc94c87"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a1b52dfc-2dd6-43b8-b6de-461587baf0fb",
+        "fields": {
+            "uuid": "a1b52dfc-2dd6-43b8-b6de-461587baf0fb",
+            "name": "Vehicles",
+            "emoji": "",
+            "parent": "a3a34043-6986-4b33-8451-ae89eadb6dfa"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ae215574-9c66-4d0c-98dc-63a3c4924ffa",
+        "fields": {
+            "uuid": "ae215574-9c66-4d0c-98dc-63a3c4924ffa",
+            "name": "Aircraft",
+            "emoji": "",
+            "parent": "a1b52dfc-2dd6-43b8-b6de-461587baf0fb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2cb3643b-ddde-4650-86be-4aca9bf282bc",
+        "fields": {
+            "uuid": "2cb3643b-ddde-4650-86be-4aca9bf282bc",
+            "name": "Motor Vehicles",
+            "emoji": "",
+            "parent": "a1b52dfc-2dd6-43b8-b6de-461587baf0fb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e2c1ed90-a647-4326-b546-0531e3824e65",
+        "fields": {
+            "uuid": "e2c1ed90-a647-4326-b546-0531e3824e65",
+            "name": "Cars, Trucks & Vans",
+            "emoji": "",
+            "parent": "2cb3643b-ddde-4650-86be-4aca9bf282bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "206f378f-31ab-4177-aa45-1870bdbfdbe2",
+        "fields": {
+            "uuid": "206f378f-31ab-4177-aa45-1870bdbfdbe2",
+            "name": "Electric Vehicles (EV)",
+            "emoji": "",
+            "parent": "e2c1ed90-a647-4326-b546-0531e3824e65"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "24d15e46-39bf-4b92-a3b4-5d1462c16868",
+        "fields": {
+            "uuid": "24d15e46-39bf-4b92-a3b4-5d1462c16868",
+            "name": "Electric Cars",
+            "emoji": "",
+            "parent": "206f378f-31ab-4177-aa45-1870bdbfdbe2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "05f05cbc-ec19-49a9-aa57-2f5dbbf38696",
+        "fields": {
+            "uuid": "05f05cbc-ec19-49a9-aa57-2f5dbbf38696",
+            "name": "Battery Electric Vehicles (BEV)",
+            "emoji": "",
+            "parent": "24d15e46-39bf-4b92-a3b4-5d1462c16868"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a1fded05-5371-421d-a3f6-5811480e4ecc",
+        "fields": {
+            "uuid": "a1fded05-5371-421d-a3f6-5811480e4ecc",
+            "name": "Plug-In Hybrid Electric Vehicles (PHEV)",
+            "emoji": "",
+            "parent": "24d15e46-39bf-4b92-a3b4-5d1462c16868"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d80497c9-7b53-4519-bd00-a096bf997d18",
+        "fields": {
+            "uuid": "d80497c9-7b53-4519-bd00-a096bf997d18",
+            "name": "Electric Trucks",
+            "emoji": "",
+            "parent": "206f378f-31ab-4177-aa45-1870bdbfdbe2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d6f6f6a1-9f21-4d13-85f9-32b77fb0ec6d",
+        "fields": {
+            "uuid": "d6f6f6a1-9f21-4d13-85f9-32b77fb0ec6d",
+            "name": "Electric Vans",
+            "emoji": "",
+            "parent": "206f378f-31ab-4177-aa45-1870bdbfdbe2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3ff9cf95-73f3-4977-96c2-00bbabc1675a",
+        "fields": {
+            "uuid": "3ff9cf95-73f3-4977-96c2-00bbabc1675a",
+            "name": "Non-Electric Vehicles",
+            "emoji": "",
+            "parent": "e2c1ed90-a647-4326-b546-0531e3824e65"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f56851c8-8568-48b7-9b4a-a6574f307e4a",
+        "fields": {
+            "uuid": "f56851c8-8568-48b7-9b4a-a6574f307e4a",
+            "name": "Cars",
+            "emoji": "",
+            "parent": "3ff9cf95-73f3-4977-96c2-00bbabc1675a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "67143a6d-1840-4a7d-b364-e216c1c7e172",
+        "fields": {
+            "uuid": "67143a6d-1840-4a7d-b364-e216c1c7e172",
+            "name": "Trucks",
+            "emoji": "",
+            "parent": "3ff9cf95-73f3-4977-96c2-00bbabc1675a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "abed633b-e0bf-4d55-a911-e6d64c876f48",
+        "fields": {
+            "uuid": "abed633b-e0bf-4d55-a911-e6d64c876f48",
+            "name": "Vans",
+            "emoji": "",
+            "parent": "3ff9cf95-73f3-4977-96c2-00bbabc1675a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f016a528-1adb-454d-b994-db2b8095d2eb",
+        "fields": {
+            "uuid": "f016a528-1adb-454d-b994-db2b8095d2eb",
+            "name": "Golf Carts",
+            "emoji": "",
+            "parent": "2cb3643b-ddde-4650-86be-4aca9bf282bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3098016d-7083-41ff-819e-52f4d4f6e084",
+        "fields": {
+            "uuid": "3098016d-7083-41ff-819e-52f4d4f6e084",
+            "name": "Motorcycles & Scooters",
+            "emoji": "",
+            "parent": "2cb3643b-ddde-4650-86be-4aca9bf282bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "81c7e0a6-b39f-46e4-93c0-8ea364f01968",
+        "fields": {
+            "uuid": "81c7e0a6-b39f-46e4-93c0-8ea364f01968",
+            "name": "Electric Motorcycles & Scooters",
+            "emoji": "",
+            "parent": "3098016d-7083-41ff-819e-52f4d4f6e084"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3ffebc49-6f0f-4cc3-bf3d-7a15b03fb38e",
+        "fields": {
+            "uuid": "3ffebc49-6f0f-4cc3-bf3d-7a15b03fb38e",
+            "name": "Non-Electric Motorcycles & Scooters",
+            "emoji": "",
+            "parent": "3098016d-7083-41ff-819e-52f4d4f6e084"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dad49f10-4f7c-4b0a-a21a-879dbcd19a71",
+        "fields": {
+            "uuid": "dad49f10-4f7c-4b0a-a21a-879dbcd19a71",
+            "name": "Off-Road and All-Terrain Vehicles",
+            "emoji": "",
+            "parent": "2cb3643b-ddde-4650-86be-4aca9bf282bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e26d72d8-e84e-4599-b6e7-fc0238538d02",
+        "fields": {
+            "uuid": "e26d72d8-e84e-4599-b6e7-fc0238538d02",
+            "name": "ATVs & UTVs",
+            "emoji": "",
+            "parent": "dad49f10-4f7c-4b0a-a21a-879dbcd19a71"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "be734984-3e28-4c81-bab1-59f1884dcb31",
+        "fields": {
+            "uuid": "be734984-3e28-4c81-bab1-59f1884dcb31",
+            "name": "Go Karts & Dune Buggies",
+            "emoji": "",
+            "parent": "dad49f10-4f7c-4b0a-a21a-879dbcd19a71"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "95e5b40d-9be1-42ac-bc73-e621a308818f",
+        "fields": {
+            "uuid": "95e5b40d-9be1-42ac-bc73-e621a308818f",
+            "name": "Recreational Vehicles",
+            "emoji": "",
+            "parent": "2cb3643b-ddde-4650-86be-4aca9bf282bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "eee979fe-ac8f-4de3-a001-9f6dd0ed3a87",
+        "fields": {
+            "uuid": "eee979fe-ac8f-4de3-a001-9f6dd0ed3a87",
+            "name": "Snowmobiles",
+            "emoji": "",
+            "parent": "2cb3643b-ddde-4650-86be-4aca9bf282bc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ad91f305-c0f9-463c-b5c0-29248b2d50d5",
+        "fields": {
+            "uuid": "ad91f305-c0f9-463c-b5c0-29248b2d50d5",
+            "name": "Watercraft",
+            "emoji": "",
+            "parent": "a1b52dfc-2dd6-43b8-b6de-461587baf0fb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fdfe4d45-2f3e-41c5-ab30-0ad111934c1c",
+        "fields": {
+            "uuid": "fdfe4d45-2f3e-41c5-ab30-0ad111934c1c",
+            "name": "Motor Boats",
+            "emoji": "",
+            "parent": "ad91f305-c0f9-463c-b5c0-29248b2d50d5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6b4f1812-bed2-4e06-a509-a51423972e14",
+        "fields": {
+            "uuid": "6b4f1812-bed2-4e06-a509-a51423972e14",
+            "name": "Personal Watercraft",
+            "emoji": "",
+            "parent": "ad91f305-c0f9-463c-b5c0-29248b2d50d5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "119d20bd-f871-4871-9595-c4ca8b46665c",
+        "fields": {
+            "uuid": "119d20bd-f871-4871-9595-c4ca8b46665c",
+            "name": "Sailboats",
+            "emoji": "",
+            "parent": "ad91f305-c0f9-463c-b5c0-29248b2d50d5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "02fddb81-15c8-4248-ab85-0b68f3c30501",
+        "fields": {
+            "uuid": "02fddb81-15c8-4248-ab85-0b68f3c30501",
+            "name": "Yachts",
+            "emoji": "",
+            "parent": "ad91f305-c0f9-463c-b5c0-29248b2d50d5"
+        }
+    }
+]

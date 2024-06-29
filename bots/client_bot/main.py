@@ -27,6 +27,9 @@ def start_app():
     application.add_handler(
         CallbackQueryHandler(handlers.save_product, pattern="^S-.+")
     )
+    application.add_handler(
+        CallbackQueryHandler(handlers.filter_product, pattern="^F-.+")
+    )
     application.add_handler(MessageHandler(filters.TEXT, handlers.text))
 
     application.run_polling()

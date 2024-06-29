@@ -1,0 +1,2472 @@
+[
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d30d2c06-55a3-42cf-bfdc-08ffd5088e90",
+        "fields": {
+            "uuid": "d30d2c06-55a3-42cf-bfdc-08ffd5088e90",
+            "name": "Baby & Toddler",
+            "emoji": "",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "636014d4-a992-446d-9416-afeb4267a6a7",
+        "fields": {
+            "uuid": "636014d4-a992-446d-9416-afeb4267a6a7",
+            "name": "Baby Bathing",
+            "emoji": "",
+            "parent": "d30d2c06-55a3-42cf-bfdc-08ffd5088e90"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ba9b07ce-6ad8-4304-a6e5-41dbfc301276",
+        "fields": {
+            "uuid": "ba9b07ce-6ad8-4304-a6e5-41dbfc301276",
+            "name": "Baby Bathtubs & Bath Seats",
+            "emoji": "",
+            "parent": "636014d4-a992-446d-9416-afeb4267a6a7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2a05907a-4751-44a2-b72d-e023f0f9d456",
+        "fields": {
+            "uuid": "2a05907a-4751-44a2-b72d-e023f0f9d456",
+            "name": "Bath Rings",
+            "emoji": "",
+            "parent": "ba9b07ce-6ad8-4304-a6e5-41dbfc301276"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "85cd4631-b3dc-45d1-8236-2e6eab418a03",
+        "fields": {
+            "uuid": "85cd4631-b3dc-45d1-8236-2e6eab418a03",
+            "name": "Bath Seats",
+            "emoji": "",
+            "parent": "ba9b07ce-6ad8-4304-a6e5-41dbfc301276"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e476a54e-51f1-4e33-bec6-220bb1a21862",
+        "fields": {
+            "uuid": "e476a54e-51f1-4e33-bec6-220bb1a21862",
+            "name": "Bath Supports",
+            "emoji": "",
+            "parent": "ba9b07ce-6ad8-4304-a6e5-41dbfc301276"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "74ed8553-a523-4deb-903c-612fcaf602df",
+        "fields": {
+            "uuid": "74ed8553-a523-4deb-903c-612fcaf602df",
+            "name": "Bathtubs",
+            "emoji": "",
+            "parent": "ba9b07ce-6ad8-4304-a6e5-41dbfc301276"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fce4e3bb-7d8a-4f95-9f48-eabeee23f035",
+        "fields": {
+            "uuid": "fce4e3bb-7d8a-4f95-9f48-eabeee23f035",
+            "name": "Tummy Tubs",
+            "emoji": "",
+            "parent": "ba9b07ce-6ad8-4304-a6e5-41dbfc301276"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0073c573-a88d-4ef3-9214-481196f8487b",
+        "fields": {
+            "uuid": "0073c573-a88d-4ef3-9214-481196f8487b",
+            "name": "Shower Visors",
+            "emoji": "",
+            "parent": "636014d4-a992-446d-9416-afeb4267a6a7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "72377369-f33d-41c6-958c-72859664aa5d",
+        "fields": {
+            "uuid": "72377369-f33d-41c6-958c-72859664aa5d",
+            "name": "Hair Rinse Cups",
+            "emoji": "",
+            "parent": "0073c573-a88d-4ef3-9214-481196f8487b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "abb8bc84-d9f9-4cc6-b2bf-cac0eb1401d5",
+        "fields": {
+            "uuid": "abb8bc84-d9f9-4cc6-b2bf-cac0eb1401d5",
+            "name": "Baby Gift Sets",
+            "emoji": "",
+            "parent": "d30d2c06-55a3-42cf-bfdc-08ffd5088e90"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "25269bf4-f07f-4811-bede-25fe4e8f38a2",
+        "fields": {
+            "uuid": "25269bf4-f07f-4811-bede-25fe4e8f38a2",
+            "name": "Baby Health",
+            "emoji": "",
+            "parent": "d30d2c06-55a3-42cf-bfdc-08ffd5088e90"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7f204804-c880-4568-8ff8-86d8842b63b5",
+        "fields": {
+            "uuid": "7f204804-c880-4568-8ff8-86d8842b63b5",
+            "name": "Baby Health & Grooming Kits",
+            "emoji": "",
+            "parent": "25269bf4-f07f-4811-bede-25fe4e8f38a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bc0f72a0-9da0-4baf-ba02-6caf1e2ff715",
+        "fields": {
+            "uuid": "bc0f72a0-9da0-4baf-ba02-6caf1e2ff715",
+            "name": "Nasal Aspirators",
+            "emoji": "",
+            "parent": "25269bf4-f07f-4811-bede-25fe4e8f38a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "55149025-2b9c-4073-ace1-d8ceaa9e8856",
+        "fields": {
+            "uuid": "55149025-2b9c-4073-ace1-d8ceaa9e8856",
+            "name": "Pacifier Clips & Holders",
+            "emoji": "",
+            "parent": "25269bf4-f07f-4811-bede-25fe4e8f38a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "31f7b1fd-9e61-4266-a2cf-bcca28f5791f",
+        "fields": {
+            "uuid": "31f7b1fd-9e61-4266-a2cf-bcca28f5791f",
+            "name": "Pacifier Wipes",
+            "emoji": "",
+            "parent": "25269bf4-f07f-4811-bede-25fe4e8f38a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4792e069-7227-4eaf-82da-6ed4aa2aeb8c",
+        "fields": {
+            "uuid": "4792e069-7227-4eaf-82da-6ed4aa2aeb8c",
+            "name": "Pacifiers & Teethers",
+            "emoji": "",
+            "parent": "25269bf4-f07f-4811-bede-25fe4e8f38a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8f5c877b-bea7-417e-afa7-e9a9a73c3f5b",
+        "fields": {
+            "uuid": "8f5c877b-bea7-417e-afa7-e9a9a73c3f5b",
+            "name": "Pacifiers",
+            "emoji": "",
+            "parent": "4792e069-7227-4eaf-82da-6ed4aa2aeb8c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "94c3dd7d-ab23-472d-b4e1-fdbcc682a571",
+        "fields": {
+            "uuid": "94c3dd7d-ab23-472d-b4e1-fdbcc682a571",
+            "name": "Teethers",
+            "emoji": "",
+            "parent": "4792e069-7227-4eaf-82da-6ed4aa2aeb8c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "63d8589c-569f-4abf-8b75-fc64af2b3aa7",
+        "fields": {
+            "uuid": "63d8589c-569f-4abf-8b75-fc64af2b3aa7",
+            "name": "Baby Safety",
+            "emoji": "",
+            "parent": "d30d2c06-55a3-42cf-bfdc-08ffd5088e90"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "175958e0-b058-431e-8db0-71ba97f5f950",
+        "fields": {
+            "uuid": "175958e0-b058-431e-8db0-71ba97f5f950",
+            "name": "Baby & Pet Gate Accessories",
+            "emoji": "",
+            "parent": "63d8589c-569f-4abf-8b75-fc64af2b3aa7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3a41f309-25dd-4689-b83a-398a9780dd5e",
+        "fields": {
+            "uuid": "3a41f309-25dd-4689-b83a-398a9780dd5e",
+            "name": "Door Stoppers",
+            "emoji": "",
+            "parent": "175958e0-b058-431e-8db0-71ba97f5f950"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9841dfae-6e8a-4225-aa0e-82d96b7c9296",
+        "fields": {
+            "uuid": "9841dfae-6e8a-4225-aa0e-82d96b7c9296",
+            "name": "Extension Kits",
+            "emoji": "",
+            "parent": "175958e0-b058-431e-8db0-71ba97f5f950"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0fad902d-d70b-43f8-990b-8ddab7b6ab22",
+        "fields": {
+            "uuid": "0fad902d-d70b-43f8-990b-8ddab7b6ab22",
+            "name": "Locking Mechanisms",
+            "emoji": "",
+            "parent": "175958e0-b058-431e-8db0-71ba97f5f950"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5e233814-b3e1-437e-a0bf-d7e2a7b2c08c",
+        "fields": {
+            "uuid": "5e233814-b3e1-437e-a0bf-d7e2a7b2c08c",
+            "name": "Mounting Kits",
+            "emoji": "",
+            "parent": "175958e0-b058-431e-8db0-71ba97f5f950"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c2737c07-260e-4f43-a9ec-4fbde7b7673e",
+        "fields": {
+            "uuid": "c2737c07-260e-4f43-a9ec-4fbde7b7673e",
+            "name": "Wall Cups",
+            "emoji": "",
+            "parent": "175958e0-b058-431e-8db0-71ba97f5f950"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2b663920-881d-42a3-a780-e4e262f517d0",
+        "fields": {
+            "uuid": "2b663920-881d-42a3-a780-e4e262f517d0",
+            "name": "Baby & Pet Gates",
+            "emoji": "",
+            "parent": "63d8589c-569f-4abf-8b75-fc64af2b3aa7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f1dff975-ad24-4302-b662-e9ce1c035c2a",
+        "fields": {
+            "uuid": "f1dff975-ad24-4302-b662-e9ce1c035c2a",
+            "name": "Retractable Gates",
+            "emoji": "",
+            "parent": "2b663920-881d-42a3-a780-e4e262f517d0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1b83be00-4e79-4d38-bdbc-b68866418e3c",
+        "fields": {
+            "uuid": "1b83be00-4e79-4d38-bdbc-b68866418e3c",
+            "name": "Swing Gates",
+            "emoji": "",
+            "parent": "2b663920-881d-42a3-a780-e4e262f517d0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0464fa66-fd54-49ed-9ed1-4d01fa4d72e1",
+        "fields": {
+            "uuid": "0464fa66-fd54-49ed-9ed1-4d01fa4d72e1",
+            "name": "Walk Through Gates",
+            "emoji": "",
+            "parent": "2b663920-881d-42a3-a780-e4e262f517d0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ae8487ea-8ecb-4494-8701-430961efeec2",
+        "fields": {
+            "uuid": "ae8487ea-8ecb-4494-8701-430961efeec2",
+            "name": "Baby Monitors",
+            "emoji": "",
+            "parent": "63d8589c-569f-4abf-8b75-fc64af2b3aa7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "95cde04a-0e16-4f0a-9960-8afddd7570a1",
+        "fields": {
+            "uuid": "95cde04a-0e16-4f0a-9960-8afddd7570a1",
+            "name": "Audio & Video Baby Monitors",
+            "emoji": "",
+            "parent": "ae8487ea-8ecb-4494-8701-430961efeec2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8a750347-6558-424d-8d1b-3ea6fe58b258",
+        "fields": {
+            "uuid": "8a750347-6558-424d-8d1b-3ea6fe58b258",
+            "name": "Audio Baby Monitors",
+            "emoji": "",
+            "parent": "ae8487ea-8ecb-4494-8701-430961efeec2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "661c8009-d635-4d03-9d67-40a15d4a3cd8",
+        "fields": {
+            "uuid": "661c8009-d635-4d03-9d67-40a15d4a3cd8",
+            "name": "Video Baby Monitors",
+            "emoji": "",
+            "parent": "ae8487ea-8ecb-4494-8701-430961efeec2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a8ef355e-9eb8-45dd-aa7b-9053744ea40f",
+        "fields": {
+            "uuid": "a8ef355e-9eb8-45dd-aa7b-9053744ea40f",
+            "name": "Baby Safety Harnesses & Leashes",
+            "emoji": "",
+            "parent": "63d8589c-569f-4abf-8b75-fc64af2b3aa7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6b71cdb0-efab-4559-8f82-961e5d3ad058",
+        "fields": {
+            "uuid": "6b71cdb0-efab-4559-8f82-961e5d3ad058",
+            "name": "Harnesses",
+            "emoji": "",
+            "parent": "a8ef355e-9eb8-45dd-aa7b-9053744ea40f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "71dac054-c905-4d4c-9c33-3ffa9a179796",
+        "fields": {
+            "uuid": "71dac054-c905-4d4c-9c33-3ffa9a179796",
+            "name": "Leashes",
+            "emoji": "",
+            "parent": "a8ef355e-9eb8-45dd-aa7b-9053744ea40f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "129b2337-56f3-4ac3-95d6-ab28daa8d1a7",
+        "fields": {
+            "uuid": "129b2337-56f3-4ac3-95d6-ab28daa8d1a7",
+            "name": "Wristbands",
+            "emoji": "",
+            "parent": "a8ef355e-9eb8-45dd-aa7b-9053744ea40f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a561a162-17d6-4de4-a23b-e7706d0f0a14",
+        "fields": {
+            "uuid": "a561a162-17d6-4de4-a23b-e7706d0f0a14",
+            "name": "Baby Safety Locks & Guards",
+            "emoji": "",
+            "parent": "63d8589c-569f-4abf-8b75-fc64af2b3aa7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0e2b273d-34d9-4981-b3c4-d47229d5b5a7",
+        "fields": {
+            "uuid": "0e2b273d-34d9-4981-b3c4-d47229d5b5a7",
+            "name": "Cabinet Locks",
+            "emoji": "",
+            "parent": "a561a162-17d6-4de4-a23b-e7706d0f0a14"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c96e1cb6-a72d-4fc5-bab2-5f2ddbd49c01",
+        "fields": {
+            "uuid": "c96e1cb6-a72d-4fc5-bab2-5f2ddbd49c01",
+            "name": "Corner Guards",
+            "emoji": "",
+            "parent": "a561a162-17d6-4de4-a23b-e7706d0f0a14"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e75e4dd2-1542-43a6-803b-1b44767d8268",
+        "fields": {
+            "uuid": "e75e4dd2-1542-43a6-803b-1b44767d8268",
+            "name": "Door Locks",
+            "emoji": "",
+            "parent": "a561a162-17d6-4de4-a23b-e7706d0f0a14"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "350f60bb-b4a4-410b-8e52-1409b5d33395",
+        "fields": {
+            "uuid": "350f60bb-b4a4-410b-8e52-1409b5d33395",
+            "name": "Drawer Locks",
+            "emoji": "",
+            "parent": "a561a162-17d6-4de4-a23b-e7706d0f0a14"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f799ee6c-b0c5-4559-ab54-952cfcb9ebf3",
+        "fields": {
+            "uuid": "f799ee6c-b0c5-4559-ab54-952cfcb9ebf3",
+            "name": "Outlet Covers",
+            "emoji": "",
+            "parent": "a561a162-17d6-4de4-a23b-e7706d0f0a14"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "db156c83-8b51-4d67-9ed6-73c13d5dd458",
+        "fields": {
+            "uuid": "db156c83-8b51-4d67-9ed6-73c13d5dd458",
+            "name": "Baby Safety Rails",
+            "emoji": "",
+            "parent": "63d8589c-569f-4abf-8b75-fc64af2b3aa7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "78812f2a-29b4-4303-af56-5507b22ad611",
+        "fields": {
+            "uuid": "78812f2a-29b4-4303-af56-5507b22ad611",
+            "name": "Bed Safety Rails",
+            "emoji": "",
+            "parent": "db156c83-8b51-4d67-9ed6-73c13d5dd458"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "310e99b4-eb7e-491c-b7a0-7247edf2b3ad",
+        "fields": {
+            "uuid": "310e99b4-eb7e-491c-b7a0-7247edf2b3ad",
+            "name": "Stair Safety Rails",
+            "emoji": "",
+            "parent": "db156c83-8b51-4d67-9ed6-73c13d5dd458"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4f5153da-9e4a-4eb4-906b-7953a14d0e61",
+        "fields": {
+            "uuid": "4f5153da-9e4a-4eb4-906b-7953a14d0e61",
+            "name": "Baby Toys & Activity Equipment",
+            "emoji": "",
+            "parent": "d30d2c06-55a3-42cf-bfdc-08ffd5088e90"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "07f3e4e3-e0d4-4380-95ff-cf5c8985a523",
+        "fields": {
+            "uuid": "07f3e4e3-e0d4-4380-95ff-cf5c8985a523",
+            "name": "Alphabet Toys",
+            "emoji": "",
+            "parent": "4f5153da-9e4a-4eb4-906b-7953a14d0e61"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bf488ca6-7248-4daf-b308-f1c031826210",
+        "fields": {
+            "uuid": "bf488ca6-7248-4daf-b308-f1c031826210",
+            "name": "Alphabet Blocks",
+            "emoji": "",
+            "parent": "07f3e4e3-e0d4-4380-95ff-cf5c8985a523"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0527afde-ded8-4702-b1f2-42c93b07e1e6",
+        "fields": {
+            "uuid": "0527afde-ded8-4702-b1f2-42c93b07e1e6",
+            "name": "Alphabet Books",
+            "emoji": "",
+            "parent": "07f3e4e3-e0d4-4380-95ff-cf5c8985a523"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "add49e9a-bc2c-4024-99e6-e6501878deb2",
+        "fields": {
+            "uuid": "add49e9a-bc2c-4024-99e6-e6501878deb2",
+            "name": "Alphabet Cards",
+            "emoji": "",
+            "parent": "07f3e4e3-e0d4-4380-95ff-cf5c8985a523"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e9cccd34-119f-4fd7-8834-c844eb5a86f4",
+        "fields": {
+            "uuid": "e9cccd34-119f-4fd7-8834-c844eb5a86f4",
+            "name": "Alphabet Electric Toys",
+            "emoji": "",
+            "parent": "07f3e4e3-e0d4-4380-95ff-cf5c8985a523"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8902bf06-9ff9-4bd5-bd30-d732d207bce6",
+        "fields": {
+            "uuid": "8902bf06-9ff9-4bd5-bd30-d732d207bce6",
+            "name": "Alphabet Puzzles",
+            "emoji": "",
+            "parent": "07f3e4e3-e0d4-4380-95ff-cf5c8985a523"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2c553459-4037-45ef-99b9-e3b46b5eb09f",
+        "fields": {
+            "uuid": "2c553459-4037-45ef-99b9-e3b46b5eb09f",
+            "name": "Baby Activity Toys",
+            "emoji": "",
+            "parent": "4f5153da-9e4a-4eb4-906b-7953a14d0e61"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "abe47571-e23f-4e00-934f-9f5c3f0579e3",
+        "fields": {
+            "uuid": "abe47571-e23f-4e00-934f-9f5c3f0579e3",
+            "name": "Activity Centers",
+            "emoji": "",
+            "parent": "2c553459-4037-45ef-99b9-e3b46b5eb09f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "899a0034-52bb-4f83-bfaa-c8af2df5df67",
+        "fields": {
+            "uuid": "899a0034-52bb-4f83-bfaa-c8af2df5df67",
+            "name": "Musical Toys",
+            "emoji": "",
+            "parent": "2c553459-4037-45ef-99b9-e3b46b5eb09f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c00a17a0-9954-458e-b4bf-bffc48c295c3",
+        "fields": {
+            "uuid": "c00a17a0-9954-458e-b4bf-bffc48c295c3",
+            "name": "Rattles",
+            "emoji": "",
+            "parent": "2c553459-4037-45ef-99b9-e3b46b5eb09f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8b7a432a-1b12-48e7-9ecf-0048ae39c667",
+        "fields": {
+            "uuid": "8b7a432a-1b12-48e7-9ecf-0048ae39c667",
+            "name": "Teething Toys",
+            "emoji": "",
+            "parent": "2c553459-4037-45ef-99b9-e3b46b5eb09f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7b97eec8-4406-4acb-a396-ad0dd8170e7e",
+        "fields": {
+            "uuid": "7b97eec8-4406-4acb-a396-ad0dd8170e7e",
+            "name": "Baby Bouncers & Rockers",
+            "emoji": "",
+            "parent": "4f5153da-9e4a-4eb4-906b-7953a14d0e61"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8b1258e5-02f4-43a3-923d-181222a6672f",
+        "fields": {
+            "uuid": "8b1258e5-02f4-43a3-923d-181222a6672f",
+            "name": "Baby Bouncers",
+            "emoji": "",
+            "parent": "7b97eec8-4406-4acb-a396-ad0dd8170e7e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7984b47a-e4ba-4001-96ee-2f0a159c58b6",
+        "fields": {
+            "uuid": "7984b47a-e4ba-4001-96ee-2f0a159c58b6",
+            "name": "Baby Rockers",
+            "emoji": "",
+            "parent": "7b97eec8-4406-4acb-a396-ad0dd8170e7e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "af37db4d-c0d4-4ad3-b649-99510b8cc984",
+        "fields": {
+            "uuid": "af37db4d-c0d4-4ad3-b649-99510b8cc984",
+            "name": "Baby Jumpers & Swings",
+            "emoji": "",
+            "parent": "4f5153da-9e4a-4eb4-906b-7953a14d0e61"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "26cd9234-10f8-48fe-98e2-96e6ae9d0e17",
+        "fields": {
+            "uuid": "26cd9234-10f8-48fe-98e2-96e6ae9d0e17",
+            "name": "Baby Jumpers",
+            "emoji": "",
+            "parent": "af37db4d-c0d4-4ad3-b649-99510b8cc984"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "21543e8c-1bcd-41a7-9ef1-d8fc1f22adc2",
+        "fields": {
+            "uuid": "21543e8c-1bcd-41a7-9ef1-d8fc1f22adc2",
+            "name": "Baby Swings",
+            "emoji": "",
+            "parent": "af37db4d-c0d4-4ad3-b649-99510b8cc984"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7913cc46-f5c1-4143-9fc5-78963df2a9dc",
+        "fields": {
+            "uuid": "7913cc46-f5c1-4143-9fc5-78963df2a9dc",
+            "name": "Baby Mobile Accessories",
+            "emoji": "",
+            "parent": "4f5153da-9e4a-4eb4-906b-7953a14d0e61"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "50c3a04f-981c-4811-b506-011b05056b66",
+        "fields": {
+            "uuid": "50c3a04f-981c-4811-b506-011b05056b66",
+            "name": "Mobile Arms",
+            "emoji": "",
+            "parent": "7913cc46-f5c1-4143-9fc5-78963df2a9dc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "731f625a-2d35-4b40-ae35-c6a3ebbda002",
+        "fields": {
+            "uuid": "731f625a-2d35-4b40-ae35-c6a3ebbda002",
+            "name": "Mobile Attachments",
+            "emoji": "",
+            "parent": "7913cc46-f5c1-4143-9fc5-78963df2a9dc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b3ad219a-7e1b-415e-837c-a3fb5a086ff7",
+        "fields": {
+            "uuid": "b3ad219a-7e1b-415e-837c-a3fb5a086ff7",
+            "name": "Mobile Holders",
+            "emoji": "",
+            "parent": "7913cc46-f5c1-4143-9fc5-78963df2a9dc"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aaf6fc56-be44-4436-979f-16e4baeb8076",
+        "fields": {
+            "uuid": "aaf6fc56-be44-4436-979f-16e4baeb8076",
+            "name": "Baby Mobiles",
+            "emoji": "",
+            "parent": "4f5153da-9e4a-4eb4-906b-7953a14d0e61"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c2f1bd0f-c573-4af1-aa72-da5d826ad7c7",
+        "fields": {
+            "uuid": "c2f1bd0f-c573-4af1-aa72-da5d826ad7c7",
+            "name": "Ceiling Mobiles",
+            "emoji": "",
+            "parent": "aaf6fc56-be44-4436-979f-16e4baeb8076"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "10e4b4c8-a9cf-4e4f-b84d-221bc742a7a2",
+        "fields": {
+            "uuid": "10e4b4c8-a9cf-4e4f-b84d-221bc742a7a2",
+            "name": "Crib Mobiles",
+            "emoji": "",
+            "parent": "aaf6fc56-be44-4436-979f-16e4baeb8076"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5c90a56c-ee63-4639-a686-30809aaff4e4",
+        "fields": {
+            "uuid": "5c90a56c-ee63-4639-a686-30809aaff4e4",
+            "name": "Stroller Mobiles",
+            "emoji": "",
+            "parent": "aaf6fc56-be44-4436-979f-16e4baeb8076"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4edae7a5-33b5-4470-9706-6e578c0b4fb2",
+        "fields": {
+            "uuid": "4edae7a5-33b5-4470-9706-6e578c0b4fb2",
+            "name": "Baby Soothers",
+            "emoji": "",
+            "parent": "4f5153da-9e4a-4eb4-906b-7953a14d0e61"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bd38be91-7433-4809-bf7c-3abcb675a714",
+        "fields": {
+            "uuid": "bd38be91-7433-4809-bf7c-3abcb675a714",
+            "name": "Night Lights",
+            "emoji": "",
+            "parent": "4edae7a5-33b5-4470-9706-6e578c0b4fb2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1cc1936c-185b-4f1b-8e67-b93a245cf763",
+        "fields": {
+            "uuid": "1cc1936c-185b-4f1b-8e67-b93a245cf763",
+            "name": "Plush Toys",
+            "emoji": "",
+            "parent": "4edae7a5-33b5-4470-9706-6e578c0b4fb2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7f21c460-38c8-45eb-b345-a9ef6bb6047c",
+        "fields": {
+            "uuid": "7f21c460-38c8-45eb-b345-a9ef6bb6047c",
+            "name": "Sound Machines",
+            "emoji": "",
+            "parent": "4edae7a5-33b5-4470-9706-6e578c0b4fb2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4907b0b4-74bc-47dc-95f0-4ca1d824412e",
+        "fields": {
+            "uuid": "4907b0b4-74bc-47dc-95f0-4ca1d824412e",
+            "name": "Baby Walkers & Entertainers",
+            "emoji": "",
+            "parent": "4f5153da-9e4a-4eb4-906b-7953a14d0e61"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f4c13efc-4465-4aa6-9162-5e1163511dad",
+        "fields": {
+            "uuid": "f4c13efc-4465-4aa6-9162-5e1163511dad",
+            "name": "Baby Walkers",
+            "emoji": "",
+            "parent": "4907b0b4-74bc-47dc-95f0-4ca1d824412e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "21a1fe04-6ce6-4649-8f2f-387429dc6b07",
+        "fields": {
+            "uuid": "21a1fe04-6ce6-4649-8f2f-387429dc6b07",
+            "name": "Jumperoos",
+            "emoji": "",
+            "parent": "4907b0b4-74bc-47dc-95f0-4ca1d824412e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4f06489a-83eb-40b7-9a88-c1356046c38a",
+        "fields": {
+            "uuid": "4f06489a-83eb-40b7-9a88-c1356046c38a",
+            "name": "Play Mats & Gyms",
+            "emoji": "",
+            "parent": "4f5153da-9e4a-4eb4-906b-7953a14d0e61"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2aa5b9e3-5450-4aed-9c5d-302363ffd8c2",
+        "fields": {
+            "uuid": "2aa5b9e3-5450-4aed-9c5d-302363ffd8c2",
+            "name": "Play Gyms",
+            "emoji": "",
+            "parent": "4f06489a-83eb-40b7-9a88-c1356046c38a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "405a2bfb-2530-4184-9512-d3892bdc05a8",
+        "fields": {
+            "uuid": "405a2bfb-2530-4184-9512-d3892bdc05a8",
+            "name": "Play Mats",
+            "emoji": "",
+            "parent": "4f06489a-83eb-40b7-9a88-c1356046c38a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1877fdb4-4b54-4dcb-ae53-9ee0d713a1c8",
+        "fields": {
+            "uuid": "1877fdb4-4b54-4dcb-ae53-9ee0d713a1c8",
+            "name": "Play Yards",
+            "emoji": "",
+            "parent": "4f5153da-9e4a-4eb4-906b-7953a14d0e61"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "21a7506c-2f4b-4c58-9247-ddd1d3c5cbc7",
+        "fields": {
+            "uuid": "21a7506c-2f4b-4c58-9247-ddd1d3c5cbc7",
+            "name": "Push & Pull Toys",
+            "emoji": "",
+            "parent": "4f5153da-9e4a-4eb4-906b-7953a14d0e61"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2c191308-53ee-4bf9-b55b-d96b87b63660",
+        "fields": {
+            "uuid": "2c191308-53ee-4bf9-b55b-d96b87b63660",
+            "name": "Sorting & Stacking Toys",
+            "emoji": "",
+            "parent": "4f5153da-9e4a-4eb4-906b-7953a14d0e61"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8ade731c-3b25-418d-b82c-2d2452892bd6",
+        "fields": {
+            "uuid": "8ade731c-3b25-418d-b82c-2d2452892bd6",
+            "name": "Baby Transport",
+            "emoji": "",
+            "parent": "d30d2c06-55a3-42cf-bfdc-08ffd5088e90"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "99053f36-1101-4a8a-9d2c-76d702a0f5ae",
+        "fields": {
+            "uuid": "99053f36-1101-4a8a-9d2c-76d702a0f5ae",
+            "name": "Baby & Toddler Car Seats",
+            "emoji": "",
+            "parent": "8ade731c-3b25-418d-b82c-2d2452892bd6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "784f6f69-a07e-453b-942b-60402c064c89",
+        "fields": {
+            "uuid": "784f6f69-a07e-453b-942b-60402c064c89",
+            "name": "Booster Seats",
+            "emoji": "",
+            "parent": "99053f36-1101-4a8a-9d2c-76d702a0f5ae"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2e254afd-e66b-463e-b313-3cf4ce843ebe",
+        "fields": {
+            "uuid": "2e254afd-e66b-463e-b313-3cf4ce843ebe",
+            "name": "Car Seat Strollers",
+            "emoji": "",
+            "parent": "99053f36-1101-4a8a-9d2c-76d702a0f5ae"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "68183482-3b1f-4532-b04f-07f939ba71e7",
+        "fields": {
+            "uuid": "68183482-3b1f-4532-b04f-07f939ba71e7",
+            "name": "Convertible Car Seats",
+            "emoji": "",
+            "parent": "99053f36-1101-4a8a-9d2c-76d702a0f5ae"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1e6ae68a-e2c4-445d-a67e-dfe90bcc1f49",
+        "fields": {
+            "uuid": "1e6ae68a-e2c4-445d-a67e-dfe90bcc1f49",
+            "name": "Infant Car Seats",
+            "emoji": "",
+            "parent": "99053f36-1101-4a8a-9d2c-76d702a0f5ae"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d847b5e2-b564-45a2-b630-ad5efd66f314",
+        "fields": {
+            "uuid": "d847b5e2-b564-45a2-b630-ad5efd66f314",
+            "name": "Baby Carriers",
+            "emoji": "",
+            "parent": "8ade731c-3b25-418d-b82c-2d2452892bd6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1c05e81f-a90c-4ffc-a6e5-66855af2ac0f",
+        "fields": {
+            "uuid": "1c05e81f-a90c-4ffc-a6e5-66855af2ac0f",
+            "name": "Backpack Carriers",
+            "emoji": "",
+            "parent": "d847b5e2-b564-45a2-b630-ad5efd66f314"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5a513d1b-77e5-499e-bdbc-c393dad6a2fd",
+        "fields": {
+            "uuid": "5a513d1b-77e5-499e-bdbc-c393dad6a2fd",
+            "name": "Mei Tai Carriers",
+            "emoji": "",
+            "parent": "d847b5e2-b564-45a2-b630-ad5efd66f314"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e01a399c-d3fb-4bd1-aaf5-b80d3caa0ca2",
+        "fields": {
+            "uuid": "e01a399c-d3fb-4bd1-aaf5-b80d3caa0ca2",
+            "name": "Ring Slings & Hip Carriers",
+            "emoji": "",
+            "parent": "d847b5e2-b564-45a2-b630-ad5efd66f314"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "644576c4-e492-4ec4-b284-866f606aedda",
+        "fields": {
+            "uuid": "644576c4-e492-4ec4-b284-866f606aedda",
+            "name": "Soft-Structured Carriers",
+            "emoji": "",
+            "parent": "d847b5e2-b564-45a2-b630-ad5efd66f314"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8e91e423-01cf-43bd-bb7d-891a3f638a30",
+        "fields": {
+            "uuid": "8e91e423-01cf-43bd-bb7d-891a3f638a30",
+            "name": "Wrap Carriers",
+            "emoji": "",
+            "parent": "d847b5e2-b564-45a2-b630-ad5efd66f314"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9b8cd090-9890-477e-a861-27991f76a6ce",
+        "fields": {
+            "uuid": "9b8cd090-9890-477e-a861-27991f76a6ce",
+            "name": "Baby Strollers",
+            "emoji": "",
+            "parent": "8ade731c-3b25-418d-b82c-2d2452892bd6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2b028362-3513-4a0d-aef5-970ea45a9c2a",
+        "fields": {
+            "uuid": "2b028362-3513-4a0d-aef5-970ea45a9c2a",
+            "name": "Convertible Strollers",
+            "emoji": "",
+            "parent": "9b8cd090-9890-477e-a861-27991f76a6ce"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a1d85b93-32dd-4794-8f72-8373f342173e",
+        "fields": {
+            "uuid": "a1d85b93-32dd-4794-8f72-8373f342173e",
+            "name": "Double Strollers",
+            "emoji": "",
+            "parent": "9b8cd090-9890-477e-a861-27991f76a6ce"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8dd6608f-f631-441d-a34c-509866e93a11",
+        "fields": {
+            "uuid": "8dd6608f-f631-441d-a34c-509866e93a11",
+            "name": "Full-Sized Strollers",
+            "emoji": "",
+            "parent": "9b8cd090-9890-477e-a861-27991f76a6ce"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6448ae94-64a0-453e-bc84-a1fa0d4c1243",
+        "fields": {
+            "uuid": "6448ae94-64a0-453e-bc84-a1fa0d4c1243",
+            "name": "Jogging Strollers",
+            "emoji": "",
+            "parent": "9b8cd090-9890-477e-a861-27991f76a6ce"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dbfed0f3-b488-4926-bfa7-5b4ab7453949",
+        "fields": {
+            "uuid": "dbfed0f3-b488-4926-bfa7-5b4ab7453949",
+            "name": "Travel Systems",
+            "emoji": "",
+            "parent": "9b8cd090-9890-477e-a861-27991f76a6ce"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5a5c048e-d37a-43e8-a6da-77912b25854b",
+        "fields": {
+            "uuid": "5a5c048e-d37a-43e8-a6da-77912b25854b",
+            "name": "Umbrella Strollers",
+            "emoji": "",
+            "parent": "9b8cd090-9890-477e-a861-27991f76a6ce"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "730f1331-5731-4ef6-803a-25ab7ec61af6",
+        "fields": {
+            "uuid": "730f1331-5731-4ef6-803a-25ab7ec61af6",
+            "name": "Baby Transport Accessories",
+            "emoji": "",
+            "parent": "d30d2c06-55a3-42cf-bfdc-08ffd5088e90"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "32c2c18d-da15-40e5-8581-00e0171ab49f",
+        "fields": {
+            "uuid": "32c2c18d-da15-40e5-8581-00e0171ab49f",
+            "name": "Baby & Toddler Car Seat Accessories",
+            "emoji": "",
+            "parent": "730f1331-5731-4ef6-803a-25ab7ec61af6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cc0cf3a5-81a7-49b9-8e1e-fec2d6704012",
+        "fields": {
+            "uuid": "cc0cf3a5-81a7-49b9-8e1e-fec2d6704012",
+            "name": "Car Seat Canopies",
+            "emoji": "",
+            "parent": "32c2c18d-da15-40e5-8581-00e0171ab49f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e6083ad7-640f-488c-89ef-c23a50993d12",
+        "fields": {
+            "uuid": "e6083ad7-640f-488c-89ef-c23a50993d12",
+            "name": "Car Seat Covers",
+            "emoji": "",
+            "parent": "32c2c18d-da15-40e5-8581-00e0171ab49f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b5c471a0-ddf1-45c5-8cb0-8bfb3f382159",
+        "fields": {
+            "uuid": "b5c471a0-ddf1-45c5-8cb0-8bfb3f382159",
+            "name": "Car Seat Mirrors",
+            "emoji": "",
+            "parent": "32c2c18d-da15-40e5-8581-00e0171ab49f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9335c9c9-53f7-4c6f-a490-a735d24b4c62",
+        "fields": {
+            "uuid": "9335c9c9-53f7-4c6f-a490-a735d24b4c62",
+            "name": "Car Seat Organizers",
+            "emoji": "",
+            "parent": "32c2c18d-da15-40e5-8581-00e0171ab49f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d0259b4f-5fb4-437e-b768-0ef2c6ba596e",
+        "fields": {
+            "uuid": "d0259b4f-5fb4-437e-b768-0ef2c6ba596e",
+            "name": "Car Seat Protectors",
+            "emoji": "",
+            "parent": "32c2c18d-da15-40e5-8581-00e0171ab49f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "63544db5-e1c3-431f-bb0c-8679bf40cc1f",
+        "fields": {
+            "uuid": "63544db5-e1c3-431f-bb0c-8679bf40cc1f",
+            "name": "Car Seat Travel Bags",
+            "emoji": "",
+            "parent": "32c2c18d-da15-40e5-8581-00e0171ab49f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ca4e9c8d-7517-43ff-8e6e-1750cf5c33ca",
+        "fields": {
+            "uuid": "ca4e9c8d-7517-43ff-8e6e-1750cf5c33ca",
+            "name": "Baby Carrier Accessories",
+            "emoji": "",
+            "parent": "730f1331-5731-4ef6-803a-25ab7ec61af6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "172aa096-081c-4199-9fba-f47c27b968da",
+        "fields": {
+            "uuid": "172aa096-081c-4199-9fba-f47c27b968da",
+            "name": "Baby Carrier Bibs",
+            "emoji": "",
+            "parent": "ca4e9c8d-7517-43ff-8e6e-1750cf5c33ca"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4c1464d3-1a02-4f17-be9b-c41e73789569",
+        "fields": {
+            "uuid": "4c1464d3-1a02-4f17-be9b-c41e73789569",
+            "name": "Baby Carrier Covers",
+            "emoji": "",
+            "parent": "ca4e9c8d-7517-43ff-8e6e-1750cf5c33ca"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e8d4e19b-226e-46a6-a132-93964e0f23b3",
+        "fields": {
+            "uuid": "e8d4e19b-226e-46a6-a132-93964e0f23b3",
+            "name": "Baby Carrier Hoods",
+            "emoji": "",
+            "parent": "ca4e9c8d-7517-43ff-8e6e-1750cf5c33ca"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6a404f67-b757-4280-928f-ae10169f1fd1",
+        "fields": {
+            "uuid": "6a404f67-b757-4280-928f-ae10169f1fd1",
+            "name": "Baby Carrier Storage Bags",
+            "emoji": "",
+            "parent": "ca4e9c8d-7517-43ff-8e6e-1750cf5c33ca"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a8256c56-e9c6-4c2d-b6b8-2e80e92fc8a6",
+        "fields": {
+            "uuid": "a8256c56-e9c6-4c2d-b6b8-2e80e92fc8a6",
+            "name": "Baby Carrier Teething Pads",
+            "emoji": "",
+            "parent": "ca4e9c8d-7517-43ff-8e6e-1750cf5c33ca"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9005b150-1a38-422a-ad42-3dd3c5c445d6",
+        "fields": {
+            "uuid": "9005b150-1a38-422a-ad42-3dd3c5c445d6",
+            "name": "Baby Carrier Waistband Extenders",
+            "emoji": "",
+            "parent": "ca4e9c8d-7517-43ff-8e6e-1750cf5c33ca"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "370a95aa-eba0-41a0-a755-23e7a75bf328",
+        "fields": {
+            "uuid": "370a95aa-eba0-41a0-a755-23e7a75bf328",
+            "name": "Baby Stroller Accessories",
+            "emoji": "",
+            "parent": "730f1331-5731-4ef6-803a-25ab7ec61af6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "455777a9-dd2b-4fe7-bb0e-373ba1a0d202",
+        "fields": {
+            "uuid": "455777a9-dd2b-4fe7-bb0e-373ba1a0d202",
+            "name": "Stroller Cup Holders",
+            "emoji": "",
+            "parent": "370a95aa-eba0-41a0-a755-23e7a75bf328"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f728f308-7661-405f-86d9-4fcf4b2f0761",
+        "fields": {
+            "uuid": "f728f308-7661-405f-86d9-4fcf4b2f0761",
+            "name": "Stroller Footmuffs",
+            "emoji": "",
+            "parent": "370a95aa-eba0-41a0-a755-23e7a75bf328"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2c02a9ca-d7c1-428b-8350-f33a46c0353d",
+        "fields": {
+            "uuid": "2c02a9ca-d7c1-428b-8350-f33a46c0353d",
+            "name": "Stroller Hooks",
+            "emoji": "",
+            "parent": "370a95aa-eba0-41a0-a755-23e7a75bf328"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2f49f340-4a76-415c-9d7a-9b5bf0fb7787",
+        "fields": {
+            "uuid": "2f49f340-4a76-415c-9d7a-9b5bf0fb7787",
+            "name": "Stroller Organizers",
+            "emoji": "",
+            "parent": "370a95aa-eba0-41a0-a755-23e7a75bf328"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1ac5e3ae-3022-48b2-acb6-2b1f85221d9f",
+        "fields": {
+            "uuid": "1ac5e3ae-3022-48b2-acb6-2b1f85221d9f",
+            "name": "Stroller Rain Covers",
+            "emoji": "",
+            "parent": "370a95aa-eba0-41a0-a755-23e7a75bf328"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8eced0f8-36b3-4ee3-a2ea-8baa7ff745d5",
+        "fields": {
+            "uuid": "8eced0f8-36b3-4ee3-a2ea-8baa7ff745d5",
+            "name": "Stroller Sunshades",
+            "emoji": "",
+            "parent": "370a95aa-eba0-41a0-a755-23e7a75bf328"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ff3c09c2-7159-46ca-935f-1082e32fcb64",
+        "fields": {
+            "uuid": "ff3c09c2-7159-46ca-935f-1082e32fcb64",
+            "name": "Stroller Travel Bags",
+            "emoji": "",
+            "parent": "370a95aa-eba0-41a0-a755-23e7a75bf328"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d75d95b1-1bd7-4197-a7ff-55f492d6139c",
+        "fields": {
+            "uuid": "d75d95b1-1bd7-4197-a7ff-55f492d6139c",
+            "name": "Baby Transport Liners & Sacks",
+            "emoji": "",
+            "parent": "730f1331-5731-4ef6-803a-25ab7ec61af6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "41619851-47c0-4aea-84c9-f598fad58a30",
+        "fields": {
+            "uuid": "41619851-47c0-4aea-84c9-f598fad58a30",
+            "name": "Shopping Cart & High Chair Covers",
+            "emoji": "",
+            "parent": "730f1331-5731-4ef6-803a-25ab7ec61af6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7707d559-da72-4514-9e20-ddf7acc36e0b",
+        "fields": {
+            "uuid": "7707d559-da72-4514-9e20-ddf7acc36e0b",
+            "name": "Baby Transport Replacement Parts",
+            "emoji": "",
+            "parent": "d30d2c06-55a3-42cf-bfdc-08ffd5088e90"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6aca7449-b573-4883-b0c8-236dd949a4c5",
+        "fields": {
+            "uuid": "6aca7449-b573-4883-b0c8-236dd949a4c5",
+            "name": "Diapering",
+            "emoji": "",
+            "parent": "d30d2c06-55a3-42cf-bfdc-08ffd5088e90"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "91387259-c408-4583-8be6-2dd4bbb2ad57",
+        "fields": {
+            "uuid": "91387259-c408-4583-8be6-2dd4bbb2ad57",
+            "name": "Baby Wipe Dispensers & Warmers",
+            "emoji": "",
+            "parent": "6aca7449-b573-4883-b0c8-236dd949a4c5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7cb38b84-bce8-4afb-8918-415825e0bdfc",
+        "fields": {
+            "uuid": "7cb38b84-bce8-4afb-8918-415825e0bdfc",
+            "name": "Baby Wipe Dispensers",
+            "emoji": "",
+            "parent": "91387259-c408-4583-8be6-2dd4bbb2ad57"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "317cb98d-2e94-49b4-b858-7387bc307c26",
+        "fields": {
+            "uuid": "317cb98d-2e94-49b4-b858-7387bc307c26",
+            "name": "Baby Wipe Warmers",
+            "emoji": "",
+            "parent": "91387259-c408-4583-8be6-2dd4bbb2ad57"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "af87c527-40c9-413f-b6e2-421637c81eeb",
+        "fields": {
+            "uuid": "af87c527-40c9-413f-b6e2-421637c81eeb",
+            "name": "Portable Wipe Dispensers",
+            "emoji": "",
+            "parent": "91387259-c408-4583-8be6-2dd4bbb2ad57"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e9b5d92f-d9f1-4c39-84e0-4fd58ff68aba",
+        "fields": {
+            "uuid": "e9b5d92f-d9f1-4c39-84e0-4fd58ff68aba",
+            "name": "Baby Wipes",
+            "emoji": "",
+            "parent": "6aca7449-b573-4883-b0c8-236dd949a4c5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5beaf12e-d82f-406d-84de-879afc535a8a",
+        "fields": {
+            "uuid": "5beaf12e-d82f-406d-84de-879afc535a8a",
+            "name": "Cloth Baby Wipes",
+            "emoji": "",
+            "parent": "e9b5d92f-d9f1-4c39-84e0-4fd58ff68aba"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "28626e01-06b6-4897-932f-fd9d38994154",
+        "fields": {
+            "uuid": "28626e01-06b6-4897-932f-fd9d38994154",
+            "name": "Disposable Baby Wipes",
+            "emoji": "",
+            "parent": "e9b5d92f-d9f1-4c39-84e0-4fd58ff68aba"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6ddc36de-6bf2-44c8-bfee-ecbf84d418fd",
+        "fields": {
+            "uuid": "6ddc36de-6bf2-44c8-bfee-ecbf84d418fd",
+            "name": "Flushable Baby Wipes",
+            "emoji": "",
+            "parent": "e9b5d92f-d9f1-4c39-84e0-4fd58ff68aba"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7c856e28-48d1-4964-91ad-2d9544efad9b",
+        "fields": {
+            "uuid": "7c856e28-48d1-4964-91ad-2d9544efad9b",
+            "name": "Changing Mat & Tray Covers",
+            "emoji": "",
+            "parent": "6aca7449-b573-4883-b0c8-236dd949a4c5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9450d3fe-b4c4-4f74-ad42-eb9e7932990d",
+        "fields": {
+            "uuid": "9450d3fe-b4c4-4f74-ad42-eb9e7932990d",
+            "name": "Changing Mat Covers",
+            "emoji": "",
+            "parent": "7c856e28-48d1-4964-91ad-2d9544efad9b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "583733df-4ca8-4df9-8e4c-33b167ca2fe9",
+        "fields": {
+            "uuid": "583733df-4ca8-4df9-8e4c-33b167ca2fe9",
+            "name": "Changing Tray Covers",
+            "emoji": "",
+            "parent": "7c856e28-48d1-4964-91ad-2d9544efad9b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "76d15ef3-3ffb-4205-bb15-68446c36a594",
+        "fields": {
+            "uuid": "76d15ef3-3ffb-4205-bb15-68446c36a594",
+            "name": "Diaper Changing Pad Covers",
+            "emoji": "",
+            "parent": "7c856e28-48d1-4964-91ad-2d9544efad9b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7e9a3846-9686-4f4c-ae87-b088cb96bf73",
+        "fields": {
+            "uuid": "7e9a3846-9686-4f4c-ae87-b088cb96bf73",
+            "name": "Changing Mats & Trays",
+            "emoji": "",
+            "parent": "6aca7449-b573-4883-b0c8-236dd949a4c5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "44f0c6ed-9113-4696-b040-2087a6760ac7",
+        "fields": {
+            "uuid": "44f0c6ed-9113-4696-b040-2087a6760ac7",
+            "name": "Changing Mats",
+            "emoji": "",
+            "parent": "7e9a3846-9686-4f4c-ae87-b088cb96bf73"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ef213d91-e5f2-4758-b901-df3fe4358808",
+        "fields": {
+            "uuid": "ef213d91-e5f2-4758-b901-df3fe4358808",
+            "name": "Changing Trays",
+            "emoji": "",
+            "parent": "7e9a3846-9686-4f4c-ae87-b088cb96bf73"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ba2c6d1f-f964-48a7-a08a-7c149cf97a4c",
+        "fields": {
+            "uuid": "ba2c6d1f-f964-48a7-a08a-7c149cf97a4c",
+            "name": "Diaper Changing Pads",
+            "emoji": "",
+            "parent": "7e9a3846-9686-4f4c-ae87-b088cb96bf73"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f3c0e202-efa9-4829-8917-5acde5a6bce2",
+        "fields": {
+            "uuid": "f3c0e202-efa9-4829-8917-5acde5a6bce2",
+            "name": "Diaper Kits",
+            "emoji": "",
+            "parent": "6aca7449-b573-4883-b0c8-236dd949a4c5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9d8f580b-23ad-4dae-9659-32c44b738e0f",
+        "fields": {
+            "uuid": "9d8f580b-23ad-4dae-9659-32c44b738e0f",
+            "name": "Diaper Bag Kits",
+            "emoji": "",
+            "parent": "f3c0e202-efa9-4829-8917-5acde5a6bce2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bb11f0ad-6150-4c75-a8d4-e13569ab204e",
+        "fields": {
+            "uuid": "bb11f0ad-6150-4c75-a8d4-e13569ab204e",
+            "name": "Diaper Changing Kits",
+            "emoji": "",
+            "parent": "f3c0e202-efa9-4829-8917-5acde5a6bce2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6b059940-3b43-487b-a5da-05fcc3ee5bc2",
+        "fields": {
+            "uuid": "6b059940-3b43-487b-a5da-05fcc3ee5bc2",
+            "name": "Travel Diaper Kits",
+            "emoji": "",
+            "parent": "f3c0e202-efa9-4829-8917-5acde5a6bce2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "07abb554-8928-4093-9593-6cd96275222b",
+        "fields": {
+            "uuid": "07abb554-8928-4093-9593-6cd96275222b",
+            "name": "Diaper Liners",
+            "emoji": "",
+            "parent": "6aca7449-b573-4883-b0c8-236dd949a4c5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "eda0c652-9d93-4f07-9f61-b4735c485156",
+        "fields": {
+            "uuid": "eda0c652-9d93-4f07-9f61-b4735c485156",
+            "name": "Cloth Diaper Liners",
+            "emoji": "",
+            "parent": "07abb554-8928-4093-9593-6cd96275222b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4657168a-73b6-4bad-bc1f-f2acc9e726f3",
+        "fields": {
+            "uuid": "4657168a-73b6-4bad-bc1f-f2acc9e726f3",
+            "name": "Disposable Diaper Liners",
+            "emoji": "",
+            "parent": "07abb554-8928-4093-9593-6cd96275222b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2b220b5d-8f09-47a5-8e9c-a8571e877468",
+        "fields": {
+            "uuid": "2b220b5d-8f09-47a5-8e9c-a8571e877468",
+            "name": "Flushable Diaper Liners",
+            "emoji": "",
+            "parent": "07abb554-8928-4093-9593-6cd96275222b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6f976dc6-6c31-4dfe-9496-f14e0cabb8c2",
+        "fields": {
+            "uuid": "6f976dc6-6c31-4dfe-9496-f14e0cabb8c2",
+            "name": "Diaper Organizers",
+            "emoji": "",
+            "parent": "6aca7449-b573-4883-b0c8-236dd949a4c5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "41ab6933-5476-4209-9018-277147fed435",
+        "fields": {
+            "uuid": "41ab6933-5476-4209-9018-277147fed435",
+            "name": "Diaper Bag Organizers",
+            "emoji": "",
+            "parent": "6f976dc6-6c31-4dfe-9496-f14e0cabb8c2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9a125830-82c6-47ee-b5e3-695f8e84d08f",
+        "fields": {
+            "uuid": "9a125830-82c6-47ee-b5e3-695f8e84d08f",
+            "name": "Diaper Caddies",
+            "emoji": "",
+            "parent": "6f976dc6-6c31-4dfe-9496-f14e0cabb8c2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5ad336b0-2650-411a-8e30-6caf12283ac5",
+        "fields": {
+            "uuid": "5ad336b0-2650-411a-8e30-6caf12283ac5",
+            "name": "Diaper Stackers",
+            "emoji": "",
+            "parent": "6f976dc6-6c31-4dfe-9496-f14e0cabb8c2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5411f19a-36b8-4672-97b4-586919c2e569",
+        "fields": {
+            "uuid": "5411f19a-36b8-4672-97b4-586919c2e569",
+            "name": "Hanging Diaper Organizers",
+            "emoji": "",
+            "parent": "6f976dc6-6c31-4dfe-9496-f14e0cabb8c2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "55f7bda1-039e-4370-8491-aa2838b0da9e",
+        "fields": {
+            "uuid": "55f7bda1-039e-4370-8491-aa2838b0da9e",
+            "name": "Diaper Pail Accessories",
+            "emoji": "",
+            "parent": "6aca7449-b573-4883-b0c8-236dd949a4c5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ef6f6947-ee42-4bfb-9bca-721442c48ccc",
+        "fields": {
+            "uuid": "ef6f6947-ee42-4bfb-9bca-721442c48ccc",
+            "name": "Diaper Pail Bags",
+            "emoji": "",
+            "parent": "55f7bda1-039e-4370-8491-aa2838b0da9e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dd3e4889-77b3-4072-888a-f574cfbbb06f",
+        "fields": {
+            "uuid": "dd3e4889-77b3-4072-888a-f574cfbbb06f",
+            "name": "Diaper Pail Deodorizers",
+            "emoji": "",
+            "parent": "55f7bda1-039e-4370-8491-aa2838b0da9e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e970c427-2365-4ac1-81af-5e35adc486ce",
+        "fields": {
+            "uuid": "e970c427-2365-4ac1-81af-5e35adc486ce",
+            "name": "Diaper Pail Liners",
+            "emoji": "",
+            "parent": "55f7bda1-039e-4370-8491-aa2838b0da9e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fc7d9546-f9e8-41ca-9b01-7d41dde857f8",
+        "fields": {
+            "uuid": "fc7d9546-f9e8-41ca-9b01-7d41dde857f8",
+            "name": "Diaper Pail Refills",
+            "emoji": "",
+            "parent": "55f7bda1-039e-4370-8491-aa2838b0da9e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ac8ebe2f-5104-46f6-b3e3-019058cfe344",
+        "fields": {
+            "uuid": "ac8ebe2f-5104-46f6-b3e3-019058cfe344",
+            "name": "Diaper Pails",
+            "emoji": "",
+            "parent": "6aca7449-b573-4883-b0c8-236dd949a4c5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8f17e271-aade-4a96-a518-21aa86a0fd48",
+        "fields": {
+            "uuid": "8f17e271-aade-4a96-a518-21aa86a0fd48",
+            "name": "Diaper Disposal Systems",
+            "emoji": "",
+            "parent": "ac8ebe2f-5104-46f6-b3e3-019058cfe344"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b28352cd-c1a1-46d5-9112-4de9464f4b48",
+        "fields": {
+            "uuid": "b28352cd-c1a1-46d5-9112-4de9464f4b48",
+            "name": "Diaper Trash Cans",
+            "emoji": "",
+            "parent": "ac8ebe2f-5104-46f6-b3e3-019058cfe344"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "097ddaf0-d4a5-4e78-b478-fc0476c0deaf",
+        "fields": {
+            "uuid": "097ddaf0-d4a5-4e78-b478-fc0476c0deaf",
+            "name": "Diaper Rash Treatments",
+            "emoji": "",
+            "parent": "6aca7449-b573-4883-b0c8-236dd949a4c5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "65c82fe4-4e2f-4094-969e-347739ffeaee",
+        "fields": {
+            "uuid": "65c82fe4-4e2f-4094-969e-347739ffeaee",
+            "name": "Diaper Rash Creams",
+            "emoji": "",
+            "parent": "097ddaf0-d4a5-4e78-b478-fc0476c0deaf"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0a3e557f-fed5-4b88-af77-a592ab38a3f4",
+        "fields": {
+            "uuid": "0a3e557f-fed5-4b88-af77-a592ab38a3f4",
+            "name": "Diaper Rash Lotions",
+            "emoji": "",
+            "parent": "097ddaf0-d4a5-4e78-b478-fc0476c0deaf"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3def7a3c-3817-4012-9b31-00a2f1fe026d",
+        "fields": {
+            "uuid": "3def7a3c-3817-4012-9b31-00a2f1fe026d",
+            "name": "Diaper Rash Ointments",
+            "emoji": "",
+            "parent": "097ddaf0-d4a5-4e78-b478-fc0476c0deaf"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "866eebd9-97f7-4725-9da3-531afad154ca",
+        "fields": {
+            "uuid": "866eebd9-97f7-4725-9da3-531afad154ca",
+            "name": "Diaper Rash Powder",
+            "emoji": "",
+            "parent": "097ddaf0-d4a5-4e78-b478-fc0476c0deaf"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dd44cb32-8185-4003-9dd9-f02bf03e3725",
+        "fields": {
+            "uuid": "dd44cb32-8185-4003-9dd9-f02bf03e3725",
+            "name": "Diaper Wet Bags",
+            "emoji": "",
+            "parent": "6aca7449-b573-4883-b0c8-236dd949a4c5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "831094e7-76b3-4ab9-9f9c-830ddb307b7b",
+        "fields": {
+            "uuid": "831094e7-76b3-4ab9-9f9c-830ddb307b7b",
+            "name": "Hanging Diaper Wet Bags",
+            "emoji": "",
+            "parent": "dd44cb32-8185-4003-9dd9-f02bf03e3725"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0c9fe8f9-9540-444e-aabe-7ed006a3c7fc",
+        "fields": {
+            "uuid": "0c9fe8f9-9540-444e-aabe-7ed006a3c7fc",
+            "name": "Wet Dry Diaper Bags",
+            "emoji": "",
+            "parent": "dd44cb32-8185-4003-9dd9-f02bf03e3725"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4abbb562-0b1b-4a41-8a4f-a200777d4654",
+        "fields": {
+            "uuid": "4abbb562-0b1b-4a41-8a4f-a200777d4654",
+            "name": "Diapers",
+            "emoji": "",
+            "parent": "6aca7449-b573-4883-b0c8-236dd949a4c5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "eaf06cbf-43f7-45c8-a5a1-ef0cca0b6612",
+        "fields": {
+            "uuid": "eaf06cbf-43f7-45c8-a5a1-ef0cca0b6612",
+            "name": "Cloth Diapers",
+            "emoji": "",
+            "parent": "4abbb562-0b1b-4a41-8a4f-a200777d4654"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3162219e-a5d8-4b4a-9a55-23ad57e786cc",
+        "fields": {
+            "uuid": "3162219e-a5d8-4b4a-9a55-23ad57e786cc",
+            "name": "Disposable Diapers",
+            "emoji": "",
+            "parent": "4abbb562-0b1b-4a41-8a4f-a200777d4654"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "300c27fc-d368-4952-a71c-7b3526829ed3",
+        "fields": {
+            "uuid": "300c27fc-d368-4952-a71c-7b3526829ed3",
+            "name": "Overnight Diapers",
+            "emoji": "",
+            "parent": "4abbb562-0b1b-4a41-8a4f-a200777d4654"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2f61d7ae-a4bd-4a93-946c-4d0a3ff0591a",
+        "fields": {
+            "uuid": "2f61d7ae-a4bd-4a93-946c-4d0a3ff0591a",
+            "name": "Pull-Up Diapers",
+            "emoji": "",
+            "parent": "4abbb562-0b1b-4a41-8a4f-a200777d4654"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cc53969b-1d5e-4547-ad44-888c48e8dd02",
+        "fields": {
+            "uuid": "cc53969b-1d5e-4547-ad44-888c48e8dd02",
+            "name": "Swim Diapers",
+            "emoji": "",
+            "parent": "4abbb562-0b1b-4a41-8a4f-a200777d4654"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5d7abdd5-a4cc-4370-9e7b-b533ed960522",
+        "fields": {
+            "uuid": "5d7abdd5-a4cc-4370-9e7b-b533ed960522",
+            "name": "Nursing & Feeding",
+            "emoji": "",
+            "parent": "d30d2c06-55a3-42cf-bfdc-08ffd5088e90"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aecc4c42-86e1-4cda-9ec7-26dc8b8864d1",
+        "fields": {
+            "uuid": "aecc4c42-86e1-4cda-9ec7-26dc8b8864d1",
+            "name": "Baby & Toddler Food",
+            "emoji": "",
+            "parent": "5d7abdd5-a4cc-4370-9e7b-b533ed960522"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b8b43d2c-c012-4697-aa35-31390dc566fc",
+        "fields": {
+            "uuid": "b8b43d2c-c012-4697-aa35-31390dc566fc",
+            "name": "Baby Cereals",
+            "emoji": "",
+            "parent": "aecc4c42-86e1-4cda-9ec7-26dc8b8864d1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b9270c58-cbf5-43c1-844e-5eb6e79abbe5",
+        "fields": {
+            "uuid": "b9270c58-cbf5-43c1-844e-5eb6e79abbe5",
+            "name": "Baby Drinks",
+            "emoji": "",
+            "parent": "aecc4c42-86e1-4cda-9ec7-26dc8b8864d1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3a124754-9a02-40a0-9732-6eb8596c14e2",
+        "fields": {
+            "uuid": "3a124754-9a02-40a0-9732-6eb8596c14e2",
+            "name": "Concentrated Drinks",
+            "emoji": "",
+            "parent": "b9270c58-cbf5-43c1-844e-5eb6e79abbe5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "765cf116-6ef0-40cc-ac5e-d2b8e8f5ea3d",
+        "fields": {
+            "uuid": "765cf116-6ef0-40cc-ac5e-d2b8e8f5ea3d",
+            "name": "Powdered Drinks",
+            "emoji": "",
+            "parent": "b9270c58-cbf5-43c1-844e-5eb6e79abbe5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "918c3192-0049-4bed-9402-d747345bbb95",
+        "fields": {
+            "uuid": "918c3192-0049-4bed-9402-d747345bbb95",
+            "name": "Baby Food",
+            "emoji": "",
+            "parent": "aecc4c42-86e1-4cda-9ec7-26dc8b8864d1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ff2dd2ee-fb3d-4357-a2f6-8fedbe8dee0f",
+        "fields": {
+            "uuid": "ff2dd2ee-fb3d-4357-a2f6-8fedbe8dee0f",
+            "name": "Baby Formula",
+            "emoji": "",
+            "parent": "aecc4c42-86e1-4cda-9ec7-26dc8b8864d1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4ed45ad9-6520-465b-978d-5f894d667e17",
+        "fields": {
+            "uuid": "4ed45ad9-6520-465b-978d-5f894d667e17",
+            "name": "Dairy Formula",
+            "emoji": "",
+            "parent": "ff2dd2ee-fb3d-4357-a2f6-8fedbe8dee0f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d31f3db0-e8b7-4b0c-b961-e0da6ae1eabb",
+        "fields": {
+            "uuid": "d31f3db0-e8b7-4b0c-b961-e0da6ae1eabb",
+            "name": "Hypoallergenic Formula",
+            "emoji": "",
+            "parent": "ff2dd2ee-fb3d-4357-a2f6-8fedbe8dee0f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f08006b5-4237-4950-81da-d4cc2f751d07",
+        "fields": {
+            "uuid": "f08006b5-4237-4950-81da-d4cc2f751d07",
+            "name": "Lactose-Free Formula",
+            "emoji": "",
+            "parent": "ff2dd2ee-fb3d-4357-a2f6-8fedbe8dee0f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "29d19f78-2e4c-4bf2-8134-8d31a48731c9",
+        "fields": {
+            "uuid": "29d19f78-2e4c-4bf2-8134-8d31a48731c9",
+            "name": "Soy Formula",
+            "emoji": "",
+            "parent": "ff2dd2ee-fb3d-4357-a2f6-8fedbe8dee0f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3de071b3-35ac-4680-a8ed-3873475ce64b",
+        "fields": {
+            "uuid": "3de071b3-35ac-4680-a8ed-3873475ce64b",
+            "name": "Baby Snacks",
+            "emoji": "",
+            "parent": "aecc4c42-86e1-4cda-9ec7-26dc8b8864d1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ab8c9cf3-0a94-4666-b8ab-26744ca1ac44",
+        "fields": {
+            "uuid": "ab8c9cf3-0a94-4666-b8ab-26744ca1ac44",
+            "name": "Toddler Nutrition Drinks & Shakes",
+            "emoji": "",
+            "parent": "aecc4c42-86e1-4cda-9ec7-26dc8b8864d1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0430fbac-2330-451b-a0b7-dda90d2c0782",
+        "fields": {
+            "uuid": "0430fbac-2330-451b-a0b7-dda90d2c0782",
+            "name": "Baby Bottle Nipples & Liners",
+            "emoji": "",
+            "parent": "5d7abdd5-a4cc-4370-9e7b-b533ed960522"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "96f7bbee-df8d-498c-be07-4db106908f2e",
+        "fields": {
+            "uuid": "96f7bbee-df8d-498c-be07-4db106908f2e",
+            "name": "Baby Bottle Liners",
+            "emoji": "",
+            "parent": "0430fbac-2330-451b-a0b7-dda90d2c0782"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f97bb2f4-5e3a-4b99-bb00-755925e45492",
+        "fields": {
+            "uuid": "f97bb2f4-5e3a-4b99-bb00-755925e45492",
+            "name": "Baby Bottle Nipples",
+            "emoji": "",
+            "parent": "0430fbac-2330-451b-a0b7-dda90d2c0782"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bef32b67-2d3c-437c-b94b-e0fc0fa08e17",
+        "fields": {
+            "uuid": "bef32b67-2d3c-437c-b94b-e0fc0fa08e17",
+            "name": "Orthodontic Nipples",
+            "emoji": "",
+            "parent": "f97bb2f4-5e3a-4b99-bb00-755925e45492"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ebcd413f-38c5-480a-a39a-f272e555756e",
+        "fields": {
+            "uuid": "ebcd413f-38c5-480a-a39a-f272e555756e",
+            "name": "Standard Nipples",
+            "emoji": "",
+            "parent": "f97bb2f4-5e3a-4b99-bb00-755925e45492"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e47f7b54-b138-45f0-ae38-ad3545a86132",
+        "fields": {
+            "uuid": "e47f7b54-b138-45f0-ae38-ad3545a86132",
+            "name": "Wide Neck Nipples",
+            "emoji": "",
+            "parent": "f97bb2f4-5e3a-4b99-bb00-755925e45492"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "603693cb-0320-4bdc-985b-dbd9d5005a5e",
+        "fields": {
+            "uuid": "603693cb-0320-4bdc-985b-dbd9d5005a5e",
+            "name": "Baby Bottles",
+            "emoji": "",
+            "parent": "5d7abdd5-a4cc-4370-9e7b-b533ed960522"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c9b308d0-02f1-44d8-a859-deea246a0914",
+        "fields": {
+            "uuid": "c9b308d0-02f1-44d8-a859-deea246a0914",
+            "name": "Anti Colic Bottles",
+            "emoji": "",
+            "parent": "603693cb-0320-4bdc-985b-dbd9d5005a5e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f3062e41-6aa9-4e5e-8b9f-9d2f083ed833",
+        "fields": {
+            "uuid": "f3062e41-6aa9-4e5e-8b9f-9d2f083ed833",
+            "name": "Standard Bottles",
+            "emoji": "",
+            "parent": "603693cb-0320-4bdc-985b-dbd9d5005a5e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b712f1a4-2774-4e4a-af1b-fbb2bb070471",
+        "fields": {
+            "uuid": "b712f1a4-2774-4e4a-af1b-fbb2bb070471",
+            "name": "Wide Neck Bottles",
+            "emoji": "",
+            "parent": "603693cb-0320-4bdc-985b-dbd9d5005a5e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f4c6ff57-656c-4fa3-99f3-3204b38fe0a2",
+        "fields": {
+            "uuid": "f4c6ff57-656c-4fa3-99f3-3204b38fe0a2",
+            "name": "Baby Care Timers",
+            "emoji": "",
+            "parent": "5d7abdd5-a4cc-4370-9e7b-b533ed960522"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a7e8dcad-dc45-40db-a979-9697f9d120a5",
+        "fields": {
+            "uuid": "a7e8dcad-dc45-40db-a979-9697f9d120a5",
+            "name": "Analog Timers",
+            "emoji": "",
+            "parent": "f4c6ff57-656c-4fa3-99f3-3204b38fe0a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5c07b14b-c3e1-4294-8641-ffb2fc53d3cc",
+        "fields": {
+            "uuid": "5c07b14b-c3e1-4294-8641-ffb2fc53d3cc",
+            "name": "Digital Timers",
+            "emoji": "",
+            "parent": "f4c6ff57-656c-4fa3-99f3-3204b38fe0a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "07901384-2572-4370-8c84-b581f6c743ef",
+        "fields": {
+            "uuid": "07901384-2572-4370-8c84-b581f6c743ef",
+            "name": "Bibs",
+            "emoji": "",
+            "parent": "5d7abdd5-a4cc-4370-9e7b-b533ed960522"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ab076ff4-fff7-4c50-a0f0-08247298753f",
+        "fields": {
+            "uuid": "ab076ff4-fff7-4c50-a0f0-08247298753f",
+            "name": "Bottle Warmers & Sterilizers",
+            "emoji": "",
+            "parent": "5d7abdd5-a4cc-4370-9e7b-b533ed960522"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "78aa7d6b-464f-465e-bfeb-bb26367da283",
+        "fields": {
+            "uuid": "78aa7d6b-464f-465e-bfeb-bb26367da283",
+            "name": "Bottle Warmers",
+            "emoji": "",
+            "parent": "ab076ff4-fff7-4c50-a0f0-08247298753f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "809b3066-249c-437d-826d-5de13f7d601e",
+        "fields": {
+            "uuid": "809b3066-249c-437d-826d-5de13f7d601e",
+            "name": "Electric Bottle Warmers",
+            "emoji": "",
+            "parent": "78aa7d6b-464f-465e-bfeb-bb26367da283"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b77105d2-c70f-4de0-8724-1a7fbeda73d0",
+        "fields": {
+            "uuid": "b77105d2-c70f-4de0-8724-1a7fbeda73d0",
+            "name": "Portable Bottle Warmers",
+            "emoji": "",
+            "parent": "78aa7d6b-464f-465e-bfeb-bb26367da283"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bdb0e7ca-a423-43e1-b300-91b8b91bfdd1",
+        "fields": {
+            "uuid": "bdb0e7ca-a423-43e1-b300-91b8b91bfdd1",
+            "name": "Sterilizers",
+            "emoji": "",
+            "parent": "ab076ff4-fff7-4c50-a0f0-08247298753f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1d33a0d0-66e6-4691-bc1a-22a4784b6bd7",
+        "fields": {
+            "uuid": "1d33a0d0-66e6-4691-bc1a-22a4784b6bd7",
+            "name": "Electric Steam Sterilizers",
+            "emoji": "",
+            "parent": "bdb0e7ca-a423-43e1-b300-91b8b91bfdd1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d518112a-1b4d-4e95-9ff7-1ebb1d179797",
+        "fields": {
+            "uuid": "d518112a-1b4d-4e95-9ff7-1ebb1d179797",
+            "name": "Microwave Sterilizers",
+            "emoji": "",
+            "parent": "bdb0e7ca-a423-43e1-b300-91b8b91bfdd1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f6887780-cf07-4a10-971d-9ca0121c4fa5",
+        "fields": {
+            "uuid": "f6887780-cf07-4a10-971d-9ca0121c4fa5",
+            "name": "UV Sterilizers",
+            "emoji": "",
+            "parent": "bdb0e7ca-a423-43e1-b300-91b8b91bfdd1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f389ec94-7b7a-434d-b6dd-43271c51541f",
+        "fields": {
+            "uuid": "f389ec94-7b7a-434d-b6dd-43271c51541f",
+            "name": "Breast Milk Storage Containers",
+            "emoji": "",
+            "parent": "5d7abdd5-a4cc-4370-9e7b-b533ed960522"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ab3166fc-ee1d-40c5-991a-8816bee7a370",
+        "fields": {
+            "uuid": "ab3166fc-ee1d-40c5-991a-8816bee7a370",
+            "name": "Breast Pump Accessories",
+            "emoji": "",
+            "parent": "5d7abdd5-a4cc-4370-9e7b-b533ed960522"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5c351324-6124-4d08-abfb-66fa789aac68",
+        "fields": {
+            "uuid": "5c351324-6124-4d08-abfb-66fa789aac68",
+            "name": "Carrying Bags & Totes",
+            "emoji": "",
+            "parent": "ab3166fc-ee1d-40c5-991a-8816bee7a370"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "96654d82-fb2e-4bf4-9e54-f1fe049e5ab0",
+        "fields": {
+            "uuid": "96654d82-fb2e-4bf4-9e54-f1fe049e5ab0",
+            "name": "Cleaning Brushes & Wipes",
+            "emoji": "",
+            "parent": "ab3166fc-ee1d-40c5-991a-8816bee7a370"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "73ef9650-fead-4451-ac9e-99df1cc398db",
+        "fields": {
+            "uuid": "73ef9650-fead-4451-ac9e-99df1cc398db",
+            "name": "Connectors & Adapters",
+            "emoji": "",
+            "parent": "ab3166fc-ee1d-40c5-991a-8816bee7a370"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "27a8626f-7989-4763-b1e2-08f68a5693d6",
+        "fields": {
+            "uuid": "27a8626f-7989-4763-b1e2-08f68a5693d6",
+            "name": "Hands Free Pumping Bras",
+            "emoji": "",
+            "parent": "ab3166fc-ee1d-40c5-991a-8816bee7a370"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "601d494a-7b90-4805-8059-c671e9c8f157",
+        "fields": {
+            "uuid": "601d494a-7b90-4805-8059-c671e9c8f157",
+            "name": "Tubing",
+            "emoji": "",
+            "parent": "ab3166fc-ee1d-40c5-991a-8816bee7a370"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fa1fe396-a197-48b0-8f45-99e75b3f4e90",
+        "fields": {
+            "uuid": "fa1fe396-a197-48b0-8f45-99e75b3f4e90",
+            "name": "Valves & Membranes",
+            "emoji": "",
+            "parent": "ab3166fc-ee1d-40c5-991a-8816bee7a370"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fe9e1a6d-e624-4bf5-8c12-f04f5aea98f8",
+        "fields": {
+            "uuid": "fe9e1a6d-e624-4bf5-8c12-f04f5aea98f8",
+            "name": "Breast Pumps",
+            "emoji": "",
+            "parent": "5d7abdd5-a4cc-4370-9e7b-b533ed960522"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0fd151e5-c066-468a-9a25-99eaf05a0d8f",
+        "fields": {
+            "uuid": "0fd151e5-c066-468a-9a25-99eaf05a0d8f",
+            "name": "Double Electric Breast Pumps",
+            "emoji": "",
+            "parent": "fe9e1a6d-e624-4bf5-8c12-f04f5aea98f8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ce5d0bf9-5886-4e57-aab7-1c27c56114cd",
+        "fields": {
+            "uuid": "ce5d0bf9-5886-4e57-aab7-1c27c56114cd",
+            "name": "Electric Breast Pumps",
+            "emoji": "",
+            "parent": "fe9e1a6d-e624-4bf5-8c12-f04f5aea98f8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0013e0dc-8c44-4d6c-90b3-2366d713f9bf",
+        "fields": {
+            "uuid": "0013e0dc-8c44-4d6c-90b3-2366d713f9bf",
+            "name": "Manual Breast Pumps",
+            "emoji": "",
+            "parent": "fe9e1a6d-e624-4bf5-8c12-f04f5aea98f8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0386fa62-b362-42df-9210-f1e4c727a585",
+        "fields": {
+            "uuid": "0386fa62-b362-42df-9210-f1e4c727a585",
+            "name": "Burp Cloths",
+            "emoji": "",
+            "parent": "5d7abdd5-a4cc-4370-9e7b-b533ed960522"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4b4591fa-456f-4a6d-af5b-ce93eca679ba",
+        "fields": {
+            "uuid": "4b4591fa-456f-4a6d-af5b-ce93eca679ba",
+            "name": "Nursing Covers",
+            "emoji": "",
+            "parent": "5d7abdd5-a4cc-4370-9e7b-b533ed960522"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ed7faf82-e356-43d5-b789-b4f766ce0d8f",
+        "fields": {
+            "uuid": "ed7faf82-e356-43d5-b789-b4f766ce0d8f",
+            "name": "Nursing Pads & Shields",
+            "emoji": "",
+            "parent": "5d7abdd5-a4cc-4370-9e7b-b533ed960522"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0b63a5eb-f69e-4ec4-a947-55540a039ad6",
+        "fields": {
+            "uuid": "0b63a5eb-f69e-4ec4-a947-55540a039ad6",
+            "name": "Disposable Nursing Pads",
+            "emoji": "",
+            "parent": "ed7faf82-e356-43d5-b789-b4f766ce0d8f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5a091d14-e956-4eea-b10e-27ae8a9e12f6",
+        "fields": {
+            "uuid": "5a091d14-e956-4eea-b10e-27ae8a9e12f6",
+            "name": "Reusable Nursing Pads",
+            "emoji": "",
+            "parent": "ed7faf82-e356-43d5-b789-b4f766ce0d8f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c6f654c8-6f1d-493e-b4a5-d6fd3bcad6b8",
+        "fields": {
+            "uuid": "c6f654c8-6f1d-493e-b4a5-d6fd3bcad6b8",
+            "name": "Breast Shields",
+            "emoji": "",
+            "parent": "ed7faf82-e356-43d5-b789-b4f766ce0d8f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3491dc92-0eea-44df-8a4f-c5b1cd87ed4d",
+        "fields": {
+            "uuid": "3491dc92-0eea-44df-8a4f-c5b1cd87ed4d",
+            "name": "Nursing Pillow Covers",
+            "emoji": "",
+            "parent": "5d7abdd5-a4cc-4370-9e7b-b533ed960522"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ffd9d321-1c3a-4b68-a3ee-e9cff0cb198f",
+        "fields": {
+            "uuid": "ffd9d321-1c3a-4b68-a3ee-e9cff0cb198f",
+            "name": "Nursing Pillows",
+            "emoji": "",
+            "parent": "5d7abdd5-a4cc-4370-9e7b-b533ed960522"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "74a706cc-9962-4f4f-a42d-7a8294a56ed3",
+        "fields": {
+            "uuid": "74a706cc-9962-4f4f-a42d-7a8294a56ed3",
+            "name": "Sippy Cups",
+            "emoji": "",
+            "parent": "5d7abdd5-a4cc-4370-9e7b-b533ed960522"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "98ef62b4-ee2b-40df-9a73-2340cfeb4f4b",
+        "fields": {
+            "uuid": "98ef62b4-ee2b-40df-9a73-2340cfeb4f4b",
+            "name": "Potty Training",
+            "emoji": "",
+            "parent": "d30d2c06-55a3-42cf-bfdc-08ffd5088e90"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9db16e8f-9e55-4cbb-ba93-42cd505fe092",
+        "fields": {
+            "uuid": "9db16e8f-9e55-4cbb-ba93-42cd505fe092",
+            "name": "Potties",
+            "emoji": "",
+            "parent": "98ef62b4-ee2b-40df-9a73-2340cfeb4f4b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "593c43fd-4437-463f-8e73-4d64f023b570",
+        "fields": {
+            "uuid": "593c43fd-4437-463f-8e73-4d64f023b570",
+            "name": "Potty Training Kits",
+            "emoji": "",
+            "parent": "98ef62b4-ee2b-40df-9a73-2340cfeb4f4b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e0144442-06c8-4be5-9a93-401ffa16cb8b",
+        "fields": {
+            "uuid": "e0144442-06c8-4be5-9a93-401ffa16cb8b",
+            "name": "Toilet Seats & Step Stools",
+            "emoji": "",
+            "parent": "98ef62b4-ee2b-40df-9a73-2340cfeb4f4b"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d0a884d6-161a-482d-af59-b11549998787",
+        "fields": {
+            "uuid": "d0a884d6-161a-482d-af59-b11549998787",
+            "name": "Swaddling & Receiving Blankets",
+            "emoji": "",
+            "parent": "d30d2c06-55a3-42cf-bfdc-08ffd5088e90"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ffa1ca0f-6639-4b48-9b97-992a9d649bd2",
+        "fields": {
+            "uuid": "ffa1ca0f-6639-4b48-9b97-992a9d649bd2",
+            "name": "Receiving Blankets",
+            "emoji": "",
+            "parent": "d0a884d6-161a-482d-af59-b11549998787"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f6eb0ce9-6447-40f8-9005-1d9862f7d17a",
+        "fields": {
+            "uuid": "f6eb0ce9-6447-40f8-9005-1d9862f7d17a",
+            "name": "Swaddling Blankets",
+            "emoji": "",
+            "parent": "d0a884d6-161a-482d-af59-b11549998787"
+        }
+    }
+]

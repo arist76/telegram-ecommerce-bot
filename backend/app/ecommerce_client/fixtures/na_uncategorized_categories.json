@@ -1,0 +1,12 @@
+[
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d7a607e7-333c-49dd-861b-5e46a778ca03",
+        "fields": {
+            "uuid": "d7a607e7-333c-49dd-861b-5e46a778ca03",
+            "name": "Uncategorized",
+            "emoji": "",
+            "parent": null
+        }
+    }
+]

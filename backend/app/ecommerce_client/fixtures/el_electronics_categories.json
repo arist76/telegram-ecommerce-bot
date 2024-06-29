@@ -1,0 +1,5192 @@
+[
+    {
+        "model": "ecommerce_client.category",
+        "pk": "90e90a7c-1fca-47e1-90da-d2ad928a6f31",
+        "fields": {
+            "uuid": "90e90a7c-1fca-47e1-90da-d2ad928a6f31",
+            "name": "Electronics",
+            "emoji": "",
+            "parent": null
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2f37f255-7b4f-4906-914a-df36d8144539",
+        "fields": {
+            "uuid": "2f37f255-7b4f-4906-914a-df36d8144539",
+            "name": "Arcade Equipment",
+            "emoji": "",
+            "parent": "90e90a7c-1fca-47e1-90da-d2ad928a6f31"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e0dce1cf-94d3-4fb2-9cb5-2677c7d8733a",
+        "fields": {
+            "uuid": "e0dce1cf-94d3-4fb2-9cb5-2677c7d8733a",
+            "name": "Basketball Arcade Games",
+            "emoji": "",
+            "parent": "2f37f255-7b4f-4906-914a-df36d8144539"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6d199005-3b40-4eb9-8f7e-87df7faa8907",
+        "fields": {
+            "uuid": "6d199005-3b40-4eb9-8f7e-87df7faa8907",
+            "name": "Pinball Machine Accessories",
+            "emoji": "",
+            "parent": "2f37f255-7b4f-4906-914a-df36d8144539"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "664ebf3f-b9b0-440f-8688-641d4e917a86",
+        "fields": {
+            "uuid": "664ebf3f-b9b0-440f-8688-641d4e917a86",
+            "name": "Playfield Waxes",
+            "emoji": "",
+            "parent": "6d199005-3b40-4eb9-8f7e-87df7faa8907"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "93343d4d-5653-4f39-9a5c-d4f88d3ae64b",
+        "fields": {
+            "uuid": "93343d4d-5653-4f39-9a5c-d4f88d3ae64b",
+            "name": "Protective Covers",
+            "emoji": "",
+            "parent": "6d199005-3b40-4eb9-8f7e-87df7faa8907"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a121b37d-cad2-4b05-9b3d-94f5b34d7bd3",
+        "fields": {
+            "uuid": "a121b37d-cad2-4b05-9b3d-94f5b34d7bd3",
+            "name": "Replacement Balls",
+            "emoji": "",
+            "parent": "6d199005-3b40-4eb9-8f7e-87df7faa8907"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b9f12633-0f4d-4cd9-9e94-4992de019afa",
+        "fields": {
+            "uuid": "b9f12633-0f4d-4cd9-9e94-4992de019afa",
+            "name": "Rubber Ring Kits",
+            "emoji": "",
+            "parent": "6d199005-3b40-4eb9-8f7e-87df7faa8907"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "37263928-560f-4eaa-83cb-b229793cc5eb",
+        "fields": {
+            "uuid": "37263928-560f-4eaa-83cb-b229793cc5eb",
+            "name": "Pinball Machines",
+            "emoji": "",
+            "parent": "2f37f255-7b4f-4906-914a-df36d8144539"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "97aa96c9-2ca5-46fe-9b2f-0399251308f8",
+        "fields": {
+            "uuid": "97aa96c9-2ca5-46fe-9b2f-0399251308f8",
+            "name": "Skee-Ball Machines",
+            "emoji": "",
+            "parent": "2f37f255-7b4f-4906-914a-df36d8144539"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1bdf986c-1408-449f-bfbc-52feda232a69",
+        "fields": {
+            "uuid": "1bdf986c-1408-449f-bfbc-52feda232a69",
+            "name": "Video Game Arcade Cabinet Accessories",
+            "emoji": "",
+            "parent": "2f37f255-7b4f-4906-914a-df36d8144539"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9b63184d-8df4-4d02-a1ce-4f50b31e4b9f",
+        "fields": {
+            "uuid": "9b63184d-8df4-4d02-a1ce-4f50b31e4b9f",
+            "name": "Coin Mechanisms",
+            "emoji": "",
+            "parent": "1bdf986c-1408-449f-bfbc-52feda232a69"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1ea1fc7a-a09e-47a3-aabd-747c0726f9fb",
+        "fields": {
+            "uuid": "1ea1fc7a-a09e-47a3-aabd-747c0726f9fb",
+            "name": "Control Panels",
+            "emoji": "",
+            "parent": "1bdf986c-1408-449f-bfbc-52feda232a69"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5fa4a303-638f-4f30-91f3-5482d75227ba",
+        "fields": {
+            "uuid": "5fa4a303-638f-4f30-91f3-5482d75227ba",
+            "name": "Joysticks",
+            "emoji": "",
+            "parent": "1bdf986c-1408-449f-bfbc-52feda232a69"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3695e532-b9c1-4249-98f6-7d8f0b841585",
+        "fields": {
+            "uuid": "3695e532-b9c1-4249-98f6-7d8f0b841585",
+            "name": "Marquees",
+            "emoji": "",
+            "parent": "1bdf986c-1408-449f-bfbc-52feda232a69"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7f18889c-dc52-4c43-8153-64e1f980a119",
+        "fields": {
+            "uuid": "7f18889c-dc52-4c43-8153-64e1f980a119",
+            "name": "Push Buttons",
+            "emoji": "",
+            "parent": "1bdf986c-1408-449f-bfbc-52feda232a69"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f3791340-d882-4595-b115-89c54e903666",
+        "fields": {
+            "uuid": "f3791340-d882-4595-b115-89c54e903666",
+            "name": "Video Game Arcade Cabinets",
+            "emoji": "",
+            "parent": "2f37f255-7b4f-4906-914a-df36d8144539"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3c642c9e-15f6-482d-8339-bae8daf549b2",
+        "fields": {
+            "uuid": "3c642c9e-15f6-482d-8339-bae8daf549b2",
+            "name": "Audio",
+            "emoji": "",
+            "parent": "90e90a7c-1fca-47e1-90da-d2ad928a6f31"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "704cabbc-9882-4db3-b7e7-e4016dacfb66",
+        "fields": {
+            "uuid": "704cabbc-9882-4db3-b7e7-e4016dacfb66",
+            "name": "Audio Accessories",
+            "emoji": "",
+            "parent": "3c642c9e-15f6-482d-8339-bae8daf549b2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8cba3aee-b166-420d-8233-638d600f7ec7",
+        "fields": {
+            "uuid": "8cba3aee-b166-420d-8233-638d600f7ec7",
+            "name": "Audio & Video Receiver Accessories",
+            "emoji": "",
+            "parent": "704cabbc-9882-4db3-b7e7-e4016dacfb66"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d4ab3d83-8705-43af-a9f4-074047349697",
+        "fields": {
+            "uuid": "d4ab3d83-8705-43af-a9f4-074047349697",
+            "name": "Audio & Video Receiver Rack Mounts",
+            "emoji": "",
+            "parent": "8cba3aee-b166-420d-8233-638d600f7ec7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1224f2d5-4f20-4629-a61f-136a71b6062c",
+        "fields": {
+            "uuid": "1224f2d5-4f20-4629-a61f-136a71b6062c",
+            "name": "Bluetooth Adapters",
+            "emoji": "",
+            "parent": "8cba3aee-b166-420d-8233-638d600f7ec7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aa7cadcb-1ca9-45b0-821b-65891a85d329",
+        "fields": {
+            "uuid": "aa7cadcb-1ca9-45b0-821b-65891a85d329",
+            "name": "Headphone & Headset Accessories",
+            "emoji": "",
+            "parent": "704cabbc-9882-4db3-b7e7-e4016dacfb66"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1f5f86f0-304a-448c-86c7-b5a0811d7671",
+        "fields": {
+            "uuid": "1f5f86f0-304a-448c-86c7-b5a0811d7671",
+            "name": "Headphone Carrying Cases",
+            "emoji": "",
+            "parent": "aa7cadcb-1ca9-45b0-821b-65891a85d329"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "de6bb477-2ba8-45c3-913f-b44c3e0a5b24",
+        "fields": {
+            "uuid": "de6bb477-2ba8-45c3-913f-b44c3e0a5b24",
+            "name": "Headphone Cushions & Tips",
+            "emoji": "",
+            "parent": "aa7cadcb-1ca9-45b0-821b-65891a85d329"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ba859544-da10-46aa-843a-a0974b88905a",
+        "fields": {
+            "uuid": "ba859544-da10-46aa-843a-a0974b88905a",
+            "name": "Headphone Cushions",
+            "emoji": "",
+            "parent": "de6bb477-2ba8-45c3-913f-b44c3e0a5b24"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2a95e2dc-c470-4754-80b7-f8bd287cdcef",
+        "fields": {
+            "uuid": "2a95e2dc-c470-4754-80b7-f8bd287cdcef",
+            "name": "Headphone Tips",
+            "emoji": "",
+            "parent": "de6bb477-2ba8-45c3-913f-b44c3e0a5b24"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d8fc8602-ee66-44ba-bf8e-baf3ea3746a6",
+        "fields": {
+            "uuid": "d8fc8602-ee66-44ba-bf8e-baf3ea3746a6",
+            "name": "Headphone Stands",
+            "emoji": "",
+            "parent": "aa7cadcb-1ca9-45b0-821b-65891a85d329"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9ade31b4-4a96-47e7-b0fa-bcfeb28ed273",
+        "fields": {
+            "uuid": "9ade31b4-4a96-47e7-b0fa-bcfeb28ed273",
+            "name": "Karaoke System Accessories",
+            "emoji": "",
+            "parent": "704cabbc-9882-4db3-b7e7-e4016dacfb66"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9cbb8893-8d96-4244-a7e3-a5d91db3b6fc",
+        "fields": {
+            "uuid": "9cbb8893-8d96-4244-a7e3-a5d91db3b6fc",
+            "name": "Karaoke Carrying Cases",
+            "emoji": "",
+            "parent": "9ade31b4-4a96-47e7-b0fa-bcfeb28ed273"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aa1c5768-e211-4081-8b16-0e14ff8f1db5",
+        "fields": {
+            "uuid": "aa1c5768-e211-4081-8b16-0e14ff8f1db5",
+            "name": "Karaoke Chips",
+            "emoji": "",
+            "parent": "9ade31b4-4a96-47e7-b0fa-bcfeb28ed273"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "91b8b442-1e73-4530-8372-2261820e030d",
+        "fields": {
+            "uuid": "91b8b442-1e73-4530-8372-2261820e030d",
+            "name": "Microphone Accessories",
+            "emoji": "",
+            "parent": "704cabbc-9882-4db3-b7e7-e4016dacfb66"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5a573446-ce3b-470e-8692-c07e85cb7ca1",
+        "fields": {
+            "uuid": "5a573446-ce3b-470e-8692-c07e85cb7ca1",
+            "name": "Microphone Shock Mounts",
+            "emoji": "",
+            "parent": "91b8b442-1e73-4530-8372-2261820e030d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "02828f83-ad3c-4003-a496-ada1ca6f91fd",
+        "fields": {
+            "uuid": "02828f83-ad3c-4003-a496-ada1ca6f91fd",
+            "name": "Pop Filters",
+            "emoji": "",
+            "parent": "91b8b442-1e73-4530-8372-2261820e030d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a1d4e7cf-e747-4af3-92a6-52e2defab873",
+        "fields": {
+            "uuid": "a1d4e7cf-e747-4af3-92a6-52e2defab873",
+            "name": "Windshields",
+            "emoji": "",
+            "parent": "91b8b442-1e73-4530-8372-2261820e030d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "967ef548-8f58-4afc-ba47-b0d9aa4bf4e4",
+        "fields": {
+            "uuid": "967ef548-8f58-4afc-ba47-b0d9aa4bf4e4",
+            "name": "Microphone Stands",
+            "emoji": "",
+            "parent": "704cabbc-9882-4db3-b7e7-e4016dacfb66"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "edd4f312-5c22-4b5f-945a-a8c64db74446",
+        "fields": {
+            "uuid": "edd4f312-5c22-4b5f-945a-a8c64db74446",
+            "name": "MP3 Player Accessories",
+            "emoji": "",
+            "parent": "704cabbc-9882-4db3-b7e7-e4016dacfb66"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "618de1ef-9bed-4a19-9b5e-ca2fdd57777a",
+        "fields": {
+            "uuid": "618de1ef-9bed-4a19-9b5e-ca2fdd57777a",
+            "name": "MP3 Player & Mobile Phone Accessory Sets",
+            "emoji": "",
+            "parent": "edd4f312-5c22-4b5f-945a-a8c64db74446"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d5a84dcc-1788-4f44-a594-46e7e1545cff",
+        "fields": {
+            "uuid": "d5a84dcc-1788-4f44-a594-46e7e1545cff",
+            "name": "MP3 Player Cases",
+            "emoji": "",
+            "parent": "edd4f312-5c22-4b5f-945a-a8c64db74446"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "96be1d48-13c3-48bf-9153-fce42ecefa11",
+        "fields": {
+            "uuid": "96be1d48-13c3-48bf-9153-fce42ecefa11",
+            "name": "Satellite Radio Accessories",
+            "emoji": "",
+            "parent": "704cabbc-9882-4db3-b7e7-e4016dacfb66"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9c6e9c38-f401-42ef-9b78-09c8036f397d",
+        "fields": {
+            "uuid": "9c6e9c38-f401-42ef-9b78-09c8036f397d",
+            "name": "Satellite Radio Mounts & Brackets",
+            "emoji": "",
+            "parent": "96be1d48-13c3-48bf-9153-fce42ecefa11"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2fa48b8d-e3a3-4002-9220-2df22d0b56e9",
+        "fields": {
+            "uuid": "2fa48b8d-e3a3-4002-9220-2df22d0b56e9",
+            "name": "Speaker Accessories",
+            "emoji": "",
+            "parent": "704cabbc-9882-4db3-b7e7-e4016dacfb66"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5f724c1b-165d-41ed-a7a4-f62f2158cb5e",
+        "fields": {
+            "uuid": "5f724c1b-165d-41ed-a7a4-f62f2158cb5e",
+            "name": "Speaker Bags, Covers & Cases",
+            "emoji": "",
+            "parent": "2fa48b8d-e3a3-4002-9220-2df22d0b56e9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2ba7b871-246f-461c-a459-b145e4c40352",
+        "fields": {
+            "uuid": "2ba7b871-246f-461c-a459-b145e4c40352",
+            "name": "Speaker Components & Kits",
+            "emoji": "",
+            "parent": "2fa48b8d-e3a3-4002-9220-2df22d0b56e9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4cf3c206-eadd-4367-a09d-985076130ae0",
+        "fields": {
+            "uuid": "4cf3c206-eadd-4367-a09d-985076130ae0",
+            "name": "Speaker Stand Bags",
+            "emoji": "",
+            "parent": "2fa48b8d-e3a3-4002-9220-2df22d0b56e9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7d7f78c6-bc4b-4246-b176-18db4ea67f83",
+        "fields": {
+            "uuid": "7d7f78c6-bc4b-4246-b176-18db4ea67f83",
+            "name": "Speaker Stands & Mounts",
+            "emoji": "",
+            "parent": "2fa48b8d-e3a3-4002-9220-2df22d0b56e9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2cf30909-bdbc-4a93-9899-fa2d3e4fe864",
+        "fields": {
+            "uuid": "2cf30909-bdbc-4a93-9899-fa2d3e4fe864",
+            "name": "Tactile Transducers",
+            "emoji": "",
+            "parent": "2fa48b8d-e3a3-4002-9220-2df22d0b56e9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e608bb8e-6290-4324-8c16-c23f2d5c3806",
+        "fields": {
+            "uuid": "e608bb8e-6290-4324-8c16-c23f2d5c3806",
+            "name": "Turntable Accessories",
+            "emoji": "",
+            "parent": "704cabbc-9882-4db3-b7e7-e4016dacfb66"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1d286273-6770-41ab-a86b-aaca65159d82",
+        "fields": {
+            "uuid": "1d286273-6770-41ab-a86b-aaca65159d82",
+            "name": "Cartridges",
+            "emoji": "",
+            "parent": "e608bb8e-6290-4324-8c16-c23f2d5c3806"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8a67497c-7f66-434d-8789-51271a522e24",
+        "fields": {
+            "uuid": "8a67497c-7f66-434d-8789-51271a522e24",
+            "name": "Record Cleaning Kits",
+            "emoji": "",
+            "parent": "e608bb8e-6290-4324-8c16-c23f2d5c3806"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b2dc962e-52fd-43e8-b415-fa78a1270d72",
+        "fields": {
+            "uuid": "b2dc962e-52fd-43e8-b415-fa78a1270d72",
+            "name": "Replacement Needles",
+            "emoji": "",
+            "parent": "e608bb8e-6290-4324-8c16-c23f2d5c3806"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bb63a105-0d2d-4e57-afac-20cd05563125",
+        "fields": {
+            "uuid": "bb63a105-0d2d-4e57-afac-20cd05563125",
+            "name": "Slipmats",
+            "emoji": "",
+            "parent": "e608bb8e-6290-4324-8c16-c23f2d5c3806"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7b46d5a9-55e2-47a3-8c55-170171ea9cc8",
+        "fields": {
+            "uuid": "7b46d5a9-55e2-47a3-8c55-170171ea9cc8",
+            "name": "Audio Components",
+            "emoji": "",
+            "parent": "3c642c9e-15f6-482d-8339-bae8daf549b2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cdb68a35-e5b6-4d98-a8d3-6ccd9ed6f34a",
+        "fields": {
+            "uuid": "cdb68a35-e5b6-4d98-a8d3-6ccd9ed6f34a",
+            "name": "Audio & Video Receivers",
+            "emoji": "",
+            "parent": "7b46d5a9-55e2-47a3-8c55-170171ea9cc8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "acfec087-5b14-4a87-91da-13a916bdd100",
+        "fields": {
+            "uuid": "acfec087-5b14-4a87-91da-13a916bdd100",
+            "name": "Audio Amplifiers",
+            "emoji": "",
+            "parent": "7b46d5a9-55e2-47a3-8c55-170171ea9cc8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7212748d-e6be-4e41-af84-7307932b4ecf",
+        "fields": {
+            "uuid": "7212748d-e6be-4e41-af84-7307932b4ecf",
+            "name": "Headphone Amplifiers",
+            "emoji": "",
+            "parent": "acfec087-5b14-4a87-91da-13a916bdd100"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "abbdd432-c620-4563-be7b-1dc478312458",
+        "fields": {
+            "uuid": "abbdd432-c620-4563-be7b-1dc478312458",
+            "name": "Power Amplifiers",
+            "emoji": "",
+            "parent": "acfec087-5b14-4a87-91da-13a916bdd100"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f7fff076-f3b6-43d4-b739-7ca1e9476f92",
+        "fields": {
+            "uuid": "f7fff076-f3b6-43d4-b739-7ca1e9476f92",
+            "name": "Audio Mixers",
+            "emoji": "",
+            "parent": "7b46d5a9-55e2-47a3-8c55-170171ea9cc8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a1cbc718-70e2-4bb1-9a9b-c21d34205c74",
+        "fields": {
+            "uuid": "a1cbc718-70e2-4bb1-9a9b-c21d34205c74",
+            "name": "Audio Transmitters",
+            "emoji": "",
+            "parent": "7b46d5a9-55e2-47a3-8c55-170171ea9cc8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5239397b-b063-48f9-a789-852663b645db",
+        "fields": {
+            "uuid": "5239397b-b063-48f9-a789-852663b645db",
+            "name": "Bluetooth Transmitters",
+            "emoji": "",
+            "parent": "a1cbc718-70e2-4bb1-9a9b-c21d34205c74"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "57e67d2d-f7d5-4236-a84c-ad91aec64283",
+        "fields": {
+            "uuid": "57e67d2d-f7d5-4236-a84c-ad91aec64283",
+            "name": "FM Transmitters",
+            "emoji": "",
+            "parent": "a1cbc718-70e2-4bb1-9a9b-c21d34205c74"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fdc67f5d-a79f-4042-8c21-f452da30a275",
+        "fields": {
+            "uuid": "fdc67f5d-a79f-4042-8c21-f452da30a275",
+            "name": "Channel Strips",
+            "emoji": "",
+            "parent": "7b46d5a9-55e2-47a3-8c55-170171ea9cc8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4c3ac089-1fbc-4362-9d36-b99948470464",
+        "fields": {
+            "uuid": "4c3ac089-1fbc-4362-9d36-b99948470464",
+            "name": "Direct Boxes",
+            "emoji": "",
+            "parent": "7b46d5a9-55e2-47a3-8c55-170171ea9cc8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e9cd7a34-0cc0-4be1-8988-6aa24494300d",
+        "fields": {
+            "uuid": "e9cd7a34-0cc0-4be1-8988-6aa24494300d",
+            "name": "Headphones & Headsets",
+            "emoji": "",
+            "parent": "7b46d5a9-55e2-47a3-8c55-170171ea9cc8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5c908e3c-61f6-4360-8fad-a50b887b4436",
+        "fields": {
+            "uuid": "5c908e3c-61f6-4360-8fad-a50b887b4436",
+            "name": "Headphones",
+            "emoji": "",
+            "parent": "e9cd7a34-0cc0-4be1-8988-6aa24494300d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f49bbb5c-82c6-4154-a307-19db47726d92",
+        "fields": {
+            "uuid": "f49bbb5c-82c6-4154-a307-19db47726d92",
+            "name": "Bone Conduction Headphones",
+            "emoji": "",
+            "parent": "5c908e3c-61f6-4360-8fad-a50b887b4436"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3ec678ce-d093-4004-9235-6db1656f4181",
+        "fields": {
+            "uuid": "3ec678ce-d093-4004-9235-6db1656f4181",
+            "name": "DJ Headphones",
+            "emoji": "",
+            "parent": "5c908e3c-61f6-4360-8fad-a50b887b4436"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1e0aef3f-65ce-4c64-9485-aeb5c044d855",
+        "fields": {
+            "uuid": "1e0aef3f-65ce-4c64-9485-aeb5c044d855",
+            "name": "In-Ear Headphones",
+            "emoji": "",
+            "parent": "5c908e3c-61f6-4360-8fad-a50b887b4436"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "06c156b0-3848-41de-8cb1-20076a2b2aad",
+        "fields": {
+            "uuid": "06c156b0-3848-41de-8cb1-20076a2b2aad",
+            "name": "On-Ear Headphones",
+            "emoji": "",
+            "parent": "5c908e3c-61f6-4360-8fad-a50b887b4436"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cc16baec-704d-4ce8-b39c-8c3a7c1b5608",
+        "fields": {
+            "uuid": "cc16baec-704d-4ce8-b39c-8c3a7c1b5608",
+            "name": "Over-Ear Headphones",
+            "emoji": "",
+            "parent": "5c908e3c-61f6-4360-8fad-a50b887b4436"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c3d59b72-0f77-4cbc-8c5a-5b8a6b81f275",
+        "fields": {
+            "uuid": "c3d59b72-0f77-4cbc-8c5a-5b8a6b81f275",
+            "name": "Headsets",
+            "emoji": "",
+            "parent": "e9cd7a34-0cc0-4be1-8988-6aa24494300d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "63e4037d-4fa0-432d-9d6d-01c49dfba695",
+        "fields": {
+            "uuid": "63e4037d-4fa0-432d-9d6d-01c49dfba695",
+            "name": "Microphones",
+            "emoji": "",
+            "parent": "7b46d5a9-55e2-47a3-8c55-170171ea9cc8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a7330d45-0cc8-4066-9490-895081f495bb",
+        "fields": {
+            "uuid": "a7330d45-0cc8-4066-9490-895081f495bb",
+            "name": "Signal Processors",
+            "emoji": "",
+            "parent": "7b46d5a9-55e2-47a3-8c55-170171ea9cc8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "863aa015-7907-4e6c-a98e-5f99eaef271a",
+        "fields": {
+            "uuid": "863aa015-7907-4e6c-a98e-5f99eaef271a",
+            "name": "Crossovers",
+            "emoji": "",
+            "parent": "a7330d45-0cc8-4066-9490-895081f495bb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5cd9108d-629a-4c79-ac52-f1b8dce6f851",
+        "fields": {
+            "uuid": "5cd9108d-629a-4c79-ac52-f1b8dce6f851",
+            "name": "Effects Processors",
+            "emoji": "",
+            "parent": "a7330d45-0cc8-4066-9490-895081f495bb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2ca9c630-a4e7-4dc4-a14c-780753984424",
+        "fields": {
+            "uuid": "2ca9c630-a4e7-4dc4-a14c-780753984424",
+            "name": "Equalizers",
+            "emoji": "",
+            "parent": "a7330d45-0cc8-4066-9490-895081f495bb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "231ecd14-b035-466b-9ebc-b0c8653fbedc",
+        "fields": {
+            "uuid": "231ecd14-b035-466b-9ebc-b0c8653fbedc",
+            "name": "Loudspeaker Management Systems",
+            "emoji": "",
+            "parent": "a7330d45-0cc8-4066-9490-895081f495bb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "27ec11f1-8d3e-4768-9e53-1ab08d02ac1e",
+        "fields": {
+            "uuid": "27ec11f1-8d3e-4768-9e53-1ab08d02ac1e",
+            "name": "Microphone Preamps",
+            "emoji": "",
+            "parent": "a7330d45-0cc8-4066-9490-895081f495bb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cf538b07-f92f-4ac4-8feb-146926cf2752",
+        "fields": {
+            "uuid": "cf538b07-f92f-4ac4-8feb-146926cf2752",
+            "name": "Noise Gates & Compressors",
+            "emoji": "",
+            "parent": "a7330d45-0cc8-4066-9490-895081f495bb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6727a425-5309-4a44-ad27-0deecc7229d0",
+        "fields": {
+            "uuid": "6727a425-5309-4a44-ad27-0deecc7229d0",
+            "name": "Phono Preamps",
+            "emoji": "",
+            "parent": "a7330d45-0cc8-4066-9490-895081f495bb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c1a452e2-c7a5-46e0-971d-924fb6696c84",
+        "fields": {
+            "uuid": "c1a452e2-c7a5-46e0-971d-924fb6696c84",
+            "name": "Speakers",
+            "emoji": "",
+            "parent": "7b46d5a9-55e2-47a3-8c55-170171ea9cc8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c1586599-8afa-46ad-b47e-3a98e065f37e",
+        "fields": {
+            "uuid": "c1586599-8afa-46ad-b47e-3a98e065f37e",
+            "name": "Studio Recording Bundles",
+            "emoji": "",
+            "parent": "7b46d5a9-55e2-47a3-8c55-170171ea9cc8"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "25929d57-25b1-498f-8939-66e522bbf903",
+        "fields": {
+            "uuid": "25929d57-25b1-498f-8939-66e522bbf903",
+            "name": "Audio Players & Recorders",
+            "emoji": "",
+            "parent": "3c642c9e-15f6-482d-8339-bae8daf549b2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4496e8a6-2b88-4e12-91ee-0165eb899dae",
+        "fields": {
+            "uuid": "4496e8a6-2b88-4e12-91ee-0165eb899dae",
+            "name": "Boomboxes",
+            "emoji": "",
+            "parent": "25929d57-25b1-498f-8939-66e522bbf903"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3fedbfe3-9218-4f13-b12c-f36eff4f3ca9",
+        "fields": {
+            "uuid": "3fedbfe3-9218-4f13-b12c-f36eff4f3ca9",
+            "name": "Handheld Players & Recorders",
+            "emoji": "",
+            "parent": "25929d57-25b1-498f-8939-66e522bbf903"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "693f3179-a119-474b-a94a-91c34f547659",
+        "fields": {
+            "uuid": "693f3179-a119-474b-a94a-91c34f547659",
+            "name": "Home Theater Systems",
+            "emoji": "",
+            "parent": "25929d57-25b1-498f-8939-66e522bbf903"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8990dcd6-b1dc-45ad-8813-d95341bca470",
+        "fields": {
+            "uuid": "8990dcd6-b1dc-45ad-8813-d95341bca470",
+            "name": "Jukeboxes",
+            "emoji": "",
+            "parent": "25929d57-25b1-498f-8939-66e522bbf903"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3af52cc5-2b51-4fe3-9214-f5e6f4ca03cd",
+        "fields": {
+            "uuid": "3af52cc5-2b51-4fe3-9214-f5e6f4ca03cd",
+            "name": "Karaoke Systems",
+            "emoji": "",
+            "parent": "25929d57-25b1-498f-8939-66e522bbf903"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "84b1ce4b-fe5b-428d-998d-6e282ab24406",
+        "fields": {
+            "uuid": "84b1ce4b-fe5b-428d-998d-6e282ab24406",
+            "name": "Multitrack Recorders",
+            "emoji": "",
+            "parent": "25929d57-25b1-498f-8939-66e522bbf903"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e9098954-772e-4ff3-bf4f-736de44614d7",
+        "fields": {
+            "uuid": "e9098954-772e-4ff3-bf4f-736de44614d7",
+            "name": "Radios",
+            "emoji": "",
+            "parent": "25929d57-25b1-498f-8939-66e522bbf903"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cb154328-ce78-405e-939e-d35f4d46cb50",
+        "fields": {
+            "uuid": "cb154328-ce78-405e-939e-d35f4d46cb50",
+            "name": "AM/FM Radios",
+            "emoji": "",
+            "parent": "e9098954-772e-4ff3-bf4f-736de44614d7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "866ef11a-7342-4b8f-bd13-002b3a02db60",
+        "fields": {
+            "uuid": "866ef11a-7342-4b8f-bd13-002b3a02db60",
+            "name": "DAB Radios",
+            "emoji": "",
+            "parent": "e9098954-772e-4ff3-bf4f-736de44614d7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d8e2d0f6-8033-400d-8e29-553369fcf77f",
+        "fields": {
+            "uuid": "d8e2d0f6-8033-400d-8e29-553369fcf77f",
+            "name": "Internet Radios",
+            "emoji": "",
+            "parent": "e9098954-772e-4ff3-bf4f-736de44614d7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ca70af2e-c9af-4a46-9bbf-0100816cb4d2",
+        "fields": {
+            "uuid": "ca70af2e-c9af-4a46-9bbf-0100816cb4d2",
+            "name": "Satellite Radios",
+            "emoji": "",
+            "parent": "e9098954-772e-4ff3-bf4f-736de44614d7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "49f55415-54fa-462a-97aa-f48fa5431a13",
+        "fields": {
+            "uuid": "49f55415-54fa-462a-97aa-f48fa5431a13",
+            "name": "Shortwave Radios",
+            "emoji": "",
+            "parent": "e9098954-772e-4ff3-bf4f-736de44614d7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5067a6d0-80b0-45e7-b575-674efed2ce37",
+        "fields": {
+            "uuid": "5067a6d0-80b0-45e7-b575-674efed2ce37",
+            "name": "Weather Radios",
+            "emoji": "",
+            "parent": "e9098954-772e-4ff3-bf4f-736de44614d7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a851c01a-6ec1-4e8d-86fd-2c583bdce3ae",
+        "fields": {
+            "uuid": "a851c01a-6ec1-4e8d-86fd-2c583bdce3ae",
+            "name": "Reel-to-Reel Tape Players & Recorders",
+            "emoji": "",
+            "parent": "25929d57-25b1-498f-8939-66e522bbf903"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3d33e22a-c617-4a20-a548-ba7b1d835295",
+        "fields": {
+            "uuid": "3d33e22a-c617-4a20-a548-ba7b1d835295",
+            "name": "Stereo Systems",
+            "emoji": "",
+            "parent": "25929d57-25b1-498f-8939-66e522bbf903"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3f9d3d5a-c688-4d71-9fc3-54d70cf98930",
+        "fields": {
+            "uuid": "3f9d3d5a-c688-4d71-9fc3-54d70cf98930",
+            "name": "Turntables & Record Players",
+            "emoji": "",
+            "parent": "25929d57-25b1-498f-8939-66e522bbf903"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e91558b9-bd51-4d56-b4f2-306821650c0b",
+        "fields": {
+            "uuid": "e91558b9-bd51-4d56-b4f2-306821650c0b",
+            "name": "Voice Recorders",
+            "emoji": "",
+            "parent": "25929d57-25b1-498f-8939-66e522bbf903"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "936f1848-33cd-42bf-8be5-275b2dd67fb6",
+        "fields": {
+            "uuid": "936f1848-33cd-42bf-8be5-275b2dd67fb6",
+            "name": "Bullhorns",
+            "emoji": "",
+            "parent": "3c642c9e-15f6-482d-8339-bae8daf549b2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bc5b56b2-a657-431d-8b34-611444314a98",
+        "fields": {
+            "uuid": "bc5b56b2-a657-431d-8b34-611444314a98",
+            "name": "DJ & Specialty Audio",
+            "emoji": "",
+            "parent": "3c642c9e-15f6-482d-8339-bae8daf549b2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f1537ce3-a4d7-4773-af78-0fbcbc880705",
+        "fields": {
+            "uuid": "f1537ce3-a4d7-4773-af78-0fbcbc880705",
+            "name": "DJ CD Players",
+            "emoji": "",
+            "parent": "bc5b56b2-a657-431d-8b34-611444314a98"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c4d7b560-815d-4775-83ab-4e82a00417d3",
+        "fields": {
+            "uuid": "c4d7b560-815d-4775-83ab-4e82a00417d3",
+            "name": "DJ Systems",
+            "emoji": "",
+            "parent": "bc5b56b2-a657-431d-8b34-611444314a98"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7dc07dc3-9a88-43a6-8534-b9ef6f62c866",
+        "fields": {
+            "uuid": "7dc07dc3-9a88-43a6-8534-b9ef6f62c866",
+            "name": "Public Address Systems",
+            "emoji": "",
+            "parent": "3c642c9e-15f6-482d-8339-bae8daf549b2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ec9a8fdc-b270-4767-b911-08502b4354d5",
+        "fields": {
+            "uuid": "ec9a8fdc-b270-4767-b911-08502b4354d5",
+            "name": "Stage Equipment",
+            "emoji": "",
+            "parent": "3c642c9e-15f6-482d-8339-bae8daf549b2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6e99fcca-a58a-4f47-beb9-a3998b197d30",
+        "fields": {
+            "uuid": "6e99fcca-a58a-4f47-beb9-a3998b197d30",
+            "name": "Wireless Transmitters",
+            "emoji": "",
+            "parent": "ec9a8fdc-b270-4767-b911-08502b4354d5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2c32681e-f58a-4091-93a5-f0bd87911de9",
+        "fields": {
+            "uuid": "2c32681e-f58a-4091-93a5-f0bd87911de9",
+            "name": "Circuit Boards & Components",
+            "emoji": "",
+            "parent": "90e90a7c-1fca-47e1-90da-d2ad928a6f31"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "30ab17d8-b69f-4d94-8eed-7b5d4488b96a",
+        "fields": {
+            "uuid": "30ab17d8-b69f-4d94-8eed-7b5d4488b96a",
+            "name": "Circuit Board Accessories",
+            "emoji": "",
+            "parent": "2c32681e-f58a-4091-93a5-f0bd87911de9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5b6b20cc-8f9a-49e7-bf79-b1686687bace",
+        "fields": {
+            "uuid": "5b6b20cc-8f9a-49e7-bf79-b1686687bace",
+            "name": "Circuit Board Protective Cases",
+            "emoji": "",
+            "parent": "30ab17d8-b69f-4d94-8eed-7b5d4488b96a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "03096970-4923-4e21-b081-c7c9b1add7f2",
+        "fields": {
+            "uuid": "03096970-4923-4e21-b081-c7c9b1add7f2",
+            "name": "Heat Sinks",
+            "emoji": "",
+            "parent": "30ab17d8-b69f-4d94-8eed-7b5d4488b96a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e9a08bf7-cb4a-476b-8c5f-df638ec077f7",
+        "fields": {
+            "uuid": "e9a08bf7-cb4a-476b-8c5f-df638ec077f7",
+            "name": "Jump Wires",
+            "emoji": "",
+            "parent": "30ab17d8-b69f-4d94-8eed-7b5d4488b96a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0c35813e-33af-4b1c-bfb2-7e83936883a8",
+        "fields": {
+            "uuid": "0c35813e-33af-4b1c-bfb2-7e83936883a8",
+            "name": "Circuit Decoders & Encoders",
+            "emoji": "",
+            "parent": "2c32681e-f58a-4091-93a5-f0bd87911de9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "21e0a716-f2fa-4e8f-b48e-1a6712442553",
+        "fields": {
+            "uuid": "21e0a716-f2fa-4e8f-b48e-1a6712442553",
+            "name": "Circuit Prototyping",
+            "emoji": "",
+            "parent": "2c32681e-f58a-4091-93a5-f0bd87911de9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e7b203a7-3fda-4814-8c4a-43b6fd28e545",
+        "fields": {
+            "uuid": "e7b203a7-3fda-4814-8c4a-43b6fd28e545",
+            "name": "Breadboards",
+            "emoji": "",
+            "parent": "21e0a716-f2fa-4e8f-b48e-1a6712442553"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7dad94cc-326d-4041-b791-6445980fe342",
+        "fields": {
+            "uuid": "7dad94cc-326d-4041-b791-6445980fe342",
+            "name": "Electronic Filters",
+            "emoji": "",
+            "parent": "2c32681e-f58a-4091-93a5-f0bd87911de9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "03104eb5-2065-42d3-b9b5-6eb2ae3de72e",
+        "fields": {
+            "uuid": "03104eb5-2065-42d3-b9b5-6eb2ae3de72e",
+            "name": "All-Pass Filters",
+            "emoji": "",
+            "parent": "7dad94cc-326d-4041-b791-6445980fe342"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "531dd479-8c23-477f-911f-24e7b948d43d",
+        "fields": {
+            "uuid": "531dd479-8c23-477f-911f-24e7b948d43d",
+            "name": "Band-Pass Filters",
+            "emoji": "",
+            "parent": "7dad94cc-326d-4041-b791-6445980fe342"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "231265c1-009b-433c-923d-4924f06d6706",
+        "fields": {
+            "uuid": "231265c1-009b-433c-923d-4924f06d6706",
+            "name": "Band-Stop Filters",
+            "emoji": "",
+            "parent": "7dad94cc-326d-4041-b791-6445980fe342"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6e5fba72-af8f-46b8-98d6-ddd75efd8e97",
+        "fields": {
+            "uuid": "6e5fba72-af8f-46b8-98d6-ddd75efd8e97",
+            "name": "High-Pass Filters",
+            "emoji": "",
+            "parent": "7dad94cc-326d-4041-b791-6445980fe342"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3f5e9bfa-4a60-4b22-a386-05016be8e725",
+        "fields": {
+            "uuid": "3f5e9bfa-4a60-4b22-a386-05016be8e725",
+            "name": "Low-Pass Filters",
+            "emoji": "",
+            "parent": "7dad94cc-326d-4041-b791-6445980fe342"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4944d8ba-379c-42b5-a246-5642b8c875db",
+        "fields": {
+            "uuid": "4944d8ba-379c-42b5-a246-5642b8c875db",
+            "name": "Passive Circuit Components",
+            "emoji": "",
+            "parent": "2c32681e-f58a-4091-93a5-f0bd87911de9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7fe3a1fe-00d4-471f-bb11-8749c516ff14",
+        "fields": {
+            "uuid": "7fe3a1fe-00d4-471f-bb11-8749c516ff14",
+            "name": "Capacitors",
+            "emoji": "",
+            "parent": "4944d8ba-379c-42b5-a246-5642b8c875db"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b20ad4a7-f8f9-41a1-be96-f107bbda870a",
+        "fields": {
+            "uuid": "b20ad4a7-f8f9-41a1-be96-f107bbda870a",
+            "name": "Electronic Oscillators",
+            "emoji": "",
+            "parent": "4944d8ba-379c-42b5-a246-5642b8c875db"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "91add2c5-77e4-4919-905b-157e09311468",
+        "fields": {
+            "uuid": "91add2c5-77e4-4919-905b-157e09311468",
+            "name": "Inductors",
+            "emoji": "",
+            "parent": "4944d8ba-379c-42b5-a246-5642b8c875db"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d713cc11-332d-41bb-aaa9-1a9f99514613",
+        "fields": {
+            "uuid": "d713cc11-332d-41bb-aaa9-1a9f99514613",
+            "name": "Resistors",
+            "emoji": "",
+            "parent": "4944d8ba-379c-42b5-a246-5642b8c875db"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "069805cb-e26a-4ff9-983d-73d4f4fcf193",
+        "fields": {
+            "uuid": "069805cb-e26a-4ff9-983d-73d4f4fcf193",
+            "name": "Printed Circuit Boards",
+            "emoji": "",
+            "parent": "2c32681e-f58a-4091-93a5-f0bd87911de9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "da73f371-608f-4743-a1f7-c5f39bddaf80",
+        "fields": {
+            "uuid": "da73f371-608f-4743-a1f7-c5f39bddaf80",
+            "name": "Camera Circuit Boards",
+            "emoji": "",
+            "parent": "069805cb-e26a-4ff9-983d-73d4f4fcf193"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "160386c9-75ca-4172-8f5d-61ccd590bd38",
+        "fields": {
+            "uuid": "160386c9-75ca-4172-8f5d-61ccd590bd38",
+            "name": "Computer Circuit Boards",
+            "emoji": "",
+            "parent": "069805cb-e26a-4ff9-983d-73d4f4fcf193"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7686cdde-d2a8-4a40-ae0e-6dc3a2e0a1fe",
+        "fields": {
+            "uuid": "7686cdde-d2a8-4a40-ae0e-6dc3a2e0a1fe",
+            "name": "Computer Inverter Boards",
+            "emoji": "",
+            "parent": "160386c9-75ca-4172-8f5d-61ccd590bd38"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aaa54ed3-23df-4299-853f-26464a341714",
+        "fields": {
+            "uuid": "aaa54ed3-23df-4299-853f-26464a341714",
+            "name": "Hard Drive Circuit Boards",
+            "emoji": "",
+            "parent": "160386c9-75ca-4172-8f5d-61ccd590bd38"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b7884c04-b291-4a6a-8153-95a4227daa23",
+        "fields": {
+            "uuid": "b7884c04-b291-4a6a-8153-95a4227daa23",
+            "name": "Motherboards",
+            "emoji": "",
+            "parent": "160386c9-75ca-4172-8f5d-61ccd590bd38"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dac676d2-394b-4a67-bec6-d4409cd556f8",
+        "fields": {
+            "uuid": "dac676d2-394b-4a67-bec6-d4409cd556f8",
+            "name": "Development Boards",
+            "emoji": "",
+            "parent": "069805cb-e26a-4ff9-983d-73d4f4fcf193"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5b7bc3d8-98a6-4995-a7da-fa78b4c02680",
+        "fields": {
+            "uuid": "5b7bc3d8-98a6-4995-a7da-fa78b4c02680",
+            "name": "Exercise Machine Circuit Boards",
+            "emoji": "",
+            "parent": "069805cb-e26a-4ff9-983d-73d4f4fcf193"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e4540ef5-7f10-4c8d-8294-20939c6b4616",
+        "fields": {
+            "uuid": "e4540ef5-7f10-4c8d-8294-20939c6b4616",
+            "name": "Household Appliance Circuit Boards",
+            "emoji": "",
+            "parent": "069805cb-e26a-4ff9-983d-73d4f4fcf193"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8da31419-87e0-4921-a3a2-0cd30e6f795c",
+        "fields": {
+            "uuid": "8da31419-87e0-4921-a3a2-0cd30e6f795c",
+            "name": "Pool & Spa Circuit Boards",
+            "emoji": "",
+            "parent": "069805cb-e26a-4ff9-983d-73d4f4fcf193"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b814d549-63d8-4c8d-8ef1-a3f6714873a3",
+        "fields": {
+            "uuid": "b814d549-63d8-4c8d-8ef1-a3f6714873a3",
+            "name": "Printer, Copier, & Fax Machine Circuit Boards",
+            "emoji": "",
+            "parent": "069805cb-e26a-4ff9-983d-73d4f4fcf193"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "08d08978-08eb-4683-9069-cf3bf2e58b55",
+        "fields": {
+            "uuid": "08d08978-08eb-4683-9069-cf3bf2e58b55",
+            "name": "Scanner Circuit Boards",
+            "emoji": "",
+            "parent": "069805cb-e26a-4ff9-983d-73d4f4fcf193"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f8c941da-1c36-4ef3-be51-9fefbcd423cf",
+        "fields": {
+            "uuid": "f8c941da-1c36-4ef3-be51-9fefbcd423cf",
+            "name": "Television Circuit Boards",
+            "emoji": "",
+            "parent": "069805cb-e26a-4ff9-983d-73d4f4fcf193"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5b24bd51-7553-4fec-b774-a5e181958083",
+        "fields": {
+            "uuid": "5b24bd51-7553-4fec-b774-a5e181958083",
+            "name": "Semiconductors",
+            "emoji": "",
+            "parent": "2c32681e-f58a-4091-93a5-f0bd87911de9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2a2eafcb-245b-4ba6-beed-5d4068277eb3",
+        "fields": {
+            "uuid": "2a2eafcb-245b-4ba6-beed-5d4068277eb3",
+            "name": "Diodes",
+            "emoji": "",
+            "parent": "5b24bd51-7553-4fec-b774-a5e181958083"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "46d08481-e605-4d81-bb67-c86debb08120",
+        "fields": {
+            "uuid": "46d08481-e605-4d81-bb67-c86debb08120",
+            "name": "Integrated Circuits & Chips",
+            "emoji": "",
+            "parent": "5b24bd51-7553-4fec-b774-a5e181958083"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e2106559-79ab-4722-9dae-a4863159e208",
+        "fields": {
+            "uuid": "e2106559-79ab-4722-9dae-a4863159e208",
+            "name": "Microcontrollers",
+            "emoji": "",
+            "parent": "5b24bd51-7553-4fec-b774-a5e181958083"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "28a01a82-2499-4028-985b-6d22d555d5b6",
+        "fields": {
+            "uuid": "28a01a82-2499-4028-985b-6d22d555d5b6",
+            "name": "Transistors",
+            "emoji": "",
+            "parent": "5b24bd51-7553-4fec-b774-a5e181958083"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "304f191f-aa46-43b0-a4e8-2ba92924702f",
+        "fields": {
+            "uuid": "304f191f-aa46-43b0-a4e8-2ba92924702f",
+            "name": "Communications",
+            "emoji": "",
+            "parent": "90e90a7c-1fca-47e1-90da-d2ad928a6f31"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9639003d-aef3-415e-a0a7-523cae83776a",
+        "fields": {
+            "uuid": "9639003d-aef3-415e-a0a7-523cae83776a",
+            "name": "Answering Machines",
+            "emoji": "",
+            "parent": "304f191f-aa46-43b0-a4e8-2ba92924702f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6a0b5b4a-c227-499e-bd3c-6bcc7e5bf26f",
+        "fields": {
+            "uuid": "6a0b5b4a-c227-499e-bd3c-6bcc7e5bf26f",
+            "name": "Caller IDs",
+            "emoji": "",
+            "parent": "304f191f-aa46-43b0-a4e8-2ba92924702f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fd7471f6-e36b-471b-8b0b-620bbdbb5175",
+        "fields": {
+            "uuid": "fd7471f6-e36b-471b-8b0b-620bbdbb5175",
+            "name": "Communication Radio Accessories",
+            "emoji": "",
+            "parent": "304f191f-aa46-43b0-a4e8-2ba92924702f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e1e09772-9da5-4801-ab52-d7fe698b4ed6",
+        "fields": {
+            "uuid": "e1e09772-9da5-4801-ab52-d7fe698b4ed6",
+            "name": "Earpieces",
+            "emoji": "",
+            "parent": "fd7471f6-e36b-471b-8b0b-620bbdbb5175"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ccd40844-b8d5-4e9f-9382-d698feb28a44",
+        "fields": {
+            "uuid": "ccd40844-b8d5-4e9f-9382-d698feb28a44",
+            "name": "Radio Carrying Cases",
+            "emoji": "",
+            "parent": "fd7471f6-e36b-471b-8b0b-620bbdbb5175"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e72b7172-9dac-415b-a8af-a92ae3526e90",
+        "fields": {
+            "uuid": "e72b7172-9dac-415b-a8af-a92ae3526e90",
+            "name": "Communication Radios",
+            "emoji": "",
+            "parent": "304f191f-aa46-43b0-a4e8-2ba92924702f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "341b4a71-bc2a-420c-ab1f-b9618014d215",
+        "fields": {
+            "uuid": "341b4a71-bc2a-420c-ab1f-b9618014d215",
+            "name": "Amateur Radios",
+            "emoji": "",
+            "parent": "e72b7172-9dac-415b-a8af-a92ae3526e90"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "90af968f-5104-4708-8fe6-d6044e956d0e",
+        "fields": {
+            "uuid": "90af968f-5104-4708-8fe6-d6044e956d0e",
+            "name": "CB Radios",
+            "emoji": "",
+            "parent": "e72b7172-9dac-415b-a8af-a92ae3526e90"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bd4b365e-a06b-4205-ad39-27edd7abaf38",
+        "fields": {
+            "uuid": "bd4b365e-a06b-4205-ad39-27edd7abaf38",
+            "name": "Radio Scanners",
+            "emoji": "",
+            "parent": "e72b7172-9dac-415b-a8af-a92ae3526e90"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "785dac60-5c54-4507-802a-56b2b719a694",
+        "fields": {
+            "uuid": "785dac60-5c54-4507-802a-56b2b719a694",
+            "name": "Two-Way Radios",
+            "emoji": "",
+            "parent": "e72b7172-9dac-415b-a8af-a92ae3526e90"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "81481740-bcfa-432e-9276-380bb6bdf271",
+        "fields": {
+            "uuid": "81481740-bcfa-432e-9276-380bb6bdf271",
+            "name": "Intercom Accessories",
+            "emoji": "",
+            "parent": "304f191f-aa46-43b0-a4e8-2ba92924702f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aaa3aa08-3ac8-4a47-8a3b-6e7b85138bf6",
+        "fields": {
+            "uuid": "aaa3aa08-3ac8-4a47-8a3b-6e7b85138bf6",
+            "name": "Speaker Units",
+            "emoji": "",
+            "parent": "81481740-bcfa-432e-9276-380bb6bdf271"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "290a2fcf-55b0-4324-a3c0-b03ce24a5ae6",
+        "fields": {
+            "uuid": "290a2fcf-55b0-4324-a3c0-b03ce24a5ae6",
+            "name": "Intercoms",
+            "emoji": "",
+            "parent": "304f191f-aa46-43b0-a4e8-2ba92924702f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ac77e5b4-18d9-46e4-85b8-5de2dfbda507",
+        "fields": {
+            "uuid": "ac77e5b4-18d9-46e4-85b8-5de2dfbda507",
+            "name": "Pagers",
+            "emoji": "",
+            "parent": "304f191f-aa46-43b0-a4e8-2ba92924702f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "82950502-f4f0-44a2-974b-a0627bd50f6f",
+        "fields": {
+            "uuid": "82950502-f4f0-44a2-974b-a0627bd50f6f",
+            "name": "Telephony",
+            "emoji": "",
+            "parent": "304f191f-aa46-43b0-a4e8-2ba92924702f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1df38abd-cb58-47cd-87c3-e0aa9eadf6a0",
+        "fields": {
+            "uuid": "1df38abd-cb58-47cd-87c3-e0aa9eadf6a0",
+            "name": "Conference Phones",
+            "emoji": "",
+            "parent": "82950502-f4f0-44a2-974b-a0627bd50f6f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "071a4ec9-b1a8-40d9-8598-ae69a9295427",
+        "fields": {
+            "uuid": "071a4ec9-b1a8-40d9-8598-ae69a9295427",
+            "name": "Corded Phones",
+            "emoji": "",
+            "parent": "82950502-f4f0-44a2-974b-a0627bd50f6f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3e92c282-1c06-4259-aa42-16f721514891",
+        "fields": {
+            "uuid": "3e92c282-1c06-4259-aa42-16f721514891",
+            "name": "Cordless Phones",
+            "emoji": "",
+            "parent": "82950502-f4f0-44a2-974b-a0627bd50f6f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "01debe85-7e8f-4161-8fea-1d09e9fe2dea",
+        "fields": {
+            "uuid": "01debe85-7e8f-4161-8fea-1d09e9fe2dea",
+            "name": "Mobile & Smart Phone Accessories",
+            "emoji": "",
+            "parent": "82950502-f4f0-44a2-974b-a0627bd50f6f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8a8ae27e-8665-4e68-9818-46a684981437",
+        "fields": {
+            "uuid": "8a8ae27e-8665-4e68-9818-46a684981437",
+            "name": "Mobile Phone Camera Accessories",
+            "emoji": "",
+            "parent": "01debe85-7e8f-4161-8fea-1d09e9fe2dea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "784728ae-c091-4d76-8f94-2b09e4b9ef0e",
+        "fields": {
+            "uuid": "784728ae-c091-4d76-8f94-2b09e4b9ef0e",
+            "name": "Lenses",
+            "emoji": "",
+            "parent": "8a8ae27e-8665-4e68-9818-46a684981437"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bd0a447c-03ff-40bb-9031-ffafea533fac",
+        "fields": {
+            "uuid": "bd0a447c-03ff-40bb-9031-ffafea533fac",
+            "name": "Lighting Kits",
+            "emoji": "",
+            "parent": "8a8ae27e-8665-4e68-9818-46a684981437"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e3db33d6-d74a-4b55-983a-de05a31a6b27",
+        "fields": {
+            "uuid": "e3db33d6-d74a-4b55-983a-de05a31a6b27",
+            "name": "Remote Shutters",
+            "emoji": "",
+            "parent": "8a8ae27e-8665-4e68-9818-46a684981437"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9795715e-902d-4a67-add2-ffaf99567e12",
+        "fields": {
+            "uuid": "9795715e-902d-4a67-add2-ffaf99567e12",
+            "name": "Selfie Sticks",
+            "emoji": "",
+            "parent": "8a8ae27e-8665-4e68-9818-46a684981437"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "949252a5-a155-47b6-9474-51d24f5f07ef",
+        "fields": {
+            "uuid": "949252a5-a155-47b6-9474-51d24f5f07ef",
+            "name": "Mobile Phone Cases",
+            "emoji": "",
+            "parent": "01debe85-7e8f-4161-8fea-1d09e9fe2dea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "81b487c7-b385-40ec-a0e0-71af7ff7fc01",
+        "fields": {
+            "uuid": "81b487c7-b385-40ec-a0e0-71af7ff7fc01",
+            "name": "Mobile Phone Charms & Straps",
+            "emoji": "",
+            "parent": "01debe85-7e8f-4161-8fea-1d09e9fe2dea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3d2bee00-40ba-43a8-82dd-532a1f714c7f",
+        "fields": {
+            "uuid": "3d2bee00-40ba-43a8-82dd-532a1f714c7f",
+            "name": "Mobile Phone Pre-Paid Cards & SIM Cards",
+            "emoji": "",
+            "parent": "01debe85-7e8f-4161-8fea-1d09e9fe2dea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1e1235cc-caf8-4fe3-a959-8afec877459b",
+        "fields": {
+            "uuid": "1e1235cc-caf8-4fe3-a959-8afec877459b",
+            "name": "Mobile Phone Pre-Paid Cards",
+            "emoji": "",
+            "parent": "3d2bee00-40ba-43a8-82dd-532a1f714c7f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "88777b63-4bcd-4f46-b639-3d89d50c7f6b",
+        "fields": {
+            "uuid": "88777b63-4bcd-4f46-b639-3d89d50c7f6b",
+            "name": "SIM Cards",
+            "emoji": "",
+            "parent": "3d2bee00-40ba-43a8-82dd-532a1f714c7f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d192044a-499b-48c3-ba81-37c6ee0cd54b",
+        "fields": {
+            "uuid": "d192044a-499b-48c3-ba81-37c6ee0cd54b",
+            "name": "Mobile Phone Replacement Parts",
+            "emoji": "",
+            "parent": "01debe85-7e8f-4161-8fea-1d09e9fe2dea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "779d6b2f-1041-4522-9833-993698ae3661",
+        "fields": {
+            "uuid": "779d6b2f-1041-4522-9833-993698ae3661",
+            "name": "Mobile Phone Stands",
+            "emoji": "",
+            "parent": "01debe85-7e8f-4161-8fea-1d09e9fe2dea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cbe6692a-e344-4f38-afca-568907b303c9",
+        "fields": {
+            "uuid": "cbe6692a-e344-4f38-afca-568907b303c9",
+            "name": "SIM Card Ejection Tools",
+            "emoji": "",
+            "parent": "01debe85-7e8f-4161-8fea-1d09e9fe2dea"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "963e5491-bd0d-4219-af11-be11995dd7c5",
+        "fields": {
+            "uuid": "963e5491-bd0d-4219-af11-be11995dd7c5",
+            "name": "Mobile & Smart Phones",
+            "emoji": "",
+            "parent": "82950502-f4f0-44a2-974b-a0627bd50f6f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ba3a6f84-925f-46c8-a217-be6d61f63eb6",
+        "fields": {
+            "uuid": "ba3a6f84-925f-46c8-a217-be6d61f63eb6",
+            "name": "Satellite Phones",
+            "emoji": "",
+            "parent": "82950502-f4f0-44a2-974b-a0627bd50f6f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c1b3b2eb-7a5d-4883-810e-5706c5305145",
+        "fields": {
+            "uuid": "c1b3b2eb-7a5d-4883-810e-5706c5305145",
+            "name": "Telephone Accessories",
+            "emoji": "",
+            "parent": "82950502-f4f0-44a2-974b-a0627bd50f6f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f3824285-dddc-4012-b06f-43709ae7d947",
+        "fields": {
+            "uuid": "f3824285-dddc-4012-b06f-43709ae7d947",
+            "name": "Phone Cards",
+            "emoji": "",
+            "parent": "c1b3b2eb-7a5d-4883-810e-5706c5305145"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "775180da-6bc6-4024-ad71-32b042c070a7",
+        "fields": {
+            "uuid": "775180da-6bc6-4024-ad71-32b042c070a7",
+            "name": "Video Conferencing",
+            "emoji": "",
+            "parent": "304f191f-aa46-43b0-a4e8-2ba92924702f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0cb803e7-5eea-41ca-b249-b93bddd91584",
+        "fields": {
+            "uuid": "0cb803e7-5eea-41ca-b249-b93bddd91584",
+            "name": "Components",
+            "emoji": "",
+            "parent": "90e90a7c-1fca-47e1-90da-d2ad928a6f31"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c525ce5e-4384-4d78-9c6b-d7e41cb57edc",
+        "fields": {
+            "uuid": "c525ce5e-4384-4d78-9c6b-d7e41cb57edc",
+            "name": "Accelerometers",
+            "emoji": "",
+            "parent": "0cb803e7-5eea-41ca-b249-b93bddd91584"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fec1d2a1-dd54-4baf-9d30-02825eeb1dd7",
+        "fields": {
+            "uuid": "fec1d2a1-dd54-4baf-9d30-02825eeb1dd7",
+            "name": "Converters",
+            "emoji": "",
+            "parent": "0cb803e7-5eea-41ca-b249-b93bddd91584"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c435ed47-b3d5-4622-922a-bccc55bd5016",
+        "fields": {
+            "uuid": "c435ed47-b3d5-4622-922a-bccc55bd5016",
+            "name": "Audio Converters",
+            "emoji": "",
+            "parent": "fec1d2a1-dd54-4baf-9d30-02825eeb1dd7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d997097e-e649-4dae-8fd6-4ed5c0980a0d",
+        "fields": {
+            "uuid": "d997097e-e649-4dae-8fd6-4ed5c0980a0d",
+            "name": "Scan Converters",
+            "emoji": "",
+            "parent": "fec1d2a1-dd54-4baf-9d30-02825eeb1dd7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9626ed5c-0ca1-4b66-8502-f7d98e20382f",
+        "fields": {
+            "uuid": "9626ed5c-0ca1-4b66-8502-f7d98e20382f",
+            "name": "Electronics Component Connectors",
+            "emoji": "",
+            "parent": "0cb803e7-5eea-41ca-b249-b93bddd91584"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4501b7af-827c-4e7b-abdc-b30bbc331920",
+        "fields": {
+            "uuid": "4501b7af-827c-4e7b-abdc-b30bbc331920",
+            "name": "Modulators",
+            "emoji": "",
+            "parent": "0cb803e7-5eea-41ca-b249-b93bddd91584"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a2236890-58db-4ef3-88d0-07fc2691f515",
+        "fields": {
+            "uuid": "a2236890-58db-4ef3-88d0-07fc2691f515",
+            "name": "Splitters",
+            "emoji": "",
+            "parent": "0cb803e7-5eea-41ca-b249-b93bddd91584"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "deb928c6-74cd-475a-9919-e03392a831be",
+        "fields": {
+            "uuid": "deb928c6-74cd-475a-9919-e03392a831be",
+            "name": "Computers",
+            "emoji": "",
+            "parent": "90e90a7c-1fca-47e1-90da-d2ad928a6f31"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e1cf1c64-7300-4166-8b8a-dc8ebdee11e8",
+        "fields": {
+            "uuid": "e1cf1c64-7300-4166-8b8a-dc8ebdee11e8",
+            "name": "Barebone Computers",
+            "emoji": "",
+            "parent": "deb928c6-74cd-475a-9919-e03392a831be"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "76fd23d6-79ff-49fd-a894-21eefc9472a4",
+        "fields": {
+            "uuid": "76fd23d6-79ff-49fd-a894-21eefc9472a4",
+            "name": "Computer Servers",
+            "emoji": "",
+            "parent": "deb928c6-74cd-475a-9919-e03392a831be"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6b3f3410-64f1-45ca-8e54-480405da36df",
+        "fields": {
+            "uuid": "6b3f3410-64f1-45ca-8e54-480405da36df",
+            "name": "Desktop Computers",
+            "emoji": "",
+            "parent": "deb928c6-74cd-475a-9919-e03392a831be"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "41d5f03f-78aa-4584-850f-9c341962b2ca",
+        "fields": {
+            "uuid": "41d5f03f-78aa-4584-850f-9c341962b2ca",
+            "name": "Handheld Devices",
+            "emoji": "",
+            "parent": "deb928c6-74cd-475a-9919-e03392a831be"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "60989d49-2642-43be-96db-284ce42271ef",
+        "fields": {
+            "uuid": "60989d49-2642-43be-96db-284ce42271ef",
+            "name": "Data Collectors",
+            "emoji": "",
+            "parent": "41d5f03f-78aa-4584-850f-9c341962b2ca"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2d6ba045-06e6-4dd7-b47a-124215c2cb75",
+        "fields": {
+            "uuid": "2d6ba045-06e6-4dd7-b47a-124215c2cb75",
+            "name": "E-Book Readers",
+            "emoji": "",
+            "parent": "41d5f03f-78aa-4584-850f-9c341962b2ca"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "427f283a-cb0b-4c60-87e5-b3ad66a90e48",
+        "fields": {
+            "uuid": "427f283a-cb0b-4c60-87e5-b3ad66a90e48",
+            "name": "PDAs",
+            "emoji": "",
+            "parent": "41d5f03f-78aa-4584-850f-9c341962b2ca"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "14621d7b-f551-44f7-82cc-b9f9e1557152",
+        "fields": {
+            "uuid": "14621d7b-f551-44f7-82cc-b9f9e1557152",
+            "name": "Interactive Kiosks",
+            "emoji": "",
+            "parent": "deb928c6-74cd-475a-9919-e03392a831be"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "58eda153-4ef0-4e04-8189-11bf3f0b5bd5",
+        "fields": {
+            "uuid": "58eda153-4ef0-4e04-8189-11bf3f0b5bd5",
+            "name": "Laptops",
+            "emoji": "",
+            "parent": "deb928c6-74cd-475a-9919-e03392a831be"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e4c69d71-4b0f-4a96-8f4d-cfe0f9016714",
+        "fields": {
+            "uuid": "e4c69d71-4b0f-4a96-8f4d-cfe0f9016714",
+            "name": "Smart Glasses",
+            "emoji": "",
+            "parent": "deb928c6-74cd-475a-9919-e03392a831be"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fcb352bb-0718-4859-bae4-998f85aa92f2",
+        "fields": {
+            "uuid": "fcb352bb-0718-4859-bae4-998f85aa92f2",
+            "name": "Tablet Computers",
+            "emoji": "",
+            "parent": "deb928c6-74cd-475a-9919-e03392a831be"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6bae349c-cf58-4da6-8db8-2599ea2888d2",
+        "fields": {
+            "uuid": "6bae349c-cf58-4da6-8db8-2599ea2888d2",
+            "name": "Thin & Zero Clients",
+            "emoji": "",
+            "parent": "deb928c6-74cd-475a-9919-e03392a831be"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "098b1b60-fa31-4d26-bbca-2e088c96abbb",
+        "fields": {
+            "uuid": "098b1b60-fa31-4d26-bbca-2e088c96abbb",
+            "name": "Thin Client Computers",
+            "emoji": "",
+            "parent": "6bae349c-cf58-4da6-8db8-2599ea2888d2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6cea6c2c-aa41-45d7-a290-74d27a8e067f",
+        "fields": {
+            "uuid": "6cea6c2c-aa41-45d7-a290-74d27a8e067f",
+            "name": "Zero Client Computers",
+            "emoji": "",
+            "parent": "6bae349c-cf58-4da6-8db8-2599ea2888d2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6d250169-f478-4023-9626-119931b2d6f5",
+        "fields": {
+            "uuid": "6d250169-f478-4023-9626-119931b2d6f5",
+            "name": "Touch Table Computers",
+            "emoji": "",
+            "parent": "deb928c6-74cd-475a-9919-e03392a831be"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4a1f829f-644b-458d-9b36-45604e5a0f5f",
+        "fields": {
+            "uuid": "4a1f829f-644b-458d-9b36-45604e5a0f5f",
+            "name": "Electronics Accessories",
+            "emoji": "",
+            "parent": "90e90a7c-1fca-47e1-90da-d2ad928a6f31"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "546dd61b-7a71-4580-8a49-f03db587ee9f",
+        "fields": {
+            "uuid": "546dd61b-7a71-4580-8a49-f03db587ee9f",
+            "name": "Adapters",
+            "emoji": "",
+            "parent": "4a1f829f-644b-458d-9b36-45604e5a0f5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fb35c555-f1fc-4945-b559-a4cabdf05cb8",
+        "fields": {
+            "uuid": "fb35c555-f1fc-4945-b559-a4cabdf05cb8",
+            "name": "Audio & Video Cable Adapters & Couplers",
+            "emoji": "",
+            "parent": "546dd61b-7a71-4580-8a49-f03db587ee9f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c79a71ac-a7b2-42a4-a405-78949ef9ccee",
+        "fields": {
+            "uuid": "c79a71ac-a7b2-42a4-a405-78949ef9ccee",
+            "name": "Memory Card Adapters",
+            "emoji": "",
+            "parent": "546dd61b-7a71-4580-8a49-f03db587ee9f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1606e897-59b7-409a-92d7-5731d5e816d6",
+        "fields": {
+            "uuid": "1606e897-59b7-409a-92d7-5731d5e816d6",
+            "name": "USB Adapters",
+            "emoji": "",
+            "parent": "546dd61b-7a71-4580-8a49-f03db587ee9f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f330e7ca-1447-4abb-90b1-3520daa60bda",
+        "fields": {
+            "uuid": "f330e7ca-1447-4abb-90b1-3520daa60bda",
+            "name": "Antenna Accessories",
+            "emoji": "",
+            "parent": "4a1f829f-644b-458d-9b36-45604e5a0f5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c5ef9f20-e203-4c23-9d50-f53446ede795",
+        "fields": {
+            "uuid": "c5ef9f20-e203-4c23-9d50-f53446ede795",
+            "name": "Antenna Mounts & Brackets",
+            "emoji": "",
+            "parent": "f330e7ca-1447-4abb-90b1-3520daa60bda"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "53f81100-d70d-45f7-b4ed-a9a5a323d01d",
+        "fields": {
+            "uuid": "53f81100-d70d-45f7-b4ed-a9a5a323d01d",
+            "name": "Antenna Rotators",
+            "emoji": "",
+            "parent": "f330e7ca-1447-4abb-90b1-3520daa60bda"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d0de6675-764e-47f0-aac3-9187a3f678fa",
+        "fields": {
+            "uuid": "d0de6675-764e-47f0-aac3-9187a3f678fa",
+            "name": "Satellite LNBs",
+            "emoji": "",
+            "parent": "f330e7ca-1447-4abb-90b1-3520daa60bda"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "285468d1-bca0-4fc9-b67f-f9639e81aff5",
+        "fields": {
+            "uuid": "285468d1-bca0-4fc9-b67f-f9639e81aff5",
+            "name": "Antennas",
+            "emoji": "",
+            "parent": "4a1f829f-644b-458d-9b36-45604e5a0f5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b21bc0f7-6c06-4508-bb5b-736fff487648",
+        "fields": {
+            "uuid": "b21bc0f7-6c06-4508-bb5b-736fff487648",
+            "name": "Audio & Video Splitters & Switches",
+            "emoji": "",
+            "parent": "4a1f829f-644b-458d-9b36-45604e5a0f5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "68c54140-6632-40a1-9c1f-c7653442a41f",
+        "fields": {
+            "uuid": "68c54140-6632-40a1-9c1f-c7653442a41f",
+            "name": "DVI Splitters & Switches",
+            "emoji": "",
+            "parent": "b21bc0f7-6c06-4508-bb5b-736fff487648"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "04e052e2-69a8-4b6c-9609-5186f61ec479",
+        "fields": {
+            "uuid": "04e052e2-69a8-4b6c-9609-5186f61ec479",
+            "name": "HDMI Splitters & Switches",
+            "emoji": "",
+            "parent": "b21bc0f7-6c06-4508-bb5b-736fff487648"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "676044f7-58ab-456a-9a8d-707933b3c169",
+        "fields": {
+            "uuid": "676044f7-58ab-456a-9a8d-707933b3c169",
+            "name": "VGA Splitters & Switches",
+            "emoji": "",
+            "parent": "b21bc0f7-6c06-4508-bb5b-736fff487648"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3ea566e0-0689-4cd7-bf95-44acfa76f1f6",
+        "fields": {
+            "uuid": "3ea566e0-0689-4cd7-bf95-44acfa76f1f6",
+            "name": "Blank Media",
+            "emoji": "",
+            "parent": "4a1f829f-644b-458d-9b36-45604e5a0f5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "397f9d02-e8f7-428c-8d71-f355782aa0fe",
+        "fields": {
+            "uuid": "397f9d02-e8f7-428c-8d71-f355782aa0fe",
+            "name": "Cable Management",
+            "emoji": "",
+            "parent": "4a1f829f-644b-458d-9b36-45604e5a0f5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1fbd2b38-bba2-485c-9d6c-cba6b8c8a8bd",
+        "fields": {
+            "uuid": "1fbd2b38-bba2-485c-9d6c-cba6b8c8a8bd",
+            "name": "Cable Clips",
+            "emoji": "",
+            "parent": "397f9d02-e8f7-428c-8d71-f355782aa0fe"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f5603647-0318-495f-b762-ecd1aa344fba",
+        "fields": {
+            "uuid": "f5603647-0318-495f-b762-ecd1aa344fba",
+            "name": "Cable Tie Guns",
+            "emoji": "",
+            "parent": "397f9d02-e8f7-428c-8d71-f355782aa0fe"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "58baa52f-7d29-49eb-83bb-3730ac69f92c",
+        "fields": {
+            "uuid": "58baa52f-7d29-49eb-83bb-3730ac69f92c",
+            "name": "Cable Trays",
+            "emoji": "",
+            "parent": "397f9d02-e8f7-428c-8d71-f355782aa0fe"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6bad1c17-f6ee-4a2d-bbe3-eb41bdf872fb",
+        "fields": {
+            "uuid": "6bad1c17-f6ee-4a2d-bbe3-eb41bdf872fb",
+            "name": "Patch Panels",
+            "emoji": "",
+            "parent": "397f9d02-e8f7-428c-8d71-f355782aa0fe"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3df31b59-cfc2-4a48-8595-a266710b36d6",
+        "fields": {
+            "uuid": "3df31b59-cfc2-4a48-8595-a266710b36d6",
+            "name": "Wire & Cable Identification Markers",
+            "emoji": "",
+            "parent": "397f9d02-e8f7-428c-8d71-f355782aa0fe"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c6757644-7459-4cd5-8554-26c94022cde4",
+        "fields": {
+            "uuid": "c6757644-7459-4cd5-8554-26c94022cde4",
+            "name": "Wire & Cable Sleeves",
+            "emoji": "",
+            "parent": "397f9d02-e8f7-428c-8d71-f355782aa0fe"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "71b667aa-64e1-4d44-a3fb-9b8a09e2c591",
+        "fields": {
+            "uuid": "71b667aa-64e1-4d44-a3fb-9b8a09e2c591",
+            "name": "Wire & Cable Ties",
+            "emoji": "",
+            "parent": "397f9d02-e8f7-428c-8d71-f355782aa0fe"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "48844d48-6f03-45af-a2f8-9b6884fde341",
+        "fields": {
+            "uuid": "48844d48-6f03-45af-a2f8-9b6884fde341",
+            "name": "Cables",
+            "emoji": "",
+            "parent": "4a1f829f-644b-458d-9b36-45604e5a0f5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2b8e6125-6ae5-4ebc-9a45-57079eec2a25",
+        "fields": {
+            "uuid": "2b8e6125-6ae5-4ebc-9a45-57079eec2a25",
+            "name": "Audio & Video Cables",
+            "emoji": "",
+            "parent": "48844d48-6f03-45af-a2f8-9b6884fde341"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2792a2c2-cda4-4e2d-ab2a-a4a4349afca7",
+        "fields": {
+            "uuid": "2792a2c2-cda4-4e2d-ab2a-a4a4349afca7",
+            "name": "AUX Cables",
+            "emoji": "",
+            "parent": "2b8e6125-6ae5-4ebc-9a45-57079eec2a25"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2b297ed3-2a6d-42bd-bf6d-3b6618545518",
+        "fields": {
+            "uuid": "2b297ed3-2a6d-42bd-bf6d-3b6618545518",
+            "name": "HDMI Cables",
+            "emoji": "",
+            "parent": "2b8e6125-6ae5-4ebc-9a45-57079eec2a25"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c56c6a50-e2cb-45dc-9806-33b30ef412d0",
+        "fields": {
+            "uuid": "c56c6a50-e2cb-45dc-9806-33b30ef412d0",
+            "name": "VGA Cables",
+            "emoji": "",
+            "parent": "2b8e6125-6ae5-4ebc-9a45-57079eec2a25"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "81ed81e9-3da5-4551-b988-d514f48fdf6d",
+        "fields": {
+            "uuid": "81ed81e9-3da5-4551-b988-d514f48fdf6d",
+            "name": "XLR Cables",
+            "emoji": "",
+            "parent": "2b8e6125-6ae5-4ebc-9a45-57079eec2a25"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "44c08f4c-ea48-445c-8390-694cf1277ba3",
+        "fields": {
+            "uuid": "44c08f4c-ea48-445c-8390-694cf1277ba3",
+            "name": "Extension Cables",
+            "emoji": "",
+            "parent": "48844d48-6f03-45af-a2f8-9b6884fde341"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9151f67f-9b71-4a44-bf44-5ef86b18132e",
+        "fields": {
+            "uuid": "9151f67f-9b71-4a44-bf44-5ef86b18132e",
+            "name": "KVM Cables",
+            "emoji": "",
+            "parent": "48844d48-6f03-45af-a2f8-9b6884fde341"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5839667f-dc16-4e16-aba7-2f77ff7faed7",
+        "fields": {
+            "uuid": "5839667f-dc16-4e16-aba7-2f77ff7faed7",
+            "name": "Network Cables",
+            "emoji": "",
+            "parent": "48844d48-6f03-45af-a2f8-9b6884fde341"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6da4f413-1040-477d-ac6f-c7cbe62ce680",
+        "fields": {
+            "uuid": "6da4f413-1040-477d-ac6f-c7cbe62ce680",
+            "name": "Coaxial Cables",
+            "emoji": "",
+            "parent": "5839667f-dc16-4e16-aba7-2f77ff7faed7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0f55ddc8-d44b-4f4b-94a1-09cd2b8141db",
+        "fields": {
+            "uuid": "0f55ddc8-d44b-4f4b-94a1-09cd2b8141db",
+            "name": "Ethernet Cables",
+            "emoji": "",
+            "parent": "5839667f-dc16-4e16-aba7-2f77ff7faed7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "95db1709-543a-4cea-a075-a0382ed0b057",
+        "fields": {
+            "uuid": "95db1709-543a-4cea-a075-a0382ed0b057",
+            "name": "Storage & Data Transfer Cables",
+            "emoji": "",
+            "parent": "48844d48-6f03-45af-a2f8-9b6884fde341"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d1dfa412-1990-4202-ac08-f463431dda38",
+        "fields": {
+            "uuid": "d1dfa412-1990-4202-ac08-f463431dda38",
+            "name": "FireWire Cables",
+            "emoji": "",
+            "parent": "95db1709-543a-4cea-a075-a0382ed0b057"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dd9d258b-9961-4b21-a0eb-8f5d0553cfd8",
+        "fields": {
+            "uuid": "dd9d258b-9961-4b21-a0eb-8f5d0553cfd8",
+            "name": "USB Cables",
+            "emoji": "",
+            "parent": "95db1709-543a-4cea-a075-a0382ed0b057"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "25902d78-d74c-4db1-bd1e-09e1ebe80e16",
+        "fields": {
+            "uuid": "25902d78-d74c-4db1-bd1e-09e1ebe80e16",
+            "name": "System & Power Cables",
+            "emoji": "",
+            "parent": "48844d48-6f03-45af-a2f8-9b6884fde341"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f64db676-2b86-46ef-882b-02b6307a8546",
+        "fields": {
+            "uuid": "f64db676-2b86-46ef-882b-02b6307a8546",
+            "name": "Telephone Cables",
+            "emoji": "",
+            "parent": "48844d48-6f03-45af-a2f8-9b6884fde341"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ed64e7e1-5069-4a2a-b670-3d3120c104fa",
+        "fields": {
+            "uuid": "ed64e7e1-5069-4a2a-b670-3d3120c104fa",
+            "name": "Computer Accessories",
+            "emoji": "",
+            "parent": "4a1f829f-644b-458d-9b36-45604e5a0f5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "96217444-323f-4be6-9038-5496d79539e3",
+        "fields": {
+            "uuid": "96217444-323f-4be6-9038-5496d79539e3",
+            "name": "Computer Accessory Sets",
+            "emoji": "",
+            "parent": "ed64e7e1-5069-4a2a-b670-3d3120c104fa"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "73180246-4240-4699-ad80-74c6815e373a",
+        "fields": {
+            "uuid": "73180246-4240-4699-ad80-74c6815e373a",
+            "name": "Computer Covers & Skins",
+            "emoji": "",
+            "parent": "ed64e7e1-5069-4a2a-b670-3d3120c104fa"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b321ac0b-e62a-4cd2-8224-003f67158052",
+        "fields": {
+            "uuid": "b321ac0b-e62a-4cd2-8224-003f67158052",
+            "name": "Computer Risers & Stands",
+            "emoji": "",
+            "parent": "ed64e7e1-5069-4a2a-b670-3d3120c104fa"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "733477ab-c841-4f57-9baf-501d38497667",
+        "fields": {
+            "uuid": "733477ab-c841-4f57-9baf-501d38497667",
+            "name": "Handheld Device Accessories",
+            "emoji": "",
+            "parent": "ed64e7e1-5069-4a2a-b670-3d3120c104fa"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a6ba4943-d71a-49df-95d7-f3d491c2c0a2",
+        "fields": {
+            "uuid": "a6ba4943-d71a-49df-95d7-f3d491c2c0a2",
+            "name": "E-Book Reader Accessories",
+            "emoji": "",
+            "parent": "733477ab-c841-4f57-9baf-501d38497667"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6928a82d-c4c6-48e9-9e22-3067e9578983",
+        "fields": {
+            "uuid": "6928a82d-c4c6-48e9-9e22-3067e9578983",
+            "name": "E-Book Reader Cases",
+            "emoji": "",
+            "parent": "a6ba4943-d71a-49df-95d7-f3d491c2c0a2"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "981bd0e2-68c9-4771-ae17-c25a5eddff5d",
+        "fields": {
+            "uuid": "981bd0e2-68c9-4771-ae17-c25a5eddff5d",
+            "name": "PDA Accessories",
+            "emoji": "",
+            "parent": "733477ab-c841-4f57-9baf-501d38497667"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d9089060-ae71-4047-9ee0-af75c17c58b7",
+        "fields": {
+            "uuid": "d9089060-ae71-4047-9ee0-af75c17c58b7",
+            "name": "PDA Cases",
+            "emoji": "",
+            "parent": "981bd0e2-68c9-4771-ae17-c25a5eddff5d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c11e9b67-0368-4739-86e3-f53a6a5195e0",
+        "fields": {
+            "uuid": "c11e9b67-0368-4739-86e3-f53a6a5195e0",
+            "name": "Keyboard & Mouse Wrist Rests",
+            "emoji": "",
+            "parent": "ed64e7e1-5069-4a2a-b670-3d3120c104fa"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6a5336fe-a038-42ab-9b95-d82e753bb436",
+        "fields": {
+            "uuid": "6a5336fe-a038-42ab-9b95-d82e753bb436",
+            "name": "Keyboard Trays & Platforms",
+            "emoji": "",
+            "parent": "ed64e7e1-5069-4a2a-b670-3d3120c104fa"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aa8f3bb8-d752-4eef-8f47-344b6dbd1cb1",
+        "fields": {
+            "uuid": "aa8f3bb8-d752-4eef-8f47-344b6dbd1cb1",
+            "name": "Laptop Docking Stations",
+            "emoji": "",
+            "parent": "ed64e7e1-5069-4a2a-b670-3d3120c104fa"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "70b1a16a-f0ff-4265-93d3-8600191aa119",
+        "fields": {
+            "uuid": "70b1a16a-f0ff-4265-93d3-8600191aa119",
+            "name": "Mouse Pads",
+            "emoji": "",
+            "parent": "ed64e7e1-5069-4a2a-b670-3d3120c104fa"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1e76ff8c-f0b0-499c-ac2a-b6ded78ba775",
+        "fields": {
+            "uuid": "1e76ff8c-f0b0-499c-ac2a-b6ded78ba775",
+            "name": "Stylus Pen Nibs & Refills",
+            "emoji": "",
+            "parent": "ed64e7e1-5069-4a2a-b670-3d3120c104fa"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f9cfbb16-9401-4333-a940-d980704cc238",
+        "fields": {
+            "uuid": "f9cfbb16-9401-4333-a940-d980704cc238",
+            "name": "Stylus Pens",
+            "emoji": "",
+            "parent": "ed64e7e1-5069-4a2a-b670-3d3120c104fa"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0de73001-3827-4409-848f-2ef77076390d",
+        "fields": {
+            "uuid": "0de73001-3827-4409-848f-2ef77076390d",
+            "name": "Tablet Computer Docks & Stands",
+            "emoji": "",
+            "parent": "ed64e7e1-5069-4a2a-b670-3d3120c104fa"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "63fb9af4-2cce-45ec-96d6-7437ef993ad9",
+        "fields": {
+            "uuid": "63fb9af4-2cce-45ec-96d6-7437ef993ad9",
+            "name": "Computer Components",
+            "emoji": "",
+            "parent": "4a1f829f-644b-458d-9b36-45604e5a0f5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "256f0188-cc69-4fbc-b4ed-5d0d4897ba5d",
+        "fields": {
+            "uuid": "256f0188-cc69-4fbc-b4ed-5d0d4897ba5d",
+            "name": "Blade Server Enclosures",
+            "emoji": "",
+            "parent": "63fb9af4-2cce-45ec-96d6-7437ef993ad9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "72aa4f5f-ba6b-4ada-b188-13c53af6847e",
+        "fields": {
+            "uuid": "72aa4f5f-ba6b-4ada-b188-13c53af6847e",
+            "name": "Computer Backplates & I/O Shields",
+            "emoji": "",
+            "parent": "63fb9af4-2cce-45ec-96d6-7437ef993ad9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c574928e-a2a8-477d-ba9e-6547561a6aff",
+        "fields": {
+            "uuid": "c574928e-a2a8-477d-ba9e-6547561a6aff",
+            "name": "Computer Power Supplies",
+            "emoji": "",
+            "parent": "63fb9af4-2cce-45ec-96d6-7437ef993ad9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "93e149d2-cbbf-46a7-aabb-7d72813fc854",
+        "fields": {
+            "uuid": "93e149d2-cbbf-46a7-aabb-7d72813fc854",
+            "name": "Computer Processors",
+            "emoji": "",
+            "parent": "63fb9af4-2cce-45ec-96d6-7437ef993ad9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d07b29de-0b1d-4a3f-ad4d-5a6d75ccd3da",
+        "fields": {
+            "uuid": "d07b29de-0b1d-4a3f-ad4d-5a6d75ccd3da",
+            "name": "Computer Racks & Mounts",
+            "emoji": "",
+            "parent": "63fb9af4-2cce-45ec-96d6-7437ef993ad9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7276888e-0325-42c0-8178-4a13f0aa74e7",
+        "fields": {
+            "uuid": "7276888e-0325-42c0-8178-4a13f0aa74e7",
+            "name": "Computer Starter Kits",
+            "emoji": "",
+            "parent": "63fb9af4-2cce-45ec-96d6-7437ef993ad9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f65d8476-d8b5-4384-9e1f-fd259338bf0d",
+        "fields": {
+            "uuid": "f65d8476-d8b5-4384-9e1f-fd259338bf0d",
+            "name": "Computer System Cooling Parts",
+            "emoji": "",
+            "parent": "63fb9af4-2cce-45ec-96d6-7437ef993ad9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e7e3e77e-4389-4424-a50e-657a12f9451e",
+        "fields": {
+            "uuid": "e7e3e77e-4389-4424-a50e-657a12f9451e",
+            "name": "Desktop Computer & Server Cases",
+            "emoji": "",
+            "parent": "63fb9af4-2cce-45ec-96d6-7437ef993ad9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f9d034ea-9d6c-4c3e-be59-b5741c093f23",
+        "fields": {
+            "uuid": "f9d034ea-9d6c-4c3e-be59-b5741c093f23",
+            "name": "E-Book Reader Parts",
+            "emoji": "",
+            "parent": "63fb9af4-2cce-45ec-96d6-7437ef993ad9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "63552305-39ee-46c4-8f6e-1617a7adb284",
+        "fields": {
+            "uuid": "63552305-39ee-46c4-8f6e-1617a7adb284",
+            "name": "E-Book Reader Screens & Screen Digitizers",
+            "emoji": "",
+            "parent": "f9d034ea-9d6c-4c3e-be59-b5741c093f23"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d1721c58-21f5-417b-9ab1-4c28ae03d73e",
+        "fields": {
+            "uuid": "d1721c58-21f5-417b-9ab1-4c28ae03d73e",
+            "name": "I/O Cards & Adapters",
+            "emoji": "",
+            "parent": "63fb9af4-2cce-45ec-96d6-7437ef993ad9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7893cdb1-b723-425b-8f88-b061bd1a52c1",
+        "fields": {
+            "uuid": "7893cdb1-b723-425b-8f88-b061bd1a52c1",
+            "name": "Audio Cards & Adapters",
+            "emoji": "",
+            "parent": "d1721c58-21f5-417b-9ab1-4c28ae03d73e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "431f6215-12e0-4b5d-8ffc-95a03944c25e",
+        "fields": {
+            "uuid": "431f6215-12e0-4b5d-8ffc-95a03944c25e",
+            "name": "Computer Interface Cards & Adapters",
+            "emoji": "",
+            "parent": "d1721c58-21f5-417b-9ab1-4c28ae03d73e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f7e8b69e-2cf3-48bb-b444-2f8edce4c9d0",
+        "fields": {
+            "uuid": "f7e8b69e-2cf3-48bb-b444-2f8edce4c9d0",
+            "name": "Riser Cards",
+            "emoji": "",
+            "parent": "d1721c58-21f5-417b-9ab1-4c28ae03d73e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5ebb9d6b-fccd-4e47-ad2a-e0bba5c08c6a",
+        "fields": {
+            "uuid": "5ebb9d6b-fccd-4e47-ad2a-e0bba5c08c6a",
+            "name": "TV Tuner Cards & Adapters",
+            "emoji": "",
+            "parent": "d1721c58-21f5-417b-9ab1-4c28ae03d73e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5b8d47b1-48ea-45e8-a0bc-dd0a3c946d02",
+        "fields": {
+            "uuid": "5b8d47b1-48ea-45e8-a0bc-dd0a3c946d02",
+            "name": "Video Cards & Adapters",
+            "emoji": "",
+            "parent": "d1721c58-21f5-417b-9ab1-4c28ae03d73e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2f897417-a83f-4134-bf01-c93cfde76b4a",
+        "fields": {
+            "uuid": "2f897417-a83f-4134-bf01-c93cfde76b4a",
+            "name": "Input Device Accessories",
+            "emoji": "",
+            "parent": "63fb9af4-2cce-45ec-96d6-7437ef993ad9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7241faee-5510-442f-80c6-661c2c5b944b",
+        "fields": {
+            "uuid": "7241faee-5510-442f-80c6-661c2c5b944b",
+            "name": "Barcode Scanner Stands",
+            "emoji": "",
+            "parent": "2f897417-a83f-4134-bf01-c93cfde76b4a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f0c91dc5-dbc1-4646-b200-d08a24dd8135",
+        "fields": {
+            "uuid": "f0c91dc5-dbc1-4646-b200-d08a24dd8135",
+            "name": "Game Controller Accessories",
+            "emoji": "",
+            "parent": "2f897417-a83f-4134-bf01-c93cfde76b4a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f05209e0-be98-4468-9d56-334094026cfe",
+        "fields": {
+            "uuid": "f05209e0-be98-4468-9d56-334094026cfe",
+            "name": "Game Controller Carrying Cases",
+            "emoji": "",
+            "parent": "f0c91dc5-dbc1-4646-b200-d08a24dd8135"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4fbe6c44-3646-48f5-88fa-57acb260fd94",
+        "fields": {
+            "uuid": "4fbe6c44-3646-48f5-88fa-57acb260fd94",
+            "name": "Game Controller Skins",
+            "emoji": "",
+            "parent": "f0c91dc5-dbc1-4646-b200-d08a24dd8135"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e3dc0a9b-6983-4219-9387-d1caec52d35b",
+        "fields": {
+            "uuid": "e3dc0a9b-6983-4219-9387-d1caec52d35b",
+            "name": "Thumb Grips",
+            "emoji": "",
+            "parent": "f0c91dc5-dbc1-4646-b200-d08a24dd8135"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "95ce48fa-7099-4f2d-b09b-d46b502789cd",
+        "fields": {
+            "uuid": "95ce48fa-7099-4f2d-b09b-d46b502789cd",
+            "name": "Keyboard Keys & Caps",
+            "emoji": "",
+            "parent": "2f897417-a83f-4134-bf01-c93cfde76b4a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5a066c8a-c8fb-4050-9517-9f52079abbe7",
+        "fields": {
+            "uuid": "5a066c8a-c8fb-4050-9517-9f52079abbe7",
+            "name": "Mice & Trackball Accessories",
+            "emoji": "",
+            "parent": "2f897417-a83f-4134-bf01-c93cfde76b4a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1c23da03-5253-4098-bdc9-c583fbc64bcd",
+        "fields": {
+            "uuid": "1c23da03-5253-4098-bdc9-c583fbc64bcd",
+            "name": "Mice & Trackball Carrying Cases",
+            "emoji": "",
+            "parent": "5a066c8a-c8fb-4050-9517-9f52079abbe7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6438f338-1d7f-4133-b477-1a7a87717408",
+        "fields": {
+            "uuid": "6438f338-1d7f-4133-b477-1a7a87717408",
+            "name": "Mouse Bungees",
+            "emoji": "",
+            "parent": "5a066c8a-c8fb-4050-9517-9f52079abbe7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9bc45c5c-f5ec-4da7-a840-0f550ff3ac68",
+        "fields": {
+            "uuid": "9bc45c5c-f5ec-4da7-a840-0f550ff3ac68",
+            "name": "Mouse Skates",
+            "emoji": "",
+            "parent": "5a066c8a-c8fb-4050-9517-9f52079abbe7"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0eb6f597-f8cb-40f2-9478-803248b60437",
+        "fields": {
+            "uuid": "0eb6f597-f8cb-40f2-9478-803248b60437",
+            "name": "Input Devices",
+            "emoji": "",
+            "parent": "63fb9af4-2cce-45ec-96d6-7437ef993ad9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "16495337-58da-4c2c-bc45-7424fac658ee",
+        "fields": {
+            "uuid": "16495337-58da-4c2c-bc45-7424fac658ee",
+            "name": "Barcode Scanners",
+            "emoji": "",
+            "parent": "0eb6f597-f8cb-40f2-9478-803248b60437"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2b3badeb-d6fa-42de-8a17-ee10ef878d5b",
+        "fields": {
+            "uuid": "2b3badeb-d6fa-42de-8a17-ee10ef878d5b",
+            "name": "Digital Note Taking Pens",
+            "emoji": "",
+            "parent": "0eb6f597-f8cb-40f2-9478-803248b60437"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2e76fbb0-a343-4719-9c6b-73fa4714e6ee",
+        "fields": {
+            "uuid": "2e76fbb0-a343-4719-9c6b-73fa4714e6ee",
+            "name": "Electronic Card Readers",
+            "emoji": "",
+            "parent": "0eb6f597-f8cb-40f2-9478-803248b60437"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e7e7d1d8-8468-4050-9238-7f36695e2a9c",
+        "fields": {
+            "uuid": "e7e7d1d8-8468-4050-9238-7f36695e2a9c",
+            "name": "Fingerprint Readers",
+            "emoji": "",
+            "parent": "0eb6f597-f8cb-40f2-9478-803248b60437"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "35f4cf21-6bb0-4f2b-9978-5818a9837a90",
+        "fields": {
+            "uuid": "35f4cf21-6bb0-4f2b-9978-5818a9837a90",
+            "name": "Game Controllers",
+            "emoji": "",
+            "parent": "0eb6f597-f8cb-40f2-9478-803248b60437"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "71f455ce-57ee-4159-8429-dd7d9b232111",
+        "fields": {
+            "uuid": "71f455ce-57ee-4159-8429-dd7d9b232111",
+            "name": "Game Racing Wheels",
+            "emoji": "",
+            "parent": "35f4cf21-6bb0-4f2b-9978-5818a9837a90"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "65e166e1-2826-42c6-9cbb-eaec71fc6a15",
+        "fields": {
+            "uuid": "65e166e1-2826-42c6-9cbb-eaec71fc6a15",
+            "name": "Game Remotes",
+            "emoji": "",
+            "parent": "35f4cf21-6bb0-4f2b-9978-5818a9837a90"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c18dc827-a2eb-4dd0-b83a-883998f9f2c5",
+        "fields": {
+            "uuid": "c18dc827-a2eb-4dd0-b83a-883998f9f2c5",
+            "name": "Gaming Pads",
+            "emoji": "",
+            "parent": "35f4cf21-6bb0-4f2b-9978-5818a9837a90"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e96c2865-2ef8-4d08-86a3-3c7887f13808",
+        "fields": {
+            "uuid": "e96c2865-2ef8-4d08-86a3-3c7887f13808",
+            "name": "Joystick Controllers",
+            "emoji": "",
+            "parent": "35f4cf21-6bb0-4f2b-9978-5818a9837a90"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2a8bd0ee-efe4-4642-94e0-2f7e2c337427",
+        "fields": {
+            "uuid": "2a8bd0ee-efe4-4642-94e0-2f7e2c337427",
+            "name": "Musical Instrument Game Controllers",
+            "emoji": "",
+            "parent": "35f4cf21-6bb0-4f2b-9978-5818a9837a90"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cebf4ad5-85ad-4d63-9a2a-b54cc762b9fc",
+        "fields": {
+            "uuid": "cebf4ad5-85ad-4d63-9a2a-b54cc762b9fc",
+            "name": "Gesture Control Input Devices",
+            "emoji": "",
+            "parent": "0eb6f597-f8cb-40f2-9478-803248b60437"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cfdb26d3-d1ca-4c3a-83a7-e5c02fd3d5ee",
+        "fields": {
+            "uuid": "cfdb26d3-d1ca-4c3a-83a7-e5c02fd3d5ee",
+            "name": "Graphics Tablets",
+            "emoji": "",
+            "parent": "0eb6f597-f8cb-40f2-9478-803248b60437"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "65b54409-bf89-41de-9f64-5f228c307da6",
+        "fields": {
+            "uuid": "65b54409-bf89-41de-9f64-5f228c307da6",
+            "name": "Keyboards",
+            "emoji": "",
+            "parent": "0eb6f597-f8cb-40f2-9478-803248b60437"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "612661d2-3b4b-4851-9879-9a55194b9f16",
+        "fields": {
+            "uuid": "612661d2-3b4b-4851-9879-9a55194b9f16",
+            "name": "KVM Switches",
+            "emoji": "",
+            "parent": "0eb6f597-f8cb-40f2-9478-803248b60437"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "be3575cc-21c8-44db-8093-9461fb8131f4",
+        "fields": {
+            "uuid": "be3575cc-21c8-44db-8093-9461fb8131f4",
+            "name": "Memory Card Readers",
+            "emoji": "",
+            "parent": "0eb6f597-f8cb-40f2-9478-803248b60437"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e6841769-4208-42c3-a69e-e060682a1ec2",
+        "fields": {
+            "uuid": "e6841769-4208-42c3-a69e-e060682a1ec2",
+            "name": "Mice & Trackballs",
+            "emoji": "",
+            "parent": "0eb6f597-f8cb-40f2-9478-803248b60437"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dc588be8-8ff0-484e-885d-89d7216a1b75",
+        "fields": {
+            "uuid": "dc588be8-8ff0-484e-885d-89d7216a1b75",
+            "name": "Numeric Keypads",
+            "emoji": "",
+            "parent": "0eb6f597-f8cb-40f2-9478-803248b60437"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fae38884-f3cd-4529-a293-656c1be1b7e3",
+        "fields": {
+            "uuid": "fae38884-f3cd-4529-a293-656c1be1b7e3",
+            "name": "Touchpads",
+            "emoji": "",
+            "parent": "0eb6f597-f8cb-40f2-9478-803248b60437"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "85e43aac-f991-4a12-bb99-9c698a1a275a",
+        "fields": {
+            "uuid": "85e43aac-f991-4a12-bb99-9c698a1a275a",
+            "name": "Laptop Parts",
+            "emoji": "",
+            "parent": "63fb9af4-2cce-45ec-96d6-7437ef993ad9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fe336056-6d90-4ed5-b1b1-c92a93d460e7",
+        "fields": {
+            "uuid": "fe336056-6d90-4ed5-b1b1-c92a93d460e7",
+            "name": "Laptop Hinges",
+            "emoji": "",
+            "parent": "85e43aac-f991-4a12-bb99-9c698a1a275a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "53b1b017-a5d5-473e-a6db-bc9b3196ccdb",
+        "fields": {
+            "uuid": "53b1b017-a5d5-473e-a6db-bc9b3196ccdb",
+            "name": "Laptop Housings & Trim",
+            "emoji": "",
+            "parent": "85e43aac-f991-4a12-bb99-9c698a1a275a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "150cb0dc-69d1-4e22-b7f5-c88f4b257dd3",
+        "fields": {
+            "uuid": "150cb0dc-69d1-4e22-b7f5-c88f4b257dd3",
+            "name": "Laptop Replacement Cables",
+            "emoji": "",
+            "parent": "85e43aac-f991-4a12-bb99-9c698a1a275a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "323cb20f-6827-42b3-91a9-4d609c569e50",
+        "fields": {
+            "uuid": "323cb20f-6827-42b3-91a9-4d609c569e50",
+            "name": "Laptop Replacement Keyboards",
+            "emoji": "",
+            "parent": "85e43aac-f991-4a12-bb99-9c698a1a275a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "75b3aa07-8881-440f-aa40-2ccfd00c72b4",
+        "fields": {
+            "uuid": "75b3aa07-8881-440f-aa40-2ccfd00c72b4",
+            "name": "Laptop Replacement Screens",
+            "emoji": "",
+            "parent": "85e43aac-f991-4a12-bb99-9c698a1a275a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "98f79646-3ab6-46e5-ac73-a42ec7ccb541",
+        "fields": {
+            "uuid": "98f79646-3ab6-46e5-ac73-a42ec7ccb541",
+            "name": "Laptop Replacement Speakers",
+            "emoji": "",
+            "parent": "85e43aac-f991-4a12-bb99-9c698a1a275a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8e37174d-7518-414b-be52-a95b8120d35b",
+        "fields": {
+            "uuid": "8e37174d-7518-414b-be52-a95b8120d35b",
+            "name": "Laptop Screen Digitizers",
+            "emoji": "",
+            "parent": "85e43aac-f991-4a12-bb99-9c698a1a275a"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "27052fd9-45ac-482f-9038-5b119beff957",
+        "fields": {
+            "uuid": "27052fd9-45ac-482f-9038-5b119beff957",
+            "name": "Storage Devices",
+            "emoji": "",
+            "parent": "63fb9af4-2cce-45ec-96d6-7437ef993ad9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2aebe356-31fd-497c-ba28-072266dc3716",
+        "fields": {
+            "uuid": "2aebe356-31fd-497c-ba28-072266dc3716",
+            "name": "Disk Duplicators",
+            "emoji": "",
+            "parent": "27052fd9-45ac-482f-9038-5b119beff957"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c67e9691-ab19-44db-8a3f-fa23a38d2078",
+        "fields": {
+            "uuid": "c67e9691-ab19-44db-8a3f-fa23a38d2078",
+            "name": "CD/DVD/Blu-ray Duplicators",
+            "emoji": "",
+            "parent": "2aebe356-31fd-497c-ba28-072266dc3716"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e855ac7e-4732-46d6-ba6c-962606eca21d",
+        "fields": {
+            "uuid": "e855ac7e-4732-46d6-ba6c-962606eca21d",
+            "name": "Hard Drive Duplicators",
+            "emoji": "",
+            "parent": "2aebe356-31fd-497c-ba28-072266dc3716"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "83bd7051-c095-4e8d-9a6e-411cb61a773d",
+        "fields": {
+            "uuid": "83bd7051-c095-4e8d-9a6e-411cb61a773d",
+            "name": "USB Drive Duplicators",
+            "emoji": "",
+            "parent": "2aebe356-31fd-497c-ba28-072266dc3716"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4c76ed7e-5856-4dec-a5a2-93bedd113c4c",
+        "fields": {
+            "uuid": "4c76ed7e-5856-4dec-a5a2-93bedd113c4c",
+            "name": "Hard Drive Accessories",
+            "emoji": "",
+            "parent": "27052fd9-45ac-482f-9038-5b119beff957"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "80138d9b-ed0d-4f1c-8200-ef520368b3ee",
+        "fields": {
+            "uuid": "80138d9b-ed0d-4f1c-8200-ef520368b3ee",
+            "name": "Hard Drive Carrying Cases",
+            "emoji": "",
+            "parent": "4c76ed7e-5856-4dec-a5a2-93bedd113c4c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4ebba942-deaf-4f81-9a4d-dd5eee0edc85",
+        "fields": {
+            "uuid": "4ebba942-deaf-4f81-9a4d-dd5eee0edc85",
+            "name": "Hard Drive Docks",
+            "emoji": "",
+            "parent": "4c76ed7e-5856-4dec-a5a2-93bedd113c4c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "66a0a4b6-2ec3-4037-a378-ae43d35fe709",
+        "fields": {
+            "uuid": "66a0a4b6-2ec3-4037-a378-ae43d35fe709",
+            "name": "Hard Drive Enclosures & Mounts",
+            "emoji": "",
+            "parent": "4c76ed7e-5856-4dec-a5a2-93bedd113c4c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "66f9f3fe-ec00-491b-b256-df9e52b0b722",
+        "fields": {
+            "uuid": "66f9f3fe-ec00-491b-b256-df9e52b0b722",
+            "name": "Hard Drive Arrays",
+            "emoji": "",
+            "parent": "27052fd9-45ac-482f-9038-5b119beff957"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d9b5ac28-de80-4276-a453-c37d5a735656",
+        "fields": {
+            "uuid": "d9b5ac28-de80-4276-a453-c37d5a735656",
+            "name": "Hard Drives",
+            "emoji": "",
+            "parent": "27052fd9-45ac-482f-9038-5b119beff957"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3a87a6e1-1e07-41e2-9675-301c305002c6",
+        "fields": {
+            "uuid": "3a87a6e1-1e07-41e2-9675-301c305002c6",
+            "name": "Network Storage Systems",
+            "emoji": "",
+            "parent": "27052fd9-45ac-482f-9038-5b119beff957"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3a390894-4e3a-4bbc-808e-1a2212228f35",
+        "fields": {
+            "uuid": "3a390894-4e3a-4bbc-808e-1a2212228f35",
+            "name": "Optical Drives",
+            "emoji": "",
+            "parent": "27052fd9-45ac-482f-9038-5b119beff957"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "abb40843-e406-4bcb-8c8b-8738b1507582",
+        "fields": {
+            "uuid": "abb40843-e406-4bcb-8c8b-8738b1507582",
+            "name": "Tape Drives",
+            "emoji": "",
+            "parent": "27052fd9-45ac-482f-9038-5b119beff957"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6ba6aeab-9373-4aac-af77-253b4f434c8c",
+        "fields": {
+            "uuid": "6ba6aeab-9373-4aac-af77-253b4f434c8c",
+            "name": "USB Flash Drives",
+            "emoji": "",
+            "parent": "27052fd9-45ac-482f-9038-5b119beff957"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c67e8119-9c79-4c74-9392-a3435f046aa5",
+        "fields": {
+            "uuid": "c67e8119-9c79-4c74-9392-a3435f046aa5",
+            "name": "Tablet Computer Parts",
+            "emoji": "",
+            "parent": "63fb9af4-2cce-45ec-96d6-7437ef993ad9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a8b20387-3ac9-4bd6-81e7-93c9912ea064",
+        "fields": {
+            "uuid": "a8b20387-3ac9-4bd6-81e7-93c9912ea064",
+            "name": "Tablet Computer Housings & Trim",
+            "emoji": "",
+            "parent": "c67e8119-9c79-4c74-9392-a3435f046aa5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "682d7f30-2e4b-47db-87d3-e8e99ce3ff47",
+        "fields": {
+            "uuid": "682d7f30-2e4b-47db-87d3-e8e99ce3ff47",
+            "name": "Tablet Computer Replacement Speakers",
+            "emoji": "",
+            "parent": "c67e8119-9c79-4c74-9392-a3435f046aa5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "06b67d6d-cd70-4e36-b6ab-cbb4cab2ebcc",
+        "fields": {
+            "uuid": "06b67d6d-cd70-4e36-b6ab-cbb4cab2ebcc",
+            "name": "Tablet Computer Screens & Screen Digitizers",
+            "emoji": "",
+            "parent": "c67e8119-9c79-4c74-9392-a3435f046aa5"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3d608675-e8f1-4944-ae67-50ddddb076b2",
+        "fields": {
+            "uuid": "3d608675-e8f1-4944-ae67-50ddddb076b2",
+            "name": "USB & FireWire Hubs",
+            "emoji": "",
+            "parent": "63fb9af4-2cce-45ec-96d6-7437ef993ad9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "424eea3f-4eb2-44f9-b7d1-256f2a504348",
+        "fields": {
+            "uuid": "424eea3f-4eb2-44f9-b7d1-256f2a504348",
+            "name": "Electronics Cleaners",
+            "emoji": "",
+            "parent": "4a1f829f-644b-458d-9b36-45604e5a0f5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8510d3b1-806c-49e6-81ba-17866388a881",
+        "fields": {
+            "uuid": "8510d3b1-806c-49e6-81ba-17866388a881",
+            "name": "Electronics Films & Shields",
+            "emoji": "",
+            "parent": "4a1f829f-644b-458d-9b36-45604e5a0f5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "38029588-5635-4657-b7d5-16d517a0eedd",
+        "fields": {
+            "uuid": "38029588-5635-4657-b7d5-16d517a0eedd",
+            "name": "Dust Covers",
+            "emoji": "",
+            "parent": "8510d3b1-806c-49e6-81ba-17866388a881"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f8cf1957-120d-4234-81f6-557372f9aed9",
+        "fields": {
+            "uuid": "f8cf1957-120d-4234-81f6-557372f9aed9",
+            "name": "Electronics Stickers & Decals",
+            "emoji": "",
+            "parent": "8510d3b1-806c-49e6-81ba-17866388a881"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8058adc9-8cad-4c8a-801e-f6a4f31bfd7b",
+        "fields": {
+            "uuid": "8058adc9-8cad-4c8a-801e-f6a4f31bfd7b",
+            "name": "Keyboard Protectors",
+            "emoji": "",
+            "parent": "8510d3b1-806c-49e6-81ba-17866388a881"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6559d144-85b9-4000-b0a4-18771403ac28",
+        "fields": {
+            "uuid": "6559d144-85b9-4000-b0a4-18771403ac28",
+            "name": "Privacy Filters",
+            "emoji": "",
+            "parent": "8510d3b1-806c-49e6-81ba-17866388a881"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6426ab6d-059a-418f-8b46-353eb1ca89e7",
+        "fields": {
+            "uuid": "6426ab6d-059a-418f-8b46-353eb1ca89e7",
+            "name": "Screen Protectors",
+            "emoji": "",
+            "parent": "8510d3b1-806c-49e6-81ba-17866388a881"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cc027ee7-8e92-46d7-9dde-55891bbd399d",
+        "fields": {
+            "uuid": "cc027ee7-8e92-46d7-9dde-55891bbd399d",
+            "name": "Memory",
+            "emoji": "",
+            "parent": "4a1f829f-644b-458d-9b36-45604e5a0f5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1dd3338e-22aa-412a-aaeb-85f16b0590c8",
+        "fields": {
+            "uuid": "1dd3338e-22aa-412a-aaeb-85f16b0590c8",
+            "name": "Cache Memory",
+            "emoji": "",
+            "parent": "cc027ee7-8e92-46d7-9dde-55891bbd399d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "341d1cfa-ed0a-47fe-856d-142aa16bfd64",
+        "fields": {
+            "uuid": "341d1cfa-ed0a-47fe-856d-142aa16bfd64",
+            "name": "Flash Memory",
+            "emoji": "",
+            "parent": "cc027ee7-8e92-46d7-9dde-55891bbd399d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cc2e827d-e499-40c8-a3fd-d451d7116195",
+        "fields": {
+            "uuid": "cc2e827d-e499-40c8-a3fd-d451d7116195",
+            "name": "Flash Memory Cards",
+            "emoji": "",
+            "parent": "341d1cfa-ed0a-47fe-856d-142aa16bfd64"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ece6d0c0-edd5-40fa-8d82-664e812b1c5e",
+        "fields": {
+            "uuid": "ece6d0c0-edd5-40fa-8d82-664e812b1c5e",
+            "name": "RAM",
+            "emoji": "",
+            "parent": "cc027ee7-8e92-46d7-9dde-55891bbd399d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c080a20d-892a-47fb-9102-ad0f8c84fafb",
+        "fields": {
+            "uuid": "c080a20d-892a-47fb-9102-ad0f8c84fafb",
+            "name": "ROM",
+            "emoji": "",
+            "parent": "cc027ee7-8e92-46d7-9dde-55891bbd399d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a73e2332-3b3b-4a12-9ca9-855e02621c5d",
+        "fields": {
+            "uuid": "a73e2332-3b3b-4a12-9ca9-855e02621c5d",
+            "name": "Video Memory",
+            "emoji": "",
+            "parent": "cc027ee7-8e92-46d7-9dde-55891bbd399d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7ee1db8b-a3ec-4795-bb99-ee6883d87eca",
+        "fields": {
+            "uuid": "7ee1db8b-a3ec-4795-bb99-ee6883d87eca",
+            "name": "Memory Accessories",
+            "emoji": "",
+            "parent": "4a1f829f-644b-458d-9b36-45604e5a0f5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "04554dde-20d1-43de-a0fa-83605bba2cd3",
+        "fields": {
+            "uuid": "04554dde-20d1-43de-a0fa-83605bba2cd3",
+            "name": "Memory Cases",
+            "emoji": "",
+            "parent": "7ee1db8b-a3ec-4795-bb99-ee6883d87eca"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "40fa5618-9ee9-4704-97c4-5b4081d90079",
+        "fields": {
+            "uuid": "40fa5618-9ee9-4704-97c4-5b4081d90079",
+            "name": "Mobile Phone & Tablet Tripods & Monopods",
+            "emoji": "",
+            "parent": "4a1f829f-644b-458d-9b36-45604e5a0f5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a457d323-7a02-4b32-821f-4183e1e95d46",
+        "fields": {
+            "uuid": "a457d323-7a02-4b32-821f-4183e1e95d46",
+            "name": "Power",
+            "emoji": "",
+            "parent": "4a1f829f-644b-458d-9b36-45604e5a0f5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1dd21d6a-b0cb-4d62-bb37-d166789ad628",
+        "fields": {
+            "uuid": "1dd21d6a-b0cb-4d62-bb37-d166789ad628",
+            "name": "Batteries",
+            "emoji": "",
+            "parent": "a457d323-7a02-4b32-821f-4183e1e95d46"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dd2ab9d0-e965-4717-a9f7-b94a28cdb584",
+        "fields": {
+            "uuid": "dd2ab9d0-e965-4717-a9f7-b94a28cdb584",
+            "name": "Camera Batteries",
+            "emoji": "",
+            "parent": "1dd21d6a-b0cb-4d62-bb37-d166789ad628"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "88c256b2-e993-445e-b383-be2e9cc44cb5",
+        "fields": {
+            "uuid": "88c256b2-e993-445e-b383-be2e9cc44cb5",
+            "name": "Cordless Phone Batteries",
+            "emoji": "",
+            "parent": "1dd21d6a-b0cb-4d62-bb37-d166789ad628"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3d0b0252-e863-446b-a854-a7ab5db81cf1",
+        "fields": {
+            "uuid": "3d0b0252-e863-446b-a854-a7ab5db81cf1",
+            "name": "E-Book Reader Batteries",
+            "emoji": "",
+            "parent": "1dd21d6a-b0cb-4d62-bb37-d166789ad628"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f276e96c-0ac0-413f-ab39-33c68c02dea8",
+        "fields": {
+            "uuid": "f276e96c-0ac0-413f-ab39-33c68c02dea8",
+            "name": "General Purpose Batteries",
+            "emoji": "",
+            "parent": "1dd21d6a-b0cb-4d62-bb37-d166789ad628"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2487d6b8-5cb4-4b53-971a-c54d67153550",
+        "fields": {
+            "uuid": "2487d6b8-5cb4-4b53-971a-c54d67153550",
+            "name": "Laptop Batteries",
+            "emoji": "",
+            "parent": "1dd21d6a-b0cb-4d62-bb37-d166789ad628"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2bf016c0-b8f0-4aa9-ba9b-e04ec4e02aec",
+        "fields": {
+            "uuid": "2bf016c0-b8f0-4aa9-ba9b-e04ec4e02aec",
+            "name": "Mobile Phone Batteries",
+            "emoji": "",
+            "parent": "1dd21d6a-b0cb-4d62-bb37-d166789ad628"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6cab2fed-d5df-487c-8186-b1d14c158615",
+        "fields": {
+            "uuid": "6cab2fed-d5df-487c-8186-b1d14c158615",
+            "name": "MP3 Player Batteries",
+            "emoji": "",
+            "parent": "1dd21d6a-b0cb-4d62-bb37-d166789ad628"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c9ad2579-619e-475e-9a72-a2cbdb102d55",
+        "fields": {
+            "uuid": "c9ad2579-619e-475e-9a72-a2cbdb102d55",
+            "name": "PDA Batteries",
+            "emoji": "",
+            "parent": "1dd21d6a-b0cb-4d62-bb37-d166789ad628"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ffaed765-bbc6-4bff-899e-1eeab212a1ed",
+        "fields": {
+            "uuid": "ffaed765-bbc6-4bff-899e-1eeab212a1ed",
+            "name": "Tablet Computer Batteries",
+            "emoji": "",
+            "parent": "1dd21d6a-b0cb-4d62-bb37-d166789ad628"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f76b3873-5e0a-4ea8-ad8a-172393d5ea4f",
+        "fields": {
+            "uuid": "f76b3873-5e0a-4ea8-ad8a-172393d5ea4f",
+            "name": "UPS Batteries",
+            "emoji": "",
+            "parent": "1dd21d6a-b0cb-4d62-bb37-d166789ad628"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8b7d15f3-16ac-456e-93cd-2db25d6833a7",
+        "fields": {
+            "uuid": "8b7d15f3-16ac-456e-93cd-2db25d6833a7",
+            "name": "Video Camera Batteries",
+            "emoji": "",
+            "parent": "1dd21d6a-b0cb-4d62-bb37-d166789ad628"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3047febd-c215-42cb-a30d-ed700a63b575",
+        "fields": {
+            "uuid": "3047febd-c215-42cb-a30d-ed700a63b575",
+            "name": "Video Game Console & Controller Batteries",
+            "emoji": "",
+            "parent": "1dd21d6a-b0cb-4d62-bb37-d166789ad628"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7c97c1e5-575d-4f0c-8f11-9c4f6f311f98",
+        "fields": {
+            "uuid": "7c97c1e5-575d-4f0c-8f11-9c4f6f311f98",
+            "name": "Battery Accessories",
+            "emoji": "",
+            "parent": "a457d323-7a02-4b32-821f-4183e1e95d46"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "61772986-07b4-47cf-97e5-f65d0ad41fbb",
+        "fields": {
+            "uuid": "61772986-07b4-47cf-97e5-f65d0ad41fbb",
+            "name": "Battery Charge Controllers",
+            "emoji": "",
+            "parent": "7c97c1e5-575d-4f0c-8f11-9c4f6f311f98"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c09ad313-248f-4abb-ae67-42d6d3ab1cfe",
+        "fields": {
+            "uuid": "c09ad313-248f-4abb-ae67-42d6d3ab1cfe",
+            "name": "Battery Holders",
+            "emoji": "",
+            "parent": "7c97c1e5-575d-4f0c-8f11-9c4f6f311f98"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ae811fa9-23bf-4ed7-a53d-36b749ad55d0",
+        "fields": {
+            "uuid": "ae811fa9-23bf-4ed7-a53d-36b749ad55d0",
+            "name": "Camera Battery Chargers",
+            "emoji": "",
+            "parent": "7c97c1e5-575d-4f0c-8f11-9c4f6f311f98"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "718bea92-2261-4615-9d1d-7111b2142acd",
+        "fields": {
+            "uuid": "718bea92-2261-4615-9d1d-7111b2142acd",
+            "name": "General Purpose Battery Chargers",
+            "emoji": "",
+            "parent": "7c97c1e5-575d-4f0c-8f11-9c4f6f311f98"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a2955364-c7c2-480f-b489-f76aae0d226f",
+        "fields": {
+            "uuid": "a2955364-c7c2-480f-b489-f76aae0d226f",
+            "name": "General Purpose Battery Testers",
+            "emoji": "",
+            "parent": "7c97c1e5-575d-4f0c-8f11-9c4f6f311f98"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "73fbf64e-25cc-4a4e-9ce5-037b7cb8d23c",
+        "fields": {
+            "uuid": "73fbf64e-25cc-4a4e-9ce5-037b7cb8d23c",
+            "name": "Fuel Cells",
+            "emoji": "",
+            "parent": "a457d323-7a02-4b32-821f-4183e1e95d46"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "626be7e9-6426-4e2d-8aa7-29ce0551165e",
+        "fields": {
+            "uuid": "626be7e9-6426-4e2d-8aa7-29ce0551165e",
+            "name": "Power Adapter & Charger Accessories",
+            "emoji": "",
+            "parent": "a457d323-7a02-4b32-821f-4183e1e95d46"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "65ba32dc-f895-4a1b-b168-6684ad232b34",
+        "fields": {
+            "uuid": "65ba32dc-f895-4a1b-b168-6684ad232b34",
+            "name": "Charger Protective Cases",
+            "emoji": "",
+            "parent": "626be7e9-6426-4e2d-8aa7-29ce0551165e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1a5ae7a4-89f7-44e1-a10b-7f1285d900fb",
+        "fields": {
+            "uuid": "1a5ae7a4-89f7-44e1-a10b-7f1285d900fb",
+            "name": "Replacement Cords",
+            "emoji": "",
+            "parent": "626be7e9-6426-4e2d-8aa7-29ce0551165e"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "daf3287b-8292-495e-ae14-864ce3071b19",
+        "fields": {
+            "uuid": "daf3287b-8292-495e-ae14-864ce3071b19",
+            "name": "Power Adapters & Chargers",
+            "emoji": "",
+            "parent": "a457d323-7a02-4b32-821f-4183e1e95d46"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a8fb8003-80a9-4d2c-b66b-b047b74ee5e5",
+        "fields": {
+            "uuid": "a8fb8003-80a9-4d2c-b66b-b047b74ee5e5",
+            "name": "Power Banks",
+            "emoji": "",
+            "parent": "daf3287b-8292-495e-ae14-864ce3071b19"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d92a6730-dd57-4b56-8a56-6f5220397d17",
+        "fields": {
+            "uuid": "d92a6730-dd57-4b56-8a56-6f5220397d17",
+            "name": "Wireless Chargers",
+            "emoji": "",
+            "parent": "daf3287b-8292-495e-ae14-864ce3071b19"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f75626db-0709-4f59-8517-144ad996bda9",
+        "fields": {
+            "uuid": "f75626db-0709-4f59-8517-144ad996bda9",
+            "name": "Power Control Units",
+            "emoji": "",
+            "parent": "a457d323-7a02-4b32-821f-4183e1e95d46"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "fdfb0d4d-802f-4fb2-82c4-ae6b782759fd",
+        "fields": {
+            "uuid": "fdfb0d4d-802f-4fb2-82c4-ae6b782759fd",
+            "name": "Power Stations",
+            "emoji": "",
+            "parent": "a457d323-7a02-4b32-821f-4183e1e95d46"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "aa32ba2a-57ba-40cc-888b-b5926607c403",
+        "fields": {
+            "uuid": "aa32ba2a-57ba-40cc-888b-b5926607c403",
+            "name": "Power Strips & Surge Suppressors",
+            "emoji": "",
+            "parent": "a457d323-7a02-4b32-821f-4183e1e95d46"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7c3fa6c6-1255-4c56-9098-5676586d17e6",
+        "fields": {
+            "uuid": "7c3fa6c6-1255-4c56-9098-5676586d17e6",
+            "name": "Power Supply Enclosures",
+            "emoji": "",
+            "parent": "a457d323-7a02-4b32-821f-4183e1e95d46"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "cc157e41-6308-4679-b09c-854b0ff50ba7",
+        "fields": {
+            "uuid": "cc157e41-6308-4679-b09c-854b0ff50ba7",
+            "name": "Surge Protection Devices",
+            "emoji": "",
+            "parent": "a457d323-7a02-4b32-821f-4183e1e95d46"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4db7858d-ad35-4e02-a5c9-dbb97852d2a6",
+        "fields": {
+            "uuid": "4db7858d-ad35-4e02-a5c9-dbb97852d2a6",
+            "name": "Travel Converters & Adapters",
+            "emoji": "",
+            "parent": "a457d323-7a02-4b32-821f-4183e1e95d46"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3b85c113-f24f-4b96-a410-269e416a5cd3",
+        "fields": {
+            "uuid": "3b85c113-f24f-4b96-a410-269e416a5cd3",
+            "name": "UPS",
+            "emoji": "",
+            "parent": "a457d323-7a02-4b32-821f-4183e1e95d46"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c3509dd0-553f-4386-8465-861657590f17",
+        "fields": {
+            "uuid": "c3509dd0-553f-4386-8465-861657590f17",
+            "name": "UPS Accessories",
+            "emoji": "",
+            "parent": "a457d323-7a02-4b32-821f-4183e1e95d46"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7b40bf18-7cc3-4cf1-ad98-4f6e605f7e54",
+        "fields": {
+            "uuid": "7b40bf18-7cc3-4cf1-ad98-4f6e605f7e54",
+            "name": "UPS Rack Mounting Kits",
+            "emoji": "",
+            "parent": "c3509dd0-553f-4386-8465-861657590f17"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "79f86e83-7f7c-4d1e-85f7-dbed97e9149e",
+        "fields": {
+            "uuid": "79f86e83-7f7c-4d1e-85f7-dbed97e9149e",
+            "name": "Remote Controls",
+            "emoji": "",
+            "parent": "4a1f829f-644b-458d-9b36-45604e5a0f5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dafc3e74-a5dd-4ce9-9662-a96726c73623",
+        "fields": {
+            "uuid": "dafc3e74-a5dd-4ce9-9662-a96726c73623",
+            "name": "Signal Boosters",
+            "emoji": "",
+            "parent": "4a1f829f-644b-458d-9b36-45604e5a0f5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d8c369d9-77a5-4183-8516-e85506aae285",
+        "fields": {
+            "uuid": "d8c369d9-77a5-4183-8516-e85506aae285",
+            "name": "Signal Jammers",
+            "emoji": "",
+            "parent": "4a1f829f-644b-458d-9b36-45604e5a0f5f"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b3eddbd1-707e-4215-be2f-b44852f67a08",
+        "fields": {
+            "uuid": "b3eddbd1-707e-4215-be2f-b44852f67a08",
+            "name": "GPS Jammers",
+            "emoji": "",
+            "parent": "d8c369d9-77a5-4183-8516-e85506aae285"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7c68ec2f-7c1f-487a-97a8-21f08cad1c27",
+        "fields": {
+            "uuid": "7c68ec2f-7c1f-487a-97a8-21f08cad1c27",
+            "name": "Mobile Phone Jammers",
+            "emoji": "",
+            "parent": "d8c369d9-77a5-4183-8516-e85506aae285"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "889d319c-655a-48f8-8df0-8e2725347dad",
+        "fields": {
+            "uuid": "889d319c-655a-48f8-8df0-8e2725347dad",
+            "name": "Radar Jammers",
+            "emoji": "",
+            "parent": "d8c369d9-77a5-4183-8516-e85506aae285"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "123c7dd9-60d3-464a-b578-bdca2ff1e733",
+        "fields": {
+            "uuid": "123c7dd9-60d3-464a-b578-bdca2ff1e733",
+            "name": "GPS Accessories",
+            "emoji": "",
+            "parent": "90e90a7c-1fca-47e1-90da-d2ad928a6f31"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f25c0357-a0d4-4c73-ad69-193aca137b65",
+        "fields": {
+            "uuid": "f25c0357-a0d4-4c73-ad69-193aca137b65",
+            "name": "GPS Cases",
+            "emoji": "",
+            "parent": "123c7dd9-60d3-464a-b578-bdca2ff1e733"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b5199cba-8b11-426b-a5de-4baf7e3ef36f",
+        "fields": {
+            "uuid": "b5199cba-8b11-426b-a5de-4baf7e3ef36f",
+            "name": "GPS Mounts",
+            "emoji": "",
+            "parent": "123c7dd9-60d3-464a-b578-bdca2ff1e733"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "38ab64b1-0831-44d2-8aec-3b61d5c41436",
+        "fields": {
+            "uuid": "38ab64b1-0831-44d2-8aec-3b61d5c41436",
+            "name": "GPS Navigation Systems",
+            "emoji": "",
+            "parent": "90e90a7c-1fca-47e1-90da-d2ad928a6f31"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "531b2753-8caa-4775-a21d-0af85af46222",
+        "fields": {
+            "uuid": "531b2753-8caa-4775-a21d-0af85af46222",
+            "name": "GPS Tracking Devices",
+            "emoji": "",
+            "parent": "90e90a7c-1fca-47e1-90da-d2ad928a6f31"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "94ca1f4f-69bb-4b69-96ca-c63ff11fd4e3",
+        "fields": {
+            "uuid": "94ca1f4f-69bb-4b69-96ca-c63ff11fd4e3",
+            "name": "Marine Electronics",
+            "emoji": "",
+            "parent": "90e90a7c-1fca-47e1-90da-d2ad928a6f31"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "08654c58-de59-4694-b9b7-7990ffa0b8e9",
+        "fields": {
+            "uuid": "08654c58-de59-4694-b9b7-7990ffa0b8e9",
+            "name": "Fish Finders",
+            "emoji": "",
+            "parent": "94ca1f4f-69bb-4b69-96ca-c63ff11fd4e3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "77e0d1bd-1545-42b2-b76d-6ea255108686",
+        "fields": {
+            "uuid": "77e0d1bd-1545-42b2-b76d-6ea255108686",
+            "name": "Marine Audio & Video Receivers",
+            "emoji": "",
+            "parent": "94ca1f4f-69bb-4b69-96ca-c63ff11fd4e3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a118de4d-bb5c-4d16-aa95-4686124dfcda",
+        "fields": {
+            "uuid": "a118de4d-bb5c-4d16-aa95-4686124dfcda",
+            "name": "Marine Chartplotters & GPS",
+            "emoji": "",
+            "parent": "94ca1f4f-69bb-4b69-96ca-c63ff11fd4e3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "75fa67ed-e5a3-4d3a-8cd5-d4c8f4f1d518",
+        "fields": {
+            "uuid": "75fa67ed-e5a3-4d3a-8cd5-d4c8f4f1d518",
+            "name": "Marine Radar",
+            "emoji": "",
+            "parent": "94ca1f4f-69bb-4b69-96ca-c63ff11fd4e3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c20a9828-6f4d-407d-91ff-3ed71cc937ef",
+        "fields": {
+            "uuid": "c20a9828-6f4d-407d-91ff-3ed71cc937ef",
+            "name": "Marine Radios",
+            "emoji": "",
+            "parent": "94ca1f4f-69bb-4b69-96ca-c63ff11fd4e3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "eedef221-5586-40a8-8978-56e1ebe5580b",
+        "fields": {
+            "uuid": "eedef221-5586-40a8-8978-56e1ebe5580b",
+            "name": "Marine Speakers",
+            "emoji": "",
+            "parent": "94ca1f4f-69bb-4b69-96ca-c63ff11fd4e3"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "30e760b5-6044-4ed6-bf92-88bb255363de",
+        "fields": {
+            "uuid": "30e760b5-6044-4ed6-bf92-88bb255363de",
+            "name": "Networking",
+            "emoji": "",
+            "parent": "90e90a7c-1fca-47e1-90da-d2ad928a6f31"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "af542c3a-88d1-4569-be41-67fc85ec2cf6",
+        "fields": {
+            "uuid": "af542c3a-88d1-4569-be41-67fc85ec2cf6",
+            "name": "Bridges & Routers",
+            "emoji": "",
+            "parent": "30e760b5-6044-4ed6-bf92-88bb255363de"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e864d295-d015-44b9-8fff-e14feb678a04",
+        "fields": {
+            "uuid": "e864d295-d015-44b9-8fff-e14feb678a04",
+            "name": "Network Bridges",
+            "emoji": "",
+            "parent": "af542c3a-88d1-4569-be41-67fc85ec2cf6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "574cde91-6759-45bd-b1c8-182b92884d1d",
+        "fields": {
+            "uuid": "574cde91-6759-45bd-b1c8-182b92884d1d",
+            "name": "VoIP Gateways & Routers",
+            "emoji": "",
+            "parent": "af542c3a-88d1-4569-be41-67fc85ec2cf6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "db3f2c5c-a57b-4fbd-851b-9628271b8386",
+        "fields": {
+            "uuid": "db3f2c5c-a57b-4fbd-851b-9628271b8386",
+            "name": "Wireless Access Points",
+            "emoji": "",
+            "parent": "af542c3a-88d1-4569-be41-67fc85ec2cf6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "49409ec7-b5bc-4765-af37-78c9a5d40c25",
+        "fields": {
+            "uuid": "49409ec7-b5bc-4765-af37-78c9a5d40c25",
+            "name": "Wireless Routers",
+            "emoji": "",
+            "parent": "af542c3a-88d1-4569-be41-67fc85ec2cf6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e72feb62-4bcc-478d-941d-07f2ce294701",
+        "fields": {
+            "uuid": "e72feb62-4bcc-478d-941d-07f2ce294701",
+            "name": "Concentrators & Multiplexers",
+            "emoji": "",
+            "parent": "30e760b5-6044-4ed6-bf92-88bb255363de"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7b8d0a3d-4b6e-4220-bbca-714cd3f5b0b6",
+        "fields": {
+            "uuid": "7b8d0a3d-4b6e-4220-bbca-714cd3f5b0b6",
+            "name": "Hubs & Switches",
+            "emoji": "",
+            "parent": "30e760b5-6044-4ed6-bf92-88bb255363de"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "03ad2c86-2a55-40b1-b5dc-8432dd142347",
+        "fields": {
+            "uuid": "03ad2c86-2a55-40b1-b5dc-8432dd142347",
+            "name": "Gigabit Switches",
+            "emoji": "",
+            "parent": "7b8d0a3d-4b6e-4220-bbca-714cd3f5b0b6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6581d959-364d-4351-9138-23983b4b2676",
+        "fields": {
+            "uuid": "6581d959-364d-4351-9138-23983b4b2676",
+            "name": "Layer 2 Switches",
+            "emoji": "",
+            "parent": "7b8d0a3d-4b6e-4220-bbca-714cd3f5b0b6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "22c0464a-88eb-4d43-af27-03fcddd3d816",
+        "fields": {
+            "uuid": "22c0464a-88eb-4d43-af27-03fcddd3d816",
+            "name": "Layer 3 Switches",
+            "emoji": "",
+            "parent": "7b8d0a3d-4b6e-4220-bbca-714cd3f5b0b6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "843275a9-ce72-4535-80be-eb245086d82c",
+        "fields": {
+            "uuid": "843275a9-ce72-4535-80be-eb245086d82c",
+            "name": "Managed Switches",
+            "emoji": "",
+            "parent": "7b8d0a3d-4b6e-4220-bbca-714cd3f5b0b6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b5551058-70c1-44df-a538-d9e4928b9414",
+        "fields": {
+            "uuid": "b5551058-70c1-44df-a538-d9e4928b9414",
+            "name": "Modular Switches",
+            "emoji": "",
+            "parent": "7b8d0a3d-4b6e-4220-bbca-714cd3f5b0b6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f94aa939-c211-4cc9-92e3-d0533d28385d",
+        "fields": {
+            "uuid": "f94aa939-c211-4cc9-92e3-d0533d28385d",
+            "name": "Power Over Ethernet Switches",
+            "emoji": "",
+            "parent": "7b8d0a3d-4b6e-4220-bbca-714cd3f5b0b6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2ab2593d-7a77-4a10-9ba5-1fa7f5b6c756",
+        "fields": {
+            "uuid": "2ab2593d-7a77-4a10-9ba5-1fa7f5b6c756",
+            "name": "Smart Switches",
+            "emoji": "",
+            "parent": "7b8d0a3d-4b6e-4220-bbca-714cd3f5b0b6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "51412c21-a7eb-4a74-bd57-1fcfd66e0ec5",
+        "fields": {
+            "uuid": "51412c21-a7eb-4a74-bd57-1fcfd66e0ec5",
+            "name": "Stackable Switches",
+            "emoji": "",
+            "parent": "7b8d0a3d-4b6e-4220-bbca-714cd3f5b0b6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "686044d0-511e-4064-b16b-f4be10d92398",
+        "fields": {
+            "uuid": "686044d0-511e-4064-b16b-f4be10d92398",
+            "name": "Unmanaged Switches",
+            "emoji": "",
+            "parent": "7b8d0a3d-4b6e-4220-bbca-714cd3f5b0b6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "25a44b66-fc34-4911-b202-28112bda53ed",
+        "fields": {
+            "uuid": "25a44b66-fc34-4911-b202-28112bda53ed",
+            "name": "Modem Accessories",
+            "emoji": "",
+            "parent": "30e760b5-6044-4ed6-bf92-88bb255363de"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "604bb45b-2ae6-426e-93a2-515736021842",
+        "fields": {
+            "uuid": "604bb45b-2ae6-426e-93a2-515736021842",
+            "name": "Modems",
+            "emoji": "",
+            "parent": "30e760b5-6044-4ed6-bf92-88bb255363de"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "675219b6-36d3-43a3-a618-f53f781f1631",
+        "fields": {
+            "uuid": "675219b6-36d3-43a3-a618-f53f781f1631",
+            "name": "Network Cards & Adapters",
+            "emoji": "",
+            "parent": "30e760b5-6044-4ed6-bf92-88bb255363de"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6f2203ff-38ad-495c-8325-48fb9276a23d",
+        "fields": {
+            "uuid": "6f2203ff-38ad-495c-8325-48fb9276a23d",
+            "name": "Network Security & Firewall Devices",
+            "emoji": "",
+            "parent": "30e760b5-6044-4ed6-bf92-88bb255363de"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "454aac6c-cbd5-48e2-bd54-fbc1a298ae1a",
+        "fields": {
+            "uuid": "454aac6c-cbd5-48e2-bd54-fbc1a298ae1a",
+            "name": "Power Over Ethernet Adapters",
+            "emoji": "",
+            "parent": "30e760b5-6044-4ed6-bf92-88bb255363de"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2e4e891c-ab53-4ea1-8639-ffb93b163d6a",
+        "fields": {
+            "uuid": "2e4e891c-ab53-4ea1-8639-ffb93b163d6a",
+            "name": "Print Servers",
+            "emoji": "",
+            "parent": "30e760b5-6044-4ed6-bf92-88bb255363de"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a7fd179a-c846-4757-8441-0e9b7f181701",
+        "fields": {
+            "uuid": "a7fd179a-c846-4757-8441-0e9b7f181701",
+            "name": "Repeaters & Transceivers",
+            "emoji": "",
+            "parent": "30e760b5-6044-4ed6-bf92-88bb255363de"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5fba3612-4013-4325-ae2f-c9216f2c5951",
+        "fields": {
+            "uuid": "5fba3612-4013-4325-ae2f-c9216f2c5951",
+            "name": "Print, Copy, Scan & Fax",
+            "emoji": "",
+            "parent": "90e90a7c-1fca-47e1-90da-d2ad928a6f31"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b43b3c28-9148-471d-b1ea-83a715493002",
+        "fields": {
+            "uuid": "b43b3c28-9148-471d-b1ea-83a715493002",
+            "name": "3D Printer Accessories",
+            "emoji": "",
+            "parent": "5fba3612-4013-4325-ae2f-c9216f2c5951"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "11cde6b5-9399-425c-bd31-bfabc4598238",
+        "fields": {
+            "uuid": "11cde6b5-9399-425c-bd31-bfabc4598238",
+            "name": "3D Printer Carrying Cases",
+            "emoji": "",
+            "parent": "b43b3c28-9148-471d-b1ea-83a715493002"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "08f98ab0-4ff2-4338-a5e4-386bd45c7d71",
+        "fields": {
+            "uuid": "08f98ab0-4ff2-4338-a5e4-386bd45c7d71",
+            "name": "3D Printer Cleaning Kits",
+            "emoji": "",
+            "parent": "b43b3c28-9148-471d-b1ea-83a715493002"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "43b6fbdc-1cc8-4a4a-bf4d-3afd170cf7b8",
+        "fields": {
+            "uuid": "43b6fbdc-1cc8-4a4a-bf4d-3afd170cf7b8",
+            "name": "Build Tape",
+            "emoji": "",
+            "parent": "b43b3c28-9148-471d-b1ea-83a715493002"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ec87ed3b-92fd-4fa1-bd14-097ff301f211",
+        "fields": {
+            "uuid": "ec87ed3b-92fd-4fa1-bd14-097ff301f211",
+            "name": "Extruders",
+            "emoji": "",
+            "parent": "b43b3c28-9148-471d-b1ea-83a715493002"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f2f8f8b1-7dc1-47e5-ba2f-4648504ca59f",
+        "fields": {
+            "uuid": "f2f8f8b1-7dc1-47e5-ba2f-4648504ca59f",
+            "name": "Filaments",
+            "emoji": "",
+            "parent": "b43b3c28-9148-471d-b1ea-83a715493002"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9a851a0f-cc01-4bcc-a016-0b597d772d2d",
+        "fields": {
+            "uuid": "9a851a0f-cc01-4bcc-a016-0b597d772d2d",
+            "name": "Nozzles",
+            "emoji": "",
+            "parent": "b43b3c28-9148-471d-b1ea-83a715493002"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1e595f62-dd99-468c-bc5c-83cf0cd31589",
+        "fields": {
+            "uuid": "1e595f62-dd99-468c-bc5c-83cf0cd31589",
+            "name": "Print Beds",
+            "emoji": "",
+            "parent": "b43b3c28-9148-471d-b1ea-83a715493002"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "949b9b4f-51f1-43bc-8bee-5bae65e1a1c1",
+        "fields": {
+            "uuid": "949b9b4f-51f1-43bc-8bee-5bae65e1a1c1",
+            "name": "3D Printers",
+            "emoji": "",
+            "parent": "5fba3612-4013-4325-ae2f-c9216f2c5951"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "81f4323a-7e76-4e5c-8708-80565a4c6566",
+        "fields": {
+            "uuid": "81f4323a-7e76-4e5c-8708-80565a4c6566",
+            "name": "Printer, Copier & Fax Machine Accessories",
+            "emoji": "",
+            "parent": "5fba3612-4013-4325-ae2f-c9216f2c5951"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2b2e89c0-deb0-44b0-84ec-62b7ad0a74bd",
+        "fields": {
+            "uuid": "2b2e89c0-deb0-44b0-84ec-62b7ad0a74bd",
+            "name": "Printer Consumables",
+            "emoji": "",
+            "parent": "81f4323a-7e76-4e5c-8708-80565a4c6566"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "417aeda9-6d0a-4489-928b-dba0958dbe09",
+        "fields": {
+            "uuid": "417aeda9-6d0a-4489-928b-dba0958dbe09",
+            "name": "Printer Drums & Drum Kits",
+            "emoji": "",
+            "parent": "2b2e89c0-deb0-44b0-84ec-62b7ad0a74bd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f9d6af86-af1c-48dd-9925-ffa41e478826",
+        "fields": {
+            "uuid": "f9d6af86-af1c-48dd-9925-ffa41e478826",
+            "name": "Printer Filters",
+            "emoji": "",
+            "parent": "2b2e89c0-deb0-44b0-84ec-62b7ad0a74bd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "407ce54d-146c-4af4-b7c6-5a4c6bb1603b",
+        "fields": {
+            "uuid": "407ce54d-146c-4af4-b7c6-5a4c6bb1603b",
+            "name": "Air Printer Filters",
+            "emoji": "",
+            "parent": "f9d6af86-af1c-48dd-9925-ffa41e478826"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c1034d69-e079-4235-a216-319727b2672d",
+        "fields": {
+            "uuid": "c1034d69-e079-4235-a216-319727b2672d",
+            "name": "Fume Printer Filters",
+            "emoji": "",
+            "parent": "f9d6af86-af1c-48dd-9925-ffa41e478826"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "26468b7d-2e00-4b8b-a531-abc8cd64a177",
+        "fields": {
+            "uuid": "26468b7d-2e00-4b8b-a531-abc8cd64a177",
+            "name": "Ozone Printer Filters",
+            "emoji": "",
+            "parent": "f9d6af86-af1c-48dd-9925-ffa41e478826"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d045e178-cf29-4eb9-8960-0947c91c5ea6",
+        "fields": {
+            "uuid": "d045e178-cf29-4eb9-8960-0947c91c5ea6",
+            "name": "Toner Printer Filters",
+            "emoji": "",
+            "parent": "f9d6af86-af1c-48dd-9925-ffa41e478826"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b4b437ab-3517-4c03-ad98-00c37df00867",
+        "fields": {
+            "uuid": "b4b437ab-3517-4c03-ad98-00c37df00867",
+            "name": "Printer Maintenance Kits",
+            "emoji": "",
+            "parent": "2b2e89c0-deb0-44b0-84ec-62b7ad0a74bd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "668f6134-3d4a-4fb5-bfc6-f3445d09d3b5",
+        "fields": {
+            "uuid": "668f6134-3d4a-4fb5-bfc6-f3445d09d3b5",
+            "name": "Printer Ribbons",
+            "emoji": "",
+            "parent": "2b2e89c0-deb0-44b0-84ec-62b7ad0a74bd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c71054b7-331e-4bb7-ad82-6b8e0139713c",
+        "fields": {
+            "uuid": "c71054b7-331e-4bb7-ad82-6b8e0139713c",
+            "name": "Printheads",
+            "emoji": "",
+            "parent": "2b2e89c0-deb0-44b0-84ec-62b7ad0a74bd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2a03f673-1d73-4865-9c5e-47abdfab3c15",
+        "fields": {
+            "uuid": "2a03f673-1d73-4865-9c5e-47abdfab3c15",
+            "name": "Toner & Inkjet Cartridge Refills",
+            "emoji": "",
+            "parent": "2b2e89c0-deb0-44b0-84ec-62b7ad0a74bd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6d0193ed-e763-4864-bfdf-435353d5c849",
+        "fields": {
+            "uuid": "6d0193ed-e763-4864-bfdf-435353d5c849",
+            "name": "Toner & Inkjet Cartridges",
+            "emoji": "",
+            "parent": "2b2e89c0-deb0-44b0-84ec-62b7ad0a74bd"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "20827136-2427-4513-99a4-84879fee1855",
+        "fields": {
+            "uuid": "20827136-2427-4513-99a4-84879fee1855",
+            "name": "Printer Duplexers",
+            "emoji": "",
+            "parent": "81f4323a-7e76-4e5c-8708-80565a4c6566"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3303560d-2c83-421a-a593-818e5716f04e",
+        "fields": {
+            "uuid": "3303560d-2c83-421a-a593-818e5716f04e",
+            "name": "Printer Memory",
+            "emoji": "",
+            "parent": "81f4323a-7e76-4e5c-8708-80565a4c6566"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "18f9eb83-0714-414a-a4d3-043d867770b9",
+        "fields": {
+            "uuid": "18f9eb83-0714-414a-a4d3-043d867770b9",
+            "name": "Printer Stands",
+            "emoji": "",
+            "parent": "81f4323a-7e76-4e5c-8708-80565a4c6566"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bca3d1fb-df64-4f4c-9ffd-6168d3114217",
+        "fields": {
+            "uuid": "bca3d1fb-df64-4f4c-9ffd-6168d3114217",
+            "name": "Printer, Copier & Fax Carrying Cases",
+            "emoji": "",
+            "parent": "81f4323a-7e76-4e5c-8708-80565a4c6566"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2fb00917-292a-4a5c-b70e-74253f70f539",
+        "fields": {
+            "uuid": "2fb00917-292a-4a5c-b70e-74253f70f539",
+            "name": "Printer, Copier & Fax Cleaning Kits",
+            "emoji": "",
+            "parent": "81f4323a-7e76-4e5c-8708-80565a4c6566"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6777d33a-6dc6-42ca-84d7-1b562e33ba7e",
+        "fields": {
+            "uuid": "6777d33a-6dc6-42ca-84d7-1b562e33ba7e",
+            "name": "Printer, Copier & Fax Machine Replacement Parts",
+            "emoji": "",
+            "parent": "81f4323a-7e76-4e5c-8708-80565a4c6566"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5a6284a0-2725-495c-b126-103c0e9d3edb",
+        "fields": {
+            "uuid": "5a6284a0-2725-495c-b126-103c0e9d3edb",
+            "name": "Printers, Copiers & Fax Machines",
+            "emoji": "",
+            "parent": "5fba3612-4013-4325-ae2f-c9216f2c5951"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7d33e38d-f8c5-4f1b-8117-f89c71cb1679",
+        "fields": {
+            "uuid": "7d33e38d-f8c5-4f1b-8117-f89c71cb1679",
+            "name": "Scanner Accessories",
+            "emoji": "",
+            "parent": "5fba3612-4013-4325-ae2f-c9216f2c5951"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "5ba2e66c-0d9f-49e2-be25-79639dd0c3d6",
+        "fields": {
+            "uuid": "5ba2e66c-0d9f-49e2-be25-79639dd0c3d6",
+            "name": "Scanner Carrying Cases",
+            "emoji": "",
+            "parent": "7d33e38d-f8c5-4f1b-8117-f89c71cb1679"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d97c05cd-5f84-4573-a7c8-b75c61d42578",
+        "fields": {
+            "uuid": "d97c05cd-5f84-4573-a7c8-b75c61d42578",
+            "name": "Scanner Cleaning Kits",
+            "emoji": "",
+            "parent": "7d33e38d-f8c5-4f1b-8117-f89c71cb1679"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bbdb78c2-28c2-4e05-9c90-9991fa5d381c",
+        "fields": {
+            "uuid": "bbdb78c2-28c2-4e05-9c90-9991fa5d381c",
+            "name": "Scanners",
+            "emoji": "",
+            "parent": "5fba3612-4013-4325-ae2f-c9216f2c5951"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "1f881ecd-6a13-4493-8620-9c03428dda70",
+        "fields": {
+            "uuid": "1f881ecd-6a13-4493-8620-9c03428dda70",
+            "name": "Drum Scanners",
+            "emoji": "",
+            "parent": "bbdb78c2-28c2-4e05-9c90-9991fa5d381c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7235183a-7e7c-4c7a-8307-6f0e7c101510",
+        "fields": {
+            "uuid": "7235183a-7e7c-4c7a-8307-6f0e7c101510",
+            "name": "Film Scanners",
+            "emoji": "",
+            "parent": "bbdb78c2-28c2-4e05-9c90-9991fa5d381c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9254c62f-1940-4122-aed6-17da1bdc4da3",
+        "fields": {
+            "uuid": "9254c62f-1940-4122-aed6-17da1bdc4da3",
+            "name": "Flatbed Scanners",
+            "emoji": "",
+            "parent": "bbdb78c2-28c2-4e05-9c90-9991fa5d381c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4c4f91bb-769e-429f-8374-1c8e1c97b06d",
+        "fields": {
+            "uuid": "4c4f91bb-769e-429f-8374-1c8e1c97b06d",
+            "name": "Photo Scanners",
+            "emoji": "",
+            "parent": "bbdb78c2-28c2-4e05-9c90-9991fa5d381c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "21f08b76-53af-4ad7-a147-2de651587be6",
+        "fields": {
+            "uuid": "21f08b76-53af-4ad7-a147-2de651587be6",
+            "name": "Portable Scanners",
+            "emoji": "",
+            "parent": "bbdb78c2-28c2-4e05-9c90-9991fa5d381c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "acf839e6-a478-431d-8c6c-53ad1897f127",
+        "fields": {
+            "uuid": "acf839e6-a478-431d-8c6c-53ad1897f127",
+            "name": "Sheetfed Scanners",
+            "emoji": "",
+            "parent": "bbdb78c2-28c2-4e05-9c90-9991fa5d381c"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2e939739-6c56-4b00-b8aa-f6e9e763bf76",
+        "fields": {
+            "uuid": "2e939739-6c56-4b00-b8aa-f6e9e763bf76",
+            "name": "Radar Detectors",
+            "emoji": "",
+            "parent": "90e90a7c-1fca-47e1-90da-d2ad928a6f31"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "f7462912-28fc-42d5-8a84-0f3486f3b972",
+        "fields": {
+            "uuid": "f7462912-28fc-42d5-8a84-0f3486f3b972",
+            "name": "Speed Radars",
+            "emoji": "",
+            "parent": "90e90a7c-1fca-47e1-90da-d2ad928a6f31"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "198c2b7b-f8c1-4aec-92af-62e48897aee6",
+        "fields": {
+            "uuid": "198c2b7b-f8c1-4aec-92af-62e48897aee6",
+            "name": "Toll Collection Devices",
+            "emoji": "",
+            "parent": "90e90a7c-1fca-47e1-90da-d2ad928a6f31"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c174d09d-3e53-4f06-a442-5a1f96c861e0",
+        "fields": {
+            "uuid": "c174d09d-3e53-4f06-a442-5a1f96c861e0",
+            "name": "Video",
+            "emoji": "",
+            "parent": "90e90a7c-1fca-47e1-90da-d2ad928a6f31"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d63e932a-2f97-4548-81c0-3a363dc7ea96",
+        "fields": {
+            "uuid": "d63e932a-2f97-4548-81c0-3a363dc7ea96",
+            "name": "Computer Monitors",
+            "emoji": "",
+            "parent": "c174d09d-3e53-4f06-a442-5a1f96c861e0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "517dbe84-a5ae-4c2b-8a13-5ccbbbce9dd6",
+        "fields": {
+            "uuid": "517dbe84-a5ae-4c2b-8a13-5ccbbbce9dd6",
+            "name": "Projectors",
+            "emoji": "",
+            "parent": "c174d09d-3e53-4f06-a442-5a1f96c861e0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "9520eb28-1edb-489d-bb6c-69b1585ef4cf",
+        "fields": {
+            "uuid": "9520eb28-1edb-489d-bb6c-69b1585ef4cf",
+            "name": "Multimedia Projectors",
+            "emoji": "",
+            "parent": "517dbe84-a5ae-4c2b-8a13-5ccbbbce9dd6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "58d2e63a-4db3-44f9-a655-f3508435871c",
+        "fields": {
+            "uuid": "58d2e63a-4db3-44f9-a655-f3508435871c",
+            "name": "Overhead Projectors",
+            "emoji": "",
+            "parent": "517dbe84-a5ae-4c2b-8a13-5ccbbbce9dd6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "8857b292-cd87-4bb9-968c-f15503ae1be1",
+        "fields": {
+            "uuid": "8857b292-cd87-4bb9-968c-f15503ae1be1",
+            "name": "Slide Projectors",
+            "emoji": "",
+            "parent": "517dbe84-a5ae-4c2b-8a13-5ccbbbce9dd6"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3db47188-d944-4e9d-99d4-1856519baed1",
+        "fields": {
+            "uuid": "3db47188-d944-4e9d-99d4-1856519baed1",
+            "name": "Satellite & Cable TV",
+            "emoji": "",
+            "parent": "c174d09d-3e53-4f06-a442-5a1f96c861e0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ee6010a4-5137-4e8a-b046-39c3cced92a1",
+        "fields": {
+            "uuid": "ee6010a4-5137-4e8a-b046-39c3cced92a1",
+            "name": "Cable TV Receivers",
+            "emoji": "",
+            "parent": "3db47188-d944-4e9d-99d4-1856519baed1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "181ee6dc-15a7-4b58-b2ef-71c9beee4727",
+        "fields": {
+            "uuid": "181ee6dc-15a7-4b58-b2ef-71c9beee4727",
+            "name": "Satellite Receivers",
+            "emoji": "",
+            "parent": "3db47188-d944-4e9d-99d4-1856519baed1"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "712def64-96a4-4121-a16a-8972be7661df",
+        "fields": {
+            "uuid": "712def64-96a4-4121-a16a-8972be7661df",
+            "name": "Televisions",
+            "emoji": "",
+            "parent": "c174d09d-3e53-4f06-a442-5a1f96c861e0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3ebe81ff-b872-4f9e-a442-f42217907274",
+        "fields": {
+            "uuid": "3ebe81ff-b872-4f9e-a442-f42217907274",
+            "name": "Video Accessories",
+            "emoji": "",
+            "parent": "c174d09d-3e53-4f06-a442-5a1f96c861e0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "397f669e-300b-4f27-bddb-14a0d08631bb",
+        "fields": {
+            "uuid": "397f669e-300b-4f27-bddb-14a0d08631bb",
+            "name": "3D Glasses",
+            "emoji": "",
+            "parent": "3ebe81ff-b872-4f9e-a442-f42217907274"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "30d5790f-2962-4b89-a5f5-a438f5a42f78",
+        "fields": {
+            "uuid": "30d5790f-2962-4b89-a5f5-a438f5a42f78",
+            "name": "Computer Monitor Accessories",
+            "emoji": "",
+            "parent": "3ebe81ff-b872-4f9e-a442-f42217907274"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "21aa79fb-b57e-4c58-875e-a1dbdcee6b40",
+        "fields": {
+            "uuid": "21aa79fb-b57e-4c58-875e-a1dbdcee6b40",
+            "name": "Color Calibrators",
+            "emoji": "",
+            "parent": "30d5790f-2962-4b89-a5f5-a438f5a42f78"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b3c696ed-429f-4490-80c0-15d7c8158833",
+        "fields": {
+            "uuid": "b3c696ed-429f-4490-80c0-15d7c8158833",
+            "name": "Projector Accessories",
+            "emoji": "",
+            "parent": "3ebe81ff-b872-4f9e-a442-f42217907274"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "bb40b287-eb76-4b4b-b4e3-922712121a02",
+        "fields": {
+            "uuid": "bb40b287-eb76-4b4b-b4e3-922712121a02",
+            "name": "Projection & Tripod Skirts",
+            "emoji": "",
+            "parent": "b3c696ed-429f-4490-80c0-15d7c8158833"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b9b978da-feaf-4528-b2b8-64dfc144a82e",
+        "fields": {
+            "uuid": "b9b978da-feaf-4528-b2b8-64dfc144a82e",
+            "name": "Projection Screen Stands",
+            "emoji": "",
+            "parent": "b3c696ed-429f-4490-80c0-15d7c8158833"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0dd552c5-a87c-4c90-8f0e-021cf44d726e",
+        "fields": {
+            "uuid": "0dd552c5-a87c-4c90-8f0e-021cf44d726e",
+            "name": "Projection Screens",
+            "emoji": "",
+            "parent": "b3c696ed-429f-4490-80c0-15d7c8158833"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "b9d0d0ac-6178-4333-ae6b-5d028a2b508c",
+        "fields": {
+            "uuid": "b9d0d0ac-6178-4333-ae6b-5d028a2b508c",
+            "name": "Projector Mounts",
+            "emoji": "",
+            "parent": "b3c696ed-429f-4490-80c0-15d7c8158833"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "42eb63dc-caa7-4eb7-8159-42e1a80248ad",
+        "fields": {
+            "uuid": "42eb63dc-caa7-4eb7-8159-42e1a80248ad",
+            "name": "Projector Replacement Lamps",
+            "emoji": "",
+            "parent": "b3c696ed-429f-4490-80c0-15d7c8158833"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ce227abb-447e-4b4e-b22a-36630eeb3ae7",
+        "fields": {
+            "uuid": "ce227abb-447e-4b4e-b22a-36630eeb3ae7",
+            "name": "Rewinders",
+            "emoji": "",
+            "parent": "3ebe81ff-b872-4f9e-a442-f42217907274"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "65b6403e-407f-4953-b7e5-396458cba810",
+        "fields": {
+            "uuid": "65b6403e-407f-4953-b7e5-396458cba810",
+            "name": "Television Parts & Accessories",
+            "emoji": "",
+            "parent": "3ebe81ff-b872-4f9e-a442-f42217907274"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "21e979ba-7a46-4fe6-8aef-946c18488338",
+        "fields": {
+            "uuid": "21e979ba-7a46-4fe6-8aef-946c18488338",
+            "name": "TV & Monitor Mounts",
+            "emoji": "",
+            "parent": "65b6403e-407f-4953-b7e5-396458cba810"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "e57d5757-c233-47e6-8669-e271ce35ad76",
+        "fields": {
+            "uuid": "e57d5757-c233-47e6-8669-e271ce35ad76",
+            "name": "TV Converter Boxes",
+            "emoji": "",
+            "parent": "65b6403e-407f-4953-b7e5-396458cba810"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "391896ba-450f-4932-afe0-d7d6b9bbde50",
+        "fields": {
+            "uuid": "391896ba-450f-4932-afe0-d7d6b9bbde50",
+            "name": "TV Replacement Lamps",
+            "emoji": "",
+            "parent": "65b6403e-407f-4953-b7e5-396458cba810"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "7f5f8fd5-b59a-4a3b-b325-03a4457643a1",
+        "fields": {
+            "uuid": "7f5f8fd5-b59a-4a3b-b325-03a4457643a1",
+            "name": "TV Replacement Speakers",
+            "emoji": "",
+            "parent": "65b6403e-407f-4953-b7e5-396458cba810"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d120334b-8a82-4d0f-88f0-ef369a5303ef",
+        "fields": {
+            "uuid": "d120334b-8a82-4d0f-88f0-ef369a5303ef",
+            "name": "Video Editing Hardware & Production Equipment",
+            "emoji": "",
+            "parent": "c174d09d-3e53-4f06-a442-5a1f96c861e0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "eb385b48-687c-44dc-a490-b5a883c04401",
+        "fields": {
+            "uuid": "eb385b48-687c-44dc-a490-b5a883c04401",
+            "name": "Video Multiplexers",
+            "emoji": "",
+            "parent": "c174d09d-3e53-4f06-a442-5a1f96c861e0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a54613c5-6652-41a6-8486-02abc1bb4d1d",
+        "fields": {
+            "uuid": "a54613c5-6652-41a6-8486-02abc1bb4d1d",
+            "name": "Video Players & Recorders",
+            "emoji": "",
+            "parent": "c174d09d-3e53-4f06-a442-5a1f96c861e0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "dc306ed6-df1f-468c-a536-b5e4da9a3f5b",
+        "fields": {
+            "uuid": "dc306ed6-df1f-468c-a536-b5e4da9a3f5b",
+            "name": "Digital Video Recorders",
+            "emoji": "",
+            "parent": "a54613c5-6652-41a6-8486-02abc1bb4d1d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c9ab42d9-b1ff-4cb6-8f4d-ae9f9861436e",
+        "fields": {
+            "uuid": "c9ab42d9-b1ff-4cb6-8f4d-ae9f9861436e",
+            "name": "DVD & Blu-ray Players",
+            "emoji": "",
+            "parent": "a54613c5-6652-41a6-8486-02abc1bb4d1d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6d3fea70-0aa6-4084-aed1-a2d37094f830",
+        "fields": {
+            "uuid": "6d3fea70-0aa6-4084-aed1-a2d37094f830",
+            "name": "DVD & Blu-ray Recorders",
+            "emoji": "",
+            "parent": "a54613c5-6652-41a6-8486-02abc1bb4d1d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "88ae8275-c476-4e8b-b30d-1348538591cf",
+        "fields": {
+            "uuid": "88ae8275-c476-4e8b-b30d-1348538591cf",
+            "name": "Streaming & Home Media Players",
+            "emoji": "",
+            "parent": "a54613c5-6652-41a6-8486-02abc1bb4d1d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "6fb388fd-776e-471e-a175-79a59ef5f0d4",
+        "fields": {
+            "uuid": "6fb388fd-776e-471e-a175-79a59ef5f0d4",
+            "name": "VCRs",
+            "emoji": "",
+            "parent": "a54613c5-6652-41a6-8486-02abc1bb4d1d"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "2da701f9-b24e-450b-9b9e-78eee75d6695",
+        "fields": {
+            "uuid": "2da701f9-b24e-450b-9b9e-78eee75d6695",
+            "name": "Video Servers",
+            "emoji": "",
+            "parent": "c174d09d-3e53-4f06-a442-5a1f96c861e0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "46c86f6f-98ba-45ee-a397-13c62aa8f7d1",
+        "fields": {
+            "uuid": "46c86f6f-98ba-45ee-a397-13c62aa8f7d1",
+            "name": "Video Transmitters",
+            "emoji": "",
+            "parent": "c174d09d-3e53-4f06-a442-5a1f96c861e0"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "d48f5cfa-c571-442e-8194-29f9fc8173f9",
+        "fields": {
+            "uuid": "d48f5cfa-c571-442e-8194-29f9fc8173f9",
+            "name": "Video Game Console Accessories",
+            "emoji": "",
+            "parent": "90e90a7c-1fca-47e1-90da-d2ad928a6f31"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "0f240fc1-f056-4e1f-b4fc-e843216eac0c",
+        "fields": {
+            "uuid": "0f240fc1-f056-4e1f-b4fc-e843216eac0c",
+            "name": "Charging Docks",
+            "emoji": "",
+            "parent": "d48f5cfa-c571-442e-8194-29f9fc8173f9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "a7e1e0fc-03b2-4ab6-b67a-6a301d9666eb",
+        "fields": {
+            "uuid": "a7e1e0fc-03b2-4ab6-b67a-6a301d9666eb",
+            "name": "Home Game Console Accessories",
+            "emoji": "",
+            "parent": "d48f5cfa-c571-442e-8194-29f9fc8173f9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "3b0c9282-c381-47e0-bf1b-1b3d3ae77baa",
+        "fields": {
+            "uuid": "3b0c9282-c381-47e0-bf1b-1b3d3ae77baa",
+            "name": "Home Game Console Skins",
+            "emoji": "",
+            "parent": "a7e1e0fc-03b2-4ab6-b67a-6a301d9666eb"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "34ee20ca-ee71-4e41-b22f-964c41023a40",
+        "fields": {
+            "uuid": "34ee20ca-ee71-4e41-b22f-964c41023a40",
+            "name": "Portable Game Console Accessories",
+            "emoji": "",
+            "parent": "d48f5cfa-c571-442e-8194-29f9fc8173f9"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "285263aa-cfe3-4374-ad66-7d83efd58a9e",
+        "fields": {
+            "uuid": "285263aa-cfe3-4374-ad66-7d83efd58a9e",
+            "name": "Portable Game Console Cases",
+            "emoji": "",
+            "parent": "34ee20ca-ee71-4e41-b22f-964c41023a40"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "10ec4674-ed0e-47e6-b4b7-7764b8d816a4",
+        "fields": {
+            "uuid": "10ec4674-ed0e-47e6-b4b7-7764b8d816a4",
+            "name": "Portable Game Console Screen Protectors",
+            "emoji": "",
+            "parent": "34ee20ca-ee71-4e41-b22f-964c41023a40"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "4f9f88a6-957b-414b-b30e-372550c964be",
+        "fields": {
+            "uuid": "4f9f88a6-957b-414b-b30e-372550c964be",
+            "name": "Portable Game Console Skins",
+            "emoji": "",
+            "parent": "34ee20ca-ee71-4e41-b22f-964c41023a40"
+        }
+    },
+    {
+        "model": "ecommerce_client.category",
+        "pk": "ed63c739-253f-47e0-9e2b-e3c07a93d1a7",
+        "fields": {
+            "uuid": "ed63c739-253f-47e0-9e2b-e3c07a93d1a7",
+            "name": "Video Game Consoles",
+            "emoji": "",
+            "parent": "90e90a7c-1fca-47e1-90da-d2ad928a6f31"
+        }
+    }
+]

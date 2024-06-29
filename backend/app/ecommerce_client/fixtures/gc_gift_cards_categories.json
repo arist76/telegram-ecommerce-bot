@@ -1,0 +1,12 @@
+[
+    {
+        "model": "ecommerce_client.category",
+        "pk": "c2ee636e-31e1-420f-9924-875e207a0390",
+        "fields": {
+            "uuid": "c2ee636e-31e1-420f-9924-875e207a0390",
+            "name": "Gift Cards",
+            "emoji": "",
+            "parent": null
+        }
+    }
+]
